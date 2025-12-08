@@ -18185,8 +18185,8 @@
               "±75 ft",
               "±100 ft"
             ],
-            "answer": "±75 ft",
-            "correct": 2,
+            "answer": "±50 ft",
+            "correct": 1,
             "explanation": ""
           },
           {
