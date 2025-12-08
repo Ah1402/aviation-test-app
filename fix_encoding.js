@@ -14,6 +14,8 @@ const fixes = [
   { from: /°(\d+)\s*NM/g, to: '±$1 NM', desc: '°40 NM → ±40 NM' },
   { from: /°(\d+)\s*km/g, to: '±$1 km', desc: '°50 km → ±50 km' },
   { from: /°(\d+)\s*m/g, to: '±$1 m', desc: '°100 m → ±100 m' },
+  // Fix degree symbol with space before degrees (° 5° → ± 5°)
+  { from: /°\s+(\d+)°/g, to: '± $1°', desc: '° 5° → ± 5°' },
 ];
 
 let indexFixed = 0;
