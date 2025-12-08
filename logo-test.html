@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Logo Test</title>
+</head>
+<body>
+    <h1>Logo File Test</h1>
+    <h2>Testing if logo files load correctly:</h2>
+    
+    <div style="padding: 20px; border: 1px solid #ccc; margin: 10px;">
+        <h3>logo.png</h3>
+        <img src="logo.png" style="max-width: 200px; background: #f0f0f0;" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+        <p style="display:none; color: red;">❌ Failed to load logo.png</p>
+    </div>
+    
+    <div style="padding: 20px; border: 1px solid #ccc; margin: 10px;">
+        <h3>logo-192.png</h3>
+        <img src="logo-192.png" style="max-width: 200px; background: #f0f0f0;" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+        <p style="display:none; color: red;">❌ Failed to load logo-192.png</p>
+    </div>
+    
+    <div style="padding: 20px; border: 1px solid #ccc; margin: 10px;">
+        <h3>logo-512.png</h3>
+        <img src="logo-512.png" style="max-width: 200px; background: #f0f0f0;" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+        <p style="display:none; color: red;">❌ Failed to load logo-512.png</p>
+    </div>
+    
+    <div style="padding: 20px; background: #e3f2fd; margin: 20px 0;">
+        <h3>Instructions:</h3>
+        <ol>
+            <li>If you see images above, the files are working! ✅</li>
+            <li>If you see red error messages, the PNG files are corrupted ❌</li>
+            <li>Visit this file at: <a href="https://ah1402.github.io/aviation-test-app/logo-test.html" target="_blank">https://ah1402.github.io/aviation-test-app/logo-test.html</a></li>
+        </ol>
+        
+        <h4>If files are corrupted, you need to:</h4>
+        <p>1. Create proper PNG files from your original logo image</p>
+        <p>2. Ensure they have transparent backgrounds</p>
+        <p>3. Replace the corrupted files</p>
+        <p>4. Push to GitHub again</p>
+    </div>
+    
+    <div style="padding: 20px; background: #fff3cd; margin: 20px 0;">
+        <h3>Current Status:</h3>
+        <p><strong>Repository:</strong> https://github.com/Ah1402/aviation-test-app</p>
+        <p><strong>Live Site:</strong> https://ah1402.github.io/aviation-test-app/</p>
+        <p><strong>Logo Files:</strong> logo.png, logo-192.png, logo-512.png</p>
+    </div>
+</body>
+</html>
