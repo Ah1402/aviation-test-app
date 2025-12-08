@@ -15154,8 +15154,8 @@
               "at the point of origin",
               "to the left of the origin"
             ],
-            "answer": "above the origin",
-            "correct": 0,
+            "answer": "below the origin",
+            "correct": 1,
             "explanation": ""
           },
           {
@@ -15317,10 +15317,11 @@
               "twice the wingspan above the ground",
               "one wingspan above the ground",
               "when the angle of attack is increased",
-              "upon elevator deflection"
+              "upon elevator deflection",
+              "half the wingspan above the ground"
             ],
-            "answer": "one wingspan above the ground",
-            "correct": 1,
+            "answer": "half the wingspan above the ground",
+            "correct": 4,
             "explanation": ""
           }
         ]
@@ -16157,10 +16158,11 @@
               "Negative camber at the root",
               "Separated airflow at the root",
               "Spanwise flow causing the tips to stall first",
-              "Strong lateral stability"
+              "Strong lateral stability",
+              "Spanwise flow",
             ],
-            "answer": "Spanwise flow causing the tips to stall first",
-            "correct": 2,
+            "answer": "Spanwise flow",
+            "correct": 4,
             "explanation": ""
           },
           {
@@ -16554,8 +16556,8 @@
               "wing sweep prevents the nose-up phenomena",
               "tip stall"
             ],
-            "answer": "wing sweep prevents the nose-up phenomena",
-            "correct": 2,
+            "answer": "tip stall",
+            "correct": 3,
             "explanation": ""
           },
           {
@@ -16747,8 +16749,8 @@
               "identification and monitoring",
               "tuning, identification and monitoring"
             ],
-            "answer": "identification",
-            "correct": 1,
+            "answer": "tuning, identification and monitoring",
+            "correct": 3,
             "explanation": ""
           },
           {
@@ -17099,8 +17101,8 @@
               "fly right and fly up",
               "fly right and fly down"
             ],
-            "answer": "fly right and fly up",
-            "correct": 2,
+            "answer": "fly right and fly down",
+            "correct": 3,
             "explanation": ""
           },
           {
@@ -17144,8 +17146,8 @@
               "an aerodrome surveillance radar",
               "a terminal area radar"
             ],
-            "answer": "an aerodrome surveillance radar",
-            "correct": 2,
+            "answer": "an area surveillance radar",
+            "correct": 0,
             "explanation": ""
           },
           {
@@ -17249,8 +17251,8 @@
               "2 elements using 2 frequencies",
               "2 elements multiplexing on one frequency"
             ],
-            "answer": "2 elements multiplexing on one frequency",
-            "correct": 3,
+            "answer": "4 elements multiplexing on one frequency",
+            "correct": 1,
             "explanation": ""
           }
         ]
@@ -17451,8 +17453,8 @@
               "pass navigation and system data to the receiver",
               "all of the above"
             ],
-            "answer": "all of the above",
-            "correct": 3,
+            "answer": "identify the satellites",
+            "correct": 0,
             "explanation": ""
           },
           {

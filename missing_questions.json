@@ -1,0 +1,572 @@
+[
+  {
+    "category": "general-navigation",
+    "test": 3,
+    "id": 1224,
+    "question": "Refer to Jeppesen Manual ED-6. Flying from position SIGMARINGEN (N4805 E00913) to BIBERACH airport (N4807 E00946). Find the magnetic course and distance",
+    "options": [
+      "093/41 NM",
+      "086/22 NM",
+      "267/22 NM",
+      "086/32 NM"
+    ],
+    "answer": "086/22 NM",
+    "correct": 1,
+    "explanation": ""
+  },
+  {
+    "category": "instrumentation",
+    "test": 3,
+    "id": 1225,
+    "question": "In which of the following modes may information from the AWR be displayed? (i. plan, ii. expanded ILS, iii. map, iv. full nav, v. full ILS, vi. expanded nav, vii. full VOR, viii. expanded VOR, ix. centre map)",
+    "options": [
+      "i ii iv vii",
+      "i iii vii viii ix",
+      "ii iii vi viii ix",
+      "ii iii v vii ix"
+    ],
+    "answer": "ii iii vi viii ix",
+    "correct": 2,
+    "explanation": ""
+  },
+  {
+    "category": "instrumentation",
+    "test": 3,
+    "id": 1227,
+    "question": "Given the following information calculate the instrument error of a preflight altimeter check: i. aerodrome elevation: 235 ft, ii. apron elevation: 225 ft, iii. height of altimeter above apron: 20 ft, iv. altimeter reading with QFE set: 40 ft",
+    "options": [
+      "+20 ft",
+      "+30 ft",
+      "+40 ft",
+      "+10 ft"
+    ],
+    "answer": "+30 ft",
+    "correct": 1,
+    "explanation": ""
+  },
+  {
+    "category": "communications",
+    "test": 3,
+    "id": 1236,
+    "question": "Voice ATIS: 1. cannot be broadcast on a voice ILS, 2. cannot be broadcast on voice VOR, 3. is broadcast only on a discreet VHF frequency, 4. is broadcast on either a discreet VFH, VOR or an ILS frequency",
+    "options": [
+      "1 only is correct.",
+      "2 only is correct.",
+      "4 only is correct.",
+      "1, 2 and 3 are correct."
+    ],
+    "answer": "4 only is correct.",
+    "correct": 2,
+    "explanation": ""
+  },
+  {
+    "category": "radio-navigation",
+    "test": 3,
+    "id": 1247,
+    "question": "The least accurate bearing information taken by an aircraft over the sea from a NDB will be from:",
+    "options": [
+      "a coastal beacon at an acute angle",
+      "an inland beacon at an acute angle",
+      "a coastal beacon perpendicular to the coast",
+      "an inland beacon perpendicular to the coast"
+    ],
+    "answer": "a coastal beacon at an acute angle",
+    "correct": 0,
+    "explanation": ""
+  },
+  {
+    "category": "human-performance",
+    "test": 3,
+    "id": 1248,
+    "question": "At height cockpit humidity can be between:",
+    "options": [
+      "20 - 25 %",
+      "40 - 60 %",
+      "30 - 60%",
+      "5 - 15 %"
+    ],
+    "answer": "5 - 15 %",
+    "correct": 3,
+    "explanation": ""
+  },
+  {
+    "category": "human-performance",
+    "test": 3,
+    "id": 1249,
+    "question": "The sequence of GAS (General Adaptation Syndrome) is:",
+    "options": [
+      "alarm resistance exhaustion",
+      "resistance exhaustion alarm",
+      "alarm flight exhaustion",
+      "exhaustion resistance alarm"
+    ],
+    "answer": "alarm resistance exhaustion",
+    "correct": 0,
+    "explanation": ""
+  },
+  {
+    "category": "principles-of-flight",
+    "test": 3,
+    "id": 1253,
+    "question": "With a constant weight and Mach No., a higher altitude will require:",
+    "options": [
+      "lower CL",
+      "lower CD",
+      "higher AoA",
+      "no change"
+    ],
+    "answer": "higher AoA",
+    "correct": 2,
+    "explanation": ""
+  },
+  {
+    "category": "performance",
+    "test": 3,
+    "id": 1255,
+    "question": "What happens to the field limited take-off mass with runway slope?",
+    "options": [
+      "It increases with a downhill slope",
+      "It is unaffected by runway slope",
+      "It decreases with a downhill slope",
+      "It increases with an uphill slope"
+    ],
+    "answer": "It increases with a downhill slope",
+    "correct": 0,
+    "explanation": ""
+  },
+  {
+    "category": "mass-and-balance",
+    "test": 3,
+    "id": 1256,
+    "question": "Calculate the amount of cargo that could be loaded into the aircraft given the following information and using CAP 696, Section 4, MRJT1, as necessary: Dry Operating Mass 34900 kg, Performance Limited Landing Mass 55000 kg, Trip Fuel 9700 kg, Contingency Fuel 1200 kg, Alternate Fuel 1400 kg, 130 passengers at 84 kg each (10920 kg), 130 bags at 14 kg each (1820 kg).",
+    "options": [
+      "2860 kg",
+      "3660 kg",
+      "4660 kg",
+      "5423 kg"
+    ],
+    "answer": "4660 kg",
+    "correct": 2,
+    "explanation": ""
+  },
+  {
+    "category": "principles-of-flight",
+    "test": 3,
+    "id": 1257,
+    "question": "Which of the following creates lift?",
+    "options": [
+      "An accelerated air mass",
+      "A retarded air mass",
+      "A change in direction of mass flow",
+      "A symmetrical aerofoil at zero angle of attack in a high speed flow"
+    ],
+    "answer": "An accelerated air mass",
+    "correct": 0,
+    "explanation": ""
+  },
+  {
+    "category": "flight-planning",
+    "test": 3,
+    "id": 1258,
+    "question": "Two identical turbojets are holding at the same altitude and have the same specifc fuel consumption. Aeroplane 1 weighs 130.000 kg and fuel flow is 4300 kg/hr. If aeroplane 2 weighs 115.000 kg what is the fuel flow of aeroplane 2?",
+    "options": [
+      "3804 kg/hr",
+      "4044 kg/hr",
+      "3364 kg/hr",
+      "3530 kg/hr"
+    ],
+    "answer": "3804 kg/hr",
+    "correct": 0,
+    "explanation": ""
+  },
+  {
+    "category": "mass-and-balance",
+    "test": 3,
+    "id": 1261,
+    "question": "Standard masses for baggage can be used for aircraft with:",
+    "options": [
+      "9 seats or more",
+      "20 seats or more",
+      "30 seats or more",
+      "less than 30 seats"
+    ],
+    "answer": "20 seats or more",
+    "correct": 1,
+    "explanation": ""
+  },
+  {
+    "category": "general-navigation",
+    "test": 3,
+    "id": 1262,
+    "question": "The angle between True North and Magnetic North is known as:",
+    "options": [
+      "deviation",
+      "dip",
+      "alignment error",
+      "variation"
+    ],
+    "answer": "variation",
+    "correct": 3,
+    "explanation": ""
+  },
+  {
+    "category": "radio-navigation",
+    "test": 3,
+    "id": 1264,
+    "question": "The best position on an aircraft for the GNSS aerial is:",
+    "options": [
+      "in the cockpit as close as possible to the receiver",
+      "on the fuselage close to the centre of gravity",
+      "on the aircraft as far as possible from other aerials to reduce reflections",
+      "close to each wing tip to compensate for manoeuvre errors"
+    ],
+    "answer": "on the fuselage close to the centre of gravity",
+    "correct": 1,
+    "explanation": ""
+  },
+  {
+    "category": "operational-procedures",
+    "test": 3,
+    "id": 1267,
+    "question": "The Minimum Equipment List (MEL) gives the equipment which can be inoperative when undertaking a flight and the additional procedures to be observed accordingly. This list is prepared by:",
+    "options": [
+      "the operator, and it is inserted in the OM",
+      "the manufacturer, and it is inserted in the OM",
+      "the operator, and it is appended in the AFM",
+      "the manufacturer, and it is appended to the AFM"
+    ],
+    "answer": "the operator, and it is inserted in the OM",
+    "correct": 0,
+    "explanation": ""
+  },
+  {
+    "category": "principles-of-flight",
+    "test": 3,
+    "id": 1269,
+    "question": "When gliding into a headwind airspeed should be:",
+    "options": [
+      "reduced to gust penetration speed",
+      "the same as the max. range glide speed in still air",
+      "lower than the max. range glide speed in still air",
+      "higher than the max. range glide speed in still air"
+    ],
+    "answer": "higher than the max. range glide speed in still air",
+    "correct": 3,
+    "explanation": ""
+  },
+  {
+    "category": "general-navigation",
+    "test": 3,
+    "id": 1271,
+    "question": "You are cruising at FL250 and need to be at FL50 10 NM before a VOR/DME. Your rate of descent is 1250 ft/min and your GS in the descent 250 kt. How far before the VOR/DME should you start your descent?",
+    "options": [
+      "66.7 NM",
+      "83.3 NM",
+      "98.5 NM",
+      "76.7 NM"
+    ],
+    "answer": "76.7 NM",
+    "correct": 3,
+    "explanation": ""
+  },
+  {
+    "category": "air-law",
+    "test": 3,
+    "id": 1272,
+    "question": "What are the types of NOTAM?",
+    "options": [
+      "Temporary, short-notice, permanent",
+      "A, B, C",
+      "NOTAMN, NOTAMR, NOTAMC",
+      "A, E, L"
+    ],
+    "answer": "NOTAMN, NOTAMR, NOTAMC",
+    "correct": 2,
+    "explanation": ""
+  },
+  {
+    "category": "human-performance",
+    "test": 3,
+    "id": 1274,
+    "question": "A person suffering from extreme cold will stop shivering and thereafter become colder and colder when the internal body falls to about:",
+    "options": [
+      "20°C",
+      "25°C",
+      "30°C",
+      "35°C"
+    ],
+    "answer": "35°C",
+    "correct": 3,
+    "explanation": ""
+  },
+  {
+    "category": "mass-and-balance",
+    "test": 3,
+    "id": 1277,
+    "question": "Use CAP MRJT. The CG is found to be 652.5 inches aft of the datum. What percentage is the CG of the MAC?",
+    "options": [
+      "10%.",
+      "15%.",
+      "20%.",
+      "25%."
+    ],
+    "answer": "20%.",
+    "correct": 2,
+    "explanation": ""
+  },
+  {
+    "category": "performance",
+    "test": 3,
+    "id": 1278,
+    "question": "Which of the following combinations most reduces the take-off and climb performance of an aircraft?",
+    "options": [
+      "High temperature and high pressure",
+      "Low temperature and high pressure",
+      "Low temperature and low pressure",
+      "High temperature and low pressure"
+    ],
+    "answer": "High temperature and low pressure",
+    "correct": 3,
+    "explanation": ""
+  },
+  {
+    "category": "principles-of-flight",
+    "test": 3,
+    "id": 1280,
+    "question": "In a balanced turn load factor is dependent on:",
+    "options": [
+      "radius of turn and aircraft weight",
+      "TAS and bank angle",
+      "radius of turn and bank angle",
+      "bank angle only"
+    ],
+    "answer": "bank angle only",
+    "correct": 3,
+    "explanation": ""
+  },
+  {
+    "category": "radio-navigation",
+    "test": 3,
+    "id": 1281,
+    "question": "The frequency band of the ILS glide path is:",
+    "options": [
+      "UHF",
+      "VHF",
+      "SHF",
+      "VLF"
+    ],
+    "answer": "UHF",
+    "correct": 0,
+    "explanation": ""
+  },
+  {
+    "category": "principles-of-flight",
+    "test": 3,
+    "id": 1283,
+    "question": "When considering the Principle of Continuity for subsonic flow, what happens in a streamtube for a change in cross-sectional area?",
+    "options": [
+      "RHO 1 = RHO 2",
+      "RHO 1 > RHO 2",
+      "RHO 2 > RHO 1",
+      "Cannot say without knowing the change in cross-sectional area of the streamtube"
+    ],
+    "answer": "RHO 1 > RHO 2",
+    "correct": 1,
+    "explanation": ""
+  },
+  {
+    "category": "meteorology",
+    "test": 3,
+    "id": 1284,
+    "question": "Which of the following statements accurately describes the 'West African tornado'?",
+    "options": [
+      "The West African tornado is similar to the North American and European tornadoes",
+      "It is a line of thunderstorms producing a line squall aligned roughly north/south",
+      "It is another name for the cyclones that affect the West African coast in summer",
+      "It is the name given to a line of thunderstorms that lie along the ITCZ but some 200 miles to the south"
+    ],
+    "answer": "It is a line of thunderstorms producing a line squall aligned roughly north/south",
+    "correct": 1,
+    "explanation": ""
+  },
+  {
+    "category": "human-performance",
+    "test": 3,
+    "id": 1286,
+    "question": "Even with a small ingestion of alcohol:",
+    "options": [
+      "the brain will be stimulated thereby increasing the resistance to hypoxia",
+      "the brain functions will be increased thereby increasing performance at high altitudes",
+      "the pilot will remain unaffected",
+      "the pilot will be more susceptible to hypoxia"
+    ],
+    "answer": "the pilot will be more susceptible to hypoxia",
+    "correct": 3,
+    "explanation": ""
+  },
+  {
+    "category": "human-performance",
+    "test": 3,
+    "id": 1288,
+    "question": "Tuned resonance of the body parts, distressing the individual can be caused by:",
+    "options": [
+      "acceleration along the horizontal flight path",
+      "resonance between 150 - 250 Hz",
+      "resonance between 16 - 18 GHz",
+      "resonance between 1 - 100 Hz"
+    ],
+    "answer": "resonance between 1 - 100 Hz",
+    "correct": 3,
+    "explanation": ""
+  },
+  {
+    "category": "principles-of-flight",
+    "test": 3,
+    "id": 1289,
+    "question": "Which of the following expressions is correct?",
+    "options": [
+      "A = F × M",
+      "F = M × A",
+      "M = F × A",
+      "A = M / F"
+    ],
+    "answer": "F = M × A",
+    "correct": 1,
+    "explanation": ""
+  },
+  {
+    "category": "air-law",
+    "test": 3,
+    "id": 1291,
+    "question": "What is required for navigation in IMC?",
+    "options": [
+      "Radio equipment and equipment for guidance until the visual point",
+      "Anti-icing equipment",
+      "A serviceable weather radar",
+      "One VHF box and one HF box"
+    ],
+    "answer": "Radio equipment and equipment for guidance until the visual point",
+    "correct": 0,
+    "explanation": ""
+  },
+  {
+    "category": "flight-planning",
+    "test": 3,
+    "id": 1292,
+    "question": "With regards to the optimum altitude during the cruise, the aircraft is:",
+    "options": [
+      "always flown at the optimum altitude",
+      "always flown 2000 f below the optimum altitude",
+      "may be flown above or below the optimum altitude, but never at the optimum altitude",
+      "flown as close to the optimum altitude as ATC will allow"
+    ],
+    "answer": "flown as close to the optimum altitude as ATC will allow",
+    "correct": 3,
+    "explanation": ""
+  },
+  {
+    "category": "human-performance",
+    "test": 3,
+    "id": 1293,
+    "question": "The body loses water via:",
+    "options": [
+      "the skin, lungs and kidneys",
+      "the skin",
+      "the skin, lungs and liver",
+      "the skin, liver and kidneys"
+    ],
+    "answer": "the skin, lungs and kidneys",
+    "correct": 0,
+    "explanation": ""
+  },
+  {
+    "category": "principles-of-flight",
+    "test": 3,
+    "id": 1294,
+    "question": "When in a gliding maneuver, in order to achieve maximum endurance the aircraft should be flown at:",
+    "options": [
+      "the speed for max. lift",
+      "the speed for min. drag",
+      "the speed for max. lift / drag",
+      "the speed for min. power"
+    ],
+    "answer": "the speed for min. power",
+    "correct": 3,
+    "explanation": ""
+  },
+  {
+    "category": "flight-planning",
+    "test": 3,
+    "id": 1295,
+    "question": "Given: Turbojet a/c, Taxi fuel 600 kg, Fuel flow cruise 10000 kg/h, Fuel flow hold 8000 kg/h, Alternate fuel 10200 kg, Flight time 6 hours, Visibility at destination 2000 m. What is the minimum ramp fuel?",
+    "options": [
+      "80500 kg",
+      "79200 kg",
+      "77800 kg",
+      "76100 kg"
+    ],
+    "answer": "77800 kg",
+    "correct": 2,
+    "explanation": ""
+  },
+  {
+    "category": "mass-and-balance",
+    "test": 3,
+    "id": 1296,
+    "question": "The CG position is:",
+    "options": [
+      "set by the pilot",
+      "set by the manufacturer",
+      "able to exist within a range",
+      "fixed"
+    ],
+    "answer": "able to exist within a range",
+    "correct": 2,
+    "explanation": ""
+  },
+  {
+    "category": "radio-navigation",
+    "test": 3,
+    "id": 1297,
+    "question": "The NAVSTAR/GPS segments are:",
+    "options": [
+      "space, control, user",
+      "space, control, ground",
+      "space, control, air",
+      "space, ground, air"
+    ],
+    "answer": "space, control, user",
+    "correct": 0,
+    "explanation": ""
+  },
+  {
+    "category": "principles-of-flight",
+    "test": 3,
+    "id": 1298,
+    "question": "Which of the following decreases induced drag?",
+    "options": [
+      "Wing fences",
+      "Anhedral",
+      "Winglets",
+      "Low aspect ratio planform"
+    ],
+    "answer": "Winglets",
+    "correct": 2,
+    "explanation": ""
+  },
+  {
+    "category": "principles-of-flight",
+    "test": 3,
+    "id": 1299,
+    "question": "The angle of attack at the stall:",
+    "options": [
+      "increases with forward CG",
+      "increases with aft CG",
+      "decreases with decrease in weight",
+      "is not affected by changes in weight"
+    ],
+    "answer": "is not affected by changes in weight",
+    "correct": 3,
+    "explanation": ""
+  }
+]

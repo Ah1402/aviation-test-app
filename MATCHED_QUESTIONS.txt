@@ -1,0 +1,552 @@
+ID: 521
+AON Q: What is the purpose of trim tabs?
+Test Q: What is the purpose of trim tabs?
+AON A:  to reduce stick forces to zero
+Test A: to reduce stick forces to zero
+--------------------------------------------------------------------------------
+ID: 522
+AON Q: Which of the following statements regarding an electric circuit is correct?
+Test Q: Which of the following statements regarding an electric circuit is correct?
+AON A: too high a current may lead to the circuit overheating
+Test A: too high a current may lead to the circuit overheating
+--------------------------------------------------------------------------------
+ID: 524
+AON Q: Which of the following are all aerodynamic balances?
+Test Q: Which of the following are all aerodynamic balances?
+AON A: Horn balance, balance tab and internal balance.
+Test A: Horn balance, balance tab and internal balance.
+--------------------------------------------------------------------------------
+ID: 525
+AON Q: What can be said about the height of the Tropopause in the Northern Hemisphere?
+Test Q: What can be said about the height of the Tropopause in the Northern Hemisphere?
+AON A: It decreases from south to north
+Test A: It decreases from south to north
+--------------------------------------------------------------------------------
+ID: 526
+AON Q: A turbo-supercharger impeller is driven by:
+Test Q: A turbo-supercharger impeller is driven by:
+AON A: diversion of exhaust gases by the waste gate using energy that would otherwise be
+Test A: diversion of exhaust gases by the waste gate using energy that would otherwise be wasted
+--------------------------------------------------------------------------------
+ID: 527
+AON Q: propeller blade angle is
+Test Q: Propeller blade angle is:
+AON A: the angle between the blade chord and the plane of rotation
+Test A: the angle between the blade chord and the plane of rotation
+--------------------------------------------------------------------------------
+ID: 528
+AON Q: the purpose of an ignition switch is to
+Test Q: The purpose of an ignition switch is to:
+AON A: control the primary circuit of the magneto
+Test A: control the primary circuit of the magneto
+--------------------------------------------------------------------------------
+ID: 529
+AON Q:  What is the correct phrase for a pilot to use to advise ATC of being ready to take-off?
+Test Q: What is the correct phrase for a pilot to use to advise ATC of being ready to take-off?
+AON A: ready for departure
+Test A: Ready for departure.
+--------------------------------------------------------------------------------
+ID: 530
+AON Q: The skin of a modern pressurised aircraft:
+Test Q: The skin of a modern pressurised aircraft:
+AON A: is a primary load bearing structure carrying much of the loads
+Test A: is a primary load bearing structure carrying much of the loads
+--------------------------------------------------------------------------------
+ID: 534
+AON Q:  During a climb a blocked static pressure supply line causes the ASI to:
+Test Q: During a climb a blocked static pressure supply line causes the ASI to:
+AON A: under-indicate
+Test A: under-indicate
+--------------------------------------------------------------------------------
+ID: 535
+AON Q: What is the shortest distance between two points on the Earth's globe called:
+Test Q: What is the shortest distance between two points on the Earth's globe called:
+AON A: great circle
+Test A: Great circle
+--------------------------------------------------------------------------------
+ID: 536
+AON Q: Flutter may be caused by a:
+Test Q: Flutter may be caused by a:
+AON A: distortion by bending and torsion of the structure causing increasing vibration in the
+Test A: distortion by bending and torsion of the structure causing increasing vibration in the resonance frequency.
+--------------------------------------------------------------------------------
+ID: 537
+AON Q: Leaving ground effect at a given angle of attack the:
+Test Q: Leaving ground effect at a given angle of attack the:
+AON A: effective angle of attack decreases.
+Test A: effective angle of attack decreases.
+--------------------------------------------------------------------------------
+ID: 539
+AON Q:  What is the effect on Mach No and TAS when climbing at a constant CAS?
+Test Q: What is the effect on Mach No and TAS when climbing at a constant CAS?
+AON A: both increase
+Test A: Both increase
+--------------------------------------------------------------------------------
+ID: 540
+AON Q: With regards to the Maximum Zero Fuel Weight (MZFW):
+Test Q: With regards to the Maximum Zero Fuel Weight (MZFW):
+AON A: null
+Test A: It is the maximum weight that an aircraft can be loaded to without useable fuel.
+--------------------------------------------------------------------------------
+ID: 544
+AON Q: In relation to persons with Reduced Mobility (PRM's):
+Test Q: In relation to persons with Reduced Mobility (PRM's):
+AON A: The commander must be notified when PRM's are carried
+Test A: The commander must be notified when PRM's are carried
+--------------------------------------------------------------------------------
+ID: 546
+AON Q: Following an indication of unserviceability of an air conditioning pack whilst on stand,
+Test Q: Following an indication of unserviceability of an air conditioning pack whilst on stand, what do you consult?
+AON A: MEL
+Test A: The Minimum Equipment List (MEL)
+--------------------------------------------------------------------------------
+ID: 547
+AON Q: the balance arm is:
+Test Q: The balance arm is:
+AON A: The distance from the datum to the CG
+Test A: The distance from the datum to the CG
+--------------------------------------------------------------------------------
+ID: 549
+AON Q: To achieve the maximum range over the ground with a headwind, a turbojet should fly:
+Test Q: To achieve the maximum range over the ground with a headwind, a turbojet should fly:
+AON A: At a speed faster than 1,32 VMD
+Test A: At a speed faster than 1,32 VMD
+--------------------------------------------------------------------------------
+ID: 550
+AON Q: Following an indication of unserviceability of an air conditioning pack whilst on stand,
+Test Q: Following an indication of unserviceability of an air conditioning pack whilst on stand, what do you consult?
+AON A:  mel
+Test A: The Minimum Equipment List (MEL)
+--------------------------------------------------------------------------------
+ID: 551
+AON Q: In relation to Persons with Reduced Mobility (PRM's):
+Test Q: In relation to persons with Reduced Mobility (PRM's):
+AON A: The commander must be notified when PRM's are carried
+Test A: The commander must be notified when PRM's are carried
+--------------------------------------------------------------------------------
+ID: 552
+AON Q: Which of the following statements is true
+Test Q: Which of the following statements is true?
+AON A: null
+Test A: Titanium alloy is used in aircraft construction because of its good wear and high temperature tolerance
+--------------------------------------------------------------------------------
+ID: 553
+AON Q: If an extra load is loaded into an aircraft the stall speed is likely to:
+Test Q: If an extra load is loaded into an aircraft the stall speed is likely to:
+AON A: increase
+Test A: Increase
+--------------------------------------------------------------------------------
+ID: 554
+AON Q: a hot busbar is one that
+Test Q: A hot busbar is one that:
+AON A: is permanently connected to the battery
+Test A: is permanently connected to the battery
+--------------------------------------------------------------------------------
+ID: 556
+AON Q: A logarithmic scale is fitted to the vertical speed indicator in order to:
+Test Q: A logarithmic scale is fitted to the vertical speed indicator in order to:
+AON A: make lower values of vertical speed easier to read
+Test A: make lower values of vertical speed easier to read
+--------------------------------------------------------------------------------
+ID: 557
+AON Q: The result of empty field myopia is:
+Test Q: The result of Empty Field Myopia is:
+AON A: Focusing is limited to between 1 and 2 meters
+Test A: focusing is limited to between 1 and 2 meters
+--------------------------------------------------------------------------------
+ID: 558
+AON Q: A pilot, trying to pick up a fallen object from the cockpit floor during a right turn,
+Test Q: A pilot, trying to pick up a fallen object from the cockpit floor during a right turn, experiences:
+AON A:  Coriolis illusion/effect
+Test A: Coriolis illusion/effect
+--------------------------------------------------------------------------------
+ID: 559
+AON Q: Which of the following statements is correct?
+Test Q: Which of the following statements is correct?
+AON A: batteries are considered dangerous goods if transported due to the risk of thermal
+Test A: batteries are considered dangerous goods if transported due to the risk of thermal runaway and the substances inside
+--------------------------------------------------------------------------------
+ID: 560
+AON Q: The result of Empty Field Myopia is:
+Test Q: The result of Empty Field Myopia is:
+AON A: focusing is limited to between 1 and 2 meters
+Test A: focusing is limited to between 1 and 2 meters
+--------------------------------------------------------------------------------
+ID: 561
+AON Q: A turbo-supercharger impeller is driven by:
+Test Q: A turbo-supercharger impeller is driven by:
+AON A: A.
+Test A: diversion of exhaust gases by the waste gate using energy that would otherwise be wasted
+--------------------------------------------------------------------------------
+ID: 562
+AON Q:  The ILS Outer Marker is identified by:
+Test Q: The ILS Outer Marker is identified by:
+AON A: A blue cockpit light and a modulating frequency of 400 Hz
+Test A: A blue cockpit light and a modulating frequency of 400 Hz
+--------------------------------------------------------------------------------
+ID: 563
+AON Q: The phrase "all stations" is used to transmit to:
+Test Q: The phrase "all stations" is used to transmit to:
+AON A: A broadcast to all stations on frequency
+Test A: A broadcast to all stations on frequency
+--------------------------------------------------------------------------------
+ID: 564
+AON Q: What are the meteorological prerequisites, at low level, for thunderstorms formed by
+Test Q: What are the meteorological prerequisites, at low level, for thunderstorms formed by lifting processes, over land?
+AON A: High temperature, high humidity
+Test A: High temperature, high humidity
+--------------------------------------------------------------------------------
+ID: 565
+AON Q: What does TEM stand for in the context of Human Performance?
+Test Q: What does TEM stand for in the context of Human Performance?
+AON A: Threat and Error Management
+Test A: Threat and Error Management
+--------------------------------------------------------------------------------
+ID: 567
+AON Q: When selecting a fuse for an aircraft electrical circuit, the governing factor is:
+Test Q: When selecting a fuse for an aircraft electrical circuit, the governing factor is:
+AON A:  The power requirement of the circuit
+Test A: the power requirement of the circuit
+--------------------------------------------------------------------------------
+ID: 568
+AON Q: You are flying IFR in VMC and experience a complete radio failure. What action should
+Test Q: You are flying IFR in VMC and experience a complete radio failure. What action should you take?
+AON A: Continue VMC and land at the nearest aerodrome squawking 7600. Report arrival to ATC
+Test A: Continue VMC and land at the nearest aerodrome squawking 7600. Report arrival to ATC after landing
+--------------------------------------------------------------------------------
+ID: 569
+AON Q: ELR is 1°C/100m:
+Test Q: ELR is 1°C/100m:
+AON A: neutral when dry
+Test A: Neutral when dry
+--------------------------------------------------------------------------------
+ID: 571
+AON Q: power is
+Test Q: Power is:
+AON A: The rate at which a component uses energy
+Test A: The rate at which a component uses energy
+--------------------------------------------------------------------------------
+ID: 572
+AON Q: At high altitude, the stall speed (IAS):
+Test Q: At high altitude, the stall speed (IAS):
+AON A: increases
+Test A: Increases
+--------------------------------------------------------------------------------
+ID: 574
+AON Q: With regards to the Maximum Zero Fuel Weight (MZFW):
+Test Q: With regards to the Maximum Zero Fuel Weight (MZFW):
+AON A: It is the maximum weight that an aircraft can be loaded to without useable fuel
+Test A: It is the maximum weight that an aircraft can be loaded to without useable fuel.
+--------------------------------------------------------------------------------
+ID: 575
+AON Q: A logarithmic scale is fitted to the vertical speed indicator in order to:A-575: Make lower
+Test Q: A logarithmic scale is fitted to the vertical speed indicator in order to:
+AON A: null
+Test A: make lower values of vertical speed easier to read
+--------------------------------------------------------------------------------
+ID: 576
+AON Q:  When are lifejackets required?
+Test Q: When are lifejackets required?
+AON A:   50 NM from land
+Test A: 50 NM from land
+--------------------------------------------------------------------------------
+ID: 577
+AON Q:  An increase in wing loading will:
+Test Q: An increase in wing loading will:
+AON A: Increase the stall speed
+Test A: Increase the stall speed
+--------------------------------------------------------------------------------
+ID: 579
+AON Q:  What distance does the DME display:
+Test Q: What distance does the DME display:
+AON A: slant range in NM
+Test A: Slant range in NM
+--------------------------------------------------------------------------------
+ID: 581
+AON Q:  You are flying IFR in VMC and experience a complete radio failure. What action should
+Test Q: You are flying IFR in VMC and experience a complete radio failure. What action should you take?
+AON A: Continue VMC and land at the nearest aerodrome squawking 7600. Report arrival to  ATC
+Test A: Continue VMC and land at the nearest aerodrome squawking 7600. Report arrival to ATC after landing
+--------------------------------------------------------------------------------
+ID: 582
+AON Q: Readability 1 means that the transmission is?
+Test Q: Readability 1 means that the transmission is?
+AON A: unreadable
+Test A: Unreadable
+--------------------------------------------------------------------------------
+ID: 583
+AON Q:  Compared with stalling airspeed (Vs) in a given configuration, the airspeed at which the
+Test Q: Compared with stalling airspeed (Vs) in a given configuration, the airspeed at which the stick shaker will be triggered is?
+AON A: Greater than Vs
+Test A: Greater than Vs
+--------------------------------------------------------------------------------
+ID: 584
+AON Q: What distance does the DME display?
+Test Q: What distance does the DME display:
+AON A: Slant range in NM
+Test A: Slant range in NM
+--------------------------------------------------------------------------------
+ID: 590
+AON Q: Which VDF bearing is accurate within 5 degrees?
+Test Q: Which VDF bearing is accurate within 5 degrees?
+AON A: class B
+Test A: Class B
+--------------------------------------------------------------------------------
+ID: 591
+AON Q:  Which of the following are all aerodynamic balances?
+Test Q: Which of the following are all aerodynamic balances?
+AON A:  Horn balance, balance tab and internal balance.
+Test A: Horn balance, balance tab and internal balance.
+--------------------------------------------------------------------------------
+ID: 592
+AON Q:  The rigidity of a gyro is improved by?
+Test Q: The rigidity of a gyro is improved by?
+AON A: increasing the rpm and concentrating the mass on the periphery of the rotor
+Test A: increasing the rpm and concentrating the mass on the periphery of the rotor
+--------------------------------------------------------------------------------
+ID: 593
+AON Q: What is the frequency range of the airband?
+Test Q: What is the frequency range of the airband?
+AON A: 108.0 - 137.0 MHz
+Test A: 108.0 - 137.0 MHz
+--------------------------------------------------------------------------------
+ID: 594
+AON Q: The purpose of an ignition switch is to:
+Test Q: The purpose of an ignition switch is to:
+AON A: control the primary circuit of the magneto
+Test A: control the primary circuit of the magneto
+--------------------------------------------------------------------------------
+ID: 597
+AON Q: Loads must be adequately secured in order to?
+Test Q: Loads must be adequately secured in order to?
+AON A: Avoid unplanned C of G movement and aeroplane damage
+Test A: Avoid unplanned C of G movement and aeroplane damage
+--------------------------------------------------------------------------------
+ID: 599
+AON Q: If an aircraft climbs in the Standard Atmosphere below the Tropopause, at a Constant
+Test Q: If an aircraft climbs in the Standard Atmosphere below the Tropopause, at a Constant TAS the Mach Number will?
+AON A: Increase because the local speed of sound is decreasing
+Test A: Increase because the local speed of sound is decreasing
+--------------------------------------------------------------------------------
+ID: 600
+AON Q: An aeroplane is head-on with a glider. Who has right of way?
+Test Q: An aeroplane is head-on with a glider. Who has right of way?
+AON A: The glider
+Test A: The glider
+--------------------------------------------------------------------------------
+ID: 601
+AON Q: Which phraseology shall a pilot use if he/she receives an instruction from ATC which he/
+Test Q: Which phraseology shall a pilot use if he/she receives an instruction from ATC which he/she cannot carry out?
+AON A: UNABLE
+Test A: UNABLE
+--------------------------------------------------------------------------------
+ID: 602
+AON Q: If an extra load is loaded into an aircraft the stall speed is likely to?
+Test Q: If an extra load is loaded into an aircraft the stall speed is likely to:
+AON A: increase
+Test A: Increase
+--------------------------------------------------------------------------------
+ID: 604
+AON Q: An aircraft passes overhead a DME station at 12000 ft above the station. At that time the
+Test Q: An aircraft passes overhead a DME station at 12000 ft above the station. At that time the DME reading will be?
+AON A: • Approximately 2 nm.
+Test A: Approximately 2 nm.
+--------------------------------------------------------------------------------
+ID: 605
+AON Q: Identify runway remaining lighting on centerline lighting systems.
+Test Q: Identify runway remaining lighting on centerline lighting systems.
+AON A: Alternate red and white lights from 3,000 feet to 1,000 feet, then red lights to the end.
+Test A: Alternate red and white lights from 3,000 feet to 1,000 feet, then red lights to the end.
+--------------------------------------------------------------------------------
+ID: 607
+AON Q: A pilot approaching an upslope runway
+Test Q: A pilot approaching an upslope runway:
+AON A: may feel that he is higher than actual. This illusion may cause him to land short
+Test A: may feel that he is higher than actual. This illusion may cause him to land short of the runway
+--------------------------------------------------------------------------------
+ID: 609
+AON Q: If temperature remains constant with an increase in altitude there is:
+Test Q: If temperature remains constant with an increase in altitude there is:
+AON A: isothermal layer
+Test A: An isothermal layer
+--------------------------------------------------------------------------------
+ID: 610
+AON Q: What action is required by the pilot of an aircraft station if he/she is unable to establish
+Test Q: What action is required by the pilot of an aircraft station if he/she is unable to establish radio contact with an aeronautical station?
+AON A: Try to establish communication with other aircraft or aeronautical stations
+Test A: Try to establish communication with other aircraft or aeronautical stations
+--------------------------------------------------------------------------------
+ID: 611
+AON Q:  The rate of climb is approximately equal to?
+Test Q: The rate of climb is approximately equal to?
+AON A: null
+Test A: The still air gradient multiplied by the TAS
+--------------------------------------------------------------------------------
+ID: 613
+AON Q: Which of the statements is true concerning squall lines?
+Test Q: Which of the statements is true concerning squall lines?
+AON A: For severe squall lines a SIGMET is issued
+Test A: For severe squall lines a SIGMET is issued
+--------------------------------------------------------------------------------
+ID: 614
+AON Q: How do you know you are in an over taking position with regards to another aircraft at
+Test Q: How do you know you are in an over taking position with regards to another aircraft at night?
+AON A:  You will see a white light
+Test A: You will see a white light
+--------------------------------------------------------------------------------
+ID: 617
+AON Q: The best L/D ratio of an aircraft in a given configuration is a value that:
+Test Q: The best L/D ratio of an aircraft in a given configuration is a value that:
+AON A: Remains constant regardless of Indicated Air Speed changes
+Test A: Remains constant regardless of Indicated Air Speed changes
+--------------------------------------------------------------------------------
+ID: 618
+AON Q: The purpose of the primary stops in a control system is?
+Test Q: The purpose of the primary stops in a control system is?
+AON A: To set the range of movement of the control surface
+Test A: To set the range of movement of the control surface
+--------------------------------------------------------------------------------
+ID: 619
+AON Q:  The phrase "take-off" is used by a pilot:
+Test Q: The phrase "take-off" is used by a pilot:
+AON A: Only to acknowledge take-off clearance
+Test A: Only to acknowledge take-off clearance
+--------------------------------------------------------------------------------
+ID: 620
+AON Q: The phrase "say again" means?
+Test Q: The phrase "say again" means?
+AON A: Repeat the entire message
+Test A: Repeat the entire message
+--------------------------------------------------------------------------------
+ID: 623
+AON Q:  Which of the following sequences might be encountered when flying into a microburst?
+Test Q: Which of the following sequences might be encountered when flying into a microburst?
+AON A: Increased headwind, followed by down-draught, followed by increased tailwind on the
+Test A: Increased headwind, followed by down-draught, followed by increased tailwind on the approach, or following take-off.
+--------------------------------------------------------------------------------
+ID: 625
+AON Q: What is correct about Fly-by / Fly-over
+Test Q: What is correct about Fly-by / Fly-over waypoints and turns?
+AON A: A fly-by waypoint is a waypoint which requires turn anticipation to allow tangential
+Test A: A fly-by waypoint is a waypoint which requires turn anticipation to allow tangential interception of the next segment of a route or procedure
+--------------------------------------------------------------------------------
+ID: 727
+AON Q: You receive this ATC clearance
+Test Q: See the figure below. You receive this ATC clearance ".....CLEARED TO THE ABC VORTAC. HOLD SOUTH ON THE ONE EIGHT ZERO RADIAL..." What is the recommended procedure to enter the holding pattern?
+AON A: direct only
+Test A: Direct only
+--------------------------------------------------------------------------------
+ID: 729
+AON Q:  The Cat I minimum decision height is:
+Test Q: The Cat I minimum decision height is:
+AON A: 200 feet
+Test A: 200 feet
+--------------------------------------------------------------------------------
+ID: 730
+AON Q: When the met observer reports the amount of cloud present at a station, it will be given
+Test Q: When the met observer reports the amount of cloud present at a station, it will be given as:
+AON A: The amount of cloud, in eighths of the sky covered, using the term oktas
+Test A: The amount of cloud, in eighths of the sky covered, using the term oktas
+--------------------------------------------------------------------------------
+ID: 732
+AON Q:  The Transition Level:
+Test Q: According to ICAO Doc 8168, the Transition Level:
+AON A: Shall be the lowest flight level available for use above the transition altitude
+Test A: Shall be the lowest flight level available for use above the transition altitude that has been established
+--------------------------------------------------------------------------------
+ID: 734
+AON Q: the fuel index:
+Test Q: The fuel index:
+AON A: Is used to calculate the correct position of the
+Test A: Is used to calculate the correct position of the CG due to different locations of the fuel tanks
+--------------------------------------------------------------------------------
+ID: 735
+AON Q: In a fuel system, the oil to fuel heat exchanger allows:
+Test Q: In a fuel system, the oil to fuel heat exchanger allows:
+AON A: Jet engine oil cooling through thermal exchange with fuel flowing from tanks
+Test A: Jet engine oil cooling through thermal exchange with fuel flowing from tanks
+--------------------------------------------------------------------------------
+ID: 736
+AON Q: An accumulator in a hydraulic system will:
+Test Q: An accumulator in a hydraulic system will:
+AON A: • Store fluid under pressure
+Test A: Store fluid under pressure
+--------------------------------------------------------------------------------
+ID: 739
+AON Q: After experiencing two-way radio communications failure en route, when should a pilot
+Test Q: After experiencing two-way radio communications failure en route, when should a pilot begin the descent for the instrument approach?
+AON A: Upon arrival at any initial approach fix for the instrument approach procedure but not
+Test A: Upon arrival at any initial approach fix for the instrument approach procedure but not before the flight plan ETA as amended by ATC
+--------------------------------------------------------------------------------
+ID: 740
+AON Q: What effect would a light crosswind have on the wingtip vortices generated by a large
+Test Q: What effect would a light crosswind have on the wingtip vortices generated by a large aeroplane that has just taken off:
+AON A: The upwind vortex will tend to remain on the runway longer than the downwind vortex.
+Test A: The upwind vortex will tend to remain on the runway longer than the downwind vortex.
+--------------------------------------------------------------------------------
+ID: 741
+AON Q: A pilot making an approach sees 3 red lights and 1 white light on the wingbar of a PAPI.
+Test Q: A pilot making an approach sees 3 red lights and 1 white light on the wingbar of a PAPI. This means that:
+AON A: • He is below the approach slope
+Test A: He is below the approach slope
+--------------------------------------------------------------------------------
+ID: 743
+AON Q:  Which aeroplane behaviour will be corrected by a yaw damper?
+Test Q: Which aeroplane behaviour will be corrected by a yaw damper?
+AON A: dutch roll
+Test A: Dutch roll
+--------------------------------------------------------------------------------
+ID: 744
+AON Q: In cruise flight, an aft centre of gravity location will:
+Test Q: In cruise flight, an aft centre of gravity location will:
+AON A: • Decrease longitudinal static stability
+Test A: Decrease longitudinal static stability
+--------------------------------------------------------------------------------
+ID: 746
+AON Q:  A particular instrument departure
+Test Q: A particular instrument departure procedure requires a minimum climb rate of 210 feet per NM to 8,000 feet. If you climb with a ground speed of 140 knots, what is the rate of climb required in feet per minute?
+AON A: 490
+Test A: 490
+--------------------------------------------------------------------------------
+ID: 747
+AON Q:  When climbing at a constant mach number below the tropopause through an inversion:
+Test Q: When climbing at a constant mach number below the tropopause through an inversion:
+AON A: The CAS will decrease and the TAS will increase
+Test A: The CAS will decrease and the TAS will increase
+--------------------------------------------------------------------------------
+ID: 750
+AON Q: rudder controls
+Test Q: Rudder controls:
+AON A: yaw
+Test A: Yaw
+--------------------------------------------------------------------------------
+ID: 752
+AON Q:  The contents of Aeronautical Information
+Test Q: The contents of Aeronautical Information Publication (AIP) are:
+AON A: null
+Test A: GEN, ENR (en-route) and AD (aerodromes)
+--------------------------------------------------------------------------------
+ID: 753
+AON Q: Entering a holding pattern at FL110 with a jet aircraft, which will be the maximum speed?
+Test Q: Entering a holding pattern at FL110 with a jet aircraft, which will be the maximum speed?
+AON A: 230 kts IAS
+Test A: 230 kts IAS
+--------------------------------------------------------------------------------
+ID: 754
+AON Q: The vertical position of an aircraft at or below the transition altitude will be reported:
+Test Q: The vertical position of an aircraft at or below the transition altitude will be reported:
+AON A: as altitude
+Test A: As altitude
+--------------------------------------------------------------------------------
+ID: 755
+AON Q: What type of precipitation would you expect at an active unstable cold front?
+Test Q: What type of precipitation would you expect at an active unstable cold front?
+AON A: null
+Test A: Showers associated with thunderstorms
+--------------------------------------------------------------------------------
+ID: 756
+AON Q: the sweepback on a wing will:
+Test Q: The sweepback on a wing will:
+AON A: Increase the possibility of a wing tip stall
+Test A: Increase the possibility of a wing tip stall
+--------------------------------------------------------------------------------

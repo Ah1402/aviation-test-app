@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>App Icon Preview</title>
+  <style>
+    :root{
+      --bg: #0b1220;
+      --card: #0f172a;
+      --muted: #94a3b8;
+      --text: #e2e8f0;
+      --blue: #2563eb;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f8fafc;
+        --card: #ffffff;
+        --muted: #64748b;
+        --text: #1e293b;
+      }
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text)}
+    .wrap{max-width:1000px;margin:24px auto;padding:0 16px}
+    h1{font-size:22px;margin:0 0 6px}
+    p{color:var(--muted);margin:0 0 16px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+    .card{background:var(--card);border:1px solid #1e293b;border-radius:14px;padding:16px}
+    .card h2{font-size:14px;margin:0 0 10px;color:#cbd5e1}
+    @media (prefers-color-scheme: light) {
+      .card{border-color:#e2e8f0}
+      .card h2{color:#475569}
+    }
+    .row{display:flex;gap:16px;align-items:center}
+    .col{flex:1;min-width:0}
+
+    /* Icon shapes */
+    .icon-wrap{display:flex;align-items:center;justify-content:center;}
+    .icon{width:128px;height:128px;display:grid;place-items:center;overflow:hidden;}
+    .icon img{width:78%;height:78%;object-fit:contain;display:block;}
+
+  /* iOS styles (transparent backgrounds) */
+  .ios.light{background:transparent;border-radius:28%;box-shadow:0 10px 28px rgba(0,0,0,.18), inset 0 0 0 1px rgba(0,0,0,.04)}
+  .ios.dark{background:transparent;border-radius:28%;box-shadow:0 8px 22px rgba(0,0,0,.6), inset 0 0 0 1px rgba(255,255,255,.04)}
+
+  /* Android styles (transparent backgrounds) */
+  .droid.round{background:transparent;border-radius:50%;box-shadow:0 8px 22px rgba(0,0,0,.35)}
+  .droid.squircle{background:transparent;border-radius:22%;box-shadow:0 8px 22px rgba(0,0,0,.35)}
+
+    .legend{margin-top:10px;font-size:12px;color:var(--muted)}
+    .footer{margin-top:18px;color:var(--muted);font-size:12px}
+    .note{color:#fbbf24}
+    .bar{display:flex;gap:8px;align-items:center;margin:14px 0}
+    .swatch{width:14px;height:14px;border-radius:4px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Home Screen Icon Preview</h1>
+  <p>This shows how your current app logo will appear on iOS and Android home screens with common shapes (transparent backgrounds).</p>
+
+    <div class="grid">
+      <div class="card">
+        <h2>iOS – Light</h2>
+        <div class="icon-wrap"><div class="icon ios light"><img id="icon-ios-light" alt="icon" /></div></div>
+  <div class="legend">Rounded square mask (transparent background).</div>
+      </div>
+      <div class="card">
+        <h2>iOS – Dark</h2>
+        <div class="icon-wrap"><div class="icon ios dark"><img id="icon-ios-dark" alt="icon" /></div></div>
+  <div class="legend">Rounded square mask (transparent background).</div>
+      </div>
+      <div class="card">
+        <h2>Android – Circle</h2>
+        <div class="icon-wrap"><div class="icon droid round"><img id="icon-droid-round" alt="icon" /></div></div>
+  <div class="legend">Adaptive icon with circular mask (transparent background).</div>
+      </div>
+      <div class="card">
+        <h2>Android – Squircle</h2>
+        <div class="icon-wrap"><div class="icon droid squircle"><img id="icon-droid-squircle" alt="icon" /></div></div>
+  <div class="legend">Adaptive icon with rounded-square mask (transparent background).</div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="note">Transparent background preview (no theme color). For best results use a transparent PNG (192x192 and 512x512). JPG will render with its background color.</div>
+    </div>
+  </div>
+
+  <script>
+    // Resolve available logo source (prefer PNG for transparency)
+    (function(){
+      const sources = ['src/images/logo.png','src/images/logo.jpg'];
+      function pickSource(i=0){
+        return new Promise(res=>{const img=new Image();img.onload=()=>res(sources[i]);img.onerror=()=>i+1<sources.length?pickSource(i+1).then(res):res(null);img.src=sources[i];});
+      }
+      pickSource().then(src=>{
+        const nodes=[
+          document.getElementById('icon-ios-light'),
+          document.getElementById('icon-ios-dark'),
+          document.getElementById('icon-droid-round'),
+          document.getElementById('icon-droid-squircle')
+        ];
+        nodes.forEach(n=>{ if(src){ n.src=src; } else { n.alt='No icon found'; } });
+      });
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <!-- PWA Configuration for Offline Support -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Aviation Test - Compact mode for smartwatches">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <title>Aviation Test - Watch</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', 'Segoe UI Symbol', 'Segoe UI Emoji', 'Noto Sans', 'Noto Sans Symbols', 'Noto Sans Symbols 2', 'Arial Unicode MS', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: #000;
+            color: #fff;
+            font-size: 12px;
+            line-height: 1.4;
+            overflow-x: hidden;
+        }
+
+        /* Light Mode for Smartwatch */
+        @media (prefers-color-scheme: light) {
+            body {
+                background: #f8fafc;
+                color: #1e293b;
+            }
+            .header {
+                border-bottom-color: #e2e8f0;
+            }
+            .header .subtitle {
+                color: #64748b;
+            }
+            .plane-icon {
+                color: #2563eb;
+            }
+            .header h1 {
+                color: #1e293b;
+            }
+            .search-input {
+                border-color: #e2e8f0;
+                background: #ffffff;
+                color: #1e293b;
+            }
+            .search-hint {
+                color: #64748b;
+            }
+            .result-item {
+                background: #ffffff;
+                border-color: #e2e8f0;
+                color: #1e293b;
+            }
+            .result-meta {
+                color: #64748b;
+            }
+            .answer-title {
+                color: #2563eb;
+            }
+            .answer-block {
+                color: #475569;
+            }
+            .category-btn {
+                background: #ffffff;
+                border-color: #e2e8f0;
+                color: #1e293b;
+            }
+            .category-btn:active {
+                background: #2563eb;
+                color: #fff;
+            }
+            .category-info {
+                color: #64748b;
+            }
+            .question-header {
+                background: #ffffff;
+                color: #1e293b;
+            }
+            .q-number {
+                color: #64748b;
+            }
+            .question-text {
+                background: #ffffff;
+                color: #1e293b;
+            }
+            .option {
+                background: #ffffff;
+                border-color: #e2e8f0;
+                color: #1e293b;
+            }
+            .option:active {
+                background: #2563eb;
+                color: #fff;
+            }
+            .option.selected {
+                background: #2563eb;
+                border-color: #2563eb;
+                color: #fff;
+            }
+            .option-letter {
+                background: #e2e8f0;
+                color: #1e293b;
+            }
+            .option.selected .option-letter {
+                background: #fff;
+                color: #2563eb;
+            }
+            .btn-secondary {
+                background: #e2e8f0;
+                color: #1e293b;
+            }
+            .btn-secondary:active {
+                background: #cbd5e1;
+            }
+            .result-card {
+                background: #ffffff;
+            }
+        }
+
+        .watch-container {
+            max-width: 280px;
+            margin: 0 auto;
+            padding: 10px;
+        }
+
+        .header {
+            text-align: center;
+            padding: 10px 0 6px 0;
+            border-bottom: 1px solid #333;
+            margin-bottom: 8px;
+        }
+
+        .header h1 {
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 3px;
+        }
+
+        .header .subtitle {
+            font-size: 10px;
+            color: #888;
+        }
+
+        .plane-icon {
+            color: #fff;
+        }
+
+        .header h1 {
+            color: #fff;
+        }
+
+        .search-bar {
+            display: flex;
+            gap: 6px;
+            margin: 6px 0 4px 0;
+        }
+
+        .search-input {
+            flex: 1;
+            padding: 8px;
+            border: 1px solid #333;
+            border-radius: 8px;
+            background: #0a0a0a;
+            color: #fff;
+            font-size: 11px;
+        }
+
+        .search-btn {
+            padding: 8px 10px;
+            background: #2563eb;
+            border: none;
+            border-radius: 8px;
+            color: #fff;
+            font-weight: 600;
+            font-size: 11px;
+            display: none; /* Hidden: search runs automatically */
+        }
+
+        .search-results {
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        .search-hint {
+            font-size: 9px;
+            color: #888;
+            margin: 2px 0 8px 0;
+        }
+
+        .result-item {
+            background: #111;
+            border: 1px solid #333;
+            border-radius: 8px;
+            padding: 8px;
+            margin-bottom: 6px;
+            text-align: left;
+        }
+
+        .result-title {
+            font-size: 11px;
+            line-height: 1.4;
+        }
+
+        .result-meta {
+            margin-top: 4px;
+            font-size: 9px;
+            color: #888;
+        }
+
+        /* Correct answer in search results */
+        .answer-block {
+            margin-top: 6px;
+            font-size: 9px;
+            color: #cbd5e1;
+        }
+        .answer-title {
+            font-weight: 600;
+            font-size: 9px;
+            color: #93c5fd;
+            margin-bottom: 2px;
+        }
+        .answer-option {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .answer-option .option-letter {
+            width: 16px;
+            height: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #2563eb;
+            color: #fff;
+            border-radius: 50%;
+            font-size: 9px;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+
+        .section {
+            display: none;
+        }
+
+        .section.active {
+            display: block;
+        }
+
+        /* Categories */
+        .category-btn {
+            display: block;
+            width: 100%;
+            padding: 12px 8px;
+            margin-bottom: 8px;
+            background: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 8px;
+            color: #fff;
+            font-size: 11px;
+            text-align: left;
+            cursor: pointer;
+        }
+
+        .category-btn:active {
+            background: #2563eb;
+        }
+
+        .category-name {
+            font-weight: 600;
+            margin-bottom: 3px;
+        }
+
+        .category-info {
+            font-size: 9px;
+            color: #888;
+        }
+
+        /* Question View */
+        .question-header {
+            background: #1a1a1a;
+            padding: 8px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .q-number {
+            font-size: 11px;
+            color: #888;
+        }
+
+        .question-text {
+            background: #1a1a1a;
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            font-size: 12px;
+            line-height: 1.5;
+        }
+
+        .option {
+            display: flex;
+            align-items: center;
+            padding: 10px 8px;
+            margin-bottom: 6px;
+            background: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 11px;
+        }
+
+        .option:active {
+            background: #2563eb;
+        }
+
+        .option.selected {
+            background: #2563eb;
+            border-color: #2563eb;
+        }
+
+        .option-letter {
+            width: 22px;
+            height: 22px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #333;
+            border-radius: 50%;
+            margin-right: 8px;
+            font-size: 10px;
+            font-weight: 600;
+            flex-shrink: 0;
+        }
+
+        .option.selected .option-letter {
+            background: #fff;
+            color: #2563eb;
+        }
+
+        .option-text {
+            flex: 1;
+            line-height: 1.4;
+        }
+
+        /* Navigation */
+        .nav-btns {
+            display: flex;
+            gap: 6px;
+            margin-top: 10px;
+        }
+
+        .btn {
+            flex: 1;
+            padding: 10px;
+            background: #2563eb;
+            border: none;
+            border-radius: 8px;
+            color: #fff;
+            font-size: 11px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        .btn:active {
+            background: #1d4ed8;
+        }
+
+        .btn-secondary {
+            background: #333;
+        }
+
+        .btn-secondary:active {
+            background: #444;
+        }
+
+        /* Results */
+        .result-card {
+            background: #1a1a1a;
+            padding: 12px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .score {
+            font-size: 24px;
+            font-weight: 700;
+            color: #2563eb;
+            text-align: center;
+            margin-bottom: 8px;
+        }
+
+        .result-label {
+            font-size: 10px;
+            color: #888;
+            text-align: center;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 8px;
+            font-size: 10px;
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat-value {
+            display: block;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 2px;
+        }
+
+        .back-btn {
+            width: 100%;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="watch-container">
+        <div class="header">
+            <h1 style="margin-top: 0;"><i class="fas fa-plane-departure plane-icon" style="margin-right: 6px; display: inline-block; font-size: inherit;"></i>Aviation Test</h1>
+            <div class="subtitle">Compact Mode</div>
+        </div>
+
+        <!-- Categories Section -->
+        <section id="categories" class="section active">
+            <div class="search-bar">
+                <input id="watch-search-input" class="search-input" type="search" placeholder="Search questions...">
+                <button class="search-btn" onclick="performSearch()">Go</button>
+            </div>
+            <div id="search-hint" class="search-hint">Type 2+ letters to search</div>
+            <div id="search-results" class="search-results" style="display:none;"></div>
+            <div id="category-list"></div>
+        </section>
+
+        <!-- Test Section -->
+        <section id="test" class="section">
+            <div class="question-header">
+                <div class="q-number">Question <span id="current">1</span>/<span id="total">10</span></div>
+            </div>
+
+            <div class="question-text" id="question-text">
+                Question text will appear here...
+            </div>
+
+            <div id="options"></div>
+            <div id="watch-feedback" style="margin-top:8px;"></div>
+
+            <div class="nav-btns">
+                <button class="btn btn-secondary" onclick="prevQuestion()">◀ Prev</button>
+                <button class="btn" onclick="nextQuestion()">Next ▶</button>
+            </div>
+            <div class="nav-btns">
+                <button class="btn btn-secondary" onclick="showCategories()">Exit</button>
+                <button class="btn" onclick="finishTest()">Finish</button>
+            </div>
+        </section>
+
+        <!-- Results Section -->
+        <section id="results" class="section">
+            <div class="result-card">
+                <div class="score" id="score">0%</div>
+                <div class="result-label">Your Score</div>
+                <div class="stats">
+                    <div class="stat">
+                        <span class="stat-value" id="correct">0</span>
+                        <span>Correct</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-value" id="wrong">0</span>
+                        <span>Wrong</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-value" id="skipped">0</span>
+                        <span>Skipped</span>
+                    </div>
+                </div>
+            </div>
+            <button class="btn back-btn" onclick="showCategories()">Back to Categories</button>
+        </section>
+    </div>
+
+    <!-- LAST403 DATASET MODE -->
+    <script src="src/data/last403_explanations_import.js"></script>
+    <script src="src/scripts/build_from_last403_only.js"></script>
+    <script>
+    // Mock data for testing (used as fallback if bank not available)
+    // Provide safeLetter helper to avoid rendering '@' for invalid indexes
+    if (typeof window !== 'undefined' && !window.safeLetter) {
+        window.safeLetter = function(n){ if (typeof n !== 'number' || isNaN(n) || n < 0) return ''; return String.fromCharCode(65 + n); };
+    }
+        let currentCategory = '';
+        let currentQuestionIndex = 0;
+        let questions = [];
+        let userAnswers = {};
+    let isSearchMode = false;
+    let searchResults = [];
+    let flatQuestions = [];
+    let bankLoaded = false;
+
+        const sampleQuestions = [
+            {
+                id: 1,
+                text: "What is the standard sea level pressure?",
+                options: ["1013.25 hPa", "1000 hPa", "1020 hPa", "1030 hPa"],
+                correct: 0
+            },
+            {
+                id: 2,
+                text: "What does VFR stand for?",
+                options: ["Very Fast Route", "Visual Flight Rules", "Vertical Flight Range", "Variable Flight Rate"],
+                correct: 1
+            },
+            {
+                id: 3,
+                text: "What is V1 speed?",
+                options: ["Landing speed", "Takeoff decision speed", "Cruising speed", "Stall speed"],
+                correct: 1
+            }
+        ];
+
+        function showSection(sectionId) {
+            document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+            document.getElementById(sectionId).classList.add('active');
+        }
+
+        async function startTest(categoryId) {
+            currentCategory = categoryId;
+            isSearchMode = false;
+            await ensureBankLoaded();
+            const data = window.testData || {};
+            const cat = data[categoryId];
+            if (cat && Array.isArray(cat.tests)) {
+                const list = [];
+                cat.tests.forEach((t, ti) => {
+                    (t.questions || []).forEach((q, qi) => {
+                        const opts = Array.isArray(q.options) ? q.options : Object.values(q.options || {});
+                        const correct = typeof q.correct === 'number' ? q.correct : (typeof q.correctIndex === 'number' ? q.correctIndex : -1);
+                        list.push({
+                            id: `${categoryId}|${ti}|${qi}`,
+                            text: String(q.text || q.question || '').trim(),
+                            options: opts,
+                            correct
+                        });
+                    });
+                });
+                questions = list.length ? list : sampleQuestions;
+            } else {
+                // Fallback
+                questions = sampleQuestions;
+            }
+            currentQuestionIndex = 0;
+            userAnswers = {};
+            showQuestion();
+            showSection('test');
+        }
+
+        function showQuestion() {
+            const q = questions[currentQuestionIndex];
+            document.getElementById('current').textContent = currentQuestionIndex + 1;
+            document.getElementById('total').textContent = questions.length;
+            document.getElementById('question-text').textContent = q.text;
+
+            const optionsContainer = document.getElementById('options');
+            optionsContainer.innerHTML = '';
+            
+            q.options.forEach((option, index) => {
+                const div = document.createElement('div');
+                div.className = 'option';
+                if (userAnswers[q.id] === index) {
+                    div.classList.add('selected');
+                }
+                div.innerHTML = `
+                    <div class="option-letter">${(typeof window !== 'undefined' && window.safeLetter) ? window.safeLetter(index) : String.fromCharCode(65 + index)}</div>
+                    <div class="option-text">${option}</div>
+                `;
+                div.onclick = () => selectOption(q.id, index);
+                optionsContainer.appendChild(div);
+            });
+
+            // Refresh feedback visibility based on current selection
+            const fb = document.getElementById('watch-feedback');
+            const chosen = userAnswers[q.id];
+            if (typeof chosen === 'number' && typeof q.correct === 'number') {
+                if (chosen !== q.correct) {
+                    const letter = (typeof window !== 'undefined' && window.safeLetter) ? window.safeLetter(q.correct) : String.fromCharCode(65 + q.correct);
+                    const text = (q.options || [])[q.correct] || '';
+                    fb.innerHTML = `
+                        <div class="answer-block">
+                            <div class="answer-title">Correct Answer</div>
+                            <div class="answer-option">
+                                <div class="option-letter">${letter}</div>
+                                <div class="option-text">${truncate(text, 100)}</div>
+                            </div>
+                        </div>
+                    `;
+                } else {
+                    fb.innerHTML = '';
+                }
+            } else if (fb) {
+                fb.innerHTML = '';
+            }
+        }
+
+        function selectOption(questionId, optionIndex) {
+            userAnswers[questionId] = optionIndex;
+            // Show feedback if wrong answer selected
+            const q = questions[currentQuestionIndex];
+            const fb = document.getElementById('watch-feedback');
+            if (q && typeof q.correct === 'number') {
+                if (optionIndex !== q.correct) {
+                    const letter = (typeof window !== 'undefined' && window.safeLetter) ? window.safeLetter(q.correct) : String.fromCharCode(65 + q.correct);
+                    const text = (q.options || [])[q.correct] || '';
+                    fb.innerHTML = `
+                        <div class="answer-block">
+                            <div class="answer-title">Correct Answer</div>
+                            <div class="answer-option">
+                                <div class="option-letter">${letter}</div>
+                                <div class="option-text">${truncate(text, 100)}</div>
+                            </div>
+                        </div>
+                    `;
+                } else {
+                    // Clear feedback on correct selection (still requires Next)
+                    fb.innerHTML = '';
+                }
+            }
+            showQuestion();
+        }
+
+        function prevQuestion() {
+            if (currentQuestionIndex > 0) {
+                currentQuestionIndex--;
+                showQuestion();
+            }
+        }
+
+        function nextQuestion() {
+            if (currentQuestionIndex < questions.length - 1) {
+                currentQuestionIndex++;
+                showQuestion();
+            }
+        }
+
+        // ----- Search (uses full question bank if available) -----
+        function loadTestData() {
+            // Already loaded and built from last403 import
+            return Promise.resolve();
+        }
+
+        async function ensureBankLoaded() {
+            if (bankLoaded) return;
+            try {
+                await loadTestData();
+                // Flatten questions
+                flatQuestions = [];
+                Object.entries(window.testData || {}).forEach(([catId, cat]) => {
+                    const tests = cat?.tests || [];
+                    tests.forEach((t, ti) => {
+                        (t.questions || []).forEach((q, qi) => {
+                            const opts = Array.isArray(q.options) ? q.options : Object.values(q.options || {});
+                            const correct = typeof q.correct === 'number' ? q.correct : (typeof q.correctIndex === 'number' ? q.correctIndex : -1);
+                            flatQuestions.push({
+                                id: `${catId}|${ti}|${qi}`,
+                                text: String(q.text || q.question || '').trim(),
+                                options: opts,
+                                correct,
+                                meta: { category: cat?.name || catId, test: t?.name || `Test ${ti+1}` }
+                            });
+                        });
+                    });
+                });
+                bankLoaded = true;
+            } catch (e) {
+                // Fallback to sample questions only
+                flatQuestions = sampleQuestions.map((q, i) => ({...q, id: `sample|0|${i}`, meta:{category:'Sample', test:'Demo'}}));
+                bankLoaded = true;
+            }
+        }
+
+        function truncate(text, n=120){
+            if (!text) return '';
+            return text.length > n ? text.slice(0, n-1) + '…' : text;
+        }
+
+        async function performSearch() {
+            const input = document.getElementById('watch-search-input');
+            const q = (input.value || '').trim();
+            const resultsEl = document.getElementById('search-results');
+            const hintEl = document.getElementById('search-hint');
+            const catList = document.getElementById('category-list');
+            if (q.length < 2) {
+                resultsEl.style.display = 'none';
+                resultsEl.innerHTML = '';
+                if (hintEl) hintEl.style.display = 'block';
+                if (catList) catList.style.display = 'block';
+                return;
+            }
+            if (hintEl) hintEl.style.display = 'none';
+            // Hide category list when search is active
+            if (catList) catList.style.display = 'none';
+            await ensureBankLoaded();
+            const terms = q.toLowerCase().split(/\s+/).filter(Boolean);
+            const MAX_RESULTS = 50;
+            searchResults = [];
+            for (const item of flatQuestions) {
+                const hay = (item.text || '').toLowerCase();
+                const ok = terms.every(t => hay.includes(t));
+                if (ok) {
+                    searchResults.push(item);
+                    if (searchResults.length >= MAX_RESULTS) break;
+                }
+            }
+            // Render
+            if (searchResults.length === 0) {
+                resultsEl.innerHTML = '<div class="result-item">No results</div>';
+                resultsEl.style.display = 'block';
+                return;
+            }
+            resultsEl.innerHTML = searchResults.map((r, idx) => {
+                const ci = (typeof r.correct === 'number' && r.correct >= 0 && r.correct < (r.options?.length||0)) ? r.correct : -1;
+                const letter = ci >= 0 ? ((typeof window !== 'undefined' && window.safeLetter) ? window.safeLetter(ci) : String.fromCharCode(65 + ci)) : '';
+                const ctext = ci >= 0 ? (r.options?.[ci] || '') : '';
+                const answerHtml = ci >= 0 ? `
+                    <div class="answer-block">
+                        <div class="answer-title">Correct Answer</div>
+                        <div class="answer-option"><div class="option-letter">${letter}</div><div class="option-text">${truncate(ctext, 80)}</div></div>
+                    </div>
+                ` : '';
+                return `
+                <div class="result-item" onclick="openSearchResult(${idx})">
+                    <div class="result-title">${truncate(r.text)}</div>
+                    <div class="result-meta">${r.meta.category} • ${r.meta.test}</div>
+                    ${answerHtml}
+                </div>`;
+            }).join('');
+            resultsEl.style.display = 'block';
+        }
+
+        function openSearchResult(index){
+            if (!searchResults.length) return;
+            isSearchMode = true;
+            questions = searchResults;
+            currentQuestionIndex = Math.max(0, Math.min(index, questions.length-1));
+            userAnswers = {};
+            showQuestion();
+            showSection('test');
+        }
+
+        function finishTest() {
+            let correct = 0;
+            let wrong = 0;
+            let skipped = 0;
+
+            questions.forEach(q => {
+                if (userAnswers[q.id] === undefined) {
+                    skipped++;
+                } else if (userAnswers[q.id] === q.correct) {
+                    correct++;
+                } else {
+                    wrong++;
+                }
+            });
+
+            const scorePercent = Math.round((correct / questions.length) * 100);
+
+            document.getElementById('score').textContent = scorePercent + '%';
+            document.getElementById('correct').textContent = correct;
+            document.getElementById('wrong').textContent = wrong;
+            document.getElementById('skipped').textContent = skipped;
+
+            showSection('results');
+        }
+
+        function showCategories() {
+            showSection('categories');
+            // Hide search results on return and restore category list
+            const resultsEl = document.getElementById('search-results');
+            if (resultsEl) { resultsEl.style.display = 'none'; resultsEl.innerHTML = ''; }
+            const catList = document.getElementById('category-list');
+            if (catList) catList.style.display = 'block';
+            // Clear search input
+            const input = document.getElementById('watch-search-input');
+            if (input) input.value = '';
+            const hintEl = document.getElementById('search-hint');
+            if (hintEl) hintEl.style.display = 'block';
+        }
+
+        // Debounce helper for auto-search
+        function debounce(fn, delay = 250) {
+            let t;
+            return function(...args){
+                clearTimeout(t);
+                t = setTimeout(() => fn.apply(this, args), delay);
+            };
+        }
+
+        // Render all categories dynamically on home page
+        async function renderCategories(){
+            const listEl = document.getElementById('category-list');
+            if (!listEl) return;
+            await ensureBankLoaded();
+            const data = window.testData || {};
+            const cats = Object.entries(data).map(([id, cat]) => {
+                const tests = Array.isArray(cat?.tests) ? cat.tests : [];
+                const qCount = tests.reduce((acc, t) => acc + ((t.questions || []).length), 0);
+                return { id, name: cat?.name || id, tests: tests.length, qCount };
+            }).sort((a,b) => a.name.localeCompare(b.name));
+            listEl.innerHTML = cats.map(c => `
+                <button class="category-btn" data-cat="${c.id}">
+                    <div class="category-name">${c.name}</div>
+                    <div class="category-info">${c.tests} Tests • ${c.qCount} Questions</div>
+                </button>
+            `).join('');
+            listEl.querySelectorAll('.category-btn').forEach(btn => {
+                btn.addEventListener('click', () => startTest(btn.dataset.cat));
+            });
+            if (!cats.length) {
+                listEl.innerHTML = '<div style="padding:12px;color:#94a3b8;">No questions available.</div>';
+            }
+        }
+
+        // Init
+        document.addEventListener('DOMContentLoaded', () => {
+            // Auto-search as you type with debounce
+            const input = document.getElementById('watch-search-input');
+            if (input) {
+                input.addEventListener('input', debounce(performSearch, 250));
+            }
+            // Populate categories from bank
+            renderCategories();
+        });
+
+        // Service Worker Registration for Offline Support
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('data:text/javascript;base64,' + btoa(`
+                    const CACHE_NAME = 'aviation-watch-v2';
+                    
+                    self.addEventListener('install', (event) => {
+                        event.waitUntil(
+                            caches.open(CACHE_NAME).then((cache) => {
+                                return cache.addAll([
+                                    './smartwatch.html'
+                                ]);
+                            })
+                        );
+                    });
+                    
+                    self.addEventListener('fetch', (event) => {
+                        event.respondWith(
+                            caches.match(event.request).then((response) => {
+                                return response || fetch(event.request);
+                            })
+                        );
+                    });
+                `))
+                .then(() => console.log('Offline mode enabled'))
+                .catch(() => console.log('Running in standalone mode'));
+            });
+        }
+
+        // Save to localStorage for true offline persistence
+        const appData = {
+            questions: sampleQuestions,
+            version: '1.0'
+        };
+        
+        try {
+            localStorage.setItem('aviationWatchData', JSON.stringify(appData));
+        } catch (e) {
+            console.log('localStorage not available, using in-memory storage');
+        }
+    </script>
+</body>
+</html>

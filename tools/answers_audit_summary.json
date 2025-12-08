@@ -1,0 +1,16 @@
+{
+  "totals": {
+    "total": 1785,
+    "verified": 12,
+    "unverified": 1773
+  },
+  "confidence": {
+    "high": 8,
+    "medium": 4
+  },
+  "dataIssues": {
+    "malformedOptions": 0,
+    "correctIndexOutOfRange": 0
+  },
+  "suspects": 72
+}

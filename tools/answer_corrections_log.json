@@ -1,0 +1,12 @@
+[
+  {
+    "category": "instrumentation",
+    "categoryName": "Instrumentation",
+    "test": 3,
+    "qNum": 3,
+    "question": "The ability of a gyroscope to indicate aircraft heading is b...",
+    "oldAnswer": "C",
+    "newAnswer": "A",
+    "similarity": "100.0%"
+  }
+]

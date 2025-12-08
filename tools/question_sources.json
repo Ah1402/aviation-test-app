@@ -1,0 +1,34 @@
+[
+  {
+    "id": "phak",
+    "name": "Pilot's Handbook of Aeronautical Knowledge (FAA-H-8083-25)",
+    "url": "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/phak/00_phak_full.pdf",
+    "type": "pdf",
+    "license": "US Federal Government publication (public domain)",
+    "categories": ["Air Law","Human Performance","Meteorology","Navigation","Aircraft General Knowledge","Principles of Flight"]
+  },
+  {
+    "id": "ifh",
+    "name": "Instrument Flying Handbook (FAA-H-8083-15)",
+    "url": "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/ifh/00_ifh_full.pdf",
+    "type": "pdf",
+    "license": "US Federal Government publication (public domain)",
+    "categories": ["Instrumentation","Radio Navigation","Navigation"]
+  },
+  {
+    "id": "afh",
+    "name": "Airplane Flying Handbook (FAA-H-8083-3)",
+    "url": "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/afh/00_afh_full.pdf",
+    "type": "pdf",
+    "license": "US Federal Government publication (public domain)",
+    "categories": ["Performance","Mass & Balance","Principles of Flight"]
+  },
+  {
+    "id": "aim",
+    "name": "Aeronautical Information Manual (AIM)",
+    "url": "https://www.faa.gov/air_traffic/publications/atpubs/aim/aim.pdf",
+    "type": "pdf",
+    "license": "US Federal Government publication (public domain)",
+    "categories": ["Air Law","Operational Procedures","Radio Navigation","Navigation"]
+  }
+]

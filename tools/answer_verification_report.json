@@ -1,0 +1,10 @@
+{
+  "generatedAt": "2025-11-07T17:32:39.272Z",
+  "mismatches": [],
+  "unmatchedParsedCount": 1,
+  "thresholds": {
+    "questionSimilarityMin": 0.7,
+    "compositeMin": 0.75
+  },
+  "groups": []
+}

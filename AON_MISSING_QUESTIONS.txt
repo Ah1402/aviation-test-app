@@ -1,0 +1,1632 @@
+ID: 26
+Question: picture
+Answer: null
+Best Match Score: 26.3%
+Best Match: Ceilometers measure:
+--------------------------------------------------------------------------------
+ID: 28
+Question: on an ILS approach you receive more of the 90 Hz modulation than the 150 Hz modulation.
+Answer: fly right and down
+Best Match Score: 74.1%
+Best Match: On an ILS approach you receive more of the 90 Hz modulation than the 150 Hz modu
+--------------------------------------------------------------------------------
+ID: 34
+Question:  picture
+Answer: null
+Best Match Score: 26.3%
+Best Match: Ceilometers measure:
+--------------------------------------------------------------------------------
+ID: 37
+Question: Which of the following systems use pulse technique?
+Answer: null
+Best Match Score: 68.0%
+Best Match: Which of the following statements is true?
+--------------------------------------------------------------------------------
+ID: 45
+Question: (pic)The DME in an aircraft at FL630 measures a slant range of 16 NM from a ground
+Answer: null
+Best Match Score: 62.2%
+Best Match: The DME in an aircraft at FL630 measures a slant range of 16 NM from a ground st
+--------------------------------------------------------------------------------
+ID: 51
+Question: If the receiver almanac becomes corrupted it will download the almanac from the
+Answer: 12.5 minutes
+Best Match Score: 67.5%
+Best Match: If the receiver almanac becomes corrupted it will download the almanac from the 
+--------------------------------------------------------------------------------
+ID: 60
+Question: PICTURE
+Answer: Diagram C
+Best Match Score: 26.3%
+Best Match: Ceilometers measure:
+--------------------------------------------------------------------------------
+ID: 64
+Question: Doppler operates on the principle that ..... between a transmitter and receiver will cause
+Answer: relative motion, decrease, apart
+Best Match Score: 54.9%
+Best Match: Doppler operates on the principle that ...... between a transmitter and receiver
+--------------------------------------------------------------------------------
+ID: 70
+Question: The pilot of an aircraft flying at FL240 is 250 NM from a VOR at 16 ft AMSL which he
+Answer: the aircraft is beyond line of sight range
+Best Match Score: 58.7%
+Best Match: The pilot of an aircraft flying at FL240 is 250 NM from a VOR at 16 ft AMSL whic
+--------------------------------------------------------------------------------
+ID: 71
+Question: Determine which of the following statements concerning atmospheric ionization are
+Answer: statements 1 and 4 are correct
+Best Match Score: 54.3%
+Best Match: Which of the following statements regarding an electric circuit is correct?
+--------------------------------------------------------------------------------
+ID: 77
+Question: The phase difference measured at the aircraft from a VOR is 235". The bearing of the
+Answer: 055°
+Best Match Score: 74.5%
+Best Match: The phase difference measured at the aircraft from a VOR is 235°. The bearing of
+--------------------------------------------------------------------------------
+ID: 81
+Question: flying an ILS approach the equipment senses that the 90Hz modulation predominates on
+Answer: fly right fly down
+Best Match Score: 51.9%
+Best Match: Flying an ILS approach the equipment senses that the 90 Hz modulation predominat
+--------------------------------------------------------------------------------
+ID: 83
+Question: the time interval between the transmission of a pulse and receipt of the echo from a target
+Answer: 75NM
+Best Match Score: 65.5%
+Best Match: The time interval between the transmission of a pulse and receipt of the echo fr
+--------------------------------------------------------------------------------
+ID: 86
+Question: A precision approach runway CAT Il is an instrument runway served by ILS and visual aids
+Answer: a RVR of 300-450 meters and a DH of not less than 100ft.
+Best Match Score: 72.5%
+Best Match: A precision approach runway CAT II is an instrument runway served by ILS and vis
+--------------------------------------------------------------------------------
+ID: 87
+Question: on a ILS approach, using 3* glide path, the height of an aircraft, ground speed 160 kt, at
+Answer: 1050 ft
+Best Match Score: 71.4%
+Best Match: On an ILS approach, using a 3° glide path, the height of an aircraft, ground spe
+--------------------------------------------------------------------------------
+ID: 99
+Question: An aircraft is 100 NM SW of a VOR heading 080". The pilot intends to home to the VOR on
+Answer: 030, TO, Fly Right
+Best Match Score: 40.2%
+Best Match: An aircraft is certified to land with flaps at either 25 or 35 degrees of flap. 
+--------------------------------------------------------------------------------
+ID: 102
+Question:  Above VS
+Answer: null
+Best Match Score: 37.5%
+Best Match: Power is:
+--------------------------------------------------------------------------------
+ID: 112
+Question: What is the effect of an aft shift of the
+Answer: (1) reduces (2) reduces.
+Best Match Score: 51.1%
+Best Match: What is the speed of sound at 30000 ft and -40 C?
+--------------------------------------------------------------------------------
+ID: 115
+Question: The CG of an aeroplane is in a fixed position forward of the neutral point.
+Answer: An increase of 10 kt from the trimmed position at low speed has more effect on the stick
+Best Match Score: 50.7%
+Best Match: The CG of an aeroplane is in a fixed position forward of the neutral point. Spee
+--------------------------------------------------------------------------------
+ID: 135
+Question: unavailable
+Answer: unavailable
+Best Match Score: 27.8%
+Best Match: Area navigation is:
+--------------------------------------------------------------------------------
+ID: 143
+Question: When considering an angle of attack versus coefficient of lift graph for a cambered
+Answer: above the origin
+Best Match Score: 55.7%
+Best Match: When considering an angle of attack versus coefficient of lift graph for a cambe
+--------------------------------------------------------------------------------
+ID: 156
+Question: When considering an angle of attack versus coefficient of lift graph for a cambered
+Answer: below the origin
+Best Match Score: 55.7%
+Best Match: When considering an angle of attack versus coefficient of lift graph for a cambe
+--------------------------------------------------------------------------------
+ID: 161
+Question: In accordance with Bernoulli's
+Answer: PT - PS = q
+Best Match Score: 35.8%
+Best Match: In a modern airliner what is the hydraulic fluid used?
+--------------------------------------------------------------------------------
+ID: 164
+Question: In a subsonic flow venturi, the relationship between the total pressure, static pressure
+Answer: (i) is incorrect and (ii) is correct
+Best Match Score: 44.7%
+Best Match: In accordance with Bernoulli’s Theorem, where PT = Total Pressure, PS = Static p
+--------------------------------------------------------------------------------
+ID: 165
+Question: The Principle of Continuity states that in a tube of increasing cross-sectional area, the
+Answer: decrease
+Best Match Score: 62.1%
+Best Match: The Principle of Continuity states that in a tube of increasing cross sectional 
+--------------------------------------------------------------------------------
+ID: 169
+Question: As a smooth flow of subsonic air at a--velocity less than M 0.4 flows through a divergent
+Answer: (i) increases and (ii)
+Best Match Score: 70.5%
+Best Match: As a smooth flow of subsonic air at a velocity less than M 0.4 flows through a d
+--------------------------------------------------------------------------------
+ID: 170
+Question: When considering the Principle of Continuity for incompressible subsonic flow, what
+Answer: The density at the throat will be the same as the density at the mouth.
+Best Match Score: 57.3%
+Best Match: When considering the Principle of Continuity for incompressible subsonic flow, w
+--------------------------------------------------------------------------------
+ID: 173
+Question: When considering the Principle of Continuity for subsonic flow, what happens in a
+Answer: RHO 1 = RHO 2
+Best Match Score: 63.0%
+Best Match: When considering the Principle of Continuity for subsonic flow, what happens in 
+--------------------------------------------------------------------------------
+ID: 179
+Question: A line from the centre of curvature of the leading edge to the trailing edge, equidistant
+Answer: camber line
+Best Match Score: 36.5%
+Best Match: After take-off why are the slats (if installed) always retracted later than the 
+--------------------------------------------------------------------------------
+ID: 182
+Question: For a turboprop aircraft, the LDA at an aerodrome is 2200 m. If the conditions are
+Answer: 1339 m
+Best Match Score: 59.7%
+Best Match: For a turboprop aircraft, the LDA at an aerodrome is 2200 m. If the conditions a
+--------------------------------------------------------------------------------
+ID: 183
+Question: The information in a light aircraft manual gives two power settings for cruise, 65% and
+Answer: cruise speed will be higher, fuel consumption will be higher
+Best Match Score: 41.2%
+Best Match: The best L/D ratio of an aircraft in a given configuration is a value that:
+--------------------------------------------------------------------------------
+ID: 185
+Question: Climbing in the troposphere at a constant TAS:
+Answer: Mach number increases
+Best Match Score: 37.8%
+Best Match: What is the purpose of trim tabs?
+--------------------------------------------------------------------------------
+ID: 189
+Question: What factor must be applied to the landing distance available at the destination
+Answer: 0.60
+Best Match Score: 38.0%
+Best Match: In wet conditions, what extra percentage over the dry gross landing distance mus
+--------------------------------------------------------------------------------
+ID: 196
+Question: Putting in 16.500 litres of fuel with an SG of 780 kg/m2, and writing 16.500 kg of fuel on
+Answer: TOD and ASD decreasing, and the calculated V2 being too fast
+Best Match Score: 31.4%
+Best Match: During an approach to autoland at 1500 feet:
+--------------------------------------------------------------------------------
+ID: 197
+Question: what does density altitude signify
+Answer: An accurate indication of aircraft and engine performance.
+Best Match Score: 67.6%
+Best Match: What is density altitude?
+--------------------------------------------------------------------------------
+ID: 207
+Question: A north/south mountain range, height 10.000 ft is producing marked mountain waves. The
+Answer: above a line of clouds parallel to the ridge on the lee side at FL25
+Best Match Score: 59.4%
+Best Match: A north/south mountain range, height 10,000 ft is producing marked mountain wave
+--------------------------------------------------------------------------------
+ID: 210
+Question: When flying in IMC in a region close to a range of hills 2000 ft high, in stable air and with
+Answer: flying parallel to the hills on the downwind side at flight level 40
+Best Match Score: 41.8%
+Best Match: When flying in IMC in a region close to a range of hills 2000 ft high, in stable
+--------------------------------------------------------------------------------
+ID: 212
+Question: A mountain range is aligned in an east/west direction. Select the conditions from the table
+Answer: 170/20 190/40 210/60
+Best Match Score: 54.9%
+Best Match: A mountain range is aligned in an east/west direction. Select the conditions fro
+--------------------------------------------------------------------------------
+ID: 214
+Question: For mountain waves to form, the wind direction must be near perpendicular to a ridge or
+Answer: increase with height within a stable layer above the hill
+Best Match Score: 69.4%
+Best Match: For mountain waves to form, the wind direction must be near perpendicular to a r
+--------------------------------------------------------------------------------
+ID: 219
+Question: Clear air turbulence (CAT) should be reported whenever it is experienced.
+Answer: Moderate TURB
+Best Match Score: 46.8%
+Best Match: Clear air turbulence associated with a jet stream is likely to be encountered:
+--------------------------------------------------------------------------------
+ID: 221
+Question: During the ......... stage of a thunderstorm cell, the cloud contains ...... Complete the
+Answer: mature/up currents and down currents
+Best Match Score: 57.3%
+Best Match: During the ......... stage of a thunderstorm cell, the cloud contains ......... 
+--------------------------------------------------------------------------------
+ID: 227
+Question: A plain in Western Europe at 500 m (1600 ft) AMSL is covered with a uniform altocumulus
+Answer: 7000 - 15000 ft
+Best Match Score: 51.5%
+Best Match: A plain in Western Europe at 500 m (1600 ft) AMSL is covered with a uniform alto
+--------------------------------------------------------------------------------
+ID: 228
+Question: Thunderstorms require a trigger action to release the conditional instability.
+Answer: Subsidence in tropical latitudes
+Best Match Score: 54.6%
+Best Match: Thunderstorms require a trigger action to release the conditional instability. W
+--------------------------------------------------------------------------------
+ID: 231
+Question: When moist air moves across France in the ............ TS activity is common in southern UK
+Answer: summer/late afternoon or evening
+Best Match Score: 51.7%
+Best Match: When moist air moves across France in the ......... TS activity is common in sou
+--------------------------------------------------------------------------------
+ID: 244
+Question: How long approximately does a cumulonimbus cell take to complete the full cycle from
+Answer: 2-3 hours
+Best Match Score: 66.7%
+Best Match: How long approximately does a cumulonimbus cell take to complete the full cycle 
+--------------------------------------------------------------------------------
+ID: 246
+Question: A microburst usually lasts for....  and is about .... across.
+Answer: 5 minutes 5 km
+Best Match Score: 69.4%
+Best Match: A microburst usually lasts for _________ and is about ____________across.
+--------------------------------------------------------------------------------
+ID: 247
+Question: At temperatures of between 0°C and
+Answer: mostly supercooled water droplets and a few ice crystals
+Best Match Score: 55.0%
+Best Match: At temperatures of between 0°C and -10°C clouds will consist of:
+--------------------------------------------------------------------------------
+ID: 248
+Question: When approaching at flight level 300 a cumulonimbus cloud with an anvil top, pilots
+Answer: 20
+Best Match Score: 60.7%
+Best Match: When approaching at flight level 300 a cumulonimbus cloud with an anvil top, pil
+--------------------------------------------------------------------------------
+ID: 250
+Question: Several types of pressure distribution may be associated with radiation fog but all have
+Answer: a stack pressure gradient
+Best Match Score: 73.9%
+Best Match: Several types of pressure distribution may be associated with radiation fog but 
+--------------------------------------------------------------------------------
+ID: 254
+Question: ............. forms when moist air ...........
+Answer: Advection fog, passes, cooler
+Best Match Score: 35.0%
+Best Match: Load shedding is:
+--------------------------------------------------------------------------------
+ID: 262
+Question: Flying in large CU at a temperature of -20°C, the amount of each cloud droplet that will
+Answer: ¼ of the droplet
+Best Match Score: 66.4%
+Best Match: Flying in large CU at a temperature of -20°C, the amount of each cloud droplet t
+--------------------------------------------------------------------------------
+ID: 263
+Question: In the N. Hemisphere when flying in the troposphere above the surface friction layer in
+Answer: the wind will tend to back in direction and increase in speed with progressive increase of
+Best Match Score: 48.9%
+Best Match: In the N. Hemisphere when flying in the troposphere above the surface friction l
+--------------------------------------------------------------------------------
+ID: 269
+Question: Most cases of serious piston engine icing occur in cloud, fog, or
+Answer: - 10°C to + 25°C
+Best Match Score: 57.3%
+Best Match: Most cases of serious piston engine icing occur in cloud, fog, or precipitation 
+--------------------------------------------------------------------------------
+ID: 273
+Question: Characteristic weather associated with a mPc (maritime Polar cold) air mass transiting
+Answer: widespread Cu and Cb activity overland during the day
+Best Match Score: 66.7%
+Best Match: Characteristic weather associated with a mPc (maritime Polar cold) air mass tran
+--------------------------------------------------------------------------------
+ID: 274
+Question: Polar maritime air is.......And can bring ......winter but..... in summer
+Answer: unstable/heavy showers/light rain showers
+Best Match Score: 45.5%
+Best Match: If polar maritime air flows over the UK in winter, the weather is likely to be:
+--------------------------------------------------------------------------------
+ID: 276
+Question: Which of the following conditions is most favourable for the formation of carburettor icing
+Answer: 40% +20°C
+Best Match Score: 57.1%
+Best Match: Which of the following conditions is most likely to cause longitudinal instabili
+--------------------------------------------------------------------------------
+ID: 281
+Question: graph
+Answer: cirrus
+Best Match Score: 21.1%
+Best Match: The diagram depicts:
+--------------------------------------------------------------------------------
+ID: 299
+Question: When flying from west to east through a cold occlusion (below the warm air) over the
+Answer: back/increase
+Best Match Score: 40.2%
+Best Match: When flying at the optimum range altitude, over time the:
+--------------------------------------------------------------------------------
+ID: 303
+Question: During certification test fights for a turbojet aeroplane, the measured take-off runs from
+Answer: 1810 m
+Best Match Score: 45.5%
+Best Match: Destination alternate for a turbojet - what is the required fuel overhead?
+--------------------------------------------------------------------------------
+ID: 308
+Question: Cruising with 1 or 2 engines inoperative at high altitude, compared to all engines
+Answer: decrease
+Best Match Score: 74.3%
+Best Match: Cruising with 1 or 2 engines inoperative at high altitude, compared to all engin
+--------------------------------------------------------------------------------
+ID: 309
+Question: In a glide (power-of descent) if pitch angle is increased, glide distance will:
+Answer: decrease
+Best Match Score: 36.0%
+Best Match: What approximate rate of descent is required in order to maintain a 3 degree gli
+--------------------------------------------------------------------------------
+ID: 313
+Question: Two identical aircraft at different masses are descending at idle thrust. Which of the
+Answer: At a given angle of attack, both the vertical and the forward speeds are greater for the
+Best Match Score: 54.5%
+Best Match: Two identical aircraft at different masses are descending at idle thrust. Which 
+--------------------------------------------------------------------------------
+ID: 317
+Question:  The induced drag in an aeroplane:
+Answer: decreases as speed increases
+Best Match Score: 42.9%
+Best Match: The basic empty mass is the mass of the aeroplane:
+--------------------------------------------------------------------------------
+ID: 323
+Question: 4 light twin-engine aircraft is climbing from the screen height of 50 ft, and has an
+Answer: 115m
+Best Match Score: 35.4%
+Best Match: An aircraft is allowed to descend below the MSA if:
+--------------------------------------------------------------------------------
+ID: 324
+Question: An aircraft may use either 5° or 15° flap setting for take-off. The effect of selecting the
+Answer: take-off distance and take-off climb gradient will both increase
+Best Match Score: 66.9%
+Best Match: An aircraft may use either 5° or 15° flap setting for take-off. The effect of se
+--------------------------------------------------------------------------------
+ID: 331
+Question: If the calculations for an aeroplane of 3250 Ibs indicate a service ceiling of 4000 m, what
+Answer: higher
+Best Match Score: 56.0%
+Best Match: If the calculations for an aeroplane of 3250 lbs indicate a service ceiling of 4
+--------------------------------------------------------------------------------
+ID: 334
+Question: With respect to en-route diversions (using drift down graph), if you believe that you will
+Answer: asses remaining fuel requirements, then jettison fuel as soon as possible
+Best Match Score: 74.8%
+Best Match: With respect to en-route diversions (using drift down graph), if you believe tha
+--------------------------------------------------------------------------------
+ID: 336
+Question: Take off on a runway with standing water, with a depth of 0.5 cm. Compared to a dry
+Answer: decrease, with a decreased V1
+Best Match Score: 67.8%
+Best Match: Take off on a runway with standing water, with a depth of 0.5 cm. Compared to a 
+--------------------------------------------------------------------------------
+ID: 338
+Question: with respect to field length limit, fill in the blanks in the follow statement.
+Answer: V1, 2 sec, ASDA
+Best Match Score: 37.7%
+Best Match: What effect does a downhill slope have on the take-off speeds?
+--------------------------------------------------------------------------------
+ID: 343
+Question: During the certification of an aeroplane, the take-off distance with all engines operating
+Answer: 1779 m
+Best Match Score: 42.0%
+Best Match: If the identification of a VOR is FKL and the paired DME identification is FKZ, 
+--------------------------------------------------------------------------------
+ID: 345
+Question: Two identical turbojets are holding at the same altitude and have the same specifc fuel
+Answer: 3804 kg/hr
+Best Match Score: 40.2%
+Best Match: For a turbojet aeroplane the second segment of the climb begins when:
+--------------------------------------------------------------------------------
+ID: 347
+Question: in aircraft is certified to land with flaps at either 25 or 35 degrees of flap. If the pilot
+Answer: reduced landing distance and reduced go-around performance
+Best Match Score: 68.2%
+Best Match: An aircraft is certified to land with flaps at either 25 or 35 degrees of flap. 
+--------------------------------------------------------------------------------
+ID: 351
+Question: What landing distance requirements need to be met at an alternate airfield compared to a
+Answer: Same as destination
+Best Match Score: 70.4%
+Best Match: What landing distance requirements need to be met at an alternate airfield compa
+--------------------------------------------------------------------------------
+ID: 359
+Question: In dry conditions, when landing at an alternate airport in a turbojet by what factor should
+Answer: 1.67
+Best Match Score: 54.2%
+Best Match: In dry conditions, when landing at an alternate airport in a turbojet by what fa
+--------------------------------------------------------------------------------
+ID: 361
+Question: When approaching a wet runway, with the risk of hydroplaning, what technique should
+Answer: Positive touchdown, full reverse and only brakes below Vp
+Best Match Score: 60.9%
+Best Match: When approaching a wet runway, with the risk of hydroplaning, what technique sho
+--------------------------------------------------------------------------------
+ID: 364
+Question: An aircraft with a mass of 110.000 kg is capable of maintaining a gradient of 2.6%. With
+Answer: 119167 kg
+Best Match Score: 43.5%
+Best Match: An aircraft with a mass of 110,000 kg is capable of maintaining a gradient of 2.
+--------------------------------------------------------------------------------
+ID: 388
+Question: Each flight is subject to a preliminary file collecting a certain amount of information. The
+Answer: 2,3, 4 & 5
+Best Match Score: 33.0%
+Best Match: In comparison with a primary depression a secondary depression is:
+--------------------------------------------------------------------------------
+ID: 390
+Question: A category A aircraft can carry out an indirect (circling) approach followed by a visual
+Answer: 1500 m
+Best Match Score: 54.8%
+Best Match: A category A aircraft can carry out an indirect (circling) approach followed by 
+--------------------------------------------------------------------------------
+ID: 391
+Question: What are the circling minimum visibility and MDH for a category B aeroplane?
+Answer: 1600 m 500 ft
+Best Match Score: 44.0%
+Best Match: What is the minimum required RVR for CAT IIIB operations?
+--------------------------------------------------------------------------------
+ID: 398
+Question: According to OPS 1.430, Airfield Operating Minima, what is the lowest MDH using ILS no
+Answer: NDB - MDH 350 ft
+Best Match Score: 72.2%
+Best Match: According to OPS 1.430, Airfield Operating Minima, what is the lowest MDH using 
+--------------------------------------------------------------------------------
+ID: 400
+Question: The considerations for a non-precision approach are:
+Answer: 1,3 & 4
+Best Match Score: 52.6%
+Best Match: The considerations for a non-precision approach are: 1. MDH 2. Visibility 3. RVR
+--------------------------------------------------------------------------------
+ID: 401
+Question: A category I precision approach (CAT I) is an approach which may be carried out with a
+Answer: 550 m
+Best Match Score: 72.4%
+Best Match: A category I precision approach (CAT I) is an approach which may be carried out 
+--------------------------------------------------------------------------------
+ID: 402
+Question: What are the threshold speeds for a Cat D aeroplane?
+Answer: 141 - 165 kt
+Best Match Score: 74.5%
+Best Match: What are the threshold speeds defining a Cat B aircraft?
+--------------------------------------------------------------------------------
+ID: 409
+Question: When establishing an instrument approach procedure, 5 aircraft categories according to
+Answer: 1.3
+Best Match Score: 39.5%
+Best Match: When establishing an instrument approach procedure, 5 aircraft categories accord
+--------------------------------------------------------------------------------
+ID: 411
+Question: An aeroplane is starting a non-precision approach with an MDH of 250 ft and minimum
+Answer: When threshold RVR is greater than 800 m
+Best Match Score: 43.9%
+Best Match: An aeroplane is starting a non-precision approach with an MDH of 250 ft and mini
+--------------------------------------------------------------------------------
+ID: 413
+Question: What is the take-off RVR limit for a Cat A aeroplane, when high intensity centre line lights
+Answer: 200 m
+Best Match Score: 57.7%
+Best Match: What is the take-off RVR limit for a Cat A aeroplane, when high intensity centre
+--------------------------------------------------------------------------------
+ID: 415
+Question: Aircraft are categorized according to their threshold speeds, muttiplied by a factor. What
+Answer: Aeroplane category D
+Best Match Score: 56.9%
+Best Match: Aircraft are categorized according to their threshold speeds, multiplied by a fa
+--------------------------------------------------------------------------------
+ID: 416
+Question: The information to be considered for a non-precision approach is:
+Answer: 1, 2 & 3
+Best Match Score: 43.8%
+Best Match: The information to be considered for a non-precision approach is: 1. horizontal 
+--------------------------------------------------------------------------------
+ID: 422
+Question: 1 determining Aerodrome Operating Minima, what of the following needs to be
+Answer: all of the above
+Best Match Score: 46.1%
+Best Match: According to OPS 1.430 (Aerodrome Operating Minima), what is the minimum RVR req
+--------------------------------------------------------------------------------
+ID: 424
+Question:  A pilot in command
+Answer: 3 & 5
+Best Match Score: 39.4%
+Best Match: When can special VFR be commenced?
+--------------------------------------------------------------------------------
+ID: 427
+Question: er an accident, the operator of an aeroplane equipped with a flight recorder must keep
+Answer: 60 days
+Best Match Score: 62.5%
+Best Match: After an accident, the operator of an aeroplane equipped with a flight recorder 
+--------------------------------------------------------------------------------
+ID: 429
+Question: A copy of which of the following documents must be kept on the ground by an operator
+Answer: The operational flight plan
+Best Match Score: 72.4%
+Best Match: A copy of which of the following documents must be kept on the ground by an oper
+--------------------------------------------------------------------------------
+ID: 435
+Question: The Minimum Equipment List (MEL) gives the equipment which can be inoperative when
+Answer: the operator, and it is inserted in the OM
+Best Match Score: 63.5%
+Best Match: The Minimum Equipment List (MEL) gives the equipment which can be inoperative wh
+--------------------------------------------------------------------------------
+ID: 437
+Question: At the alternate aerodrome, the commander of a turbojet engine aeroplane should have a
+Answer: 30 minutes at holding flight speed at 1500 ft.
+Best Match Score: 59.9%
+Best Match: At the alternate aerodrome, the commander of a turbojet engine aeroplane should 
+--------------------------------------------------------------------------------
+ID: 438
+Question: During a flight, the captain is informed that a passenger is using a portable electronic
+Answer: stop the passenger from using the device.
+Best Match Score: 50.0%
+Best Match: During a flight, the captain is informed that a passenger is using a portable el
+--------------------------------------------------------------------------------
+ID: 440
+Question: rom the flight deck you observe an aeroplane in the forward left position on an opposite
+Answer: Red
+Best Match Score: 64.7%
+Best Match: From the flight deck you observe an aeroplane in the forward left position on an
+--------------------------------------------------------------------------------
+ID: 448
+Question: On an ILS, you are told that the weather has dropped below company minima. When
+Answer: Outer marker
+Best Match Score: 73.3%
+Best Match: On an ILS, you are told that the weather has dropped below company minima. When 
+--------------------------------------------------------------------------------
+ID: 454
+Question: On an NDB approach with an MDH of 360 ft and a required RVR of 1500 m and a
+Answer: With any cloud base
+Best Match Score: 56.4%
+Best Match: On an NDB approach with an MDH of 360 ft and a required RVR of 1500 m and a repo
+--------------------------------------------------------------------------------
+ID: 459
+Question: On board a pressurized aircraft, a flight shall be undertaken only if the aircraft is
+Answer: null
+Best Match Score: 40.9%
+Best Match: The phase difference measured at the aircraft from a VOR is 235°. The bearing of
+--------------------------------------------------------------------------------
+ID: 474
+Question: On an NDB approach with an MDH of 360 ft and a required RVR of 1500 m and a reported
+Answer: With any cloud base
+Best Match Score: 63.2%
+Best Match: On an NDB approach with an MDH of 360 ft and a required RVR of 1500 m and a repo
+--------------------------------------------------------------------------------
+ID: 479
+Question: On board a pressurized aircraft, a flight shall be undertaken only if the aircraft is provided
+Answer: 13000ft
+Best Match Score: 41.5%
+Best Match: On board a pressurized aircraft, a flight shall be undertaken only if the aircra
+--------------------------------------------------------------------------------
+ID: 488
+Question: ne shall not initiate any flight made in accordance with instrument flight rules unless the
+Answer: arrival equal to or better than the minimum conditions required for aerodrome use
+Best Match Score: 35.1%
+Best Match: One shall not initiate any flight made in accordance with instrument flight rule
+--------------------------------------------------------------------------------
+ID: 491
+Question: Who checks, before flight, that the aircraft's weight is such that the flight can be safely
+Answer: The captain
+Best Match Score: 55.0%
+Best Match: Who checks, before flight, that the aircraft's weight is such that the flight ca
+--------------------------------------------------------------------------------
+ID: 495
+Question: The recent experience conditions of a captain assigned to a flight on an aircraft by an
+Answer: 3 take-offs and 3 landings as pilot in command on this type of aircraft during the last 90
+Best Match Score: 73.7%
+Best Match: The recent experience conditions of a captain assigned to a flight on an aircraf
+--------------------------------------------------------------------------------
+ID: 500
+Question: Aeroplanes with a take-off mass greater than 5700 kg shall be fitted with an independent
+Answer: 30 mins
+Best Match Score: 46.8%
+Best Match: Aeroplanes with a take-off mass greater than 5700 kg shall be fitted with an ind
+--------------------------------------------------------------------------------
+ID: 503
+Question: If an aeroplane comes into land below its MSLM but above the PLLM for the arrival
+Answer: 2, 3, 4 and 5 only .
+Best Match Score: 37.0%
+Best Match: An aeroplane is head-on with a glider. Who has right of way?
+--------------------------------------------------------------------------------
+ID: 505
+Question: For a conventional light aeroplane with a tricycle undercarriage configuration, the higher
+Answer: statements 1 and 4 only are correct
+Best Match Score: 39.1%
+Best Match: For a conventional VOR a phase difference of 090° would be achieved by flying...
+--------------------------------------------------------------------------------
+ID: 508
+Question: if a compartment takes a maximum load of 500 kg, with a running load limit of 350 kg/m
+Answer: Either of boxes 3 and 4 with their longest length parallel to the aircraft longitudinal axis.
+Best Match Score: 32.1%
+Best Match: An aeroplane is head-on with a glider. Who has right of way?
+--------------------------------------------------------------------------------
+ID: 509
+Question: An aircraft is flying at 1.3VS1g in order to provide an adequate margin above the low
+Answer: 146.7 kt, drag will increase and nautical mile per kg fuel burn will decrease
+Best Match Score: 42.4%
+Best Match: An aircraft is travelling at 120 kt, what angle of bank would be required for a 
+--------------------------------------------------------------------------------
+ID: 515
+Question: Determine the position of the CG as a percentage of the MAC given that the balance arm
+Answer: 17.4% m
+Best Match Score: 59.7%
+Best Match: Determine the position of the CG as a percentage of the MAC given that the balan
+--------------------------------------------------------------------------------
+ID: 518
+Question: An aircraft is about to depart on an oceanic sector from a high elevation airfield with an
+Answer:  climb gradient
+Best Match Score: 44.1%
+Best Match: An aircraft is about to depart on an oceanic sector from a high elevation airfie
+--------------------------------------------------------------------------------
+ID: 520
+Question: fwd... cargo hold?
+Answer: 421.5 inches 2059 kg 13.12 kg per inch
+Best Match Score: 30.4%
+Best Match: When comparing Vx to Vy:
+--------------------------------------------------------------------------------
+ID: 523
+Question: When an aircraft fitted with a classic air-driven artificial horizon decelerates after
+Answer:  descending turn to left
+Best Match Score: 60.7%
+Best Match: When an aircraft fitted with a classic air-driven artificial horizon decelerates
+--------------------------------------------------------------------------------
+ID: 542
+Question: An aircraft is approaching a DME Beacon at 40000 ft, and slang range is 15 NM. What is
+Answer: 13NM
+Best Match Score: 68.9%
+Best Match: An aircraft is approaching a DME Beacon at 40000 ft, and slang range is 15 NM. W
+--------------------------------------------------------------------------------
+ID: 548
+Question: The inbound track to the navigation aid serving a hold is 250°, your aircraft heading is
+Answer: sector 2 (offset)
+Best Match Score: 67.6%
+Best Match: The inbound track to the navigation aid serving a hold is 250° What is the corre
+--------------------------------------------------------------------------------
+ID: 564
+Question: What are the meteorological prerequisites, at low level, for thunderstorms formed by
+Answer: High temperature, high humidity
+Best Match Score: 74.5%
+Best Match: What are the meteorological prerequisites, at low level, for thunderstorms forme
+--------------------------------------------------------------------------------
+ID: 566
+Question:  ADME & VOR are co-located and a morse ident is detected 4 times in 30 secs. Which of
+Answer: DME callsign once every 30 secs and higher in pitch than the VOR ident
+Best Match Score: 70.2%
+Best Match: A DME & VOR are co-located and a morse ident is detected 4 times in 30 secs. Whi
+--------------------------------------------------------------------------------
+ID: 583
+Question:  Compared with stalling airspeed (Vs) in a given configuration, the airspeed at which the
+Answer: Greater than Vs
+Best Match Score: 71.4%
+Best Match: Compared with stalling airspeed (Vs) in a given configuration, the airspeed at w
+--------------------------------------------------------------------------------
+ID: 586
+Question:  If you are flying at FL300 in an air mass that is 15°C warmer than a standard
+Answer:  -30°C
+Best Match Score: 57.1%
+Best Match: If you are flying at FL300 in an air mass that is 15 C warmer than a standard at
+--------------------------------------------------------------------------------
+ID: 587
+Question: During which stage of thunderstorm development are rotor winds
+Answer: mature stage
+Best Match Score: 45.7%
+Best Match: During which stage are downdraughts predominant in a thunderstorm cell?
+--------------------------------------------------------------------------------
+ID: 588
+Question:  An aircraft lands at an aerodrome of another Contracting State for technical reasons.
+Answer: 2nd freedom of the air
+Best Match Score: 46.9%
+Best Match: If a pilot lands at an aerodrome other than the destination specified in the fli
+--------------------------------------------------------------------------------
+ID: 603
+Question:  What is the purpose of the wing main spar?
+Answer: To withstand bending and torsional loads
+Best Match Score: 68.3%
+Best Match: What is the purpose of trim tabs?
+--------------------------------------------------------------------------------
+ID: 608
+Question: One advantage of using VHF for voice communications over HF is?
+Answer: VHF is less affected by atmospheric noise and electrical equipment
+Best Match Score: 37.1%
+Best Match: The advantages of SSR mode S are:
+--------------------------------------------------------------------------------
+ID: 610
+Question: What action is required by the pilot of an aircraft station if he/she is unable to establish
+Answer: Try to establish communication with other aircraft or aeronautical stations
+Best Match Score: 67.9%
+Best Match: What action is required by the pilot of an aircraft station if he/she is unable 
+--------------------------------------------------------------------------------
+ID: 612
+Question: If an aeroplane lands below its Max Structural Landing Mass, but above its Performance
+Answer: 1,2,3,5
+Best Match Score: 43.5%
+Best Match: If the maximum structural landing mass is exceeded:
+--------------------------------------------------------------------------------
+ID: 615
+Question: To roll the aircraft to the right:
+Answer: The aileron control is moved to the right, the right aileron goes up and the left one down
+Best Match Score: 45.7%
+Best Match: Where does the lift act on the wing?
+--------------------------------------------------------------------------------
+ID: 621
+Question: You are on a flight in accordance with IFR in IMC, exactly on the current flight plan route.
+Answer: Return to you current flight plan route
+Best Match Score: 38.5%
+Best Match: If a pilot lands at an aerodrome other than the destination specified in the fli
+--------------------------------------------------------------------------------
+ID: 622
+Question: Select the correct statement for the Datum:
+Answer: Is a fixed vertical plane from which all the arm distances are measured
+Best Match Score: 66.7%
+Best Match: Select the correct statement:
+--------------------------------------------------------------------------------
+ID: 625
+Question: What is correct about Fly-by / Fly-over
+Answer: A fly-by waypoint is a waypoint which requires turn anticipation to allow tangential
+Best Match Score: 63.6%
+Best Match: What is correct about Fly-by / Fly-over waypoints and turns?
+--------------------------------------------------------------------------------
+ID: 727
+Question: You receive this ATC clearance
+Answer: direct only
+Best Match Score: 40.4%
+Best Match: When the captain cannot comply with an ATC clearance:
+--------------------------------------------------------------------------------
+ID: 728
+Question: On a summer day, the following observations are made in Zurich:
+Answer: a cold front has passed the station in the morning, and rear side weather prevailed in the
+Best Match Score: 41.0%
+Best Match: Which of the following expressions is correct?
+--------------------------------------------------------------------------------
+ID: 737
+Question:  The purpose of a leading edge droop is:
+Answer: null
+Best Match Score: 63.0%
+Best Match: The main purpose of leading edge flaps/slats is:
+--------------------------------------------------------------------------------
+ID: 738
+Question: Using the 1 on 60 rule calculate the height on a 3 degree glide path of an aircraft 4.5 NM
+Answer: 1370 ft
+Best Match Score: 37.7%
+Best Match: What approximate rate of descent is required in order to maintain a 3 degree gli
+--------------------------------------------------------------------------------
+ID: 739
+Question: After experiencing two-way radio communications failure en route, when should a pilot
+Answer: Upon arrival at any initial approach fix for the instrument approach procedure but not
+Best Match Score: 64.3%
+Best Match: After experiencing two-way radio communications failure en route, when should a 
+--------------------------------------------------------------------------------
+ID: 740
+Question: What effect would a light crosswind have on the wingtip vortices generated by a large
+Answer: The upwind vortex will tend to remain on the runway longer than the downwind vortex.
+Best Match Score: 71.4%
+Best Match: What effect would a light crosswind have on the wingtip vortices generated by a 
+--------------------------------------------------------------------------------
+ID: 745
+Question:  To which aircraft position(s) does HSI presentation "E" correspond?
+Answer: 3 and 8
+Best Match Score: 40.3%
+Best Match: In SSR the aircraft replies on .............. MHz and the ground station interro
+--------------------------------------------------------------------------------
+ID: 746
+Question:  A particular instrument departure
+Answer: 490
+Best Match Score: 36.4%
+Best Match: A hot busbar is one that:
+--------------------------------------------------------------------------------
+ID: 748
+Question:  To which aircraft position(s) does HSI presentation "C" correspond?
+Answer: 12 only
+Best Match Score: 40.3%
+Best Match: In SSR the aircraft replies on .............. MHz and the ground station interro
+--------------------------------------------------------------------------------
+ID: 751
+Question: unavailable
+Answer: null
+Best Match Score: 27.8%
+Best Match: Area navigation is:
+--------------------------------------------------------------------------------
+ID: 752
+Question:  The contents of Aeronautical Information
+Answer: null
+Best Match Score: 66.7%
+Best Match: The contents of Aeronautical Information Publication (AIP) are:
+--------------------------------------------------------------------------------
+ID: 758
+Question: See the below figure.
+Answer: aircraft 2
+Best Match Score: 36.0%
+Best Match: Give the correct sequence:
+--------------------------------------------------------------------------------
+ID: 759
+Question: To which aircraft position(s) does HSI presentation "A" correspond?
+Answer: 9 and 6
+Best Match Score: 40.3%
+Best Match: In SSR the aircraft replies on .............. MHz and the ground station interro
+--------------------------------------------------------------------------------
+ID: 760
+Question: To which aircraft position(s) does HSI presentation "D" correspond?
+Answer:  2 only
+Best Match Score: 40.3%
+Best Match: In SSR the aircraft replies on .............. MHz and the ground station interro
+--------------------------------------------------------------------------------
+ID: 769
+Question: A person is suffering from anaemia when:
+Answer: lacking haemoglobin
+Best Match Score: 61.9%
+Best Match: A person suffering from glaucoma will have:
+--------------------------------------------------------------------------------
+ID: 770
+Question: The pressoreceptors have signalled low blood pressure. The body's response is to:
+Answer: 2, 3 and 6
+Best Match Score: 37.2%
+Best Match: The purpose of the PRN codes in NAVSTAR/GPS is to:
+--------------------------------------------------------------------------------
+ID: 778
+Question: The body gets its energy from:
+Answer: 2 & 3 only
+Best Match Score: 48.3%
+Best Match: The body loses water via:
+--------------------------------------------------------------------------------
+ID: 781
+Question:  Under normal conditions which gas diffuses from the blood to the alveoli?
+Answer: carbon dioxide
+Best Match Score: 42.1%
+Best Match: Under normal conditions, external respiration is a subconscious process that occ
+--------------------------------------------------------------------------------
+ID: 784
+Question: Which of the following statements are correct?: Decompression sickness can be avoided
+Answer: 1, 2 & 3 correct
+Best Match Score: 57.8%
+Best Match: Which of the following statements accurately describes the 'West African tornado
+--------------------------------------------------------------------------------
+ID: 786
+Question: answer c
+Answer: null
+Best Match Score: 37.5%
+Best Match: Power is:
+--------------------------------------------------------------------------------
+ID: 789
+Question: The following are features of hypoxia:
+Answer: 1, 2 and 4 are correct
+Best Match Score: 41.7%
+Best Match: Which of the following is the equation for power?
+--------------------------------------------------------------------------------
+ID: 790
+Question: Which of the following are defined in the ICAO Standard Atmosphere?
+Answer: 1, 2 & 3
+Best Match Score: 58.9%
+Best Match: Which of the following are defined in the ICAO Standard Atmosphere? 1. Pressure 
+--------------------------------------------------------------------------------
+ID: 794
+Question: Time of useful consciousness at 25.000 feet with moderate activity and rapid
+Answer: 2 minutes
+Best Match Score: 70.8%
+Best Match: Time of useful consciousness at 25,000 feet with moderate activity and rapid dec
+--------------------------------------------------------------------------------
+ID: 804
+Question: Disorientation is most likely to occur when:
+Answer: 1, 2 and 4
+Best Match Score: 51.2%
+Best Match: Frontal fog is most likely to:
+--------------------------------------------------------------------------------
+ID: 812
+Question: Perceptual conflict between the vestibular apparatus and the visual sensory inputs:
+Answer: 1, 2, 3 and 4
+Best Match Score: 36.6%
+Best Match: The angle between True North and Magnetic North is known as:
+--------------------------------------------------------------------------------
+ID: 819
+Question: What actions should a pilot take if suffering from vertigo?
+Answer: 1, 3 and 4
+Best Match Score: 40.4%
+Best Match: What action should be taken if contact is lost with the runway during a circling
+--------------------------------------------------------------------------------
+ID: 823
+Question: Extreme cold may be associated with:
+Answer: contentment or apathy
+Best Match Score: 57.1%
+Best Match: Dalton's Law is associated with:
+--------------------------------------------------------------------------------
+ID: 824
+Question: stressors are:
+Answer: both external and internal factors
+Best Match Score: 45.0%
+Best Match: Static pressure acts:
+--------------------------------------------------------------------------------
+ID: 828
+Question: If a pilot in an unpressurized aircraft suffers from severe flatulence in flight. He/she
+Answer: null
+Best Match Score: 36.0%
+Best Match: If air in transit is heated from below it tends to become more:
+--------------------------------------------------------------------------------
+ID: 829
+Question: According to the "General Adaptation Syndrome" which of the following statements) is/
+Answer: 1, 2 & 3 are correct
+Best Match Score: 52.3%
+Best Match: With reference to tropical revolving storms, which of the following statements i
+--------------------------------------------------------------------------------
+ID: 830
+Question: Performance can be increased by:
+Answer: a moderate amount of stress
+Best Match Score: 45.2%
+Best Match: Distance on MLS is measured by:
+--------------------------------------------------------------------------------
+ID: 831
+Question: A person that is exposed to extreme or prolonged stress factors can perceive:
+Answer: distress
+Best Match Score: 34.2%
+Best Match: An aircraft is allowed to descend below the MSA if:
+--------------------------------------------------------------------------------
+ID: 835
+Question: Should a pilot fly with a bad cold, he/she could suffer from:
+Answer: sinus, pain
+Best Match Score: 36.2%
+Best Match: Where would a pilot find the MEL for his aeroplane?
+--------------------------------------------------------------------------------
+ID: 838
+Question: The relationship is in the shape of an inverted U
+Answer: The relationship is in the shape of an inverted U
+Best Match Score: 43.0%
+Best Match: What is the relationship between stress and performance when plotted on a graph?
+--------------------------------------------------------------------------------
+ID: 840
+Question: what will happen to the body when in situations of extreme heat
+Answer: 3 and 4 only
+Best Match Score: 36.5%
+Best Match: Which of the following statements is true?
+--------------------------------------------------------------------------------
+ID: 847
+Question: Circulation of the blood is for:
+Answer: 1, 2 and 3
+Best Match Score: 53.1%
+Best Match: The function of the retina is to:
+--------------------------------------------------------------------------------
+ID: 854
+Question: Among the symptoms of hypoxia are:
+Answer: 1, 2, 3 and 4
+Best Match Score: 38.5%
+Best Match: What is the purpose of inboard ailerons:?
+--------------------------------------------------------------------------------
+ID: 860
+Question: Which of the following factors decrease resistance to decompression sickness?
+Answer: 2, 3 and 4
+Best Match Score: 67.1%
+Best Match: Which of the following is true with respect to the cause of decompression sickne
+--------------------------------------------------------------------------------
+ID: 865
+Question: X - 30NM - Y - 20NM - 2
+Answer: 1510
+Best Match Score: 26.7%
+Best Match: A rhumb line is:
+--------------------------------------------------------------------------------
+ID: 867
+Question: A - 30NM - B - 20NM - C
+Answer: 1038
+Best Match Score: 40.0%
+Best Match: A rhumb line is:
+--------------------------------------------------------------------------------
+ID: 870
+Question: An aircraft starts at position 0410S 17822W and heads true north for 2950 NM, then
+Answer: 4500N 17422W
+Best Match Score: 44.3%
+Best Match: An aircraft starts at position 04°10'S 178°22'W and heads true north for 2950 NM
+--------------------------------------------------------------------------------
+ID: 872
+Question: By what amount must you change your rate of descent given a 10 knot decrease in
+Answer: 50 feet per minute increase
+Best Match Score: 73.8%
+Best Match: By what amount must you change your rate of descent given a 10 knot decrease in 
+--------------------------------------------------------------------------------
+ID: 876
+Question: An aircraft leaves at 0900UTC on a 250 NM journey with a planned ground speed of 115
+Answer: 1115
+Best Match Score: 42.0%
+Best Match: An aircraft leaves at 0900UTC on a 250 NM journey with a planned ground speed of
+--------------------------------------------------------------------------------
+ID: 877
+Question: You are heading 080°(T) when you get a range and bearing fix from your AWR (Airborne
+Answer: null
+Best Match Score: 44.2%
+Best Match: You are heading 080°(T) when you get a range and bearing fix from your AWR (Airb
+--------------------------------------------------------------------------------
+ID: 879
+Question: A useful method of a pilot resolving, on a visual flight, any uncertainty in the aircraft's
+Answer: set heading towards a line feature such as a coastline, river or motorway
+Best Match Score: 59.9%
+Best Match: A useful method of a pilot resolving, on a visual flight, any uncertainty in the
+--------------------------------------------------------------------------------
+ID: 885
+Question: X - 30NM - Y - 20NM - 2
+Answer: 1510
+Best Match Score: 26.7%
+Best Match: A rhumb line is:
+--------------------------------------------------------------------------------
+ID: 887
+Question: A - 30NM - B - 20NM - C
+Answer: 1038
+Best Match Score: 40.0%
+Best Match: A rhumb line is:
+--------------------------------------------------------------------------------
+ID: 890
+Question: An aircraft starts at position 0410S 17822W and heads true north for 2950 NM, then
+Answer: 4500N 17422W
+Best Match Score: 44.3%
+Best Match: An aircraft starts at position 04°10'S 178°22'W and heads true north for 2950 NM
+--------------------------------------------------------------------------------
+ID: 892
+Question: By what amount must you change your rate of descent given a 10 knot decrease in
+Answer: 50 feet per minute increase
+Best Match Score: 73.8%
+Best Match: By what amount must you change your rate of descent given a 10 knot decrease in 
+--------------------------------------------------------------------------------
+ID: 896
+Question: An aircraft leaves at 0900UTC on a 250 NM journey with a planned ground speed of 115
+Answer: 1115
+Best Match Score: 42.0%
+Best Match: An aircraft leaves at 0900UTC on a 250 NM journey with a planned ground speed of
+--------------------------------------------------------------------------------
+ID: 897
+Question: You are heading 080°(T) when you get a range and bearing fix from your AWR (Airborne
+Answer: 230 from the headland, using the aircraft's meridian
+Best Match Score: 44.2%
+Best Match: You are heading 080°(T) when you get a range and bearing fix from your AWR (Airb
+--------------------------------------------------------------------------------
+ID: 899
+Question: A useful method of a pilot resolving, on a visual flight, any uncertainty in the aircraft's
+Answer: set heading towards a line feature such as a coastline, river or motorway
+Best Match Score: 59.9%
+Best Match: A useful method of a pilot resolving, on a visual flight, any uncertainty in the
+--------------------------------------------------------------------------------
+ID: 908
+Question: An aircraft at position 2700N 17000W travels 3000 km on a track of 180° (T), then 3000
+Answer: 2700N 17318W
+Best Match Score: 48.6%
+Best Match: An aircraft at position 60°N 005°W tracks 090°(T) for 315 km. On completion of t
+--------------------------------------------------------------------------------
+ID: 909
+Question: You are heading 345°(M), the variation is 20°E, and you take a radar bearing of 30° left
+Answer: 155°(T)
+Best Match Score: 54.4%
+Best Match: You are heading 345°(M), the variation is 20°E, and you take a radar bearing of 
+--------------------------------------------------------------------------------
+ID: 910
+Question: You are on an ILS 3-degree glide slope which passes over the runway threshold at 50
+Answer: 7550 feet
+Best Match Score: 35.4%
+Best Match: The coverage of the ILS glide slope with respect to the localizer centre line is
+--------------------------------------------------------------------------------
+ID: 911
+Question: On a particular take-off, you can accept up to 10 knots tailwind. The runway QDM is 047,
+Answer: 11 knots
+Best Match Score: 43.5%
+Best Match: On a particular take-off, you can accept up to 10 knots tailwind component. The 
+--------------------------------------------------------------------------------
+ID: 912
+Question: An aircraft at FL370 is required to commence descent at 120 NM from a VOR and to cross
+Answer: 960 ft/min
+Best Match Score: 45.5%
+Best Match: An aircraft at FL370 is required to commence descent at 120 NM from a VOR and to
+--------------------------------------------------------------------------------
+ID: 915
+Question: At 65 NM from a VOR you commence a descent from FL330 in order to arrive over the
+Answer: 1540 feet/min
+Best Match Score: 45.8%
+Best Match: At 65 NM from a VOR you commence a descent from FL330 in order to arrive over th
+--------------------------------------------------------------------------------
+ID: 917
+Question: Reference Jeppesen E(LO) 1, position 5211N 00706W, which of the following denotes all
+Answer: Civil airport, ILS, NDB
+Best Match Score: 42.0%
+Best Match: CDi is proportional to which of the following?
+--------------------------------------------------------------------------------
+ID: 921
+Question: Which of the following differences in latitude will give the biggest difference in the initial
+Answer:  60NM and 60NM
+Best Match Score: 50.0%
+Best Match: Which of the following statements accurately describes the 'West African tornado
+--------------------------------------------------------------------------------
+ID: 923
+Question: Track = 090°(T). TAS = 460 knots, W/V = 360°(T) / 100, Variation = 12°E, Deviation = -2.
+Answer: 067° 450 knots
+Best Match Score: 55.9%
+Best Match: Track = 090°(T), TAS = 460 knots, W/V = 360°(T) / 100, Variation = 12°E, Deviati
+--------------------------------------------------------------------------------
+ID: 931
+Question: On a particular direct Mercator wall chart, the full length of the parallel of latitude at 53N
+Answer: 1: 26000000
+Best Match Score: 63.7%
+Best Match: On a particular direct Mercator wall chart, the full length of the parallel of l
+--------------------------------------------------------------------------------
+ID: 935
+Question: You leave A to fly to B, 475 NM away, at 1000 hours. Your ETA at B is 1130. At 1040, you
+Answer: 342 knots
+Best Match Score: 53.9%
+Best Match: You leave A to fly to B, 475 NM away, at 1000 hours. Your ETA at B is 1130. At 1
+--------------------------------------------------------------------------------
+ID: 936
+Question: An aircraft departs a point 0400N 17000W and flies 240 NM South, followed by 240 NM
+Answer: 0400N 170°35.9'W
+Best Match Score: 55.0%
+Best Match: An aircraft departs a point 04°00'N 170°00'W and flies 240 NM South, followed by
+--------------------------------------------------------------------------------
+ID: 939
+Question: An aircraft is at 5530N 03613W, where the variation is 15W. It is tuned to a VOR located
+Answer: 012
+Best Match Score: 52.4%
+Best Match: An aircraft is at 55°30'N 036°13'W, where the variation is 15W. It is tuned to a
+--------------------------------------------------------------------------------
+ID: 944
+Question: Given: Aircraft height = 2500 feet, ILS GP angle = 3°, at what approximate distance from
+Answer: 8.0NM
+Best Match Score: 58.8%
+Best Match: Given: Aircraft height = 2500 feet, ILS GP angle = 3°, at what approximate dista
+--------------------------------------------------------------------------------
+ID: 945
+Question: On a chart, meridians at 45N are shown every 10 degrees apart. This is shown on the
+Answer: 1: 5600000
+Best Match Score: 63.3%
+Best Match: On a chart, meridians at 45°N are shown every 10 degrees apart. This is shown on
+--------------------------------------------------------------------------------
+ID: 947
+Question: An island is observed to be 15°(T)o the left. The aircraft heading is 120°(M), variation 17°
+Answer: 088
+Best Match Score: 61.9%
+Best Match: An island is observed to be 15° to the left. The aircraft heading is 120°(M), va
+--------------------------------------------------------------------------------
+ID: 951
+Question: The aircraft position is at 5330N 00800W. The VORs are tuned to Shannon (SHA, 5243N
+Answer: 042 / 138
+Best Match Score: 50.6%
+Best Match: The aircraft position is at 53°30'N 008°00'W. The VORs are tuned to Shannon (SHA
+--------------------------------------------------------------------------------
+ID: 953
+Question: An aircraft is flying around the Earth eastwards along the 60N parallel of latitude at a
+Answer: 720 knots
+Best Match Score: 39.8%
+Best Match: An aircraft is carrying Maritime Survival Equipment. The correct entry at item 1
+--------------------------------------------------------------------------------
+ID: 954
+Question: Which of the following conversions from True to Compass is the correct one (True /
+Answer: 130 / 2W / 132 / -1 / 133
+Best Match Score: 68.1%
+Best Match: Which of the following conversions from True to Compass is the correct one (True
+--------------------------------------------------------------------------------
+ID: 960
+Question: A Lambert conformal conic chart has a constant of the cone of 0.80. A straight line
+Answer: 011°E
+Best Match Score: 43.3%
+Best Match: A Lambert conformal conic chart has a constant of the cone of 0.80. A straight l
+--------------------------------------------------------------------------------
+ID: 965
+Question: Which of the following are inputs to the central processing unit of the GPWS?
+Answer: null
+Best Match Score: 53.9%
+Best Match: Which of the following is the cause of wing tip vortices?
+--------------------------------------------------------------------------------
+ID: 989
+Question: Why is there a vibration device in a pressure altimeter?
+Answer: null
+Best Match Score: 43.6%
+Best Match: What is the relationship between stress and fatigue?
+--------------------------------------------------------------------------------
+ID: 994
+Question: When accelerating on a northerly heading what does the direct reading magnetic
+Answer: null
+Best Match Score: 36.2%
+Best Match: The inbound track to the navigation aid serving a hold is 250° What is the corre
+--------------------------------------------------------------------------------
+ID: 995
+Question: A rate integrating gyroscope is used in:
+Answer: null
+Best Match Score: 46.2%
+Best Match: A gravity-erecting device is utilized in:
+--------------------------------------------------------------------------------
+ID: 997
+Question: The errors associated with the directional indicator are:
+Answer: null
+Best Match Score: 48.2%
+Best Match: The weather associated with polar maritime air is:
+--------------------------------------------------------------------------------
+ID: 998
+Question: Which of the following correctly describes the gyroscope of a rate of turn indicator?
+Answer: null
+Best Match Score: 54.9%
+Best Match: Which of the following most accurately describes the airflow which causes wing t
+--------------------------------------------------------------------------------
+ID: 999
+Question: The rate of turn indicator is a very useful gyroscopic instrument. When used in
+Answer: null
+Best Match Score: 60.0%
+Best Match: The rate of turn indicator is a very useful gyroscopic instrument. When used in 
+--------------------------------------------------------------------------------
+ID: 1022
+Question: An aircraft is descending at a constant Mach number. If the aircraft is descending
+Answer: null
+Best Match Score: 66.9%
+Best Match: An aircraft is descending at a constant Mach number. If the aircraft is descendi
+--------------------------------------------------------------------------------
+ID: 1025
+Question: An aircraft maintaining a constant CAS and altitude is flying from a cold airmass into
+Answer: null
+Best Match Score: 54.4%
+Best Match: An aircraft maintaining a constant CAS and altitude is flying from a cold airmas
+--------------------------------------------------------------------------------
+ID: 1026
+Question: An aircraft taking off from an airfield with QNH set in the altimeter has both static vents
+Answer: null
+Best Match Score: 60.1%
+Best Match: An aircraft taking off from an airfield with QNH set in the altimeter has the su
+--------------------------------------------------------------------------------
+ID: 1030
+Question: Which of the following will affect a direct reading compass?
+Answer: null
+Best Match Score: 57.6%
+Best Match: Which of the following would not affect the CG position?
+--------------------------------------------------------------------------------
+ID: 1031
+Question: If an aircraft, fitted with a DRMC, takes off on a westerly heading, in the northern
+Answer: null
+Best Match Score: 70.4%
+Best Match: If an aircraft, fitted with a DRMC, takes off on a westerly heading, in the nort
+--------------------------------------------------------------------------------
+ID: 1033
+Question: Given the following information calculate the instrument error of a preflight altimeter
+Answer: null
+Best Match Score: 49.7%
+Best Match: Given the following information calculate the instrument error in the altimeter:
+--------------------------------------------------------------------------------
+ID: 1036
+Question: You are flying at a constant FL290 and constant Mach number. The total temperature
+Answer: null
+Best Match Score: 74.3%
+Best Match: You are flying at a constant FL290 and constant Mach number. The total temperatu
+--------------------------------------------------------------------------------
+ID: 1201
+Question: On a Lambert's chart the constant of the cone is 0.80. A is at 53N 04W. You plan to fly
+Answer: 021E
+Best Match Score: 47.6%
+Best Match: On a Lambert chart, the convergence factor is 0.78585. What is the parallel of t
+--------------------------------------------------------------------------------
+ID: 1202
+Question: The distance A to B is 90 NM in a straight line. You are 60 NM from A when you fix your
+Answer: 12°
+Best Match Score: 50.0%
+Best Match: The distance A to B is 90 NM in a straight line. You are 60 NM from A when you f
+--------------------------------------------------------------------------------
+ID: 1203
+Question: An aircraft is flying at FL.200, the OAT is 0°C. When the actual air pressure on an airfield
+Answer: 21300ft
+Best Match Score: 44.7%
+Best Match: An aircraft is flying at flight level 350 at a CAS of 290 kt and a temperature d
+--------------------------------------------------------------------------------
+ID: 1204
+Question: Given the following: True track: 192° Magnetic variation: 7ºE Drift angle: 5° left What is
+Answer: 190°
+Best Match Score: 63.8%
+Best Match: Given the following: Magnetic heading: 060° Magnetic variation: 8°W Drift angle:
+--------------------------------------------------------------------------------
+ID: 1206
+Question: At 0422 you are 185 NM from a VOR at FL370. You need to descend at a mean descent
+Answer: 0445
+Best Match Score: 34.7%
+Best Match: At a range of 200 NM from a VOR, if there is an error of 1°, how far off the cen
+--------------------------------------------------------------------------------
+ID: 1208
+Question: The angle between the true great circle track and the true rhumb line track joining the
+Answer: 7.8°
+Best Match Score: 54.0%
+Best Match: The angle between the true great circle track and the true rhumb line track join
+--------------------------------------------------------------------------------
+ID: 1209
+Question: An aircraft is cruising at FL350, Temp -50°C and is told to descend to FL80, Temp
+Answer: 260kt
+Best Match Score: 50.3%
+Best Match: An aircraft is cruising at FL350, Temp -50°C and is told to descend to FL80, Tem
+--------------------------------------------------------------------------------
+ID: 1210
+Question: The distance between to waypoints is 200 NM. To calculate compass heading the pilot
+Answer: 14NM
+Best Match Score: 37.1%
+Best Match: The distance between two waypoints is 200 NM. To calculate compass heading the p
+--------------------------------------------------------------------------------
+ID: 1212
+Question: Given the following: Magnetic heading: 060° Magnetic variation: 8°W Drift angle: 4°
+Answer: 056°
+Best Match Score: 72.4%
+Best Match: Given the following: Magnetic heading: 060° Magnetic variation: 8°W Drift angle:
+--------------------------------------------------------------------------------
+ID: 1213
+Question: Given: Position A is 60N 020W, Position B is 60N 021W, and Position C is 59N 020W,
+Answer: 30 NM and 60 NM
+Best Match Score: 54.9%
+Best Match: Given: Position A is 60°N 020°W, Position B is 60°N 021°W, and Position C is 59°
+--------------------------------------------------------------------------------
+ID: 1218
+Question: Given: A Polar Stereographic chart whose grid is aligned with the zero meridian. Grid
+Answer: 229°
+Best Match Score: 53.2%
+Best Match: Given: A Polar Stereographic chart whose grid is aligned with the zero meridian.
+--------------------------------------------------------------------------------
+ID: 1220
+Question: An aircraft has to climb from FL50 - 10°C to FL260 -25°C. The IAS for the climb is 180
+Answer: 106 NM
+Best Match Score: 49.4%
+Best Match: An aircraft has to climb from FL50 -10°C to FL260 -25°C. The IAS for the climb i
+--------------------------------------------------------------------------------
+ID: 1221
+Question: According to EASA Part-FCL, an applicant for a CPL (A) who has satisfactorily followed
+Answer: 150 hours of flight time
+Best Match Score: 46.3%
+Best Match: According to EASA Part-FCL, recognized instructor categories are:
+--------------------------------------------------------------------------------
+ID: 1224
+Question: When a State renders valid a licence issued by another Contracting State, as an
+Answer: not extend beyond the period of validity of the licence.
+Best Match Score: 55.7%
+Best Match: When a State renders valid a licence issued by another Contracting State, as an 
+--------------------------------------------------------------------------------
+ID: 1225
+Question: According to EASA Part-FL, the privileges of the holder of an unrestricted FI(A) rating
+Answer: provided that the FI(A) has completed at least 500 hours of flight time as a pilot of
+Best Match Score: 58.5%
+Best Match: According to EASA Part-FCL, the privileges of the holder of an unrestricted FI(A
+--------------------------------------------------------------------------------
+ID: 1226
+Question: What is required if a stop bar is not provided at a runway entrance and the runway is to
+Answer: Runway guard lights.
+Best Match Score: 71.0%
+Best Match: What is required if a stop bar is not provided at a runway entrance and the runw
+--------------------------------------------------------------------------------
+ID: 1227
+Question: A contracting state which continues to require the presentation of a cargo manifest
+Answer: airway bill number, the number of packages and the nature of goods.
+Best Match Score: 39.8%
+Best Match: According to ICAO (Annex 11), the definition of an RNAV system is:
+--------------------------------------------------------------------------------
+ID: 1229
+Question: Contracting states shall carry out the handling, forwarding and clearance of airmail and
+Answer: the Acts in force of the Universal Postal Union.
+Best Match Score: 58.4%
+Best Match: Contracting states shall carry out the handling, forwarding and clearance of air
+--------------------------------------------------------------------------------
+ID: 1230
+Question: Independent parallel approaches may be conducted to parallel runways provided that an
+Answer: 610 m wide is established between extended centre lines.
+Best Match Score: 68.5%
+Best Match: Independent parallel approaches may be conducted to parallel runways provided th
+--------------------------------------------------------------------------------
+ID: 1231
+Question: An area symmetrical about the extended runway centre line and adjacent to the end of
+Answer: runway end safety area.
+Best Match Score: 39.4%
+Best Match: An area symmetrical about the extended runway centre line and adjacent to the en
+--------------------------------------------------------------------------------
+ID: 1233
+Question: According to Annex 7, the registration mark shall be letters, numbers or a combination
+Answer: the State of Registry or Common Mark Registering Authority.
+Best Match Score: 61.3%
+Best Match: According to Annex 7, the registration mark shall be letters, numbers or a combi
+--------------------------------------------------------------------------------
+ID: 1238
+Question: In the event of a delay of a controlled flight, the flight plan shall be amended or
+Answer: 30 mins of estimated off-blocks time (EOBT)
+Best Match Score: 51.9%
+Best Match: In the event of a delay of a controlled flight, the flight plan shall be amended
+--------------------------------------------------------------------------------
+ID: 1239
+Question: A separation minima shall be applied between a light or medium aircraft and a heavy
+Answer: A separation minima shall be applied between a light or medium aircraft and a heavy and
+Best Match Score: 36.1%
+Best Match: At a constant CAS when flying below sea level an aircraft will have:
+--------------------------------------------------------------------------------
+ID: 1240
+Question: When an aircraft subjected to unlawful interference has landed in a Contracting State, it
+Answer: each State whose citizens suffered fatalities or injuries, each State whose citiens were
+Best Match Score: 37.9%
+Best Match: When an aircraft fitted with a classic air-driven artificial horizon decelerates
+--------------------------------------------------------------------------------
+ID: 1241
+Question: An RNP1 route designated as A342Z, indicates that the route is at or below FL.190 and
+Answer: 15 NM for turns between 30° and 90°
+Best Match Score: 39.0%
+Best Match: An RNP1 route designated as A342Z, indicates that the route is at or below FL190
+--------------------------------------------------------------------------------
+ID: 1243
+Question: The operator is responsible for the custody and care of the passengers. This
+Answer: from the moment they have been admitted into the destination State
+Best Match Score: 70.8%
+Best Match: The operator is responsible for the custody and care of the passengers. This res
+--------------------------------------------------------------------------------
+ID: 1247
+Question: Temporary changes of long duration (3 months or more) and information of short
+Answer: one month
+Best Match Score: 35.5%
+Best Match: What are lenticularis clouds a possible indication of?
+--------------------------------------------------------------------------------
+ID: 1251
+Question: Voice ATIS:
+Answer: 1 only is correct.
+Best Match Score: 41.2%
+Best Match: Vortex generators:
+--------------------------------------------------------------------------------
+ID: 1258
+Question: An RNP1 route designated as A342Y, indicates that the route is at or above FL200 and
+Answer: 22.5 NM for turns between 30° and 90°
+Best Match Score: 39.0%
+Best Match: An RNP1 route designated as A342Y, indicates that the route is at or above FL200
+--------------------------------------------------------------------------------
+ID: 1260
+Question: A heavy aircraft makes a missed approach on a parallel runway in the opposite direction.
+Answer: less than 760 m apart.
+Best Match Score: 39.0%
+Best Match: A heavy aircraft makes a missed approach on a parallel runway in the opposite di
+--------------------------------------------------------------------------------
+ID: 1265
+Question: A marshaller crosses his/her hands in front of the face, palms outwards and then moves
+Answer: remove chocks
+Best Match Score: 63.2%
+Best Match: A marshaller crosses his/her hands in front of the face, palms outwards and then
+--------------------------------------------------------------------------------
+ID: 1266
+Question: When independent parallel approaches are used on parallel runways and headings
+Answer: 2.0 NM before the ILS glide slope or the specified MLS elevation angle is intercepted
+Best Match Score: 47.6%
+Best Match: Independent parallel approaches may be conducted to parallel runways provided th
+--------------------------------------------------------------------------------
+ID: 1268
+Question: The minimum response time for the aerodrome rescue and fire fighting services to the
+Answer: 2 minutes and not exceeding 3 minutes.
+Best Match Score: 53.8%
+Best Match: The minimum response time for the aerodrome rescue and fire fighting services to
+--------------------------------------------------------------------------------
+ID: 1270
+Question: According to international agreements the wind direction must be given in degrees
+Answer: before landing and taxi for take-off.
+Best Match Score: 50.9%
+Best Match: According to international agreements the wind direction must be given in degree
+--------------------------------------------------------------------------------
+ID: 1271
+Question: A fixed obstacle that extends above a take-off climb surface within........shall be marked
+Answer: 3000 ft
+Best Match Score: 58.3%
+Best Match: A fixed obstacle that extends above a take-off climb surface within ___ shall be
+--------------------------------------------------------------------------------
+ID: 1272
+Question: Repetitive flight plans (RPLs) cannot be used for flights other than there executed
+Answer: for at least 10 occasions or every day over a period of at least 10 consecutive days.
+Best Match Score: 59.8%
+Best Match: Repetitive flight plans (RPLs) cannot be used for flights other than those execu
+--------------------------------------------------------------------------------
+ID: 1275
+Question: An aircraft is maintaining FL150 in Class C Airspace. Another aircraft below at FL140
+Answer: When the other aircraft has reported to be descending thrugh FL130.
+Best Match Score: 38.1%
+Best Match: Use CAP 696 MEP. What performance class does the aircraft belong to?
+--------------------------------------------------------------------------------
+ID: 1276
+Question: what is the separation that must be maintained before intercepting the ILS on an
+Answer: 1000 ft
+Best Match Score: 72.7%
+Best Match: What is the separation that must be maintained before intercepting the ILS on an
+--------------------------------------------------------------------------------
+ID: 1277
+Question: The longitudinal separation minimum based on time between aircraft at the same FL,
+Answer: 5 minutes
+Best Match Score: 40.7%
+Best Match: Static longitudinal stability is the tendency of an aircraft to:
+--------------------------------------------------------------------------------
+ID: 1283
+Question: What is the rule concerning level or height the aircraft should maintain when flying IFR
+Answer: 1000 ft above the highest obstacle within 8 km of the estimated position of the aircraft.
+Best Match Score: 62.0%
+Best Match: What is the rule concerning level or height the aircraft should maintain when fl
+--------------------------------------------------------------------------------
+ID: 1284
+Question: It is permitted in a particular sector, if there is a conspicuous obstacle in the visual
+Answer: forbid a circling approach in the entire sector in which the obstacle is located.
+Best Match Score: 37.7%
+Best Match: It is permitted in a particular sector, if there is a conspicuous obstacle in th
+--------------------------------------------------------------------------------
+ID: 1286
+Question: Temporary changes of long duration in specifications for AlP supplements and
+Answer: 3 months or longer.
+Best Match Score: 36.8%
+Best Match: Changes of RVR are reported for increments of:
+--------------------------------------------------------------------------------
+ID: 1288
+Question: An aircraft flies over mountainous terrain at which a search and rescue operation is
+Answer: require medical assistance.
+Best Match Score: 43.5%
+Best Match: An aircraft flies over mountainous terrain at which a search and rescue operatio
+--------------------------------------------------------------------------------
+ID: 1290
+Question: An aircraft which is not concerned with regular international flights and which makes a
+Answer: during a period which is determined by the State.
+Best Match Score: 36.8%
+Best Match: An aeroplane is head-on with a glider. Who has right of way?
+--------------------------------------------------------------------------------
+ID: 1292
+Question: A manoeuvre where a turn is made from a "designated track" followed by a turn in the
+Answer: procedure turn
+Best Match Score: 50.0%
+Best Match: A manoeuvre where a turn is made from a "designated track" followed by a turn in
+--------------------------------------------------------------------------------
+ID: 1295
+Question: How many red lights have to be seen by the pilot, whose aircraft on final approach
+Answer: 2
+Best Match Score: 66.9%
+Best Match: How many red lights have to be seen by the pilot, whose aircraft on final approa
+--------------------------------------------------------------------------------
+ID: 1296
+Question: Aircraft A flies in VMC with an ATC clearance within a control area. Aircraft B without
+Answer: Aircraft B, if A is to the left of him.
+Best Match Score: 47.0%
+Best Match: Aircraft A flies in VMC with an ATC clearance within a control area. Aircraft B 
+--------------------------------------------------------------------------------
+ID: 1298
+Question: A controlled flight is required to inform the concerned ATC unit when the average TAS at
+Answer: 5%
+Best Match Score: 41.9%
+Best Match: A controlled flight is required to inform the concerned ATC unit when the averag
+--------------------------------------------------------------------------------
+ID: 1299
+Question: It says in the annex of the ICAO convention that the sizes of airfields are specified by
+Answer: 45 m
+Best Match Score: 50.9%
+Best Match: It says in the annex of the ICAO convention that the sizes of airfields are spec
+--------------------------------------------------------------------------------
+ID: 1301
+Question: When someone's admittance to a country is refused and he/she is brought back to the
+Answer: the operator will not be prevented from taking any transport costs from a person which
+Best Match Score: 55.5%
+Best Match: When someone's admittance to a country is refused and he/she is brought back to 
+--------------------------------------------------------------------------------
+ID: 1302
+Question: An aircraft, on a radar approach, should be told to consider making a missed approach
+Answer: the last 2 NM of the approach.
+Best Match Score: 43.5%
+Best Match: An aircraft, on a radar approach, should be told to consider making a missed app
+--------------------------------------------------------------------------------
+ID: 1304
+Question: An ATS airspace, in which IFR and VFR flights are permitted and all flights receive air
+Answer: Airspace D
+Best Match Score: 36.0%
+Best Match: What is required for an IFR flight in advisory airspace?
+--------------------------------------------------------------------------------
+ID: 1311
+Question: in aircraft making an approach must be told to make a missed approach, when no
+Answer: 2 NM from the touchdown.
+Best Match Score: 40.4%
+Best Match: An aircraft making an approach must be told to make a missed approach, when no l
+--------------------------------------------------------------------------------
+ID: 1312
+Question: Except when cleared by an ATC unit, a VFR flight cannot enter or leave a Control Zone
+Answer: 1500 ft or less than 5 km visibility.
+Best Match Score: 71.2%
+Best Match: Except when cleared by an ATC unit, a VFR flight cannot enter or Leave a Control
+--------------------------------------------------------------------------------
+ID: 1316
+Question: clocks and other timing equipment used by air traffic services must be checked in order
+Answer: 30 seconds of UTC.
+Best Match Score: 64.0%
+Best Match: Clocks and other timing equipment used by air traffic services must be checked i
+--------------------------------------------------------------------------------
+ID: 1317
+Question: In an instrument approach procedure, the segment where the aircraft is lined up with the
+Answer: final approach segment.
+Best Match Score: 58.4%
+Best Match: In an instrument approach procedure, the segment where the aircraft is lined up 
+--------------------------------------------------------------------------------
+ID: 1320
+Question: When doing a procedure turn (45%180°) going outbound turned 45° off track, the time
+Answer: 1 minute
+Best Match Score: 52.7%
+Best Match: When doing a procedure turn (45°/180°) going outbound turned 45° off track, the 
+--------------------------------------------------------------------------------

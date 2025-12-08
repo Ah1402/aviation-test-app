@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to See Updates - Aviation Test App</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #1e293b;
+            margin-bottom: 10px;
+            font-size: 32px;
+        }
+        .subtitle {
+            color: #64748b;
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+        .section {
+            background: #f8fafc;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 24px;
+            border: 2px solid #e2e8f0;
+        }
+        .section h2 {
+            color: #1e293b;
+            margin-bottom: 16px;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .section h2 .emoji {
+            font-size: 28px;
+        }
+        .steps {
+            list-style: none;
+            counter-reset: step-counter;
+        }
+        .steps li {
+            counter-increment: step-counter;
+            position: relative;
+            padding-left: 50px;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+        .steps li::before {
+            content: counter(step-counter);
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 32px;
+            height: 32px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 14px;
+        }
+        .btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 14px 28px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin: 8px 8px 8px 0;
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+        }
+        .btn-secondary {
+            background: #64748b;
+        }
+        .btn-secondary:hover {
+            box-shadow: 0 8px 20px rgba(100, 116, 139, 0.4);
+        }
+        .keyboard {
+            display: inline-block;
+            background: #1e293b;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 14px;
+            font-weight: 600;
+            margin: 0 4px;
+            border: 2px solid #475569;
+        }
+        .features {
+            background: #ecfdf5;
+            border-left: 4px solid #10b981;
+            padding: 16px;
+            border-radius: 8px;
+            margin-top: 16px;
+        }
+        .features h3 {
+            color: #065f46;
+            margin-bottom: 12px;
+            font-size: 16px;
+        }
+        .features ul {
+            list-style: none;
+            margin-left: 0;
+        }
+        .features li {
+            padding: 6px 0;
+            padding-left: 28px;
+            position: relative;
+            color: #047857;
+        }
+        .features li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+            color: #10b981;
+            font-size: 18px;
+        }
+        .note {
+            background: #fef3c7;
+            border-left: 4px solid #f59e0b;
+            padding: 16px;
+            border-radius: 8px;
+            margin-top: 16px;
+            color: #92400e;
+        }
+        .note strong {
+            color: #78350f;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 How to See Latest Updates</h1>
+        <p class="subtitle">Your browser may be showing a cached (old) version. Follow any method below to see the new features.</p>
+
+        <div class="section">
+            <h2><span class="emoji">⚡</span> Method 1: Hard Refresh (Fastest)</h2>
+            <ol class="steps">
+                <li>Keep the app open in your browser</li>
+                <li>
+                    Press the keyboard shortcut:
+                    <ul style="margin-top: 8px; margin-left: 50px;">
+                        <li><strong>Windows/Linux:</strong> <span class="keyboard">Ctrl</span> + <span class="keyboard">Shift</span> + <span class="keyboard">R</span></li>
+                        <li><strong>Mac:</strong> <span class="keyboard">Cmd</span> + <span class="keyboard">Shift</span> + <span class="keyboard">R</span></li>
+                    </ul>
+                </li>
+                <li>The page will reload and bypass the cache</li>
+            </ol>
+        </div>
+
+        <div class="section">
+            <h2><span class="emoji">🔄</span> Method 2: Cache Clear Utility (Recommended)</h2>
+            <ol class="steps">
+                <li>Click the button below to open the cache clear utility</li>
+                <li>Click "Clear Cache & Reload App"</li>
+                <li>Wait for automatic redirect to the fresh app</li>
+            </ol>
+            <a href="CLEAR_CACHE.html" class="btn">Open Cache Clear Tool</a>
+        </div>
+
+        <div class="section">
+            <h2><span class="emoji">📄</span> Method 3: Use Standalone (Always Fresh)</h2>
+            <ol class="steps">
+                <li>Click the button below to open the standalone version</li>
+                <li>No caching issues - it's a completely self-contained file</li>
+                <li>Works without internet connection</li>
+            </ol>
+            <a href="STANDALONE.html" class="btn btn-secondary">Open Standalone App</a>
+        </div>
+
+        <div class="section">
+            <h2><span class="emoji">🎯</span> Method 4: Browser Developer Tools</h2>
+            <ol class="steps">
+                <li>Open the app in your browser</li>
+                <li>Press <span class="keyboard">F12</span> to open Developer Tools</li>
+                <li>Go to the "Application" tab (Chrome/Edge) or "Storage" tab (Firefox)</li>
+                <li>Click "Service Workers" in the left sidebar</li>
+                <li>Click "Unregister" next to the service worker</li>
+                <li>Go to "Cache Storage" and delete all caches</li>
+                <li>Close DevTools and refresh the page</li>
+            </ol>
+        </div>
+
+        <div class="features">
+            <h3>✨ What's New in This Update</h3>
+            <ul>
+                <li><strong>Fixed Radio Navigation</strong> - Now shows complete question set (was only showing 2)</li>
+                <li><strong>2-Letter Search</strong> - Search with short terms like "vo", "il", "nd"</li>
+                <li><strong>Camera OCR Search</strong> - Scan text with your camera to search</li>
+                <li><strong>Updated Cache</strong> - Service worker updated to v3 for latest content</li>
+            </ul>
+        </div>
+
+        <div class="note">
+            <strong>📱 Note:</strong> If using the camera search feature, make sure you're on HTTPS or localhost, and grant camera permissions when prompted.
+        </div>
+
+        <div style="margin-top: 30px; text-align: center;">
+            <a href="index.html" class="btn">Go to Main App</a>
+            <a href="UPDATE_LOG.md" class="btn btn-secondary">View Full Changelog</a>
+        </div>
+    </div>
+</body>
+</html>

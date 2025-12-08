@@ -1,0 +1,32 @@
+Heading: Radio Navigation Test 4
+
+
+            <p class="text-gray-500 mt-1">Review your answers and explanations.</p>
+        </header>
+
+        <section id="quiz-content" class="space-y-8">
+
+            <!-- Question 1 -->
+            <div class="p-5 rounded-lg border border-gray-200 shadow-sm">
+                <p class="font-semibold text-lg text-gray-700 mb-3">1. Refer to Appendix A, diagram C. What is the symbol designated DFC which is coloured cyan? [Image E is missing, based on checkmark]</p>
+                <div class="space-y-2 text-sm text-gray-600">
+                    <p>A. an in-use VORTAC</p>
+                    <p>B. an available VORTAC</p>
+                    <p>C. an in-use NDB</p>
+                    <p>D. an available NDB</p>
+                </div>
+                <div class="mt-4 p-3 correct-answer rounded-md">
+                    <p class="font-bold text-green-700">Correct Answer: D. an available NDB</p>
+                    <p class="text-gray-700 mt-1 text-sm">
+                        <span class="font-semibold">Rationale:</span> In aviation charting, the color <span class="font-bold">cyan (blue)</span> often denotes that a facility is **available** or **proposed**, while magenta is typically used for facilities that are currently **in-use**. Although "DFC" (Direction Finding Component) is less common, an "available NDB" is the most likely match given the color and the options.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Question 2 -->
+            <div class="p-5 rounded-lg border border-gray-200 shadow-sm">
+                <p class="font-semibold text-lg text-gray-700 mb-3">2. The middle marker is usually located at a range of ................., with an audio frequency of ................ and illuminates the ................. light.</p>
+                <div class="space-y-2 text-sm text-gray-600">
+                    <p>A. 4-6 NM 1300 Hz white</p>
+                    <p>B. 1 km 400 Hz white</p>
+             

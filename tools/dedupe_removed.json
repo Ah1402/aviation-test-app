@@ -1,0 +1,1733 @@
+{
+  "removed": 288,
+  "removedDetails": [
+    {
+      "category": "aon-aviation-knowledge",
+      "question": "What does TEM stand for in the context of Human Performance?",
+      "answer": "Threat and Error Management",
+      "id": 241
+    },
+    {
+      "category": "aon-aviation-knowledge",
+      "question": "A turbo-supercharger impeller is driven by:",
+      "answer": "Diversion of exhaust gases by the waste gate using energy that would otherwise be wasted",
+      "id": 245
+    },
+    {
+      "category": "aon-aviation-knowledge",
+      "question": "A logarithmic scale is fitted to the vertical speed indicator in order to:",
+      "answer": "Make lower values of vertical speed easier to read",
+      "id": 251
+    },
+    {
+      "category": "aon-aviation-knowledge",
+      "question": "When selecting a fuse for an aircraft electrical circuit, the governing factor is:",
+      "answer": "The power requirement of the circuit",
+      "id": 255
+    },
+    {
+      "category": "aon-aviation-knowledge",
+      "question": "You are flying IFR in VMC and experience a complete radio failure. What action should you take?",
+      "answer": "Continue VMC and land at the nearest aerodrome squawking 7600. Report arrival to ATC after landing",
+      "id": 263
+    },
+    {
+      "category": "performance",
+      "question": "What factors would cause V2 to be limited by VMCA?",
+      "answer": "Combination of the above",
+      "id": 1242
+    },
+    {
+      "category": "performance",
+      "question": "A jet aircraft's maximum altitude is usually limited by:",
+      "answer": "the altitude at which low and high-speed buffet will occur",
+      "id": 1243
+    },
+    {
+      "category": "performance",
+      "question": "A light twin-engine aircraft is climbing from the screen height of 50 ft, and has an obstacle 10000 m along the net fight path. If the net climb gradient is 10%, there is no wind and obstacle is 900 m above the aerodrome elevation then what will the clearance be?",
+      "answer": "115 m",
+      "id": 1244
+    },
+    {
+      "category": "performance",
+      "question": "Vx is:",
+      "answer": "Speed for best angle of climb",
+      "id": 1245
+    },
+    {
+      "category": "performance",
+      "question": "Requirements for the third segment of climb are:",
+      "answer": "level acceleration with an equivalent gradient of 1.2%",
+      "id": 1246
+    },
+    {
+      "category": "performance",
+      "question": "Pitch angle during decent at a constant Mach number will:",
+      "answer": "decrease",
+      "id": 1247
+    },
+    {
+      "category": "performance",
+      "question": "Take off on a runway with standing water, with a depth of 0.5 cm. Compared to a dry runway, field length limited mass will:",
+      "answer": "decrease, with a decreased V1",
+      "id": 1248
+    },
+    {
+      "category": "performance",
+      "question": "With respect to en-route diversions (using drift down graph), if you believe that you will be overweight at the destination, what procedure should be followed?",
+      "answer": "Land short at a suitable airfield",
+      "id": 1249
+    },
+    {
+      "category": "performance",
+      "question": "What is the reason for setting minimum speeds on the approach?",
+      "answer": "Adequate performance for a go-around in the event of an engine failure",
+      "id": 1250
+    },
+    {
+      "category": "performance",
+      "question": "If there is an increase in atmospheric pressure and all other factors remain constant, it should result in:",
+      "answer": "decreased take-off distance and increased climb performance",
+      "id": 1251
+    },
+    {
+      "category": "performance",
+      "question": "An aircraft may use either 5° or 15° flap setting for take-off. The effect of selecting the 5° setting as compared to the 15° setting is:",
+      "answer": "take-off distance and take-off climb gradient will both increase",
+      "id": 1252
+    },
+    {
+      "category": "performance",
+      "question": "Vs is defined as:",
+      "answer": "Stalling speed or minimum steady flight speed in the landing configuration",
+      "id": 1253
+    },
+    {
+      "category": "performance",
+      "question": "A higher climb gradient gives:",
+      "answer": "reduced ground distance covered to climb",
+      "id": 1254
+    },
+    {
+      "category": "performance",
+      "question": "A balanced field length is when:",
+      "answer": "ASDA equals TODA",
+      "id": 1255
+    },
+    {
+      "category": "performance",
+      "question": "The drift down is a procedure applied:",
+      "answer": "when the engine fails above the operating altitude for one engine inoperative",
+      "id": 1256
+    },
+    {
+      "category": "performance",
+      "question": "The landing speed, Vref, for a single-engine aircraft must be not less than:",
+      "answer": "1.3Vs0",
+      "id": 1257
+    },
+    {
+      "category": "performance",
+      "question": "At maximum range speed in a turbojet the angle of attack is:",
+      "answer": "less than L/D max",
+      "id": 1258
+    },
+    {
+      "category": "performance",
+      "question": "If not VMBE or VMCG limited, what would V1 be limited by?",
+      "answer": "VR",
+      "id": 1259
+    },
+    {
+      "category": "performance",
+      "question": "With respect to field length limit, fill in the blanks in the follow statement. The distance to accelerate to ............, at which point an engine fails, followed by the reaction time of ............. and the ensuing deceleration to a full stop must be completed within the .............",
+      "answer": "V1, 2 sec, ASDA",
+      "id": 1260
+    },
+    {
+      "category": "performance",
+      "question": "How does the power required graph move with an increase in altitude?",
+      "answer": "Up and to the right",
+      "id": 1261
+    },
+    {
+      "category": "performance",
+      "question": "What factors would cause V2 to be limited by VMCA?",
+      "answer": "Combination of the above",
+      "id": 1292
+    },
+    {
+      "category": "performance",
+      "question": "A jet aircraft's maximum altitude is usually limited by:",
+      "answer": "the altitude at which low and high-speed buffet will occur",
+      "id": 1293
+    },
+    {
+      "category": "performance",
+      "question": "A light twin-engine aircraft is climbing from the screen height of 50 ft, and has an obstacle 10000 m along the net fight path. If the net climb gradient is 10%, there is no wind and obstacle is 900 m above the aerodrome elevation then what will the clearance be?",
+      "answer": "115 m",
+      "id": 1294
+    },
+    {
+      "category": "performance",
+      "question": "Vx is:",
+      "answer": "Speed for best angle of climb",
+      "id": 1295
+    },
+    {
+      "category": "performance",
+      "question": "Requirements for the third segment of climb are:",
+      "answer": "level acceleration with an equivalent gradient of 1.2%",
+      "id": 1296
+    },
+    {
+      "category": "performance",
+      "question": "Pitch angle during decent at a constant Mach number will:",
+      "answer": "decrease",
+      "id": 1297
+    },
+    {
+      "category": "performance",
+      "question": "Take off on a runway with standing water, with a depth of 0.5 cm. Compared to a dry runway, field length limited mass will:",
+      "answer": "decrease, with a decreased V1",
+      "id": 1298
+    },
+    {
+      "category": "performance",
+      "question": "With respect to en-route diversions (using drift down graph), if you believe that you will be overweight at the destination, what procedure should be followed?",
+      "answer": "Land short at a suitable airfield",
+      "id": 1299
+    },
+    {
+      "category": "performance",
+      "question": "What is the reason for setting minimum speeds on the approach?",
+      "answer": "Adequate performance for a go-around in the event of an engine failure",
+      "id": 1300
+    },
+    {
+      "category": "performance",
+      "question": "If there is an increase in atmospheric pressure and all other factors remain constant, it should result in:",
+      "answer": "decreased take-off distance and increased climb performance",
+      "id": 1301
+    },
+    {
+      "category": "performance",
+      "question": "An aircraft may use either 5° or 15° flap setting for take-off. The effect of selecting the 5° setting as compared to the 15° setting is:",
+      "answer": "take-off distance and take-off climb gradient will both increase",
+      "id": 1302
+    },
+    {
+      "category": "performance",
+      "question": "Vs is defined as:",
+      "answer": "Stalling speed or minimum steady flight speed in the landing configuration",
+      "id": 1303
+    },
+    {
+      "category": "performance",
+      "question": "A higher climb gradient gives:",
+      "answer": "reduced ground distance covered to climb",
+      "id": 1304
+    },
+    {
+      "category": "performance",
+      "question": "A balanced field length is when:",
+      "answer": "ASDA equals TODA",
+      "id": 1305
+    },
+    {
+      "category": "performance",
+      "question": "The drift down is a procedure applied:",
+      "answer": "when the engine fails above the operating altitude for one engine inoperative",
+      "id": 1306
+    },
+    {
+      "category": "performance",
+      "question": "The landing speed, Vref, for a single-engine aircraft must be not less than:",
+      "answer": "1.3Vs0",
+      "id": 1307
+    },
+    {
+      "category": "performance",
+      "question": "At maximum range speed in a turbojet the angle of attack is:",
+      "answer": "less than L/D max",
+      "id": 1308
+    },
+    {
+      "category": "performance",
+      "question": "If not VMBE or VMCG limited, what would V1 be limited by?",
+      "answer": "VR",
+      "id": 1309
+    },
+    {
+      "category": "performance",
+      "question": "With respect to field length limit, fill in the blanks in the follow statement. The distance to accelerate to ............, at which point an engine fails, followed by the reaction time of ............. and the ensuing deceleration to a full stop must be completed within the .............",
+      "answer": "V1, 2 sec, ASDA",
+      "id": 1310
+    },
+    {
+      "category": "performance",
+      "question": "How does the power required graph move with an increase in altitude?",
+      "answer": "Up and to the right",
+      "id": 1311
+    },
+    {
+      "category": "performance",
+      "question": "What factors would cause V2 to be limited by VMCA?",
+      "answer": "Combination of the above",
+      "id": 1342
+    },
+    {
+      "category": "performance",
+      "question": "A jet aircraft's maximum altitude is usually limited by:",
+      "answer": "the altitude at which low and high-speed buffet will occur",
+      "id": 1343
+    },
+    {
+      "category": "performance",
+      "question": "A light twin-engine aircraft is climbing from the screen height of 50 ft, and has an obstacle 10000 m along the net fight path. If the net climb gradient is 10%, there is no wind and obstacle is 900 m above the aerodrome elevation then what will the clearance be?",
+      "answer": "115 m",
+      "id": 1344
+    },
+    {
+      "category": "performance",
+      "question": "Vx is:",
+      "answer": "Speed for best angle of climb",
+      "id": 1345
+    },
+    {
+      "category": "performance",
+      "question": "Requirements for the third segment of climb are:",
+      "answer": "level acceleration with an equivalent gradient of 1.2%",
+      "id": 1346
+    },
+    {
+      "category": "performance",
+      "question": "Pitch angle during decent at a constant Mach number will:",
+      "answer": "decrease",
+      "id": 1347
+    },
+    {
+      "category": "performance",
+      "question": "Take off on a runway with standing water, with a depth of 0.5 cm. Compared to a dry runway, field length limited mass will:",
+      "answer": "decrease, with a decreased V1",
+      "id": 1348
+    },
+    {
+      "category": "performance",
+      "question": "With respect to en-route diversions (using drift down graph), if you believe that you will be overweight at the destination, what procedure should be followed?",
+      "answer": "Land short at a suitable airfield",
+      "id": 1349
+    },
+    {
+      "category": "performance",
+      "question": "What is the reason for setting minimum speeds on the approach?",
+      "answer": "Adequate performance for a go-around in the event of an engine failure",
+      "id": 1350
+    },
+    {
+      "category": "performance",
+      "question": "If there is an increase in atmospheric pressure and all other factors remain constant, it should result in:",
+      "answer": "decreased take-off distance and increased climb performance",
+      "id": 1351
+    },
+    {
+      "category": "performance",
+      "question": "An aircraft may use either 5° or 15° flap setting for take-off. The effect of selecting the 5° setting as compared to the 15° setting is:",
+      "answer": "take-off distance and take-off climb gradient will both increase",
+      "id": 1352
+    },
+    {
+      "category": "performance",
+      "question": "Vs is defined as:",
+      "answer": "Stalling speed or minimum steady flight speed in the landing configuration",
+      "id": 1353
+    },
+    {
+      "category": "performance",
+      "question": "A higher climb gradient gives:",
+      "answer": "reduced ground distance covered to climb",
+      "id": 1354
+    },
+    {
+      "category": "performance",
+      "question": "A balanced field length is when:",
+      "answer": "ASDA equals TODA",
+      "id": 1355
+    },
+    {
+      "category": "performance",
+      "question": "The drift down is a procedure applied:",
+      "answer": "when the engine fails above the operating altitude for one engine inoperative",
+      "id": 1356
+    },
+    {
+      "category": "performance",
+      "question": "The landing speed, Vref, for a single-engine aircraft must be not less than:",
+      "answer": "1.3Vs0",
+      "id": 1357
+    },
+    {
+      "category": "performance",
+      "question": "At maximum range speed in a turbojet the angle of attack is:",
+      "answer": "less than L/D max",
+      "id": 1358
+    },
+    {
+      "category": "performance",
+      "question": "If not VMBE or VMCG limited, what would V1 be limited by?",
+      "answer": "VR",
+      "id": 1359
+    },
+    {
+      "category": "performance",
+      "question": "With respect to field length limit, fill in the blanks in the follow statement. The distance to accelerate to ............, at which point an engine fails, followed by the reaction time of ............. and the ensuing deceleration to a full stop must be completed within the .............",
+      "answer": "V1, 2 sec, ASDA",
+      "id": 1360
+    },
+    {
+      "category": "performance",
+      "question": "How does the power required graph move with an increase in altitude?",
+      "answer": "Up and to the right",
+      "id": 1361
+    },
+    {
+      "category": "performance",
+      "question": "What factors would cause V2 to be limited by VMCA?",
+      "answer": "Combination of the above",
+      "id": 1392
+    },
+    {
+      "category": "performance",
+      "question": "A jet aircraft's maximum altitude is usually limited by:",
+      "answer": "the altitude at which low and high-speed buffet will occur",
+      "id": 1393
+    },
+    {
+      "category": "performance",
+      "question": "A light twin-engine aircraft is climbing from the screen height of 50 ft, and has an obstacle 10000 m along the net fight path. If the net climb gradient is 10%, there is no wind and obstacle is 900 m above the aerodrome elevation then what will the clearance be?",
+      "answer": "115 m",
+      "id": 1394
+    },
+    {
+      "category": "performance",
+      "question": "Vx is:",
+      "answer": "Speed for best angle of climb",
+      "id": 1395
+    },
+    {
+      "category": "performance",
+      "question": "Requirements for the third segment of climb are:",
+      "answer": "level acceleration with an equivalent gradient of 1.2%",
+      "id": 1396
+    },
+    {
+      "category": "performance",
+      "question": "Pitch angle during decent at a constant Mach number will:",
+      "answer": "decrease",
+      "id": 1397
+    },
+    {
+      "category": "performance",
+      "question": "Take off on a runway with standing water, with a depth of 0.5 cm. Compared to a dry runway, field length limited mass will:",
+      "answer": "decrease, with a decreased V1",
+      "id": 1398
+    },
+    {
+      "category": "performance",
+      "question": "With respect to en-route diversions (using drift down graph), if you believe that you will be overweight at the destination, what procedure should be followed?",
+      "answer": "Land short at a suitable airfield",
+      "id": 1399
+    },
+    {
+      "category": "performance",
+      "question": "What is the reason for setting minimum speeds on the approach?",
+      "answer": "Adequate performance for a go-around in the event of an engine failure",
+      "id": 1400
+    },
+    {
+      "category": "performance",
+      "question": "If there is an increase in atmospheric pressure and all other factors remain constant, it should result in:",
+      "answer": "decreased take-off distance and increased climb performance",
+      "id": 1401
+    },
+    {
+      "category": "performance",
+      "question": "An aircraft may use either 5° or 15° flap setting for take-off. The effect of selecting the 5° setting as compared to the 15° setting is:",
+      "answer": "take-off distance and take-off climb gradient will both increase",
+      "id": 1402
+    },
+    {
+      "category": "performance",
+      "question": "Vs is defined as:",
+      "answer": "Stalling speed or minimum steady flight speed in the landing configuration",
+      "id": 1403
+    },
+    {
+      "category": "performance",
+      "question": "A higher climb gradient gives:",
+      "answer": "reduced ground distance covered to climb",
+      "id": 1404
+    },
+    {
+      "category": "performance",
+      "question": "A balanced field length is when:",
+      "answer": "ASDA equals TODA",
+      "id": 1405
+    },
+    {
+      "category": "performance",
+      "question": "The drift down is a procedure applied:",
+      "answer": "when the engine fails above the operating altitude for one engine inoperative",
+      "id": 1406
+    },
+    {
+      "category": "performance",
+      "question": "The landing speed, Vref, for a single-engine aircraft must be not less than:",
+      "answer": "1.3Vs0",
+      "id": 1407
+    },
+    {
+      "category": "performance",
+      "question": "At maximum range speed in a turbojet the angle of attack is:",
+      "answer": "less than L/D max",
+      "id": 1408
+    },
+    {
+      "category": "performance",
+      "question": "If not VMBE or VMCG limited, what would V1 be limited by?",
+      "answer": "VR",
+      "id": 1409
+    },
+    {
+      "category": "performance",
+      "question": "With respect to field length limit, fill in the blanks in the follow statement. The distance to accelerate to ............, at which point an engine fails, followed by the reaction time of ............. and the ensuing deceleration to a full stop must be completed within the .............",
+      "answer": "V1, 2 sec, ASDA",
+      "id": 1410
+    },
+    {
+      "category": "performance",
+      "question": "How does the power required graph move with an increase in altitude?",
+      "answer": "Up and to the right",
+      "id": 1411
+    },
+    {
+      "category": "performance",
+      "question": "What factors would cause V2 to be limited by VMCA?",
+      "answer": "Combination of the above",
+      "id": 1442
+    },
+    {
+      "category": "performance",
+      "question": "A jet aircraft's maximum altitude is usually limited by:",
+      "answer": "the altitude at which low and high-speed buffet will occur",
+      "id": 1443
+    },
+    {
+      "category": "performance",
+      "question": "A light twin-engine aircraft is climbing from the screen height of 50 ft, and has an obstacle 10000 m along the net fight path. If the net climb gradient is 10%, there is no wind and obstacle is 900 m above the aerodrome elevation then what will the clearance be?",
+      "answer": "115 m",
+      "id": 1444
+    },
+    {
+      "category": "performance",
+      "question": "Vx is:",
+      "answer": "Speed for best angle of climb",
+      "id": 1445
+    },
+    {
+      "category": "performance",
+      "question": "Requirements for the third segment of climb are:",
+      "answer": "level acceleration with an equivalent gradient of 1.2%",
+      "id": 1446
+    },
+    {
+      "category": "performance",
+      "question": "Pitch angle during decent at a constant Mach number will:",
+      "answer": "decrease",
+      "id": 1447
+    },
+    {
+      "category": "performance",
+      "question": "Take off on a runway with standing water, with a depth of 0.5 cm. Compared to a dry runway, field length limited mass will:",
+      "answer": "decrease, with a decreased V1",
+      "id": 1448
+    },
+    {
+      "category": "performance",
+      "question": "With respect to en-route diversions (using drift down graph), if you believe that you will be overweight at the destination, what procedure should be followed?",
+      "answer": "Land short at a suitable airfield",
+      "id": 1449
+    },
+    {
+      "category": "performance",
+      "question": "What is the reason for setting minimum speeds on the approach?",
+      "answer": "Adequate performance for a go-around in the event of an engine failure",
+      "id": 1450
+    },
+    {
+      "category": "performance",
+      "question": "If there is an increase in atmospheric pressure and all other factors remain constant, it should result in:",
+      "answer": "decreased take-off distance and increased climb performance",
+      "id": 1451
+    },
+    {
+      "category": "performance",
+      "question": "An aircraft may use either 5° or 15° flap setting for take-off. The effect of selecting the 5° setting as compared to the 15° setting is:",
+      "answer": "take-off distance and take-off climb gradient will both increase",
+      "id": 1452
+    },
+    {
+      "category": "performance",
+      "question": "Vs is defined as:",
+      "answer": "Stalling speed or minimum steady flight speed in the landing configuration",
+      "id": 1453
+    },
+    {
+      "category": "performance",
+      "question": "A higher climb gradient gives:",
+      "answer": "reduced ground distance covered to climb",
+      "id": 1454
+    },
+    {
+      "category": "performance",
+      "question": "A balanced field length is when:",
+      "answer": "ASDA equals TODA",
+      "id": 1455
+    },
+    {
+      "category": "performance",
+      "question": "The drift down is a procedure applied:",
+      "answer": "when the engine fails above the operating altitude for one engine inoperative",
+      "id": 1456
+    },
+    {
+      "category": "performance",
+      "question": "The landing speed, Vref, for a single-engine aircraft must be not less than:",
+      "answer": "1.3Vs0",
+      "id": 1457
+    },
+    {
+      "category": "performance",
+      "question": "At maximum range speed in a turbojet the angle of attack is:",
+      "answer": "less than L/D max",
+      "id": 1458
+    },
+    {
+      "category": "performance",
+      "question": "If not VMBE or VMCG limited, what would V1 be limited by?",
+      "answer": "VR",
+      "id": 1459
+    },
+    {
+      "category": "performance",
+      "question": "With respect to field length limit, fill in the blanks in the follow statement. The distance to accelerate to ............, at which point an engine fails, followed by the reaction time of ............. and the ensuing deceleration to a full stop must be completed within the .............",
+      "answer": "V1, 2 sec, ASDA",
+      "id": 1460
+    },
+    {
+      "category": "performance",
+      "question": "How does the power required graph move with an increase in altitude?",
+      "answer": "Up and to the right",
+      "id": 1461
+    },
+    {
+      "category": "performance",
+      "question": "What factors would cause V2 to be limited by VMCA?",
+      "answer": "Combination of the above",
+      "id": 1492
+    },
+    {
+      "category": "performance",
+      "question": "A jet aircraft's maximum altitude is usually limited by:",
+      "answer": "the altitude at which low and high-speed buffet will occur",
+      "id": 1493
+    },
+    {
+      "category": "performance",
+      "question": "A light twin-engine aircraft is climbing from the screen height of 50 ft, and has an obstacle 10000 m along the net fight path. If the net climb gradient is 10%, there is no wind and obstacle is 900 m above the aerodrome elevation then what will the clearance be?",
+      "answer": "115 m",
+      "id": 1494
+    },
+    {
+      "category": "performance",
+      "question": "Vx is:",
+      "answer": "Speed for best angle of climb",
+      "id": 1495
+    },
+    {
+      "category": "performance",
+      "question": "Requirements for the third segment of climb are:",
+      "answer": "level acceleration with an equivalent gradient of 1.2%",
+      "id": 1496
+    },
+    {
+      "category": "performance",
+      "question": "Pitch angle during decent at a constant Mach number will:",
+      "answer": "decrease",
+      "id": 1497
+    },
+    {
+      "category": "performance",
+      "question": "Take off on a runway with standing water, with a depth of 0.5 cm. Compared to a dry runway, field length limited mass will:",
+      "answer": "decrease, with a decreased V1",
+      "id": 1498
+    },
+    {
+      "category": "performance",
+      "question": "With respect to en-route diversions (using drift down graph), if you believe that you will be overweight at the destination, what procedure should be followed?",
+      "answer": "Land short at a suitable airfield",
+      "id": 1499
+    },
+    {
+      "category": "performance",
+      "question": "What is the reason for setting minimum speeds on the approach?",
+      "answer": "Adequate performance for a go-around in the event of an engine failure",
+      "id": 1500
+    },
+    {
+      "category": "performance",
+      "question": "When operating with anti-skid inoperative:",
+      "answer": "both landing and performance will be affected",
+      "id": 1218
+    },
+    {
+      "category": "performance",
+      "question": "Flying at an altitude close to coffin corner gives:",
+      "answer": "less manoeuvrability",
+      "id": 1219
+    },
+    {
+      "category": "performance",
+      "question": "What effect does a downhill slope have on the take-off speeds?",
+      "answer": "It decreases V1",
+      "id": 1220
+    },
+    {
+      "category": "performance",
+      "question": "Landing on a runway with 5 mm wet snow will:",
+      "answer": "increase landing distance",
+      "id": 1221
+    },
+    {
+      "category": "performance",
+      "question": "Which conditions are most suited to a selection of lower flap for take off?",
+      "answer": "High airfield elevations, distant obstacles, long runway, high ambient temperature",
+      "id": 1222
+    },
+    {
+      "category": "performance",
+      "question": "The buffet onset boundary chart tells the pilot the:",
+      "answer": "values for low speed buffet onset and high speed buffet onset for various masses and altitudes",
+      "id": 1223
+    },
+    {
+      "category": "performance",
+      "question": "The second segment of climb ends when:",
+      "answer": "accelerating from V2 to flap retraction speed begins",
+      "id": 1224
+    },
+    {
+      "category": "performance",
+      "question": "Reference point zero refers to the:",
+      "answer": "point where the aircraft reaches 35 ft",
+      "id": 1225
+    },
+    {
+      "category": "performance",
+      "question": "Vref for a Class B aircraft is defined by:",
+      "answer": "1.3Vs",
+      "id": 1226
+    },
+    {
+      "category": "performance",
+      "question": "During the certification of an aeroplane, the take-off distance with all engines operating and the take-off distance with one engine inoperative are: 1547 m, 1720 m. What is the distance used in the aircraft certification?",
+      "answer": "1779 m",
+      "id": 1227
+    },
+    {
+      "category": "performance",
+      "question": "An aircraft is certified to land with flaps at either 25 or 35 degrees of flap. If the pilot selects the higher flap setting the approach performance will be:",
+      "answer": "improved landing distance and reduced go-around performance",
+      "id": 1228
+    },
+    {
+      "category": "performance",
+      "question": "What landing distance requirements need to be met at an alternate airfield compared to a destination airfield for a turboprop?",
+      "answer": "Less than destination",
+      "id": 1229
+    },
+    {
+      "category": "performance",
+      "question": "In dry conditions, when landing at an alternate airport in a turbojet by what factor should the landing distance available be divided to give landing distance required?",
+      "answer": "1.43",
+      "id": 1230
+    },
+    {
+      "category": "performance",
+      "question": "The speed for minimum power required in a turbojet will be:",
+      "answer": "slower than the speed for minimum drag",
+      "id": 1231
+    },
+    {
+      "category": "performance",
+      "question": "The coefficient of lift may be increased by lowering the flaps or:",
+      "answer": "increasing angle of attack",
+      "id": 1232
+    },
+    {
+      "category": "performance",
+      "question": "V2min is determined by: (excluding VMCA)",
+      "answer": "1.08VSR for 4 engine turboprops with 1.13VSR for 2 and 3 engine turboprops.",
+      "id": 1233
+    },
+    {
+      "category": "performance",
+      "question": "Two identical turbojets are holding at the same altitude and have the same specific fuel consumption. Aeroplane 1 weighs 130,000 kg and fuel flow is 4300 kg/hr. If aeroplane 2 weighs 115,000 kg what is the fuel flow of aeroplane 2?",
+      "answer": "3804 kg/hr",
+      "id": 1234
+    },
+    {
+      "category": "performance",
+      "question": "Two identical turbojets are holding at the same altitude and have the same specific fuel consumption. Aeroplane 1 weighs 130,000 kg and fuel flow is 4300 kg/hr. If aeroplane 2 weighs 115,000 kg what is the fuel flow of aeroplane 2?",
+      "answer": "3804 kg/hr",
+      "id": 1235
+    },
+    {
+      "category": "performance",
+      "question": "In wet conditions, what extra percentage over the dry gross landing distance must be available for a turbojet?",
+      "answer": "92%",
+      "id": 1236
+    },
+    {
+      "category": "performance",
+      "question": "If the flap setting is changed from 10 degrees to 20 degrees, V2 will:",
+      "answer": "decrease if not limited to VMCA.",
+      "id": 1237
+    },
+    {
+      "category": "performance",
+      "question": "For a turbojet aeroplane the third segment of the take-off path:",
+      "answer": "ends when flap retraction is complete",
+      "id": 1238
+    },
+    {
+      "category": "performance",
+      "question": "To maintain the same angle of attack and altitude at a higher gross weight an aeroplane needs:",
+      "answer": "more airspeed and more power",
+      "id": 1239
+    },
+    {
+      "category": "performance",
+      "question": "Absolute ceiling is defined by:",
+      "answer": "altitude where theoretical rate of climb is zero",
+      "id": 1240
+    },
+    {
+      "category": "performance",
+      "question": "Vr for a jet aircraft must be faster than, the greater of:",
+      "answer": "1.05VMCA and V1",
+      "id": 1241
+    },
+    {
+      "category": "performance",
+      "question": "What procedure is likely to require V1 to be reduced?",
+      "answer": "Take off with anti-skid inoperative",
+      "id": 1262
+    },
+    {
+      "category": "performance",
+      "question": "Two identical aircraft at different masses are descending at idle thrust. Which of the following statements correctly describes their descent characteristics?",
+      "answer": "At a given angle of attack, both the vertical and the forward speeds are greater for the heavier aeroplane",
+      "id": 1263
+    },
+    {
+      "category": "performance",
+      "question": "If the performance limited take-off mass is restricted by the ASDA, which of the following actions will increase the limiting mass?",
+      "answer": "Use a higher flap setting",
+      "id": 1264
+    },
+    {
+      "category": "performance",
+      "question": "Cruising with 1 or 2 engines inoperative at high altitude, compared to all engines operative cruise, range will:",
+      "answer": "decrease",
+      "id": 1265
+    },
+    {
+      "category": "performance",
+      "question": "Concerning landing gear, which factors limit take-off performance?",
+      "answer": "Tyre speed and VMBE",
+      "id": 1266
+    },
+    {
+      "category": "performance",
+      "question": "When climbing at a constant Mach number through the troposphere, TAS:",
+      "answer": "decreases",
+      "id": 1267
+    },
+    {
+      "category": "performance",
+      "question": "A tailwind on take-off will not affect:",
+      "answer": "climb limit mass",
+      "id": 1268
+    },
+    {
+      "category": "performance",
+      "question": "When operating with anti-skid inoperative:",
+      "answer": "both landing and performance will be affected",
+      "id": 1269
+    },
+    {
+      "category": "performance",
+      "question": "Flying at an altitude close to coffin corner gives:",
+      "answer": "less manoeuvrability",
+      "id": 1270
+    },
+    {
+      "category": "performance",
+      "question": "What effect does a downhill slope have on the take-off speeds?",
+      "answer": "It decreases V1",
+      "id": 1271
+    },
+    {
+      "category": "performance",
+      "question": "Landing on a runway with 5 mm wet snow will:",
+      "answer": "increase landing distance",
+      "id": 1272
+    },
+    {
+      "category": "performance",
+      "question": "Which conditions are most suited to a selection of lower flap for take off?",
+      "answer": "High airfield elevations, distant obstacles, long runway, high ambient temperature",
+      "id": 1273
+    },
+    {
+      "category": "performance",
+      "question": "The buffet onset boundary chart tells the pilot the:",
+      "answer": "values for low speed buffet onset and high speed buffet onset for various masses and altitudes",
+      "id": 1274
+    },
+    {
+      "category": "performance",
+      "question": "The second segment of climb ends when:",
+      "answer": "accelerating from V2 to flap retraction speed begins",
+      "id": 1275
+    },
+    {
+      "category": "performance",
+      "question": "Reference point zero refers to the:",
+      "answer": "point where the aircraft reaches 35 ft",
+      "id": 1276
+    },
+    {
+      "category": "performance",
+      "question": "Vref for a Class B aircraft is defined by:",
+      "answer": "1.3Vs",
+      "id": 1277
+    },
+    {
+      "category": "performance",
+      "question": "During the certification of an aeroplane, the take-off distance with all engines operating and the take-off distance with one engine inoperative are: 1547 m, 1720 m. What is the distance used in the aircraft certification?",
+      "answer": "1779 m",
+      "id": 1278
+    },
+    {
+      "category": "performance",
+      "question": "An aircraft is certified to land with flaps at either 25 or 35 degrees of flap. If the pilot selects the higher flap setting the approach performance will be:",
+      "answer": "improved landing distance and reduced go-around performance",
+      "id": 1279
+    },
+    {
+      "category": "performance",
+      "question": "What landing distance requirements need to be met at an alternate airfield compared to a destination airfield for a turboprop?",
+      "answer": "Less than destination",
+      "id": 1280
+    },
+    {
+      "category": "performance",
+      "question": "In dry conditions, when landing at an alternate airport in a turbojet by what factor should the landing distance available be divided to give landing distance required?",
+      "answer": "1.43",
+      "id": 1281
+    },
+    {
+      "category": "performance",
+      "question": "The speed for minimum power required in a turbojet will be:",
+      "answer": "slower than the speed for minimum drag",
+      "id": 1282
+    },
+    {
+      "category": "performance",
+      "question": "The coefficient of lift may be increased by lowering the flaps or:",
+      "answer": "increasing angle of attack",
+      "id": 1283
+    },
+    {
+      "category": "performance",
+      "question": "V2min is determined by: (excluding VMCA)",
+      "answer": "1.08VSR for 4 engine turboprops with 1.13VSR for 2 and 3 engine turboprops.",
+      "id": 1284
+    },
+    {
+      "category": "performance",
+      "question": "Two identical turbojets are holding at the same altitude and have the same specific fuel consumption. Aeroplane 1 weighs 130,000 kg and fuel flow is 4300 kg/hr. If aeroplane 2 weighs 115,000 kg what is the fuel flow of aeroplane 2?",
+      "answer": "3804 kg/hr",
+      "id": 1285
+    },
+    {
+      "category": "performance",
+      "question": "In wet conditions, what extra percentage over the dry gross landing distance must be available for a turbojet?",
+      "answer": "92%",
+      "id": 1286
+    },
+    {
+      "category": "performance",
+      "question": "If the flap setting is changed from 10 degrees to 20 degrees, V2 will:",
+      "answer": "decrease if not limited to VMCA.",
+      "id": 1287
+    },
+    {
+      "category": "performance",
+      "question": "For a turbojet aeroplane the third segment of the take-off path:",
+      "answer": "ends when flap retraction is complete",
+      "id": 1288
+    },
+    {
+      "category": "performance",
+      "question": "To maintain the same angle of attack and altitude at a higher gross weight an aeroplane needs:",
+      "answer": "more airspeed and more power",
+      "id": 1289
+    },
+    {
+      "category": "performance",
+      "question": "Absolute ceiling is defined by:",
+      "answer": "altitude where theoretical rate of climb is zero",
+      "id": 1290
+    },
+    {
+      "category": "performance",
+      "question": "Vr for a jet aircraft must be faster than, the greater of:",
+      "answer": "1.05VMCA and V1",
+      "id": 1291
+    },
+    {
+      "category": "performance",
+      "question": "What procedure is likely to require V1 to be reduced?",
+      "answer": "Take off with anti-skid inoperative",
+      "id": 1312
+    },
+    {
+      "category": "performance",
+      "question": "Two identical aircraft at different masses are descending at idle thrust. Which of the following statements correctly describes their descent characteristics?",
+      "answer": "At a given angle of attack, both the vertical and the forward speeds are greater for the heavier aeroplane",
+      "id": 1313
+    },
+    {
+      "category": "performance",
+      "question": "If the performance limited take-off mass is restricted by the ASDA, which of the following actions will increase the limiting mass?",
+      "answer": "Use a higher flap setting",
+      "id": 1314
+    },
+    {
+      "category": "performance",
+      "question": "Cruising with 1 or 2 engines inoperative at high altitude, compared to all engines operative cruise, range will:",
+      "answer": "decrease",
+      "id": 1315
+    },
+    {
+      "category": "performance",
+      "question": "Concerning landing gear, which factors limit take-off performance?",
+      "answer": "Tyre speed and VMBE",
+      "id": 1316
+    },
+    {
+      "category": "performance",
+      "question": "When climbing at a constant Mach number through the troposphere, TAS:",
+      "answer": "decreases",
+      "id": 1317
+    },
+    {
+      "category": "performance",
+      "question": "A tailwind on take-off will not affect:",
+      "answer": "climb limit mass",
+      "id": 1318
+    },
+    {
+      "category": "performance",
+      "question": "When operating with anti-skid inoperative:",
+      "answer": "both landing and performance will be affected",
+      "id": 1319
+    },
+    {
+      "category": "performance",
+      "question": "Flying at an altitude close to coffin corner gives:",
+      "answer": "less manoeuvrability",
+      "id": 1320
+    },
+    {
+      "category": "performance",
+      "question": "What effect does a downhill slope have on the take-off speeds?",
+      "answer": "It decreases V1",
+      "id": 1321
+    },
+    {
+      "category": "performance",
+      "question": "Landing on a runway with 5 mm wet snow will:",
+      "answer": "increase landing distance",
+      "id": 1322
+    },
+    {
+      "category": "performance",
+      "question": "Which conditions are most suited to a selection of lower flap for take off?",
+      "answer": "High airfield elevations, distant obstacles, long runway, high ambient temperature",
+      "id": 1323
+    },
+    {
+      "category": "performance",
+      "question": "The buffet onset boundary chart tells the pilot the:",
+      "answer": "values for low speed buffet onset and high speed buffet onset for various masses and altitudes",
+      "id": 1324
+    },
+    {
+      "category": "performance",
+      "question": "The second segment of climb ends when:",
+      "answer": "accelerating from V2 to flap retraction speed begins",
+      "id": 1325
+    },
+    {
+      "category": "performance",
+      "question": "Reference point zero refers to the:",
+      "answer": "point where the aircraft reaches 35 ft",
+      "id": 1326
+    },
+    {
+      "category": "performance",
+      "question": "Vref for a Class B aircraft is defined by:",
+      "answer": "1.3Vs",
+      "id": 1327
+    },
+    {
+      "category": "performance",
+      "question": "During the certification of an aeroplane, the take-off distance with all engines operating and the take-off distance with one engine inoperative are: 1547 m, 1720 m. What is the distance used in the aircraft certification?",
+      "answer": "1779 m",
+      "id": 1328
+    },
+    {
+      "category": "performance",
+      "question": "An aircraft is certified to land with flaps at either 25 or 35 degrees of flap. If the pilot selects the higher flap setting the approach performance will be:",
+      "answer": "improved landing distance and reduced go-around performance",
+      "id": 1329
+    },
+    {
+      "category": "performance",
+      "question": "What landing distance requirements need to be met at an alternate airfield compared to a destination airfield for a turboprop?",
+      "answer": "Less than destination",
+      "id": 1330
+    },
+    {
+      "category": "performance",
+      "question": "In dry conditions, when landing at an alternate airport in a turbojet by what factor should the landing distance available be divided to give landing distance required?",
+      "answer": "1.43",
+      "id": 1331
+    },
+    {
+      "category": "performance",
+      "question": "The speed for minimum power required in a turbojet will be:",
+      "answer": "slower than the speed for minimum drag",
+      "id": 1332
+    },
+    {
+      "category": "performance",
+      "question": "The coefficient of lift may be increased by lowering the flaps or:",
+      "answer": "increasing angle of attack",
+      "id": 1333
+    },
+    {
+      "category": "performance",
+      "question": "V2min is determined by: (excluding VMCA)",
+      "answer": "1.08VSR for 4 engine turboprops with 1.13VSR for 2 and 3 engine turboprops.",
+      "id": 1334
+    },
+    {
+      "category": "performance",
+      "question": "Two identical turbojets are holding at the same altitude and have the same specific fuel consumption. Aeroplane 1 weighs 130,000 kg and fuel flow is 4300 kg/hr. If aeroplane 2 weighs 115,000 kg what is the fuel flow of aeroplane 2?",
+      "answer": "3804 kg/hr",
+      "id": 1335
+    },
+    {
+      "category": "performance",
+      "question": "In wet conditions, what extra percentage over the dry gross landing distance must be available for a turbojet?",
+      "answer": "92%",
+      "id": 1336
+    },
+    {
+      "category": "performance",
+      "question": "If the flap setting is changed from 10 degrees to 20 degrees, V2 will:",
+      "answer": "decrease if not limited to VMCA.",
+      "id": 1337
+    },
+    {
+      "category": "performance",
+      "question": "For a turbojet aeroplane the third segment of the take-off path:",
+      "answer": "ends when flap retraction is complete",
+      "id": 1338
+    },
+    {
+      "category": "performance",
+      "question": "To maintain the same angle of attack and altitude at a higher gross weight an aeroplane needs:",
+      "answer": "more airspeed and more power",
+      "id": 1339
+    },
+    {
+      "category": "performance",
+      "question": "Absolute ceiling is defined by:",
+      "answer": "altitude where theoretical rate of climb is zero",
+      "id": 1340
+    },
+    {
+      "category": "performance",
+      "question": "Vr for a jet aircraft must be faster than, the greater of:",
+      "answer": "1.05VMCA and V1",
+      "id": 1341
+    },
+    {
+      "category": "performance",
+      "question": "What procedure is likely to require V1 to be reduced?",
+      "answer": "Take off with anti-skid inoperative",
+      "id": 1362
+    },
+    {
+      "category": "performance",
+      "question": "Two identical aircraft at different masses are descending at idle thrust. Which of the following statements correctly describes their descent characteristics?",
+      "answer": "At a given angle of attack, both the vertical and the forward speeds are greater for the heavier aeroplane",
+      "id": 1363
+    },
+    {
+      "category": "performance",
+      "question": "If the performance limited take-off mass is restricted by the ASDA, which of the following actions will increase the limiting mass?",
+      "answer": "Use a higher flap setting",
+      "id": 1364
+    },
+    {
+      "category": "performance",
+      "question": "Cruising with 1 or 2 engines inoperative at high altitude, compared to all engines operative cruise, range will:",
+      "answer": "decrease",
+      "id": 1365
+    },
+    {
+      "category": "performance",
+      "question": "Concerning landing gear, which factors limit take-off performance?",
+      "answer": "Tyre speed and VMBE",
+      "id": 1366
+    },
+    {
+      "category": "performance",
+      "question": "When climbing at a constant Mach number through the troposphere, TAS:",
+      "answer": "decreases",
+      "id": 1367
+    },
+    {
+      "category": "performance",
+      "question": "A tailwind on take-off will not affect:",
+      "answer": "climb limit mass",
+      "id": 1368
+    },
+    {
+      "category": "performance",
+      "question": "When operating with anti-skid inoperative:",
+      "answer": "both landing and performance will be affected",
+      "id": 1369
+    },
+    {
+      "category": "performance",
+      "question": "Flying at an altitude close to coffin corner gives:",
+      "answer": "less manoeuvrability",
+      "id": 1370
+    },
+    {
+      "category": "performance",
+      "question": "What effect does a downhill slope have on the take-off speeds?",
+      "answer": "It decreases V1",
+      "id": 1371
+    },
+    {
+      "category": "performance",
+      "question": "Landing on a runway with 5 mm wet snow will:",
+      "answer": "increase landing distance",
+      "id": 1372
+    },
+    {
+      "category": "performance",
+      "question": "Which conditions are most suited to a selection of lower flap for take off?",
+      "answer": "High airfield elevations, distant obstacles, long runway, high ambient temperature",
+      "id": 1373
+    },
+    {
+      "category": "performance",
+      "question": "The buffet onset boundary chart tells the pilot the:",
+      "answer": "values for low speed buffet onset and high speed buffet onset for various masses and altitudes",
+      "id": 1374
+    },
+    {
+      "category": "performance",
+      "question": "The second segment of climb ends when:",
+      "answer": "accelerating from V2 to flap retraction speed begins",
+      "id": 1375
+    },
+    {
+      "category": "performance",
+      "question": "Reference point zero refers to the:",
+      "answer": "point where the aircraft reaches 35 ft",
+      "id": 1376
+    },
+    {
+      "category": "performance",
+      "question": "Vref for a Class B aircraft is defined by:",
+      "answer": "1.3Vs",
+      "id": 1377
+    },
+    {
+      "category": "performance",
+      "question": "During the certification of an aeroplane, the take-off distance with all engines operating and the take-off distance with one engine inoperative are: 1547 m, 1720 m. What is the distance used in the aircraft certification?",
+      "answer": "1779 m",
+      "id": 1378
+    },
+    {
+      "category": "performance",
+      "question": "An aircraft is certified to land with flaps at either 25 or 35 degrees of flap. If the pilot selects the higher flap setting the approach performance will be:",
+      "answer": "improved landing distance and reduced go-around performance",
+      "id": 1379
+    },
+    {
+      "category": "performance",
+      "question": "What landing distance requirements need to be met at an alternate airfield compared to a destination airfield for a turboprop?",
+      "answer": "Less than destination",
+      "id": 1380
+    },
+    {
+      "category": "performance",
+      "question": "In dry conditions, when landing at an alternate airport in a turbojet by what factor should the landing distance available be divided to give landing distance required?",
+      "answer": "1.43",
+      "id": 1381
+    },
+    {
+      "category": "performance",
+      "question": "The speed for minimum power required in a turbojet will be:",
+      "answer": "slower than the speed for minimum drag",
+      "id": 1382
+    },
+    {
+      "category": "performance",
+      "question": "The coefficient of lift may be increased by lowering the flaps or:",
+      "answer": "increasing angle of attack",
+      "id": 1383
+    },
+    {
+      "category": "performance",
+      "question": "V2min is determined by: (excluding VMCA)",
+      "answer": "1.08VSR for 4 engine turboprops with 1.13VSR for 2 and 3 engine turboprops.",
+      "id": 1384
+    },
+    {
+      "category": "performance",
+      "question": "Two identical turbojets are holding at the same altitude and have the same specific fuel consumption. Aeroplane 1 weighs 130,000 kg and fuel flow is 4300 kg/hr. If aeroplane 2 weighs 115,000 kg what is the fuel flow of aeroplane 2?",
+      "answer": "3804 kg/hr",
+      "id": 1385
+    },
+    {
+      "category": "performance",
+      "question": "In wet conditions, what extra percentage over the dry gross landing distance must be available for a turbojet?",
+      "answer": "92%",
+      "id": 1386
+    },
+    {
+      "category": "performance",
+      "question": "If the flap setting is changed from 10 degrees to 20 degrees, V2 will:",
+      "answer": "decrease if not limited to VMCA.",
+      "id": 1387
+    },
+    {
+      "category": "performance",
+      "question": "For a turbojet aeroplane the third segment of the take-off path:",
+      "answer": "ends when flap retraction is complete",
+      "id": 1388
+    },
+    {
+      "category": "performance",
+      "question": "To maintain the same angle of attack and altitude at a higher gross weight an aeroplane needs:",
+      "answer": "more airspeed and more power",
+      "id": 1389
+    },
+    {
+      "category": "performance",
+      "question": "Absolute ceiling is defined by:",
+      "answer": "altitude where theoretical rate of climb is zero",
+      "id": 1390
+    },
+    {
+      "category": "performance",
+      "question": "Vr for a jet aircraft must be faster than, the greater of:",
+      "answer": "1.05VMCA and V1",
+      "id": 1391
+    },
+    {
+      "category": "performance",
+      "question": "What procedure is likely to require V1 to be reduced?",
+      "answer": "Take off with anti-skid inoperative",
+      "id": 1412
+    },
+    {
+      "category": "performance",
+      "question": "Two identical aircraft at different masses are descending at idle thrust. Which of the following statements correctly describes their descent characteristics?",
+      "answer": "At a given angle of attack, both the vertical and the forward speeds are greater for the heavier aeroplane",
+      "id": 1413
+    },
+    {
+      "category": "performance",
+      "question": "If the performance limited take-off mass is restricted by the ASDA, which of the following actions will increase the limiting mass?",
+      "answer": "Use a higher flap setting",
+      "id": 1414
+    },
+    {
+      "category": "performance",
+      "question": "Cruising with 1 or 2 engines inoperative at high altitude, compared to all engines operative cruise, range will:",
+      "answer": "decrease",
+      "id": 1415
+    },
+    {
+      "category": "performance",
+      "question": "Concerning landing gear, which factors limit take-off performance?",
+      "answer": "Tyre speed and VMBE",
+      "id": 1416
+    },
+    {
+      "category": "performance",
+      "question": "When climbing at a constant Mach number through the troposphere, TAS:",
+      "answer": "decreases",
+      "id": 1417
+    },
+    {
+      "category": "performance",
+      "question": "A tailwind on take-off will not affect:",
+      "answer": "climb limit mass",
+      "id": 1418
+    },
+    {
+      "category": "performance",
+      "question": "When operating with anti-skid inoperative:",
+      "answer": "both landing and performance will be affected",
+      "id": 1419
+    },
+    {
+      "category": "performance",
+      "question": "Flying at an altitude close to coffin corner gives:",
+      "answer": "less manoeuvrability",
+      "id": 1420
+    },
+    {
+      "category": "performance",
+      "question": "What effect does a downhill slope have on the take-off speeds?",
+      "answer": "It decreases V1",
+      "id": 1421
+    },
+    {
+      "category": "performance",
+      "question": "Landing on a runway with 5 mm wet snow will:",
+      "answer": "increase landing distance",
+      "id": 1422
+    },
+    {
+      "category": "performance",
+      "question": "Which conditions are most suited to a selection of lower flap for take off?",
+      "answer": "High airfield elevations, distant obstacles, long runway, high ambient temperature",
+      "id": 1423
+    },
+    {
+      "category": "performance",
+      "question": "The buffet onset boundary chart tells the pilot the:",
+      "answer": "values for low speed buffet onset and high speed buffet onset for various masses and altitudes",
+      "id": 1424
+    },
+    {
+      "category": "performance",
+      "question": "The second segment of climb ends when:",
+      "answer": "accelerating from V2 to flap retraction speed begins",
+      "id": 1425
+    },
+    {
+      "category": "performance",
+      "question": "Reference point zero refers to the:",
+      "answer": "point where the aircraft reaches 35 ft",
+      "id": 1426
+    },
+    {
+      "category": "performance",
+      "question": "Vref for a Class B aircraft is defined by:",
+      "answer": "1.3Vs",
+      "id": 1427
+    },
+    {
+      "category": "performance",
+      "question": "During the certification of an aeroplane, the take-off distance with all engines operating and the take-off distance with one engine inoperative are: 1547 m, 1720 m. What is the distance used in the aircraft certification?",
+      "answer": "1779 m",
+      "id": 1428
+    },
+    {
+      "category": "performance",
+      "question": "An aircraft is certified to land with flaps at either 25 or 35 degrees of flap. If the pilot selects the higher flap setting the approach performance will be:",
+      "answer": "improved landing distance and reduced go-around performance",
+      "id": 1429
+    },
+    {
+      "category": "performance",
+      "question": "What landing distance requirements need to be met at an alternate airfield compared to a destination airfield for a turboprop?",
+      "answer": "Less than destination",
+      "id": 1430
+    },
+    {
+      "category": "performance",
+      "question": "In dry conditions, when landing at an alternate airport in a turbojet by what factor should the landing distance available be divided to give landing distance required?",
+      "answer": "1.43",
+      "id": 1431
+    },
+    {
+      "category": "performance",
+      "question": "The speed for minimum power required in a turbojet will be:",
+      "answer": "slower than the speed for minimum drag",
+      "id": 1432
+    },
+    {
+      "category": "performance",
+      "question": "The coefficient of lift may be increased by lowering the flaps or:",
+      "answer": "increasing angle of attack",
+      "id": 1433
+    },
+    {
+      "category": "performance",
+      "question": "V2min is determined by: (excluding VMCA)",
+      "answer": "1.08VSR for 4 engine turboprops with 1.13VSR for 2 and 3 engine turboprops.",
+      "id": 1434
+    },
+    {
+      "category": "performance",
+      "question": "Two identical turbojets are holding at the same altitude and have the same specific fuel consumption. Aeroplane 1 weighs 130,000 kg and fuel flow is 4300 kg/hr. If aeroplane 2 weighs 115,000 kg what is the fuel flow of aeroplane 2?",
+      "answer": "3804 kg/hr",
+      "id": 1435
+    },
+    {
+      "category": "performance",
+      "question": "In wet conditions, what extra percentage over the dry gross landing distance must be available for a turbojet?",
+      "answer": "92%",
+      "id": 1436
+    },
+    {
+      "category": "performance",
+      "question": "If the flap setting is changed from 10 degrees to 20 degrees, V2 will:",
+      "answer": "decrease if not limited to VMCA.",
+      "id": 1437
+    },
+    {
+      "category": "performance",
+      "question": "For a turbojet aeroplane the third segment of the take-off path:",
+      "answer": "ends when flap retraction is complete",
+      "id": 1438
+    },
+    {
+      "category": "performance",
+      "question": "To maintain the same angle of attack and altitude at a higher gross weight an aeroplane needs:",
+      "answer": "more airspeed and more power",
+      "id": 1439
+    },
+    {
+      "category": "performance",
+      "question": "Absolute ceiling is defined by:",
+      "answer": "altitude where theoretical rate of climb is zero",
+      "id": 1440
+    },
+    {
+      "category": "performance",
+      "question": "Vr for a jet aircraft must be faster than, the greater of:",
+      "answer": "1.05VMCA and V1",
+      "id": 1441
+    },
+    {
+      "category": "performance",
+      "question": "What procedure is likely to require V1 to be reduced?",
+      "answer": "Take off with anti-skid inoperative",
+      "id": 1462
+    },
+    {
+      "category": "performance",
+      "question": "Two identical aircraft at different masses are descending at idle thrust. Which of the following statements correctly describes their descent characteristics?",
+      "answer": "At a given angle of attack, both the vertical and the forward speeds are greater for the heavier aeroplane",
+      "id": 1463
+    },
+    {
+      "category": "performance",
+      "question": "If the performance limited take-off mass is restricted by the ASDA, which of the following actions will increase the limiting mass?",
+      "answer": "Use a higher flap setting",
+      "id": 1464
+    },
+    {
+      "category": "performance",
+      "question": "Cruising with 1 or 2 engines inoperative at high altitude, compared to all engines operative cruise, range will:",
+      "answer": "decrease",
+      "id": 1465
+    },
+    {
+      "category": "performance",
+      "question": "Concerning landing gear, which factors limit take-off performance?",
+      "answer": "Tyre speed and VMBE",
+      "id": 1466
+    },
+    {
+      "category": "performance",
+      "question": "When climbing at a constant Mach number through the troposphere, TAS:",
+      "answer": "decreases",
+      "id": 1467
+    },
+    {
+      "category": "performance",
+      "question": "A tailwind on take-off will not affect:",
+      "answer": "climb limit mass",
+      "id": 1468
+    },
+    {
+      "category": "performance",
+      "question": "When operating with anti-skid inoperative:",
+      "answer": "both landing and performance will be affected",
+      "id": 1469
+    },
+    {
+      "category": "performance",
+      "question": "Flying at an altitude close to coffin corner gives:",
+      "answer": "less manoeuvrability",
+      "id": 1470
+    },
+    {
+      "category": "performance",
+      "question": "What effect does a downhill slope have on the take-off speeds?",
+      "answer": "It decreases V1",
+      "id": 1471
+    },
+    {
+      "category": "performance",
+      "question": "Landing on a runway with 5 mm wet snow will:",
+      "answer": "increase landing distance",
+      "id": 1472
+    },
+    {
+      "category": "performance",
+      "question": "Which conditions are most suited to a selection of lower flap for take off?",
+      "answer": "High airfield elevations, distant obstacles, long runway, high ambient temperature",
+      "id": 1473
+    },
+    {
+      "category": "performance",
+      "question": "The buffet onset boundary chart tells the pilot the:",
+      "answer": "values for low speed buffet onset and high speed buffet onset for various masses and altitudes",
+      "id": 1474
+    },
+    {
+      "category": "performance",
+      "question": "The second segment of climb ends when:",
+      "answer": "accelerating from V2 to flap retraction speed begins",
+      "id": 1475
+    },
+    {
+      "category": "performance",
+      "question": "Reference point zero refers to the:",
+      "answer": "point where the aircraft reaches 35 ft",
+      "id": 1476
+    },
+    {
+      "category": "performance",
+      "question": "Vref for a Class B aircraft is defined by:",
+      "answer": "1.3Vs",
+      "id": 1477
+    },
+    {
+      "category": "performance",
+      "question": "During the certification of an aeroplane, the take-off distance with all engines operating and the take-off distance with one engine inoperative are: 1547 m, 1720 m. What is the distance used in the aircraft certification?",
+      "answer": "1779 m",
+      "id": 1478
+    },
+    {
+      "category": "performance",
+      "question": "An aircraft is certified to land with flaps at either 25 or 35 degrees of flap. If the pilot selects the higher flap setting the approach performance will be:",
+      "answer": "improved landing distance and reduced go-around performance",
+      "id": 1479
+    },
+    {
+      "category": "performance",
+      "question": "What landing distance requirements need to be met at an alternate airfield compared to a destination airfield for a turboprop?",
+      "answer": "Less than destination",
+      "id": 1480
+    },
+    {
+      "category": "performance",
+      "question": "In dry conditions, when landing at an alternate airport in a turbojet by what factor should the landing distance available be divided to give landing distance required?",
+      "answer": "1.43",
+      "id": 1481
+    },
+    {
+      "category": "performance",
+      "question": "The speed for minimum power required in a turbojet will be:",
+      "answer": "slower than the speed for minimum drag",
+      "id": 1482
+    },
+    {
+      "category": "performance",
+      "question": "The coefficient of lift may be increased by lowering the flaps or:",
+      "answer": "increasing angle of attack",
+      "id": 1483
+    },
+    {
+      "category": "performance",
+      "question": "V2min is determined by: (excluding VMCA)",
+      "answer": "1.08VSR for 4 engine turboprops with 1.13VSR for 2 and 3 engine turboprops.",
+      "id": 1484
+    },
+    {
+      "category": "performance",
+      "question": "Two identical turbojets are holding at the same altitude and have the same specific fuel consumption. Aeroplane 1 weighs 130,000 kg and fuel flow is 4300 kg/hr. If aeroplane 2 weighs 115,000 kg what is the fuel flow of aeroplane 2?",
+      "answer": "3804 kg/hr",
+      "id": 1485
+    },
+    {
+      "category": "performance",
+      "question": "In wet conditions, what extra percentage over the dry gross landing distance must be available for a turbojet?",
+      "answer": "92%",
+      "id": 1486
+    },
+    {
+      "category": "performance",
+      "question": "If the flap setting is changed from 10 degrees to 20 degrees, V2 will:",
+      "answer": "decrease if not limited to VMCA.",
+      "id": 1487
+    },
+    {
+      "category": "performance",
+      "question": "For a turbojet aeroplane the third segment of the take-off path:",
+      "answer": "ends when flap retraction is complete",
+      "id": 1488
+    },
+    {
+      "category": "performance",
+      "question": "To maintain the same angle of attack and altitude at a higher gross weight an aeroplane needs:",
+      "answer": "more airspeed and more power",
+      "id": 1489
+    },
+    {
+      "category": "performance",
+      "question": "Absolute ceiling is defined by:",
+      "answer": "altitude where theoretical rate of climb is zero",
+      "id": 1490
+    },
+    {
+      "category": "performance",
+      "question": "Vr for a jet aircraft must be faster than, the greater of:",
+      "answer": "1.05VMCA and V1",
+      "id": 1491
+    }
+  ]
+}

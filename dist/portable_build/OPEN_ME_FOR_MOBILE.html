@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📱 Mobile Setup Guide - Aviation Test Center</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #2563eb;
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+        .subtitle {
+            color: #64748b;
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+        .device-notice {
+            background: #fef3c7;
+            border-left: 4px solid #f59e0b;
+            padding: 15px;
+            border-radius: 6px;
+            margin-bottom: 30px;
+        }
+        .device-notice strong {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 18px;
+        }
+        .method {
+            background: #f8fafc;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 2px solid #e2e8f0;
+            transition: all 0.3s ease;
+        }
+        .method:hover {
+            border-color: #2563eb;
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.1);
+        }
+        .method-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        .method-icon {
+            font-size: 24px;
+        }
+        .method-title {
+            font-size: 20px;
+            font-weight: 600;
+            color: #1e293b;
+        }
+        .badge {
+            background: #10b981;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        .badge-easy { background: #10b981; }
+        .badge-medium { background: #f59e0b; }
+        .steps {
+            margin-left: 34px;
+        }
+        .step {
+            margin-bottom: 10px;
+            line-height: 1.6;
+            color: #334155;
+        }
+        .step strong {
+            color: #2563eb;
+        }
+        .link-button {
+            display: inline-block;
+            background: #2563eb;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 10px;
+            transition: background 0.3s ease;
+        }
+        .link-button:hover {
+            background: #1d4ed8;
+        }
+        .why-box {
+            background: #dbeafe;
+            border-left: 4px solid #2563eb;
+            padding: 15px;
+            border-radius: 6px;
+            margin-top: 30px;
+        }
+        .why-box h3 {
+            color: #1e40af;
+            margin-bottom: 10px;
+        }
+        .desktop-only {
+            background: #f1f5f9;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+            color: #64748b;
+        }
+        .emoji {
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="emoji">📱✈️</div>
+        <h1>Mobile Setup Guide</h1>
+        <p class="subtitle">Aviation Test Center - How to use on Samsung/Android phones</p>
+        
+        <div class="device-notice">
+            <strong>🚨 Important for Mobile Users</strong>
+            <p>The START_APP.bat and START_APP.sh files only work on computers (Windows/Mac/Linux). On mobile phones, you need to use one of the methods below.</p>
+        </div>
+
+        <!-- Method 1 -->
+        <div class="method">
+            <div class="method-header">
+                <span class="method-icon">🌐</span>
+                <span class="method-title">Method 1: Free Web Hosting</span>
+                <span class="badge badge-easy">EASIEST</span>
+                <span class="badge" style="background: #2563eb;">RECOMMENDED</span>
+            </div>
+            <div class="steps">
+                <div class="step">1. Go to <strong>Netlify Drop</strong> on your phone or computer</div>
+                <div class="step">2. Drag the entire extracted folder onto the page</div>
+                <div class="step">3. You'll get a link like: <code>https://amazing-app-123.netlify.app</code></div>
+                <div class="step">4. Share this link with anyone - works on ALL devices!</div>
+                <div class="step">5. The app stays online forever, free!</div>
+                <a href="https://app.netlify.com/drop" target="_blank" class="link-button">
+                    Open Netlify Drop →
+                </a>
+            </div>
+        </div>
+
+        <!-- Method 2 -->
+        <div class="method">
+            <div class="method-header">
+                <span class="method-icon">📲</span>
+                <span class="method-title">Method 2: Mobile Server App</span>
+                <span class="badge badge-medium">REQUIRES APP</span>
+            </div>
+            <div class="steps">
+                <div class="step">1. Download <strong>"HTTP Server - WiFi File Share"</strong> from Play Store</div>
+                <div class="step">2. Extract this ZIP file on your phone</div>
+                <div class="step">3. Open the HTTP Server app</div>
+                <div class="step">4. Select the extracted aviation-test-app folder</div>
+                <div class="step">5. Tap "Start Server"</div>
+                <div class="step">6. Open the URL shown (e.g., <code>http://192.168.1.5:8080</code>)</div>
+            </div>
+        </div>
+
+        <!-- Method 3 -->
+        <div class="method">
+            <div class="method-header">
+                <span class="method-icon">🌍</span>
+                <span class="method-title">Method 3: Try Different Browsers</span>
+                <span class="badge" style="background: #f59e0b;">LIMITED</span>
+            </div>
+            <div class="steps">
+                <div class="step">Some browsers handle local files better than others:</div>
+                <div class="step">✅ <strong>Firefox</strong> - Works best on Android</div>
+                <div class="step">⚠️ <strong>Chrome</strong> - May work with limitations</div>
+                <div class="step">❌ <strong>Samsung Internet</strong> - Usually doesn't work</div>
+                <div class="step" style="margin-top: 10px;">Try opening <code>index.html</code> with Firefox browser</div>
+            </div>
+        </div>
+
+        <!-- Why Explanation -->
+        <div class="why-box">
+            <h3>❓ Why doesn't it work directly?</h3>
+            <p>Mobile browsers have strict security rules. When you open an HTML file directly (using <code>file://</code> protocol), the browser blocks:</p>
+            <ul style="margin-left: 20px; margin-top: 10px; line-height: 1.8;">
+                <li>Loading CSS files → No styles, buttons not visible</li>
+                <li>Loading JavaScript → No functionality</li>
+                <li>Loading data files → No test questions</li>
+            </ul>
+            <p style="margin-top: 10px;"><strong>Solution:</strong> The app must be served via <code>http://</code> or <code>https://</code> using one of the methods above.</p>
+        </div>
+
+        <!-- Desktop Info -->
+        <div class="desktop-only">
+            <strong>💻 For Desktop Users:</strong><br>
+            On Windows: Double-click <code>START_APP.bat</code><br>
+            On Mac/Linux: Double-click <code>START_APP.sh</code><br>
+            The browser will open automatically at <code>http://localhost:8000</code>
+        </div>
+
+        <div style="margin-top: 30px; text-align: center; color: #64748b; font-size: 14px;">
+            <p>For more detailed instructions, see <strong>MOBILE_INSTRUCTIONS.md</strong></p>
+            <p style="margin-top: 10px;">Need help? Make sure you're following <strong>Method 1</strong> - it's the easiest!</p>
+        </div>
+    </div>
+</body>
+</html>

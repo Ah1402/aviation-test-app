@@ -1,0 +1,120 @@
+ID: 20
+Question: concerning NAVSTAR/GPS orbits, which of the following statements is correct?
+AON Answer: the inclination of the orbits is 55* with an orbital period of 12 hours.
+TestData Answer: batteries are considered dangerous goods if transported due to the risk of thermal runaway and the substances inside
+--------------------------------------------------------------------------------
+ID: 297
+Question: With reference to tropical revolving storms, which of the following statements is correct?
+AON Answer: Hurricanes affect the southeast of the USA in late summer
+TestData Answer: batteries are considered dangerous goods if transported due to the risk of thermal runaway and the substances inside
+--------------------------------------------------------------------------------
+ID: 418
+Question: The Cat I minimum decision height is:
+AON Answer: 200ft
+TestData Answer: 200 feet
+--------------------------------------------------------------------------------
+ID: 523
+Question: When an aircraft fitted with a classic air-driven artificial horizon decelerates after
+AON Answer:  descending turn to left
+TestData Answer: climbing turn to right.
+--------------------------------------------------------------------------------
+ID: 531
+Question: The ILS Localiser operates in the following frequency band:
+AON Answer: 108.0- 112.0 MHz
+TestData Answer: 108.0-112.0 MHZ
+--------------------------------------------------------------------------------
+ID: 532
+Question: The minimum separation between VHF frequencies in Europe is:
+AON Answer: 8.33 kHZ
+TestData Answer: 8.33kHZ
+--------------------------------------------------------------------------------
+ID: 538
+Question: What does TEM stand for in the context of Human Performance?
+AON Answer: threat and error mangment
+TestData Answer: Threat and Error Management
+--------------------------------------------------------------------------------
+ID: 541
+Question: The oil in an oleo-pneumatic strut:
+AON Answer: limits the speed of compression of the strut
+TestData Answer: Limits the speed of extension and compression of the strut
+--------------------------------------------------------------------------------
+ID: 542
+Question: An aircraft is approaching a DME Beacon at 40000 ft, and slang range is 15 NM. What is
+AON Answer: 13NM
+TestData Answer: 13 NM
+--------------------------------------------------------------------------------
+ID: 545
+Question: When selecting a fuse for an aircraft electrical circuit, the governing factor is:
+AON Answer:  the power recruitment of the circuit
+TestData Answer: the power requirement of the circuit
+--------------------------------------------------------------------------------
+ID: 555
+Question: Which of the following statements is true?
+AON Answer: Aluminium alloys are used in aircraft construction because they are light, easily machined
+TestData Answer: Titanium alloy is used in aircraft construction because of its good wear and high temperature tolerance
+--------------------------------------------------------------------------------
+ID: 570
+Question: An under-inflated tyre on a dry runway:
+AON Answer: increase wear on the shoulder
+TestData Answer: Increases wear on the shoulder
+--------------------------------------------------------------------------------
+ID: 573
+Question: Which of the following statements is true?
+AON Answer: Aluminium alloys are used in aircraft construction because they are light, easily machined
+TestData Answer: Titanium alloy is used in aircraft construction because of its good wear and high temperature tolerance
+--------------------------------------------------------------------------------
+ID: 578
+Question: If you are flying IFR to a destination with no alternate, when must the weather forecast be
+AON Answer: 1 hour before to 1 hour after ETA
+TestData Answer: 2 hours before to 2 hours after ETA
+--------------------------------------------------------------------------------
+ID: 580
+Question: What is the speed limitation in the hold for class A & B aircraft below 14000 ft?
+AON Answer: 170 kt
+TestData Answer: 230 kt
+--------------------------------------------------------------------------------
+ID: 596
+Question:  To achieve the maximum range over the ground with a headwind, a turbojet should fly?
+AON Answer: at a speed faster than 1.32VMD
+TestData Answer: At a speed faster than 1,32 VMD
+--------------------------------------------------------------------------------
+ID: 606
+Question: 6 When are lifejackets required?
+AON Answer: 50NM from land
+TestData Answer: 50 NM from land
+--------------------------------------------------------------------------------
+ID: 612
+Question: If an aeroplane lands below its Max Structural Landing Mass, but above its Performance
+AON Answer: 1,2,3,5
+TestData Answer: 1, 2, 3, 5
+--------------------------------------------------------------------------------
+ID: 616
+Question: Main and nose wheel bays are:
+AON Answer: unpressurized
+TestData Answer: Unpressurised
+--------------------------------------------------------------------------------
+ID: 624
+Question: The actual zero fuel weight is:
+AON Answer: The aircraft basic operation weight + payload.And must not exceed the maximum design
+TestData Answer: The aircraft basic operation weight + payload. And must not exceed the maximum design zero fuel weight
+--------------------------------------------------------------------------------
+ID: 626
+Question:  The signal from pilot to the signalman (marshaller) which means "brakes applied" is:
+AON Answer: Raise arm and hand, with fingers extended, horizontally in front of face, then clench fist
+TestData Answer: Fist clenched in front of the face then fingers extended
+--------------------------------------------------------------------------------
+ID: 731
+Question: What approximate rate of descent is required in order to maintain a 3 degree glide path at
+AON Answer: 600ft/min
+TestData Answer: 600 ft/min
+--------------------------------------------------------------------------------
+ID: 733
+Question: In an aeroplane utilising a constant frequency AC power supply, DC power is obtained
+AON Answer:  Transformer Rectifier Unit
+TestData Answer: The rate at which a component uses energy
+--------------------------------------------------------------------------------
+ID: 1281
+Question: transition level:
+AON Answer: will be calculated by the ATC service of an ATS unit.
+TestData Answer: Shall be the lowest flight level available for use above the transition altitude that has been established
+--------------------------------------------------------------------------------

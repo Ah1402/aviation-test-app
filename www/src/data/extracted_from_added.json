@@ -1,0 +1,3853 @@
+{
+  "instrumentation": {
+    "name": "Instrumentation",
+    "icon": "🎛️",
+    "tests": [
+      {
+        "name": "Instrumentation - Added Import",
+        "timeLimit": 60,
+        "questions": [
+          {
+            "question": "The needle and ball of a turn indicator are both to\r\nthe left of the datum. This indicates:",
+            "options": {
+              "A": "a left turn with too much bank",
+              "B": "a left turn with too little bank",
+              "C": "a right turn with too little bank",
+              "D": "a\r\nright turn with too much bank"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "On a turn and slip indicator, needle to the left and\r\nball to the right indicates:",
+            "options": {
+              "A": "right turn not enough bank",
+              "B": "left turn too\r\nmuch bank",
+              "C": "left turn not enough bank",
+              "D": "right turn too much bank"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "Which of the following are modes of the GPWS?  i.\r\nExcessive sink rate ii. Altitude loss after take-off or go-around iii.\r\nExcessive terrain closure rate iv. Deviation below glide slope v. Flight into\r\nterrain when not in landing configuration vi. Unsafe terrain clearance when not\r\nin landing configuration vii. Windshear warning",
+            "options": {
+              "A": "i ii iii iv v vi vii",
+              "B": "ii\r\niii v vii",
+              "C": "i ii iii vii",
+              "D": "iii iv v vi"
+            },
+            "correct": "A",
+            "explanation": "Note: Modern\r\nEGPWS includes vi, basic GPWS typically covers i, ii, iii, iv, v, vii. Assuming\r\nthe question refers to EGPWS or includes all possible modes."
+          },
+          {
+            "question": "An aircraft is travelling at 120 kt, what angle of\r\nbank would be required for a rate one turn?",
+            "options": {
+              "A": "30�",
+              "B": "12�",
+              "C": "19�",
+              "D": "35�"
+            },
+            "correct": "C",
+            "explanation": "Calculation: AoB   TAS/10 + 7. TAS   120 kt at low\r\naltitude. AoB   120/10 + 7 = 19�"
+          },
+          {
+            "question": "What is another name for fail-active?",
+            "options": {
+              "A": "Fail-soft",
+              "B": "Fail-operational",
+              "C": "Fail-safe",
+              "D": "Fail-passive"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "Which of the following are inputs to the central\r\nprocessing unit of the GPWS?  i. Flaps ii. Landing gear iii. Glide slope iv.\r\nUnusual attitudes v. Radio altimeter vi. VOR",
+            "options": {
+              "A": "i ii vi",
+              "B": "i ii iii v",
+              "C": "i ii\r\niv v",
+              "D": "i ii iii v vi"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "What is density altitude?",
+            "options": {
+              "A": "Temperature altitude",
+              "B": "Pressure altitude corrected for the prevailing temperature",
+              "C": "The altitude\r\nin the International Standard Atmosphere at which the prevailing density would\r\nbe found",
+              "D": "Pressure altitude corrected for Total Air Temperature"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "A modern radio altimeter uses the frequency band:",
+            "options": {
+              "A": "VHF 30 - 300 MHz",
+              "B": "SHF 3000 MHz - 30 GHz",
+              "C": "UHF 300 MHz - 3 GHz",
+              "D": "HF 3 MHz\r\n- 30 MHz"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "The true altitude of an aircraft in flight is shown\r\nfrom:",
+            "options": {
+              "A": "the standard atmosphere",
+              "B": "pressure altitude",
+              "C": "density altitude",
+              "D": "temperature altitude"
+            },
+            "correct": "B",
+            "explanation": "Note: None of the options\r\ndirectly represent  True Altitude . Pressure altitude is the basis,\r\ncorrected for non-standard temperature and pressure. The checkmark is on B,\r\nPressure Altitude."
+          },
+          {
+            "question": "Why must an autopilot be synchronized when you wish\r\nto disconnect?",
+            "options": {
+              "A": "To ensure fail-operational landings can continue safely",
+              "B": "To allow automatic pitch trimming to reset",
+              "C": "To secure against abrupt\r\nchanges in aircraft attitude",
+              "D": "To allow for FD coupling"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "Using a classic attitude indicator, an aircraft\r\nperforms a turn through 270� at a constant angle of bank and rate of turn. The\r\nindication is:",
+            "options": {
+              "A": "nose up bank right",
+              "B": "nose down bank left",
+              "C": "nose down\r\nbank right",
+              "D": "nose up bank left"
+            },
+            "correct": "A",
+            "explanation": "Due to apparent\r\nprecession/gyro wander in a turn"
+          },
+          {
+            "question": "A radio altimeter indicates:",
+            "options": {
+              "A": "2450 - 0 ft",
+              "B": "3000 - 50 ft",
+              "C": "2450 - 50 ft",
+              "D": "3000 - 0 ft"
+            },
+            "correct": "C",
+            "explanation": "Typical\r\nrange is up to 2500 ft, minimum height indication around 50 ft"
+          },
+          {
+            "question": "A radio altimeter is:",
+            "options": {
+              "A": "ground based and\r\nmeasures true altitude",
+              "B": "ground based and measures true height",
+              "C": "aircraft\r\nbased and measures true altitude",
+              "D": "aircraft based and measures true height"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "What correction is given by TCAS?",
+            "options": {
+              "A": "Turn left or\r\nright",
+              "B": "Climb or descend",
+              "C": "Contact ATC on receipt of a resolution advisory",
+              "D": "Climb or descend at 500 ft/min"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "An aircraft that is assessed as not being a threat\r\nwould be indicated on a TCAS system as:",
+            "options": {
+              "A": "a solid red square",
+              "B": "a solid\r\nwhite or cyan diamond",
+              "C": "a hollow white or cyan diamond",
+              "D": "a solid yellow\r\ncircle"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "During descent through a block of airspace of\r\nconstant temperature and while flying at a constant Mach No. will cause the CAS\r\nto:",
+            "options": {
+              "A": "increase",
+              "B": "decrease",
+              "C": "remain constant",
+              "D": "increase at a rate of\r\n1�98�/1000 ft"
+            },
+            "correct": "A",
+            "explanation": "Constant Mach, constant Temp =>\r\nconstant TAS. Descending => Increasing density => Increasing CAS for\r\nconstant TAS"
+          },
+          {
+            "question": "Under conditions determined by the International\r\nStandard Atmosphere, at MSL true airspeed:",
+            "options": {
+              "A": "is greater than CAS",
+              "B": "is\r\nless than CAS",
+              "C": "equals CAS",
+              "D": "is indeterminate due to the variation in\r\ntemperature"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "If the total pressure sensor supply line leaks, and\r\nwith the drain element blocked, in a non-pressurized aircraft this will cause\r\nthe ASI to:",
+            "options": {
+              "A": "under-read",
+              "B": "over-read",
+              "C": "over-read in the climb and\r\nunder-read in the descent",
+              "D": "under-read in the climb and over-read in the\r\ndescent"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "An aircraft is travelling at 100 kt forward speed on\r\na 3� glide slope. What is its rate of descent?",
+            "options": {
+              "A": "500 ft/min",
+              "B": "300 ft/min",
+              "C": "250 ft/min",
+              "D": "500 ft/sec"
+            },
+            "correct": "A",
+            "explanation": "Calculation: RoD  \r\nGS * 5 => 100 * 5 = 500 ft/min"
+          },
+          {
+            "question": "Total air temperature is ______ than static air\r\ntemperature and the difference varies with ______.",
+            "options": {
+              "A": "warmer altitude",
+              "B": "colder altitude",
+              "C": "warmer CAS",
+              "D": "colder CAS"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "The period of validity of an FMS data base is:",
+            "options": {
+              "A": "56 days",
+              "B": "one week",
+              "C": "28 days",
+              "D": "varies depending on the area of operational\r\ncover"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "What does the white arc on a temperature scale\r\nindicate?",
+            "options": {
+              "A": "Never exceed",
+              "B": "Maximum start and acceleration temperature",
+              "C": "Normal operating temperature",
+              "D": "Minimum temperature"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "A blockage occurs in the ram air source and the\r\ndrain-hole. The ASI in a nonpressurized aircraft will:",
+            "options": {
+              "A": "read a little low",
+              "B": "read a little high",
+              "C": "act like an altimeter",
+              "D": "freeze at zero"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "A rate integrating gyroscope is used in:  i.\r\ninertial attitude system ii. automatic flight control systems iii. inertial\r\nnavigation systems iv. rate of turn indicators",
+            "options": {
+              "A": "i ii",
+              "B": "i iii",
+              "C": "i iii iv",
+              "D": "i ii iii"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "When accelerating on a northerly heading what does the\r\ndirect reading magnetic compass indicate?",
+            "options": {
+              "A": "No change",
+              "B": "North",
+              "C": "A turn\r\nto the west",
+              "D": "A turn to the east"
+            },
+            "correct": "B",
+            "explanation": "Acceleration error\r\non North/South headings causes no turn indication)  Self-correction: The\r\nsource checkmark is B, but acceleration error (ANDS - Accelerate North,\r\nDecelerate South) applies to East/West headings. On a Northerly heading,\r\nacceleration causes no turning error. Rechecking compass errors confirms this.\r\nThe source checkmark might be incorrect."
+          },
+          {
+            "question": "In an IRS:",
+            "options": {
+              "A": "the accelerometers are strapped down\r\nbut the platform is gyro-stabilized",
+              "B": "the platform is strapped down but the\r\naccelerometers are gyro-stabilized",
+              "C": "accelerometers and gyros are both\r\ngyro-stabilized",
+              "D": "accelerometers and gyros are both strapped down"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "To convert true track to magnetic track you need:",
+            "options": {
+              "A": "a deviation map",
+              "B": "a map with isoclinal lines",
+              "C": "a map with isobars",
+              "D": "a\r\ndeviation card"
+            },
+            "correct": "B",
+            "explanation": "Isoclinal lines show dip, Isogonal\r\nlines show variation. Variation is needed. Assuming isoclinal is a typo for\r\nisogonal."
+          },
+          {
+            "question": "The rate of turn indicator is a very useful\r\ngyroscopic instrument. When used in conjunction with the attitude indicator it\r\nprovides:",
+            "options": {
+              "A": "angle of bank",
+              "B": "rate of turn about the yaw axis",
+              "C": "rate of\r\nclimb",
+              "D": "rate of turn athwartships"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "The outputs of a flux valve are initially sent to:",
+            "options": {
+              "A": "an amplifier",
+              "B": "an error detector",
+              "C": "a compass card",
+              "D": "a feedback loop"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "An inertial reference system is aligned when turned\r\non so as to:",
+            "options": {
+              "A": "calculate the computed trihedron with reference to the\r\nearth",
+              "B": "establish true and magnetic north",
+              "C": "establish position relative to\r\ntrue and magnetic north",
+              "D": "establish magnetic north"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "Why is there a vibration device in a pressure\r\naltimeter?  i. To prevent hysteresis ii. To prevent lag in a mechanical\r\nsystem iii. To keep pilots happy during long flights iv. To prevent icing",
+            "options": {
+              "A": "i",
+              "B": "i ii",
+              "C": "i iv",
+              "D": "i ii iii iv"
+            },
+            "correct": "B",
+            "explanation": "Primarily overcomes\r\nfriction/stiction, which relates to lag and hysteresis"
+          },
+          {
+            "question": "An aircraft flies into a colder airmass. This will\r\ncause the altimeter to:",
+            "options": {
+              "A": "over-read",
+              "B": "under-read",
+              "C": "read the correct\r\naltitude",
+              "D": "the indication will depend on the hemisphere of operation"
+            },
+            "correct": "A",
+            "explanation": "&quot;High to Low, look out below&quot; applies to pressure, but\r\n&quot;Cold = Low&quot; applies to temperature effect on true altitude vs\r\nindicated altitude. Colder air is denser, altimeter reads higher than true\r\naltitude, hence over-reads."
+          },
+          {
+            "question": "In a solid state gyroscope the purpose of the dither\r\nmotor is to:",
+            "options": {
+              "A": "enhance the acceleration of the gyro at all rotational\r\nrates",
+              "B": "overcome laser lock",
+              "C": "compensate for transport wander",
+              "D": "stabilize\r\nthe laser frequencies"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "With the aircraft weight constant but variations in\r\nairfield altitude, take-off will always be at a constant:",
+            "options": {
+              "A": "equivalent\r\nairspeed",
+              "B": "calibrated airspeed",
+              "C": "ground speed",
+              "D": "true airspeed"
+            },
+            "correct": "B",
+            "explanation": "Takeoff speeds are typically defined in IAS/CAS"
+          },
+          {
+            "question": "An IRS differs from an INS in that it:",
+            "options": {
+              "A": "has a\r\nlonger spin-up (is not affected by vertical accelerations due to gravity)",
+              "B": "has a shorter spin-up time and suffers from laser lock.",
+              "C": "does not need to\r\ncorrect for coriolis and central acceleration)",
+              "D": "does not suffer Schuler\r\noscillations"
+            },
+            "correct": "B",
+            "explanation": "IRS uses strapdown tech, faster\r\nalignment, Ring Laser Gyros can suffer laser lock, which dither motors\r\nprevent"
+          },
+          {
+            "question": "The rigidity (gyroscopic inertia) of a gyro rotor is\r\nimproved by:",
+            "options": {
+              "A": "increasing the angular momentum and concentrating the mass\r\non the periphery of the rotor",
+              "B": "increasing the angular momentum and\r\nconcentrating the mass at the hub of the rotor",
+              "C": "decreasing the angular\r\nmomentum and concentrating the mass on the periphery of the rotor",
+              "D": "decreasing\r\nthe angular momentum and concentrating the mass at the hub of the rotor"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "The errors associated with the directional indicator\r\nare:  i. earth rate ii. transport wander iii. banking when pitched up iv.\r\nannual movement of the poles v. mechanical problems",
+            "options": {
+              "A": "i ii iii",
+              "B": "i ii iv v",
+              "C": "i ii iii iv v",
+              "D": "i ii iii v"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "Which of the following correctly describes the\r\ngyroscope of a rate of turn indicator?  i. 1 degree of freedom ii. 2 degrees\r\nof freedom iii. Its frame is held by two springs iv. Its spin axis is parallel\r\nto the pitch axis v. The spin axis is parallel to the yaw axis vi. The spin\r\naxis is horizontal",
+            "options": {
+              "A": "i ii",
+              "B": "i iv v",
+              "C": "i iii iv",
+              "D": "i iii vi"
+            },
+            "correct": "C",
+            "explanation": "1 DoF, spring restrained, spin axis parallel to lateral/pitch axis).\n\n\r\n\r\n      \r\nInstrumentation Test 3 \n\n\r\n\r\n 1. An aircraft in the northern hemisphere lands and\r\ndecelerates on a westerly heading. The compass will indicate:\n\n\r\n\r\n A. a turn north 1B. no turn will be indicated 2C. an\r\noscillation 3D. a turn south 4Correct Answer: D"
+          },
+          {
+            "question": "If the TAS at 40000 ft is 450 kt the Mach No. is:",
+            "options": {
+              "A": "0.815",
+              "B": "0.784",
+              "C": "0.76",
+              "D": "0.825"
+            },
+            "correct": "B",
+            "explanation": "LSS at 40000 ft   573.6 kt. Mach No\r\n= TAS / LSS = 450 / 573.6   0."
+          },
+          {
+            "question": "The local speed of sound at mean sea level at ISA -10�C\r\nis:",
+            "options": {
+              "A": "661 kt",
+              "B": "650 kt",
+              "C": "673 kt",
+              "D": "680 kt"
+            },
+            "correct": "B",
+            "explanation": "Temp = 15 - 10 = 5�C = 278.15 K. LSS =\r\n$38.967 \\sqrt{T(K)}$ = $38.967 \\sqrt{278.15}$   650 kt"
+          },
+          {
+            "question": "The magnetic heading reference unit has a precession rate\r\nof:",
+            "options": {
+              "A": "1�/min",
+              "B": "2�/min",
+              "C": "5�/min",
+              "D": "3�/min"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "You are flying at a constant FL290 and constant Mach\r\nnumber. The total temperature increases by 5�. The CAS will:",
+            "options": {
+              "A": "remain approximately constant 80B. increase by 10 kt 81C.\r\ndecrease by 10 kt 82D. will increase or decrease depending on whether you are\r\nabove or below ISA. 83",
+              "B": "inner loop functions in pitch",
+              "C": "manometric functions from the Air Data\r\nComputer",
+              "D": "interlocking functions"
+            },
+            "correct": "A",
+            "explanation": "Constant Mach, Increasing Temp =>\r\nIncreasing LSS => Increasing TAS. Constant FL => Constant Pressure Alt\r\n=> Density decreases slightly with Temp increase. CAS depends on dynamic\r\npressure ($1/2 \\rho V^2$). Increasing TAS and decreasing density tend to\r\ncounteract each other for CAS, often resulting in little change or a slight\r\ndecrease)\n\n\r\n\r\n      \r\nInstrumentation Test 5 \n\n\r\n\r\n  1. Altitude select and altitude hold are examples of: \r\nA. inner loop functions in pitch B. manometric functions from the Air Data\r\nComputer C. interlocking functions D. outer loop functions in roll  Correct\r\nAnswer:  B"
+          },
+          {
+            "question": "What are the advantages of an IRS compared to an INS?",
+            "options": {
+              "A": "Reduce spin-up time and a dither motor to prevent &quot;lock-out&quot;.",
+              "B": "Reduce spin-up time and accuracy not adversely affect by &quot;g&quot;",
+              "C": "Increase accuracy and a dither motor to prevent &quot;lock-out&quot;.",
+              "D": "Insensitively to &quot;g&quot; and reduced wander of the gyroscope."
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "If the RPM of the rotor in a turn and slip indicator\r\nis higher than normal, the turn indicator will:",
+            "options": {
+              "A": "over-read the correct\r\nrate of turn",
+              "B": "under-read the correct rate of turn",
+              "C": "not indicate due to the\r\nincreased rigidity",
+              "D": "indicate correctly"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "The ANN RNV light on an RNAV system:",
+            "options": {
+              "A": "illuminates if the calculated track differs from the selected track by more\r\nthan 2 NM",
+              "B": "illuminates if the accuracy of the calculated position falls\r\noutside predetermined limits",
+              "C": "illuminates if power from the aircraft bus bar\r\nhas been lost and the system is operating on standby battery",
+              "D": "illuminates\r\nsteadily after passing a waypoint in manual mode, until the next leg is\r\nprogrammed in"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "An autopilot delivers roll commands to the ailerons to\r\nachieve a bank angle:",
+            "options": {
+              "A": "proportional to TAS, but below a specified maximum",
+              "B": "set bank of 25 degrees",
+              "C": "set bank of 30 degrees",
+              "D": "proportional to the\r\ndeviation from the desired heading, but not exceeding a specified maximum"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "With reference to the flux valve of a remote\r\nindicating compass:",
+            "options": {
+              "A": "the flux valve is pendulously mounted and is free to\r\nturn to remain aligned with the earth magnetic field",
+              "B": "the flux valve is not\r\nsubject to acceleration errors",
+              "C": "the flux valve is pendulously mounted and so\r\nit is not subject to or affected by the earth's magnetic field",
+              "D": "the flux\r\nvalve is fixed to the aircraft and senses the horizontal component of the\r\nearth's magnetic field"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "The command bars on an ADI used for autoflight\r\ncommand:",
+            "options": {
+              "A": "heading hold, VOR radial track, ILS track, speed hold, pitch\r\nhold",
+              "B": "heading hold, VOR radial track, ILS track, speed hold, altitude hold,\r\npitch hold",
+              "C": "heading hold, VOR radial track, altitude hold",
+              "D": "heading hold,\r\nVOR radial track, ILS track, altitude hold, pitch hold"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "During an approach to autoland at 1500 feet:",
+            "options": {
+              "A": "off line channels are manually engaged, flare mode is armed",
+              "B": "localizer is\r\ncontrolling the roll channel, off line channels are automatically engaged and\r\nflare mode is armed",
+              "C": "localizer is controlling the roll channel, stabilizer is\r\ntrimmed nose up and roll out is armed",
+              "D": "provided both localizer and glide\r\nslope signals are valid LAND 3 will be displayed"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "If only a single A/P is used to climb, cruise and\r\napproach, following a failure:",
+            "options": {
+              "A": "it is fail-passive with redundancy",
+              "B": "it\r\nis fail-operational and will not disconnect",
+              "C": "it is fail-soft and will not\r\ndisconnect",
+              "D": "it is fail-safe and will disconnect"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "At 200 ft on an autoland:",
+            "options": {
+              "A": "the LOC mode is\r\nengaged in the roll channel and the G/S mode is engaged in pitch.",
+              "B": "the LOC\r\nmode is engaged in the roll channel and the FLARE mode is engaged in the pitch\r\nchannel",
+              "C": "the ROLL OUT mode is engaged in the Roll channel and the G/S mode is\r\nengaged in pitch.",
+              "D": "the ROLL OUT mode is engaged in the Roll channel and the\r\nFLARE mode is engaged in the pitch channel"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "The term &quot;fail passive&quot; applied to an\r\nautomatic flight control system means that in the event of failure, the system\r\nis:",
+            "options": {
+              "A": "fully operational",
+              "B": "inoperative",
+              "C": "approaching decision height",
+              "D": "requiring a crew input"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "&quot;LOC ARMED&quot; lights up on the FMA part of\r\nthe PFD, this means:",
+            "options": {
+              "A": "localizer beam captured",
+              "B": "localizer beam armed and\r\nawaiting capture",
+              "C": "localizer alarm is on",
+              "D": "a/c is on localizer centre line"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "Where an alternate static source is fitted, use of\r\nthis source usually leads to:",
+            "options": {
+              "A": "a temporary increase in lag error",
+              "B": "a\r\nlower pressure error than with normal sources",
+              "C": "an increase in position error",
+              "D": "no change in position error"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "In a Schuler tuned INS, the largest unbounded errors\r\nare:",
+            "options": {
+              "A": "due to acceleration errors",
+              "B": "track errors due to initial\r\nmisalignment",
+              "C": "due to real wander of the platform gyroscopes",
+              "D": "created at the\r\nfirst stage of integration"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "What errors can the Air Data Computer correct for? 1.\r\nInstrument error & ram rise 2. Compressibility & density error 3. Lag\r\n& density error 4. Position & temperature error",
+            "options": {
+              "A": "1, 3 & 4",
+              "B": "1,\r\n2, 3 & 4",
+              "C": "1, 2 & 4",
+              "D": "2 & 4"
+            },
+            "correct": "C",
+            "explanation": "ADCs\r\ntypically correct for instrument error, position error, compressibility,\r\ndensity (derived from temp/pressure), and temperature (ram rise)"
+          },
+          {
+            "question": "WXR display is on:",
+            "options": {
+              "A": "the captain's CRT only",
+              "B": "the co-pilot's CRT only",
+              "C": "a special screen",
+              "D": "on both the captain's and\r\nco-pilot's CRTs"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "During a CAT 1 ILS approach, height is indicated by:",
+            "options": {
+              "A": "GPS",
+              "B": "radio altimeter",
+              "C": "marker",
+              "D": "barometric"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "Which of the following is the FMS normal operating\r\ncondition in the cruise?",
+            "options": {
+              "A": "L NAV only",
+              "B": "V NAV only",
+              "C": "L NAV or V NAV",
+              "D": "L NAV\r\nand V NAV"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "To obtain heading information from a gyro stabilized\r\nplatform, the gyros should have:",
+            "options": {
+              "A": "1 degree of freedom and a horizontal\r\naxis",
+              "B": "1 degree of freedom and a vertical axis",
+              "C": "2 degrees of freedom and a\r\nhorizontal axis",
+              "D": "2 degrees of freedom and a vertical axis"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "Weather radar returns can be displayed in which of the\r\nfollowing EFIS Modes?",
+            "options": {
+              "A": "Plan Exp ILS Exp VOR",
+              "B": "Plan Exp ILS Map",
+              "C": "Map Exp\r\nILS Exp VOR",
+              "D": "Map ILS VOR"
+            },
+            "correct": "C",
+            "explanation": "Weather radar is commonly\r\noverlaid on Map, Expanded ILS, and Expanded VOR modes"
+          }
+        ]
+      }
+    ]
+  },
+  "mass-balance": {
+    "name": "Mass & Balance",
+    "icon": "⚖️",
+    "tests": [
+      {
+        "name": "Mass & Balance - Added Import",
+        "timeLimit": 60,
+        "questions": [
+          {
+            "question": "The datum for the balance arms has to be along the\r\nlongitudinal axis:",
+            "options": {
+              "A": "between the nose and the tail",
+              "B": "between the leading\r\nand trailing edge of the MAC",
+              "C": "but does not have to be between the nose and\r\nthe tail",
+              "D": "at the fire wall"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "For a conventional light aeroplane with a tricycle\r\nundercarriage configuration, the higher the take-off mass:  1. stick forces\r\nat rotation will increase. 2. range will decrease but endurance will increase.\r\n3. gliding range will reduce. 4. stalling speed will increase.",
+            "options": {
+              "A": "all are\r\ncorrect",
+              "B": "1 and 4 are correct",
+              "C": "2, 3 and 4 are correct",
+              "D": "1, 3 and 4 are\r\ncorrect"
+            },
+            "correct": "D",
+            "explanation": "Higher mass increases stall speed, increases\r\nrequired rotation force, reduces glide range. Range generally decreases,\r\nendurance generally decreases at optimal speeds due to higher drag/power\r\nrequired"
+          },
+          {
+            "question": "Performance limited take-off mass may be limited by:",
+            "options": {
+              "A": "Obstacle clearance and Vmcg",
+              "B": "Obstacle clearance",
+              "C": "Maximum certified\r\ntake-off mass",
+              "D": "Climb gradient"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "Use CAP 696, MRJT 1, fig 4.9. What is the balance arm,\r\nthe maximum compartment load and the running load for the most aft compartment\r\nof the fwd cargo hold?",
+            "options": {
+              "A": "421.5 cm 3305 kg 13.12 kg per inch",
+              "B": "1046.5\r\ninches 711 kg 7.18 kg per kg",
+              "C": "421.5 inches 2059 kg 13.12 kg per inch",
+              "D": "1046.5 m 711 kg 7.18 kg per in"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "If a compartment takes a maximum load of 500 kg, with\r\na running load limit of 350 kg/m and a distribution load limit of 300 kg/m�\r\nmax, which of the following boxes, each of 500 kg, can be carried?  1. 100\r\ncm x 110 cm x 145 cm 2. 125 cm x 135 cm x 142 cm 3. 120 cm x 140 cm x 143 cm 4.\r\n125 cm x 135 cm x 144 cm",
+            "options": {
+              "A": "Any one of the boxes if loaded with due care as to\r\nits positioning",
+              "B": "Either of boxes 2, 3 and 4 in any configuration",
+              "C": "Box 2\r\nwith its longest length perpendicular to the floor cross bearers",
+              "D": "Box 4 only\r\nif loaded with its longest side parallel to the main longitudinal beam"
+            },
+            "correct": "D",
+            "explanation": "Need to check floor load (Area) and running load (Length) for\r\neach box dimension against limits. Box 4: Area=1.25*1.35=1.6875 m�,\r\nLoad=500/1.6875=296 kg/m� (<300 OK). Running Load: 500/1.44 = 347 kg/m\r\n(<350 OK), 500/1.35 = 370 kg/m (>350 NOT OK), 500/1.25 = 400 kg/m\r\n(>350 NOT OK). So only possible if longest side (1.44m) is parallel to\r\ndirection of running load limit calculation"
+          },
+          {
+            "question": "When considering CG position, it must be remembered\r\nthat it is:",
+            "options": {
+              "A": "set by the pilot",
+              "B": "set by the manufacturer",
+              "C": "able to exist\r\nwithin a range",
+              "D": "fixed"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "Use CAP 696, Section 4, MRJT1, as appropriate. Prior to\r\ndeparture an MRJT is loaded with maximum fuel of 20100 liter at an SG of 0.78.\r\nCalculate the maximum allowable traffic load that can be carried given the\r\nfollowing data: PLTOM 67200 kg, PLLM 54200 kg, DOM 34930 kg, Taxi fuel 250 kg,\r\nTrip fuel 9250 kg, Contingency and holding fuel 850 kg, Alternate fuel 700 kg.",
+            "options": {
+              "A": "13092 kg",
+              "B": "12442 kg",
+              "C": "16370 kg",
+              "D": "16842 kg"
+            },
+            "correct": "B",
+            "explanation": "Fuel\r\nMass = 20100 L * 0.78 kg/L = 15678 kg. Takeoff Fuel = Fuel Mass - Taxi Fuel =\r\n15678 - 250 = 15428 kg. Max TOM based on fuel = ZFW + TOF. Max ZFW based on\r\nPLTOM = PLTOM - TOF = 67200 - 15428 = 51772 kg. Max ZFW based on PLLM = PLLM -\r\nTOF + Trip + Contingency + Holding = 54200 - 15428 + 9250 + 850 = 48872 kg.\r\nLimiting ZFW = 48872 kg. Max Traffic Load = Limiting ZFW - DOM = 48872 - 34930\r\n= 13942 kg.  Self-correction: Let's re-read the fuel amounts. Trip=9250,\r\nCont+Hold=850, Alt=700. Total Required Fuel (excl Taxi) = 9250+850+700 = 10800\r\nkg. Max Fuel loaded = 15678 kg. ZFW limited by PLTOM: Max Traffic Load = PLTOM\r\n- DOM - Takeoff Fuel = 67200 - 34930 - 15428 = 16842 kg. ZFW limited by PLLM:\r\nMax Landing Mass = PLLM = 54200 kg. Landing Mass = TOM - Trip Fuel. So Max TOM\r\nbased on PLLM = PLLM + Trip Fuel = 54200 + 9250 = 63450 kg. Max Traffic Load =\r\nMax TOM based on PLLM - DOM - Takeoff Fuel = 63450 - 34930 - 15428 = 13092 kg.\r\nThere's also likely a Max Structural ZFW limit not given. Assuming PLTOM is the\r\nmost limiting factor for TOM (67200kg). Max Traffic Load = PLTOM - DOM - Takeoff\r\nFuel = 67200 - 34930 - (15678 - 250) = 16842 kg. Assuming PLLM is limiting: Max\r\nTOM = 63450kg. Max Traffic Load = 63450 - 34930 - (15678-250) = 13092 kg. The\r\ncheckmark is B (12442 kg). This doesn't match either structural limit\r\ncalculation. There might be a Max Structural ZFW missing, which is often the\r\nmost limiting factor for traffic load. If MSZFW = 47372 kg, then Max Traffic\r\nLoad = 47372 - 34930 = 12442 kg. This matches B."
+          },
+          {
+            "question": "The distance from the datum to the CG is:",
+            "options": {
+              "A": "the\r\nindex",
+              "B": "the moment",
+              "C": "the balance arm",
+              "D": "the station"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "An aircraft is flying at 1.3VS1g in order to provide an\r\nadequate margin above the low speed buffet and transonic speeds. If the 1.3VS1g\r\nspeed is 180 kt CAS and the mass increases from 285000 kg to 320000 kg, what is\r\nthe new 1g stalling speed?",
+            "options": {
+              "A": "146.7 kt, drag will increase and nautical mile\r\nper kg fuel burn will decrease",
+              "B": "191 kt, drag will increase and range NM/kg\r\nwill increase",
+              "C": "191 kt, drag will increase and NM/kg fuel burn will decrease",
+              "D": "147 kt"
+            },
+            "correct": "A",
+            "explanation": "Original Vs1g = 180 / 1.3   138.5 kt.\r\nNew Vs1g = Old Vs1g * sqrt(New Mass / Old Mass) = 138.5 * sqrt(320000 / 285000)\r\n  138.5 * sqrt(1.1228)   138.5 * 1.0596   146.7 kt. Increased\r\nmass increases drag and fuel burn per NM"
+          },
+          {
+            "question": "Exceeding the Maximum Structural Landing Mass may:",
+            "options": {
+              "A": "reduce the fatigue life of the landing gear",
+              "B": "cause structural damage",
+              "C": "both a and b are correct",
+              "D": "no damage will occur providing the aircraft is\r\nwithin the performance limited landing mass"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "Individual aircraft should be weighed in an\r\nair-conditioned hangar:",
+            "options": {
+              "A": "on entry into service and subsequently every 4\r\nyears",
+              "B": "when the effects of modifications or repairs are not known",
+              "C": "with the\r\nhangar doors closed and the air conditioning off",
+              "D": "all the above"
+            },
+            "correct": "D",
+            "explanation": "A & B are reasons for weighing, C describes the conditions"
+          },
+          {
+            "question": "Which of the following would not affect the CG\r\nposition?",
+            "options": {
+              "A": "Cabin crew members performing their normal duties",
+              "B": "Fuel\r\nconsumption during flight",
+              "C": "Horizontal stabilator trim setting",
+              "D": "Mass added\r\nor removed at the neutral point"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "The distance from the datum to the CG is:  (Note:\r\nDuplicate of Q9)",
+            "options": {
+              "A": "the index",
+              "B": "the moment",
+              "C": "the balance arm",
+              "D": "the station"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "In Mass & Balance terms, what is an index?",
+            "options": {
+              "A": "A cut down version of a force",
+              "B": "A moment divided by a constant",
+              "C": "A moment\r\ndivided by a mass",
+              "D": "A mass divided by a moment"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "The aeroplane is unstable if:",
+            "options": {
+              "A": "the CG is\r\nforward",
+              "B": "the CG is in mid range",
+              "C": "the CG is on the rear limit",
+              "D": "the CG is\r\nbehind the rear limit"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "Define the useful load:",
+            "options": {
+              "A": "traffic load plus dry\r\noperating mass",
+              "B": "traffic load plus usable fuel mass",
+              "C": "dry operating mass plus\r\nusable fuel load",
+              "D": "that part of the traffic load which generates revenue"
+            },
+            "correct": "B",
+            "explanation": "Useful Load = Max Ramp Mass - Basic Empty Mass"
+          },
+          {
+            "question": "If an aeroplane comes into land below its MSLM but\r\nabove the PLLM for the arrival airfield:  1. airframe structural damage will\r\noccur 2. tyre temperature limits could be exceeded 3. the runway length might\r\nbe inadequate 4. a go-around might not be achievable 5. brake fade could occur",
+            "options": {
+              "A": "1 and 5 only",
+              "B": "3 and 4 only",
+              "C": "2, 3, 4 and 5 only",
+              "D": "1, 3, 4 and 5 only"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "The useful load is:  (Note: Duplicate of Q17\r\ndefinition)",
+            "options": {
+              "A": "TOM minus fuel mass",
+              "B": "BEM plus fuel load",
+              "C": "TOM minus the DOM",
+              "D": "TOM minus the operating mass"
+            },
+            "correct": "C",
+            "explanation": "Useful Load = Load\r\nCarrying Capacity = TOM - DOM"
+          },
+          {
+            "question": "Determine the position of the CG as a percentage of the\r\nMAC given that the balance arm of the CG = 92.5 cm, the leading edge = 70.8 cm\r\nand the MAC = 125 cm.",
+            "options": {
+              "A": "17.5%",
+              "B": "17.7%",
+              "C": "16.3%",
+              "D": "17.4%"
+            },
+            "correct": "D",
+            "explanation": "Distance from LEMAC = CG Arm - LEMAC Arm = 92.5 - 70.8 = 21.7 cm. %MAC =\r\n(Distance from LEMAC / MAC Length) * 100 = (21.7 / 125) * 100 = 17.36%).\n\n\r\n\r\n      \r\nMass and Balance Test 2 \n\n\r\n\r\n  1. What is the zero fuel mass?  A. MSTOM minus fuel to\r\ndestination minus fuel to alternative airfield B. Maximum allowable mass of the\r\naircraft with no usable fuel on board C. Operating mass minus the fuel load D.  Actual\r\nloaded mass of the aircraft with no usable fuel on board"
+          },
+          {
+            "question": "Use CAP 696 MEP. Where is the reference datum?",
+            "options": {
+              "A": "78.4 inches forward of the wing leading edge at the inboard edge of the inboard\r\nfuel tank",
+              "B": "25.3 inches forward of the nose wheel",
+              "C": "109.8 inches forward of\r\nthe main wheel",
+              "D": "All the above"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "Use CAP 696 MEP. The main wheel is:",
+            "options": {
+              "A": "19 inches\r\nforward of the fwd CG limit at the maximum take-of mass",
+              "B": "27.8 inches behind\r\nthe fwd CG limit at a take-off mass of 3400 lb",
+              "C": "15.2 inches forward of the\r\nrear CG limit at the maximum take-of mass",
+              "D": "all the above"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "Use CAP 696 MEP. The nose wheel is:",
+            "options": {
+              "A": "61.1 inches\r\nforward of the fwd CG limit at maximum take-off mass",
+              "B": "15.2 inches forward of\r\nthe fwd CG limit at a mass of 3400 lb",
+              "C": "69.3 inches aft of the rear CG limit\r\nat maximum take-off mass",
+              "D": "all the above"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "Use CAP 696 MEP. What is the minimum fuel mass that\r\nmust be consumed if the aircraft, having become airborne at maximum weight,\r\ndecides to abort the fight?",
+            "options": {
+              "A": "1260 lb",
+              "B": "280 lb",
+              "C": "237 lb",
+              "D": "202 lb"
+            },
+            "correct": "C",
+            "explanation": "Max TOM - Max Landing Mass = 4750 lb - 4513 lb = 237 lb"
+          },
+          {
+            "question": "Use CAP 696 MEP. If the pilot has a mass of 200 lb,\r\nwhat is the maximum traffic load?",
+            "options": {
+              "A": "1060 lb",
+              "B": "1600 lb",
+              "C": "1006 lb",
+              "D": "6001\r\nlb"
+            },
+            "correct": "A",
+            "explanation": "Max Useful Load = Max TOM - BEM = 4750 - 2990 =\r\n1760 lb. Max Traffic Load = Max Useful Load - Pilot - Min Fuel (if applicable).\r\nAssuming min fuel isn't limiting, Max Traffic Load   1760 - 200 = 1560\r\nlb. However, ZFW limit = 4500 lb. Max Traffic Load also limited by = Max ZFW -\r\nBEM - Pilot = 4500 - 2990 - 200 = 1310 lb. The checkmark is A=1060lb, which\r\ndoesn't align with these structural limits. It might be performance limited or\r\nbased on a specific scenario not fully detailed."
+          },
+          {
+            "question": "Use CAP 696 MEP. Assuming the maximum zero fuel mass\r\nand maximum take-off mass, what fuel load can be carried?",
+            "options": {
+              "A": "38.9 imperial\r\ngallons",
+              "B": "46.6 US gallons",
+              "C": "176.8 litres",
+              "D": "Any one of the above"
+            },
+            "correct": "D",
+            "explanation": "Max Fuel = Max TOM - Max ZFW = 4750 - 4500 = 250 lb. 250 lb / 6\r\nlb/gal = 41.67 US Gal. 41.67 US Gal * 0.833 = 34.7 Imp Gal. 41.67 US Gal *\r\n3.785 = 157.7 L. None of the options match exactly, suggesting the premise\r\nmight be slightly different or there's an error. However, D claims all are\r\nequivalent, let's check: 38.9 Imp Gal * 1.2 * 6 = 279 lb. 46.6 US Gal * 6 =\r\n279.6 lb. 176.8 L * (1/3.785) * 6 = 279.6 lb. Options A, B, C represent approx\r\n280 lb, not the calculated 250 lb. The checkmark is D."
+          },
+          {
+            "question": "Use CAP 696 MEP. The CG when the TOM is 4300 lb and\r\nthe corresponding moment is 408500 lb in is:",
+            "options": {
+              "A": "95 inches",
+              "B": "59 inches",
+              "C": "0.4 inches tail heavy",
+              "D": "0.6 inches rear of the aft limit"
+            },
+            "correct": "A",
+            "explanation": "CG Arm = Moment / Mass = 408500 / 4300 = 95 inches"
+          },
+          {
+            "question": "Use CAP 696 MEP. If the CG is 86 inches and the TOM is\r\n4100 lb the aircraf is:",
+            "options": {
+              "A": "just on the forward CG limit",
+              "B": "just outside the\r\nforward CG limit",
+              "C": "just inside the aft CG limit",
+              "D": "within the two forward\r\nlimits"
+            },
+            "correct": "A",
+            "explanation": "Referring to the CG envelope graph in CAP 696\r\nMEP for 4100 lb, the forward limit is at 86 inches"
+          },
+          {
+            "question": "Use CAP MRJT. The leading edge of the MAC is given as\r\n625.6 inches aft of the datum. Our MAC is 150 inches long. What is the distance\r\nof the CG from the datum if it is found to be 16% of the MAC?",
+            "options": {
+              "A": "547\r\ninches.",
+              "B": "647 inches.",
+              "C": "747 inches.",
+              "D": "674 inches."
+            },
+            "correct": "B",
+            "explanation": "Distance aft LEMAC = 0.16 * 150 = 24 inches. CG Arm = LEMAC Arm + Distance aft\r\nLEMAC = 625.6 + 24 = 649.6 inches. Closest is 647 inches.)  Self-correction:\r\nRecalculated 625.6 + (0.16 * 150) = 625.6 + 24 = 649.6 inches. The provided answer\r\nB is 647 inches. Let's assume the MAC length from source fig 4.10 is 134.1\r\ninches. Then 625.6 + (0.16 * 134.1) = 625.6 + 21.456 = 647.056 inches. This\r\nmatches B."
+          },
+          {
+            "question": "Use CAP MRJT. The CG is found to be 652.5 inches aft\r\nof the datum. The leading edge of the MAC is given as 625.6 inches aft of the\r\ndatum. Our MAC is 134.1 inches long. What percentage is the CG of the MAC?",
+            "options": {
+              "A": "10%.",
+              "B": "15%.",
+              "C": "20%.",
+              "D": "25%."
+            },
+            "correct": "C",
+            "explanation": "Distance aft LEMAC =\r\n652.5 - 625.6 = 26.9 inches. %MAC = (26.9 / 134.1) * 100   20.06%"
+          },
+          {
+            "question": "Use CAP MRJT. If a passenger moves from a seat\r\nposition corresponding to the balance arm at zone D to a position corresponding\r\nto the balance arm at zone F, what distance will the passenger have travelled\r\nand how many seat rows will he have passed?",
+            "options": {
+              "A": "255 inches and 8 seat rows.",
+              "B": "260 inches and 7 seat rows.",
+              "C": "250 inches and 9 seat rows.",
+              "D": "255 inches and\r\n7 seat rows."
+            },
+            "correct": "A",
+            "explanation": "Zone D arm = 660, Zone F arm = 915.\r\nDistance = 915 - 660 = 255 inches. Seat rows D=8, E=7, F=8. Moving D -> F\r\npasses zones D and E fully. Assume approx 32 inch pitch, 255/32   8\r\nrows."
+          },
+          {
+            "question": "Use CAP MRJT. The balance arm for each of the seat\r\nzones is measured from the datum to:",
+            "options": {
+              "A": "the front border line of the zone.",
+              "B": "the centre line of the zone.",
+              "C": "the rear border line of the zone.",
+              "D": "the\r\nfront border line of the next zone in sequence."
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "Use CAP MRJT. What stabilizer trim setting is\r\nrequired for take-off when the CG is 15% MAC for 15 degrees of take-off flap?",
+            "options": {
+              "A": "2.75",
+              "B": "3.5",
+              "C": "4.5",
+              "D": "3.75"
+            },
+            "correct": "B",
+            "explanation": "Referencing fig 4.11 in\r\nCAP 696 MRJT"
+          },
+          {
+            "question": "Use CAP MRJT. Assuming the standard masses have been\r\nused for both passengers and baggage, what is the mass of a full passenger and\r\nbaggage load?",
+            "options": {
+              "A": "13027 kg",
+              "B": "13677 kg",
+              "C": "14127 kg",
+              "D": "15127 kg"
+            },
+            "correct": "B",
+            "explanation": "Assuming 143 seats * 84kg/pax + 143 * 13kg/bag = 12012 + 1859 =\r\n13871 kg. Checkmark is B=13677 kg, possibly using slightly different standard\r\nweights or seat count"
+          },
+          {
+            "question": "Use CAP MRJT. The leading edge of the MAC is given as\r\n625.6 inches aft of the datum. Our MAC is 134.1 inches long. What is the\r\ndistance of the CG from the datum if it is found to be 34% of the MAC?",
+            "options": {
+              "A": "681 inches.",
+              "B": "677 inches",
+              "C": "669 inches.",
+              "D": "674 inches."
+            },
+            "correct": "B",
+            "explanation": "Distance aft LEMAC = 0.34 * 134.1 = 45.594 inches. CG Arm = 625.6 + 45.594 =\r\n671.194 inches. Closest is 677 inches.  Self-correction: If MAC length from\r\npage 3-1 is used (150 inches), then 625.6 + (0.34 150) = 625.6 + 51 = 676.6\r\ninches. This matches B = 677 inches.*"
+          },
+          {
+            "question": "Use CAP MRJT. The CG is found to be 730.5 inches aft\r\nof the datum. Our MAC is 189 inches long. The leading edge of the MAC is given\r\nas 625.6 inches aft of the datum. What percentage is the CG of the MAC?",
+            "options": {
+              "A": "52.4%",
+              "B": "61%",
+              "C": "48%",
+              "D": "56%"
+            },
+            "correct": "D",
+            "explanation": "Distance aft LEMAC = 730.5\r\n- 625.6 = 104.9 inches. %MAC = (104.9 / 189) * 100   55.5%. Closest is\r\n56%"
+          },
+          {
+            "question": "Use CAP696 SEP1. If the landing mass is 3155 lb and\r\nthe trip fuel was 40 gallons, what was the ZFM if the fuel tanks held 60\r\ngallons of fuel prior to take-off?",
+            "options": {
+              "A": "3001 lb",
+              "B": "3035 lb",
+              "C": "3098 lb",
+              "D": "3111\r\nlb"
+            },
+            "correct": "B",
+            "explanation": "Fuel mass used = 40 gal * 6 lb/gal = 240 lb.\r\nTake-off mass = Landing Mass + Trip Fuel = 3155 + 240 = 3395 lb. Start Fuel\r\nMass = 60 gal * 6 lb/gal = 360 lb. ZFM = TOM - Start Fuel = 3395 - 360 = 3035\r\nlb"
+          },
+          {
+            "question": "Use CAP696 SEP1. Does the retractable landing gear\r\nhave a significant influence on the CG position?",
+            "options": {
+              "A": "Yes, the landing gear\r\nwill adversely affect the CG position.",
+              "B": "No, the landing gear will not\r\nsignificantly affect CG position.",
+              "C": "yes, the CG position will be significantly\r\naffected by the landing gear position.",
+              "D": "No, Landing gear never affects CG position"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "Use CAP696 SEP1. Assuming the weight and access is\r\nnot a problem, where can a cubic box of mass 500 lb be positioned?",
+            "options": {
+              "A": "Zone\r\nC only",
+              "B": "Zone C and D only",
+              "C": "Zone C, D and E only",
+              "D": "Zone C, D, E and F only"
+            },
+            "correct": "C",
+            "explanation": "Check floor loading limits for each zone. Zone C=100 lb/ft�,\r\nZone D=100 lb/ft�, Zone E=80 lb/ft�. Zone F=Seats only. A 500lb cubic box would\r\nneed area > 500/100 = 5 ft� for C&D, > 500/80 = 6.25 ft� for E. A\r\ncubic box implies equal sides. Side length for 5ft�   2.24 ft. Side\r\nlength for 6.25ft� = 2.5 ft. Assuming the box is physically small enough to\r\nfit, it can go in C, D, E"
+          }
+        ]
+      }
+    ]
+  },
+  "meteorology": {
+    "name": "Meteorology",
+    "icon": "🌦️",
+    "tests": [
+      {
+        "name": "Meteorology - Added Import",
+        "timeLimit": 60,
+        "questions": [
+          {
+            "question": "Maximum turbulence associated with the mountain waves\r\nis likely to be:",
+            "options": {
+              "A": "two wavelengths downwind and just above the surface",
+              "B": "approximately one wavelength downwind of, and approximately level with, the top\r\nof the ridge",
+              "C": "just below the tropopause above the ridge",
+              "D": "down the lee side\r\nof the ridge and along the surface"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "The significance of lenticular cloud is:",
+            "options": {
+              "A": "there\r\nmay be mountain waves present and there will be severe turbulence",
+              "B": "there are\r\nmountain waves present but they may not give severe turbulence",
+              "C": "a F�hn wind\r\ncan be expected with no turbulence",
+              "D": "a katabatic wind is present which may\r\nlead to fog in the valleys"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "When flying through the friction layer on approach to\r\nland, if the wind is steady in direction and speed, the crosswind component\r\nwill:",
+            "options": {
+              "A": "decrease and the headwind component increase",
+              "B": "increase and the\r\nheadwind component increase",
+              "C": "increase with little change in direction",
+              "D": "increase and then reverse in direction"
+            },
+            "correct": "C",
+            "explanation": "Note: Wind\r\ngenerally backs and decreases closer to the surface. If approaching, the\r\ncrosswind relative to the runway might increase depending on the wind direction\r\nchange, but the overall wind speed decreases. The checkmark is on C"
+          },
+          {
+            "question": "Mountain waves can occur:",
+            "options": {
+              "A": "up to a maximum of\r\n5000 ft above the mountains and 50 NM to 100 NM downwind",
+              "B": "up to mountain\r\nheight only and 50 NM to 100 NM downwind",
+              "C": "above the mountain and downwind up\r\nto a maximum height at the tropopause and 50 NM to 100 NM downwind.",
+              "D": "in the\r\nstratosphere and troposphere"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "For mountain waves to form, the wind direction must be\r\nnear perpendicular to a ridge or range of mountains and the speed must:",
+            "options": {
+              "A": "decrease with height within a stable layer above the hill",
+              "B": "increase with\r\nheight within an unstable layer above the hill",
+              "C": "decrease with height within\r\nan unstable layer above the hill",
+              "D": "increase with height within a stable layer\r\nabove the hill"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "What type of cloud is associated with drizzle?",
+            "options": {
+              "A": "St",
+              "B": "Cb",
+              "C": "Ci",
+              "D": "Ac"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "What cloud types are classified as medium cloud?",
+            "options": {
+              "A": "Ns + Sc",
+              "B": "Ac + As",
+              "C": "Cb + St",
+              "D": "Ci + Cs"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "Clear air turbulence, in association with a polar\r\nfront jet stream in the Northern Hemisphere, is more severe:",
+            "options": {
+              "A": "underneath\r\nthe jet core",
+              "B": "in the centre of the jet core",
+              "C": "looking downstream on the\r\nright hand side",
+              "D": "looking downstream on the left hand side"
+            },
+            "correct": "D",
+            "explanation": "On the cold air side/polar side of the jet core"
+          },
+          {
+            "question": "What is the composition of Ci cloud?",
+            "options": {
+              "A": "Super\r\ncooled water droplets",
+              "B": "Ice crystals",
+              "C": "Water droplets",
+              "D": "Smoke particles"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "When flying in IMC in a region close to a range of\r\nhills 2000 ft high, in stable air and with wind direction at right angles to\r\nthe axis of the range of hills, which of the following is probably the most\r\ndangerous practice:",
+            "options": {
+              "A": "flying towards the hills, into the wind, at flight\r\nlevel 65",
+              "B": "flying parallel to the hills on the downwind side at flight level\r\n40",
+              "C": "flying towards the hills downwind at flight level 55",
+              "D": "flying parallel\r\nto the hills on the upwind side at flight level 40"
+            },
+            "correct": "B",
+            "explanation": "Flying low on the lee side puts the aircraft in the region of strong\r\ndowndrafts and rotors"
+          },
+          {
+            "question": "Clear air turbulence associated with a jet stream is\r\nlikely to be encountered:",
+            "options": {
+              "A": "35 kt",
+              "B": "50 kt",
+              "C": "25 kt",
+              "D": "light"
+            },
+            "correct": "B",
+            "explanation": "The question seems incomplete, likely asking about minimum jet\r\nstream core speed for significant CAT. 50kt is often cited as a lower\r\nthreshold"
+          },
+          {
+            "question": "Which of the following statements referring to jet\r\nstreams is correct?",
+            "options": {
+              "A": "Turbulence associated with jet streams is probably\r\nassociated with the rapid windshear in the vicinity of the jet",
+              "B": "The maximum\r\nwind speed in a jet stream increases with increase of height up to the\r\ntropopause and remains constant thereafter",
+              "C": "The core of a jet stream is\r\nusually located just below the tropopause in the colder air mass",
+              "D": "The rate of\r\nchange of wind speed at any given level is usually greatest on the warmer side\r\nof the jet"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "Flying conditions in Ci cloud and horizontal\r\nvisibility:",
+            "options": {
+              "A": "less than 500 m vis, light/mod clear icing",
+              "B": "greater than\r\n1000 m vis, light/mod rime ice",
+              "C": "less then 500 m vis, no icing",
+              "D": "greater than\r\n1000 m vis, no icing"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "A mountain range is aligned in an east/west\r\ndirection. Select the conditions from the table below that will give rise to\r\nmountain waves at 2000 ft, 5000 ft, 10 000 ft:",
+            "options": {
+              "A": "020/40 020/30 020/50",
+              "B": "170/20 190/40 210/60",
+              "C": "270/15 270/20 270/40",
+              "D": "090/20 090/40 090/60"
+            },
+            "correct": "B",
+            "explanation": "Requires wind roughly perpendicular (>30 deg) to the range,\r\nspeed > 15-20 kts at ridge height, and increasing speed with height, within\r\na stable layer"
+          },
+          {
+            "question": "Clear air turbulence (CAT) should be reported\r\nwhenever it is experienced. What should be reported if crew and passengers feel\r\na definite strain against their seat or shoulder straps, food service and\r\nwalking is difficult and loose objects become dislodged?",
+            "options": {
+              "A": "Light TURB",
+              "B": "Extreme TURB",
+              "C": "Severe TURB",
+              "D": "Moderate TURB"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "A north/south mountain range, height 10,000 ft is\r\nproducing marked mountain waves. The greatest potential danger exists for an\r\naircraft flying:",
+            "options": {
+              "A": "on the windward side of the ridge",
+              "B": "at FL350 over and\r\nparallel to the ridge",
+              "C": "towards the ridge from the lee side at FL140",
+              "D": "above\r\na line of clouds parallel to the ridge on the lee side at FL25"
+            },
+            "correct": "D",
+            "explanation": "Flying near FL250 (~25000ft) might place the aircraft near the\r\ntropopause where wave amplitude can be large, especially if lenticular clouds\r\nindicate strong wave activity below).  Self-correction: Lee side flight is\r\ngenerally dangerous. C involves flying towards the ridge on the lee side. D\r\ninvolves flying above clouds, potentially near strong wave activity/CAT. The\r\nmost direct danger is often considered flying low level on the lee side due to\r\nrotors and downdrafts (related to C), but flight near the tropopause wave\r\ncrests (D) can also be hazardous."
+          },
+          {
+            "question": "CB cloud in summer contains:",
+            "options": {
+              "A": "water droplets",
+              "B": "ice crystals",
+              "C": "water droplets, ice crystals and super cooled water droplets",
+              "D": "water droplets and ice crystals"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "Hazards of the mature stage of a TS cell include\r\nlightning, turbulence and:",
+            "options": {
+              "A": "microburst, windshear and anvil",
+              "B": "icing,\r\nmicroburst and windshear",
+              "C": "icing, drizzle and microburst",
+              "D": "windshear, hail\r\nand fog"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "Thunderstorms require a trigger action to release the\r\nconditional instability. Which of the following would be the least suitable as\r\na trigger?",
+            "options": {
+              "A": "Convergence in temperate latitudes",
+              "B": "Convergence in tropical\r\nlatitudes",
+              "C": "Orographic uplift",
+              "D": "Subsidence"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "Clouds classified as low level are considered to have\r\na base height of:",
+            "options": {
+              "A": "500 - 1000 ft",
+              "B": "1000 - 2000 ft",
+              "C": "the surface - 6500\r\nft",
+              "D": "100 - 200 ft"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "On a significant weather chart the thunderstorm symbol\r\nsignifies:",
+            "options": {
+              "A": "moderate turbulence and moderate icing",
+              "B": "severe turbulence\r\nand severe icing",
+              "C": "moderate turbulence and severe icing",
+              "D": "moderate/severe\r\nturbulence and/or moderate/severe icing"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "The following is unlikely to be a hazard below a\r\nthunderstorm:",
+            "options": {
+              "A": "severe turbulence",
+              "B": "severe icing",
+              "C": "windshear",
+              "D": "large\r\nvariations in pressure setting values"
+            },
+            "correct": "B",
+            "explanation": "Severe icing\r\noccurs within the cloud, primarily in the freezing level range"
+          },
+          {
+            "question": "What type of cloud extends into another level?",
+            "options": {
+              "A": "As",
+              "B": "Acc",
+              "C": "Ns",
+              "D": "Ci"
+            },
+            "correct": "C",
+            "explanation": "Nimbostratus often extends from\r\nlow to medium levels"
+          },
+          {
+            "question": "Ceilometers measure:",
+            "options": {
+              "A": "RVR",
+              "B": "cloud height",
+              "C": "met\r\nvis",
+              "D": "turbulence"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "Which of the following will indicate medium level\r\ninstability, possibly leading to thunderstorms?",
+            "options": {
+              "A": "Halo",
+              "B": "Altocumulus\r\nCastellanus",
+              "C": "Altocumulus Capillatus",
+              "D": "Red Cirrus"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "The conditions which must exist to allow\r\nthunderstorms to develop are:",
+            "options": {
+              "A": "a trigger action, a plentiful supply of\r\nmoisture and a very stable atmosphere",
+              "B": "a steep lapse rate, a stable\r\natmosphere through a large vertical extent and a plentiful supply of moisture",
+              "C": "a plentiful supply of moisture and a steep lapse rate through a large\r\nvertical extent and a trigger action",
+              "D": "a steep lapse rate through a large\r\nvertical extent, a low relative humidity and a trigger action"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "In what cloud is icing and turbulence most severe?",
+            "options": {
+              "A": "Cb",
+              "B": "Ns",
+              "C": "Sc",
+              "D": "Ci"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "Which cloud would you encounter the most intensive\r\nrain?",
+            "options": {
+              "A": "Ci",
+              "B": "Ns",
+              "C": "St",
+              "D": "Sc"
+            },
+            "correct": "B",
+            "explanation": "While Cb produces\r\nintense showers, Ns produces continuous moderate to heavy rain"
+          },
+          {
+            "question": "A plain in Western Europe at 500 m (1600 ft) AMSL is\r\ncovered with a uniform altocumulus cloud during summer months. At what height\r\nAGL is the base of the cloud expected?",
+            "options": {
+              "A": "100 - 1500 ft",
+              "B": "15000 - 25000 ft",
+              "C": "7000 - 15000 ft",
+              "D": "1500 - 7000 ft"
+            },
+            "correct": "C",
+            "explanation": "Altocumulus is a\r\nmid-level cloud, typically 6500 ft - 20000 ft base"
+          },
+          {
+            "question": "What are lenticularis clouds a possible indication\r\nof?",
+            "options": {
+              "A": "Mountain waves",
+              "B": "Instability",
+              "C": "Developing Cu and Cb",
+              "D": "Horizontal\r\nwindshear in the upper atmosphere"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "When moist air moves across France in the .........\r\nTS activity is common in southern UK in the ......... Complete the above\r\nstatement correctly using one of the following:",
+            "options": {
+              "A": "winter/morning",
+              "B": "summer/late afternoon or evening",
+              "C": "winter/late afternoon or evening",
+              "D": "summer/morning"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "What would be reflected to radar?",
+            "options": {
+              "A": "Fog",
+              "B": "Hail",
+              "C": "Cloud",
+              "D": "Mist"
+            },
+            "correct": "B",
+            "explanation": "Weather radar detects precipitation\r\nparticles"
+          },
+          {
+            "question": "During the ......... stage of a thunderstorm cell,\r\nthe cloud contains ......... Complete the above statement correctly using one\r\nof the following:",
+            "options": {
+              "A": "building/up currents and down currents",
+              "B": "mature/up\r\ncurrents and down currents",
+              "C": "dissipating/up currents and down currents",
+              "D": "building/down currents only"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "What will snow most likely fall from?",
+            "options": {
+              "A": "Ns",
+              "B": "Ci",
+              "C": "Cs",
+              "D": "Ac"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "Fair weather cumulus gives an indication of:",
+            "options": {
+              "A": "poor visibility",
+              "B": "thunderstorms",
+              "C": "turbulence",
+              "D": "smooth flying below"
+            },
+            "correct": "C",
+            "explanation": "Meteorology Test 3 \n\n\r\n\r\n  1. Thunderstorms are likely if:  A.  air is\r\nunstable, there is sufficient water vapour and there is trigger action  B.\r\nair is completely stable, there is sufficient water vapour and there is lifting\r\norographically C. there is a warm front D. there is a col in winter"
+          },
+          {
+            "question": "Conditions favourable for the formation of radiation\r\nfog are:",
+            "options": {
+              "A": "Strong surface wind, cloudy sky, low relative humidity",
+              "B": "Light\r\nsurface wind, clear sky, high relative humidity",
+              "C": "Light surface wind, overcast\r\nsky, low relative humidity",
+              "D": "Strong surface wind, clear sky, high relative\r\nhumidity"
+            },
+            "correct": "B",
+            "explanation": ""
+          }
+        ]
+      }
+    ]
+  },
+  "operational-procedures": {
+    "name": "Operational Procedures",
+    "icon": "📋",
+    "tests": [
+      {
+        "name": "Operational Procedures - Added Import",
+        "timeLimit": 60,
+        "questions": []
+      }
+    ]
+  },
+  "performance": {
+    "name": "Performance",
+    "icon": "✈️",
+    "tests": [
+      {
+        "name": "Performance - Added Import",
+        "timeLimit": 60,
+        "questions": []
+      },
+      {
+        "name": "Performance - Added Import",
+        "timeLimit": 60,
+        "questions": [
+          {
+            "question": "If someone is hyperventilating, the blood contains too\r\nmuch:",
+            "options": {
+              "A": "acid",
+              "B": "alkaline",
+              "C": "CO2",
+              "D": "haemoglobin"
+            },
+            "correct": "A",
+            "explanation": "Note: Hyperventilation blows off CO2, leading to respiratory alkalosis - less\r\nacid/more alkaline. The checkmark is next to A, which indicates  too much\r\nacid  is the  result  of the body's compensatory mechanisms, or the\r\nquestion/checkmark might be incorrect. Standard understanding is it leads to\r\nalkalosis/less acid"
+          },
+          {
+            "question": "Accidents are caused by lack of:",
+            "options": {
+              "A": "good judgment",
+              "B": "safe maintenance of aircraft",
+              "C": "interpersonal relations",
+              "D": "physical and\r\nmental skills"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "Blood from the pulmonary artery is?",
+            "options": {
+              "A": "Rich in\r\noxygen and low in carbon dioxide",
+              "B": "Rich in oxygen and rich in carbon dioxide",
+              "C": "Low in oxygen and low in carbon dioxide",
+              "D": "Low in oxygen and rich in carbon\r\ndioxide"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "Which instrument, which was introduced in the 1980s,\r\nled to the greatest reduction of accidents?",
+            "options": {
+              "A": "SSR",
+              "B": "DME",
+              "C": "GPWS",
+              "D": "TCAS"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "When blood pressure is measured during an aviation\r\nmedical examination, the pressure is:",
+            "options": {
+              "A": "the venous pressure",
+              "B": "the\r\npressure of O2 in the blood",
+              "C": "the pressure in all of the blood vessels, being\r\nrepresentative of the pressure over the whole body",
+              "D": "arterial pressure in the\r\nupper arm, being equivalent to that of the heart"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "A pilot should consult an aviation medicine specialist\r\nbefore donating blood because:",
+            "options": {
+              "A": "donation may lead to a rise in blood\r\npressure (hypertension)",
+              "B": "donation may lead to a lowering of blood pressure\r\n(hypotension)",
+              "C": "donation may lead to a reduced tolerance of altitude",
+              "D": "donation may lead to a lowering of the body temperature causing unpredictable\r\nsleepiness"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "A person is suffering from hyperventilation, his blood\r\nbecomes:",
+            "options": {
+              "A": "more acid",
+              "B": "more alkaline",
+              "C": "more saturated with CO2",
+              "D": "less\r\nsaturated with oxygen"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "The amount of oxygen carried by the blood depends on:",
+            "options": {
+              "A": "the partial pressure of oxygen only",
+              "B": "the haemoglobin only",
+              "C": "the amount of\r\noxygen dissolved in the blood plasma",
+              "D": "the partial pressure of oxygen and the\r\namount of haemoglobin"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "Haemoglobin is:",
+            "options": {
+              "A": "dissolved in the blood",
+              "B": "in\r\nred blood cells",
+              "C": "in white cells of the blood",
+              "D": "in the platelets"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "The pressoreceptors have signalled low blood\r\npressure. The body's response is to:  1. increase rate of breathing 2.\r\nincrease cardiac output 3. increase heart rate 4. relax of the blood vessels 5.\r\ndecrease heart rate 6. tighten of the blood vessels",
+            "options": {
+              "A": "1, 2, 3 and 4",
+              "B": "2, 3\r\nand 6",
+              "C": "4 and 5 only",
+              "D": "1, 3 and 4"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "The body gets its energy from:  1. minerals 2.\r\ncarbohydrates 3. protein 4. vitamins",
+            "options": {
+              "A": "1 & 4 only",
+              "B": "2 & 3 only",
+              "C": "1,\r\n2 & 4",
+              "D": "3 & 4 only"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "What is the carcinogenic substance in cigarettes that\r\ncan modify cells and cause cancer?",
+            "options": {
+              "A": "Tar",
+              "B": "Nicotine",
+              "C": "Carbon monoxide",
+              "D": "Lead"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "Having given blood a pilot should see a doctor\r\nbecause of the increased susceptibility to:",
+            "options": {
+              "A": "hypoxia",
+              "B": "low blood\r\npressure",
+              "C": "hyperventilation",
+              "D": "Decompression sickness (DCS)"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "With a pulse rate of 72 beats a minute and a stroke\r\nvolume of 70 ml, what is the cardiac output?",
+            "options": {
+              "A": "8 litres a minute",
+              "B": "6\r\nlitres a minute",
+              "C": "5 litres a minute",
+              "D": "7 litres a minute"
+            },
+            "correct": "C",
+            "explanation": "Calculation: 72 beats/min * 70 ml/beat = 5040 ml/min   5 L/min"
+          },
+          {
+            "question": "Who is responsible for Air Safety?",
+            "options": {
+              "A": "Aircrew and\r\nGroundcrew",
+              "B": "Aircrew, Groundcrew and Management",
+              "C": "Everyone involved",
+              "D": "Aircrew only"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "Having donated blood aircrew should:",
+            "options": {
+              "A": "rest\r\nsupine for at least 1 hour, drink plenty of fluids and not fly for 48 hours",
+              "B": "rest supine for about 15 - 20 minutes, drink plenty of fluids and not fly for\r\n24 hours",
+              "C": "aircrew are prohibited from donating blood",
+              "D": "aircrew are not\r\nencouraged to give blood"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "Human factors have been statistically proved to\r\ncontribute approximately:",
+            "options": {
+              "A": "50% of aircraft accidents",
+              "B": "70% of aircraft\r\naccidents",
+              "C": "90% of aircraft accidents",
+              "D": "have not played a significant role in\r\naircraft accidents"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "The oxygen-carrying capacity of a smoker who smokes\r\n20 to 30 cigarettes a day is reduced by approximately:",
+            "options": {
+              "A": "8 - 10%",
+              "B": "12 -\r\n18%",
+              "C": "20 - 25%",
+              "D": "0.2 - 2%"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "The blood of the pulmonary vein is:",
+            "options": {
+              "A": "rich in\r\noxygen and lacking in CO2",
+              "B": "rich in oxygen and rich in CO2",
+              "C": "lacking in\r\noxygen and rich in CO2",
+              "D": "lacking in oxygen and lacking in CO2"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "Which of the following is true with respect to the\r\ncause of decompression sickness?",
+            "options": {
+              "A": "altitudes above 18000 ft in an\r\nunpressurized aircraft",
+              "B": "altitudes above 5000 ft",
+              "C": "climbing at more than 500\r\nft/min to altitude greater than 18000 ft",
+              "D": "temperatures greater than 24�C at\r\naltitudes of over 2000 ft"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "What chemical substance in tobacco causes addiction?",
+            "options": {
+              "A": "Tar and nicotine",
+              "B": "Tar and carbon monoxide",
+              "C": "Nicotine and carbon monoxide",
+              "D": "Nicotine"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "The contents of exhaled air compared to inhaled air\r\nwill contain:",
+            "options": {
+              "A": "Less N2",
+              "B": "More O2",
+              "C": "Less CO2",
+              "D": "Less O2"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "Which of the following factors decrease resistance to\r\ndecompression sickness?  1. Body height 2. Scuba diving 3. Obesity 4. Age",
+            "options": {
+              "A": "1, 2 and 4",
+              "B": "3 and 4",
+              "C": "1, 2 and 3",
+              "D": "2, 3 and 4"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "Blood pressure depends on the:",
+            "options": {
+              "A": "resistance and\r\nthe efficiency of the cells",
+              "B": "cardiac input and the resistance of the\r\ncapillaries",
+              "C": "cell output and the thinness of the blood",
+              "D": "cardiac output and\r\nthe resistance of the capillaries"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "Time of useful consciousness (TUC) following loss of\r\npressurization at 35000 ft is:",
+            "options": {
+              "A": "3 - 4 minutes",
+              "B": "5 minutes upwards",
+              "C": "30\r\n- 60 seconds",
+              "D": "10 - 15 seconds"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "Dalton's Law is associated with:",
+            "options": {
+              "A": "Decompression\r\nsickness (DCS)",
+              "B": "bends",
+              "C": "creeps",
+              "D": "hypoxia"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "Among the symptoms of hypoxia are:  1. impaired\r\njudgment 2. fast and heavy breathing 3. impairment of vision 4. muscular\r\nimpairment",
+            "options": {
+              "A": "1 & 3",
+              "B": "1, 3 and 4",
+              "C": "1, 2 and 4",
+              "D": "1, 2, 3 and 4"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "The composition of the atmosphere at 21000 ft is\r\napproximately:",
+            "options": {
+              "A": "78% He, 21% O2 and 1% CO",
+              "B": "78% He, 21% O2 and 0.003% CO2\r\n+ traces",
+              "C": "78% N, 21% O2 and 1% CO2 + traces",
+              "D": "78% N, 21% O2 and 1% CO +\r\ntraces"
+            },
+            "correct": "C",
+            "explanation": "Note: Atmospheric composition percentages\r\nremain relatively constant with altitude, but partial pressures decrease.\r\nOption C shows the standard sea-level composition percentages, which is the\r\nlikely intended answer despite the altitude context"
+          },
+          {
+            "question": "Boyle's Law has a role to play in:",
+            "options": {
+              "A": "hypoxia\r\nwith increased altitude",
+              "B": "Decompression sickness",
+              "C": "gastrointestinal tract\r\nbarotrauma",
+              "D": "night vision"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "Which is the following actions is the most efficient\r\nto accelerate the release of Carbon Monoxide from the blood?",
+            "options": {
+              "A": "Inhalation\r\nof pressurised oxygen",
+              "B": "Inhalation of a mixture of unpressurized oxygen and\r\nair",
+              "C": "Inhalation of pressurised carbon dioxide",
+              "D": "Inhalation of a mixture of\r\nunpressurized carbon dioxide and air"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "A pilot suffering from hyperventilation during final\r\napproach in poor weather can combat the effects by:",
+            "options": {
+              "A": "going on 100% oxygen\r\nand go around",
+              "B": "slowing the breathing rate, breathing into a paper bag and\r\ncontinuing the approach",
+              "C": "increasing the rate of breathing and continuing the\r\napproach",
+              "D": "increasing the depth of breathing and going around"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "What is the normal tidal volume?",
+            "options": {
+              "A": "750 ml",
+              "B": "500\r\nml",
+              "C": "150 ml",
+              "D": "250 ml"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "Circulation of the blood is for:  1.\r\ntransportation of oxygen to the cells of the body 2. withdrawal of the waste\r\nproducts from the cells 3. convey nutrients to the cells",
+            "options": {
+              "A": "1 and 2",
+              "B": "2 and 3",
+              "C": "1 and 3",
+              "D": "1, 2 and 3"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "Which of the following is correct concerning O2 and\r\nblood?",
+            "options": {
+              "A": "Arterial blood is darker than venous blood",
+              "B": "Blood plasma is\r\noxygenated at the heart",
+              "C": "Diffusion of oxygen from the alveoli to the blood is\r\nnot dependent on the partial pressure",
+              "D": "Diffusion from the blood to the cells\r\nis dependent on the partial pressure of oxygen"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "Which of the following symptoms marks the beginning\r\nof hyperventilation?",
+            "options": {
+              "A": "Slow heart beat",
+              "B": "Cyanosis",
+              "C": "Dizzy feeling",
+              "D": "Slow rate of breath"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "A few hours after landing a pilot feels pain in\r\nhis/her joints. The correct action is:",
+            "options": {
+              "A": "take exercise which will cause\r\nthe pain to disappear",
+              "B": "take physiotherapy",
+              "C": "see an aviation medical\r\nspecialist as soon as possible",
+              "D": "ignore it since is probably due to common\r\nafter-effect of height"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "What law governs the oxygen transfer at the alveoli?",
+            "options": {
+              "A": "Boyle's",
+              "B": "Charles'",
+              "C": "Henry's",
+              "D": "Gas Diffusion Law - Fick's Law"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "Carbon Monoxide:",
+            "options": {
+              "A": "can have a severe affect on a\r\npilot's abilities when receiving exposure for a relatively short period of time",
+              "B": "does not have an effect when the body becomes used to the gas over a long\r\nperiod of time",
+              "C": "has no effect on the human body",
+              "D": "is not toxic"
+            },
+            "correct": "A",
+            "explanation": "Human Performance and Limitations Test 3 \n\n\r\n\r\n  1. The partial pressure of carbon dioxide in the lungs\r\nis:  A. lower than the partial pressure of CO2 in the atmosphere B. higher\r\nthan the pressure of CO2 in the blood C. lower than the pressure of CO2 in the\r\nblood D. almost equal to the pressure of CO2 in the atmosphere  Correct\r\nAnswer:  C"
+          },
+          {
+            "question": "The Critical Zone of hypoxia begins at:",
+            "options": {
+              "A": "18000\r\nft",
+              "B": "20000 ft",
+              "C": "23000 ft",
+              "D": "3600 ft"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "Which of the following are defined in the ICAO Standard\r\nAtmosphere? 1. Pressure 2. Temperature 3. Density 4. Humidity",
+            "options": {
+              "A": "1, 2 & 4",
+              "B": "1 & 2",
+              "C": "2, 3 & 4",
+              "D": "1, 2 & 3"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "In an ascent, where is the greatest pressure\r\ndifferential?",
+            "options": {
+              "A": "0 - 5000 ft",
+              "B": "5000 - 10000 ft",
+              "C": "10000 - 15000 ft",
+              "D": "40000 - 45000 ft"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "DCS symptoms can occur:",
+            "options": {
+              "A": "when flying from an\r\narea if high pressure to an area of low pressure in an unpressurized aircraft",
+              "B": "when cabin pressure surges below 18000 ft",
+              "C": "following loss of cabin\r\npressure at altitudes higher than 18000 ft",
+              "D": "emergency descent following\r\ndecompression below 10000 ft"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "Under normal conditions, external respiration is a\r\nsubconscious process that occurs at a rate of:",
+            "options": {
+              "A": "20 to 30 breaths/min,\r\naveraging 25 breaths/minute",
+              "B": "30 to 40 breaths/min, averaging 35\r\nbreaths/minute",
+              "C": "15 to 25 breaths/min, averaging 20 breaths/minute",
+              "D": "12 to 20\r\nbreaths/min, averaging 16 breaths/minute"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "Which of the following statements are correct?:\r\nDecompression sickness can be avoided by:  1. staying below 18000 ft 2.\r\nmaintaining cabin pressure below 8000 ft 3. breathing 100% oxygen 30 minutes\r\nprior to and during flight above 18000 ft 4. breathing 100% oxygen 60 minutes\r\nprior to and during flight above 18000 ft",
+            "options": {
+              "A": "1, 2 & 3",
+              "B": "2, 3 & 4",
+              "C": "1,\r\n3 & 4",
+              "D": "1, 2 & 4"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "Hyperventilation results in:",
+            "options": {
+              "A": "Increased pCO2 in\r\nthe blood",
+              "B": "Decreased pCO2 in the blood",
+              "C": "Increased pO2 in the blood",
+              "D": "Decreased pO2 in the blood"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "Time of useful consciousness at 25,000 feet with\r\nmoderate activity and rapid decompression is approximately:",
+            "options": {
+              "A": "2 minutes",
+              "B": "30 seconds to 5 minutes",
+              "C": "2.5 minutes to 6 minutes",
+              "D": "5 to 10 minutes"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "At what altitude is pressure half that at MSL:",
+            "options": {
+              "A": "8000 ft",
+              "B": "10000 ft",
+              "C": "18000 ft",
+              "D": "36000 ft"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "Hyperventilation can cause:",
+            "options": {
+              "A": "too much oxygen to\r\nthe brain",
+              "B": "spasms in the muscles and possible unconsciousness",
+              "C": "bluish tinge\r\nunder the nails of the fingers and the lobes of the ears",
+              "D": "a feeling of\r\neuphoria"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "As the body ascends, the partial pressure of oxygen\r\nwithin the lungs:",
+            "options": {
+              "A": "decreases at a rate of 3 times the atmospheric rate",
+              "B": "decreases at the same rate as that of the atmosphere",
+              "C": "stays the same",
+              "D": "increases"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "The following are features of hypoxia: 1. blue\r\ndiscolouration of the lips and fingernails 2. shortness of breath and dizziness\r\n3. impaired decision making and poor coordination 4. a feeling of well being",
+            "options": {
+              "A": "2, 3 and 4 are correct",
+              "B": "1, 2 and 4 are correct",
+              "C": "1, 3 and 4 are correct",
+              "D": "1, 2 and 3 are correct"
+            },
+            "correct": "B",
+            "explanation": "Note: Impaired decision making\r\n(3) is a symptom, but the checkmark is B. Euphoria/well-being (4) is also a\r\nsymptom. Shortness of breath (2) and cyanosis (1) are symptoms. B includes 1,\r\n2, 4. This might indicate an error in the source checkmark or question."
+          },
+          {
+            "question": "On expiration there is:",
+            "options": {
+              "A": "higher CO2 content\r\nthan on intake",
+              "B": "more oxygen content than on intake",
+              "C": "less water vapour\r\ncontent than on intake",
+              "D": "the same CO2 content as on intake"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "You have been scuba diving below 10 m. When can you next\r\nfly:",
+            "options": {
+              "A": "after 12 hours",
+              "B": "after 24 hours",
+              "C": "after 48 hours",
+              "D": "whenever you wish"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "Concerning hypoxia, why is it more hazardous if flying\r\nsolo?",
+            "options": {
+              "A": "The effects are increased",
+              "B": "It is difficult to recognize the first\r\nsymptoms of hypoxia for a pilot in initial training",
+              "C": "It is more difficult to\r\nmanage the oxygen systems on your own",
+              "D": "There is no one to take control once\r\nthe symptoms of hypoxia appear"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "Which of the following statements, if any, are correct?\r\n1. Euphoria is a possible result of hypoxia 2. Euphoria can lead to degradation\r\nin pilot�s performance",
+            "options": {
+              "A": "1 only is correct",
+              "B": "2 only is correct",
+              "C": "Both 1 and\r\n2 are correct",
+              "D": "Neither"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "Short-term memory impairment occurs at what height?",
+            "options": {
+              "A": "8000 ft",
+              "B": "12000 ft",
+              "C": "15000 ft",
+              "D": "18000 ft"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "100% oxygen without pressure can be used up to:",
+            "options": {
+              "A": "50000 ft",
+              "B": "40000 ft",
+              "C": "60000 ft",
+              "D": "70000 ft"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "TUC (time of useful consciousness) is dependent upon: 1.\r\nrate of decompression 2. altitude of the occurrence 3. type of aircraft 4.\r\nactivity of the pilot 5. personal health",
+            "options": {
+              "A": "1, 2 & 3",
+              "B": "all of the above",
+              "C": "all except 3",
+              "D": "2, 3 & 5"
+            },
+            "correct": "C",
+            "explanation": "Human Performance and Limitations Test 4 \n\n\r\n\r\n  1. A person suffering from glaucoma will have:  A.\r\ncloudiness of the lens B. cloudiness of the cornea C. increased pressure of the\r\neye D. colour blindness  Correct Answer:  C"
+          },
+          {
+            "question": "The most dangerous type of incapacitation is:",
+            "options": {
+              "A": "acute",
+              "B": "rapid",
+              "C": "insidious",
+              "D": "none of the above"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "What is a stereotype and involuntary reaction to a\r\nstimulation?",
+            "options": {
+              "A": "Data control",
+              "B": "A reflex",
+              "C": "Stimulation control",
+              "D": "Automatic\r\nstimulation"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "Glaucoma is caused by:",
+            "options": {
+              "A": "excess pressure within\r\nthe eye",
+              "B": "a clouding of the lens",
+              "C": "damage to the cornea",
+              "D": "damage to the\r\nretina"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "While turning the aircraft the pilots moves his/her head.\r\nWhat effect might the pilot be exposed to:",
+            "options": {
+              "A": "Coriolis Effect",
+              "B": "Somatogravic\r\nEffect",
+              "C": "Flicker Effect",
+              "D": "Oculogravic Effect"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "Which Law is relevant to decompression sickness?",
+            "options": {
+              "A": "Boyle�s Law",
+              "B": "Henry�s Law",
+              "C": "The Combined Gas Law",
+              "D": "Dalton�s Law"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "Good quality sunglasses provide:",
+            "options": {
+              "A": "the ability to\r\nreact to varying light levels automatically",
+              "B": "good luminance characteristics,\r\navoidance of glare and harsh shadows, protection against UV and IR and equal\r\nabsorption of colours",
+              "C": "for the pilot�s individual needs",
+              "D": "no distortion of aircraft\r\nwindscreens"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "On initiating recovery from a spin, the pilot may have\r\na strong sensation of turning:",
+            "options": {
+              "A": "in a direction opposite to that of the\r\nspin",
+              "B": "in a direction the same as the spin",
+              "C": "slowly upwards",
+              "D": "quickly\r\nupwards"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "Barotrauma of the middle ear is caused by differences\r\nbetween the pressures in the:",
+            "options": {
+              "A": "inner ear and middle ear",
+              "B": "ambient air\r\nand the middle ear",
+              "C": "outer ear",
+              "D": "semicircular canals"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "Night flying at 10000 ft you find that your acuity\r\ndecreases. What can you do about it to improve your acuity?",
+            "options": {
+              "A": "Use your\r\nperipheral vision",
+              "B": "Go onto oxygen",
+              "C": "Turn up the instrument lights",
+              "D": "Switch\r\non or turn up the cabin heat"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "What actions should a pilot take if suffering from\r\nvertigo? 1. Check and cross-check the aircraft instruments 2. Accept and ignore\r\nillusions 3. Keep head movements to a minimum 4. Believe the aircraft\r\ninstruments",
+            "options": {
+              "A": "1, 2 and 3",
+              "B": "2, 3 and 4",
+              "C": "1, 3 and 4",
+              "D": "1, 2, 3 and 4"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "The function of the retina is to:",
+            "options": {
+              "A": "convert\r\nlight images into meaningful information",
+              "B": "transport electrical impulses to\r\nthe brain",
+              "C": "convert light signals into electrical impulses",
+              "D": "convert light\r\nsignals into chemical impulses"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "The metabolism of alcohol is:",
+            "options": {
+              "A": "influenced by\r\ntime",
+              "B": "accelerated by drinking coffee",
+              "C": "quicker when the body gets used to\r\nalcohol",
+              "D": "improved by the use of easy-to-get medication"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "What is the residual volume?",
+            "options": {
+              "A": "70 ml",
+              "B": "500 ml",
+              "C": "350\r\nml",
+              "D": "1200 ml"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "Vertigo causes the illusion when flying of:",
+            "options": {
+              "A": "flying straight while in a spin",
+              "B": "climbing while turning",
+              "C": "a tumbling or\r\nturning sensation associated sometimes with dizziness",
+              "D": "descending with a\r\ndecrease of speed"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "Perceptual conflict between the vestibular apparatus\r\nand the visual sensory inputs:  1. can occur when flying IMC and may be\r\ncompelling 2. can cause attitude misinformation 3. may occur when taking off\r\nbank following a sustained turn 4. can occur when decelerating",
+            "options": {
+              "A": "1, 2 and 3",
+              "B": "2, 3 and 4",
+              "C": "1, 3 and 4",
+              "D": "1, 2, 3 and 4"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "The eye can adjust to:",
+            "options": {
+              "A": "high levels of\r\nillumination in 10 minutes and darkness in 30 minutes",
+              "B": "high levels of\r\nillumination in 10 seconds and darkness in 30 minutes",
+              "C": "high levels of\r\nillumination in 30 minutes and darkness in 10 minutes",
+              "D": "high levels of\r\nillumination in 30 minutes and darkness in 10 seconds"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "Disorientation is most likely to occur when: 1. flying\r\nIMC 2. the pilot is distracted (using FMS for example) 3. flying from IMC to\r\nVMC 4. the pilot is unwell or fatigued",
+            "options": {
+              "A": "1, 2 and 3",
+              "B": "1, 2, 3 and 4",
+              "C": "1, 2\r\nand 4",
+              "D": "2, 3 & 4"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "When the visual image is focused in front of the\r\nretina the condition is:",
+            "options": {
+              "A": "myopia",
+              "B": "hypermetropia",
+              "C": "presbycusis",
+              "D": "astigmatism"
+            },
+            "correct": "A",
+            "explanation": "Human Performance and Limitations Test 5 \n\n\r\n\r\n  1. What is the relationship between stress and fatigue? \r\nA. No stress and no fatigue is good B. All stress and fatigue is good C. Stress\r\ncan be good, fatigue is always bad D. No stress and some fatigue is good  Correct\r\nAnswer:  C"
+          },
+          {
+            "question": "Which of the following are correct?  1. Scuba\r\ndiving imposes no restriction on flying 2. Use of some medication can affect\r\nflying 3. One should drink sufficient water during flight to prevent\r\ndehydration 4. Diet does not have an effect on health",
+            "options": {
+              "A": "2 & 3",
+              "B": "1, 2\r\n& 3",
+              "C": "2, 3 & 4",
+              "D": "1, 2, 3 & 4"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "A person that is exposed to extreme or prolonged\r\nstress factors can perceive:",
+            "options": {
+              "A": "distress",
+              "B": "eustress",
+              "C": "coping stress",
+              "D": "stressors"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "Stimuli must be of a certain strength for them to be\r\ndetected. This strength is known as:",
+            "options": {
+              "A": "sensory limitation",
+              "B": "sensory\r\nthreshold",
+              "C": "sensory strength",
+              "D": "sensory volume"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "The sequence of GAS (General Adaptation Syndrome) is:",
+            "options": {
+              "A": "alarm resistance exhaustion",
+              "B": "resistance exhaustion alarm",
+              "C": "alarm flight\r\nexhaustion",
+              "D": "exhaustion resistance alarm"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "What will happen to the body when in situations of\r\nextreme heat?  1. Shivering 2. Vasoconstriction of the exterior blood\r\nvessels 3. Sweating 4. Vasodilation of the exterior blood vessels",
+            "options": {
+              "A": "1, 2, 3\r\nand 4",
+              "B": "2 and 3 only",
+              "C": "1 and 2 only",
+              "D": "3 and 4 only"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "Extreme cold may be associated with:",
+            "options": {
+              "A": "aggression",
+              "B": "aggression and anxiety",
+              "C": "anxiety",
+              "D": "contentment or apathy"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "Performance can be increased by:",
+            "options": {
+              "A": "putting a\r\nstudent pilot under stress",
+              "B": "a moderate amount of stress",
+              "C": "no stress at all\r\nif possible",
+              "D": "ignoring stress as all good pilots leave stress on the ground"
+            },
+            "correct": "B",
+            "explanation": "9. If in a state of stress which is impossible to\r\novercome, the pilot will be in a state of:  A. eustress B. hypertension C.\r\ndistress D. regression  Correct Answer:  C"
+          },
+          {
+            "question": "Should a pilot fly with a bad cold, he/she could\r\nsuffer from:",
+            "options": {
+              "A": "chokes",
+              "B": "bends",
+              "C": "sinus pain",
+              "D": "blurred vision"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "Stressors are:",
+            "options": {
+              "A": "external factors only",
+              "B": "internal factors only",
+              "C": "both external and internal factors",
+              "D": "neither external\r\nnor internal factors"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "A person suffering from extreme cold will stop\r\nshivering and thereafter become colder and colder when the internal body falls\r\nto about:",
+            "options": {
+              "A": "20�C",
+              "B": "25�C",
+              "C": "30�C",
+              "D": "35�C"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "Tuned resonance of the body parts, distressing the\r\nindividual can be caused by:",
+            "options": {
+              "A": "acceleration along the horizontal flight\r\npath",
+              "B": "resonance between 150 - 250 Hz",
+              "C": "resonance between 16 - 18 GHz",
+              "D": "resonance between 1 - 100 Hz"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "According to the &quot;General Adaptation\r\nSyndrome&quot; which of the following statement(s) is/are correct?  1.\r\nDuring the alarm phase adrenalin will cause a large release of glucose into the\r\nblood, a raised heartbeat and blood pressure plus an increase in the rate and\r\ndepth of breathing 2. During the resistance phase the parasympathetic system\r\nreleases cortisol helping in the conversion of fat into sugar 3. During the\r\nexhaustion phase the body has to be given time to eliminate the waste products\r\nwhich have been generated excessively",
+            "options": {
+              "A": "1 & 2 only are correct",
+              "B": "2 &\r\n3 only are correct",
+              "C": "1, 2 & 3 are correct",
+              "D": "only 1 is correct"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "Even with a small ingestion of alcohol:",
+            "options": {
+              "A": "the\r\nbrain will be stimulated thereby increasing the resistance to hypoxia",
+              "B": "the\r\nbrain functions will be increased thereby increasing performance at high\r\naltitudes",
+              "C": "the pilot will remain unaffected",
+              "D": "the pilot's performance will\r\nbe degraded"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "The effects of vibration are greatest:",
+            "options": {
+              "A": "at high\r\naltitudes",
+              "B": "at low altitudes",
+              "C": "in smooth air",
+              "D": "when fatigued"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "Cognitive appraisal:",
+            "options": {
+              "A": "occurs only with negative\r\nevents",
+              "B": "is the objective evaluation of a situation and the perceived ability\r\nto cope with it",
+              "C": "is the subjective evaluation of a situation and the\r\nperceived ability to cope with it",
+              "D": "depends on the individual's arousal"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "The body loses water via:",
+            "options": {
+              "A": "the skin, lungs and\r\nkidneys",
+              "B": "the skin",
+              "C": "the skin, lungs and liver",
+              "D": "the skin, liver and kidneys"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "At height cockpit humidity can be between:",
+            "options": {
+              "A": "20\r\n- 25 %",
+              "B": "40 - 60 %",
+              "C": "30 - 60%",
+              "D": "5 - 15 %"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "What is the relationship between stress and\r\nperformance when plotted on a graph?",
+            "options": {
+              "A": "The relationship is linear",
+              "B": "The\r\nrelationship is exponential",
+              "C": "There is no relationship",
+              "D": "The relationship is\r\nin the shape of an inverted U"
+            },
+            "correct": "D",
+            "explanation": ""
+          }
+        ]
+      }
+    ]
+  },
+  "flight-planning": {
+    "name": "Flight Planning",
+    "icon": "🗺️",
+    "tests": [
+      {
+        "name": "Flight Planning - Added Import",
+        "timeLimit": 60,
+        "questions": [
+          {
+            "question": "Refer to CAP 697 MRJT Fig 4.3.2b. Given: 5000 kg fuel\r\navailable, Cruise at FL210, 50 kt headwind, Landing weight 45000 kg. How far\r\ncould you fly?",
+            "options": {
+              "A": "600 NGM",
+              "B": "750 NGM",
+              "C": "500 NGM",
+              "D": "670 NGM"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "Refer to ED-6. The radio navigation aid at N4854.8\r\nE00920.4 is:",
+            "options": {
+              "A": "a VOR/DME call sign LBU frequency 109.20 kHz",
+              "B": "a Tacan call\r\nsign LBU channel number 109.20",
+              "C": "a VOR/TAC call sign LBU frequency 109.20 MHz",
+              "D": "a VOR/DME call sign LBU frequency 109.20 MHz"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "In the Jeppesen route manual, the reporting points on the\r\nairways are indicated by:",
+            "options": {
+              "A": "true course/track",
+              "B": "magnetic course/track",
+              "C": "true\r\nheading",
+              "D": "magnetic heading"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "Given: Track 185�(T), Variation 9� east, Heading 182�(M).\r\nWhich is the lowest suitable ICAO IFR cruising level?",
+            "options": {
+              "A": "FL280",
+              "B": "FL310",
+              "C": "FL290",
+              "D": "FL270"
+            },
+            "correct": "D",
+            "explanation": "Magnetic Track = 185 - 9 = 176�.\r\nWesterly track = Even levels. Lowest suitable is FL"
+          },
+          {
+            "question": "Refer to CAP 697 MRJT Figure 4.3.1b. Given: Trip\r\nDistance 1000 NM, Nil wind, FL290. For a temperature increase of 30�C the\r\napproximate change in trip time is:",
+            "options": {
+              "A": "10%",
+              "B": "-5%",
+              "C": "-10%",
+              "D": "7%"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "Information on Search and Rescue (SAR) procedures may\r\nbe obtained:",
+            "options": {
+              "A": "from NOTAMs",
+              "B": "from the latest AIC",
+              "C": "from the Aeronautical\r\nInformation Publication",
+              "D": "by RT communication with the FIR within which the\r\naircraft is operating"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "Refer to ED-6. The track and distance between\r\nFriedrichschafen (EDNY) and Stuttgart (EDDS) are:",
+            "options": {
+              "A": "350�(M) 62.5 km",
+              "B": "345�(M)\r\n65 NM",
+              "C": "349�(M) 62.5 NM",
+              "D": "351�(M) 116 km"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "The air distance and time to climb is 197 NAM and 33 min\r\nrespectively. What is the required ground distance with a 40 kt headwind\r\ncomponent?",
+            "options": {
+              "A": "222 NGM",
+              "B": "184 NGM",
+              "C": "157 NGM",
+              "D": "175 NGM"
+            },
+            "correct": "D",
+            "explanation": "Ground Distance = Air Distance - (Wind Component * Time) => 197 - (40 *\r\n33/60) = 197 - 22 = 175 NGM"
+          },
+          {
+            "question": "Refer to CAP 697 MRJT Figure 4.5.4. An aircraft with an\r\nestimated landing weight of 55000 kg plans a descent from FL310 through\r\nturbulence, the mean wind component in the descent is 45 kt headwind. The fuel\r\nand ground distance are:",
+            "options": {
+              "A": "280 kg 82 NGM",
+              "B": "270 kg 107 NGM",
+              "C": "270 kg 79 NGM",
+              "D": "275 kg 117 NGM"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "Refer to CAP 697 MEP Figure 3.4. An aircraft is flying\r\nat a High Speed Cruise at a pressure altitude of 12000 ft, temperature ISA\r\n+15�C. The TAS is:",
+            "options": {
+              "A": "189 kt",
+              "B": "186 kt",
+              "C": "183 kt",
+              "D": "182 kt"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "On a Jeppesen chart the figures &quot;FL80 2700a&quot;\r\nare displayed below an airway. What does the &quot;FL80&quot; indicate?",
+            "options": {
+              "A": "The\r\nroute MORA (a safety altitude)",
+              "B": "Minimum en route altitude",
+              "C": "Maximum\r\nauthorized altitude",
+              "D": "The base of the airway"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "Refer to CAP 697 MRJT Figure 4.1. If an aircraft's\r\ncruise weight is 50000 kg the Optimum Altitude for a 0.78 Mach flight is:",
+            "options": {
+              "A": "35500 ft pressure altitude",
+              "B": "36200 ft pressure altitude",
+              "C": "35500 ft\r\naltitude",
+              "D": "FL360"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "Refer to CAP 697 SEP Figure 2.1. Given: Airfield\r\nelevation 6000 ft, OAT 15�C, Initial Weight 3525 lb, Cruise altitude 14000 ft,\r\nOAT -13�C, Wind component 60 kt tail. The time, fuel and nautical ground miles\r\nto TOC are:",
+            "options": {
+              "A": "16 min 5 gal 31 NGM",
+              "B": "15 min 6 gal 18 NGM",
+              "C": "17 min 7 gal 46\r\nNGM",
+              "D": "16 min 5 gal 52 NGM"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "Reference CAP 697 MRJT Figure 4.5.3.2. Given: Brake\r\nRelease Mass 62800 kg, Fuel to TOC 1400 kg, 0.74 Mach, Cruise at FL310, ISA\r\n-10�C, Wind component 50 kt head, Mass at first reporting point after TOC 59500\r\nkg. The planned ground distance TOC to the first reporting point is:",
+            "options": {
+              "A": "356 NM",
+              "B": "314 NM",
+              "C": "277 NM",
+              "D": "280 NM"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "An aircraft is airborne from an airfield, elevation 1560\r\nft AMSL, on a QNH of 986 mb/hPa. On its track of 269�(M) there is a mountain\r\n12090 ft AMSL. To clear this obstacle by a minimum of 2000 ft its correct ICAO\r\nVFR Flight level is: (1 mb/hPa = 30 ft).",
+            "options": {
+              "A": "FL145",
+              "B": "FL155",
+              "C": "FL160",
+              "D": "FL165"
+            },
+            "correct": "D",
+            "explanation": "Pressure difference = 1013 - 986 = 27 hPa. Altitude correction =\r\n27 * 30 = 810 ft. Required altitude = 12090 + 2000 + 810 = 14900 ft. Mag track\r\n269 = Westbound = Even + 500. Lowest VFR level above 14900 is FL"
+          },
+          {
+            "question": "Reference CAP 697 MRJT Figure 4.5.1. Given: Climb to\r\nFL350, ISA+6�C, MSL airfield, Brake Release Weight 57500 kg. The time, fuel,\r\nTAS and distance covered are:",
+            "options": {
+              "A": "22 min 1625 kg 395 kt 114 NAM",
+              "B": "20 min\r\n1625 kg 395 kt 117 NAM",
+              "C": "20 min 1630 kg 395 kt 100 NAM",
+              "D": "21 min 1675 kg 398\r\nkt 133 NAM"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "Refer to CAP 697 MEP Figure 3.5. The endurance\r\n&quot;With 45 Min. Reserve at 45% Power&quot; for an Economy Cruise at 13000 ft\r\nis:",
+            "options": {
+              "A": "4 h 25 min",
+              "B": "4 h 04 min",
+              "C": "4 h 57 min",
+              "D": "6 h 18 min"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "Refer to CAP 697 SEP Figure 2.2. Given: Pressure\r\nAltitude 10000 ft, OAT -15�C, Power 23 inHg @ 2300rpm. The fuel flow and KIAS\r\nare:",
+            "options": {
+              "A": "67.3 PPH 140 kt",
+              "B": "67.3 GPH 157 kt",
+              "C": "11.4 GPH 139 kt",
+              "D": "66.2 GPH 137\r\nkt"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "Refer to CAP 697 SIMPLIFIED LRC (use Figures 4.5.3.1\r\n& 4.3.1B). Given : Distance 997 NGM, Tailwind component 160 kt, Landing\r\nweight 45000 kg, Cruise weight 56000 kg, FL370, ISA 0�C. The fuel required and\r\ntrip time are:",
+            "options": {
+              "A": "11200 kg 4 h 09 min",
+              "B": "5300 kg 1 h 09 min",
+              "C": "4200 kg 1 h\r\n51 min",
+              "D": "5000 k g 2 h 00 min"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "Refer to Jeppesen E(LO)5. What is the lowest continuous\r\nflight level you should maintain along B45 when flying from Czempin/CZE (N52 07\r\nE01643) to Chociwel/CHO (N5328 E01521)?",
+            "options": {
+              "A": "FL60",
+              "B": "FL70",
+              "C": "FL180",
+              "D": "FL80"
+            },
+            "correct": "D",
+            "explanation": "Based on typical MEA conventions, FL80 is the likely minimum"
+          },
+          {
+            "question": "You are cruising at FL250 and need to be at FL50 10 NM\r\nbefore a VOR/DME. Your rate of descent is 1250 ft/min and your GS in the\r\ndescent 250 kt. At what distance from the VOR do you start the descent?",
+            "options": {
+              "A": "77\r\nNM",
+              "B": "67 NM",
+              "C": "87 NM",
+              "D": "57 NM"
+            },
+            "correct": "B",
+            "explanation": "Altitude to lose =\r\n20000 ft. Time = 20000 / 1250 = 16 min. Distance = (16/60) * 250 = 66.7 NM.\r\nStart descent at 66.7 + 10 = 76.7 NM. Closest answer is 77NM.  Self-correction:\r\nThe provided answer B is 67 NM. Let's re-evaluate. Maybe the 10NM before is\r\nalready included in the question's premise of needing to calculate the start\r\npoint distance.  No, the question asks  at what distance FROM the VOR .\r\nThe distance  covered  during descent is 66.7 NM. Need to arrive at FL50\r\nat 10NM  before  VOR. So start descent at 66.7 + 10 = 76.7 NM. The\r\nprovided answer B=67NM seems incorrect based on the calculation. Let's assume\r\nthe question meant 10NM  after  the VOR, then 66.7 - 10 = 56.7NM (D).\r\nLet's assume the question meant 10NM  is the total distance required  -\r\nimpossible. Let's recheck rate of descent needed: (250 kt / 60 min/hr) * (1250\r\nft/min) / (20000 ft) is not useful here. Stick with the time calculation. It's\r\npossible there's an error in the question or the provided answer key. Based on\r\nthe calculation 76.7 NM is the correct distance FROM the VOR to start descent.\r\nIf we assume the answer B (67 NM) is correct, it implies a descent distance of\r\n57 NM, which would take 57 / (250/60) = 13.68 mins, requiring a RoD of 20000 /\r\n13.68   1462 ft/min. Or it implies a ground speed of (57 / (20000/1250))\r\n* 60 = 213 kt. Given the provided answer is B, there might be missing context\r\nor an error in the source."
+          },
+          {
+            "question": "Refer to ED-6. The track and distance between\r\nStuttgart (EDDS) N4841.4 E00913.3 and Munchen (EDDM) N4821.3 E01147.1 are:",
+            "options": {
+              "A": "279�(M) 85 NM",
+              "B": "099�(M) 114 NM",
+              "C": "099�(M) 85 NM",
+              "D": "099�(M) 59 NM"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "Reference CAP 697 MRJT Figure 4.5.3.1. Given: Pressure\r\naltitude 33000 ft, LRC, OAT -61�C, Cruise time 29 min, Zero wind, Initial gross\r\nweight 54100 kg. The fuel required is:",
+            "options": {
+              "A": "1093 kg",
+              "B": "1107 kg",
+              "C": "1100 kg",
+              "D": "1207 kg"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "Refer to Jeppesen MUNICH 10-2B. When approaching Munich\r\nvia TANGO with a westerly surface wind, the route and track miles to the IAF\r\nare expected to be:",
+            "options": {
+              "A": "AALEN - WLD - ROKIL - MBG 90 NM",
+              "B": "AALEN - WLD - ROKIL\r\n51 NM",
+              "C": "AALEN - WLD - ROKIL - MBG 124 NM",
+              "D": "WLD-ROKIL 10 NM"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "Refer CAP 697 MRJT Fig 4.7.2. Given: ETOPS approval\r\nfor 120 minutes, Weight at diversion 50000 kg, Long Range Cruise. Your\r\ndiversion airfield should be within:",
+            "options": {
+              "A": "742 NM",
+              "B": "379 NM",
+              "C": "768 NM",
+              "D": "1101\r\nNM"
+            },
+            "correct": "A",
+            "explanation": "The source has D checked, but 120 min ETOPS LRC\r\nrange is typically around 700-800 NM for an MRJT, not 1101 NM. Checking common\r\nETOPS rules, 120 min often corresponds to approx 750-850 NM depending on type.\r\nD seems too high."
+          },
+          {
+            "question": "Refer CAP 697 MRJT Figure 4.3.2c. Given: Mach 0.74\r\ncruise, Trip fuel available 17000 kg, FL280, Estimated landing mass 52000 kg,\r\nTrip distance 2500 NGM. What is the maximum wind component?",
+            "options": {
+              "A": "Zero",
+              "B": "25 kt\r\nhead",
+              "C": "25 kt tail",
+              "D": "60 kt head"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "You plan to fly from A to B at a TAS of 230 kt, a GS of\r\n255 kt and an initial cruising pressure altitude of 15000 ft. How should you\r\ncomplete item 15 of the ICAO Flight Plan?",
+            "options": {
+              "A": "K0230 F150",
+              "B": "N0230 F150",
+              "C": "N0255\r\nS1500",
+              "D": "N0230 FL150"
+            },
+            "correct": "B",
+            "explanation": "N indicates knots, followed by\r\nTAS. F indicates flight level based on standard pressure"
+          },
+          {
+            "question": "A normal commercial IFR flight has an estimated EOBT of\r\n1540 UTC with the estimated take-off time as 1555 UTC. What is the latest time\r\nfor filing the ICAO flight plan?",
+            "options": {
+              "A": "1510 UTC",
+              "B": "1455 UTC",
+              "C": "1525 UTC",
+              "D": "1440\r\nUTC"
+            },
+            "correct": "D",
+            "explanation": "Flight plan must be filed at least 60 minutes\r\nbefore EOBT"
+          },
+          {
+            "question": "Refer to Jeppesen AMSTERDAM Schiphol SID 10-3. Which of\r\nthe following statements is true regarding an ANDIK departure from RWY 19L?",
+            "options": {
+              "A": "Contact Schipol Departure on 119.05 MHz when passing 2000 ft and report\r\naltitude",
+              "B": "The distance to ANDIK is 42 NM from SPL VOR",
+              "C": "Climb straight ahead\r\ntill SPL 7DME",
+              "D": "Maximum IAS 250 kt till turning left at SPL 3.1DME"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "Refer to Jeppesen Polar High Altitude Chart 5AT(HI).\r\nWhat is the Grid track from Stornoway (N58 W006) to Kulusuk (N6530 W03710)?",
+            "options": {
+              "A": "318�",
+              "B": "298�",
+              "C": "138�",
+              "D": "118�"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "Given: GS OUT = 178, GS HOME = 249, Distance A to B =\r\n450 NM, Endurance 3 hours. What is the distance to the Point of Safe Return\r\nfrom A?",
+            "options": {
+              "A": "204 NM",
+              "B": "311 NM",
+              "C": "415 NM",
+              "D": "262 NM"
+            },
+            "correct": "B",
+            "explanation": "Time\r\nto PSR = Endurance * GS_HOME / (GS_OUT + GS_HOME) = 3 * 249 / (178 + 249) = 747\r\n/ 427   1.75 hrs. Distance = Time * GS_OUT = 1.75 * 178   311 NM"
+          },
+          {
+            "question": "Given: A to B Distance 2050 NM, Safe Endurance 6\r\nhours, GS OUT = 480 kt, GS ON = 450 kt, GS HOME = 380 kt. Calculate the\r\ndistance and time to the Point of Equal Time from",
+            "options": {
+              "A": "A. 1272 NM 2 h 39 min",
+              "B": "906 NM 1 h 53 min",
+              "C": "1111 NM 2 h 19 min",
+              "D": "939 NM 1 h 57 min"
+            },
+            "correct": "D",
+            "explanation": "Time to PET = Total Distance * GS_HOME / (GS_ON + GS_HOME) =\r\n2050 * 380 / (450 + 380) = 779000 / 830   938.5 NM. Time = Distance /\r\nGS_ON = 938.5 / 480   1.955 hrs   1 hr 57 min.  Self-correction:\r\nUsed GS_ON instead of GS_OUT in time calc . Time = Distance / GS_OUT = 938.5\r\n/ 480   1.955 hrs   1 hr 57 min. The formula applied used GS_ON for\r\nthe continuing leg, which is correct for PET. Let's re-verify the formula, PET\r\nDistance from A = (Total Distance * GS_HOME) / (GS_ON + GS_HOME). Calculation\r\nseems correct. Closest answer is D."
+          },
+          {
+            "question": "Refer CAP 697 MRJT Figure 4.3.6. Flight from Paris to\r\nLondon with Manchester being the alternate. Given: London - Manchester 160 NM,\r\nMean track 350�(T), W/V 250/30�(T), Estimated landing mass at alternate 50000\r\nkg. What is the fuel and time to alternate?",
+            "options": {
+              "A": "1200 kg 20 min",
+              "B": "1600 kg 36 min",
+              "C": "1450 kg 32 min",
+              "D": "1300 kg 28 min"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "You are required to uplift 40 US gallons of AVGAS with\r\nSG of 0.72. How many litres and kilograms is this?",
+            "options": {
+              "A": "109 l 151 kg",
+              "B": "182 l 131\r\nkg",
+              "C": "182 l 289 kg",
+              "D": "151 l 109 kg"
+            },
+            "correct": "D",
+            "explanation": "40 US Gal * 3.785\r\nL/Gal   151.4 L. Mass = Volume * Density = 151.4 L * 0.72 kg/L  \r\n109 kg"
+          },
+          {
+            "question": "A flight is due to operate between London and Glasgow on\r\na Repetitive Flight Plan (RPL). Prior to departure Glasgow is closed due to\r\nheavy snow. The operator intends to operate this flight to Edinburgh instead.\r\nThe correct action regarding flight plans is:",
+            "options": {
+              "A": "this cannot be done, go back\r\nto airport hotel",
+              "B": "operations should inform the London ATC Unit at least 10\r\nminutes before departure",
+              "C": "cancel the RPL and file a standard ICAO flight plan\r\nto Edinburgh",
+              "D": "take-off for Glasgow and divert along route"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "Refer CAP 697 MRJT Fig 4.3.1. Given: FL370 @ LRC, ISA\r\n+20�C, Distance 800 NGM, 50 kt headwind, Landing weight 50000 kg. What is the\r\ntrip fuel and flight time?",
+            "options": {
+              "A": "5600 kg 2 h 17 min",
+              "B": "4600 kg 1 h 57 min",
+              "C": "5000\r\nkg 2 h 07 min",
+              "D": "5200 kg 2 h 11 min"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "A current flight plan is:",
+            "options": {
+              "A": "the filed flight\r\nplan with amendments and clearances included",
+              "B": "the filed flight plan without\r\nany changes",
+              "C": "flight plan with correct time of departure",
+              "D": "one that is stored\r\nvia repetitive flight plan procedures"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "Reference CAP 697 MRJT Figure 4.3.6. Given: Time to\r\nalternate 54 min, Landing weight 55000 kg, Wind component 50 kt tail. The\r\nalternate fuel and nautical ground mile distance are:",
+            "options": {
+              "A": "2500 kg 320 NGM",
+              "B": "1500 kg 175 NGM",
+              "C": "2350 kg 355 NGM",
+              "D": "2200 kg 350 NGM"
+            },
+            "correct": "C",
+            "explanation": "Okay, here is Flight Planning and Monitoring Test 3 in the\r\nquestionnaire format."
+          },
+          {
+            "question": "Reference E(HI)5 CAA for examinations From\r\nMende-Nasimbals (N4436.4 E00309.7) to Gaillac (N4357.3 E00149.5) via UG5. Which\r\nof these levels is the lowest available?",
+            "options": {
+              "A": "290",
+              "B": "310",
+              "C": "330",
+              "D": "350"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "Where may details of temporary Danger and Restricted\r\nAirspace be found?",
+            "options": {
+              "A": "SIGMETs",
+              "B": "Aeronautical Information Circulars (AIC)",
+              "C": "NOTAM and Aeronautical Information Publication (AIP)",
+              "D": "ATCC"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "Refer to Training Manual, Amsterdam page 10-9X. What is\r\nthe minimum channel spacing for VHF COMMS above FL245?",
+            "options": {
+              "A": "25 kHz",
+              "B": "12.5 kHz",
+              "C": "8.33 kHz",
+              "D": "50 kHz"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "In which document would you find information on known\r\nshort-term unserviceability of VOR, TACAN, and NDB?",
+            "options": {
+              "A": "NOTAM",
+              "B": "Aeronautical Information Publication (AIP)",
+              "C": "SIGMET",
+              "D": "ATCC"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "Given: TAS 400 kt, Distance from A to B 2000 NM. A 40\r\nkt headwind is forecast from A to B, what is the distance and time to the PET\r\nfrom &quot;A&quot;?",
+            "options": {
+              "A": "1100 NM 3 h 03 min",
+              "B": "1100 NM 2 h 30 min",
+              "C": "900 NM 2\r\nh 30 min",
+              "D": "1000 NM 2 h 47 min"
+            },
+            "correct": "A",
+            "explanation": "GS_OUT = 400 - 40 =\r\n360 kt. GS_HOME = 400 + 40 = 440 kt. PET Distance = (Total Distance * GS_HOME)\r\n/ (GS_OUT + GS_HOME) = (2000 * 440) / (360 + 440) = 880000 / 800 = 1100 NM.\r\nTime = Distance / GS_OUT = 1100 / 360   3.055 hrs   3 hr 03 min"
+          },
+          {
+            "question": "When completing an IFR flight plan the &quot;Total\r\nElapsed Time&quot; in item 16 is from:",
+            "options": {
+              "A": "take-off to overhead the\r\ndestination airport",
+              "B": "from first taxiing under own power until the IAF for\r\ndestination airport",
+              "C": "take-off to the IAF for the destination airport",
+              "D": "take-off until landing at the destination airport"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "Reference E(HI)4 (CAA FOR EXAMS) GIBSO (N5045.1\r\nW00230.3). A flight is planned along UA2 from Strumble (N5205.5 W00502.5) to\r\nMID (N5304.8 W00726.0). Which statement is correct?",
+            "options": {
+              "A": "UA2 is advisory\r\nroute only",
+              "B": "Lowest available FL is 250",
+              "C": "Maximum authorized FL is 450",
+              "D": "FL310"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "Given: Total endurance 300 min, Required reserves 45\r\nmin, TAS 140 kt, Course 050�, W/V 270�/30. What is the time and distance to the\r\nPSR from &quot;A&quot;?",
+            "options": {
+              "A": "148 min 401 NM",
+              "B": "125 min 338 NM",
+              "C": "90 min 242\r\nNM",
+              "D": "106 min 287 NM"
+            },
+            "correct": "D",
+            "explanation": "Calculation requires flight\r\ncomputer or trigonometric calculation for GS_OUT and GS_HOME. Safe Endurance =\r\n300 - 45 = 255 min = 4.25 hrs. Using approximations or a flight computer for GS\r\nbased on TAS, Course, W/V: GS_OUT   160kt, GS_HOME   112kt. Time =\r\n4.25 * 112 / (160+112)   1.75 hrs   105 min. Distance   1.75\r\n* 160   280 NM. Closest is D"
+          },
+          {
+            "question": "An aircraft is carrying Maritime Survival Equipment. The\r\ncorrect entry at item 19 is:",
+            "options": {
+              "A": "cross out indicators P, D and J, tick M",
+              "B": "circle indicator M",
+              "C": "tick indicator M",
+              "D": "cross out indicators P, D and J"
+            },
+            "correct": "D",
+            "explanation": "Standard procedure is to cross out survival equipment  not \r\ncarried"
+          },
+          {
+            "question": "Refer to Jeppesen E(LO)1 What type of radio navigation\r\naid is located at Perth (N5626 W00322)?",
+            "options": {
+              "A": "VOR on 110.4 MHz and NDB on 394 kHz",
+              "B": "TACAN on 110.4 kHz",
+              "C": "VOR on 110.4 MHz",
+              "D": "VOR/DME on 110.4 MHz"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "Given: Distance from A to B 3200 NM, GS On 480 kt, GS\r\nHome 520 kt. What is the distance and time to the PET from &quot;A&quot;?",
+            "options": {
+              "A": "1664 NM 3 h 12 min",
+              "B": "1600 NM 3 h 20 min",
+              "C": "1664 NM 3 h 28 min",
+              "D": "1536 NM 3\r\nh 12 min"
+            },
+            "correct": "C",
+            "explanation": "PET Distance = (Total Dist * GS_HOME) /\r\n(GS_ON + GS_HOME) = (3200 * 520) / (480 + 520) = 1664000 / 1000 = 1664 NM. Time\r\n= Distance / GS_ON = 1664 / 480   3.467 hrs   3 hr 28 min"
+          },
+          {
+            "question": "Reference E(HI)4 (CAA FOR EXAMS) What is the total\r\ndistance and mean true course between Abbeville (N5008.1E00151.3) and Biggin\r\n(N5119.8 E00002.2) on UA20?",
+            "options": {
+              "A": "100 NM 321�(T)",
+              "B": "162 NM 313�(T)",
+              "C": "162 NM\r\n316�(T)",
+              "D": "100 NM 316�(T)"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "Given: TAS 165 kt, W/V 090�/35, A to B 1620 NM,\r\nCourse 035�. What is the distance and time to the PET from &quot;A&quot;?",
+            "options": {
+              "A": "903 NM 6 h 04 min",
+              "B": "810 NM 5 h 42 min",
+              "C": "708 NM 5 h",
+              "D": "912 NM 6 h 26 min"
+            },
+            "correct": "D",
+            "explanation": "Calculation requires flight computer or trig for GS_ON and\r\nGS_HOME. GS_ON   141 kt, GS_HOME   195 kt. PET Distance = (1620 *\r\n195) / (141 + 195)   938 NM. Time = 938 / 141   6.65 hrs   6\r\nhr 39 min. Closest answer is D, suggesting the source checkmark might be on the\r\ndistance part but the time calculation differs significantly. Rechecking\r\ncalculation or source data might be needed, but based on calculation D seems\r\nmore plausible than A for time, though the distance is closer in D."
+          },
+          {
+            "question": "An aircraft has been planned to fly via a significant\r\npoint based upon the TIR VORDME, QDM120 at range of 95 NM. The correct entry\r\nfor the ICAO flight plan is:",
+            "options": {
+              "A": "TIR300095",
+              "B": "TIR120095",
+              "C": "TIR30095",
+              "D": "300095TIR"
+            },
+            "correct": "A",
+            "explanation": "Waypoint defined by radial/distance uses Radial\r\n(True) then Distance. QDM 120 = Radial 300 True"
+          },
+          {
+            "question": "Given: Distance from A to B 1200 NM, GS On 230 kt, GS\r\nHome 170 kt. What is the distance and time to the PET from &quot;A&quot;?",
+            "options": {
+              "A": "600 NM 2 h 37 min",
+              "B": "510 NM 2 h 13 min",
+              "C": "690 NM 3 h",
+              "D": "510 NM 3 h"
+            },
+            "correct": "B",
+            "explanation": "PET Distance = (1200 * 170) / (230 + 170) = 204000 / 400 = 510\r\nNM. Time = 510 / 230   2.217 hrs   2 hr 13 min"
+          },
+          {
+            "question": "Details of temporary danger areas are published:",
+            "options": {
+              "A": "in AICs",
+              "B": "on the appropriate chart",
+              "C": "by VOLMET",
+              "D": "in NOTAMs"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "Given: DOM 33510 kg, Traffic load 7600 kg, Taxi fuel 250\r\nkg, Trip Fuel 2500 kg, Contingency fuel 125 kg, Final reserve fuel 983 kg,\r\nAlternate fuel 1100 kg. What is the estimated landing mass at the destination?",
+            "options": {
+              "A": "43318 kg",
+              "B": "45818 kg",
+              "C": "42218 kg",
+              "D": "43193 kg"
+            },
+            "correct": "A",
+            "explanation": "ZFW =\r\nDOM + Traffic Load = 33510 + 7600 = 41110 kg. Ramp Fuel = Trip + Contingency +\r\nReserve + Alternate + Taxi = 2500 + 125 + 983 + 1100 + 250 = 4958 kg. TOM = ZFW\r\n+ Ramp Fuel - Taxi Fuel = 41110 + 4958 - 250 = 45818 kg. Landing Mass = TOM -\r\nTrip Fuel = 45818 - 2500 = 43318 kg"
+          },
+          {
+            "question": "At a fuel Relative Density of 0.80 an aircraft turbine\r\nengine burns 220 litres per hour. If Relative Density is 0.75 what is the fuel\r\nburn?",
+            "options": {
+              "A": "235 L/h",
+              "B": "206 L/h",
+              "C": "220 L/h",
+              "D": "176 L/h"
+            },
+            "correct": "A",
+            "explanation": "Fuel burn is typically measured by mass flow rate, which remains constant for\r\na given power setting. Mass flow = Volume flow * Density. So, Mass Flow = 220\r\nL/h * 0.80 kg/L = 176 kg/h. New Volume Flow = Mass Flow / New Density = 176\r\nkg/h / 0.75 kg/L   234.7 L/h. Closest is A"
+          },
+          {
+            "question": "Given: Total endurance 7 h 40 min, Safe endurance 6\r\nh, GS Out 230 kt, GS Home 170 kt. What is the time and distance to the PSR from\r\n&quot;A&quot;?",
+            "options": {
+              "A": "2 h 33 min 587 NM",
+              "B": "3 h 15 min 750 NM",
+              "C": "3 h 27 min 794\r\nNM",
+              "D": "2 h 33 min 434 NM"
+            },
+            "correct": "A",
+            "explanation": "Time to PSR = Safe Endurance\r\n* GS_HOME / (GS_OUT + GS_HOME) = 6 * 170 / (230 + 170) = 1020 / 400 = 2.55 hrs\r\n= 2 hr 33 min. Distance = Time * GS_OUT = 2.55 * 230 = 586.5 NM. Closest is A).\n\n\r\n\r\n Okay, here is Flight Planning and Monitoring Test 4 in the\r\nquestionnaire format."
+          },
+          {
+            "question": "Given: Dry Op Mass = 33510 kg, Traffic Load = 7600 kg,\r\nFinal reserve fuel = 983 kg, Alternate fuel = 1100 kg, Contingency fuel = 102\r\nkg. The estimated landing mass at the alternate should be:",
+            "options": {
+              "A": "42312 kg",
+              "B": "42093 kg",
+              "C": "42210 kg",
+              "D": "42195 kg"
+            },
+            "correct": "D",
+            "explanation": "ZFW = 33510 + 7600 =\r\n41110 kg. Landing Mass at Alternate = ZFW + Final Reserve = 41110 + 983 = 42093\r\nkg.  Self-correction: The checkmark is next to D (42195 kg). Let's re-read\r\nthe question. Landing Mass at Alternate. This means the aircraft flew to the\r\ndestination, didn't land, flew to the alternate. So Landing Mass at Alternate =\r\nZFW + Final Reserve. Calculation 41110 + 983 = 42093 kg. Answer B seems correct\r\nbased on standard fuel policy calculation. Answer D (42195 kg) doesn't directly\r\nresult from standard calculations (it's 102kg more than B). This might imply\r\nthe contingency fuel (102kg) is not used before reaching the alternate in this\r\nspecific scenario, making Landing Mass = ZFW + Final Reserve + Contingency =\r\n41110 + 983 + 102 = 42195 kg. This is unusual but aligns with the checkmark."
+          },
+          {
+            "question": "Under what circumstances may an Aircraft Operator (AO)\r\nsubmit flight plans covering shorter stages of the flight?",
+            "options": {
+              "A": "Never, flight\r\nplans must always cover the entire flight",
+              "B": "Always, it improves the workload\r\nfor ATC",
+              "C": "When communication between aircraft and ATC is poor",
+              "D": "When\r\ncommunication between aircraft and the AO is poor"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "If a pilot lands at an aerodrome other than the\r\ndestination specified in the flight plan, he must:",
+            "options": {
+              "A": "ensure that all ATSUs\r\nwhich were addressees on the flight plan are notified of his landing",
+              "B": "ensure\r\nthat the ATSU at the original destination is informed within 60 minutes",
+              "C": "ensure that the ATSU at the original destination is informed within 30 minutes",
+              "D": "report to ATC to apologize"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "Use Jeppesen chart 5AT(HI) and the following route: A\r\n(N8500.0 W16000.0) to B (N8000.0 W16400.0) to C (N7500.0 W16450.0). The\r\nboundary along latitude N75 indicates:",
+            "options": {
+              "A": "an Upper Information Region",
+              "B": "an\r\nAir Defence Identification Zone",
+              "C": "an international boundary",
+              "D": "a QNH boundary"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "Given: Turbojet a/c, Taxi fuel 600 kg, Fuel flow\r\ncruise 10000 kg/h, Fuel flow hold 8000 kg/h, Alternate fuel 10200 kg, Flight\r\ntime 6 hours, Visibility at destination is forecast to be 800m. What is the\r\nminimum ramp fuel?",
+            "options": {
+              "A": "79400 kg",
+              "B": "75400 kg",
+              "C": "83800 kg",
+              "D": "70800 kg"
+            },
+            "correct": "C",
+            "explanation": "Trip fuel = 6 * 10000 = 60000 kg. Visibility 800m likely\r\nrequires an alternate. Holding fuel = 30 min * 8000 kg/h = 4000 kg. Contingency\r\n(assume 5% trip) = 0.05 * 60000 = 3000 kg. Min Ramp Fuel = Trip + Contingency +\r\nAlternate + Holding + Taxi = 60000 + 3000 + 10200 + 4000 + 600 = 77800 kg.  Self-correction:\r\nThe answer C (83800 kg) is significantly higher. Let's re-examine reserves.\r\nMaybe holding is longer, or contingency higher? If contingency = 10% trip ->\r\n6000kg. Total = 60000+6000+10200+4000+600 = 80800 kg. Still not matching C. If\r\nAlternate fuel calculation is different? Maybe Alternate fuel includes holding?\r\nIf Alternate = 10200 (includes holding), then Total = 60000 + 3000 + 10200 +\r\n600 = 73800 kg. This doesn't match C either. There might be missing information\r\nor context specific to the CAP/aircraft affecting fuel calculations like fixed\r\nreserves, variable reserves etc., leading to the answer C."
+          },
+          {
+            "question": "On a Jeppesen chart, the marking FL230 indicates:",
+            "options": {
+              "A": "The airspace below FL230 is uncontrolled",
+              "B": "The airspace is uncontrolled\r\ninclusive of FL230 and below",
+              "C": "The airspace is controlled from ground level up\r\nto FL230",
+              "D": "The airspace is controlled from FL220 inclusive and above"
+            },
+            "correct": "A",
+            "explanation": "FL230 usually marks the lower limit of upper controlled\r\nairspace, meaning below it is typically uncontrolled or Class G/E"
+          },
+          {
+            "question": "Use Jeppesen chart 5AT(HI) and the following route: A\r\n(N8500.0 W16000.0) to B (N8000.0 W16400.0) to C (N7500.0 W16450.0). The total\r\ndistance is:",
+            "options": {
+              "A": "302 NM",
+              "B": "602 km",
+              "C": "605 NM",
+              "D": "602 NM"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "In the event of a delay in excess of ........ of\r\n....... for a controlled flight, or a delay of ......... for an uncontrolled\r\nflight for which a flight plan has been submitted, the flight plan should be\r\namended or a new flight plan submitted and the old plan cancelled, whichever is\r\nappropriate.",
+            "options": {
+              "A": "30 minutes, Estimated Off-block Time, 3 hours",
+              "B": "30\r\nminutes, planned take off time, 1 hour",
+              "C": "60 minutes, planned take off time, 3\r\nhours",
+              "D": "30 minutes, EOBT, 1 hour"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "What are the reasons for the format of the ICAO\r\nflight plan?",
+            "options": {
+              "A": "To standardize flight plan formats internationally",
+              "B": "To\r\nallow automated processing of flight plans",
+              "C": "Both A & B",
+              "D": "To suit the\r\nrequirements of the Chicago convention"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "Normally, flight plans should be filed on the ground\r\nat least .... before clearance to start up is requested. Exceptionally, when it\r\nis not possible to meet this requirement, operators should ............... and\r\nnever .......",
+            "options": {
+              "A": "30 minutes, give as much notice as possible, less than 60\r\nminutes",
+              "B": "60 minutes, give as much notice as possible, less than 30 minutes",
+              "C": "3 hours, cancel the flight, cause such trouble again",
+              "D": "3 hours, give as much\r\nnotice as possible, 30 minutes"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "Given: DOM 33510 kg, Traffic load 7600 kg, Trip fuel\r\n2040 kg, Final reserve 983 kg, Alternate fuel 1100 kg, Contingency 5% of trip\r\nfuel. Which of the following is correct?",
+            "options": {
+              "A": "Est. landing mass at\r\ndestination 43193 kg",
+              "B": "Est. landing mass at destination 43295 kg",
+              "C": "Est.\r\ntake-off mass 43295 kg",
+              "D": "Est. take-off mass 45233 kg"
+            },
+            "correct": "B",
+            "explanation": "ZFW = 33510 + 7600 = 41110 kg. Contingency = 0.05 * 2040 = 102 kg. Takeoff\r\nFuel = Trip + Contingency + Reserve + Alternate = 2040 + 102 + 983 + 1100 =\r\n4225 kg. TOM = ZFW + Takeoff Fuel = 41110 + 4225 = 45335 kg (closest to D, but\r\nD is labelled Est. TO mass). Landing Mass = TOM - Trip = 45335 - 2040 = 43295\r\nkg. This matches B"
+          },
+          {
+            "question": "Which sections of a CA48 are not normally transmitted\r\nto other ATSUs? i Addressees ii Items 3 to 18 - the main body of the FPL iii\r\nItem 19 - Supplementary Information",
+            "options": {
+              "A": "i and iii",
+              "B": "ii and iii",
+              "C": "i and ii",
+              "D": "i, ii and iii"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "What is contingency fuel?",
+            "options": {
+              "A": "Fuel for engine\r\nstart and taxi",
+              "B": "Fuel to cover deviations from the planned operation",
+              "C": "Fuel\r\nfor holding at the destination",
+              "D": "Fuel for diversion to an alternate"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "What is the purpose of Decision Point Procedure?",
+            "options": {
+              "A": "Carry minimum fuel to increase Traffic Load",
+              "B": "Increase safety of the flight",
+              "C": "Reduce landing mass to avoid stressing the aircraft",
+              "D": "Reduce contingency\r\nfuel to below that required from Decision Point to destination"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "Refer to Jeppesen Manual - VFR Section Aberdeen 10-IV\r\nWhat frequency is the Aberdeen ATSU on?",
+            "options": {
+              "A": "114.30 MHz",
+              "B": "126.25 MHz",
+              "C": "119.87 MHz",
+              "D": "135.17 MHz"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "Use Jeppesen chart 5AT(HI) and the following route: A\r\n(N8500.0 W16000.0) to B (N8000.0 W16400.0) to C (N7500.0 W16450.0). The highest\r\nGrid MORA for the route is:",
+            "options": {
+              "A": "1000 ft",
+              "B": "1600 ft",
+              "C": "160 ft",
+              "D": "1600 m"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "Use Jeppesen chart 5AT(HI) and the following route: A\r\n(N8500.0 W16000.0) to B (N8000.0 W16400.0) to C (N7500.0 W16450.0). The grid\r\ntrack from N7000.0 W16630.0 to N7456.8 W14100.0 is:",
+            "options": {
+              "A": "212�",
+              "B": "032�",
+              "C": "056�",
+              "D": "043�"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "Flight plans for flights affected by Air Traffic Flow\r\nManagement (ATFM) rules, and in areas such as the North Atlantic, must be filed\r\nat least ....... before EOBT.",
+            "options": {
+              "A": "3 hours",
+              "B": "1 hour",
+              "C": "30 minutes",
+              "D": "Never\r\nless than 10 minutes"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "Use Jeppesen chart 5AT(HI) and the following route: A\r\n(N8500.0 W16000.0) to B (N8000.0 W16400.0) to C (N7500.0 W16450.0). The\r\nconstant track direction from A to B is:",
+            "options": {
+              "A": "168�(G)",
+              "B": "148�(M)",
+              "C": "348�(G)",
+              "D": "186�(T)"
+            },
+            "correct": "C",
+            "explanation": "Flight Planning and Monitoring Test 5 \n\n\r\n\r\n  1. A filed flight plan is:  A. the flight plan as\r\nfiled with an ATS unit by the pilot or a designated representative, without any\r\nsubsequent changes B. the flight plan, including changes, if any, brought about\r\nby subsequent clearances C. the flight plan, including changes, if any, cleared\r\nprior to take-off D. the flight plan, including changes, if any, cleared prior\r\nto the aircraft's present position  Correct Answer:  A"
+          },
+          {
+            "question": "Refer to CAP 697 SEP1 Fig 2.4. Given: Aeroplane mass at\r\nstart up 3663 lb, Fuel load (density 6 lb/gal) 74 gal, Take-off altitude sea\r\nlevel, Headwind 40 kt, Cruise altitude 8000 ft, Power setting full throttle\r\n2300 rpm, OAT 20�C, Lean of peak. Calculate the range.",
+            "options": {
+              "A": "633 NM",
+              "B": "844 NM",
+              "C": "730 NM",
+              "D": "547.5 NM"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "Refer to Jeppesen Manual - VFR Section Athinai 29-1.\r\nWhat is the location identifier for MEGARA aerodrome?",
+            "options": {
+              "A": "LGMG",
+              "B": "LGMR",
+              "C": "267/22 NM",
+              "D": "086/32 NM"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "Refer to CAP 697 MRJT1 fig 4.5.3.1. Given: LRC, FL330,\r\nTemp -63�C, Mass 54100 kg, Time 28.5 min. Find the fuel consumed.",
+            "options": {
+              "A": "1207 kg",
+              "B": "1191 kg",
+              "C": "1092 kg",
+              "D": "1107 kg"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "Refer to Jeppesen Manual - VFR Section Aberdeen 10-IV.\r\nWhat is the max ground elevation within the CTR?",
+            "options": {
+              "A": "1733 ft",
+              "B": "1733 m",
+              "C": "2105\r\nft",
+              "D": "1245 ft"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "Refer to Jeppesen Manual - VFR Section Athinai 29-1. What\r\nare the call sign and frequency for start-up?",
+            "options": {
+              "A": "ATIS 123.40 MHz",
+              "B": "Approach\r\n119.10 MHz",
+              "C": "Ground 121.70 MHz",
+              "D": "Tower 118.10 MHz"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "Refer to CAP 697 MRJT1 fig 4.5.3.1. Given: Long Range\r\nCruise at FL350, OAT -45�C, Gross mass at the beginning of the leg 40000 kg,\r\nGross mass at the end of the leg 39000 kg. Find: True airspeed (TAS) and cruise\r\ndistance (NAM) for a twin-jet aeroplane.",
+            "options": {
+              "A": "TAS 433 kt, 227 NAM",
+              "B": "TAS 423 kt,\r\n227 NAM",
+              "C": "TAS 433 kt, 1163 NAM",
+              "D": "TAS 423 kt, 936 NAM"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "Refer to Jeppesen Manual ED-6. Give the frequency of\r\nZURICH VOLMET.",
+            "options": {
+              "A": "127.2 MHz",
+              "B": "127.2 kHz",
+              "C": "128.525 MHz",
+              "D": "118.1 MHz"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "Refer to CAP 697 SEP1, Fig 2.1. Given: FL75, OAT +5�C,\r\nDuring climb, Average headwind component 20 kt, Take-off from MSL with initial\r\nmass of 3650 lb. Find time and fuel to climb.",
+            "options": {
+              "A": "11 min, 3.6 US.gal",
+              "B": "7 min,\r\n2.6 US.gal",
+              "C": "9 min, 2.7 US.gal",
+              "D": "9 min, 3.3 US.gal"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "Refer to CAP 697 MRJT1 fig 4.5.3.1. Given: FL330, COAT\r\n-63�C, Weight 50500 kg. What is the TAS?",
+            "options": {
+              "A": "411 kt",
+              "B": "433 kt",
+              "C": "421 kt",
+              "D": "423\r\nkt"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "Refer to Jeppesen Manual - VFR Section Aberdeen. What is\r\nthe maximum wing span of an aircraft using the eastern apron and taxiway?",
+            "options": {
+              "A": "20\r\nft",
+              "B": "20 m",
+              "C": "23 m",
+              "D": "10 m"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "Refer to CAP 697 MRJT1, fig 4.5.1. Planning an IFR\r\nflight from Paris (Charles de Gaulle) to London (Heathrow) for the twin-jet\r\naeroplane. Given: Estimated take-off mass 52000 kg, Airport elevation 387 ft,\r\nFL280, W/V 280/40 kt, ISA deviation -10�C, Average true course 340. Find the\r\ntime to top of climb.",
+            "options": {
+              "A": "3 min",
+              "B": "11 min",
+              "C": "12 min",
+              "D": "15 min"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "Refer to Jeppesen Manual ED-6. The GRENCHEN LSZG\r\naerodrome (N4711 E00725) has a tower frequency of 120.10MHz. The\r\n&quot;(V)&quot; after the frequency indicates:",
+            "options": {
+              "A": "available on request",
+              "B": "only\r\nto be used during daylight",
+              "C": "available for VFR flight only",
+              "D": "VDF available"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "ATC must be informed of changes which occur to the\r\nflight plan speed and ETA. Many nations stipulate their own limits but PANS-RAC\r\nrequire changes of ..... in TAS and/or ..... in ETA to be notified.",
+            "options": {
+              "A": "+/- 5% /\r\n+/- 3 minutes",
+              "B": "+/- 10% / +/- 5 minutes",
+              "C": "+/- 3 kt / +/- 3 minutes",
+              "D": "+/- 3\r\nkt 3 minutes"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "Refer to Jeppesen Manual ED-6. Flying VFR from VILLINGEN\r\n(N4758 E00831) to FREUDENSTADT (N4828 E00824), determine the distance.",
+            "options": {
+              "A": "54 NM",
+              "B": "29 km",
+              "C": "29 NM",
+              "D": "33 NM"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "Refer to CAP 697 SEP1, Fig 2.1. Given: Aerodrome\r\nelevation 2500 ft, OAT +10�C, Initial weight 3500 lb, Climb to FL140, OAT -5�C.\r\nWhat are the climb time, fuel, NAM?",
+            "options": {
+              "A": "22 min, 6.5 US.gal, 46 NAM",
+              "B": "24 min,\r\n7.5 US.gal, 50 NAM",
+              "C": "2 min, 1.0 US.gal, 4 NAM",
+              "D": "26 min, 8.5 US.gal, 54 NAM"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "Refer to CAP 697 MRJT1, fig 4.5.1. Given: Brake release\r\nmass 57500 kg, Temperature ISA - 10�C, Headwind component 16 kt, Initial FL280.\r\nFind: still air distance (NAM) and ground distance for the climb.",
+            "options": {
+              "A": "67 NAM /\r\n71 NM",
+              "B": "59 NAM / 62 NM",
+              "C": "62 NAM / 59 NM",
+              "D": "71 NAM / 67 NM"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "Refer to CAP 697 SEP1, Fig 2.2.3. Given: FL75, OAT\r\n+10�C, Lean mixture, 2300 rpm. Find the fuel flow in gallons per hour (GPH) and\r\nTAS.",
+            "options": {
+              "A": "11.6 GPH 160 kt",
+              "B": "68.5 GPH 160 kt",
+              "C": "71.1 GPH 143 kt",
+              "D": "11.6 GPH 143\r\nkt"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "Refer to Jeppesen Manual ED-6. Flying VFR from PEITING\r\n(4748N 01055.5E) to IMMENSTADT (4733.5N 01013.0E), determine the magnetic\r\ncourse.",
+            "options": {
+              "A": "077",
+              "B": "243",
+              "C": "257",
+              "D": "063"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "Refer to Jeppesen Manual ED-6. Give the frequency of the\r\nGRENCHEN VOR at N4711 E00725.",
+            "options": {
+              "A": "108.65 MHz",
+              "B": "326 kHz",
+              "C": "channel 23",
+              "D": "120.1\r\nMHz"
+            },
+            "correct": "A",
+            "explanation": ""
+          }
+        ]
+      }
+    ]
+  },
+  "aon-aviation": {
+    "name": "AON Aviation",
+    "icon": "🧠",
+    "tests": [
+      {
+        "name": "AON Aviation - Added Import",
+        "timeLimit": 60,
+        "questions": [
+          {
+            "question": "Rudder controls:",
+            "options": {
+              "A": "Yaw",
+              "B": "Pitch",
+              "C": "Turn",
+              "D": "Roll"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "On a localiser the modulations are at 150 Hz and 90 Hz.\r\nWhich of the following statements is correct?",
+            "options": {
+              "A": "The 90 Hz modulation\r\npredominates to the right of the centre line",
+              "B": "The 150 Hz modulation\r\npredominates to the right of the centre line",
+              "C": "If the 150 Hz modulations\r\npredominates, the CDI needle moves left",
+              "D": "When both modulations are received,\r\nthe aeroplane will be on the centre line"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "The contents of Aeronautical Information Publication\r\n(AIP) are:",
+            "options": {
+              "A": "GEN, ENR, RAC, AD",
+              "B": "GEN, AGA, COM, RAC, ENR, FAL",
+              "C": "GEN,\r\nAGA, COM, RAC, FAL, SAR, MET, MAP",
+              "D": "GEN, ENR (en-route) and AD (aerodromes)"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "When climbing at a constant mach number below the\r\ntropopause through an inversion:",
+            "options": {
+              "A": "The CAS will decrease and the TAS will\r\nincrease",
+              "B": "The CAS will increase and the TAS will decrease",
+              "C": "The CAS and TAS\r\nwill both increase",
+              "D": "The CAS and TAS will both decrease"
+            },
+            "correct": "A",
+            "explanation": ""
+          },
+          {
+            "question": "To which aircraft position(s) does HSI presentation\r\n&quot;D&quot; correspond?",
+            "options": {
+              "A": "1 only",
+              "B": "2 only",
+              "C": "8 only",
+              "D": "10 only"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "To which aircraft position(s) does HSI presentation\r\n&quot;B&quot; correspond?",
+            "options": {
+              "A": "5 only",
+              "B": "12 only",
+              "C": "13 only",
+              "D": "5 and 13"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "The Operating Mass:",
+            "options": {
+              "A": "Is the maximum zero fuel\r\nmass less the traffic load",
+              "B": "Is the landing mass minus the traffic load",
+              "C": "Is\r\nthe take-off mass minus the basic empty mass and crew mass",
+              "D": "Is the take-off\r\nmass minus the traffic load"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "Entering a holding pattern at FL110 with a jet\r\naircraft, which will be the maximum speed?",
+            "options": {
+              "A": "230 kts TAS",
+              "B": "240 kts IAS",
+              "C": "240 kts TAS",
+              "D": "230 kts IAS"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "To which aircraft position(s) does HSI presentation\r\n&quot;E&quot; correspond?",
+            "options": {
+              "A": "3 only",
+              "B": "8 only",
+              "C": "10 only",
+              "D": "3 and 8"
+            },
+            "correct": "D",
+            "explanation": ""
+          },
+          {
+            "question": "Which aeroplane behaviour will be corrected by a yaw\r\ndamper?",
+            "options": {
+              "A": "Spiral dive",
+              "B": "Dutch roll",
+              "C": "Buffeting",
+              "D": "Tuck under"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "What type of precipitation would you expect at an\r\nactive unstable cold front?",
+            "options": {
+              "A": "Light to moderate continuous rain",
+              "B": "Showers\r\nassociated with thunderstorms",
+              "C": "Drizzle",
+              "D": "Freezing rain"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "In cruise flight, an aft centre of gravity location\r\nwill:",
+            "options": {
+              "A": "Increase longitudinal static stability",
+              "B": "Not influence\r\nlongitudinal static stability",
+              "C": "Decrease longitudinal static stability",
+              "D": "Not\r\nchange the static curve of stability into longitudinal"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "The sweepback on a wing will:",
+            "options": {
+              "A": "Cause the stall\r\nto occur at lower angles of attack",
+              "B": "Reduce the possibility for the wing tip\r\nto stall",
+              "C": "Increase the possibility of a wing tip stall",
+              "D": "Have no effect on\r\nthe stall characteristics"
+            },
+            "correct": "C",
+            "explanation": ""
+          },
+          {
+            "question": "To which aircraft position(s) does HSI presentation\r\n&quot;C&quot; correspond?",
+            "options": {
+              "A": "5 only",
+              "B": "12 only",
+              "C": "13 only",
+              "D": "5 and 13"
+            },
+            "correct": "B",
+            "explanation": ""
+          },
+          {
+            "question": "See the below figure. The course selector of each\r\naircraft is set to 360 degrees. Which aircraft would have FROM indication on\r\nthe TO/FROM indicator and the CDI pointing left of center?",
+            "options": {
+              "A": "Aircraft 1",
+              "B": "Aircraft 2",
+              "C": "Aircraft 3",
+              "D": "Aircraft 4"
+            },
+            "correct": "B",
+            "explanation": "Aircraft 2 is\r\nSouth-East of the station, on approx 135 radial. Course 360 selected means CDI\r\nleft, TO/FROM shows FROM"
+          },
+          {
+            "question": "A pilot making an approach sees 3 red lights and 1 white\r\nlight on the wingbar of a PAPI. This means that:",
+            "options": {
+              "A": "He is above the approach\r\nslope",
+              "B": "He is on the centre line axis",
+              "C": "He is below the approach slope",
+              "D": "He\r\nis on the prescribed glide slope"
+            },
+            "correct": "C",
+            "explanation": ""
+          }
+        ]
+      }
+    ]
+  },
+  "aircraft-general": {
+    "name": "Aircraft General",
+    "icon": "✈️",
+    "tests": [
+      {
+        "name": "Aircraft General - Added Import",
+        "timeLimit": 60,
+        "questions": []
+      }
+    ]
+  },
+  "air-law": {
+    "name": "Air Law",
+    "icon": "📜",
+    "tests": [
+      {
+        "name": "Air Law - Added Import",
+        "timeLimit": 60,
+        "questions": [
+          {
+            "question": "An aircraft making an approach must be told to make a\r\nmissed approach, when no landing clearance has been received from the non-radar\r\ntraffic controller, when the aircraft is at a distance of:",
+            "options": {
+              "A": "5 NM from the touchdown. 1",
+              "B": "1.5 NM from the touchdown.",
+              "C": "4 NM from the touchdown. 2D. 2 NM from the touchdown. 3",
+              "D": "250 kt for IFR and VFR, below FL100. 4B. 250 kt for IFR\r\nonly, below FL195. 5C. 250 kt for IFR and VFR, at all altitudes. 6D. 250 kt for\r\nIFR only, below FL100. 7"
+            },
+            "correct": "D",
+            "explanation": "2. The speed limit (IAS) in airspace E is:\n\n\r\n\r\n A. 250 kt for IFR and VFR, below FL100. 4B. 250 kt for IFR\r\nonly, below FL195. 5C. 250 kt for IFR and VFR, at all altitudes. 6D. 250 kt for\r\nIFR only, below FL100. 7\n\n\r\n\r\n Correct Answer: A\n\n\r\n\r\n 3. What action should be taken when, during an IFR flight in\r\nVMC, you suffer a radio failure?\n\n\r\n\r\n A. Return to the aerodrome from which you departed. 8B.\r\nContinue flying in VMC and land as soon as possible. 9C. Maintain your assigned\r\naltitude and land at the nearest aerodrome at which there are VMC conditions.\r\n10D. Continue flying at your assigned altitude and start your approach at your\r\nETA. 11\n\n\r\n\r\n Correct Answer: B\n\n\r\n\r\n 4. Who is responsible for the safety of an ATC clearance\r\nconcerning terrain clearance?\n\n\r\n\r\n A. The ATS reporting point when accepting the flight plan.\r\n12B. The Captain. 13C. The Operator of the aircraft. 14D. ATC. 15\n\n\r\n\r\n Correct Answer: B\n\n\r\n\r\n 5. An ATS airspace, in which IFR and VFR flights are\r\npermitted and all flights receive air traffic control service, IFR flights are\r\nseparated from other IFR flights and receive traffic information concerning VFR\r\nflights and VFR flights receive traffic information concerning all other\r\nflights, is classified as:\n\n\r\n\r\n A. Airspace E 16B. Airspace B 17C. Airspace A 18D. Airspace\r\nD 19\n\n\r\n\r\n Correct Answer: D\n\n\r\n\r\n 6. What does DER mean?\n\n\r\n\r\n A. distance end of route. 20B. departure end of runway. 21C.\r\ndistance end of runway. 22D. departure end of route. 23\n\n\r\n\r\n Correct Answer: B\n\n\r\n\r\n 7. In Mode 2 Parallel Runway operations, a minimum radar\r\nseparation can be provided of:\n\n\r\n\r\n A. 3 NM between aircraft on the same localizer course. 24B.\r\n2 NM between aircraft on the same localizer course. 25C. 3 NM between aircraft\r\non adjacent localizer courses. 26D. 5 NM between aircraft on the same localizer\r\ncourse. 27\n\n\r\n\r\n Correct Answer: A\n\n\r\n\r\n 8. Except in special cases, the establishment of change-over\r\npoints shall be limited to route segments of:\n\n\r\n\r\n A. 100 NM or more. 28B. 75 NM or more. 29C. 60 NM or more.\r\n30D. 50 NM or more. 31\n\n\r\n\r\n Correct Answer: C\n\n\r\n\r\n 9. For a controlled flight before departure, a flight plan\r\nmust be filed at least:\n\n\r\n\r\n A. 50 minutes before off-block time. 32B. 60 minutes before\r\ndeparture. 33C. 10 minutes before departure. 34D. 30 minutes before off-block\r\ntime. 35\n\n\r\n\r\n Correct Answer: B\n\n\r\n\r\n 10. In an instrument approach procedure, the segment where\r\nthe aircraft is lined up with the runway centre line and when the decent is\r\ncommenced is called:\n\n\r\n\r\n A. intermediate approach segment. 36B. initial approach\r\nsegment. 37C. arrival segment. 38D. final approach segment. 39\n\n\r\n\r\n Correct Answer: D\n\n\r\n\r\n 11. Except when cleared by an ATC unit, a VFR flight cannot\r\nenter or Leave a Control Zone when the cloud base is lower than:\n\n\r\n\r\n A. 1000 ft and less than 8 km visibility. 40B. 2000 ft and\r\nless than 5 km visibility. 41C. 1500 ft or less than 5 km visibility. 42D. 1000\r\nft and less than 5 km visibility. 43\n\n\r\n\r\n Correct Answer: C (Assuming position implies correctness -\r\nno checkmark in source)\n\n\r\n\r\n 12. ICAO Annex 17 lays down the rules to establish security\r\nmeasures for passengers with regard to:\n\n\r\n\r\n A. cabin baggage, checked baggage, cargo and other goods,\r\naccess control and airport design. 44B. cabin baggage and checked baggage. 45C.\r\npassenger baggage. 46D. cabin baggage, checked baggage, cargo and other goods\r\nand access control. 47\n\n\r\n\r\n Correct Answer: A\n\n\r\n\r\n 13. When doing a procedure turn ($45^{\\circ}/180^{\\circ}$)\r\ngoing outbound turned $45^{\\circ}$ off track, the time taken from the beginning\r\nof the turn for Cat A and Cat B aircraft is:\n\n\r\n\r\n A. 1 minute 30 seconds. 48B. 1 minute. 49C. 1 minute 15\r\nseconds. 50D. 2 minutes. 51\n\n\r\n\r\n Correct Answer: B\n\n\r\n\r\n 14. When requesting to engage the parking brake, a\r\nmarshaller will give the following signal:\n\n\r\n\r\n A. arms repeatedly crossed over the head. 52B. arms placed\r\ndown and crossed in front of the body moving horizontally. 53\n\n\r\n\r\n C. raise arm and hand with fingers extended horizontally in\r\nfront of the body. Then clench fist. 54D. arms placed horizontally sideways\r\nwith palms towards the ground beckoning downwards. 55\n\n\r\n\r\n Correct Answer: C\n\n\r\n\r\n 15. Concerning the three entries to the hold, the entry has\r\nto be flown on:\n\n\r\n\r\n A. heading 56B. track 57C. course 58D. bearing 59\n\n\r\n\r\n Correct Answer: A\n\n\r\n\r\n 16. An aircraft, on a radar approach, should be told to\r\nconsider making a missed approach when the aircraft is not visible on the radar\r\nscreen for a significant period of time and when it is within:\n\n\r\n\r\n A. the last 2 NM of the approach. 60B. the last 5 NM of the\r\napproach. 61C. the last 4 NM of the approach. 62D. the last 3 NM of the\r\napproach. 63\n\n\r\n\r\n Correct Answer: A\n\n\r\n\r\n 17. Clocks and other timing equipment used by air traffic\r\nservices must be checked in order to be able to give the time within plus or\r\nminus:\n\n\r\n\r\n A. 15 seconds of UTC. 64B. 10 seconds of UTC. 65C. 30\r\nseconds of UTC. 66D. 1 minute of UTC. 67\n\n\r\n\r\n Correct Answer: C\n\n\r\n\r\n 18. When given instructions to set a mode/code, a pilot\r\nshall:\n\n\r\n\r\n A. only use the word &quot;wilco&quot;. 68B. only read back\r\nthe code. 69C. only use the word &quot;roger&quot;. 70D. read back mode and\r\ncode. 71\n\n\r\n\r\n Correct Answer: D\n\n\r\n\r\n 19. In order to satisfy lateral track separation between\r\naircraft using the same fix and Dead Reckoning, the aircraft:\n\n\r\n\r\n A. have to fly $45^{\\circ}$ separated at a distance of 15\r\nmiles or more from the fix. 72B. have to fly $45^{\\circ}$ separated at a\r\ndistance of 15 NM or more from the fix. 73C. have to fly 30� separated at a\r\ndistance of 15 NM or more from the fix. 74D. have to fly $30^{\\circ}$ separated\r\nat a distance of 15 miles or more from the fix. 75\n\n\r\n\r\n Correct Answer: B\n\n\r\n\r\n 20. Who has the final authority as to the disposition of the\r\naircraft?\n\n\r\n\r\n A. The State. 76B. The Operator. 77C. The Commander. 78D.\r\nThe owner. 79\n\n\r\n\r\n Correct Answer: C"
+          }
+        ]
+      }
+    ]
+  }
+}

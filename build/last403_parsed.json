@@ -1,0 +1,2333 @@
+{
+  "last403_parsed": {
+    "name": "Last403 (parsed)",
+    "icon": "fas fa-file-import",
+    "tests": [
+      {
+        "name": "Parsed from last403.html",
+        "timeLimit": 0,
+        "questions": [
+          {
+            "question": "1. If an artificial feel unit were fitted it would be connected:",
+            "options": [
+              "in parallel with the primary controls",
+              "in series with the primary controls",
+              "in series with the secondary controls",
+              "in parallel with the secondary controls"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "2. An impulse coupling in a magneto is provided to:",
+            "options": [
+              "generate high voltage and advance the spark for starting",
+              "increase the energy to the spark plug as the rpm increases",
+              "generate high voltage and retard the spark for starting",
+              "allows a low energy value when continuous ignition is selected"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "3. In a modern airliner what is the hydraulic fluid used?",
+            "options": [
+              "Synthetic",
+              "Mineral",
+              "Mineral/alcohol",
+              "Vegetable"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "4. The principle of operation of firewire is:",
+            "options": [
+              "positive coefficient of impedance, negative coefficient of inductance",
+              "positive coefficient of resistance, negative coefficient of capacitance",
+              "positive coefficient of inductance, negative coefficient of impedance",
+              "positive coefficient of capacitance, negative coefficient of resistance"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "5. A magneto is switched off by:",
+            "options": [
+              "open circuiting the primary circuit",
+              "grounding the secondary circuit",
+              "open circuiting the secondary circuit",
+              "grounding the primary circuit"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "6. In a bootstrap air conditioning system what is the first thing the air does?",
+            "options": [
+              "Goes through the primary heat exchanger, compressor then secondary heat exchanger",
+              "Goes through the compressor, turbine, secondary heat exchanger",
+              "Goes through the turbine, compressor and secondary heat exchanger",
+              "Goes through the compressor, secondary heat exchanger, turbine"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "7. The fuel tanks of a modern passenger airliner are filled by:",
+            "options": [
+              "gravity",
+              "fuel is sucked in by the aircraft pumps",
+              "fuel is pumped in by the fuel truck",
+              "the VTO system"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "8. Fuel tank booster pumps are:",
+            "options": [
+              "spur gear pumps - high pressure",
+              "centrifugal pumps - high pressure",
+              "spur gear pumps - low pressure",
+              "centrifugal pumps - low pressure"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "9. The function of baffle check valves in a fuel tank is:",
+            "options": [
+              "to reduce fuel flow at altitude",
+              "to prevent fuel surge during manoeuvring",
+              "to prevent pump cavitation",
+              "to prevent movement of fuel to the wingtip"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "10. What type of fire extinguisher would be used on a propane fire?",
+            "options": [
+              "Foam",
+              "Water",
+              "Dry powder",
+              "Sand"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "11. A twin jet aircraft would normally be refuelled by which of the following methods?",
+            "options": [
+              "Overwing refuelling",
+              "Suction refuelling",
+              "Open line refuelling",
+              "Pressure refuelling"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "12. The purpose of a refuelling volumetric top off unit (VTO) is:",
+            "options": [
+              "to keep the feeder box full of fuel at all times",
+              "to close the fuelling valve when the tank is full",
+              "to close the surge check valves in the outboard tanks to keep the tank full until the centre tank fuel has been used",
+              "to close the tank vent system when the tank is full"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "13. Where is EGT measured?",
+            "options": [
+              "In the jet pipe",
+              "HP turbine outlet",
+              "HP compressor outlet",
+              "Combustion chamber"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "14. An ion detector detects:",
+            "options": [
+              "smoke and fire",
+              "smoke",
+              "overheat",
+              "light"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "15. Load shedding is:",
+            "options": [
+              "increasing circuit resistance",
+              "transferring the loads between generators",
+              "reducing the load voltage",
+              "overall reductions of the loads on the system"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "16. EPR is measured by the ratio of:",
+            "options": [
+              "turbine pressure to combustion chamber inlet pressure",
+              "high pressure compressor inlet pressure to exhaust pressure",
+              "low pressure compressor inlet pressure to high pressure compressor outlet pressure",
+              "exhaust pressure to low pressure compressor inlet pressure"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "17. In a twin jet fuel system what is the function of a feeder box?",
+            "options": [
+              "To equally distribute the fuel to each tank during refuelling",
+              "To prevent pump cavitation",
+              "To feed fuel to the volumetric top-off unit",
+              "To control the amount of fuel remaining during fuel dumping"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "18. The function of the baffles in a fuel tank is:",
+            "options": [
+              "to prevent movement of fuel to the wingtip",
+              "to prevent fuel surge (or sloshing) during manoeuvring",
+              "to prevent pump cavitation",
+              "to reduce fuel flow at altitude"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "19. The advantage of a float type fuel gauging system is: 1. simple 2. compensates for variations of SG 3. reads fuel quantity by mass 4. compensates for change of aircraft attitude",
+            "options": [
+              "3 & 4",
+              "2 & 3",
+              "1 only",
+              "1 & 3"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "20. On what principle do smoke detectors work?",
+            "options": [
+              "Resistance and capacitance",
+              "lonization and impedance",
+              "Optical and ionization",
+              "Inductance and light diffraction"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "1. The purpose of a ditching control valve is:",
+            "options": [
+              "to close the outflow valves",
+              "to open outflow valves",
+              "to allow rapid depressurisation",
+              "to dump the toilet water after landing"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "2. The correct extinguisher to use on a brake fire would be:",
+            "options": [
+              "foam",
+              "dry powder",
+              "CO2",
+              "water"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "3. In a centrifugal compressor:",
+            "options": [
+              "the air enters the eye tangentially and leaves the periphery axially",
+              "the air enters the periphery axially and leaves the eye tangentially",
+              "the air enters the eye radially and leaves the tip tangentially",
+              "the air enters the impeller axially at the eye and leaves at the periphery tangentially"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "4. If an aircraft maximum operating altitude is limited by the pressure cabin, this limit is due to:",
+            "options": [
+              "the maximum positive pressure differential at maximum operating ceiling",
+              "the maximum positive pressure differential at maximum cabin altitude",
+              "the maximum number of pressurization cycles",
+              "the maximum zero fuel mass at maximum pressure altitude"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "5. Hydraulic reservoirs are pressurized by:",
+            "options": [
+              "ram air in flight only",
+              "separate helium gas system",
+              "air from the air conditioning system",
+              "engine bleed air from turbine engine"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "6. What happens to pressure, temperature and velocity of the air in the diffuser of a centrifugal compressor?",
+            "options": [
+              "Velocity increase, pressure and temperature decrease",
+              "Velocity decrease, pressure and temperature increase",
+              "Velocity, pressure and temperature increase",
+              "Velocity, pressure and temperature decrease"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "7. A shuttle valve will:",
+            "options": [
+              "allow the accumulator to be emptied after engine shutdown",
+              "reduce pump loading when normal system pressure is reached",
+              "automatically switch to a more appropriate source of hydraulic supply",
+              "operate on a rising pressure, higher than the Full Flow relief valve"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "8. The passenger oxygen drop-down mask stowage doors are released:",
+            "options": [
+              "by a lanyard operated by a barometric capsule",
+              "mechanically",
+              "electrically for chemical oxygen generators and pneumatically for gaseous system",
+              "manually by the cabin crew"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "9. An underinflated tyre on a dry runway:",
+            "options": [
+              "increases wear on the shoulder",
+              "increases wear on the crown",
+              "increases viscous aquaplaning speed",
+              "will cause the tyre temperature to reduce"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "10. Long haul aircraft are not used as short haul aircraft because:",
+            "options": [
+              "checklists would be too time consuming to complete",
+              "it would use too much fuel",
+              "some tanks will be empty the whole time imposing too much strain on the aircraft",
+              "structures are given fatigue lives based on their use"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "11. An aircraft is certified to fly higher than 25 000 ft and to carry a maximum of 240 passengers, it is configured to carry 200 and actually has 180 passengers on board. The minimum number of drop-down oxygen masks provided must be:",
+            "options": [
+              "180",
+              "200",
+              "220",
+              "240"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "12. An undercarriage leg is considered to be locked when:",
+            "options": [
+              "it is down",
+              "the amber light is on",
+              "mechanically locked by an \"over-centre\" mechanism",
+              "the actuating cylinder is at the end of its travel"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "13. The purpose of a hydraulic fuse is to:",
+            "options": [
+              "allow the parking brake to remain on overnight if required",
+              "allow a reduced pressure to the wheel brake system to avoid locking the wheels",
+              "prevent over-pressurizing the reservoir as altitude increases",
+              "prevent loss of system fluid if the pipeline to a brake unit should rupture"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "14. The flight deck warning on activation of an engine fire detection system is:",
+            "options": [
+              "warning bell",
+              "gear warning",
+              "warning light and warning bell",
+              "warning light"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "15. With regard to an air cycle type ECS pack, where is the water separator fitted?",
+            "options": [
+              "After the humidifier",
+              "Before the cold air unit compressor",
+              "Between the compressor and turbine",
+              "After the cold air unit turbine"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "16. The properties of Duralumin are: 1. aluminium/copper base 2. aluminium/magnesium base 3. hard to weld 4. easy to weld 5. good thermal conductivity 6. poor resistance to air corrosion",
+            "options": [
+              "1, 3 and 5",
+              "2, 3 and 5",
+              "1, 2 and 3",
+              "4, 5 and 6"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "17. In the event that an emergency decent causes the cabin pressure to decrease below ambient pressure:",
+            "options": [
+              "the outward relief valve will open",
+              "the outflow valve will close",
+              "the inward relief valve will open",
+              "the safety valve will close"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "18. In a bleed air anti-icing system the areas that are heated are:",
+            "options": [
+              "the whole of the wing",
+              "wing leading edge slats and flaps",
+              "wing leading edges and slats",
+              "trailing edge flaps"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "19. The type of smoke detection system fitted to aircraft is:",
+            "options": [
+              "optical and ionization",
+              "chemical",
+              "electrical",
+              "magnetic"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "20. On a modern turboprop aircraft the method of anti-icing/de-icing the wings is:",
+            "options": [
+              "fluid",
+              "pneumatic boots",
+              "electrical heater mats",
+              "hot air bled from the engines"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "1. How do you control power in a jet engine?",
+            "options": [
+              "By controlling the mixture ratio",
+              "By controlling the fuel flow",
+              "By controlling the airflow",
+              "By controlling the bleed valves"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "2. If during pressurized flight the outflow valve closes fully due to a fault in the pressure controller the:",
+            "options": [
+              "skin will be overstressed and could rupture",
+              "safety valve opens when the differential pressure reaches structural max diff",
+              "the inward relief valve will open to prevent excessive negative differential",
+              "ECS packs are automatically closed down"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "3. In a normally aspirated piston engine carburettor icing can occur:",
+            "options": [
+              "only below 0°C",
+              "only below 0°C and no visible moisture",
+              "In temperature ranges of -7°C to as high as +33°C with visible moisture present",
+              "only above 5000 ft"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "4. Oxygen cylinders are normally charged to:",
+            "options": [
+              "1000 psi",
+              "1200 psi",
+              "1800 psi",
+              "2000 psi"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "5. What is the purpose of the FCOC (Fuel-cooled Oil Cooler)?",
+            "options": [
+              "To maintain the oil at the correct temperature",
+              "To heat the fuel and cool the oil",
+              "To heat the oil and cool the fuel",
+              "To bypass oil to the engine if the oil pressure filter becomes blocked"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "6. In an air cycle air conditioning system what is the function of the ground-cooling fan?",
+            "options": [
+              "To re-circulate air through the mix manifold",
+              "To draw cooling air over the turbine",
+              "To blow air into the compressor",
+              "To draw cooling air over the heat exchangers"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "7. What is the purpose of inboard ailerons:?",
+            "options": [
+              "To reduce wing bending at high speed",
+              "To reduce wing twisting at low speed",
+              "To reduce wing bending at low speed",
+              "To reduce wing twist at high speed"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "8. The thrust reverser light illuminates on the flight deck annunciator when the:",
+            "options": [
+              "thrust reverser doors have moved to the reverse thrust position",
+              "thrust reverser doors have been selected but the doors have not moved",
+              "thrust reverser doors are locked",
+              "thrust reverser doors are unlocked"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "9. In an AC distribution system what is the purpose of the GCB?",
+            "options": [
+              "Maintains constant frequency",
+              "Connects the load busbar to the synchronizing busbar",
+              "Controls generator field excitation",
+              "Connects a generator output to its load busbar"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "10. In very cold weather the pilot notices slightly higher than normal oil pressure on start up. This:",
+            "options": [
+              "indicates an oil change is required.",
+              "is indicative of a blocked oil filter.",
+              "is acceptable providing it returns to normal after start up.",
+              "is abnormal but does not require the engine to be shut down."
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "11. Kreuger flaps are positioned:",
+            "options": [
+              "towards the wing tip",
+              "at the wing inner leading edge",
+              "along the whole leading edge",
+              "at the wing trailing edge"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "12. An aircraft which uses DC as the primary source of power, AC for the instruments may be obtained from:",
+            "options": [
+              "CSDU",
+              "rectifier",
+              "inverter",
+              "TRU"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "13. In a gas turbine engine fuel system why is the fuel heater before the filter?",
+            "options": [
+              "To prevent \"waxing\"",
+              "To help vaporization of the fuel",
+              "To prevent water in the fuel freezing and blocking the filter",
+              "To prevent the fuel from freezing and blocking the filter"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "14. Susceptibility to hypoxia is increased by:",
+            "options": [
+              "heat",
+              "noise",
+              "smoking",
+              "under-breathing"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "15. What are flaperons?",
+            "options": [
+              "Combined spoiler and flap",
+              "Combined elevators and flaps",
+              "Combined ailerons and elevators",
+              "Combined flap and ailerons"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "16. What is the purpose of trim tabs?",
+            "options": [
+              "To reduce stick forces in manoeuvres",
+              "To reduce stick holding forces to zero",
+              "To increase control effectiveness",
+              "To reduce control effectiveness"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "17. Oxygen supplied to the flight deck is:",
+            "options": [
+              "gaseous, diluted with ambient air if required",
+              "chemically generated and diluted with cabin air if required",
+              "gaseous, diluted with cabin air if required",
+              "chemically generated, diluted with ambient air if required"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "18. A hot busbar is one that:",
+            "options": [
+              "supplies galley power",
+              "is permanently connected to the battery",
+              "carries all of the non-essential loads.",
+              "is connected to the battery in an emergency"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "19. Smoke hoods protect:",
+            "options": [
+              "full face and provide a continuous flow of oxygen",
+              "mouth and nose and provide a continuous flow of oxygen",
+              "full face and provide oxygen on demand",
+              "mouth and nose and provide oxygen on demand"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "20. In a fan jet engine the bypass ratio is:",
+            "options": [
+              "internal mass airflow divided by external mass airflow",
+              "external mass airflow divided by internal mass airflow",
+              "internal mass airflow divided by mass fuel flow",
+              "mass fuel flow divided by mass fuel flow"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "1. An artificial feel system is needed in the pitch channel if the:",
+            "options": [
+              "airplane has a variable incidence tailplane",
+              "elevators are controlled through a reversible servo system",
+              "elevator is controlled through a servo tab",
+              "elevators are controlled through an irreversible servo system"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "2. An axial flow compressor when compared to a centrifugal compressor:",
+            "options": [
+              "takes in less air and is less prone to rupturing",
+              "takes in more air and is more prone to rupturing",
+              "takes in more air and is less prone to rupturing",
+              "takes in less air and is more prone to rupturing"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "3. What voltage is supplied to booster pumps on a modern jet airliner?",
+            "options": [
+              "115 V AC single phase",
+              "200 V AC three phase",
+              "28 V DC from an inverter",
+              "12 V DC from the battery"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "4. The EGT indication on a piston engine is used:",
+            "options": [
+              "to control the cooling air shutters",
+              "to monitor the oil temperature",
+              "to assist the pilot to adjust the fuel mixture",
+              "to indicate cylinder head temperature"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "5. What makes the non-rigid fittings of compressor and turbine blades rigid when the engine is running?",
+            "options": [
+              "Spring locks",
+              "Thrust and drag forces",
+              "Aerodynamic and centrifugal force",
+              "Tapered bead seats"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "6. Where are smoke detectors fitted?",
+            "options": [
+              "Toilets",
+              "Toilets and cargo compartments A, B, C, D, E",
+              "All cargo compartments",
+              "Toilets and cargo compartments B, C, E"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "7. What frequency is commonly used in aircraft electrical distribution systems?",
+            "options": [
+              "200 Hz",
+              "400 Hz",
+              "100 Hz",
+              "50 Hz"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "8. What colour is the hydraulic liquid in a modern jet airliner?",
+            "options": [
+              "Purple",
+              "Red",
+              "Yellow",
+              "Pink"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "9. Auto brakes are disengaged:",
+            "options": [
+              "when the ground spoilers are retracted",
+              "when the speed falls below 20 kt",
+              "on the landing roll when the autopilot is disengaged",
+              "by the pilot"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "10. When does the Low-Pressure fuel shut off valve close?",
+            "options": [
+              "When the fire handle is pulled",
+              "When the engine fuel switch is selected \"on\" during engine start",
+              "When flight idle is selected",
+              "After a booster pump failure"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "11. In an aircraft with a fuel dumping system it will allow fuel to be dumped:",
+            "options": [
+              "down to a predetermined safe value",
+              "down to unuseable value",
+              "to leave 15 gallons in each tank",
+              "down to maximum landing weight"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "12. When does the engine High Pressure fuel shut off valve close?",
+            "options": [
+              "After a booster pump failure",
+              "When the engine fuel switch is selected on during engine start",
+              "When flight idle is selected",
+              "When the engine fuel switch is selected off during engine shutdown"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "13. Hydraulic pressure typically used in the system of large transport aircraft is:",
+            "options": [
+              "2000- 3000 psi",
+              "3000-4000 psi",
+              "1000-2000 psi",
+              "4000-5000 psi"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "14. A gas turbine engine having a single spool, the compressor will rotate:",
+            "options": [
+              "at the same speed as the turbine",
+              "slower than the turbine",
+              "faster than the turbine",
+              "independently of the turbine"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "15. What ice protection system is used on most modern jet transport aircraft?",
+            "options": [
+              "Liquid",
+              "Electrical",
+              "Hot air",
+              "Pressure operated boots"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "16. The fuel cross-feed valves are fitted in order to facilitate:",
+            "options": [
+              "the use of fuel from any tank to any engine",
+              "refuelling when only one bowser is in use",
+              "isolation of the engine from the fuel system in the case of an engine fire",
+              "transfer of fuel between the main fuel tanks"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "17. Which part of the gas turbine engine limits the temperature?",
+            "options": [
+              "Combustion chamber",
+              "Turbine",
+              "Compressor",
+              "Exhaust"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "18. When smoke appears in the cockpit, after donning the oxygen mask the pilot should select:",
+            "options": [
+              "normal",
+              "100%.",
+              "diluter",
+              "emergency"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "19. What does \"octane rating\" when applied to AVGAS refer to?",
+            "options": [
+              "The waxing point of the fuel",
+              "The ability of the fuel to disperse water",
+              "The anti-knock value of the fuel",
+              "The volatility of the fuel"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "20. What is the purpose of the torque links in a landing gear leg?",
+            "options": [
+              "To prevent the wheel rotating around the leg",
+              "To prevent shimmy",
+              "To transfer the brake torque to the wheel",
+              "To position the wheels in the correct attitude prior to landing"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "1. On what principle does the fuel contents gauging system work on a modern large aircraft?",
+            "options": [
+              "Capacity affected by dielectric therefore changing EMF of system",
+              "Capacity affected by dielectric therefore changing resistivity of system",
+              "Changes in dielectric causes changes in capacitance",
+              "Change in dielectric causes change in distance between plates and therefore changes capacitance"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "2. What is the purpose of a surge box inside a fuel tank?",
+            "options": [
+              "Collect sediment at the bottom of the tank",
+              "Ventilate the tank during high pressure refuelling",
+              "Allow movement of fuel between tanks while refuelling",
+              "Prevent sloshing of fuel away from pump inlet during abnormal manoeuvres"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "3. The requirement for an aircraft to have a fuel dumping system is:",
+            "options": [
+              "all aircraft in the Transport Category having a maximum take-off mass (MTOM) of 75000 kg or greater",
+              "all aircraft manufactured after 1997 having a MTOM of 7500 kg or more",
+              "aircraft whose maximum landing mass (MLM) is significantly lower than its maximum take-off mass (MTOM)",
+              "all aircraft with a seating capacity of 250 or more"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "4. An unpressurized aircraft is flying above FL100 and therefore must have sufficient oxygen for:",
+            "options": [
+              "both pilots immediately and the cabin crew plus all passengers after 30 minutes above FL100 but below FL130",
+              "both pilots only",
+              "both pilots and all passengers",
+              "both pilots immediately and the cabin crew plus some passengers after 30 minutes above FL100 but below FL130"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "5. In a stressed skin aircraft, bending loads acting on the wings are taken by:",
+            "options": [
+              "ribs and stringers",
+              "stringers and spars",
+              "spars and skin",
+              "spars and stringers"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "6. What limits the max. temperature in a gas turbine engine?",
+            "options": [
+              "Temperature in the combustion chamber",
+              "Temperature at the exhaust",
+              "Temperature at the turbine",
+              "Temperature entering the combustion chamber"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "7. Why, in the bootstrap system, is the air compressed before it enters the heat exchanger?",
+            "options": [
+              "To provide a constant mass flow to the cabin",
+              "To ensure maximum pressure and temperature drop across the turbine",
+              "To ensure most rapid cooling through the heat exchanger",
+              "To provide a constant temperature airflow to the cabin"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "8. What is the purpose of the diluter demand valve in the emergency oxygen system?",
+            "options": [
+              "To supply air only when inhaling",
+              "To dilute oxygen with air in crew oxygen system",
+              "To dilute oxygen with air in passenger oxygen system",
+              "To supply oxygen only when inhaling"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "9. In a non-stressed skin aircraft, bending loads acting on the wings are taken by:",
+            "options": [
+              "skin",
+              "spars",
+              "stringers",
+              "ribs"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "10. Aircraft above a certain capacity must carry a crash axe, it is provided to:",
+            "options": [
+              "cut through the aircraft fuselage to allow escape",
+              "enable access behind panels and soundproofing to aid fire fighting",
+              "cut firewood in a survival situation",
+              "restrain disorderly passengers"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "11. At what height is it mandatory for one of the flight deck crew to wear an oxygen mask?",
+            "options": [
+              "25000 ft",
+              "32000 ft",
+              "37000 ft",
+              "41000 ft"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "12. Hydraulic fluid:",
+            "options": [
+              "needs no special treatment",
+              "is harmful to eyes and skin",
+              "is a fire hazard",
+              "is harmful to eyes and skin, and is also a fire hazard"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "13. The function of stringers in the construction of the fuselage is:",
+            "options": [
+              "to withstand shear stress",
+              "to provide an attachment for insulation",
+              "to provide support for the skin and to absorb some of the pressurization strain as tensile loading",
+              "to provide an alternate load path in the event of the failure of a frame"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "14. On what principle does a fuel flowmeter work?",
+            "options": [
+              "Volume and viscosity",
+              "Quantity of movement",
+              "Capacitive dielectric",
+              "Pressure and temperature"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "15. The engine fire extinguisher system is activated:",
+            "options": [
+              "after the engine has been shut down",
+              "automatically when a fire warning is sensed",
+              "by the pilot when required",
+              "automatically after a time delay to allow the engine to stop"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "16. What is a ram air turbine (RAT) which drives a hydraulic pump used for?",
+            "options": [
+              "Nose wheel steering",
+              "Flap extension",
+              "Landing gear extension if the normal system fails",
+              "Flight controls in case of failure of the engine driven system"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "17. What is engine pressure ratio?",
+            "options": [
+              "The ratio of turbine outlet pressure to compressor inlet pressure",
+              "The ratio of turbine inlet pressure to compressor inlet pressure",
+              "Turbine outlet pressure * compressor outlet pressure",
+              "Compressor inlet pressure divided by turbine outlet pressure"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "18. Emergency oxygen is provided by:",
+            "options": [
+              "one system for both flight deck and cabin",
+              "two independent systems, one for flight deck, one for cabin",
+              "two systems each capable of supplying the flight deck and cabin",
+              "three systems, one for the flight deck, one for the passengers and one for the cabin crew"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "19. As altitude increases what does the mixture control do to the fuel flow?",
+            "options": [
+              "Increases flow due to reduced air density",
+              "Increases flow due to increased air density",
+              "Reduces flow due to reduced air density",
+              "Reduces flow due to increased air density"
+            ],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "A. 2110 kg",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "A. 600 NGM",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "A. a VOR/DME call sign LBU frequency 109.20 kHz",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "A. true course/track",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "A. FL280",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "1. Smoking reduces the blood's ability to carry oxygen because:",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "2. If someone is hyperventilating, the blood contains too much:",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "3. Accidents are caused by lack of:",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "4. Blood from the pulmonary artery is?",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "5. Which instrument, which was introduced in the 1980s, led to the greatest reduction of accidents?",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "6. When blood pressure is measured during an aviation medical examination, the pressure is:",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "7. A pilot should consult an aviation medicine specialist before donating blood because:",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "8. A person is suffering from hyperventilation, his blood becomes:",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "9. The amount of oxygen carried by the blood depends on:",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "10. Haemoglobin is:",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "11. The pressoreceptors have signalled low blood pressure. The body's response is to: 1. increase rate of breathing 2. increase cardiac output 3. increase heart rate 4. relax of the blood vessels 5. decrease heart rate 6. tighten of the blood vessels",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "12. The body gets its energy from: 1. minerals 2. carbohydrates 3. protein 4. vitamins",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "13. What is the carcinogenic substance in cigarettes that can modify cells and cause cancer?",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "14. Having given blood a pilot should see a doctor because of the increased susceptibility to:",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "15. With a pulse rate of 72 beats a minute and a stroke volume of 70 ml, what is the cardiac output?",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "16. Who is responsible for Air Safety?",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "17. Having donated blood aircrew should:",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "18. Human factors have been statistically proved to contribute approximately:",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "19. The oxygen-carrying capacity of a smoker who smokes 20 to 30 cigarettes a day is reduced by approximately:",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "20. The blood of the pulmonary vein is:",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "1. Decompression sickness (DCS) is caused by:",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "2. Which of the following is true with respect to the cause of decompression sickness?",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "3. What chemical substance in tobacco causes addiction?",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "4. The contents of exhaled air compared to inhaled air will contain:",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "5. Which of the following factors decrease resistance to decompression sickness? 1. Body height 2. Scuba diving 3. Obesity 4. Age",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "6. Blood pressure depends on the:",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "7. Time of useful consciousness (TUC) following loss of pressurization at 35000 ft is:",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "8. Dalton's Law is associated with:",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "9. Among the symptoms of hypoxia are: 1. impaired judgment 2. fast and heavy breathing 3. impairment of vision 4. muscular impairment",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "10. The composition of the atmosphere at 21000 ft is approximately:",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "11. Boyle's Law has a role to play in:",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "12. Which is the following actions is the most efficient to accelerate the release of Carbon Monoxide from the blood?",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "13. A pilot suffering from hyperventilation during final approach in poor weather can combat the effects by:",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "14. What is the normal tidal volume?",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "15. Circulation of the blood is for: 1. transportation of oxygen to the cells of the body 2. withdrawal of the waste products from the cells 3. convey nutrients to the cells",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "16. Which of the following is correct concerning O2 and blood?",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "17. Which of the following symptoms marks the beginning of hyperventilation?",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "18. A few hours after landing a pilot feels pain in his/her joints. The correct action is:",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "19. What law governs the oxygen transfer at the alveoli?",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "20. Carbon Monoxide:",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "1. The partial pressure of carbon dioxide in the lungs is:",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "2. The Critical Zone of hypoxia begins at:",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "3. Which of the following are defined in the ICAO Standard Atmosphere? 1. Pressure 2. Temperature 3. Density 4. Humidity",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "4. In an ascent, where is the greatest pressure differential?",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "5. DCS symptoms can occur:",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "6. Under normal conditions, external respiration is a subconscious process that occurs at a rate of:",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "7. Which of the following statements are correct?: Decompression sickness can be avoided by: 1. staying below 18000 ft 2. maintaining cabin pressure below 8000 ft 3. breathing 100% oxygen 30 minutes prior to and during flight above 18000 ft 4. breathing 100% oxygen 60 minutes prior to and during flight above 18000 ft",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "8. Hyperventilation results in:",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "9. Time of useful consciousness at 25,000 feet with moderate activity and rapid decompression is approximately:",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "10. At what altitude is pressure half that at MSL:",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "11. Hyperventilation can cause:",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "12. As the body ascends, the partial pressure of oxygen within the lungs:",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "13. The following are features of hypoxia: 1. blue discolouration of the lips and fingernails 2. shortness of breath and dizziness 3. impaired decision making and poor coordination 4. a feeling of well being",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "14. On expiration there is:",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "15. You have been scuba diving below 10 m. When can you next fly:",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "16. Concerning hypoxia, why is it more hazardous if flying solo?",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "17. Which of the following statements, if any, are correct? 1. Euphoria is a possible result of hypoxia 2. Euphoria can lead to degradation in pilot’s performance",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "18. Short-term memory impairment occurs at what height?",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "19. 100% oxygen without pressure can be used up to:",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "20. TUC (time of useful consciousness) is dependent upon: 1. rate of decompression 2. altitude of the occurrence 3. type of aircraft 4. activity of the pilot 5. personal health",
+            "options": [],
+            "correct": null,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 3,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 3,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 3,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 3,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 3,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 3,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 3,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 3,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 3,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 3,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 3,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 3,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 3,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 3,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 3,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 3,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 3,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 3,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 3,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 3,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 3,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 3,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 3,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 3,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 3,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 3,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "question": "",
+            "options": [],
+            "correct": 2,
+            "explanation": ""
+          }
+        ]
+      }
+    ]
+  }
+}

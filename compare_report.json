@@ -1,0 +1,2882 @@
+{
+  "srcTotal": 1322,
+  "tgtTotal": 1239,
+  "matched": 1176,
+  "missingCount": 92,
+  "mismatchedCount": 54,
+  "missing": [
+    {
+      "cat": "aircraft-general-knowledge",
+      "test": "aircraft-general-knowledge-test-3",
+      "id": 60,
+      "question": "When considering the Principle of Continuity for incompressible subsonic flow, what happens in a streamtube with a change in cross-sectional area?"
+    },
+    {
+      "cat": "air-law",
+      "test": "air-law-test-3",
+      "id": 162,
+      "question": "What are the types of NOTAM?"
+    },
+    {
+      "cat": "air-law",
+      "test": "air-law-test-3",
+      "id": 164,
+      "question": "What is required for navigation in IMC?"
+    },
+    {
+      "cat": "air-law",
+      "test": "air-law-test-3",
+      "id": 165,
+      "question": "What is the currency requirement for a co-pilot?"
+    },
+    {
+      "cat": "air-law",
+      "test": "air-law-test-3",
+      "id": 166,
+      "question": "What is the minimum visibility required for take-off from a runway equipped with high intensity runway lights, runway centreline lights and runway edge lights?"
+    },
+    {
+      "cat": "air-law",
+      "test": "air-law-test-3",
+      "id": 168,
+      "question": "Who checks, before flight, that the aircraft's weight is such that the flight can be safely made, and that any transported cargo is properly distributed and secured?"
+    },
+    {
+      "cat": "flight-planning-and-monitoring",
+      "test": "flight-planning-and-monitoring-test-3",
+      "id": 376,
+      "question": "Why are step climbs used on long range fights in jet transport aircraft?"
+    },
+    {
+      "cat": "flight-planning-and-monitoring",
+      "test": "flight-planning-and-monitoring-test-3",
+      "id": 377,
+      "question": "For a given aircraft mass, flying with a cost index greater than zero set will result in:"
+    },
+    {
+      "cat": "flight-planning-and-monitoring",
+      "test": "flight-planning-and-monitoring-test-3",
+      "id": 378,
+      "question": "Climbing to cruise altitude with a headwind will:"
+    },
+    {
+      "cat": "flight-planning-and-monitoring",
+      "test": "flight-planning-and-monitoring-test-3",
+      "id": 379,
+      "question": "Two identical turbojets are holding at the same altitude and have the same specifc fuel consumption. Aeroplane 1 weighs 130.000 kg and fuel flow is 4300 kg/hr. If aeroplane 2 weighs 115.000 kg what is the fuel flow of aeroplane 2?"
+    },
+    {
+      "cat": "flight-planning-and-monitoring",
+      "test": "flight-planning-and-monitoring-test-3",
+      "id": 380,
+      "question": "With regards to the optimum altitude during the cruise, the aircraft is:"
+    },
+    {
+      "cat": "flight-planning-and-monitoring",
+      "test": "flight-planning-and-monitoring-test-3",
+      "id": 381,
+      "question": "Given: Turbojet a/c, Taxi fuel 600 kg, Fuel flow cruise 10000 kg/h, Fuel flow hold 8000 kg/h, Alternate fuel 10200 kg, Flight time 6 hours, Visibility at destination 2000 m. What is the minimum ramp fuel?"
+    },
+    {
+      "cat": "flight-planning-and-monitoring",
+      "test": "flight-planning-and-monitoring-test-3",
+      "id": 382,
+      "question": "With respect to en-route diversions (using drift down graph), if you believe that you will not clear an obstacle do you:"
+    },
+    {
+      "cat": "flight-planning-and-monitoring",
+      "test": "flight-planning-and-monitoring-test-3",
+      "id": 383,
+      "question": "Which sections of a CA48 are not normally transmitted to other ATSUs?\ni Addressees\nii Items 3 to 18 - the main body of the message\niii Supplementary information"
+    },
+    {
+      "cat": "flight-planning-and-monitoring",
+      "test": "flight-planning-and-monitoring-test-5",
+      "id": 417,
+      "question": "ATC must be informed of changes which occur to the flight plan speed and ETA. Many nations stipulate their own limits but PANS-RAC require changes of ..... in TAS and ..... of ETA be notified. Which answer fills the blanks correctly?"
+    },
+    {
+      "cat": "human-performance-and-limitations",
+      "test": "human-performance-and-limitations-test-3",
+      "id": 485,
+      "question": "At height cockpit humidity can be between:"
+    },
+    {
+      "cat": "human-performance-and-limitations",
+      "test": "human-performance-and-limitations-test-3",
+      "id": 486,
+      "question": "The sequence of GAS (General Adaptation Syndrome) is:"
+    },
+    {
+      "cat": "human-performance-and-limitations",
+      "test": "human-performance-and-limitations-test-3",
+      "id": 487,
+      "question": "A person suffering from extreme cold will stop shivering and thereafter become colder and colder when the internal body falls to about:"
+    },
+    {
+      "cat": "human-performance-and-limitations",
+      "test": "human-performance-and-limitations-test-3",
+      "id": 488,
+      "question": "Even with a small ingestion of alcohol:"
+    },
+    {
+      "cat": "human-performance-and-limitations",
+      "test": "human-performance-and-limitations-test-3",
+      "id": 489,
+      "question": "Tuned resonance of the body parts, distressing the individual can be caused by:"
+    },
+    {
+      "cat": "human-performance-and-limitations",
+      "test": "human-performance-and-limitations-test-3",
+      "id": 490,
+      "question": "The body loses water via:"
+    },
+    {
+      "cat": "human-performance-and-limitations",
+      "test": "human-performance-and-limitations-test-3",
+      "id": 491,
+      "question": "According to the \"General Adaptation Syndrome\" which of the following statement(s) is/are correct?\n1. During the alarm phase adrenalin will cause a large release of glucose into the blood, a raised heartbeat and blood pressure plus an increase in the rate and depth of breathing\n2. During the resistance phase the parasympathetic system releases cortisol helping in the conversion of fat into sugar\n3. During the exhaustion phase the body has to be given time to eliminate the waste products which have been generated excessively"
+    },
+    {
+      "cat": "human-performance-and-limitations",
+      "test": "human-performance-and-limitations-test-3",
+      "id": 492,
+      "question": "Stimuli must be of a certain strength for the receptors to pick them up. This is called:"
+    },
+    {
+      "cat": "human-performance-and-limitations",
+      "test": "human-performance-and-limitations-test-3",
+      "id": 493,
+      "question": "As a result of hyperventilation the blood becomes:"
+    },
+    {
+      "cat": "instrumentation",
+      "test": "instrumentation-test-4",
+      "id": 601,
+      "question": "Which of the following correctly describes the gyroscope of a rate of turn indicator?\ni. 1 degree of freedom\nii. 2 degrees of freedom\niii. Its frame is held by two springs\niv. Its spin axis is parallel to the pitch axis\nv. The spin axis is parallel to the yaw axis\nvi. The spin axis is horizontal"
+    },
+    {
+      "cat": "instrumentation",
+      "test": "instrumentation-test-4",
+      "id": 602,
+      "question": "The ability of a gyroscope to indicate aircraft heading is based on it having:"
+    },
+    {
+      "cat": "instrumentation",
+      "test": "instrumentation-test-4",
+      "id": 603,
+      "question": "What errors can the Air Data Computer correct for?\n1. Instrument error & ram rise\n2. Compressibility & density error\n3. Lag & density error\n4. Position & temperature error\n5. Temperature & instrument error\n6. Manoeuvre error & ram rise\n7. Manoeuvre & position errors"
+    },
+    {
+      "cat": "instrumentation",
+      "test": "instrumentation-test-4",
+      "id": 604,
+      "question": "Why is there a vibration device in a pressure altimeter?\ni. To prevent hysteresis\nii. To prevent lag in a mechanical system\niii. To keep pilots happy during long flights\niv. To prevent icing\nv. To overcome dither"
+    },
+    {
+      "cat": "instrumentation",
+      "test": "instrumentation-test-4",
+      "id": 605,
+      "question": "In what range is GPWS operative?"
+    },
+    {
+      "cat": "mass-balance",
+      "test": "mass-balance-test-1",
+      "id": 645,
+      "question": "How is fuel consumption affected by the C of G position, in terms of air nautical miles per kg?"
+    },
+    {
+      "cat": "mass-balance",
+      "test": "mass-balance-test-1",
+      "id": 646,
+      "question": "When computing the mass of passengers and baggage for an aircraft with 20 seats or more:\n1. standard masses of male and female in table 1 are applicable\n2. if there are thirty seats or more, the 'all adult' mass values in table 1 may be used as an alternative\n3. holiday charter masses apply to table 1 and table 3 if the charter is solely intended as an element of a holiday travel package\n4. holiday flights and holiday charters attract the same mass values"
+    },
+    {
+      "cat": "mass-balance",
+      "test": "mass-and-balance-test-3",
+      "id": 687,
+      "question": "Determine the position of the CG as a percentage of the MAC given that the balance arm of the CG is 724 and the MAC balance arms are 517 to 1706:"
+    },
+    {
+      "cat": "mass-balance",
+      "test": "mass-and-balance-test-3",
+      "id": 688,
+      "question": "Calculate the amount of cargo that could be loaded into the aircraft given the following information and using CAP 696, Section 4, MRJT1, as necessary: Dry Operating Mass 34900 kg, Performance Limited Landing Mass 55000 kg, Trip Fuel 9700 kg, Contingency Fuel 1200 kg, Alternate Fuel 1400 kg, 130 passengers at 84 kg each (10920 kg), 130 bags at 14 kg each (1820 kg)."
+    },
+    {
+      "cat": "mass-balance",
+      "test": "mass-and-balance-test-3",
+      "id": 689,
+      "question": "Standard masses for baggage can be used for aircraft with:"
+    },
+    {
+      "cat": "mass-balance",
+      "test": "mass-and-balance-test-3",
+      "id": 690,
+      "question": "Use CAP MRJT. The CG is found to be 652.5 inches aft of the datum. What percentage is the CG of the MAC?"
+    },
+    {
+      "cat": "mass-balance",
+      "test": "mass-and-balance-test-3",
+      "id": 691,
+      "question": "The CG position is:"
+    },
+    {
+      "cat": "mass-balance",
+      "test": "mass-and-balance-test-3",
+      "id": 692,
+      "question": "Use CAP MRJT\nThe balance arm for each of the seat zones is measured from the datum to:"
+    },
+    {
+      "cat": "mass-balance",
+      "test": "mass-and-balance-test-3",
+      "id": 1322,
+      "question": "Use CAP696 SEP1\nAssuming the weight and access is not a problem, where can a cubic box of mass 500 lb be positioned if the dimensions are 3.15 ft?"
+    },
+    {
+      "cat": "meteorology",
+      "test": "meteorology-test-3",
+      "id": 755,
+      "question": "For the formation of mountain waves, the wind above the level of the ridge should:"
+    },
+    {
+      "cat": "meteorology",
+      "test": "meteorology-test-3",
+      "id": 756,
+      "question": "Which of the following statements accurately describes the 'West African tornado'?"
+    },
+    {
+      "cat": "meteorology",
+      "test": "meteorology-test-3",
+      "id": 757,
+      "question": "In grid square M6 the worst cloud conditions for flying could be:"
+    },
+    {
+      "cat": "meteorology",
+      "test": "meteorology-test-3",
+      "id": 1317,
+      "question": "Characteristic weather associated with a mPc (maritime Polar cold) air mass transiting the British Isles in summer would include:"
+    },
+    {
+      "cat": "operational-procedures",
+      "test": "operational-procedures-test-3",
+      "id": 858,
+      "question": "Up to which height in NADP 1 noise abatement procedure must V2+ 10-20 kt be maintained?"
+    },
+    {
+      "cat": "operational-procedures",
+      "test": "operational-procedures-test-3",
+      "id": 859,
+      "question": "What is the minimum required RVR for CAT IIIB operations?"
+    },
+    {
+      "cat": "operational-procedures",
+      "test": "operational-procedures-test-3",
+      "id": 860,
+      "question": "Voice ATIS: 1. cannot be broadcast on a voice ILS, 2. cannot be broadcast on voice VOR, 3. is broadcast only on a discreet VHF frequency, 4. is broadcast on either a discreet VFH, VOR or an ILS frequency"
+    },
+    {
+      "cat": "operational-procedures",
+      "test": "operational-procedures-test-3",
+      "id": 863,
+      "question": "The Minimum Equipment List (MEL) gives the equipment which can be inoperative when undertaking a flight and the additional procedures to be observed accordingly. This list is prepared by:"
+    },
+    {
+      "cat": "operational-procedures",
+      "test": "operational-procedures-test-3",
+      "id": 865,
+      "question": "On board a pressurized aircraft, a flight shall be undertaken only if the aircraft is provided with an oxygen reserve enabling all crew members and all of the passengers to be supplied with oxygen in the event of cabin depressurization, throughout the flight period, during which the pressure altitude is greater than:"
+    },
+    {
+      "cat": "operational-procedures",
+      "test": "operational-procedures-test-3",
+      "id": 866,
+      "question": "When are all flight crew members required to be at their stations?"
+    },
+    {
+      "cat": "operational-procedures",
+      "test": "operational-procedures-test-3",
+      "id": 1314,
+      "question": "Where is the general information about the carriage of dangerous goods to be found?"
+    },
+    {
+      "cat": "operational-procedures",
+      "test": "operational-procedures-test-3",
+      "id": 1315,
+      "question": "A Flight Data Recorder is required in aeroplanes over:"
+    },
+    {
+      "cat": "operational-procedures",
+      "test": "operational-procedures-test-3",
+      "id": 1316,
+      "question": "A copy of which of the following documents must be kept on the ground by an operator for the duration of each flight?"
+    },
+    {
+      "cat": "operational-procedures",
+      "test": "operational-procedures-test-4",
+      "id": 871,
+      "question": "Each flight is subject to a preliminary file collecting a certain amount of information. The operator will see that this file is kept on ground. It particularly contains: 1. the weather conditions for the day including the weather forecast at destination 2. one copy of the operational flight plan and, if required, the weight and balance sheet 3. copies of the relevant aircraft's technical log 4. the en route NOTAM documentation when specifically issued by the operator 5. special loads notification 6. charts"
+    },
+    {
+      "cat": "principles-of-flight",
+      "test": "principles-of-flight-test-3",
+      "id": 959,
+      "question": "Which of the following statements about a venturi in a subsonic airflow is correct? (i) The dynamic pressure in the undisturbed flow and in the throat are equal. (ii) The total pressure in the undisturbed flow and in the throat are equal."
+    },
+    {
+      "cat": "principles-of-flight",
+      "test": "principles-of-flight-test-3",
+      "id": 960,
+      "question": "With a constant weight and Mach No., a higher altitude will require:"
+    },
+    {
+      "cat": "principles-of-flight",
+      "test": "principles-of-flight-test-3",
+      "id": 961,
+      "question": "Which of the following creates lift?"
+    },
+    {
+      "cat": "principles-of-flight",
+      "test": "principles-of-flight-test-3",
+      "id": 962,
+      "question": "When gliding into a headwind airspeed should be:"
+    },
+    {
+      "cat": "principles-of-flight",
+      "test": "principles-of-flight-test-3",
+      "id": 963,
+      "question": "In a balanced turn load factor is dependent on:"
+    },
+    {
+      "cat": "principles-of-flight",
+      "test": "principles-of-flight-test-3",
+      "id": 964,
+      "question": "When considering the Principle of Continuity for subsonic flow, what happens in a streamtube for a change in cross-sectional area?"
+    },
+    {
+      "cat": "principles-of-flight",
+      "test": "principles-of-flight-test-3",
+      "id": 966,
+      "question": "Which of the following expressions is correct?"
+    },
+    {
+      "cat": "principles-of-flight",
+      "test": "principles-of-flight-test-3",
+      "id": 967,
+      "question": "When in a gliding maneuver, in order to achieve maximum endurance the aircraft should be flown at:"
+    },
+    {
+      "cat": "principles-of-flight",
+      "test": "principles-of-flight-test-3",
+      "id": 968,
+      "question": "Which of the following decreases induced drag?"
+    },
+    {
+      "cat": "principles-of-flight",
+      "test": "principles-of-flight-test-3",
+      "id": 969,
+      "question": "The angle of attack at the stall:"
+    },
+    {
+      "cat": "principles-of-flight",
+      "test": "principles-of-flight-test-3",
+      "id": 970,
+      "question": "If the straight and level stall speed is 100 kt, what will be the stall speed in a 1.5g turn?"
+    },
+    {
+      "cat": "principles-of-flight",
+      "test": "principles-of-flight-test-3",
+      "id": 971,
+      "question": "What does a stick pusher do?"
+    },
+    {
+      "cat": "principles-of-flight",
+      "test": "principles-of-flight-test-3",
+      "id": 972,
+      "question": "What does a stick pusher do?"
+    },
+    {
+      "cat": "principles-of-flight",
+      "test": "principles-of-flight-test-3",
+      "id": 973,
+      "question": "Positive static longitudinal stability means:"
+    },
+    {
+      "cat": "principles-of-flight",
+      "test": "principles-of-flight-test-3",
+      "id": 974,
+      "question": "With which conditions would the aircraft need to be flown, in order to achieve maximum speed?"
+    },
+    {
+      "cat": "principles-of-flight",
+      "test": "principles-of-flight-test-3",
+      "id": 975,
+      "question": "An aircraft is certified to land with flaps at either 25 or 35 degrees of flap. If the pilot selects the higher setting there will be:"
+    },
+    {
+      "cat": "principles-of-flight",
+      "test": "principles-of-flight-test-3",
+      "id": 976,
+      "question": "With a downward sloping runway:"
+    },
+    {
+      "cat": "principles-of-flight",
+      "test": "principles-of-flight-test-3",
+      "id": 1318,
+      "question": "When does THRUST = DRAG?"
+    },
+    {
+      "cat": "radio-navigation",
+      "test": "radio-navigation-test-3",
+      "id": 1079,
+      "question": "According to ICAO (Annex 11), the definition of an RNAV system is:"
+    },
+    {
+      "cat": "radio-navigation",
+      "test": "radio-navigation-test-3",
+      "id": 1081,
+      "question": "The least accurate bearing information taken by an aircraft over the sea from a NDB will be from:"
+    },
+    {
+      "cat": "radio-navigation",
+      "test": "radio-navigation-test-3",
+      "id": 1083,
+      "question": "The best position on an aircraft for the GNSS aerial is:"
+    },
+    {
+      "cat": "radio-navigation",
+      "test": "radio-navigation-test-3",
+      "id": 1084,
+      "question": "The frequency band of the ILS glide path is:"
+    },
+    {
+      "cat": "radio-navigation",
+      "test": "radio-navigation-test-3",
+      "id": 1085,
+      "question": "The NAVSTAR/GPS segments are:"
+    },
+    {
+      "cat": "radio-navigation",
+      "test": "radio-navigation-test-3",
+      "id": 1313,
+      "question": "The frequency of AWR is:"
+    },
+    {
+      "cat": "general-navigation",
+      "test": "general-navigation-test-3",
+      "id": 1185,
+      "question": "In the Jeppesen SID, STARs & IAP directions are given as:"
+    },
+    {
+      "cat": "general-navigation",
+      "test": "general-navigation-test-3",
+      "id": 1186,
+      "question": "X - 30NM - Y - 20NM - Z. ATA X is 1420. ETA Y is 1447. ATA Y is 1450. What is new ETA Z?"
+    },
+    {
+      "cat": "general-navigation",
+      "test": "general-navigation-test-3",
+      "id": 1187,
+      "question": "Refer to Appendix A, diagram C. What is the symbol designated DFC which is coloured cyan?"
+    },
+    {
+      "cat": "general-navigation",
+      "test": "general-navigation-test-3",
+      "id": 1189,
+      "question": "The angle between True North and Magnetic North is known as:"
+    },
+    {
+      "cat": "general-navigation",
+      "test": "general-navigation-test-3",
+      "id": 1190,
+      "question": "You are cruising at FL250 and need to be at FL50 10 NM before a VOR/DME. Your rate of descent is 1250 ft/min and your GS in the descent 250 kt. How far before the VOR/DME should you start your descent?"
+    },
+    {
+      "cat": "general-navigation",
+      "test": "general-navigation-test-3",
+      "id": 1191,
+      "question": "Refer to Jeppesen E(LO)1\nThe magnetic course and distance from LIFFY (N5329 W00530) and WAL (N5324 W00308) is:"
+    },
+    {
+      "cat": "general-navigation",
+      "test": "general-navigation-test-3",
+      "id": 1192,
+      "question": "On a particular take-off, you can accept up to 10 knots tailwind. The runway QDM is 047, the variation is 17E and the ATIS gives the wind direction as 210. What is the maximum wind strength you can accept?"
+    },
+    {
+      "cat": "general-navigation",
+      "test": "general-navigation-test-3",
+      "id": 1193,
+      "question": "On a particular take-off, you can accept up to 10 knots tailwind. The runway QDM is 047, the variation is 17E and the ATIS gives the wind direction as 210. What is the maximum wind strength you can accept?"
+    },
+    {
+      "cat": "general-navigation",
+      "test": "general-navigation-test-3",
+      "id": 1194,
+      "question": "TAS is:"
+    },
+    {
+      "cat": "performance",
+      "test": "performance-test-3",
+      "id": 1301,
+      "question": "At MSL, in ISA conditions Climb gradient = 6%. What would the climb gradient be if: Pressure altitude 1000 ft, Temperature 17°C, Engine anti-ice on, Wing anti-ice on. (Corrections: - 0.2% engine anti-ice, - 0,1% wing anti-ice, 0.2% per 1000 ft pressure altitude, 0.1 % per 1°C ISA deviation)"
+    },
+    {
+      "cat": "performance",
+      "test": "performance-test-3",
+      "id": 1302,
+      "question": "What happens to the field limited take-off mass with runway slope?"
+    },
+    {
+      "cat": "performance",
+      "test": "performance-test-3",
+      "id": 1303,
+      "question": "Which of the following combinations most reduces the take-off and climb performance of an aircraft?"
+    },
+    {
+      "cat": "performance",
+      "test": "performance-test-3",
+      "id": 1304,
+      "question": "Why is there a requirement for an approach climb gradient?"
+    },
+    {
+      "cat": "performance",
+      "test": "performance-test-3",
+      "id": 1319,
+      "question": "During certification test fights for a turbojet aeroplane, the measured take-off runs from brake release to a point equidistant between the point at which VLOF is reached and the point at which the aeroplane is 35 ft above the take of surface are: 1530 m with all engines operating. 1810 m with the critical engine failure recognized at V1 , other factors remaining unchanged. What is the correct value of the take-off run?"
+    },
+    {
+      "cat": "performance",
+      "test": "performance-test-3",
+      "id": 1320,
+      "question": "If the maximum take-off mass is limited by tyre speed, what effect would a down sloping runway have?"
+    },
+    {
+      "cat": "performance",
+      "test": "performance-test-3",
+      "id": 1305,
+      "question": "On a chart, 90.74 km is represented by 7.0 centimetres. What is the scale?"
+    }
+  ],
+  "mismatched": [
+    {
+      "src": {
+        "cat": "aircraft-general-knowledge",
+        "test": "aircraft-general-knowledge-test-3",
+        "id": 47,
+        "q": {
+          "category": "aircraft-general-knowledge-test-3",
+          "test": 3,
+          "id": 47,
+          "question": "The thrust reverser light illuminates on the flight deck annunciator when the:",
+          "options": [
+            "thrust reverser doors have moved to the reverse thrust position",
+            "thrust reverser doors have been selected but the doors have not moved",
+            "thrust reverser doors are locked",
+            "thrust reverser doors are unlocked"
+          ],
+          "answer": "thrust reverser doors are unlocked",
+          "correct": 3,
+          "explanation": ""
+        }
+      },
+      "tgt": {
+        "cat": "aircraft-general-knowledge",
+        "testId": "aircraft-general-knowledge-test-3",
+        "id": 48,
+        "q": {
+          "category": "aircraft-general-knowledge-test-3",
+          "test": 3,
+          "id": 48,
+          "question": "The thrust reverser light illuminates on the flight deck annunciator when the:",
+          "options": [
+            "thrust reverser doors have moved to the reverse thrust position",
+            "thrust reverser doors have been selected but the doors have not moved",
+            "thrust reverser doors are locked",
+            "thrust reverser doors are unlocked"
+          ],
+          "answer": "thrust reverser doors have moved to the reverse thrust position",
+          "correct": 0,
+          "explanation": ""
+        }
+      },
+      "diffs": [
+        "correct",
+        "answer"
+      ]
+    },
+    {
+      "src": {
+        "cat": "air-law",
+        "test": "air-law-test-3",
+        "id": 161,
+        "q": {
+          "category": "air-law-test-3",
+          "test": 3,
+          "id": 161,
+          "question": "What is the co-pilot currency requirement?",
+          "options": [
+            "3 flights in the last 90 days",
+            "3 take-offs and landings in the last 60 days",
+            "At the controls for 3 flights in the last 60 days",
+            "At the controls for 3 take-offs and landings in the last 90 days"
+          ],
+          "answer": "At the controls for 3 take-offs and landings in the last 90 days",
+          "correct": 3,
+          "explanation": ""
+        }
+      },
+      "tgt": {
+        "cat": "air-law",
+        "testId": "air-law-test-5",
+        "id": 1491,
+        "q": {
+          "category": "air-law-test-5",
+          "test": 5,
+          "id": 1491,
+          "question": "What is the co-pilot currency requirement?",
+          "options": [
+            "3 flights in the last 90 days",
+            "3 take-offs and landings in the last 60 days",
+            "At the controls for 3 flights in the last 60 days",
+            "At the controls for 3 take-offs and landings in the last 90 days"
+          ],
+          "answer": "At the controls for 3 take-offs and landings in the last 90 days",
+          "correct": 3,
+          "explanation": "To act as a required pilot flight crewmember (including co-pilot/SIC in multi-pilot operations), a pilot must typically meet the Pilot-in-Command (PIC) recent flight experience requirements. This requires the pilot to have performed **3 take-offs and 3 landings** within the preceding **90 days** in the same category, class, and type (if required) of aircraft. They must be the **sole manipulator of the flight controls** during these maneuvers."
+        }
+      },
+      "diffs": [
+        "explanation"
+      ]
+    },
+    {
+      "src": {
+        "cat": "air-law",
+        "test": "air-law-test-3",
+        "id": 163,
+        "q": {
+          "category": "air-law-test-3",
+          "test": 3,
+          "id": 163,
+          "question": "A list to be carried in the aeroplane detailing minimum equipment required must be approved by:",
+          "options": [
+            "country of operations",
+            "country of operator",
+            "country of manufacturer",
+            "no such book is required to be approved by an authority"
+          ],
+          "answer": "country of operator",
+          "correct": 1,
+          "explanation": ""
+        }
+      },
+      "tgt": {
+        "cat": "air-law",
+        "testId": "air-law-test-5",
+        "id": 1492,
+        "q": {
+          "category": "air-law-test-5",
+          "test": 5,
+          "id": 1492,
+          "question": "A list to be carried in the aeroplane detailing minimum equipment required must be approved by:",
+          "options": [
+            "country of operations",
+            "country of operator",
+            "country of manufacturer",
+            "no such book is required to be approved by an authority"
+          ],
+          "answer": "country of operator",
+          "correct": 1,
+          "explanation": "The **Minimum Equipment List (MEL)** is derived from the Master Minimum Equipment List (MMEL) provided by the manufacturer. However, the operational MEL, which specifies how an operator can safely fly with inoperative equipment, must be formally approved by the National Aviation Authority (NAA) of the **country of the operator** (the State that issued the Air Operator Certificate or equivalent operating approval)."
+        }
+      },
+      "diffs": [
+        "explanation"
+      ]
+    },
+    {
+      "src": {
+        "cat": "air-law",
+        "test": "air-law-test-3",
+        "id": 167,
+        "q": {
+          "category": "air-law",
+          "test": 3,
+          "id": 167,
+          "question": "Unaccompanied baggage carried by air shall be cleared under a procedure applicable to:",
+          "options": [
+            "accompanied baggage or under a simplified customs procedure similar to other cargo.",
+            "cargo.",
+            "dangerous goods.",
+            "mail."
+          ],
+          "answer": "accompanied baggage or under a simplified customs procedure similar to other cargo.",
+          "correct": 0,
+          "explanation": "According to ICAO Annex 9 (Facilitation), unaccompanied baggage should, whenever possible, be cleared under the same procedure applicable to accompanied baggage or under a simplified customs procedure distinct from that normally applicable to other cargo, to ensure efficient processing for the passenger."
+        }
+      },
+      "tgt": {
+        "cat": "air-law",
+        "testId": "air-law-test-5",
+        "id": 200,
+        "q": {
+          "category": "air-law-test-5",
+          "test": 5,
+          "id": 200,
+          "question": "Unaccompanied baggage carried by air shall be cleared under a procedure applicable to:",
+          "options": [
+            "accompanied baggage or under a simplified customs procedure similar to other cargo.",
+            "cargo.",
+            "dangerous goods.",
+            "mail."
+          ],
+          "answer": "cargo.",
+          "correct": 1,
+          "explanation": ""
+        }
+      },
+      "diffs": [
+        "correct",
+        "answer",
+        "explanation"
+      ]
+    },
+    {
+      "src": {
+        "cat": "air-law",
+        "test": "air-law-test-4",
+        "id": 170,
+        "q": {
+          "category": "air-law-test-4",
+          "test": 4,
+          "id": 170,
+          "question": "Fixed distance markers, when provided, shall commence:",
+          "options": [
+            "150 metres from the threshold.",
+            "300 metres from the far end threshold.",
+            "300 metres from the threshold.",
+            "150 metres from the far end threshold."
+          ],
+          "answer": "300 metres from the far end threshold.",
+          "correct": 1,
+          "explanation": ""
+        }
+      },
+      "tgt": {
+        "cat": "air-law",
+        "testId": "air-law-test-4",
+        "id": 162,
+        "q": {
+          "category": "air-law-test-4",
+          "test": 4,
+          "id": 162,
+          "question": "Fixed distance markers, when provided, shall commence:",
+          "options": [
+            "150 metres from the threshold.",
+            "300 metres from the far end threshold.",
+            "300 metres from the threshold.",
+            "150 metres from the far end threshold."
+          ],
+          "answer": "300 metres from the threshold.",
+          "correct": 2,
+          "explanation": ""
+        }
+      },
+      "diffs": [
+        "correct",
+        "answer"
+      ]
+    },
+    {
+      "src": {
+        "cat": "air-law",
+        "test": "air-law-test-4",
+        "id": 175,
+        "q": {
+          "category": "air-law-test-4",
+          "test": 4,
+          "id": 175,
+          "question": "If an aircraft is radar vectored to intercept an ILS localizer, what is the maximum intercept angle?",
+          "options": [
+            "45°.",
+            "30°.",
+            "15°.",
+            "20°."
+          ],
+          "answer": "45°.",
+          "correct": 0,
+          "explanation": ""
+        }
+      },
+      "tgt": {
+        "cat": "air-law",
+        "testId": "air-law-test-4",
+        "id": 167,
+        "q": {
+          "category": "air-law-test-4",
+          "test": 4,
+          "id": 167,
+          "question": "If an aircraft is radar vectored to intercept an ILS localizer, what is the maximum intercept angle?",
+          "options": [
+            "45°.",
+            "30°.",
+            "15°.",
+            "20°."
+          ],
+          "answer": "30°.",
+          "correct": 1,
+          "explanation": ""
+        }
+      },
+      "diffs": [
+        "correct",
+        "answer"
+      ]
+    },
+    {
+      "src": {
+        "cat": "air-law",
+        "test": "air-law-test-4",
+        "id": 182,
+        "q": {
+          "category": "air-law-test-4",
+          "test": 4,
+          "id": 182,
+          "question": "Voice ATIS: 1. cannot be broadcast on a voice ILS 2. cannot be broadcast on voice VOR 3. is broadcast only on a discreet VHF frequency 4. is broadcast on either a discreet VFH, VOR or an ILS frequency",
+          "options": [
+            "1 only is correct",
+            "2 only is correct",
+            "4 only is correct",
+            "1, 2 and 3 are correct"
+          ],
+          "answer": "1 only is correct",
+          "correct": 0,
+          "explanation": ""
+        }
+      },
+      "tgt": {
+        "cat": "air-law",
+        "testId": "air-law-test-4",
+        "id": 174,
+        "q": {
+          "category": "air-law-test-4",
+          "test": 4,
+          "id": 174,
+          "question": "Voice ATIS: 1. cannot be broadcast on a voice ILS 2. cannot be broadcast on voice VOR 3. is broadcast only on a discreet VHF frequency 4. is broadcast on either a discreet VFH, VOR or an ILS frequency",
+          "options": [
+            "1 only is correct",
+            "2 only is correct",
+            "4 only is correct",
+            "1, 2 and 3 are correct"
+          ],
+          "answer": "4 only is correct",
+          "correct": 2,
+          "explanation": ""
+        }
+      },
+      "diffs": [
+        "correct",
+        "answer"
+      ]
+    },
+    {
+      "src": {
+        "cat": "flight-planning-and-monitoring",
+        "test": "flight-planning-and-monitoring-test-3",
+        "id": 1321,
+        "q": {
+          "category": "flight-planning-and-monitoring-test-3",
+          "test": 3,
+          "id": 1321,
+          "question": "What is the purpose of Decision Point Procedure?",
+          "options": [
+            "Reduce contingency fuel to below that required from Decision Point to destination",
+            "Increase safety of the flight",
+            "Reduce landing mass to avoid stressing the aircraft",
+            "Carry minimum fuel to increase Traffic Load"
+          ],
+          "answer": "Reduce contingency fuel to below that required from Decision Point to destination",
+          "correct": 0,
+          "explanation": "The Decision Point Procedure allows an operator to reduce the amount of Contingency Fuel required to be carried at the start of the flight. By reducing the fuel load, the aircraft can carry a higher Traffic Load (payload) for a given Maximum Take-Off Mass."
+        }
+      },
+      "candidates": [
+        {
+          "cat": "flight-planning-and-monitoring",
+          "testId": "flight-planning-and-monitoring-test-4",
+          "id": 395,
+          "options": [
+            "Carry minimum fuel to increase Traffic Load",
+            "Increase safety of the flight",
+            "Reduce landing mass to avoid stressing the aircraft",
+            "Reduce contingency fuel to below that required from Decision Point to destination"
+          ]
+        }
+      ]
+    },
+    {
+      "src": {
+        "cat": "flight-planning-and-monitoring",
+        "test": "flight-planning-and-monitoring-test-4",
+        "id": 398,
+        "q": {
+          "category": "flight-planning-and-monitoring-test-4",
+          "test": 4,
+          "id": 398,
+          "question": "What is the purpose of Decision Point Procedure?",
+          "options": [
+            "Carry minimum fuel to increase Traffic Load",
+            "Increase safety of the flight",
+            "Reduce landing mass to avoid stressing the aircraft",
+            "Reduce contingency fuel to below that required from Decision Point to destination"
+          ],
+          "answer": "Reduce contingency fuel to below that required from Decision Point to destination",
+          "correct": 3,
+          "explanation": ""
+        }
+      },
+      "tgt": {
+        "cat": "flight-planning-and-monitoring",
+        "testId": "flight-planning-and-monitoring-test-4",
+        "id": 395,
+        "q": {
+          "category": "flight-planning-and-monitoring-test-4",
+          "test": 4,
+          "id": 395,
+          "question": "What is the purpose of Decision Point Procedure?",
+          "options": [
+            "Carry minimum fuel to increase Traffic Load",
+            "Increase safety of the flight",
+            "Reduce landing mass to avoid stressing the aircraft",
+            "Reduce contingency fuel to below that required from Decision Point to destination"
+          ],
+          "answer": "Carry minimum fuel to increase Traffic Load",
+          "correct": 0,
+          "explanation": ""
+        }
+      },
+      "diffs": [
+        "correct",
+        "answer"
+      ]
+    },
+    {
+      "src": {
+        "cat": "human-performance-and-limitations",
+        "test": "human-performance-and-limitations-test-1",
+        "id": 444,
+        "q": {
+          "category": "human-performance-and-limitations-test-1",
+          "test": 1,
+          "id": 444,
+          "question": "What is the relationship between stress and performance when plotted on a graph?",
+          "options": [
+            "The relationship is linear",
+            "The relationship is exponential",
+            "There is no relationship",
+            "The relationship is in the shape of an inverted U"
+          ],
+          "answer": "The relationship is in the shape of an inverted U",
+          "correct": 3,
+          "explanation": ""
+        }
+      },
+      "tgt": {
+        "cat": "human-performance-and-limitations",
+        "testId": "human-performance-and-limitations-test-1",
+        "id": 1502,
+        "q": {
+          "category": "human-performance-and-limitations-test-1",
+          "test": 1,
+          "id": 1502,
+          "question": "What is the relationship between stress and performance when plotted on a graph?",
+          "options": [
+            "The relationship is linear",
+            "The relationship is exponential",
+            "There is no relationship",
+            "The relationship is in the shape of an inverted U"
+          ],
+          "answer": "",
+          "correct": 3,
+          "explanation": ""
+        }
+      },
+      "diffs": [
+        "answer"
+      ]
+    },
+    {
+      "src": {
+        "cat": "human-performance-and-limitations",
+        "test": "human-performance-and-limitations-test-3",
+        "id": 494,
+        "q": {
+          "category": "human-performance-and-limitations-test-3",
+          "test": 3,
+          "id": 494,
+          "question": "A pilot suffering from hyperventilation during final approach in poor weather can combat the effects by:",
+          "options": [
+            "going on 100% oxygen and go around",
+            "landing regardless of the weather",
+            "regulating depth and rate of breathing",
+            "declaring a Mayday"
+          ],
+          "answer": "regulating depth and rate of breathing",
+          "correct": 2,
+          "explanation": "Hyperventilation is caused by an excessive rate and depth of breathing, which flushes too much carbon dioxide ($CO_2$) from the blood (respiratory alkalosis). The primary method to combat this is to consciously slow down the breathing rate and reduce the depth of breaths to allow $CO_2$ levels to return to normal. While checking oxygen equipment is a good precaution to rule out hypoxia, the specific remedy for hyperventilation is controlling respiration."
+        }
+      },
+      "candidates": [
+        {
+          "cat": "human-performance-and-limitations",
+          "testId": "human-performance-and-limitations-test-2",
+          "id": 453,
+          "options": [
+            "going on 100% oxygen and go around",
+            "slowing the breathing rate, breathing into a paper bag and continuing the approach",
+            "increasing the rate of breathing and continuing the approach",
+            "increasing the depth of breathing and going around"
+          ]
+        }
+      ]
+    },
+    {
+      "src": {
+        "cat": "instrumentation",
+        "test": "instrumentation-test-1",
+        "id": 536,
+        "q": {
+          "category": "instrumentation-test-1",
+          "test": 1,
+          "id": 536,
+          "question": "Given the following information calculate the instrument error of a preflight altimeter check: i. aerodrome elevation: 235 ft ii. apron elevation: 225 ft iii. height of altimeter above apron: 20 ft iv. altimeter reading with QFE set: 40 ft",
+          "options": [
+            "+20 ft",
+            "+30 ft",
+            "+40 ft",
+            "+10 ft"
+          ],
+          "answer": "+30 ft",
+          "correct": 1,
+          "explanation": ""
+        }
+      },
+      "tgt": {
+        "cat": "instrumentation",
+        "testId": "instrumentation-test-1",
+        "id": 1506,
+        "q": {
+          "category": "instrumentation-test-1",
+          "test": 1,
+          "id": 1506,
+          "question": "Given the following information calculate the instrument error of a preflight altimeter check: i. aerodrome elevation: 235 ft ii. apron elevation: 225 ft iii. height of altimeter above apron: 20 ft iv. altimeter reading with QFE set: 40 ft",
+          "options": [
+            "+20 ft",
+            "+30 ft",
+            "+40 ft",
+            "+10 ft"
+          ],
+          "answer": "",
+          "correct": 1,
+          "explanation": ""
+        }
+      },
+      "diffs": [
+        "answer"
+      ]
+    },
+    {
+      "src": {
+        "cat": "instrumentation",
+        "test": "instrumentation-test-1",
+        "id": 537,
+        "q": {
+          "category": "instrumentation-test-1",
+          "test": 1,
+          "id": 537,
+          "question": "During an autoland the caption LAND 2 is illuminated. The system is:",
+          "options": [
+            "fail-active or fail-operational",
+            "fail-passive",
+            "approaching decision height",
+            "requiring a crew input"
+          ],
+          "answer": "fail-passive",
+          "correct": 1,
+          "explanation": ""
+        }
+      },
+      "tgt": {
+        "cat": "instrumentation",
+        "testId": "instrumentation-test-1",
+        "id": 1507,
+        "q": {
+          "category": "instrumentation-test-1",
+          "test": 1,
+          "id": 1507,
+          "question": "During an autoland the caption LAND 2 is illuminated. The system is:",
+          "options": [
+            "fail-active or fail-operational",
+            "fail-passive",
+            "approaching decision height",
+            "requiring a crew input"
+          ],
+          "answer": "",
+          "correct": 1,
+          "explanation": ""
+        }
+      },
+      "diffs": [
+        "answer"
+      ]
+    },
+    {
+      "src": {
+        "cat": "instrumentation",
+        "test": "instrumentation-test-2",
+        "id": 546,
+        "q": {
+          "category": "instrumentation-test-2",
+          "test": 2,
+          "id": 546,
+          "question": "A rate integrating gyroscope is used in: i. inertial attitude system ii. automatic flight control systems iii. inertial navigation systems iv. rate of turn indicators",
+          "options": [
+            "i ii",
+            "i iii",
+            "i iii iv",
+            "i ii iii"
+          ],
+          "answer": "i iii",
+          "correct": 1,
+          "explanation": ""
+        }
+      },
+      "candidates": [
+        {
+          "cat": "instrumentation",
+          "testId": "instrumentation-test-2",
+          "id": 527,
+          "options": [
+            "it is down",
+            "the amber light is on",
+            "mechanically locked by an \"over-centre\" mechanism",
+            "the actuating cylinder is at the end of its travel"
+          ]
+        }
+      ]
+    },
+    {
+      "src": {
+        "cat": "instrumentation",
+        "test": "instrumentation-test-2",
+        "id": 560,
+        "q": {
+          "category": "instrumentation-test-3",
+          "test": 3,
+          "id": 560,
+          "question": "The angle formed between the directive force and the total magnetic force is called:",
+          "options": [
+            "variation",
+            "deviation",
+            "dip",
+            "isoclinal"
+          ],
+          "answer": "dip",
+          "correct": 2,
+          "explanation": ""
+        }
+      },
+      "candidates": [
+        {
+          "cat": "instrumentation",
+          "testId": "instrumentation-test-2",
+          "id": 543,
+          "options": [
+            "it is down",
+            "the amber light is on",
+            "mechanically locked by an \"over-centre\" mechanism",
+            "the actuating cylinder is at the end of its travel"
+          ]
+        }
+      ]
+    },
+    {
+      "src": {
+        "cat": "instrumentation",
+        "test": "instrumentation-test-4",
+        "id": 598,
+        "q": {
+          "category": "instrumentation-test-3",
+          "test": 3,
+          "id": 598,
+          "question": "The thrust reverser light illuminates on the flight deck annunciator when the:",
+          "options": [
+            "thrust reverser doors have moved to the reverse thrust position",
+            "thrust reverser doors have been selected but the doors have not moved",
+            "thrust reverser doors are locked",
+            "thrust reverser doors are unlocked"
+          ],
+          "answer": "thrust reverser doors are unlocked",
+          "correct": 3,
+          "explanation": ""
+        }
+      },
+      "tgt": {
+        "cat": "aircraft-general-knowledge",
+        "testId": "aircraft-general-knowledge-test-3",
+        "id": 48,
+        "q": {
+          "category": "aircraft-general-knowledge-test-3",
+          "test": 3,
+          "id": 48,
+          "question": "The thrust reverser light illuminates on the flight deck annunciator when the:",
+          "options": [
+            "thrust reverser doors have moved to the reverse thrust position",
+            "thrust reverser doors have been selected but the doors have not moved",
+            "thrust reverser doors are locked",
+            "thrust reverser doors are unlocked"
+          ],
+          "answer": "thrust reverser doors have moved to the reverse thrust position",
+          "correct": 0,
+          "explanation": ""
+        }
+      },
+      "diffs": [
+        "correct",
+        "answer"
+      ]
+    },
+    {
+      "src": {
+        "cat": "instrumentation",
+        "test": "instrumentation-test-4",
+        "id": 599,
+        "q": {
+          "category": "instrumentation-test-3",
+          "test": 3,
+          "id": 599,
+          "question": "The difference between IAS and TAS will:",
+          "options": [
+            "increase with decreasing temperature",
+            "increase with increasing density",
+            "remain constant at all times",
+            "decrease with decreasing altitude"
+          ],
+          "answer": "decrease with decreasing altitude",
+          "correct": 3,
+          "explanation": ""
+        }
+      },
+      "candidates": [
+        {
+          "cat": "principles-of-flight",
+          "testId": "principles-of-flight-test-1",
+          "id": 868,
+          "options": [
+            "increase with decreasing temperature",
+            "increase with increasing density",
+            "remain constant at all times",
+            "increase with increasing altitude"
+          ]
+        }
+      ]
+    },
+    {
+      "src": {
+        "cat": "instrumentation",
+        "test": "instrumentation-test-4",
+        "id": 600,
+        "q": {
+          "category": "instrumentation-test-3",
+          "test": 3,
+          "id": 600,
+          "question": "Refer to Training Manual, Amsterdam page 10-9X. What is the minimum radio altitude for a Cat 2 ILS DME approach to runway 01L?",
+          "options": [
+            "88 ft",
+            "100 ft",
+            "300 m",
+            "103 ft"
+          ],
+          "answer": "100 ft",
+          "correct": 1,
+          "explanation": ""
+        }
+      },
+      "tgt": {
+        "cat": "air-law",
+        "testId": "air-law-test-5",
+        "id": 1499,
+        "q": {
+          "category": "air-law-test-5",
+          "test": 5,
+          "id": 1499,
+          "question": "Refer to Training Manual, Amsterdam page 10-9X. What is the minimum radio altitude for a Cat 2 ILS DME approach to runway 01L?",
+          "options": [
+            "88 ft",
+            "100 ft",
+            "300 m",
+            "103 ft"
+          ],
+          "answer": "100 ft",
+          "explanation": "A **Category II (CAT II)** ILS approach is defined by a Decision Altitude (DA) or Decision Height (DH) lower than 200 ft but no lower than 100 ft. In the absence of a specific chart, the **100 ft Radio Altitude (RA)** is the minimum DH permitted for a standard CAT II approach and is the required answer for this type of general assessment question.",
+          "correct": 1
+        }
+      },
+      "diffs": [
+        "explanation"
+      ]
+    },
+    {
+      "src": {
+        "cat": "mass-balance",
+        "test": "mass-and-balance-test-2",
+        "id": 652,
+        "q": {
+          "category": "mass-and-balance-test-2",
+          "test": 2,
+          "id": 652,
+          "question": "The take-off mass is:",
+          "options": [
+            "the maximum permissible total aeroplane mass on completion of the refuelling operation",
+            "the mass of the aeroplane including everyone and everything contained within it at the start of the take-off run",
+            "the maximum permissible total aeroplane mass for take-off but excluding fuel",
+            "the maximum permissible total aeroplane mass at the start of the take-off run"
+          ],
+          "answer": "the mass of the aeroplane including everyone and everything contained within it at the start of the take-off run",
+          "correct": 1,
+          "explanation": ""
+        }
+      },
+      "candidates": [
+        {
+          "cat": "mass-and-balance",
+          "testId": "mass-and-balance-test-2",
+          "id": 626,
+          "options": [
+            "the maximum permissible total aeroplane mass at the start of the take-off run",
+            "the mass of the aeroplane including usable fuel but excluding traffic load",
+            "the mass of the aeroplane including everything and everyone contained within it at the start of the take-off run",
+            "the maximum mass permitted for take-off"
+          ]
+        }
+      ]
+    },
+    {
+      "src": {
+        "cat": "mass-balance",
+        "test": "mass-and-balance-test-3",
+        "id": 670,
+        "q": {
+          "category": "mass-and-balance-test-3",
+          "test": 3,
+          "id": 670,
+          "question": "Use CAP 696 MEP. The nose wheel is:",
+          "options": [
+            "56.7 inches forward of the fwd CG limit at maximum take-off mass",
+            "65.5 inches forward of the fwd CG limit at maximum take-off mass",
+            "69.3 inches aft of the rear CG limit at maximum take-off mass",
+            "all the above"
+          ],
+          "answer": "65.5 inches forward of the fwd CG limit at maximum take-off mass",
+          "correct": 1,
+          "explanation": ""
+        }
+      },
+      "candidates": [
+        {
+          "cat": "mass-and-balance",
+          "testId": "mass-and-balance-test-3",
+          "id": 644,
+          "options": [
+            "61.1 inches forward of the fwd CG limit at maximum take-off mass",
+            "15.2 inches forward of the fwd CG limit at a mass of 3400 lb",
+            "69.3 inches aft of the rear CG limit at maximum take-off mass",
+            "all the above"
+          ]
+        }
+      ]
+    },
+    {
+      "src": {
+        "cat": "meteorology",
+        "test": "meteorology-test-1",
+        "id": 713,
+        "q": {
+          "category": "meteorology-test-1",
+          "test": 1,
+          "id": 713,
+          "question": "In AS cloud at FL170 and a temperature of -20°C the airframe icing most likely to be experienced is:",
+          "options": [
+            "moderate clear icing",
+            "light rime icing",
+            "hoar frost",
+            "severe clear icing"
+          ],
+          "answer": "light rime icing",
+          "correct": 1,
+          "explanation": ""
+        }
+      },
+      "tgt": {
+        "cat": "meteorology",
+        "testId": "meteorology-test-1",
+        "id": 1503,
+        "q": {
+          "category": "meteorology-test-1",
+          "test": 1,
+          "id": 1503,
+          "question": "In AS cloud at FL170 and a temperature of -20°C the airframe icing most likely to be experienced is:",
+          "options": [
+            "moderate clear icing",
+            "light rime icing",
+            "hoar frost",
+            "severe clear icing"
+          ],
+          "answer": "",
+          "correct": 1,
+          "explanation": ""
+        }
+      },
+      "diffs": [
+        "answer"
+      ]
+    },
+    {
+      "src": {
+        "cat": "meteorology",
+        "test": "meteorology-test-3",
+        "id": 738,
+        "q": {
+          "category": "meteorology-test-3",
+          "test": 3,
+          "id": 738,
+          "question": "A microburst usually lasts for _________ and is about ____________across.",
+          "options": [
+            "20 minutes 20 NM",
+            "5 minutes 5 km",
+            "30 minutes 10 NM",
+            "45 minutes 5 NM"
+          ],
+          "answer": "5 minutes 5 km",
+          "correct": 1,
+          "explanation": ""
+        }
+      },
+      "candidates": [
+        {
+          "cat": "meteorology",
+          "testId": "meteorology-test-3",
+          "id": 704,
+          "options": [
+            "15 minutes / 1-3 km",
+            "5 minutes / 1-3 NM",
+            "5 minutes / 1-3 km",
+            "15 minutes / 1-3 NM"
+          ]
+        }
+      ]
+    },
+    {
+      "src": {
+        "cat": "meteorology",
+        "test": "meteorology-test-3",
+        "id": 747,
+        "q": {
+          "category": "meteorology-test-3",
+          "test": 3,
+          "id": 747,
+          "question": "In circumstances where there is a clear sky, calm wind and a high relative humidity in autumn:",
+          "options": [
+            "radiation fog is likely over night",
+            "advection fog will form",
+            "radiation fog is likely at sunrise after previous mist",
+            "hill fog can be expected"
+          ],
+          "answer": "radiation fog is likely at sunrise after previous mist",
+          "correct": 2,
+          "explanation": ""
+        }
+      },
+      "tgt": {
+        "cat": "meteorology",
+        "testId": "meteorology-test-3",
+        "id": 713,
+        "q": {
+          "category": "meteorology-test-3",
+          "test": 3,
+          "id": 713,
+          "question": "In circumstances where there is a clear sky, calm wind and a high relative humidity in autumn:",
+          "options": [
+            "radiation fog is likely over night",
+            "advection fog will form",
+            "radiation fog is likely at sunrise after previous mist",
+            "hill fog can be expected"
+          ],
+          "answer": "radiation fog is likely over night",
+          "correct": 0,
+          "explanation": ""
+        }
+      },
+      "diffs": [
+        "correct",
+        "answer"
+      ]
+    },
+    {
+      "src": {
+        "cat": "meteorology",
+        "test": "meteorology-test-4",
+        "id": 762,
+        "q": {
+          "category": "meteorology-test-4",
+          "test": 4,
+          "id": 762,
+          "question": "Most cases of serious piston engine icing occur in cloud, fog, or precipitation with a temperature range between:",
+          "options": [
+            "-10 C to +25 C",
+            "-18 C to +5 C",
+            "-10  C to 0 C",
+            "-20 C to +15 C"
+          ],
+          "answer": "-10 C to +25 C",
+          "correct": 0,
+          "explanation": ""
+        }
+      },
+      "tgt": {
+        "cat": "meteorology",
+        "testId": "meteorology-test-4",
+        "id": 725,
+        "q": {
+          "category": "meteorology-test-4",
+          "test": 4,
+          "id": 725,
+          "question": "Most cases of serious piston engine icing occur in cloud, fog, or precipitation with a temperature range between:",
+          "options": [
+            "-10 C to +25 C",
+            "-18 C to +5 C",
+            "-10  C to 0 C",
+            "-20 C to +15 C"
+          ],
+          "answer": "-18 C to +5 C",
+          "correct": 1,
+          "explanation": ""
+        }
+      },
+      "diffs": [
+        "correct",
+        "answer"
+      ]
+    },
+    {
+      "src": {
+        "cat": "meteorology",
+        "test": "meteorology-test-4",
+        "id": 766,
+        "q": {
+          "category": "meteorology-test-4",
+          "test": 4,
+          "id": 766,
+          "question": "In the N. Hemisphere when flying in the troposphere above the surface friction layer in the polar maritime air mass behind the cold front of a fully developed frontal depression:",
+          "options": [
+            "the wind will tend to veer in direction and increase in speed with progressive increase of altitude",
+            "the wind will tend to veer in direction with increase of altitude but the speed may remain constant in the lower layers of the atmosphere",
+            "the wind speed will reduce progressively with increase of altitude until at about 10000 feet above mean sea level where it will then tend to increase in speed from another direction",
+            "the wind will tend to back in direction and increase in speed with progressive increase of altitude"
+          ],
+          "answer": "the wind will tend to back in direction and increase in speed with progressive increase of altitude",
+          "correct": 3,
+          "explanation": ""
+        }
+      },
+      "tgt": {
+        "cat": "meteorology",
+        "testId": "meteorology-test-4",
+        "id": 729,
+        "q": {
+          "category": "meteorology-test-4",
+          "test": 4,
+          "id": 729,
+          "question": "In the N. Hemisphere when flying in the troposphere above the surface friction layer in the polar maritime air mass behind the cold front of a fully developed frontal depression:",
+          "options": [
+            "the wind will tend to veer in direction and increase in speed with progressive increase of altitude",
+            "the wind will tend to veer in direction with increase of altitude but the speed may remain constant in the lower layers of the atmosphere",
+            "the wind speed will reduce progressively with increase of altitude until at about 10000 feet above mean sea level where it will then tend to increase in speed from another direction",
+            "the wind will tend to back in direction and increase in speed with progressive increase of altitude"
+          ],
+          "answer": "the wind will tend to veer in direction and increase in speed with progressive increase of altitude",
+          "correct": 0,
+          "explanation": ""
+        }
+      },
+      "diffs": [
+        "correct",
+        "answer"
+      ]
+    },
+    {
+      "src": {
+        "cat": "operational-procedures",
+        "test": "operational-procedures-test-1",
+        "id": 804,
+        "q": {
+          "category": "operational-procedures-test-1",
+          "test": 1,
+          "id": 804,
+          "question": "To act as co-pilot for take-off or landing you must have:",
+          "options": [
+            "acted as PIC or co-pilot on type in the last 90 days",
+            "acted as PIC or co-pilot on type in the last 30 days",
+            "acted as PIC or co-pilot on type in the last 60 days",
+            "been at the controls for landing in the same type recently"
+          ],
+          "answer": "acted as PIC or co-pilot on type in the last 90 days",
+          "correct": 0,
+          "explanation": ""
+        }
+      },
+      "tgt": {
+        "cat": "operational-procedures",
+        "testId": "operational-procedures-test-1",
+        "id": 767,
+        "q": {
+          "category": "operational-procedures-test-1",
+          "test": 1,
+          "id": 767,
+          "question": "To act as co-pilot for take-off or landing you must have:",
+          "options": [
+            "acted as PIC or co-pilot on type in the last 90 days",
+            "acted as PIC or co-pilot on type in the last 30 days",
+            "acted as PIC or co-pilot on type in the last 60 days",
+            "been at the controls for landing in the same type recently"
+          ],
+          "answer": "acted as PIC or co-pilot on type in the last 60 days",
+          "correct": 2,
+          "explanation": ""
+        }
+      },
+      "diffs": [
+        "correct",
+        "answer"
+      ]
+    },
+    {
+      "src": {
+        "cat": "operational-procedures",
+        "test": "operational-procedures-test-3",
+        "id": 861,
+        "q": {
+          "category": "operational-procedures-test-3",
+          "test": 3,
+          "id": 861,
+          "question": "If an aircraft is radar vectored to intercept an ILS localizer, what is the maximum intercept angle?",
+          "options": [
+            "45°",
+            "30°",
+            "15°",
+            "20°"
+          ],
+          "answer": "45°",
+          "correct": 0,
+          "explanation": ""
+        }
+      },
+      "candidates": [
+        {
+          "cat": "air-law",
+          "testId": "air-law-test-4",
+          "id": 167,
+          "options": [
+            "45°.",
+            "30°.",
+            "15°.",
+            "20°."
+          ]
+        }
+      ]
+    },
+    {
+      "src": {
+        "cat": "operational-procedures",
+        "test": "operational-procedures-test-3",
+        "id": 864,
+        "q": {
+          "category": "operational-procedures-test-3",
+          "test": 3,
+          "id": 864,
+          "question": "Fixed distance markers, when provided, shall commence:",
+          "options": [
+            "150 metres from the threshold",
+            "300 metres from the far end threshold",
+            "300 metres from the threshold",
+            "150 metres from the far end threshold"
+          ],
+          "answer": "300 metres from the threshold",
+          "correct": 2,
+          "explanation": ""
+        }
+      },
+      "candidates": [
+        {
+          "cat": "air-law",
+          "testId": "air-law-test-4",
+          "id": 162,
+          "options": [
+            "150 metres from the threshold.",
+            "300 metres from the far end threshold.",
+            "300 metres from the threshold.",
+            "150 metres from the far end threshold."
+          ]
+        }
+      ]
+    },
+    {
+      "src": {
+        "cat": "operational-procedures",
+        "test": "operational-procedures-test-4",
+        "id": 876,
+        "q": {
+          "category": "operational-procedures-test-4",
+          "test": 4,
+          "id": 876,
+          "question": "After an incident, the FDR recordings must be kept for:",
+          "options": [
+            "30 days",
+            "60 days",
+            "90 days",
+            "120 days"
+          ],
+          "answer": "60 days",
+          "correct": 1,
+          "explanation": ""
+        }
+      },
+      "tgt": {
+        "cat": "operational-procedures",
+        "testId": "operational-procedures-test-4",
+        "id": 831,
+        "q": {
+          "category": "operational-procedures-test-4",
+          "test": 4,
+          "id": 831,
+          "question": "After an incident, the FDR recordings must be kept for:",
+          "options": [
+            "30 days",
+            "60 days",
+            "90 days",
+            "120 days"
+          ],
+          "answer": "30 days",
+          "correct": 0,
+          "explanation": ""
+        }
+      },
+      "diffs": [
+        "correct",
+        "answer"
+      ]
+    },
+    {
+      "src": {
+        "cat": "operational-procedures",
+        "test": "operational-procedures-test-4",
+        "id": 877,
+        "q": {
+          "category": "operational-procedures-test-4",
+          "test": 4,
+          "id": 877,
+          "question": "According to OPS 1.430, Airfield Operating Minima, what is the lowest MDH using ILS no glide path (LLZ only), VOR, NDB, SRA?",
+          "options": [
+            "NDB - MDH 350 ft",
+            "VOR - MDH 250 ft",
+            "ILS (LLZ only) - MDH 200 ft",
+            "VOR/DME - MDH 300 ft"
+          ],
+          "answer": "NDB - MDH 350 ft",
+          "correct": 0,
+          "explanation": ""
+        }
+      },
+      "tgt": {
+        "cat": "operational-procedures",
+        "testId": "operational-procedures-test-4",
+        "id": 832,
+        "q": {
+          "category": "operational-procedures-test-4",
+          "test": 4,
+          "id": 832,
+          "question": "According to OPS 1.430, Airfield Operating Minima, what is the lowest MDH using ILS no glide path (LLZ only), VOR, NDB, SRA?",
+          "options": [
+            "NDB - MDH 350 ft",
+            "VOR - MDH 250 ft",
+            "ILS (LLZ only) - MDH 200 ft",
+            "VOR/DME - MDH 300 ft"
+          ],
+          "answer": "ILS (LLZ only) - MDH 200 ft",
+          "correct": 2,
+          "explanation": ""
+        }
+      },
+      "diffs": [
+        "correct",
+        "answer"
+      ]
+    },
+    {
+      "src": {
+        "cat": "operational-procedures",
+        "test": "operational-procedures-test-5",
+        "id": 890,
+        "q": {
+          "category": "operational-procedures-test-5",
+          "test": 5,
+          "id": 890,
+          "question": "OPS 1.465 (VFR operating minima), establishes that, the operator shall ensure about VFR flights, that:",
+          "options": [
+            "for conducted VFR flights in airspace F, vertical distance from clouds is 250 m at least",
+            "Special VFR flights are not commenced when visibility is less than 3 km",
+            "for conducted VFR flights in airspace B, horizontal distance from clouds is 1000 m at least",
+            "for conducted VFR flights in airspace E, flight visibility at and above 3050 m (10000 ft) is 5 km at least (clear of cloud)"
+          ],
+          "answer": "Special VFR flights are not commenced when visibility is less than 3 km",
+          "correct": 1,
+          "explanation": ""
+        }
+      },
+      "tgt": {
+        "cat": "operational-procedures",
+        "testId": "operational-procedures-test-5",
+        "id": 845,
+        "q": {
+          "category": "operational-procedures-test-5",
+          "test": 5,
+          "id": 845,
+          "question": "OPS 1.465 (VFR operating minima), establishes that, the operator shall ensure about VFR flights, that:",
+          "options": [
+            "for conducted VFR flights in airspace F, vertical distance from clouds is 250 m at least",
+            "Special VFR flights are not commenced when visibility is less than 3 km",
+            "for conducted VFR flights in airspace B, horizontal distance from clouds is 1000 m at least",
+            "for conducted VFR flights in airspace E, flight visibility at and above 3050 m (10000 ft) is 5 km at least (clear of cloud)"
+          ],
+          "answer": "for conducted VFR flights in airspace E, flight visibility at and above 3050 m (10000 ft) is 5 km at least (clear of cloud)",
+          "correct": 3,
+          "explanation": ""
+        }
+      },
+      "diffs": [
+        "correct",
+        "answer"
+      ]
+    },
+    {
+      "src": {
+        "cat": "operational-procedures",
+        "test": "operational-procedures-test-5",
+        "id": 903,
+        "q": {
+          "category": "operational-procedures-test-5",
+          "test": 5,
+          "id": 903,
+          "question": "What is the take-off RVR limit for a Cat A aeroplane, when high intensity centre line lights and edge lights are on and the crew is IFR qualified and approved?",
+          "options": [
+            "150 m if threshold RVR is available",
+            "150 m",
+            "200 m",
+            "250 m"
+          ],
+          "answer": "200 m",
+          "correct": 2,
+          "explanation": ""
+        }
+      },
+      "tgt": {
+        "cat": "operational-procedures",
+        "testId": "operational-procedures-test-5",
+        "id": 858,
+        "q": {
+          "category": "operational-procedures-test-5",
+          "test": 5,
+          "id": 858,
+          "question": "What is the take-off RVR limit for a Cat A aeroplane, when high intensity centre line lights and edge lights are on and the crew is IFR qualified and approved?",
+          "options": [
+            "150 m if threshold RVR is available",
+            "150 m",
+            "200 m",
+            "250 m"
+          ],
+          "answer": "150 m",
+          "correct": 1,
+          "explanation": ""
+        }
+      },
+      "diffs": [
+        "correct",
+        "answer"
+      ]
+    },
+    {
+      "src": {
+        "cat": "principles-of-flight",
+        "test": "principles-of-flight-test-3",
+        "id": 958,
+        "q": {
+          "category": "principles-of-flight-test-3",
+          "test": 3,
+          "id": 958,
+          "question": "If flaps are extended in level flight:",
+          "options": [
+            "lift and drag increase",
+            "CLMAX increases",
+            "CL and drag increase",
+            "CL increases"
+          ],
+          "answer": "CLMAX increases",
+          "correct": 1,
+          "explanation": ""
+        }
+      },
+      "tgt": {
+        "cat": "principles-of-flight",
+        "testId": "principles-of-flight-test-5",
+        "id": 941,
+        "q": {
+          "category": "principles-of-flight-test-5",
+          "test": 5,
+          "id": 941,
+          "question": "If flaps are extended in level flight:",
+          "options": [
+            "lift and drag increase",
+            "CLMAX increases",
+            "CL and drag increase",
+            "CL increases"
+          ],
+          "answer": "CL and drag increase",
+          "correct": 2,
+          "explanation": ""
+        }
+      },
+      "diffs": [
+        "correct",
+        "answer"
+      ]
+    },
+    {
+      "src": {
+        "cat": "principles-of-flight",
+        "test": "principles-of-flight-test-5",
+        "id": 997,
+        "q": {
+          "category": "principles-of-flight-test-5",
+          "test": 5,
+          "id": 997,
+          "question": "Which stall has the greatest angle of attack?",
+          "options": [
+            "Low speed stall",
+            "High speed stall (shock stall)",
+            "Deep stall",
+            "Accelerated stall"
+          ],
+          "answer": "Deep stall",
+          "correct": 2,
+          "explanation": ""
+        }
+      },
+      "tgt": {
+        "cat": "principles-of-flight",
+        "testId": "principles-of-flight-test-5",
+        "id": 933,
+        "q": {
+          "category": "principles-of-flight-test-5",
+          "test": 5,
+          "id": 933,
+          "question": "Which stall has the greatest angle of attack?",
+          "options": [
+            "Low speed stall",
+            "High speed stall (shock stall)",
+            "Deep stall",
+            "Accelerated stall"
+          ],
+          "answer": "Low speed stall",
+          "correct": 0,
+          "explanation": ""
+        }
+      },
+      "diffs": [
+        "correct",
+        "answer"
+      ]
+    },
+    {
+      "src": {
+        "cat": "radio-navigation",
+        "test": "radio-navigation-test-1",
+        "id": 1034,
+        "q": {
+          "category": "radio-navigation-test-1",
+          "test": 1,
+          "id": 1034,
+          "question": "An error applicable to VDF would be:",
+          "options": [
+            "synchronous transmission",
+            "scalloping",
+            "selective availability",
+            "garbling"
+          ],
+          "answer": "synchronous transmission",
+          "correct": 0,
+          "explanation": ""
+        }
+      },
+      "tgt": {
+        "cat": "radio-navigation",
+        "testId": "radio-navigation-test-1",
+        "id": 971,
+        "q": {
+          "category": "radio-navigation-test-1",
+          "test": 1,
+          "id": 971,
+          "question": "An error applicable to VDF would be:",
+          "options": [
+            "synchronous transmission",
+            "scalloping",
+            "selective availability",
+            "garbling"
+          ],
+          "answer": "garbling",
+          "correct": 3,
+          "explanation": ""
+        }
+      },
+      "diffs": [
+        "correct",
+        "answer"
+      ]
+    },
+    {
+      "src": {
+        "cat": "radio-navigation",
+        "test": "radio-navigation-test-1",
+        "id": 1036,
+        "q": {
+          "category": "radio-navigation-test-1",
+          "test": 1,
+          "id": 1036,
+          "question": "The emissions from a non-directional beacon (NDB) are:",
+          "options": [
+            "a cardioid with a 30 Hz rotation rate",
+            "omni-directional",
+            "a phase-compared signal",
+            "a frequency modulated continuous wave (FMCW)"
+          ],
+          "answer": "omni-directional",
+          "correct": 1,
+          "explanation": ""
+        }
+      },
+      "tgt": {
+        "cat": "radio-navigation",
+        "testId": "radio-navigation-test-1",
+        "id": 1501,
+        "q": {
+          "category": "radio-navigation-test-1",
+          "test": 1,
+          "id": 1501,
+          "question": "The emissions from a non-directional beacon (NDB) are:",
+          "options": [
+            "a cardioid with a 30 Hz rotation rate",
+            "omni-directional",
+            "a phase-compared signal",
+            "a frequency modulated continuous wave (FMCW)"
+          ],
+          "answer": "",
+          "correct": 1,
+          "explanation": ""
+        }
+      },
+      "diffs": [
+        "answer"
+      ]
+    },
+    {
+      "src": {
+        "cat": "radio-navigation",
+        "test": "radio-navigation-test-2",
+        "id": 1047,
+        "q": {
+          "category": "radio-navigation-test-2",
+          "test": 2,
+          "id": 1047,
+          "question": "An advantage of a slotted antenna (planar array) over a parabolic reflector are:",
+          "options": [
+            "side lobes removed",
+            "360° scan without any rotation requirement",
+            "less power required",
+            "higher data rate possible"
+          ],
+          "answer": "less power required",
+          "correct": 2,
+          "explanation": ""
+        }
+      },
+      "candidates": [
+        {
+          "cat": "radio-navigation",
+          "testId": "radio-navigation-test-2",
+          "id": 980,
+          "options": [
+            "side lobes removed",
+            "360° scan without any rotation requirement",
+            "less power required",
+            "high gain"
+          ]
+        }
+      ]
+    },
+    {
+      "src": {
+        "cat": "radio-navigation",
+        "test": "radio-navigation-test-3",
+        "id": 1074,
+        "q": {
+          "category": "radio-navigation-test-3",
+          "test": 3,
+          "id": 1074,
+          "question": "Refer to Appendix A, diagram E. What is the track from BANTU to ZAPPO?",
+          "options": [
+            "360 (M)",
+            "130 (M)",
+            "360 (T)",
+            "130 (T)"
+          ],
+          "answer": "360 (T)",
+          "correct": 2,
+          "explanation": ""
+        }
+      },
+      "tgt": {
+        "cat": "radio-navigation",
+        "testId": "radio-navigation-test-3",
+        "id": 1007,
+        "q": {
+          "category": "radio-navigation-test-3",
+          "test": 3,
+          "id": 1007,
+          "question": "Refer to Appendix A, diagram E. What is the track from BANTU to ZAPPO?",
+          "options": [
+            "360 (M)",
+            "130 (M)",
+            "360 (T)",
+            "130 (T)"
+          ],
+          "answer": "360 (M)",
+          "correct": 0,
+          "explanation": ""
+        }
+      },
+      "diffs": [
+        "correct",
+        "answer"
+      ]
+    },
+    {
+      "src": {
+        "cat": "radio-navigation",
+        "test": "radio-navigation-test-3",
+        "id": 1078,
+        "q": {
+          "category": "radio-navigation-test-3",
+          "test": 3,
+          "id": 1078,
+          "question": "The altitude read-out at the ground station from a mode C response will give the aircraft altitude within:",
+          "options": [
+            "300 ft",
+            "100 ft",
+            "500 ft",
+            "50 ft"
+          ],
+          "answer": "50 ft",
+          "correct": 3,
+          "explanation": ""
+        }
+      },
+      "tgt": {
+        "cat": "radio-navigation",
+        "testId": "radio-navigation-test-3",
+        "id": 1012,
+        "q": {
+          "category": "radio-navigation-test-3",
+          "test": 3,
+          "id": 1012,
+          "question": "The altitude read-out at the ground station from a mode C response will give the aircraft altitude within:",
+          "options": [
+            "300 ft",
+            "100 ft",
+            "500 ft",
+            "50 ft"
+          ],
+          "answer": "100 ft",
+          "correct": 1,
+          "explanation": ""
+        }
+      },
+      "diffs": [
+        "correct",
+        "answer"
+      ]
+    },
+    {
+      "src": {
+        "cat": "radio-navigation",
+        "test": "radio-navigation-test-3",
+        "id": 1082,
+        "q": {
+          "category": "radio-navigation-test-3",
+          "test": 3,
+          "id": 1082,
+          "question": "Why is a secondary radar display free from weather clutter?",
+          "options": [
+            "The frequencies are too low to detect water droplets",
+            "The frequencies are too high to detect water droplets",
+            "Moving target indication is used to suppress the static generated by water droplets",
+            "The principle of the return of echoes is not used"
+          ],
+          "answer": "The principle of the return of echoes is not used",
+          "correct": 3,
+          "explanation": ""
+        }
+      },
+      "candidates": [
+        {
+          "cat": "radio-navigation",
+          "testId": "radio-navigation-test-5",
+          "id": 1048,
+          "options": [
+            "The frequencies are too low to detect water droplets",
+            "The frequencies are too high to detect water droplets",
+            "Moving target indication cancels out weather returns",
+            "Weather returns are filtered out because they do not originate from transponders"
+          ]
+        }
+      ]
+    },
+    {
+      "src": {
+        "cat": "radio-navigation",
+        "test": "radio-navigation-test-4",
+        "id": 1086,
+        "q": {
+          "category": "radio-navigation-test-4",
+          "test": 4,
+          "id": 1086,
+          "question": "Refer to Appendix A, diagram C. What is the symbol designated DFC which is coloured cyan? [Image E is missing, based on checkmark]",
+          "options": [
+            "an in-use VORTAC",
+            "an available VORTAC",
+            "an in-use NDB",
+            "an available NDB"
+          ],
+          "answer": "an available VORTAC",
+          "correct": 1,
+          "explanation": ""
+        }
+      },
+      "tgt": {
+        "cat": "radio-navigation",
+        "testId": "radio-navigation-test-4",
+        "id": 1013,
+        "q": {
+          "category": "radio-navigation-test-4",
+          "test": 4,
+          "id": 1013,
+          "question": "Refer to Appendix A, diagram C. What is the symbol designated DFC which is coloured cyan? [Image E is missing, based on checkmark]",
+          "options": [
+            "an in-use VORTAC",
+            "an available VORTAC",
+            "an in-use NDB",
+            "an available NDB"
+          ],
+          "answer": "an available NDB",
+          "correct": 3,
+          "explanation": ""
+        }
+      },
+      "diffs": [
+        "correct",
+        "answer"
+      ]
+    },
+    {
+      "src": {
+        "cat": "radio-navigation",
+        "test": "radio-navigation-test-4",
+        "id": 1092,
+        "q": {
+          "category": "radio-navigation-test-4",
+          "test": 4,
+          "id": 1092,
+          "question": "Refer to Appendix A, diagram F. What is the required track?",
+          "options": [
+            "165",
+            "173",
+            "157",
+            "130"
+          ],
+          "answer": "165",
+          "correct": 0,
+          "explanation": ""
+        }
+      },
+      "tgt": {
+        "cat": "radio-navigation",
+        "testId": "radio-navigation-test-4",
+        "id": 1020,
+        "q": {
+          "category": "radio-navigation-test-4",
+          "test": 4,
+          "id": 1020,
+          "question": "Refer to Appendix A, diagram F. What is the required track?",
+          "options": [
+            "165",
+            "173",
+            "157",
+            "130"
+          ],
+          "answer": "173",
+          "correct": 1,
+          "explanation": ""
+        }
+      },
+      "diffs": [
+        "correct",
+        "answer"
+      ]
+    },
+    {
+      "src": {
+        "cat": "radio-navigation",
+        "test": "radio-navigation-test-4",
+        "id": 1096,
+        "q": {
+          "category": "radio-navigation-test-4",
+          "test": 4,
+          "id": 1096,
+          "question": "On an ILS approach you receive more of the 90 Hz modulation than the 150 Hz modulation. The action you should take is:",
+          "options": [
+            "fly left and up",
+            "fly left and down",
+            "fly right and up",
+            "fly right and down"
+          ],
+          "answer": "fly right and down",
+          "correct": 3,
+          "explanation": ""
+        }
+      },
+      "tgt": {
+        "cat": "radio-navigation",
+        "testId": "radio-navigation-test-4",
+        "id": 1024,
+        "q": {
+          "category": "radio-navigation-test-4",
+          "test": 4,
+          "id": 1024,
+          "question": "On an ILS approach you receive more of the 90 Hz modulation than the 150 Hz modulation. The action you should take is:",
+          "options": [
+            "fly left and up",
+            "fly left and down",
+            "fly right and up",
+            "fly right and down"
+          ],
+          "answer": "fly right and up",
+          "correct": 2,
+          "explanation": ""
+        }
+      },
+      "diffs": [
+        "correct",
+        "answer"
+      ]
+    },
+    {
+      "src": {
+        "cat": "general-navigation",
+        "test": "general-navigation-test-1",
+        "id": 1131,
+        "q": {
+          "category": "general-navigation-test-1",
+          "test": 1,
+          "id": 1131,
+          "question": "On a direct Mercator chart, great circles are shown as:",
+          "options": [
+            "curves convex to the nearer pole",
+            "straight lines",
+            "rhumb lines",
+            "curves concave to the nearer pole"
+          ],
+          "answer": "curves convex to the nearer pole",
+          "correct": 0,
+          "explanation": ""
+        }
+      },
+      "candidates": [
+        {
+          "cat": "general-navigation",
+          "testId": "general-navigation-test-1",
+          "id": 1060,
+          "options": [
+            "curves concave to the nearer pole",
+            "straight lines",
+            "rhumb lines",
+            "curves concave to the nearer pole"
+          ]
+        }
+      ]
+    },
+    {
+      "src": {
+        "cat": "general-navigation",
+        "test": "general-navigation-test-1",
+        "id": 1136,
+        "q": {
+          "category": "general-navigation-test-1",
+          "test": 1,
+          "id": 1136,
+          "question": "An aircraft starts at position 0410S 17822W and heads true north for 2950 NM, then turns 90 degrees right, and maintains a rhumb line track for 314 kilometres. What is its final position?",
+          "options": [
+            "5500N 17422W",
+            "4500N 17422W",
+            "5500N 17738E",
+            "4500N 17738E"
+          ],
+          "answer": "4500N 17422W",
+          "explanation": "1. **North Leg:** 2950 NM True North is a change of $2950 / 60 = 49^circ 10' $ of Latitude. Final Latitude is $49^circ 10' \text{ N} - 04^circ 10' \text{ S} = mathbf{45^circ 00' N}$.\n2. **East Leg:** Distance is $314 \text{ km} approx 169.56 \text{ NM}$. Using the Departure formula ($Delta \text{Long} = \text{Dep} / cos(\text{Lat})$):\n$Delta \text{Long} = 169.56 / cos(45^circ) approx 239.79 \text{ min} = 4^circ 00' \text{ E}$.\n3. **Final Longitude:** $178^circ 22' \text{ W} - 4^circ 00' \text{ E} = mathbf{174^circ 22' W}$.",
+          "correct": 1
+        }
+      },
+      "tgt": {
+        "cat": "general-navigation",
+        "testId": "general-navigation-test-1",
+        "id": 1497,
+        "q": {
+          "category": "general-navigation-test-1",
+          "test": 1,
+          "id": 1497,
+          "question": "An aircraft starts at position 0410S 17822W and heads true north for 2950 NM, then turns 90 degrees right, and maintains a rhumb line track for 314 kilometres. What is its final position?",
+          "options": [
+            "5500N 17422W",
+            "4500N 17422W",
+            "5500N 17738E",
+            "4500N 17738E"
+          ],
+          "answer": "4500N 17422W",
+          "explanation": "1. **North Leg:** 2950 NM True North is a change of $2950 / 60 = 49^circ 10' $ of Latitude. Final Latitude is $49^circ 10' \text{ N} - 04^circ 10' \text{ S} = mathbf{45^circ 00' N}$.\n2. **East Leg:** Distance is $314 \text{ km} approx 169.56 \text{ NM}$. Using the Departure formula ($Delta \text{Long} = \text{Dep} / cos(\text{Lat})$):\n$$Delta \text{Long} = 169.56 / cos(45^circ) approx 239.79 \text{ min} = 4^circ 00' \text{ E}$$.\n3. **Final Longitude:** $178^circ 22' \text{ W} - 4^circ 00' \text{ E} = mathbf{174^circ 22' W}$.",
+          "correct": 1
+        }
+      },
+      "diffs": [
+        "explanation"
+      ]
+    },
+    {
+      "src": {
+        "cat": "general-navigation",
+        "test": "general-navigation-test-1",
+        "id": 1139,
+        "q": {
+          "category": "general-navigation-test-1",
+          "test": 1,
+          "id": 1139,
+          "question": "You are heading 080°(T) when you get a range and bearing fix from your AWR (Airborne Weather Radar) on a headland at 185 NM 30° left of the nose. What true bearing do you plot on the chart?",
+          "options": [
+            "050 from the headland, using the headland's meridian",
+            "050 from the headland, using the aircraft's meridian",
+            "230 from the headland, using the headland's meridian",
+            "230 from the headland, using the aircraft's meridian"
+          ],
+          "answer": "230 from the headland, using the aircraft's meridian",
+          "correct": 3,
+          "explanation": ""
+        }
+      },
+      "tgt": {
+        "cat": "general-navigation",
+        "testId": "general-navigation-test-1",
+        "id": 1067,
+        "q": {
+          "category": "general-navigation-test-1",
+          "test": 1,
+          "id": 1067,
+          "question": "You are heading 080°(T) when you get a range and bearing fix from your AWR (Airborne Weather Radar) on a headland at 185 NM 30° left of the nose. What true bearing do you plot on the chart?",
+          "options": [
+            "050 from the headland, using the headland's meridian",
+            "050 from the headland, using the aircraft's meridian",
+            "230 from the headland, using the headland's meridian",
+            "230 from the headland, using the aircraft's meridian"
+          ],
+          "answer": "230 from the headland, using the headland's meridian",
+          "correct": 2,
+          "explanation": ""
+        }
+      },
+      "diffs": [
+        "correct",
+        "answer"
+      ]
+    },
+    {
+      "src": {
+        "cat": "general-navigation",
+        "test": "general-navigation-test-1",
+        "id": 1145,
+        "q": {
+          "category": "general-navigation-test-1",
+          "test": 1,
+          "id": 1145,
+          "question": "Where is a compass most effective?",
+          "options": [
+            "About midway between the earth's magnetic poles",
+            "In the region of the magnetic South Pole",
+            "In the region of the magnetic North Pole",
+            "On the geographic equator"
+          ],
+          "answer": "About midway between the earth's magnetic poles",
+          "correct": 0,
+          "explanation": ""
+        }
+      },
+      "tgt": {
+        "cat": "general-navigation",
+        "testId": "general-navigation-test-1",
+        "id": 1505,
+        "q": {
+          "category": "general-navigation-test-1",
+          "test": 1,
+          "id": 1505,
+          "question": "Where is a compass most effective?",
+          "options": [
+            "About midway between the earth's magnetic poles",
+            "In the region of the magnetic South Pole",
+            "In the region of the magnetic North Pole",
+            "On the geographic equator"
+          ],
+          "answer": "",
+          "correct": 0,
+          "explanation": ""
+        }
+      },
+      "diffs": [
+        "answer"
+      ]
+    },
+    {
+      "src": {
+        "cat": "general-navigation",
+        "test": "general-navigation-test-3",
+        "id": 1188,
+        "q": {
+          "category": "general-navigation-test-3",
+          "test": 3,
+          "id": 1188,
+          "question": "An aircraft at FL370 is required to commence descent at 120 NM from a VOR and to cross the facility at FL130. If the mean GS for the descent is 288 kt, the minimum rate of descent required is:",
+          "options": [
+            "920 ft/min",
+            "890 ft/min",
+            "860 ft/min",
+            "960 ft/min"
+          ],
+          "answer": "960 ft/min",
+          "correct": 3,
+          "explanation": ""
+        }
+      },
+      "tgt": {
+        "cat": "flight-planning-and-monitoring",
+        "testId": "flight-planning-and-monitoring-test-1",
+        "id": 1498,
+        "q": {
+          "category": "flight-planning-and-monitoring-test-1",
+          "test": 1,
+          "id": 1498,
+          "question": "An aircraft at FL370 is required to commence descent at 120 NM from a VOR and to cross the facility at FL130. If the mean GS for the descent is 288 kt, the minimum rate of descent required is:",
+          "options": [
+            "920 ft/min",
+            "890 ft/min",
+            "860 ft/min",
+            "960 ft/min"
+          ],
+          "answer": "960 ft/min",
+          "explanation": "1. **Altitude Change** ($\\Delta H$): $37,000 \\text{ ft} - 13,000 \\text{ ft} = 24,000 \\text{ ft}$.\\n2. **Time Available** ($T$): $T = \\text{Distance} / \\text{Speed} = 120 \\text{ NM} / 288 \\text{ kt} = 0.41666 \\text{ hrs}$, or $25 \\text{ minutes}$.\\n3. **Rate of Descent** (ROD): $\\text{ROD} = \\Delta H / T = 24,000 \\text{ ft} / 25 \\text{ min} = \\mathbf{960 \\text{ ft/min}}$.",
+          "correct": 3
+        }
+      },
+      "diffs": [
+        "explanation"
+      ]
+    },
+    {
+      "src": {
+        "cat": "general-navigation",
+        "test": "general-navigation-test-5",
+        "id": 1226,
+        "q": {
+          "category": "general-navigation-test-5",
+          "test": 5,
+          "id": 1226,
+          "question": "Given: True course 300° Drift 8°R Variation 10°W Deviation -4°. Calculate the compass heading.",
+          "options": [
+            "322°",
+            "306°",
+            "278°",
+            "294°"
+          ],
+          "answer": "306°",
+          "correct": 1,
+          "explanation": ""
+        }
+      },
+      "tgt": {
+        "cat": "general-navigation",
+        "testId": "general-navigation-test-5",
+        "id": 1142,
+        "q": {
+          "category": "general-navigation-test-5",
+          "test": 5,
+          "id": 1142,
+          "question": "Given: True course 300° Drift 8°R Variation 10°W Deviation -4°. Calculate the compass heading.",
+          "options": [
+            "322°",
+            "306°",
+            "278°",
+            "294°"
+          ],
+          "answer": "278°",
+          "correct": 2,
+          "explanation": ""
+        }
+      },
+      "diffs": [
+        "correct",
+        "answer"
+      ]
+    },
+    {
+      "src": {
+        "cat": "performance",
+        "test": "performance-test-1",
+        "id": 1249,
+        "q": {
+          "category": "performance-test-1",
+          "test": 1,
+          "id": 1249,
+          "question": "In climb limited mass calculations, the climb gradient is a ratio of:",
+          "options": [
+            "height gained over distance travelled through the air",
+            "height gained over distance travelled across the ground",
+            "TAS over rate of climb",
+            "TGS over rate of climb"
+          ],
+          "answer": "height gained over distance travelled through the air",
+          "correct": 0,
+          "explanation": ""
+        }
+      },
+      "tgt": {
+        "cat": "performance",
+        "testId": "performance-test-1",
+        "id": 1165,
+        "q": {
+          "category": "performance-test-1",
+          "test": 1,
+          "id": 1165,
+          "question": "In climb limited mass calculations, the climb gradient is a ratio of:",
+          "options": [
+            "height gained over distance travelled through the air",
+            "height gained over distance travelled across the ground",
+            "TAS over rate of climb",
+            "TGS over rate of climb"
+          ],
+          "answer": "height gained over distance travelled across the ground",
+          "correct": 1,
+          "explanation": ""
+        }
+      },
+      "diffs": [
+        "correct",
+        "answer"
+      ]
+    },
+    {
+      "src": {
+        "cat": "performance",
+        "test": "performance-test-1",
+        "id": 1252,
+        "q": {
+          "category": "performance-test-1",
+          "test": 1,
+          "id": 1252,
+          "question": "When operating with anti-skid inoperative:",
+          "options": [
+            "both take-off and landing performance will be affected",
+            "only landing performance will be affected",
+            "only take-off performance will be affected",
+            "neither take-off nor landing performance will be affected"
+          ],
+          "answer": "both take-off and landing performance will be affected",
+          "correct": 0,
+          "explanation": ""
+        }
+      },
+      "candidates": [
+        {
+          "cat": "performance",
+          "testId": "performance-test-1",
+          "id": 1168,
+          "options": [
+            "both landing and performance will be affected",
+            "only landing performance will be affected",
+            "only take-off performance will be affected",
+            "neither will be affected"
+          ]
+        }
+      ]
+    },
+    {
+      "src": {
+        "cat": "performance",
+        "test": "performance-test-1",
+        "id": 1255,
+        "q": {
+          "category": "performance-test-1",
+          "test": 1,
+          "id": 1255,
+          "question": "When take-off mass is limited by Vmbe (maximum brake-energy speed), an increase in the uphill slope will:",
+          "options": [
+            "have no effect",
+            "require a decrease in the mass",
+            "allow an increase in the mass",
+            "decrease the TODR"
+          ],
+          "answer": "allow an increase in the mass",
+          "explanation": "For ATPL performance questions, an **increase in uphill slope** generally increases the **Take-Off Distance Required (TODR)** because a component of gravity opposes acceleration. When TODR increases, the safe maximum Take-Off Mass (TOM) must be **decreased** to ensure the aircraft can stop or go within the available field length. While upslope technically reduces the energy absorbed by the brakes in an RTO (allowing for a higher VMBE speed), the overall performance limitation usually shifts back to the required field length, which is negatively affected by the slope.",
+          "correct": 2
+        }
+      },
+      "tgt": {
+        "cat": "performance",
+        "testId": "performance-test-1",
+        "id": 1494,
+        "q": {
+          "category": "performance-test-1",
+          "test": 1,
+          "id": 1494,
+          "question": "When take-off mass is limited by Vmbe (maximum brake-energy speed), an increase in the uphill slope will:",
+          "options": [
+            "have no effect",
+            "require a decrease in the mass",
+            "allow an increase in the mass",
+            "decrease the TODR"
+          ],
+          "answer": "require a decrease in the mass",
+          "explanation": "For ATPL performance questions, an **increase in uphill slope** generally increases the **Take-Off Distance Required (TODR)** because a component of gravity opposes acceleration. When TODR increases, the safe maximum Take-Off Mass (TOM) must be **decreased** to ensure the aircraft can stop or go within the available field length. While upslope technically reduces the energy absorbed by the brakes in an RTO (allowing for a higher VMBE speed), the overall performance limitation usually shifts back to the required field length, which is negatively affected by the slope.",
+          "correct": 1
+        }
+      },
+      "diffs": [
+        "correct",
+        "answer"
+      ]
+    },
+    {
+      "src": {
+        "cat": "performance",
+        "test": "performance-test-1",
+        "id": 1258,
+        "q": {
+          "category": "performance-test-1",
+          "test": 1,
+          "id": 1258,
+          "question": "The dry net take-off run required (TORR) for a jet aircraft, with one engine inoperative is:",
+          "options": [
+            "brake release point to midpoint between VLOF and 35 ft",
+            "brake release point to 35 ft",
+            "brake release point to 15 ft",
+            "the same as for all engines"
+          ],
+          "answer": "brake release point to midpoint between VLOF and 35 ft",
+          "correct": 0,
+          "explanation": ""
+        }
+      },
+      "tgt": {
+        "cat": "performance",
+        "testId": "performance-test-1",
+        "id": 1504,
+        "q": {
+          "category": "performance-test-1",
+          "test": 1,
+          "id": 1504,
+          "question": "The dry net take-off run required (TORR) for a jet aircraft, with one engine inoperative is:",
+          "options": [
+            "brake release point to midpoint between VLOF and 35 ft",
+            "brake release point to 35 ft",
+            "brake release point to 15 ft",
+            "the same as for all engines"
+          ],
+          "answer": "",
+          "correct": 0,
+          "explanation": ""
+        }
+      },
+      "diffs": [
+        "answer"
+      ]
+    },
+    {
+      "src": {
+        "cat": "performance",
+        "test": "performance-test-2",
+        "id": 1270,
+        "q": {
+          "category": "performance-test-2",
+          "test": 2,
+          "id": 1270,
+          "question": "In dry conditions, when landing at an alternate airport in a turbojet by what factor should the landing distance available be divided to give landing distance required?",
+          "options": [
+            "0.6",
+            "1.0",
+            "1.67",
+            "1.43"
+          ],
+          "answer": "1.67",
+          "correct": 2,
+          "explanation": ""
+        }
+      },
+      "tgt": {
+        "cat": "performance",
+        "testId": "performance-test-2",
+        "id": 1180,
+        "q": {
+          "category": "performance-test-2",
+          "test": 2,
+          "id": 1180,
+          "question": "In dry conditions, when landing at an alternate airport in a turbojet by what factor should the landing distance available be divided to give landing distance required?",
+          "options": [
+            "0.6",
+            "1.0",
+            "1.67",
+            "1.43"
+          ],
+          "answer": "1.43",
+          "correct": 3,
+          "explanation": ""
+        }
+      },
+      "diffs": [
+        "correct",
+        "answer"
+      ]
+    }
+  ]
+}

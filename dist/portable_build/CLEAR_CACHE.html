@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clear Cache - Aviation Test App</title>
+    <style>
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            margin: 0;
+        }
+        .container {
+            background: white;
+            border-radius: 16px;
+            padding: 40px;
+            max-width: 500px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            text-align: center;
+        }
+        h1 {
+            color: #1e293b;
+            margin: 0 0 10px 0;
+            font-size: 28px;
+        }
+        p {
+            color: #64748b;
+            line-height: 1.6;
+            margin: 0 0 30px 0;
+        }
+        .btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 16px 32px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            display: inline-block;
+            text-decoration: none;
+            margin: 8px;
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+        }
+        .btn-secondary {
+            background: #64748b;
+        }
+        .btn-secondary:hover {
+            box-shadow: 0 8px 20px rgba(100, 116, 139, 0.4);
+        }
+        .status {
+            margin-top: 20px;
+            padding: 16px;
+            border-radius: 8px;
+            font-size: 14px;
+            display: none;
+        }
+        .status.success {
+            background: #d1fae5;
+            color: #065f46;
+            display: block;
+        }
+        .status.info {
+            background: #dbeafe;
+            color: #1e40af;
+            display: block;
+        }
+        .icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="icon">🔄</div>
+        <h1>Clear Cache & Reload</h1>
+        <p>If you're seeing outdated content, click the button below to clear the service worker cache and force a fresh reload of the app.</p>
+        
+        <button class="btn" onclick="clearCacheAndReload()">
+            Clear Cache & Reload App
+        </button>
+        
+        <a href="index.html" class="btn btn-secondary">
+            Go to App
+        </a>
+        
+        <div id="status" class="status"></div>
+    </div>
+
+    <script>
+        async function clearCacheAndReload() {
+            const statusDiv = document.getElementById('status');
+            
+            try {
+                // Unregister all service workers
+                if ('serviceWorker' in navigator) {
+                    const registrations = await navigator.serviceWorker.getRegistrations();
+                    for (let registration of registrations) {
+                        await registration.unregister();
+                    }
+                }
+                
+                // Clear all caches
+                if ('caches' in window) {
+                    const cacheNames = await caches.keys();
+                    for (let cacheName of cacheNames) {
+                        await caches.delete(cacheName);
+                    }
+                }
+                
+                // Clear local storage and session storage
+                localStorage.clear();
+                sessionStorage.clear();
+                
+                statusDiv.className = 'status success';
+                statusDiv.innerHTML = '✅ Cache cleared successfully! Redirecting to app...';
+                
+                // Redirect to app after a brief delay
+                setTimeout(() => {
+                    window.location.href = 'index.html?nocache=' + Date.now();
+                }, 1500);
+                
+            } catch (error) {
+                statusDiv.className = 'status info';
+                statusDiv.innerHTML = '⚠️ ' + error.message + '<br><br>Try pressing Ctrl+Shift+R (or Cmd+Shift+R on Mac) to hard refresh.';
+            }
+        }
+        
+        // Show info if coming from the app
+        if (document.referrer.includes('index.html')) {
+            const statusDiv = document.getElementById('status');
+            statusDiv.className = 'status info';
+            statusDiv.innerHTML = '💡 Clear the cache to see the latest updates including:<br>• Fixed Radio Navigation category<br>• 2-letter search support<br>• Camera OCR search feature';
+        }
+    </script>
+</body>
+</html>

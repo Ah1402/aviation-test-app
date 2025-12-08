@@ -1,0 +1,894 @@
+{
+  "aircraft-general-knowledge": {
+    "test-1": [
+      {
+        "question": "How do you control power in a jet engine?",
+        "options": [
+          "A. By controlling the mixture ratio",
+          "B. By controlling the fuel flow 1",
+          "C. By controlling the airflow",
+          "D. By controlling the bleed valves"
+        ],
+        "answer": "B",
+        "explanation": ""
+      },
+      {
+        "question": "If during pressurized flight the outflow valve closes\nfully due to a fault in the pressure controller the:",
+        "options": [
+          "A. skin will be overstressed and could rupture",
+          "B. safety valve opens when the differential pressure reaches\nstructural max diff 2",
+          "C. the inward relief valve will open to prevent excessive\nnegative differential",
+          "D. ECS packs are automatically closed down"
+        ],
+        "answer": "B",
+        "explanation": ""
+      }
+    ],
+    "test-4": [],
+    "test-5": []
+  },
+  "air-law": {
+    "test-2": [],
+    "test-3": [
+      {
+        "question": "An aircraft is allowed to descend below the MSA if:",
+        "options": [
+          "A. the pilot follows the published approach procedures.",
+          "B. the aircraft receives radar vectors.",
+          "C. the pilot has visual contact with the runway and\nsurrounding terrain and is able to maintain visual contact.",
+          "D. all of the above."
+        ],
+        "answer": "D 1",
+        "explanation": ""
+      },
+      {
+        "question": "Lights on an airfield or in the vicinity can be\nextinguished if they can be re-lit:",
+        "options": [
+          "A. at least 5 minutes before the ETA of the aircraft.",
+          "B. at least 15 minutes before the ETA of the aircraft.",
+          "C. at least 30 minutes before the ETA of the aircraft.",
+          "D. at least 60 minutes before the ETA of the aircraft. 2"
+        ],
+        "answer": "D",
+        "explanation": ""
+      },
+      {
+        "question": "Air Traffic Service unit consists of:",
+        "options": [
+          "A. Air Traffic Control Units and Flight Information Centres.",
+          "B. Flight Information Centres and Air Services Reporting\noffices.",
+          "C. Air Traffic Control Units, Flight Information Centres and\nAir Traffic Services Reporting offices. 3",
+          "D. Air Services Reporting offices and Air Traffic Control\nUnits."
+        ],
+        "answer": "C",
+        "explanation": ""
+      },
+      {
+        "question": "A marshaller crosses his/her hands in front of the face,\npalms outwards and then moves the arms outwards. What does this signal\nindicate?",
+        "options": [
+          "A. Clear to move forward.",
+          "B. Brakes off.",
+          "C. Remove chocks. 4",
+          "D. Clear to close all engines."
+        ],
+        "answer": "C",
+        "explanation": ""
+      },
+      {
+        "question": "A fixed obstacle that extends above a take-off climb\nsurface within ___ shall be marked and, if the runway is to be used at night,\nmust be lit.",
+        "options": [
+          "A. 3000 m 5",
+          "B. 3000 ft",
+          "C. 5000 m",
+          "D. 2 NM"
+        ],
+        "answer": "A",
+        "explanation": ""
+      },
+      {
+        "question": "Repetitive flight plans (RPLs) cannot be used for flights\nother than those executed frequently on the same days of following weeks and:",
+        "options": [
+          "A. for at least 20 occasions or every day over a period of\nat least 20 consecutive days. 6",
+          "B. for at least 20 consecutive days.",
+          "C. for at least 10 occasions or every day over a period of\nat least 10 consecutive days. 7",
+          "D. for at least 20 occasions."
+        ],
+        "answer": "C (Note: The document has checkmarks next to\nboth A and C, indicating a potential error in the source material. C is\ngenerally considered the correct ICAO standard).",
+        "explanation": ""
+      },
+      {
+        "question": "A PAPI must consist of:",
+        "options": [
+          "A. a row of 4 multiple lights or paired units without\ntransition zone, at equal distance from each other. 8",
+          "B. two rows of 4 multiple lights or paired units without\ntransition zone, at equal distance from each other.",
+          "C. a row of 2 multiple lights or paired units without\ntransition zone, at equal distance from each other.",
+          "D. two rows of 6 multiple lights or paired units without\ntransition zone, at equal distance from each other."
+        ],
+        "answer": "A",
+        "explanation": ""
+      },
+      {
+        "question": "What is the length of the approach lighting system of a\nCat II precision landing runway?",
+        "options": [
+          "A. 900 m. 9",
+          "B. 600 m.",
+          "C. 300 m.",
+          "D. 150 m."
+        ],
+        "answer": "A",
+        "explanation": ""
+      },
+      {
+        "question": "An aircraft is maintaining FL150 in Class C Airspace.\nAnother aircraft below at FL140 receives a clearance to descend to FL70. There\nis severe turbulence in the area. When at earliest can a clearance be expected\nto descend to FL140 or lower?",
+        "options": [
+          "A. When the other aircraft has reported to be descending\nthrough FL130. 13",
+          "B. When the other aircraft has reported to have left FL120.",
+          "C. When the other aircraft has reported to have left FL140.",
+          "D. When the other aircraft has reached FL70."
+        ],
+        "answer": "A",
+        "explanation": ""
+      },
+      {
+        "question": "The VMC minima for a VFR flight within ATS airspace\nclass B are:",
+        "options": [
+          "A. 8 km visibility at or above 3050 m AMSL and clear of\ncloud.",
+          "B. 5 NM visibility at or above 3050 m AMSL, 1500 m\nhorizontal and 300 m vertical clear of cloud.",
+          "C. 8 km visibility at or above 3050 m AMSL, 1500 m\nhorizontal and 300 m vertical clear of cloud. 14",
+          "D. 5 NM visibility at or above 3050 m AMSL and clear of\ncloud."
+        ],
+        "answer": "C",
+        "explanation": ""
+      },
+      {
+        "question": "When independent parallel approaches are used on\nparallel runways and headings (vectors) are given to intercept the ILS, the\ngiven heading must be such that the aeroplane can establish on the localizer\ncourse or the MLS final approach track in level flight over at least:",
+        "options": [
+          "A. 2.5 NM before the ILS glide slope or the specified MLS\nelevation angle is intercepted. 15",
+          "B. 1.5 NM before the ILS glide slope or the specified MLS\nelevation angle is intercepted.",
+          "C. 3.0 NM before the ILS glide slope or the specified MLS\nelevation angle is intercepted.",
+          "D. 2.0 NM before the ILS glide slope or the specified MLS\nelevation angle is intercepted. 16"
+        ],
+        "answer": "D",
+        "explanation": ""
+      },
+      {
+        "question": "When the captain cannot comply with an ATC clearance:",
+        "options": [
+          "A. the Captain must accept the ATC clearance, because it is\nbased on a filed flight plan.",
+          "B. he/she may request an amended clearance and, if\nexecutable, he/she will accept that clearance. 17",
+          "C. he/she may ask for a new clearance and the appropriate\nATC must grant him/ her that clearance.",
+          "D. he/she may suggest a new clearance to ATC."
+        ],
+        "answer": "B",
+        "explanation": ""
+      },
+      {
+        "question": "The minimum number of rescue and fire fighting vehicles\nrequired for a Cat 8 Aerodrome is:",
+        "options": [
+          "A. 3 18",
+          "B. 4",
+          "C. 5",
+          "D. None of the above is correct."
+        ],
+        "answer": "A",
+        "explanation": ""
+      },
+      {
+        "question": "Lights at the end of the runway shall be:",
+        "options": [
+          "A. steady unidirectional lights radiating white light in the\ndirection of the runway.",
+          "B. steady white lights with controllable intensity.",
+          "C. steady omni-directional red lights with controllable\nintensity.",
+          "D. steady unidirectional lights radiating red light in the\ndirection of the runway. 19"
+        ],
+        "answer": "D",
+        "explanation": ""
+      },
+      {
+        "question": "What is required for an IFR flight in advisory airspace?",
+        "options": [
+          "A. No flight plan required.",
+          "B. Flight plan required and PIC must notify of any changes\nregardless if wanting advisory service or not. 20",
+          "C. Flight plan required but PIC need not notify of any\nchanges.",
+          "D. A flight plan is only required if advisory service is\nrequired."
+        ],
+        "answer": "B",
+        "explanation": ""
+      },
+      {
+        "question": "The transition from IFR to VFR is done:",
+        "options": [
+          "A. on the Captain's initiative. 21",
+          "B. whenever an aircraft in VMC leaves controlled airspace.",
+          "C. if told by ATC.",
+          "D. at the clearance limit, disregarding the weather\nsituation."
+        ],
+        "answer": "A",
+        "explanation": ""
+      },
+      {
+        "question": "The longitudinal separation minimum based on time\nbetween aircraft at the same FL, where there is enough coverage for navigation\naids and the preceding aircraft has a higher true airspeed of 20 kt minimum is:",
+        "options": [
+          "A. 3 minutes. 22",
+          "B. 15 minutes.",
+          "C. 5 minutes. 23",
+          "D. 10 minutes."
+        ],
+        "answer": "C",
+        "explanation": ""
+      },
+      {
+        "question": "What is the separation that must be maintained before\nintercepting the ILS on an independent parallel approach?",
+        "options": [
+          "A. 1000 ft. 26",
+          "B. 500 ft.",
+          "C. 330 ft.",
+          "D. 660 ft."
+        ],
+        "answer": "A",
+        "explanation": ""
+      }
+    ],
+    "test-4": [
+      {
+        "question": "A Type Rating is applicable to:",
+        "options": [
+          "A. an aircraft requiring a Certificate of Airworthiness1.",
+          "B. an aircraft with a Certificate of Airworthiness issued by\nthe State2.",
+          "C. an aircraft that requires multi-pilot operation3.",
+          "D. an aircraft that requires additional skills training4."
+        ],
+        "answer": "C",
+        "explanation": ""
+      },
+      {
+        "question": "Fixed distance markers, when provided, shall commence:",
+        "options": [
+          "A. 150 metres from the threshold5.",
+          "B. 300 metres from the far end threshold6.",
+          "C. 300 metres from the threshold7.",
+          "D. 150 metres from the far end threshold8."
+        ],
+        "answer": "B",
+        "explanation": ""
+      },
+      {
+        "question": "What is the minimum width of a code 4 runway?",
+        "options": [
+          "A. 18 m9.",
+          "B. 23 m10.",
+          "C. 30 m11.",
+          "D. 45 m12."
+        ],
+        "answer": "D",
+        "explanation": ""
+      },
+      {
+        "question": "A TODA consists of:",
+        "options": [
+          "A. the take-off run available excluding the clearway13.",
+          "B. the take-off run available including the\nclearway14141414.",
+          "C. the take-off run available excluding the stopway15.",
+          "D. the take-off run available only16."
+        ],
+        "answer": "B",
+        "explanation": ""
+      },
+      {
+        "question": "Temporary changes of long duration (3 months or more) and\ninformation of short duration which contains extensive graphics and/or text are\npublished as AIP Supplements. Check lists of these Supplements which are in\nforce are sent to recipients at intervals of not more than:",
+        "options": [
+          "A. one year17171717.",
+          "B. one month18.",
+          "C. one week19.",
+          "D. 2 weeks20."
+        ],
+        "answer": "B",
+        "explanation": ""
+      },
+      {
+        "question": "The operator is responsible for the custody and care of\nthe passengers. This responsibility shall terminate:",
+        "options": [
+          "A. from the moment they have been cleared through customs of\nthe destination State21.",
+          "B. from the moment they step from the aircraft onto the\npassenger exit stairs22.",
+          "C. from the moment they have been admitted into the\ndestination State23232323.",
+          "D. from the moment they step from the aircraft onto the\nground of the destination State24."
+        ],
+        "answer": "C",
+        "explanation": ""
+      },
+      {
+        "question": "If no ICAO identifier has been attributed to an\naerodrome, what should be entered in Box 16 of the Flight Plan?",
+        "options": [
+          "A. ZZZZ29292929.",
+          "B. NNNN30.",
+          "C. A/N31.",
+          "D. A/D XXX32."
+        ],
+        "answer": "A",
+        "explanation": ""
+      },
+      {
+        "question": "What is the width of a code letter D taxiway used by\naircraft with an outer gear wheel span of more than 9 m ?",
+        "options": [
+          "A. 10.5 m33.",
+          "B. 15 m34.",
+          "C. 23 m35.",
+          "D. 18 m36."
+        ],
+        "answer": "C (Assuming position implies correctness -\nno checkmark in source)",
+        "explanation": ""
+      },
+      {
+        "question": "Which International Agreement relates to Penal Law?",
+        "options": [
+          "A. Tokyo37373737.",
+          "B. Montreal38.",
+          "C. Hague39.",
+          "D. Rome40."
+        ],
+        "answer": "A",
+        "explanation": ""
+      },
+      {
+        "question": "The continued validity of a C of A (certificate of\nairworthiness) of an aircraft is subject to the laws of:",
+        "options": [
+          "A. the State of Registration41.",
+          "B. the State of Registration and the State of the\nOperator42.",
+          "C. the State of the Operator43.",
+          "D. the State of Registry and the State of Design44."
+        ],
+        "answer": "A",
+        "explanation": ""
+      },
+      {
+        "question": "An RNP1 route designated as A342Y, indicates that the\nroute is at or above FL200 and all turns shall be made within the allowable RNP\ntolerance of a tangential arc between the straight leg segments with a radius\nof:",
+        "options": [
+          "A. 10 NM for turns between $30^{\\circ}$ and $90^{\\circ}$45.",
+          "B. 15 NM for turns between $30^{\\circ}$ and $90^{\\circ}$46.",
+          "C. 22.5 NM for turns between $30^{\\circ}$ and\n$90^{\\circ}$47.",
+          "D. 30 NM for turns between $30^{\\circ}$ and $90^{\\circ}$48."
+        ],
+        "answer": "C (Assuming position implies correctness -\nno checkmark in source)",
+        "explanation": ""
+      },
+      {
+        "question": "ATIS will only broadcast cloud base information when the\ncloud base is:",
+        "options": [
+          "A. 3000 ft49.",
+          "B. 5000 ft50.",
+          "C. when Cb are present51.",
+          "D. when the cloud base is below MSA52."
+        ],
+        "answer": "B",
+        "explanation": ""
+      },
+      {
+        "question": "What are the objectives of ATC Services?",
+        "options": [
+          "A. To prevent collisions between aircraft, to prevent\ncollisions between aircraft on the manoeuvring area and obstructions on that\narea and to expedite and maintain an orderly flow of air traffic65.",
+          "B. To prevent collisions between controlled aircraft and to\nexpedite and maintain an orderly flow of air traffic66.",
+          "C. To provide separation of aircraft and to expedite and\nmaintain an orderly flow of air traffic67.",
+          "D. To provide separation of controlled aircraft and to\nexpedite and maintain an orderly flow of air traffic68."
+        ],
+        "answer": "A",
+        "explanation": ""
+      },
+      {
+        "question": "An RNP1 route designated as A342Z, indicates that the\nroute is at or below FL190 and all turns shall be made within the allowable RNP\ntolerance of a tangential arc between the straight leg segments with a radius\nof:",
+        "options": [
+          "A. 10 NM for turns between $30^{\\circ}$ and $90^{\\circ}$69.",
+          "B. 15 NM for turns between $30^{\\circ}$ and $90^{\\circ}$70.",
+          "C. 22.5 NM for turns between $30^{\\circ}$ and\n$90^{\\circ}$71.",
+          "D. 30 NM for turns between $30^{\\circ}$ and $90^{\\circ}$72."
+        ],
+        "answer": "B",
+        "explanation": ""
+      },
+      {
+        "question": "What is the meaning of the signal LLL from search\nparties?",
+        "options": [
+          "A. We have only found some personnel73.",
+          "B. We have found all personnel74.",
+          "C. Operation completed75757575.",
+          "D. Nothing found76."
+        ],
+        "answer": "C",
+        "explanation": ""
+      },
+      {
+        "question": "A check list of AIP Supplements is published:",
+        "options": [
+          "A. annually77.",
+          "B. monthly78787878.",
+          "C. weekly79.",
+          "D. every six months80."
+        ],
+        "answer": "B",
+        "explanation": ""
+      },
+      {
+        "question": "A heavy aircraft makes a missed approach on a parallel\nrunway in the opposite direction. A light aircraft has a wake turbulence\nseparation of 2 minutes. This wake turbulence separation will apply when the\nparallel runways are:",
+        "options": [
+          "A. more than 760 m apart81.",
+          "B. more than 915 m apart82.",
+          "C. less than 915 m apart83.",
+          "D. less than 760 m apart84."
+        ],
+        "answer": "D",
+        "explanation": ""
+      }
+    ],
+    "test-5": [
+      {
+        "question": "Which of the following statements regarding an electric\ncircuit is correct?",
+        "options": [
+          "A. an electric current is only able to flow in an open\ncircuit",
+          "B. the magnitude of the current is proportional to the\nresistance",
+          "C. lower diameter wires are able to carry a higher current",
+          "D. too high a current may lead to the circuit overheating 1"
+        ],
+        "answer": "D",
+        "explanation": ""
+      },
+      {
+        "question": "The purpose of an ignition switch is to:",
+        "options": [
+          "A. connect the battery to the magneto",
+          "B. control the primary circuit of the magneto 2",
+          "C. connect the contact breaker and condenser in series with\nthe primary coil",
+          "D. connect the secondary coil to the distributor"
+        ],
+        "answer": "B",
+        "explanation": ""
+      },
+      {
+        "question": "Which of the following are all aerodynamic balances?",
+        "options": [
+          "A. Inset hinge, mass balance and spring tab.",
+          "B. Horn balance, balance tab and internal balance. 3",
+          "C. Horn balance, inset hinge and mass balance.",
+          "D. Internal balance, anti-balance tab and servo tab."
+        ],
+        "answer": "B",
+        "explanation": ""
+      },
+      {
+        "question": "Propeller blade angle is:",
+        "options": [
+          "A. the angle between the relative airflow and the chord line",
+          "B. dependent upon RPM and TAS",
+          "C. the angle between the blade chord and the plane of\nrotation 4",
+          "D. the difference between effective pitch and geometric\npitch"
+        ],
+        "answer": "C",
+        "explanation": ""
+      },
+      {
+        "question": "The skin of a modern pressurised aircraft:",
+        "options": [
+          "A. is made up of light alloy steel sheets built on the\nmonocoque principle",
+          "B. houses the crew and the payload",
+          "C. is a primary load bearing structure carrying much of the\nloads 5",
+          "D. provides aerodynamic lift and prevents corrosion by\nkeeping out adverse weather"
+        ],
+        "answer": "C",
+        "explanation": ""
+      },
+      {
+        "question": "What does TEM stand for in the context of Human\nPerformance?",
+        "options": [
+          "A. Threat and Error Management 6",
+          "B. Trusted Equipment Mechanic",
+          "C. Time Limited Evacuation Medical",
+          "D. Tango, Echo, Mike"
+        ],
+        "answer": "A",
+        "explanation": ""
+      },
+      {
+        "question": "What is the shortest distance between two points on the\nEarth's globe called:",
+        "options": [
+          "A. Lambodrome",
+          "B. Great circle 7",
+          "C. Airway",
+          "D. Rhumb Line"
+        ],
+        "answer": "B",
+        "explanation": ""
+      },
+      {
+        "question": "Leaving ground effect at a given angle of attack the:",
+        "options": [
+          "A. Induced drag decreases.",
+          "B. effective angle of attack decreases. 8",
+          "C. lift will remain constant",
+          "D. nose tends to pitch down."
+        ],
+        "answer": "B (Note: The document has checkmarks next to\nB and C. B describes the aerodynamic effect, while C is incorrect.)",
+        "explanation": ""
+      },
+      {
+        "question": "A turbo-supercharger impeller is driven by:",
+        "options": [
+          "A. excess torque from the reduction gearbox",
+          "B. diversion of exhaust gases by the waste gate using energy\nthat would otherwise be wasted 9",
+          "C. a ram air turbine",
+          "D. a connection through a gearbox connected to the\ncrankshaft"
+        ],
+        "answer": "B",
+        "explanation": ""
+      },
+      {
+        "question": "The weight of an aeroplane, which is in level non\naccelerated flight, is said to act:",
+        "options": [
+          "A. vertically through the datum point",
+          "B. vertically through the centre of pressure",
+          "C. vertically through the centre of gravity 10",
+          "D. always along the vertical axis of the aeroplane"
+        ],
+        "answer": "C",
+        "explanation": ""
+      },
+      {
+        "question": "When an aircraft fitted with a classic air-driven\nartificial horizon decelerates after landing, a wrong indication will be\ndisplayed showing a:",
+        "options": [
+          "A. climbing turn to left",
+          "B. descending turn to left",
+          "C. descending turn to right,",
+          "D. climbing turn to right."
+        ],
+        "answer": "D (Assuming position implies correctness -\nno checkmark in source)",
+        "explanation": ""
+      },
+      {
+        "question": "During a climb a blocked static pressure supply line\ncauses the ASI to:",
+        "options": [
+          "A. over-indicate then under-indicate",
+          "B. over-indicate",
+          "C. under-indicate 11",
+          "D. be unaffected"
+        ],
+        "answer": "C",
+        "explanation": ""
+      },
+      {
+        "question": "Flutter may be caused by a:",
+        "options": [
+          "A. low airspeed aerodynamic stall,",
+          "B. distortion by bending and torsion of the structure\ncausing increasing vibration in the resonance frequency. 12",
+          "C. high airspeed aerodynamic wing stall.",
+          "D. roll control reversal."
+        ],
+        "answer": "B",
+        "explanation": ""
+      },
+      {
+        "question": "With regards to the Maximum Zero Fuel Weight (MZFW):",
+        "options": [
+          "A. It is lower than the Maximum Take-Off Weight by the\nweight of a payload.",
+          "B. It is the maximum weight that an aircraft can be loaded\nto without useable fuel. 13",
+          "C. It is important as exceeding the MZFW may mean that there\nis insufficient lift to get the aircraft airborne.",
+          "D. Is more relevant to aircraft with fuselage fuel tanks."
+        ],
+        "answer": "B",
+        "explanation": ""
+      },
+      {
+        "question": "What is the effect on Mach No and TAS when climbing at a\nconstant CAS?",
+        "options": [
+          "A. Mach No increases, TAS is constant",
+          "B. Both increase 14",
+          "C. Mach No is constant, TAS increases",
+          "D. Both decrease"
+        ],
+        "answer": "B",
+        "explanation": ""
+      },
+      {
+        "question": "What is the purpose of trim tabs?",
+        "options": [
+          "A. to reduce control effectiveness",
+          "B. to reduce stick forces during manoeuvres",
+          "C. to increase control effectiveness",
+          "D. to reduce stick forces to zero 15"
+        ],
+        "answer": "D",
+        "explanation": ""
+      },
+      {
+        "question": "The minimum separation between VHF frequencies in Europe\nis:",
+        "options": [
+          "A. 25kHZ",
+          "B. 25MHZ",
+          "C. 8.33MHZ",
+          "D. 8.33kHZ 16"
+        ],
+        "answer": "D",
+        "explanation": ""
+      },
+      {
+        "question": "What can be said about the height of the Tropopause in\nthe Northern Hemisphere?",
+        "options": [
+          "A. It increases from south to north",
+          "B. It decreases from south to north 17",
+          "C. It remains constant throughout the year",
+          "D. It remains constant from north to south"
+        ],
+        "answer": "B",
+        "explanation": ""
+      },
+      {
+        "question": "What is the correct phrase for a pilot to use to advise\nATC of being ready to take-off?",
+        "options": [
+          "A. Request takeoff.",
+          "B. Request departure.",
+          "C. Ready for departure. 19",
+          "D. Ready for take-off."
+        ],
+        "answer": "C",
+        "explanation": ""
+      }
+    ]
+  },
+  "aon-aviation-knowledge": {
+    "test-2": [
+      {
+        "question": "The result of Empty Field Myopia is:",
+        "options": [
+          "A. astigmatism",
+          "B. a build-up of pressure within the eye",
+          "C. focusing is limited to between 1 and 2 meters 20",
+          "D. a tendency to suffer from cataracts in the long term"
+        ],
+        "answer": "C",
+        "explanation": ""
+      },
+      {
+        "question": "To achieve the maximum range over the ground with a\nheadwind, a turbojet should fly:",
+        "options": [
+          "A. At a speed faster than 1,32 VMD 23",
+          "B. At a speed where the GS to drag ratio is greatest",
+          "C. At a speed where the GS to PREQ ratio is greatest",
+          "D. At a speed slower than 1,32 VMD"
+        ],
+        "answer": "A",
+        "explanation": ""
+      },
+      {
+        "question": "When selecting a fuse for an aircraft electrical circuit,\nthe governing factor is:",
+        "options": [
+          "A. the energy of the circuit",
+          "B. the power requirement of the circuit 24",
+          "C. the resistance of the circuit",
+          "D. the voltage of the circuit"
+        ],
+        "answer": "B",
+        "explanation": ""
+      },
+      {
+        "question": "A logarithmic scale is fitted to the vertical speed\nindicator in order to:",
+        "options": [
+          "A. make the instrument more sensitive.",
+          "B. make lower values of vertical speed easier to read 25",
+          "C. Reduce pressure error.",
+          "D. Reduce manoeuvre error."
+        ],
+        "answer": "B",
+        "explanation": ""
+      },
+      {
+        "question": "In relation to persons with Reduced Mobility (PRM's):",
+        "options": [
+          "A. The commander may be notified when PRM's are carried",
+          "B. The commander must be notified when PRM's are carried 26",
+          "C. There is no requirement to notify the commander when\nPRM's are carried",
+          "D. PRM's must be seated adjacent to emergency exits"
+        ],
+        "answer": "B",
+        "explanation": ""
+      },
+      {
+        "question": "Which of the following statements is true?",
+        "options": [
+          "A. Super-alloys are used because of their excellent\ncorrosion resistance",
+          "B. Titanium alloy is used in aircraft construction because\nof its good wear and high temperature tolerance 27",
+          "C. Steel is used in aircraft because it is strong and heavy\nbut has poor corrosion resistance",
+          "D. Aluminium alloys are used in aircraft construction\nbecause they are light, easily machined and have good wear resistance"
+        ],
+        "answer": "B (Note: D is also largely true, but\nTitanium's high-temp tolerance is a key reason for its use)",
+        "explanation": ""
+      },
+      {
+        "question": "A pilot, trying to pick up a fallen object from the\ncockpit floor during a right turn, experiences:",
+        "options": [
+          "A. Coriolis illusion/effect 28",
+          "B. Pressure vertigo",
+          "C. Autokinetic illusion",
+          "D. Barotrauma"
+        ],
+        "answer": "A",
+        "explanation": ""
+      },
+      {
+        "question": "Which of the following statements is true?",
+        "options": [
+          "A. By increasing the flap setting in severe turbulence at\nconstant speed the stall speed will be reduced and the risk for exceeding the\nstructural limits will be decreased.",
+          "B. Flap extension in severe turbulence at constant airspeed\nmoves the centre of pressure aft, which increases the structural limitation\nmargins.",
+          "C. Flight in severe turbulence may lead to a stall and/or\nstructural limitations being exceeded. 29",
+          "D. Flap extension in severe turbulence at constant speed\nincreases both the stall speed and the structural limitation margins."
+        ],
+        "answer": "C",
+        "explanation": ""
+      },
+      {
+        "question": "The oil in an oleo-pneumatic strut:",
+        "options": [
+          "A. Support the weight of the aircraft",
+          "B. Limits the speed of extension and compression of the\nstrut 31",
+          "C. Limits the speed of compression of the strut",
+          "D. Lubricates the piston within the cylinder"
+        ],
+        "answer": "B",
+        "explanation": ""
+      },
+      {
+        "question": "The inbound track to the navigation aid serving a hold\nis $250^{\\circ},$ your aircraft heading is $002^{\\circ}$ What is the correct\nsector to join the hold?",
+        "options": [
+          "A. Sector 2 (offset)",
+          "B. Sector 1 (parallel) or sector 3 (direct)",
+          "C. Sector 2 (offset) or sector 3 (direct)",
+          "D. Sector 1 (parallel) 32"
+        ],
+        "answer": "D (Heading 002 is within 70 degrees of the\nreciprocal 070, indicating Sector 1 Parallel entry)",
+        "explanation": ""
+      },
+      {
+        "question": "Which of the following statements is correct?",
+        "options": [
+          "A. modern batteries are more stable and have virtually\neliminated the risk of a thermal runaway occurring",
+          "B. batteries are not sensitive to damage because of their\nsolid construction and sealed casing",
+          "C. the risk of a battery fire is reduced during charging as\nthe charging current will be cut off if a fire is detected",
+          "D. batteries are considered dangerous goods if transported\ndue to the risk of thermal runaway and the substances inside 33"
+        ],
+        "answer": "D",
+        "explanation": ""
+      },
+      {
+        "question": "The balance arm is:",
+        "options": [
+          "A. The distance from the CG to the CP",
+          "B. The distance from the datum to the CG 34",
+          "C. The distance from the CG to the static margin",
+          "D. The distance from the datum to the CP"
+        ],
+        "answer": "B",
+        "explanation": ""
+      },
+      {
+        "question": "A hot busbar is one that:",
+        "options": [
+          "A. is permanently connected to the battery 36",
+          "B. supplies galley power",
+          "C. carries all me non-essential loads",
+          "D. is connected to the battery in an emergency"
+        ],
+        "answer": "A",
+        "explanation": ""
+      },
+      {
+        "question": "Following an indication of unserviceability of an air\nconditioning pack whilst on stand, what do you consult?",
+        "options": [
+          "A. The configuration deviation list",
+          "B. OPS Manual Part A",
+          "C. The Minimum Equipment List (MEL) 37",
+          "D. The Quick Reference Handbook (QRH)"
+        ],
+        "answer": "C",
+        "explanation": ""
+      },
+      {
+        "question": "If an extra load is loaded into an aircraft the stall\nspeed is likely to:",
+        "options": [
+          "A. Change depending on whether the load was placed FWD or\nAFT of the C of G",
+          "B. Stay the same",
+          "C. Decrease",
+          "D. Increase 39"
+        ],
+        "answer": "D",
+        "explanation": ""
+      }
+    ],
+    "test-3": [
+      {
+        "question": "The ILS Outer Marker is identified by:",
+        "options": [
+          "A. A white cockpit light and a modulating frequency of 400\nHz",
+          "B. A blue cockpit light and a modulating frequency of 400 Hz",
+          "C. An amber cockpit light and a modulating frequency of 1300\nHz",
+          "D. A blue cockpit light and a modulating frequency of 3000\nHz"
+        ],
+        "answer": "B 1",
+        "explanation": ""
+      },
+      {
+        "question": "Power is:",
+        "options": [
+          "A. The rate at which charge is transferred",
+          "B. Expressed in Joules",
+          "C. The rate at which a component uses energy",
+          "D. A measure of the energy being used by a component"
+        ],
+        "answer": "C 2",
+        "explanation": ""
+      },
+      {
+        "question": "The phrase \"all stations\" is used to transmit\nto:",
+        "options": [
+          "A. All stations named in the following message",
+          "B. All stations except those named in the following message",
+          "C. A broadcast to all stations on frequency",
+          "D. Aircraft requesting a radio check"
+        ],
+        "answer": "C 3",
+        "explanation": ""
+      },
+      {
+        "question": "You are flying IFR in VMC and experience a complete radio\nfailure. What action should you take?",
+        "options": [
+          "A. Continue VMC and land at the nearest aerodrome squawking\n7600. Report arrival to ATC after landing 20",
+          "B. Continue as per last ATC clearance for 20 minutes after\nwhich revert to your filed flight plan. Squawk 7500 and land as close as\npossible to your EAT/ΕΤΑ. Report arrival to ATC after landing 21",
+          "C. Continue as per last ATC clearance for 30 minutes after\nwhich revert to your filed flight plan. Squawk 7600 and land as close as\npossible to your EAT/ETA. Report arrival to ATC after landing 22",
+          "D. Continue as per last ATC clearance for 20 minutes after\nwhich revert to your filed flight plan. Squawk 0000 and land as close as\npossible to your EAT/ETA. Report arrival to ATC after landing 23"
+        ],
+        "answer": "A",
+        "explanation": ""
+      },
+      {
+        "question": "A DME & VOR are co-located and a morse ident is\ndetected 4 times in 30 secs. Which of the following statements is true?",
+        "options": [
+          "A. VOR callsign once every 30 secs and lower in pitch than\nthe DME ident",
+          "B. DME callsign 3 times every 30 secs and higher in pitch\nthan the VOR ident",
+          "C. DME callsign once every 30 secs and higher in pitch than\nthe VOR ident 58",
+          "D. VOR callsign once every 30 secs and higher in pitch than\nthe DME ident"
+        ],
+        "answer": "C",
+        "explanation": ""
+      }
+    ],
+    "test-4": [
+      {
+        "question": "If the TAS at 40000 ft is 450 kt the Mach No. is:",
+        "options": [
+          "A. 0.815",
+          "B. 0.784",
+          "C. 0.76",
+          "D. 0.825"
+        ],
+        "answer": "B (LSS at 40000 ft ≈ 573.6 kt. Mach No\n= TAS / LSS = 450 / 573.6 ≈ 0.784)",
+        "explanation": ""
+      },
+      {
+        "question": "The local speed of sound at mean sea level at ISA -10�C\nis:",
+        "options": [
+          "A. 661 kt",
+          "B. 650 kt",
+          "C. 673 kt",
+          "D. 680 kt"
+        ],
+        "answer": "B (Temp = 15 - 10 = 5�C = 278.15 K. LSS =\n$38.967 \\sqrt{T(K)}$ = $38.967 \\sqrt{278.15}$ ≈ 650 kt)",
+        "explanation": ""
+      },
+      {
+        "question": "The magnetic heading reference unit has a precession rate\nof:",
+        "options": [
+          "A. 1�/min",
+          "B. 2�/min",
+          "C. 5�/min",
+          "D. 3�/min"
+        ],
+        "answer": "B",
+        "explanation": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "changedCount": 45,
+  "updates": [
+    {
+      "dstId": 48,
+      "dstCat": "aircraft-general-knowledge",
+      "dstTest": "aircraft-general-knowledge-test-3",
+      "srcId": 47
+    },
+    {
+      "dstId": 56,
+      "dstCat": "aircraft-general-knowledge",
+      "dstTest": "aircraft-general-knowledge-test-3",
+      "srcId": 55
+    },
+    {
+      "dstId": 216,
+      "dstCat": "aon-aviation-knowledge",
+      "dstTest": "aon-aviation-knowledge-test-1",
+      "srcId": 55
+    },
+    {
+      "dstId": 234,
+      "dstCat": "aon-aviation-knowledge",
+      "dstTest": "aon-aviation-knowledge-test-2",
+      "srcId": 57
+    },
+    {
+      "dstId": 103,
+      "dstCat": "air-law",
+      "dstTest": "air-law-test-1",
+      "srcId": 103
+    },
+    {
+      "dstId": 1491,
+      "dstCat": "air-law",
+      "dstTest": "air-law-test-5",
+      "srcId": 161
+    },
+    {
+      "dstId": 768,
+      "dstCat": "operational-procedures",
+      "dstTest": "operational-procedures-test-1",
+      "srcId": 161
+    },
+    {
+      "dstId": 200,
+      "dstCat": "air-law",
+      "dstTest": "air-law-test-5",
+      "srcId": 167
+    },
+    {
+      "dstId": 162,
+      "dstCat": "air-law",
+      "dstTest": "air-law-test-4",
+      "srcId": 170
+    },
+    {
+      "dstId": 167,
+      "dstCat": "air-law",
+      "dstTest": "air-law-test-4",
+      "srcId": 175
+    },
+    {
+      "dstId": 1499,
+      "dstCat": "air-law",
+      "dstTest": "air-law-test-5",
+      "srcId": 191
+    },
+    {
+      "dstId": 200,
+      "dstCat": "air-law",
+      "dstTest": "air-law-test-5",
+      "srcId": 210
+    },
+    {
+      "dstId": 241,
+      "dstCat": "aon-aviation-knowledge",
+      "dstTest": "aon-aviation-knowledge-test-3",
+      "srcId": 216
+    },
+    {
+      "dstId": 245,
+      "dstCat": "aon-aviation-knowledge",
+      "dstTest": "aon-aviation-knowledge-test-3",
+      "srcId": 219
+    },
+    {
+      "dstId": 240,
+      "dstCat": "aon-aviation-knowledge",
+      "dstTest": "aon-aviation-knowledge-test-3",
+      "srcId": 224
+    },
+    {
+      "dstId": 216,
+      "dstCat": "aon-aviation-knowledge",
+      "dstTest": "aon-aviation-knowledge-test-1",
+      "srcId": 226
+    },
+    {
+      "dstId": 56,
+      "dstCat": "aircraft-general-knowledge",
+      "dstTest": "aircraft-general-knowledge-test-3",
+      "srcId": 226
+    },
+    {
+      "dstId": 255,
+      "dstCat": "aon-aviation-knowledge",
+      "dstTest": "aon-aviation-knowledge-test-3",
+      "srcId": 233
+    },
+    {
+      "dstId": 251,
+      "dstCat": "aon-aviation-knowledge",
+      "dstTest": "aon-aviation-knowledge-test-3",
+      "srcId": 234
+    },
+    {
+      "dstId": 263,
+      "dstCat": "aon-aviation-knowledge",
+      "dstTest": "aon-aviation-knowledge-test-4",
+      "srcId": 241
+    },
+    {
+      "dstId": 305,
+      "dstCat": "aon-aviation-knowledge",
+      "dstTest": "aon-aviation-knowledge-test-6",
+      "srcId": 298
+    },
+    {
+      "dstId": 847,
+      "dstCat": "operational-procedures",
+      "dstTest": "operational-procedures-test-5",
+      "srcId": 298
+    },
+    {
+      "dstId": 314,
+      "dstCat": "aon-aviation-knowledge",
+      "dstTest": "aon-aviation-knowledge-test-7",
+      "srcId": 307
+    },
+    {
+      "dstId": 627,
+      "dstCat": "mass-and-balance",
+      "dstTest": "mass-and-balance-test-2",
+      "srcId": 307
+    },
+    {
+      "dstId": 1498,
+      "dstCat": "flight-planning-and-monitoring",
+      "dstTest": "flight-planning-and-monitoring-test-1",
+      "srcId": 323
+    },
+    {
+      "dstId": 395,
+      "dstCat": "flight-planning-and-monitoring",
+      "dstTest": "flight-planning-and-monitoring-test-4",
+      "srcId": 1321
+    },
+    {
+      "dstId": 395,
+      "dstCat": "flight-planning-and-monitoring",
+      "dstTest": "flight-planning-and-monitoring-test-4",
+      "srcId": 398
+    },
+    {
+      "dstId": 453,
+      "dstCat": "human-performance-and-limitations",
+      "dstTest": "human-performance-and-limitations-test-2",
+      "srcId": 457
+    },
+    {
+      "dstId": 453,
+      "dstCat": "human-performance-and-limitations",
+      "dstTest": "human-performance-and-limitations-test-2",
+      "srcId": 494
+    },
+    {
+      "dstId": 48,
+      "dstCat": "aircraft-general-knowledge",
+      "dstTest": "aircraft-general-knowledge-test-3",
+      "srcId": 598
+    },
+    {
+      "dstId": 868,
+      "dstCat": "principles-of-flight",
+      "dstTest": "principles-of-flight-test-1",
+      "srcId": 599
+    },
+    {
+      "dstId": 1499,
+      "dstCat": "air-law",
+      "dstTest": "air-law-test-5",
+      "srcId": 600
+    },
+    {
+      "dstId": 314,
+      "dstCat": "aon-aviation-knowledge",
+      "dstTest": "aon-aviation-knowledge-test-7",
+      "srcId": 653
+    },
+    {
+      "dstId": 627,
+      "dstCat": "mass-and-balance",
+      "dstTest": "mass-and-balance-test-2",
+      "srcId": 653
+    },
+    {
+      "dstId": 768,
+      "dstCat": "operational-procedures",
+      "dstTest": "operational-procedures-test-1",
+      "srcId": 805
+    },
+    {
+      "dstId": 1491,
+      "dstCat": "air-law",
+      "dstTest": "air-law-test-5",
+      "srcId": 805
+    },
+    {
+      "dstId": 167,
+      "dstCat": "air-law",
+      "dstTest": "air-law-test-4",
+      "srcId": 861
+    },
+    {
+      "dstId": 103,
+      "dstCat": "air-law",
+      "dstTest": "air-law-test-1",
+      "srcId": 862
+    },
+    {
+      "dstId": 162,
+      "dstCat": "air-law",
+      "dstTest": "air-law-test-4",
+      "srcId": 864
+    },
+    {
+      "dstId": 847,
+      "dstCat": "operational-procedures",
+      "dstTest": "operational-procedures-test-5",
+      "srcId": 892
+    },
+    {
+      "dstId": 305,
+      "dstCat": "aon-aviation-knowledge",
+      "dstTest": "aon-aviation-knowledge-test-6",
+      "srcId": 892
+    },
+    {
+      "dstId": 868,
+      "dstCat": "principles-of-flight",
+      "dstTest": "principles-of-flight-test-1",
+      "srcId": 913
+    },
+    {
+      "dstId": 1207,
+      "dstCat": "performance",
+      "dstTest": "performance-test-3",
+      "srcId": 965
+    },
+    {
+      "dstId": 1498,
+      "dstCat": "flight-planning-and-monitoring",
+      "dstTest": "flight-planning-and-monitoring-test-1",
+      "srcId": 1188
+    },
+    {
+      "dstId": 1207,
+      "dstCat": "performance",
+      "dstTest": "performance-test-3",
+      "srcId": 1297
+    }
+  ]
+}

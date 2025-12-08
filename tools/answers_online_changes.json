@@ -1,0 +1,202 @@
+{
+  "updated": 0,
+  "checked": 1785,
+  "changes": [
+    {
+      "category": "Instrumentation",
+      "test": "Instrumentation Test 1",
+      "index": 3,
+      "rule": "turn-slip-needle-ball",
+      "from": 2,
+      "to": 2,
+      "confidence": "high",
+      "sources": [
+        {
+          "title": "Turn and slip indicator – Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Turn_and_slip_indicator"
+        }
+      ],
+      "reasoning": "Needle shows turn; ball opposite indicates insufficient bank (slip)."
+    },
+    {
+      "category": "Instrumentation",
+      "test": "Instrumentation Test 1",
+      "index": 4,
+      "rule": "gpws-modes",
+      "from": 0,
+      "to": 0,
+      "confidence": "high",
+      "sources": [
+        {
+          "title": "GPWS – Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ground_proximity_warning_system"
+        }
+      ],
+      "reasoning": "Modes include excessive sink rate, terrain/obstacle closure, altitude loss after takeoff, glideslope deviation, unsafe terrain clearance, bank angle, windshear."
+    },
+    {
+      "category": "Instrumentation",
+      "test": "Instrumentation Test 1",
+      "index": 5,
+      "rule": "standard-rate-bank",
+      "from": 2,
+      "to": 2,
+      "confidence": "high",
+      "sources": [
+        {
+          "title": "Standard rate turn – Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Standard_rate_turn"
+        }
+      ],
+      "reasoning": "Approx φ ≈ TAS/10 + 7 => ~19°."
+    },
+    {
+      "category": "Instrumentation",
+      "test": "Instrumentation Test 1",
+      "index": 6,
+      "rule": "fail-active",
+      "from": 1,
+      "to": 1,
+      "confidence": "high",
+      "sources": [
+        {
+          "title": "Autoland – Wikipedia (fail-operational)",
+          "url": "https://en.wikipedia.org/wiki/Autoland"
+        }
+      ],
+      "reasoning": "Fail-active equals fail-operational."
+    },
+    {
+      "category": "Instrumentation",
+      "test": "Instrumentation Test 1",
+      "index": 7,
+      "rule": "gpws-inputs",
+      "from": 1,
+      "to": 1,
+      "confidence": "high",
+      "sources": [
+        {
+          "title": "GPWS – Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ground_proximity_warning_system"
+        }
+      ],
+      "reasoning": "GPWS uses RA, configuration (flaps/gear), and glideslope inputs; VOR/attitudes are not core inputs."
+    },
+    {
+      "category": "Instrumentation",
+      "test": "Instrumentation Test 1",
+      "index": 8,
+      "rule": "density-altitude-def",
+      "from": 2,
+      "to": 2,
+      "confidence": "high",
+      "sources": [
+        {
+          "title": "Density altitude – Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Density_altitude"
+        },
+        {
+          "title": "FAA PHAK, Ch. 11",
+          "url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf"
+        }
+      ],
+      "reasoning": "Density altitude is the ISA altitude at which the ambient density would occur."
+    },
+    {
+      "category": "Instrumentation",
+      "test": "Instrumentation Test 1",
+      "index": 9,
+      "rule": "radio-altimeter-band",
+      "from": 1,
+      "to": 1,
+      "confidence": "high",
+      "sources": [
+        {
+          "title": "Radar altimeter – Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Radio_altimeter"
+        }
+      ],
+      "reasoning": "Civil RA operates in SHF (C-band 4.2–4.4 GHz)."
+    },
+    {
+      "category": "Instrumentation",
+      "test": "Instrumentation - 617 Import",
+      "index": 1,
+      "rule": "gpws-modes",
+      "from": 0,
+      "to": 0,
+      "confidence": "medium",
+      "sources": [
+        {
+          "title": "GPWS – Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ground_proximity_warning_system"
+        }
+      ],
+      "reasoning": "Modes include excessive sink rate, terrain/obstacle closure, altitude loss after takeoff, glideslope deviation, unsafe terrain clearance, bank angle, windshear."
+    },
+    {
+      "category": "Instrumentation",
+      "test": "Instrumentation - 617 Import",
+      "index": 2,
+      "rule": "gpws-inputs",
+      "from": 1,
+      "to": 1,
+      "confidence": "medium",
+      "sources": [
+        {
+          "title": "GPWS – Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ground_proximity_warning_system"
+        }
+      ],
+      "reasoning": "GPWS uses RA, configuration (flaps/gear), and glideslope inputs; VOR/attitudes are not core inputs."
+    },
+    {
+      "category": "Radio Navigation",
+      "test": " Instrumentation Test 2",
+      "index": 2,
+      "rule": "gpws-modes",
+      "from": 2,
+      "to": 2,
+      "confidence": "medium",
+      "sources": [
+        {
+          "title": "GPWS – Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ground_proximity_warning_system"
+        }
+      ],
+      "reasoning": "Modes include excessive sink rate, terrain/obstacle closure, altitude loss after takeoff, glideslope deviation, unsafe terrain clearance, bank angle, windshear."
+    },
+    {
+      "category": "Radio Navigation",
+      "test": " Instrumentation Test 2",
+      "index": 4,
+      "rule": "fail-active",
+      "from": 1,
+      "to": 1,
+      "confidence": "high",
+      "sources": [
+        {
+          "title": "Autoland – Wikipedia (fail-operational)",
+          "url": "https://en.wikipedia.org/wiki/Autoland"
+        }
+      ],
+      "reasoning": "Fail-active equals fail-operational."
+    },
+    {
+      "category": "Radio Navigation",
+      "test": " Instrumentation Test 2",
+      "index": 5,
+      "rule": "gpws-inputs",
+      "from": 1,
+      "to": 1,
+      "confidence": "medium",
+      "sources": [
+        {
+          "title": "GPWS – Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ground_proximity_warning_system"
+        }
+      ],
+      "reasoning": "GPWS uses RA, configuration (flaps/gear), and glideslope inputs; VOR/attitudes are not core inputs."
+    }
+  ]
+}

@@ -1,0 +1,927 @@
+ID: 2
+AON Question: The SSR ground tranciever interrogates on   ..........   and recieves responses on :
+TestData Question: The SSR ground transceiver interrogates on ................ and receives responses on ................
+Category: radio-navigation
+Question Similarity: 92.6%
+Answer Similarity: 52.9%
+AON Answer:  1030. 1090
+TestData Answer: 1030 MHz 1090 MHz
+--------------------------------------------------------------------------------
+ID: 9
+AON Question: According to ICAO (annex 11), the definition of an RNAV system is:
+TestData Question: According to ICAO (Annex 11), the definition of an RNAV system is:
+Category: radio-navigation
+Question Similarity: 100.0%
+Answer Similarity: 40.9%
+AON Answer:  one which enables the aircraft to navigate on any desired flight path within the coverage of
+TestData Answer: one which enables the aircraft to navigate on any desired flight path within the coverage of appropriate ground based navigation aids or within the specified limits of self-contained on-board systems or a combination of the two
+--------------------------------------------------------------------------------
+ID: 15
+AON Question: the accuracy of SSR mode C altitude as displayed to the air traffic controller is:
+TestData Question: The accuracy of SSR mode C altitude as displayed to the air traffic controller is:
+Category: radio-navigation
+Question Similarity: 100.0%
+Answer Similarity: 60.0%
+AON Answer: +/-50 ft
+TestData Answer: ±75 ft
+--------------------------------------------------------------------------------
+ID: 40
+AON Question: the main advantage of a continuous wave radar over a pulsed radar is:
+TestData Question: The main advantage of a continuous wave radar over a pulsed radar is:
+Category: radio-navigation
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: removes the minimum range restriction
+--------------------------------------------------------------------------------
+ID: 44
+AON Question: If the aircraft DME interrogates a ground transponder on a frequency of 1199 MHz, it will
+TestData Question: If the aircraft DME interrogates a ground transponder on a frequency of 1199 MHz, it will receive replies on:
+Category: radio-navigation
+Question Similarity: 82.2%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: 1136 MHz
+--------------------------------------------------------------------------------
+ID: 47
+AON Question: The purpose of the PRN codes in NAVSTAR/GPS is to:
+TestData Question: The purpose of the PRN codes in NAVSTAR/GPS is to:
+Category: radio-navigation
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: all of the above
+--------------------------------------------------------------------------------
+ID: 49
+AON Question: The most accurate external reference position will be provided by:
+TestData Question: The most accurate external reference position will be provided by:
+Category: radio-navigation
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: Twin DME
+--------------------------------------------------------------------------------
+ID: 73
+AON Question: An NDB has emission designator NONA1A this will require the use of the BFO for:
+TestData Question: An NDB has emission designator N0NA1A this will require the use of the BFO for:
+Category: radio-navigation
+Question Similarity: 98.7%
+Answer Similarity: 38.9%
+AON Answer: tuning, identification and monitoring
+TestData Answer: identification
+--------------------------------------------------------------------------------
+ID: 91
+AON Question: The type of radar which has no minimum range restriction is:
+TestData Question: The type of radar which has no minimum range restriction is:
+Category: radio-navigation
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: primary CW radar
+--------------------------------------------------------------------------------
+ID: 97
+AON Question: A full MLS system comprises a DME and:
+TestData Question: A full MLS system comprises a DME and:
+Category: radio-navigation
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: 2 elements multiplexing on one frequency
+--------------------------------------------------------------------------------
+ID: 101
+AON Question: For an aircraft flying straight and level at constant lAS, when flaps are deployed the
+TestData Question: For an aircraft flying straight and level at constant IAS, when flaps are deployed the induced drag:
+Category: principles-of-flight
+Question Similarity: 85.7%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: stays the same
+--------------------------------------------------------------------------------
+ID: 103
+AON Question: Positive static longitudinal stability means:
+TestData Question: Positive static longitudinal stability means:
+Category: principles-of-flight
+Question Similarity: 100.0%
+Answer Similarity: 54.7%
+AON Answer: nose-down pitching moment when
+TestData Answer: nose-down pitching moment when encountering an up gust
+--------------------------------------------------------------------------------
+ID: 109
+AON Question: How does a plain flap increase CL?
+TestData Question: How does a plain flap increase CL?
+Category: principles-of-flight
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: Increases camber
+--------------------------------------------------------------------------------
+ID: 118
+AON Question: vortex generators:
+TestData Question: Vortex generators:
+Category: principles-of-flight
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: use free stream flow to increase energy in the turbulent boundary layer
+--------------------------------------------------------------------------------
+ID: 120
+AON Question: What effect on stall speed de the following have?
+TestData Question: What effect on stall speed do the following have?
+Category: principles-of-flight
+Question Similarity: 97.9%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: Decreasing sweep angle decreases stall speed
+--------------------------------------------------------------------------------
+ID: 125
+AON Question: the IAS of a stall:
+TestData Question: The IAS of a stall:
+Category: principles-of-flight
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: may increase with increasing altitude, especially high altitude, forward CG and icing
+--------------------------------------------------------------------------------
+ID: 132
+AON Question: what is load factor?
+TestData Question: What is load factor?
+Category: principles-of-flight
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: Lift / Weight
+--------------------------------------------------------------------------------
+ID: 136
+AON Question: what is a high speed stall?
+TestData Question: What is a high speed stall?
+Category: principles-of-flight
+Question Similarity: 100.0%
+Answer Similarity: 48.1%
+AON Answer: A stall due to decreasing
+TestData Answer: A stall due to decreasing CLMAX at speeds above M 0.4
+--------------------------------------------------------------------------------
+ID: 137
+AON Question: Which of the following is the most important result/problem caused by ice formation?
+TestData Question: Which of the following is the most important result/problem caused by ice formation?
+Category: principles-of-flight
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: Reduction in CLMAX
+--------------------------------------------------------------------------------
+ID: 139
+AON Question: The angle of attack at the stall:
+TestData Question: The angle of attack at the stall:
+Category: principles-of-flight
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: is not affected by changes in weight
+--------------------------------------------------------------------------------
+ID: 152
+AON Question: Which of the following is the correct definition of aspect ratio?
+TestData Question: Which of the following is the correct definition of aspect ratio?
+Category: principles-of-flight
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: Span divided by mean chord
+--------------------------------------------------------------------------------
+ID: 153
+AON Question: Angle of attack is the angle between:
+TestData Question: Angle of attack is the angle between:
+Category: principles-of-flight
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: undisturbed airflow and chord line.
+--------------------------------------------------------------------------------
+ID: 154
+AON Question: what is interference drag?
+TestData Question: What is interference drag?
+Category: principles-of-flight
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: Drag due to the interaction of individual boundary layers at the junction of aircraft major components
+--------------------------------------------------------------------------------
+ID: 155
+AON Question: Which of the following is the cause of wing tip vortices?
+TestData Question: Which of the following is the cause of wing tip vortices?
+Category: principles-of-flight
+Question Similarity: 100.0%
+Answer Similarity: 46.8%
+AON Answer: Spanwise flow vector from the tip to the root on the bottom surface of the wing
+TestData Answer: Air spilling from the bottom surface to the top surface at the wing tip
+--------------------------------------------------------------------------------
+ID: 160
+AON Question: on entering ground effect:
+TestData Question: On entering ground effect:
+Category: principles-of-flight
+Question Similarity: 100.0%
+Answer Similarity: 13.0%
+AON Answer: less thrust is required
+TestData Answer: induced drag decreases
+--------------------------------------------------------------------------------
+ID: 162
+AON Question: Which of the following expressions is correct?
+TestData Question: Which of the following expressions is correct?
+Category: principles-of-flight
+Question Similarity: 100.0%
+Answer Similarity: 57.1%
+AON Answer: M = F x A
+TestData Answer: F = M × A
+--------------------------------------------------------------------------------
+ID: 190
+AON Question: How does the slush thickness affect the V1 reduction required?
+TestData Question: How does the slush thickness affect the V1 reduction required?
+Category: performance
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: Smaller reduction if thicker
+--------------------------------------------------------------------------------
+ID: 238
+AON Question: The conditions which must exist to allow thunderstorms to develop are:
+TestData Question: The conditions which must exist to allow thunderstorms to develop are:
+Category: meteorology
+Question Similarity: 100.0%
+Answer Similarity: 52.8%
+AON Answer: a steep lapse rate, a stable atmosphere through a large vertical extent and a plentiful
+TestData Answer: a plentiful supply of moisture and a steep lapse rate through a large vertical extent and a trigger action
+--------------------------------------------------------------------------------
+ID: 239
+AON Question: Fair weather cumulus gives an indication of:
+TestData Question: Fair weather cumulus gives an indication of:
+Category: meteorology
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: turbulence
+--------------------------------------------------------------------------------
+ID: 242
+AON Question: Thunderstorms caused by...... are most common in the summer and by.....
+TestData Question: Thunderstorms caused by _________are most common in the summer and by __in the
+Category: meteorology
+Question Similarity: 76.9%
+Answer Similarity: 52.9%
+AON Answer: convection / frontal
+TestData Answer: convection / frontal activity / winter
+--------------------------------------------------------------------------------
+ID: 272
+AON Question: Relative humidity is:
+TestData Question: Relative humidity is:
+Category: meteorology
+Question Similarity: 100.0%
+Answer Similarity: 67.5%
+AON Answer: the actual amount of water vapour in a sample of air over the maximum amount of water
+TestData Answer: the actual amount of water vapour in a sample of air over the maximum amount of water vapour that the sample can contain x 100
+--------------------------------------------------------------------------------
+ID: 279
+AON Question: Referring to the area of the North Atlantic, the mean position of the polar front in January
+TestData Question: Referring to the area of the North Atlantic, the mean position of the polar front in January is:
+Category: meteorology
+Question Similarity: 96.8%
+Answer Similarity: 56.8%
+AON Answer: from Florida to southwest
+TestData Answer: from Florida to the north of Scotland
+--------------------------------------------------------------------------------
+ID: 292
+AON Question: Which of the following are thermal depressions?
+TestData Question: Which of the following are thermal depressions?
+Category: meteorology
+Question Similarity: 100.0%
+Answer Similarity: 25.0%
+AON Answer: The lows forming over flat land in summer, polar air depressions, tropical revolving
+TestData Answer: The equatorial trough, monsoon lows, some depressions over the central and eastern Mediterranean sea in summer
+--------------------------------------------------------------------------------
+ID: 301
+AON Question: Concerning landing gear, which factors limit take-off performance?
+TestData Question: Concerning landing gear, which factors limit take-off performance?
+Category: performance
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: Tyre speed and VMBE
+--------------------------------------------------------------------------------
+ID: 304
+AON Question: Vlo is defined as:
+TestData Question: VLO is defined as:
+Category: instrumentation
+Question Similarity: 100.0%
+Answer Similarity: 52.8%
+AON Answer: the maximum speed for landing gear operation
+TestData Answer: the maximum speed at which the landing gear may be retracted or extended
+--------------------------------------------------------------------------------
+ID: 315
+AON Question: What procedure is likely to require V1 to be reduced?
+TestData Question: What procedure is likely to require V1 to be reduced?
+Category: performance
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: Take off with anti-skid inoperative
+--------------------------------------------------------------------------------
+ID: 341
+AON Question: For a turbojet aeroplane the third segment of climb begins when:
+TestData Question: For a turbojet aeroplane the second segment of the climb begins when:
+Category: performance
+Question Similarity: 86.8%
+Answer Similarity: 18.2%
+AON Answer: acceleration to flap retraction speed begins (min 400 ft)
+TestData Answer: the landing gear is fully retracted
+--------------------------------------------------------------------------------
+ID: 348
+AON Question: The buffet onset boundary chart tells the pilot the:
+TestData Question: The buffet onset boundary chart tells the pilot the:
+Category: performance
+Question Similarity: 100.0%
+Answer Similarity: 69.1%
+AON Answer: Mach number for low speed buffet and shock buffet for various masses and altitudes.
+TestData Answer: values for low speed buffet onset and high speed buffet onset for various masses and altitudes
+--------------------------------------------------------------------------------
+ID: 355
+AON Question: Absolute ceiling is defined by:
+TestData Question: Absolute ceiling is defined by:
+Category: performance
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: altitude where theoretical rate of climb is zero
+--------------------------------------------------------------------------------
+ID: 396
+AON Question: Which of the following is to be left on the ground?
+TestData Question: Which of the following is to be left on the ground?
+Category: operational-procedures
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: Operational flight plan
+--------------------------------------------------------------------------------
+ID: 397
+AON Question: When can special VFR be commenced?
+TestData Question: When can special VFR be commenced?
+Category: operational-procedures
+Question Similarity: 100.0%
+Answer Similarity: 13.3%
+AON Answer: Greater than 3 km visibility
+TestData Answer: Visibility no more than 3000 m
+--------------------------------------------------------------------------------
+ID: 410
+AON Question: When is MDH referenced to the threshold as opposed to the aerodrome elevation?
+TestData Question: When is MDH referenced to the threshold as opposed to the aerodrome elevation?
+Category: operational-procedures
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: The threshold is more than 2 m below the ARP
+--------------------------------------------------------------------------------
+ID: 418
+AON Question: The Cat I minimum decision height is:
+TestData Question: The Cat I minimum decision height is:
+Category: aon-aviation-knowledge
+Question Similarity: 100.0%
+Answer Similarity: 62.5%
+AON Answer: 200ft
+TestData Answer: 200 feet
+--------------------------------------------------------------------------------
+ID: 433
+AON Question: How far away can a take-off alternate be for a 2-engine aeroplane?
+TestData Question: How far away can a take-off alternate be for a 2-engine aeroplane?
+Category: operational-procedures
+Question Similarity: 100.0%
+Answer Similarity: 67.6%
+AON Answer: 120 mins at normal cruise speed
+TestData Answer: 60 mins at one engine cruise speed
+--------------------------------------------------------------------------------
+ID: 465
+AON Question: How often should pilot proficiency checks be performed?
+TestData Question: How often should pilot proficiency checks be performed?
+Category: operational-procedures
+Question Similarity: 100.0%
+Answer Similarity: 68.2%
+AON Answer: 3 checks within the year with no less than 4 months between checks
+TestData Answer: 2 within a year, more than 4 months between checks
+--------------------------------------------------------------------------------
+ID: 484
+AON Question: When do you not need a destination alternate aerodrome?
+TestData Question: When do you not need a destination alternate aerodrome?
+Category: operational-procedures
+Question Similarity: 100.0%
+Answer Similarity: 62.0%
+AON Answer: If there is a reasonable certainty that at the ETA at the destination aerodrome and a
+TestData Answer: If there is a reasonable certainty that at the ETA at the destination aerodrome and a reasonable time before and after you can expect VMC
+--------------------------------------------------------------------------------
+ID: 487
+AON Question: Supplemental oxygen is used to:
+TestData Question: Supplemental oxygen is used to:
+Category: operational-procedures
+Question Similarity: 100.0%
+Answer Similarity: 47.3%
+AON Answer: provide oxygen to passengers who might require it, following a cabin depressurization
+TestData Answer: provide oxygen to passengers following decompression if the cabin altitude exceeds 10000 ft
+--------------------------------------------------------------------------------
+ID: 540
+AON Question: With regards to the Maximum Zero Fuel Weight (MZFW):
+TestData Question: With regards to the Maximum Zero Fuel Weight (MZFW):
+Category: aon-aviation-knowledge
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: It is the maximum weight that an aircraft can be loaded to without useable fuel.
+--------------------------------------------------------------------------------
+ID: 546
+AON Question: Following an indication of unserviceability of an air conditioning pack whilst on stand,
+TestData Question: Following an indication of unserviceability of an air conditioning pack whilst on stand, what do you consult?
+Category: aon-aviation-knowledge
+Question Similarity: 81.3%
+Answer Similarity: 10.0%
+AON Answer: MEL
+TestData Answer: The Minimum Equipment List (MEL)
+--------------------------------------------------------------------------------
+ID: 550
+AON Question: Following an indication of unserviceability of an air conditioning pack whilst on stand,
+TestData Question: Following an indication of unserviceability of an air conditioning pack whilst on stand, what do you consult?
+Category: aon-aviation-knowledge
+Question Similarity: 81.3%
+Answer Similarity: 10.0%
+AON Answer:  mel
+TestData Answer: The Minimum Equipment List (MEL)
+--------------------------------------------------------------------------------
+ID: 552
+AON Question: Which of the following statements is true
+TestData Question: Which of the following statements is true?
+Category: aon-aviation-knowledge
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: Titanium alloy is used in aircraft construction because of its good wear and high temperature tolerance
+--------------------------------------------------------------------------------
+ID: 555
+AON Question: Which of the following statements is true?
+TestData Question: Which of the following statements is true?
+Category: aon-aviation-knowledge
+Question Similarity: 100.0%
+Answer Similarity: 58.3%
+AON Answer: Aluminium alloys are used in aircraft construction because they are light, easily machined
+TestData Answer: Titanium alloy is used in aircraft construction because of its good wear and high temperature tolerance
+--------------------------------------------------------------------------------
+ID: 561
+AON Question: A turbo-supercharger impeller is driven by:
+TestData Question: A turbo-supercharger impeller is driven by:
+Category: aon-aviation-knowledge
+Question Similarity: 100.0%
+Answer Similarity: 1.1%
+AON Answer: A.
+TestData Answer: diversion of exhaust gases by the waste gate using energy that would otherwise be wasted
+--------------------------------------------------------------------------------
+ID: 573
+AON Question: Which of the following statements is true?
+TestData Question: Which of the following statements is true?
+Category: aon-aviation-knowledge
+Question Similarity: 100.0%
+Answer Similarity: 58.3%
+AON Answer: Aluminium alloys are used in aircraft construction because they are light, easily machined
+TestData Answer: Titanium alloy is used in aircraft construction because of its good wear and high temperature tolerance
+--------------------------------------------------------------------------------
+ID: 575
+AON Question: A logarithmic scale is fitted to the vertical speed indicator in order to:A-575: Make lower
+TestData Question: A logarithmic scale is fitted to the vertical speed indicator in order to:
+Category: aon-aviation-knowledge
+Question Similarity: 83.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: make lower values of vertical speed easier to read
+--------------------------------------------------------------------------------
+ID: 580
+AON Question: What is the speed limitation in the hold for class A & B aircraft below 14000 ft?
+TestData Question: What is the speed limitation in the hold for class A & B aircraft below 14000 ft?
+Category: aon-aviation-knowledge
+Question Similarity: 100.0%
+Answer Similarity: 66.7%
+AON Answer: 170 kt
+TestData Answer: 230 kt
+--------------------------------------------------------------------------------
+ID: 585
+AON Question: The ILS Localizer operates in which frequency band?
+TestData Question: The ILS Localiser operates in the following frequency band:
+Category: aon-aviation-knowledge
+Question Similarity: 79.3%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: 108.0-112.0 MHZ
+--------------------------------------------------------------------------------
+ID: 611
+AON Question:  The rate of climb is approximately equal to?
+TestData Question: The rate of climb is approximately equal to?
+Category: aon-aviation-knowledge
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: The still air gradient multiplied by the TAS
+--------------------------------------------------------------------------------
+ID: 626
+AON Question:  The signal from pilot to the signalman (marshaller) which means "brakes applied" is:
+TestData Question: The signal from pilot to the signalman (marshaller) which means "brakes applied" is:
+Category: aon-aviation-knowledge
+Question Similarity: 100.0%
+Answer Similarity: 28.7%
+AON Answer: Raise arm and hand, with fingers extended, horizontally in front of face, then clench fist
+TestData Answer: Fist clenched in front of the face then fingers extended
+--------------------------------------------------------------------------------
+ID: 732
+AON Question:  The Transition Level:
+TestData Question: Transition Level:
+Category: air-law
+Question Similarity: 80.0%
+Answer Similarity: 31.3%
+AON Answer: Shall be the lowest flight level available for use above the transition altitude
+TestData Answer: will be calculated by the ATC service of an ATS unit.
+--------------------------------------------------------------------------------
+ID: 734
+AON Question: the fuel index:
+TestData Question: The fuel index:
+Category: aon-aviation-knowledge
+Question Similarity: 100.0%
+Answer Similarity: 50.0%
+AON Answer: Is used to calculate the correct position of the
+TestData Answer: Is used to calculate the correct position of the CG due to different locations of the fuel tanks
+--------------------------------------------------------------------------------
+ID: 755
+AON Question: What type of precipitation would you expect at an active unstable cold front?
+TestData Question: What type of precipitation would you expect at an active unstable cold front?
+Category: aon-aviation-knowledge
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: Showers associated with thunderstorms
+--------------------------------------------------------------------------------
+ID: 771
+AON Question: If someone is hyperventilating, the blood contains too much:
+TestData Question: If someone is hyperventilating, the blood contains too much:
+Category: human-performance-and-limitations
+Question Similarity: 100.0%
+Answer Similarity: 25.0%
+AON Answer: acid
+TestData Answer: alkaline
+--------------------------------------------------------------------------------
+ID: 782
+AON Question: Which of the following statements, if any, are correct?
+TestData Question: Which of the following statements is correct?
+Category: aon-aviation-knowledge
+Question Similarity: 82.7%
+Answer Similarity: 0.9%
+AON Answer:  1 & 2
+TestData Answer: batteries are considered dangerous goods if transported due to the risk of thermal runaway and the substances inside
+--------------------------------------------------------------------------------
+ID: 836
+AON Question: Which of the following are correct?
+TestData Question: Which of the following statements is correct?
+Category: aon-aviation-knowledge
+Question Similarity: 75.0%
+Answer Similarity: 0.9%
+AON Answer: 2 & 3
+TestData Answer: batteries are considered dangerous goods if transported due to the risk of thermal runaway and the substances inside
+--------------------------------------------------------------------------------
+ID: 858
+AON Question: A pilot suffering from hyperventilation during final approach in poor weather can combat
+TestData Question: A pilot suffering from hyperventilation during final approach in poor weather can combat the effects by:
+Category: human-performance-and-limitations
+Question Similarity: 85.4%
+Answer Similarity: 25.9%
+AON Answer: regulating depth and rate of breathing
+TestData Answer: slowing the breathing rate, breathing into a paper bag and continuing the approach
+--------------------------------------------------------------------------------
+ID: 941
+AON Question: please refer to appendix A. What is the chart symbol for a lightship.
+TestData Question: Please refer to Appendix A. What is the chart symbol for a lightship?
+Category: general-navigation
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: 8
+--------------------------------------------------------------------------------
+ID: 946
+AON Question: Please refer to Appendix A. What is the chart symbol for an NDB?
+TestData Question: Please refer to Appendix A. What is the chart symbol for an NDB?
+Category: general-navigation
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: 2
+--------------------------------------------------------------------------------
+ID: 952
+AON Question: Please refer to Appendix A. What is the chart symbol for a VOR/DME?
+TestData Question: Please refer to Appendix A. What is the chart symbol for a VOR/DME?
+Category: general-navigation
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: 7
+--------------------------------------------------------------------------------
+ID: 961
+AON Question: A modern radio altimeter uses the frequency band:
+TestData Question: A modern radio altimeter uses the frequency band:
+Category: instrumentation
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: SHF 3000 MHz - 30 GHz
+--------------------------------------------------------------------------------
+ID: 962
+AON Question: On a turn and slip indicator, needle to the left and ball to the right indicates:
+TestData Question: On a turn and slip indicator, needle to the left and ball to the right indicates:
+Category: instrumentation
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: left turn not enough bank
+--------------------------------------------------------------------------------
+ID: 963
+AON Question: What is used for EGT measurement?
+TestData Question: What is used for EGT measurement?
+Category: instrumentation
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: Thermo EMF thermocouples
+--------------------------------------------------------------------------------
+ID: 966
+AON Question: What is density altitude?
+TestData Question: What is density altitude?
+Category: instrumentation
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: The altitude in the International Standard Atmosphere at which the prevailing density would be found
+--------------------------------------------------------------------------------
+ID: 967
+AON Question: An aircraft is travelling at 120 kt, what angle of bank would be required for a rate one
+TestData Question: An aircraft is travelling at 120 kt, what angle of bank would be required for a rate one turn?
+Category: instrumentation
+Question Similarity: 94.6%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: 19°
+--------------------------------------------------------------------------------
+ID: 968
+AON Question: In what range is GPWS operative?
+TestData Question: In what range is GPWS operative?
+Category: instrumentation
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: 2450 - 50 ft
+--------------------------------------------------------------------------------
+ID: 969
+AON Question: Why must an autopilot be synchronized when you wish to disconnect?
+TestData Question: Why must an autopilot be synchronized when you wish to disconnect?
+Category: instrumentation
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: To secure against abrupt changes in aircraft attitude
+--------------------------------------------------------------------------------
+ID: 981
+AON Question: The period of validity of an FMS data base is:
+TestData Question: The period of validity of an FMS data base is:
+Category: instrumentation
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: 28 days
+--------------------------------------------------------------------------------
+ID: 982
+AON Question: A gravity-erecting device is utilized in:
+TestData Question: A gravity-erecting device is utilized in:
+Category: instrumentation
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: an artificial horizon
+--------------------------------------------------------------------------------
+ID: 983
+AON Question: True heading can be converted into magnetic heading using a compass and:
+TestData Question: True heading can be converted into magnetic heading using a compass and:
+Category: general-navigation
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: a map with isogonal lines
+--------------------------------------------------------------------------------
+ID: 984
+AON Question: An aircraft flies into a colder airmass. This will cause the altimeter to:
+TestData Question: An aircraft flies into a colder airmass. This will cause the altimeter to:
+Category: instrumentation
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: over-read
+--------------------------------------------------------------------------------
+ID: 985
+AON Question: An inertial reference system is aligned when turned on so as to:
+TestData Question: An inertial reference system is aligned when turned on so as to:
+Category: instrumentation
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: calculate the computed trihedron with reference to the earth
+--------------------------------------------------------------------------------
+ID: 986
+AON Question: In a solid state gyroscope the purpose of the dither motor is to:
+TestData Question: In a solid state gyroscope the purpose of the dither motor is to:
+Category: instrumentation
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: overcome laser lock
+--------------------------------------------------------------------------------
+ID: 987
+AON Question: Total air temperature is_____than static air temperature and the difference varies
+TestData Question: Total air temperature is ______ than static air temperature and the difference varies with ______.
+Category: instrumentation
+Question Similarity: 84.5%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: warmer CAS
+--------------------------------------------------------------------------------
+ID: 988
+AON Question: The rigidity of a gyroscope can be improved by:
+TestData Question: The rigidity of a gyroscope can be improved by:
+Category: instrumentation
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: increasing the angular momentum and concentrating the mass on the periphery of the rotor
+--------------------------------------------------------------------------------
+ID: 990
+AON Question: An IRS differs from an INS in that it:
+TestData Question: An IRS differs from an INS in that it:
+Category: instrumentation
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: has a shorter spin-up time and suffers from laser lock.
+--------------------------------------------------------------------------------
+ID: 992
+AON Question: What does the white arc on a temperature scale indicate?
+TestData Question: What does the white arc on a temperature scale indicate?
+Category: instrumentation
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: Normal operating temperature
+--------------------------------------------------------------------------------
+ID: 993
+AON Question: With the aircraft weight constant but variations in airfield altitude, take-off will always be
+TestData Question: With the aircraft weight constant but variations in airfield altitude, take-off will always be at a constant:
+Category: instrumentation
+Question Similarity: 86.8%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: calibrated airspeed
+--------------------------------------------------------------------------------
+ID: 996
+AON Question:  A blockage occurs in the ram air source and the drain-hole. The ASI in a nonpressurized
+TestData Question: A blockage occurs in the ram air source and the drain-hole. The ASI in a nonpressurized aircraft will:
+Category: instrumentation
+Question Similarity: 85.9%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: act like an altimeter
+--------------------------------------------------------------------------------
+ID: 1000
+AON Question: The outputs of a flux valve are initially sent to:
+TestData Question: The outputs of a flux valve are initially sent to:
+Category: instrumentation
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: an error detector
+--------------------------------------------------------------------------------
+ID: 1021
+AON Question:  on a standard 2-dot EHSI in the en route mode each dot represents:
+TestData Question: On a standard 2-dot EHSI in the en route mode each dot represents:
+Category: instrumentation
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: 2 NM
+--------------------------------------------------------------------------------
+ID: 1023
+AON Question: In an inertial-lead VSI the source of the most pronounced error is:
+TestData Question: In an inertial-lead VSI the source of the most pronounced error is:
+Category: instrumentation
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: steep turn
+--------------------------------------------------------------------------------
+ID: 1024
+AON Question: The combined Machmeter/ASI is subject to the following errors:
+TestData Question: The combined Machmeter/ASI is subject to the following errors:
+Category: instrumentation
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: position, density, instrument, compressibility, manoeuvre induced
+--------------------------------------------------------------------------------
+ID: 1027
+AON Question: The gravity erecting device on a vertical gyro is used on which instrument?
+TestData Question: The gravity erecting device on a vertical gyro is used on which instrument?
+Category: instrumentation
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: Artificial horizon
+--------------------------------------------------------------------------------
+ID: 1028
+AON Question: In the ILS mode, one dot on the lateral deviation scale on the EHSI indicates:
+TestData Question: In the ILS mode, one dot on the lateral deviation scale on the EHSI indicates:
+Category: instrumentation
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: 1°
+--------------------------------------------------------------------------------
+ID: 1029
+AON Question: Wind information can be displayed in an EFIS system in which of the following modes?
+TestData Question: Wind information can be displayed in an EFIS system in which of the following modes?
+Category: instrumentation
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: full nav full ILS map centre map
+--------------------------------------------------------------------------------
+ID: 1032
+AON Question: The rigidity (gyroscopic interia) of a gyroscope may be increased by:
+TestData Question: The rigidity (gyroscopic interia) of a gyroscope may be increased by:
+Category: instrumentation
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: increasing the speed of rotation and increasing the mass of the rotor
+--------------------------------------------------------------------------------
+ID: 1034
+AON Question: A factor giving an error on a direct indicating compass would be:
+TestData Question: A factor giving an error on a direct indicating compass would be:
+Category: instrumentation
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: acceleration on east/west headings
+--------------------------------------------------------------------------------
+ID: 1035
+AON Question: VLO is defined as:
+TestData Question: VLO is defined as:
+Category: instrumentation
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: the maximum speed at which the landing gear may be retracted or extended
+--------------------------------------------------------------------------------
+ID: 1037
+AON Question: On an EADI radio altitude is displayed:
+TestData Question: On an EADI radio altitude is displayed:
+Category: instrumentation
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: digitally between 2500 ft and 1000 ft and thereafter as an analogue/digital display
+--------------------------------------------------------------------------------
+ID: 1038
+AON Question: To improve the horizontality of a compass, the magnet assembly is suspended from a
+TestData Question: To improve the horizontality of a compass, the magnet assembly is suspended from a point:
+Category: instrumentation
+Question Similarity: 93.1%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: above the centre of gravity
+--------------------------------------------------------------------------------
+ID: 1039
+AON Question: In FMS fitted aircraft the main interface between pilot and system will be provided by:
+TestData Question: In FMS fitted aircraft the main interface between pilot and system will be provided by:
+Category: instrumentation
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: the multi-purpose control and display unit
+--------------------------------------------------------------------------------
+ID: 1040
+AON Question: Select the correct statement:
+TestData Question: Select the correct statement:
+Category: instrumentation
+Question Similarity: 100.0%
+Answer Similarity: 0.0%
+AON Answer: null
+TestData Answer: EAS = CAS corrected for compressibility error
+--------------------------------------------------------------------------------
+ID: 1257
+AON Question: What are the objectives of ATC Services?
+TestData Question: What are the objectives of ATC Services?
+Category: air-law
+Question Similarity: 100.0%
+Answer Similarity: 44.0%
+AON Answer: To prevent collisions between aircraft, to prevent collisions between aircraft on the
+TestData Answer: To prevent collisions between aircraft, to prevent collisions between aircraft on the manoeuvring area and obstructions on that area and to expedite and maintain an orderly flow of air traffic
+--------------------------------------------------------------------------------

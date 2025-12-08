@@ -1,0 +1,309 @@
+{
+  "totalReferences": 47,
+  "charts": [
+    {
+      "reference": "CAP 697 MRJT Figure 4.4",
+      "contexts": [
+        "Flight Planning and Monitoring Test 1  1Refer to CAP 697 MRJT Figure 4.4 Given: Aircraft mass 43000 kg"
+      ]
+    },
+    {
+      "reference": "Figure 4.4",
+      "contexts": [
+        "Flight Planning and Monitoring Test 1  1Refer to CAP 697 MRJT Figure 4.4 Given: Aircraft mass 43000 kg"
+      ]
+    },
+    {
+      "reference": "ED-6",
+      "contexts": [
+        "D.670 NGM  Flag this question View explanation 3Refer to ED-6. The radio navigation aid at N4854.8 E00920.4 is: A.a VOR/DME call sign LBU frequency 109.20 kHz B.a Tacan call sign LBU channel number ",
+        "D. by RT communication with the FIR within which the aircraft is operating  Flag this question View explanation 8Refer to ED-6. The track and distance between Friedrichschafen (EDNY) and Stuttgart ",
+        "D.547.5 NM  Flag this question View explanation 3Refer to Jeppesen Manual ED-6 Flying from position SIGMARINGEN (N4805 E00913) to BIBERACH airport (N4807 E00946)",
+        "D.TAS 423 kt, 936 NAM  Flag this question View explanation 8Refer to Jeppesen Manual ED-6. Give the frequency of ZURICH VOLMET. A. 127.2 MHz",
+        "D.15 min  Flag this question View explanation 13Refer to Jeppesen Manual ED-6. The GRENCHEN LSZG aerodrome (N4711 E00725) has a tower frequency of 120.10MHz. The \"(V)\"\u0000 after the frequency indicates",
+        "D. 3 kt 3 minutes  Flag this question View explanation 15Refer to Jeppesen Manual ED-6. Flying VFR from VILLINGEN (N4758 E00831) to FREUDENSTADT (N4828 E00824), determine the distance.",
+        "D.11.6 GPH 143 kt  Flag this question View explanation 19Refer to Jeppesen Manual ED-6. Flying VFR from PEITING (4748N 01055.5E) to IMMENSTADT (4733.5N 01013.0E), determine the magnetic course.",
+        "D. 063  Flag this question View explanation 20Refer to Jeppesen Manual ED-6. Give the frequency of the GRENCHEN VOR at N4711 E00725. A. 108.65 MHz"
+      ]
+    },
+    {
+      "reference": "Jeppesen SID, STARs & IAP directions are given as:",
+      "contexts": [
+        "D. a VOR/DME call sign LBU frequency 109.20 MHz  Flag this question View explanation 4In the Jeppesen SID, STARs & IAP directions are given as:  "
+      ]
+    },
+    {
+      "reference": "CAP 697 MRJT Figure 4.3.1",
+      "contexts": [
+        "D. FL270  Flag this question View explanation 6Refer to CAP 697 MRJT Figure 4.3.1b Given: Trip Distance 1000 NM"
+      ]
+    },
+    {
+      "reference": "Figure 4.3.1",
+      "contexts": [
+        "D. FL270  Flag this question View explanation 6Refer to CAP 697 MRJT Figure 4.3.1b Given: Trip Distance 1000 NM"
+      ]
+    },
+    {
+      "reference": "CAP 697 MRJT Figure 4.5.4",
+      "contexts": [
+        "D. 175 NGM  Flag this question View explanation 10Refer to CAP 697 MRJT Figure 4.5.4 An aircraft with an estimated landing weight of 55000 kg plans a descent from FL310 through turbulence, the mean"
+      ]
+    },
+    {
+      "reference": "Figure 4.5.4",
+      "contexts": [
+        "D. 175 NGM  Flag this question View explanation 10Refer to CAP 697 MRJT Figure 4.5.4 An aircraft with an estimated landing weight of 55000 kg plans a descent from FL310 through turbulence, the mean"
+      ]
+    },
+    {
+      "reference": "CAP 697 MEP Figure 3.4.",
+      "contexts": [
+        "D. 275 kg 117 NGM  Flag this question View explanation 11Refer to CAP 697 MEP Figure 3.4. An aircraft is \u0000ying at a High Speed Cruise at a pressure altitude of 12000 ft, temperature ISA +15°C. The "
+      ]
+    },
+    {
+      "reference": "Figure 3.4.",
+      "contexts": [
+        "D. 275 kg 117 NGM  Flag this question View explanation 11Refer to CAP 697 MEP Figure 3.4. An aircraft is \u0000ying at a High Speed Cruise at a pressure altitude of 12000 ft, temperature ISA +15°C. The "
+      ]
+    },
+    {
+      "reference": "Jeppesen chart the \u0000gures \"FL80 2700a\" are displayed below",
+      "contexts": [
+        "D. 182 kt  Flag this question View explanation 12On a Jeppesen chart the \u0000gures \"FL80 2700a\" are displayed below an airway. What does the \"FL80\" indicate? A.The route MORA (a safety altitude)"
+      ]
+    },
+    {
+      "reference": "CAP 697 MRJT Figure 4.1",
+      "contexts": [
+        "D. The base of the airway  Flag this question View explanation 13Refer to CAP 697 MRJT Figure 4.1 If an aircraft's cruise weight is 50000 kg the Optimum Altitude for a 0.78 Mach \u0000ight is: A. 35500"
+      ]
+    },
+    {
+      "reference": "Figure 4.1",
+      "contexts": [
+        "D. The base of the airway  Flag this question View explanation 13Refer to CAP 697 MRJT Figure 4.1 If an aircraft's cruise weight is 50000 kg the Optimum Altitude for a 0.78 Mach \u0000ight is: A. 35500"
+      ]
+    },
+    {
+      "reference": "CAP 697 SEP Figure 2.1.",
+      "contexts": [
+        "D. FL360  Flag this question View explanation 14Refer to CAP 697 SEP Figure 2.1. Given: Air\u0000eld elevation 6000 ft"
+      ]
+    },
+    {
+      "reference": "Figure 2.1.",
+      "contexts": [
+        "D. FL360  Flag this question View explanation 14Refer to CAP 697 SEP Figure 2.1. Given: Air\u0000eld elevation 6000 ft"
+      ]
+    },
+    {
+      "reference": "CAP 697 MRJT Figure 4.5.3.2",
+      "contexts": [
+        "D. 16 min 5 gal 52 NGM  Flag this question View explanation 15Reference CAP 697 MRJT Figure 4.5.3.2 Given: Brake Release Mass 62800 kg"
+      ]
+    },
+    {
+      "reference": "Figure 4.5.3.2",
+      "contexts": [
+        "D. 16 min 5 gal 52 NGM  Flag this question View explanation 15Reference CAP 697 MRJT Figure 4.5.3.2 Given: Brake Release Mass 62800 kg"
+      ]
+    },
+    {
+      "reference": "CAP 697 MRJT Figure 4.5.1",
+      "contexts": [
+        "D. FL165  Flag this question View explanation 17Reference CAP 697 MRJT Figure 4.5.1 Given: Climb to FL350"
+      ]
+    },
+    {
+      "reference": "Figure 4.5.1",
+      "contexts": [
+        "D. FL165  Flag this question View explanation 17Reference CAP 697 MRJT Figure 4.5.1 Given: Climb to FL350"
+      ]
+    },
+    {
+      "reference": "CAP 697 MEP Figure 3.5",
+      "contexts": [
+        "D.21 min 1675 kg 398 kt 133 NAM  Flag this question View explanation 18Refer to CAP 697 MEP Figure 3.5 The endurance \"With 45 Min. Reserve at 45% Power\" for an Economy Cruise at 13000 ft is: A. 4 h"
+      ]
+    },
+    {
+      "reference": "Figure 3.5",
+      "contexts": [
+        "D.21 min 1675 kg 398 kt 133 NAM  Flag this question View explanation 18Refer to CAP 697 MEP Figure 3.5 The endurance \"With 45 Min. Reserve at 45% Power\" for an Economy Cruise at 13000 ft is: A. 4 h"
+      ]
+    },
+    {
+      "reference": "CAP 697 SEP Figure 2.2.",
+      "contexts": [
+        "D. 6 h 18 min  Flag this question View explanation 19Refer to CAP 697 SEP Figure 2.2. Given: Pressure Altitude 10000 ft"
+      ]
+    },
+    {
+      "reference": "Figure 2.2.",
+      "contexts": [
+        "D. 6 h 18 min  Flag this question View explanation 19Refer to CAP 697 SEP Figure 2.2. Given: Pressure Altitude 10000 ft"
+      ]
+    },
+    {
+      "reference": "Jeppesen E(LO)5. What is the lowest continuous \u0000ight level",
+      "contexts": [
+        "D.EET/EISN0060  Flag this question View explanation 2Refer to Jeppesen E(LO)5. What is the lowest continuous \u0000ight level you should maintain along B45 when \u0000ying from Czempin/CZE (N52 07 E01643) to "
+      ]
+    },
+    {
+      "reference": "CAP 697 MRJT Figure 4.5.3.1",
+      "contexts": [
+        "D.099°(M) 59 NM  Flag this question View explanation 5Reference CAP 697 MRJT Figure 4.5.3.1 Given: Pressure altitude 33000 ft"
+      ]
+    },
+    {
+      "reference": "Figure 4.5.3.1",
+      "contexts": [
+        "D.099°(M) 59 NM  Flag this question View explanation 5Reference CAP 697 MRJT Figure 4.5.3.1 Given: Pressure altitude 33000 ft"
+      ]
+    },
+    {
+      "reference": "Jeppesen MUNICH 10-2B",
+      "contexts": [
+        "D.1207 kg  Flag this question View explanation 6Refer to Jeppesen MUNICH 10-2B When approaching Munich via TANGO with a westerly surface wind, the route and track miles to the IAF are expected to be"
+      ]
+    },
+    {
+      "reference": "CAP 697 MRJT Figure 4.3.2",
+      "contexts": [
+        " Flag this question View explanation  8Refer CAP 697 MRJT Figure 4.3.2c Given: Mach 0.74 cruise"
+      ]
+    },
+    {
+      "reference": "Figure 4.3.2",
+      "contexts": [
+        " Flag this question View explanation  8Refer CAP 697 MRJT Figure 4.3.2c Given: Mach 0.74 cruise"
+      ]
+    },
+    {
+      "reference": "Jeppesen AMSTERDAM Schiphol SID 10-3",
+      "contexts": [
+        "D. 1440 UTC  Flag this question View explanation 11Refer to Jeppesen AMSTERDAM Schiphol SID 10-3 Which of the following statements is true regarding an ANDIK departure from RWY 19L?"
+      ]
+    },
+    {
+      "reference": "Jeppesen Polar High Altitude Chart 5AT(HI). What is the Gri",
+      "contexts": [
+        "D.Maximum IAS 250 kt till turning left at SPL 3.1DME  Flag this question View explanation 12Refer to Jeppesen Polar High Altitude Chart 5AT(HI). What is the Grid track from Stornoway (N58 W006) to K"
+      ]
+    },
+    {
+      "reference": "Chart 5",
+      "contexts": [
+        "D.Maximum IAS 250 kt till turning left at SPL 3.1DME  Flag this question View explanation 12Refer to Jeppesen Polar High Altitude Chart 5AT(HI). What is the Grid track from Stornoway (N58 W006) to K"
+      ]
+    },
+    {
+      "reference": "CAP 697 MRJT Figure 4.3.6",
+      "contexts": [
+        "D. 939 NM 1 h 57 min  Flag this question View explanation 15Refer CAP 697 MRJT Figure 4.3.6 Flight from Paris to London with Manchester being the alternate. Given:",
+        "D. one that is stored via repetitive \u0000ight plan procedures  Flag this question View explanation 20Reference CAP 697 MRJT Figure 4.3.6 Given: Time to alternate 54 min"
+      ]
+    },
+    {
+      "reference": "Figure 4.3.6",
+      "contexts": [
+        "D. 939 NM 1 h 57 min  Flag this question View explanation 15Refer CAP 697 MRJT Figure 4.3.6 Flight from Paris to London with Manchester being the alternate. Given:",
+        "D. one that is stored via repetitive \u0000ight plan procedures  Flag this question View explanation 20Reference CAP 697 MRJT Figure 4.3.6 Given: Time to alternate 54 min"
+      ]
+    },
+    {
+      "reference": "Jeppesen chart 5AT(HI) and the following route: A (N8500.0",
+      "contexts": [
+        "D.report to ATC to apologize  Flag this question View explanation 5Use Jeppesen chart 5AT(HI) and the following route: A (N8500.0 W16000.0) to B (N8000.0 W16400.0) to C (N7500.0 W16450.0) The bounda",
+        "D.76100 kg  Flag this question View explanation 7Use Jeppesen chart 5AT(HI) and the following route: A (N8500.0 W16000.0) to B (N8000.0 W16400.0) to C (N7500.0 W16450.0) Which of the following is co",
+        "D.The airspace is controlled from FL220 inclusive and above  Flag this question View explanation 8Use Jeppesen chart 5AT(HI) and the following route: A (N8500.0 W16000.0) to B (N8000.0 W16400.0) to ",
+        "D. 135.17 MHz  Flag this question View explanation 17Use Jeppesen chart 5AT(HI) and the following route: A (N8500.0 W16000.0) to B (N8000.0 W16400.0) to C (N7500.0 W16450.0) The highest Grid MORA f",
+        "D.1600 m  Flag this question View explanation 18Use Jeppesen chart 5AT(HI) and the following route: A (N8500.0 W16000.0) to B (N8000.0 W16400.0) to C (N7500.0 W16450.0) The grid track from N7000.0 W",
+        "D.Never less than 10 minutes  Flag this question View explanation 20Use Jeppesen chart 5AT(HI) and the following route: A (N8500.0 W16000.0) to B (N8000.0 W16400.0) to C (N7500.0 W16450.0) The const"
+      ]
+    },
+    {
+      "reference": "chart 5",
+      "contexts": [
+        "D.report to ATC to apologize  Flag this question View explanation 5Use Jeppesen chart 5AT(HI) and the following route: A (N8500.0 W16000.0) to B (N8000.0 W16400.0) to C (N7500.0 W16450.0) The bounda",
+        "D.76100 kg  Flag this question View explanation 7Use Jeppesen chart 5AT(HI) and the following route: A (N8500.0 W16000.0) to B (N8000.0 W16400.0) to C (N7500.0 W16450.0) Which of the following is co",
+        "D.The airspace is controlled from FL220 inclusive and above  Flag this question View explanation 8Use Jeppesen chart 5AT(HI) and the following route: A (N8500.0 W16000.0) to B (N8000.0 W16400.0) to ",
+        "D. 135.17 MHz  Flag this question View explanation 17Use Jeppesen chart 5AT(HI) and the following route: A (N8500.0 W16000.0) to B (N8000.0 W16400.0) to C (N7500.0 W16450.0) The highest Grid MORA f",
+        "D.1600 m  Flag this question View explanation 18Use Jeppesen chart 5AT(HI) and the following route: A (N8500.0 W16000.0) to B (N8000.0 W16400.0) to C (N7500.0 W16450.0) The grid track from N7000.0 W",
+        "D.Never less than 10 minutes  Flag this question View explanation 20Use Jeppesen chart 5AT(HI) and the following route: A (N8500.0 W16000.0) to B (N8000.0 W16400.0) to C (N7500.0 W16450.0) The const"
+      ]
+    },
+    {
+      "reference": "Jeppesen Manual - VFR Section Aberdeen 10-IV What",
+      "contexts": [
+        "destination  Flag this question View explanation 16Refer to Jeppesen Manual - VFR Section Aberdeen 10-IV What frequency is the Aberdeen ATSU on? A.114.30 MHz"
+      ]
+    },
+    {
+      "reference": "Jeppesen Manual ED-6",
+      "contexts": [
+        "D.547.5 NM  Flag this question View explanation 3Refer to Jeppesen Manual ED-6 Flying from position SIGMARINGEN (N4805 E00913) to BIBERACH airport (N4807 E00946)"
+      ]
+    },
+    {
+      "reference": "Jeppesen Manual - VFR Section",
+      "contexts": [
+        "D.1107 kg  Flag this question View explanation 5Refer to Jeppesen Manual - VFR Section Aberdeen 10-IV What is the max ground elevation within the CTR?"
+      ]
+    },
+    {
+      "reference": "Jeppesen Manual - VFR Section Athinai 29-1 What are the",
+      "contexts": [
+        "D. 1245 ft  Flag this question View explanation 6Refer to Jeppesen Manual - VFR Section Athinai 29-1 What are the call sign and frequency for start-up? A.ATIS 123.40 MHz"
+      ]
+    },
+    {
+      "reference": "Jeppesen Manual ED-6. Give the frequency of ZURICH",
+      "contexts": [
+        "D.TAS 423 kt, 936 NAM  Flag this question View explanation 8Refer to Jeppesen Manual ED-6. Give the frequency of ZURICH VOLMET. A. 127.2 MHz"
+      ]
+    },
+    {
+      "reference": "Jeppesen Manual - VFR Section Aberdeen. What is the",
+      "contexts": [
+        " Flag this question View explanation  11Refer to Jeppesen Manual - VFR Section Aberdeen. What is the maximum wing span of an aircraft using the eastern apron and taxiway?"
+      ]
+    },
+    {
+      "reference": "Jeppesen Manual ED-6. The GRENCHEN LSZG aerodrome",
+      "contexts": [
+        "D.15 min  Flag this question View explanation 13Refer to Jeppesen Manual ED-6. The GRENCHEN LSZG aerodrome (N4711 E00725) has a tower frequency of 120.10MHz. The \"(V)\"\u0000 after the frequency indicates"
+      ]
+    },
+    {
+      "reference": "Jeppesen Manual ED-6.",
+      "contexts": [
+        "D. 3 kt 3 minutes  Flag this question View explanation 15Refer to Jeppesen Manual ED-6. Flying VFR from VILLINGEN (N4758 E00831) to FREUDENSTADT (N4828 E00824), determine the distance.",
+        "D.11.6 GPH 143 kt  Flag this question View explanation 19Refer to Jeppesen Manual ED-6. Flying VFR from PEITING (4748N 01055.5E) to IMMENSTADT (4733.5N 01013.0E), determine the magnetic course."
+      ]
+    },
+    {
+      "reference": "Jeppesen Manual ED-6. Give the frequency of the GRENCHEN",
+      "contexts": [
+        "D. 063  Flag this question View explanation 20Refer to Jeppesen Manual ED-6. Give the frequency of the GRENCHEN VOR at N4711 E00725. A. 108.65 MHz"
+      ]
+    },
+    {
+      "reference": "Jeppesen E(LO)1, position 5211N 00706W, which of the",
+      "contexts": [
+        "D.10020 feet  Flag this question View explanation 15Reference Jeppesen E(LO)1, position 5211N 00706W, which of the following denotes all the symbols? A. Military airport, ILS, NDB"
+      ]
+    },
+    {
+      "reference": "Jeppesen E(LO)1 chart, what are the symbols at Sligo",
+      "contexts": [
+        "D.31000 feet  Flag this question View explanation 20On the Jeppesen E(LO)1 chart, what are the symbols at Sligo (5354.8N 00849.1W)? A. VOR, NDB, DME, compulsory reporting point"
+      ]
+    }
+  ],
+  "note": "Image extraction requires additional tools like pdf2image or pdfjs-dist",
+  "extractionMethod": "To extract actual images, use: npm install pdf-image or use external tools like pdf2image/ImageMagick"
+}

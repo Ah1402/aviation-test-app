@@ -1,0 +1,2156 @@
+{
+  "totalQuestions": 1507,
+  "duplicateGroups": 50,
+  "duplicateEntries": 283,
+  "extraCopies": 233,
+  "groups": [
+    {
+      "kept": {
+        "id": 1168,
+        "category": "performance",
+        "test": "performance-test-1"
+      },
+      "copies": [
+        {
+          "id": 1218,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "When operating with anti-skid inoperative:"
+        },
+        {
+          "id": 1269,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "When operating with anti-skid inoperative:"
+        },
+        {
+          "id": 1319,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "When operating with anti-skid inoperative:"
+        },
+        {
+          "id": 1369,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "When operating with anti-skid inoperative:"
+        },
+        {
+          "id": 1419,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "When operating with anti-skid inoperative:"
+        },
+        {
+          "id": 1469,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "When operating with anti-skid inoperative:"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1169,
+        "category": "performance",
+        "test": "performance-test-1"
+      },
+      "copies": [
+        {
+          "id": 1219,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Flying at an altitude close to coffin corner gives:"
+        },
+        {
+          "id": 1270,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Flying at an altitude close to coffin corner gives:"
+        },
+        {
+          "id": 1320,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Flying at an altitude close to coffin corner gives:"
+        },
+        {
+          "id": 1370,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Flying at an altitude close to coffin corner gives:"
+        },
+        {
+          "id": 1420,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Flying at an altitude close to coffin corner gives:"
+        },
+        {
+          "id": 1470,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Flying at an altitude close to coffin corner gives:"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1170,
+        "category": "performance",
+        "test": "performance-test-1"
+      },
+      "copies": [
+        {
+          "id": 1220,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "What effect does a downhill slope have on the take-off speeds?"
+        },
+        {
+          "id": 1271,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "What effect does a downhill slope have on the take-off speeds?"
+        },
+        {
+          "id": 1321,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "What effect does a downhill slope have on the take-off speeds?"
+        },
+        {
+          "id": 1371,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "What effect does a downhill slope have on the take-off speeds?"
+        },
+        {
+          "id": 1421,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "What effect does a downhill slope have on the take-off speeds?"
+        },
+        {
+          "id": 1471,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "What effect does a downhill slope have on the take-off speeds?"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1171,
+        "category": "performance",
+        "test": "performance-test-2"
+      },
+      "copies": [
+        {
+          "id": 1221,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Landing on a runway with 5 mm wet snow will:"
+        },
+        {
+          "id": 1272,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Landing on a runway with 5 mm wet snow will:"
+        },
+        {
+          "id": 1322,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Landing on a runway with 5 mm wet snow will:"
+        },
+        {
+          "id": 1372,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Landing on a runway with 5 mm wet snow will:"
+        },
+        {
+          "id": 1422,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Landing on a runway with 5 mm wet snow will:"
+        },
+        {
+          "id": 1472,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Landing on a runway with 5 mm wet snow will:"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1172,
+        "category": "performance",
+        "test": "performance-test-2"
+      },
+      "copies": [
+        {
+          "id": 1222,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Which conditions are most suited to a selection of lower flap for take off?"
+        },
+        {
+          "id": 1273,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Which conditions are most suited to a selection of lower flap for take off?"
+        },
+        {
+          "id": 1323,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Which conditions are most suited to a selection of lower flap for take off?"
+        },
+        {
+          "id": 1373,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Which conditions are most suited to a selection of lower flap for take off?"
+        },
+        {
+          "id": 1423,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Which conditions are most suited to a selection of lower flap for take off?"
+        },
+        {
+          "id": 1473,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Which conditions are most suited to a selection of lower flap for take off?"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1173,
+        "category": "performance",
+        "test": "performance-test-2"
+      },
+      "copies": [
+        {
+          "id": 1223,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "The buffet onset boundary chart tells the pilot the:"
+        },
+        {
+          "id": 1274,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "The buffet onset boundary chart tells the pilot the:"
+        },
+        {
+          "id": 1324,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "The buffet onset boundary chart tells the pilot the:"
+        },
+        {
+          "id": 1374,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "The buffet onset boundary chart tells the pilot the:"
+        },
+        {
+          "id": 1424,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "The buffet onset boundary chart tells the pilot the:"
+        },
+        {
+          "id": 1474,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "The buffet onset boundary chart tells the pilot the:"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1174,
+        "category": "performance",
+        "test": "performance-test-2"
+      },
+      "copies": [
+        {
+          "id": 1224,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "The second segment of climb ends when:"
+        },
+        {
+          "id": 1275,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "The second segment of climb ends when:"
+        },
+        {
+          "id": 1325,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "The second segment of climb ends when:"
+        },
+        {
+          "id": 1375,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "The second segment of climb ends when:"
+        },
+        {
+          "id": 1425,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "The second segment of climb ends when:"
+        },
+        {
+          "id": 1475,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "The second segment of climb ends when:"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1175,
+        "category": "performance",
+        "test": "performance-test-2"
+      },
+      "copies": [
+        {
+          "id": 1225,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Reference point zero refers to the:"
+        },
+        {
+          "id": 1276,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Reference point zero refers to the:"
+        },
+        {
+          "id": 1326,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Reference point zero refers to the:"
+        },
+        {
+          "id": 1376,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Reference point zero refers to the:"
+        },
+        {
+          "id": 1426,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Reference point zero refers to the:"
+        },
+        {
+          "id": 1476,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Reference point zero refers to the:"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1176,
+        "category": "performance",
+        "test": "performance-test-2"
+      },
+      "copies": [
+        {
+          "id": 1226,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Vref for a Class B aircraft is defined by:"
+        },
+        {
+          "id": 1277,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Vref for a Class B aircraft is defined by:"
+        },
+        {
+          "id": 1327,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Vref for a Class B aircraft is defined by:"
+        },
+        {
+          "id": 1377,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Vref for a Class B aircraft is defined by:"
+        },
+        {
+          "id": 1427,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Vref for a Class B aircraft is defined by:"
+        },
+        {
+          "id": 1477,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Vref for a Class B aircraft is defined by:"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1177,
+        "category": "performance",
+        "test": "performance-test-2"
+      },
+      "copies": [
+        {
+          "id": 1227,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "During the certification of an aeroplane, the take-off distance with all engines operating and the take-off distance with one engine inoperative are: 1547 m, 1720 m. What is the distance used in the aircraft certification?"
+        },
+        {
+          "id": 1278,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "During the certification of an aeroplane, the take-off distance with all engines operating and the take-off distance with one engine inoperative are: 1547 m, 1720 m. What is the distance used in the aircraft certification?"
+        },
+        {
+          "id": 1328,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "During the certification of an aeroplane, the take-off distance with all engines operating and the take-off distance with one engine inoperative are: 1547 m, 1720 m. What is the distance used in the aircraft certification?"
+        },
+        {
+          "id": 1378,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "During the certification of an aeroplane, the take-off distance with all engines operating and the take-off distance with one engine inoperative are: 1547 m, 1720 m. What is the distance used in the aircraft certification?"
+        },
+        {
+          "id": 1428,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "During the certification of an aeroplane, the take-off distance with all engines operating and the take-off distance with one engine inoperative are: 1547 m, 1720 m. What is the distance used in the aircraft certification?"
+        },
+        {
+          "id": 1478,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "During the certification of an aeroplane, the take-off distance with all engines operating and the take-off distance with one engine inoperative are: 1547 m, 1720 m. What is the distance used in the aircraft certification?"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1178,
+        "category": "performance",
+        "test": "performance-test-2"
+      },
+      "copies": [
+        {
+          "id": 1228,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "An aircraft is certified to land with flaps at either 25 or 35 degrees of flap. If the pilot selects the higher flap setting the approach performance will be:"
+        },
+        {
+          "id": 1279,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "An aircraft is certified to land with flaps at either 25 or 35 degrees of flap. If the pilot selects the higher flap setting the approach performance will be:"
+        },
+        {
+          "id": 1329,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "An aircraft is certified to land with flaps at either 25 or 35 degrees of flap. If the pilot selects the higher flap setting the approach performance will be:"
+        },
+        {
+          "id": 1379,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "An aircraft is certified to land with flaps at either 25 or 35 degrees of flap. If the pilot selects the higher flap setting the approach performance will be:"
+        },
+        {
+          "id": 1429,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "An aircraft is certified to land with flaps at either 25 or 35 degrees of flap. If the pilot selects the higher flap setting the approach performance will be:"
+        },
+        {
+          "id": 1479,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "An aircraft is certified to land with flaps at either 25 or 35 degrees of flap. If the pilot selects the higher flap setting the approach performance will be:"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1179,
+        "category": "performance",
+        "test": "performance-test-2"
+      },
+      "copies": [
+        {
+          "id": 1229,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "What landing distance requirements need to be met at an alternate airfield compared to a destination airfield for a turboprop?"
+        },
+        {
+          "id": 1280,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "What landing distance requirements need to be met at an alternate airfield compared to a destination airfield for a turboprop?"
+        },
+        {
+          "id": 1330,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "What landing distance requirements need to be met at an alternate airfield compared to a destination airfield for a turboprop?"
+        },
+        {
+          "id": 1380,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "What landing distance requirements need to be met at an alternate airfield compared to a destination airfield for a turboprop?"
+        },
+        {
+          "id": 1430,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "What landing distance requirements need to be met at an alternate airfield compared to a destination airfield for a turboprop?"
+        },
+        {
+          "id": 1480,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "What landing distance requirements need to be met at an alternate airfield compared to a destination airfield for a turboprop?"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1180,
+        "category": "performance",
+        "test": "performance-test-2"
+      },
+      "copies": [
+        {
+          "id": 1230,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "In dry conditions, when landing at an alternate airport in a turbojet by what factor should the landing distance available be divided to give landing distance required?"
+        },
+        {
+          "id": 1281,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "In dry conditions, when landing at an alternate airport in a turbojet by what factor should the landing distance available be divided to give landing distance required?"
+        },
+        {
+          "id": 1331,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "In dry conditions, when landing at an alternate airport in a turbojet by what factor should the landing distance available be divided to give landing distance required?"
+        },
+        {
+          "id": 1381,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "In dry conditions, when landing at an alternate airport in a turbojet by what factor should the landing distance available be divided to give landing distance required?"
+        },
+        {
+          "id": 1431,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "In dry conditions, when landing at an alternate airport in a turbojet by what factor should the landing distance available be divided to give landing distance required?"
+        },
+        {
+          "id": 1481,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "In dry conditions, when landing at an alternate airport in a turbojet by what factor should the landing distance available be divided to give landing distance required?"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1181,
+        "category": "performance",
+        "test": "performance-test-2"
+      },
+      "copies": [
+        {
+          "id": 1231,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "The speed for minimum power required in a turbojet will be:"
+        },
+        {
+          "id": 1282,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "The speed for minimum power required in a turbojet will be:"
+        },
+        {
+          "id": 1332,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "The speed for minimum power required in a turbojet will be:"
+        },
+        {
+          "id": 1382,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "The speed for minimum power required in a turbojet will be:"
+        },
+        {
+          "id": 1432,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "The speed for minimum power required in a turbojet will be:"
+        },
+        {
+          "id": 1482,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "The speed for minimum power required in a turbojet will be:"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1182,
+        "category": "performance",
+        "test": "performance-test-2"
+      },
+      "copies": [
+        {
+          "id": 1232,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "The coefficient of lift may be increased by lowering the flaps or:"
+        },
+        {
+          "id": 1283,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "The coefficient of lift may be increased by lowering the flaps or:"
+        },
+        {
+          "id": 1333,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "The coefficient of lift may be increased by lowering the flaps or:"
+        },
+        {
+          "id": 1383,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "The coefficient of lift may be increased by lowering the flaps or:"
+        },
+        {
+          "id": 1433,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "The coefficient of lift may be increased by lowering the flaps or:"
+        },
+        {
+          "id": 1483,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "The coefficient of lift may be increased by lowering the flaps or:"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1183,
+        "category": "performance",
+        "test": "performance-test-2"
+      },
+      "copies": [
+        {
+          "id": 1233,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "V2min is determined by: (excluding VMCA)"
+        },
+        {
+          "id": 1284,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "V2min is determined by: (excluding VMCA)"
+        },
+        {
+          "id": 1334,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "V2min is determined by: (excluding VMCA)"
+        },
+        {
+          "id": 1384,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "V2min is determined by: (excluding VMCA)"
+        },
+        {
+          "id": 1434,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "V2min is determined by: (excluding VMCA)"
+        },
+        {
+          "id": 1484,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "V2min is determined by: (excluding VMCA)"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1184,
+        "category": "performance",
+        "test": "performance-test-2"
+      },
+      "copies": [
+        {
+          "id": 1234,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Two identical turbojets are holding at the same altitude and have the same specific fuel consumption. Aeroplane 1 weighs 130,000 kg and fuel flow is 4300 kg/hr. If aeroplane 2 weighs 115,000 kg what is the fuel flow of aeroplane 2?"
+        },
+        {
+          "id": 1235,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Two identical turbojets are holding at the same altitude and have the same specific fuel consumption. Aeroplane 1 weighs 130,000 kg and fuel flow is 4300 kg/hr. If aeroplane 2 weighs 115,000 kg what is the fuel flow of aeroplane 2?"
+        },
+        {
+          "id": 1285,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Two identical turbojets are holding at the same altitude and have the same specific fuel consumption. Aeroplane 1 weighs 130,000 kg and fuel flow is 4300 kg/hr. If aeroplane 2 weighs 115,000 kg what is the fuel flow of aeroplane 2?"
+        },
+        {
+          "id": 1335,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Two identical turbojets are holding at the same altitude and have the same specific fuel consumption. Aeroplane 1 weighs 130,000 kg and fuel flow is 4300 kg/hr. If aeroplane 2 weighs 115,000 kg what is the fuel flow of aeroplane 2?"
+        },
+        {
+          "id": 1385,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Two identical turbojets are holding at the same altitude and have the same specific fuel consumption. Aeroplane 1 weighs 130,000 kg and fuel flow is 4300 kg/hr. If aeroplane 2 weighs 115,000 kg what is the fuel flow of aeroplane 2?"
+        },
+        {
+          "id": 1435,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Two identical turbojets are holding at the same altitude and have the same specific fuel consumption. Aeroplane 1 weighs 130,000 kg and fuel flow is 4300 kg/hr. If aeroplane 2 weighs 115,000 kg what is the fuel flow of aeroplane 2?"
+        },
+        {
+          "id": 1485,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Two identical turbojets are holding at the same altitude and have the same specific fuel consumption. Aeroplane 1 weighs 130,000 kg and fuel flow is 4300 kg/hr. If aeroplane 2 weighs 115,000 kg what is the fuel flow of aeroplane 2?"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1185,
+        "category": "performance",
+        "test": "performance-test-2"
+      },
+      "copies": [
+        {
+          "id": 1236,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "In wet conditions, what extra percentage over the dry gross landing distance must be available for a turbojet?"
+        },
+        {
+          "id": 1286,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "In wet conditions, what extra percentage over the dry gross landing distance must be available for a turbojet?"
+        },
+        {
+          "id": 1336,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "In wet conditions, what extra percentage over the dry gross landing distance must be available for a turbojet?"
+        },
+        {
+          "id": 1386,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "In wet conditions, what extra percentage over the dry gross landing distance must be available for a turbojet?"
+        },
+        {
+          "id": 1436,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "In wet conditions, what extra percentage over the dry gross landing distance must be available for a turbojet?"
+        },
+        {
+          "id": 1486,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "In wet conditions, what extra percentage over the dry gross landing distance must be available for a turbojet?"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1186,
+        "category": "performance",
+        "test": "performance-test-2"
+      },
+      "copies": [
+        {
+          "id": 1237,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "If the flap setting is changed from 10 degrees to 20 degrees, V2 will:"
+        },
+        {
+          "id": 1287,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "If the flap setting is changed from 10 degrees to 20 degrees, V2 will:"
+        },
+        {
+          "id": 1337,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "If the flap setting is changed from 10 degrees to 20 degrees, V2 will:"
+        },
+        {
+          "id": 1387,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "If the flap setting is changed from 10 degrees to 20 degrees, V2 will:"
+        },
+        {
+          "id": 1437,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "If the flap setting is changed from 10 degrees to 20 degrees, V2 will:"
+        },
+        {
+          "id": 1487,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "If the flap setting is changed from 10 degrees to 20 degrees, V2 will:"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1187,
+        "category": "performance",
+        "test": "performance-test-2"
+      },
+      "copies": [
+        {
+          "id": 1238,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "For a turbojet aeroplane the third segment of the take-off path:"
+        },
+        {
+          "id": 1288,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "For a turbojet aeroplane the third segment of the take-off path:"
+        },
+        {
+          "id": 1338,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "For a turbojet aeroplane the third segment of the take-off path:"
+        },
+        {
+          "id": 1388,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "For a turbojet aeroplane the third segment of the take-off path:"
+        },
+        {
+          "id": 1438,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "For a turbojet aeroplane the third segment of the take-off path:"
+        },
+        {
+          "id": 1488,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "For a turbojet aeroplane the third segment of the take-off path:"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1188,
+        "category": "performance",
+        "test": "performance-test-2"
+      },
+      "copies": [
+        {
+          "id": 1239,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "To maintain the same angle of attack and altitude at a higher gross weight an aeroplane needs:"
+        },
+        {
+          "id": 1289,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "To maintain the same angle of attack and altitude at a higher gross weight an aeroplane needs:"
+        },
+        {
+          "id": 1339,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "To maintain the same angle of attack and altitude at a higher gross weight an aeroplane needs:"
+        },
+        {
+          "id": 1389,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "To maintain the same angle of attack and altitude at a higher gross weight an aeroplane needs:"
+        },
+        {
+          "id": 1439,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "To maintain the same angle of attack and altitude at a higher gross weight an aeroplane needs:"
+        },
+        {
+          "id": 1489,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "To maintain the same angle of attack and altitude at a higher gross weight an aeroplane needs:"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1189,
+        "category": "performance",
+        "test": "performance-test-2"
+      },
+      "copies": [
+        {
+          "id": 1240,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Absolute ceiling is defined by:"
+        },
+        {
+          "id": 1290,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Absolute ceiling is defined by:"
+        },
+        {
+          "id": 1340,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Absolute ceiling is defined by:"
+        },
+        {
+          "id": 1390,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Absolute ceiling is defined by:"
+        },
+        {
+          "id": 1440,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Absolute ceiling is defined by:"
+        },
+        {
+          "id": 1490,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Absolute ceiling is defined by:"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1190,
+        "category": "performance",
+        "test": "performance-test-2"
+      },
+      "copies": [
+        {
+          "id": 1241,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Vr for a jet aircraft must be faster than, the greater of:"
+        },
+        {
+          "id": 1291,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Vr for a jet aircraft must be faster than, the greater of:"
+        },
+        {
+          "id": 1341,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Vr for a jet aircraft must be faster than, the greater of:"
+        },
+        {
+          "id": 1391,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Vr for a jet aircraft must be faster than, the greater of:"
+        },
+        {
+          "id": 1441,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Vr for a jet aircraft must be faster than, the greater of:"
+        },
+        {
+          "id": 1491,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Vr for a jet aircraft must be faster than, the greater of:"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1191,
+        "category": "performance",
+        "test": "performance-test-3"
+      },
+      "copies": [
+        {
+          "id": 1242,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "What factors would cause V2 to be limited by VMCA?"
+        },
+        {
+          "id": 1292,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "What factors would cause V2 to be limited by VMCA?"
+        },
+        {
+          "id": 1342,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "What factors would cause V2 to be limited by VMCA?"
+        },
+        {
+          "id": 1392,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "What factors would cause V2 to be limited by VMCA?"
+        },
+        {
+          "id": 1442,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "What factors would cause V2 to be limited by VMCA?"
+        },
+        {
+          "id": 1492,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "What factors would cause V2 to be limited by VMCA?"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1192,
+        "category": "performance",
+        "test": "performance-test-3"
+      },
+      "copies": [
+        {
+          "id": 1243,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "A jet aircraft's maximum altitude is usually limited by:"
+        },
+        {
+          "id": 1293,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "A jet aircraft's maximum altitude is usually limited by:"
+        },
+        {
+          "id": 1343,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "A jet aircraft's maximum altitude is usually limited by:"
+        },
+        {
+          "id": 1393,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "A jet aircraft's maximum altitude is usually limited by:"
+        },
+        {
+          "id": 1443,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "A jet aircraft's maximum altitude is usually limited by:"
+        },
+        {
+          "id": 1493,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "A jet aircraft's maximum altitude is usually limited by:"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1193,
+        "category": "performance",
+        "test": "performance-test-3"
+      },
+      "copies": [
+        {
+          "id": 1244,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "A light twin-engine aircraft is climbing from the screen height of 50 ft, and has an obstacle 10000 m along the net fight path. If the net climb gradient is 10%, there is no wind and obstacle is 900 m above the aerodrome elevation then what will the clearance be?"
+        },
+        {
+          "id": 1294,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "A light twin-engine aircraft is climbing from the screen height of 50 ft, and has an obstacle 10000 m along the net fight path. If the net climb gradient is 10%, there is no wind and obstacle is 900 m above the aerodrome elevation then what will the clearance be?"
+        },
+        {
+          "id": 1344,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "A light twin-engine aircraft is climbing from the screen height of 50 ft, and has an obstacle 10000 m along the net fight path. If the net climb gradient is 10%, there is no wind and obstacle is 900 m above the aerodrome elevation then what will the clearance be?"
+        },
+        {
+          "id": 1394,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "A light twin-engine aircraft is climbing from the screen height of 50 ft, and has an obstacle 10000 m along the net fight path. If the net climb gradient is 10%, there is no wind and obstacle is 900 m above the aerodrome elevation then what will the clearance be?"
+        },
+        {
+          "id": 1444,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "A light twin-engine aircraft is climbing from the screen height of 50 ft, and has an obstacle 10000 m along the net fight path. If the net climb gradient is 10%, there is no wind and obstacle is 900 m above the aerodrome elevation then what will the clearance be?"
+        },
+        {
+          "id": 1494,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "A light twin-engine aircraft is climbing from the screen height of 50 ft, and has an obstacle 10000 m along the net fight path. If the net climb gradient is 10%, there is no wind and obstacle is 900 m above the aerodrome elevation then what will the clearance be?"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1194,
+        "category": "performance",
+        "test": "performance-test-3"
+      },
+      "copies": [
+        {
+          "id": 1245,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "Vx is:"
+        },
+        {
+          "id": 1295,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "Vx is:"
+        },
+        {
+          "id": 1345,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "Vx is:"
+        },
+        {
+          "id": 1395,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "Vx is:"
+        },
+        {
+          "id": 1445,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "Vx is:"
+        },
+        {
+          "id": 1495,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "Vx is:"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1195,
+        "category": "performance",
+        "test": "performance-test-3"
+      },
+      "copies": [
+        {
+          "id": 1246,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "Requirements for the third segment of climb are:"
+        },
+        {
+          "id": 1296,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "Requirements for the third segment of climb are:"
+        },
+        {
+          "id": 1346,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "Requirements for the third segment of climb are:"
+        },
+        {
+          "id": 1396,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "Requirements for the third segment of climb are:"
+        },
+        {
+          "id": 1446,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "Requirements for the third segment of climb are:"
+        },
+        {
+          "id": 1496,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "Requirements for the third segment of climb are:"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1196,
+        "category": "performance",
+        "test": "performance-test-3"
+      },
+      "copies": [
+        {
+          "id": 1247,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "Pitch angle during decent at a constant Mach number will:"
+        },
+        {
+          "id": 1297,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "Pitch angle during decent at a constant Mach number will:"
+        },
+        {
+          "id": 1347,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "Pitch angle during decent at a constant Mach number will:"
+        },
+        {
+          "id": 1397,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "Pitch angle during decent at a constant Mach number will:"
+        },
+        {
+          "id": 1447,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "Pitch angle during decent at a constant Mach number will:"
+        },
+        {
+          "id": 1497,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "Pitch angle during decent at a constant Mach number will:"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1197,
+        "category": "performance",
+        "test": "performance-test-3"
+      },
+      "copies": [
+        {
+          "id": 1248,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "Take off on a runway with standing water, with a depth of 0.5 cm. Compared to a dry runway, field length limited mass will:"
+        },
+        {
+          "id": 1298,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "Take off on a runway with standing water, with a depth of 0.5 cm. Compared to a dry runway, field length limited mass will:"
+        },
+        {
+          "id": 1348,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "Take off on a runway with standing water, with a depth of 0.5 cm. Compared to a dry runway, field length limited mass will:"
+        },
+        {
+          "id": 1398,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "Take off on a runway with standing water, with a depth of 0.5 cm. Compared to a dry runway, field length limited mass will:"
+        },
+        {
+          "id": 1448,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "Take off on a runway with standing water, with a depth of 0.5 cm. Compared to a dry runway, field length limited mass will:"
+        },
+        {
+          "id": 1498,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "Take off on a runway with standing water, with a depth of 0.5 cm. Compared to a dry runway, field length limited mass will:"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1198,
+        "category": "performance",
+        "test": "performance-test-3"
+      },
+      "copies": [
+        {
+          "id": 1249,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "With respect to en-route diversions (using drift down graph), if you believe that you will be overweight at the destination, what procedure should be followed?"
+        },
+        {
+          "id": 1299,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "With respect to en-route diversions (using drift down graph), if you believe that you will be overweight at the destination, what procedure should be followed?"
+        },
+        {
+          "id": 1349,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "With respect to en-route diversions (using drift down graph), if you believe that you will be overweight at the destination, what procedure should be followed?"
+        },
+        {
+          "id": 1399,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "With respect to en-route diversions (using drift down graph), if you believe that you will be overweight at the destination, what procedure should be followed?"
+        },
+        {
+          "id": 1449,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "With respect to en-route diversions (using drift down graph), if you believe that you will be overweight at the destination, what procedure should be followed?"
+        },
+        {
+          "id": 1499,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "With respect to en-route diversions (using drift down graph), if you believe that you will be overweight at the destination, what procedure should be followed?"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1199,
+        "category": "performance",
+        "test": "performance-test-3"
+      },
+      "copies": [
+        {
+          "id": 1250,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "What is the reason for setting minimum speeds on the approach?"
+        },
+        {
+          "id": 1300,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "What is the reason for setting minimum speeds on the approach?"
+        },
+        {
+          "id": 1350,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "What is the reason for setting minimum speeds on the approach?"
+        },
+        {
+          "id": 1400,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "What is the reason for setting minimum speeds on the approach?"
+        },
+        {
+          "id": 1450,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "What is the reason for setting minimum speeds on the approach?"
+        },
+        {
+          "id": 1500,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "What is the reason for setting minimum speeds on the approach?"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1200,
+        "category": "performance",
+        "test": "performance-test-3"
+      },
+      "copies": [
+        {
+          "id": 1251,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "If there is an increase in atmospheric pressure and all other factors remain constant, it should result in:"
+        },
+        {
+          "id": 1301,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "If there is an increase in atmospheric pressure and all other factors remain constant, it should result in:"
+        },
+        {
+          "id": 1351,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "If there is an increase in atmospheric pressure and all other factors remain constant, it should result in:"
+        },
+        {
+          "id": 1401,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "If there is an increase in atmospheric pressure and all other factors remain constant, it should result in:"
+        },
+        {
+          "id": 1451,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "If there is an increase in atmospheric pressure and all other factors remain constant, it should result in:"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1201,
+        "category": "performance",
+        "test": "performance-test-3"
+      },
+      "copies": [
+        {
+          "id": 1252,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "An aircraft may use either 5° or 15° flap setting for take-off. The effect of selecting the 5° setting as compared to the 15° setting is:"
+        },
+        {
+          "id": 1302,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "An aircraft may use either 5° or 15° flap setting for take-off. The effect of selecting the 5° setting as compared to the 15° setting is:"
+        },
+        {
+          "id": 1352,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "An aircraft may use either 5° or 15° flap setting for take-off. The effect of selecting the 5° setting as compared to the 15° setting is:"
+        },
+        {
+          "id": 1402,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "An aircraft may use either 5° or 15° flap setting for take-off. The effect of selecting the 5° setting as compared to the 15° setting is:"
+        },
+        {
+          "id": 1452,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "An aircraft may use either 5° or 15° flap setting for take-off. The effect of selecting the 5° setting as compared to the 15° setting is:"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1202,
+        "category": "performance",
+        "test": "performance-test-3"
+      },
+      "copies": [
+        {
+          "id": 1253,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "Vs is defined as:"
+        },
+        {
+          "id": 1303,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "Vs is defined as:"
+        },
+        {
+          "id": 1353,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "Vs is defined as:"
+        },
+        {
+          "id": 1403,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "Vs is defined as:"
+        },
+        {
+          "id": 1453,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "Vs is defined as:"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1203,
+        "category": "performance",
+        "test": "performance-test-3"
+      },
+      "copies": [
+        {
+          "id": 1254,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "A higher climb gradient gives:"
+        },
+        {
+          "id": 1304,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "A higher climb gradient gives:"
+        },
+        {
+          "id": 1354,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "A higher climb gradient gives:"
+        },
+        {
+          "id": 1404,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "A higher climb gradient gives:"
+        },
+        {
+          "id": 1454,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "A higher climb gradient gives:"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1204,
+        "category": "performance",
+        "test": "performance-test-3"
+      },
+      "copies": [
+        {
+          "id": 1255,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "A balanced field length is when:"
+        },
+        {
+          "id": 1305,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "A balanced field length is when:"
+        },
+        {
+          "id": 1355,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "A balanced field length is when:"
+        },
+        {
+          "id": 1405,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "A balanced field length is when:"
+        },
+        {
+          "id": 1455,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "A balanced field length is when:"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1205,
+        "category": "performance",
+        "test": "performance-test-3"
+      },
+      "copies": [
+        {
+          "id": 1256,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "The drift down is a procedure applied:"
+        },
+        {
+          "id": 1306,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "The drift down is a procedure applied:"
+        },
+        {
+          "id": 1356,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "The drift down is a procedure applied:"
+        },
+        {
+          "id": 1406,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "The drift down is a procedure applied:"
+        },
+        {
+          "id": 1456,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "The drift down is a procedure applied:"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1206,
+        "category": "performance",
+        "test": "performance-test-3"
+      },
+      "copies": [
+        {
+          "id": 1257,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "The landing speed, Vref, for a single-engine aircraft must be not less than:"
+        },
+        {
+          "id": 1307,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "The landing speed, Vref, for a single-engine aircraft must be not less than:"
+        },
+        {
+          "id": 1357,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "The landing speed, Vref, for a single-engine aircraft must be not less than:"
+        },
+        {
+          "id": 1407,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "The landing speed, Vref, for a single-engine aircraft must be not less than:"
+        },
+        {
+          "id": 1457,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "The landing speed, Vref, for a single-engine aircraft must be not less than:"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1207,
+        "category": "performance",
+        "test": "performance-test-3"
+      },
+      "copies": [
+        {
+          "id": 1258,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "At maximum range speed in a turbojet the angle of attack is:"
+        },
+        {
+          "id": 1308,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "At maximum range speed in a turbojet the angle of attack is:"
+        },
+        {
+          "id": 1358,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "At maximum range speed in a turbojet the angle of attack is:"
+        },
+        {
+          "id": 1408,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "At maximum range speed in a turbojet the angle of attack is:"
+        },
+        {
+          "id": 1458,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "At maximum range speed in a turbojet the angle of attack is:"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1208,
+        "category": "performance",
+        "test": "performance-test-3"
+      },
+      "copies": [
+        {
+          "id": 1259,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "If not VMBE or VMCG limited, what would V1 be limited by?"
+        },
+        {
+          "id": 1309,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "If not VMBE or VMCG limited, what would V1 be limited by?"
+        },
+        {
+          "id": 1359,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "If not VMBE or VMCG limited, what would V1 be limited by?"
+        },
+        {
+          "id": 1409,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "If not VMBE or VMCG limited, what would V1 be limited by?"
+        },
+        {
+          "id": 1459,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "If not VMBE or VMCG limited, what would V1 be limited by?"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1209,
+        "category": "performance",
+        "test": "performance-test-3"
+      },
+      "copies": [
+        {
+          "id": 1260,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "With respect to field length limit, fill in the blanks in the follow statement. The distance to accelerate to ............, at which point an engine fails, followed by the reaction time of ............. and the ensuing deceleration to a full stop must be completed within the ............."
+        },
+        {
+          "id": 1310,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "With respect to field length limit, fill in the blanks in the follow statement. The distance to accelerate to ............, at which point an engine fails, followed by the reaction time of ............. and the ensuing deceleration to a full stop must be completed within the ............."
+        },
+        {
+          "id": 1360,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "With respect to field length limit, fill in the blanks in the follow statement. The distance to accelerate to ............, at which point an engine fails, followed by the reaction time of ............. and the ensuing deceleration to a full stop must be completed within the ............."
+        },
+        {
+          "id": 1410,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "With respect to field length limit, fill in the blanks in the follow statement. The distance to accelerate to ............, at which point an engine fails, followed by the reaction time of ............. and the ensuing deceleration to a full stop must be completed within the ............."
+        },
+        {
+          "id": 1460,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "With respect to field length limit, fill in the blanks in the follow statement. The distance to accelerate to ............, at which point an engine fails, followed by the reaction time of ............. and the ensuing deceleration to a full stop must be completed within the ............."
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1210,
+        "category": "performance",
+        "test": "performance-test-3"
+      },
+      "copies": [
+        {
+          "id": 1261,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "How does the power required graph move with an increase in altitude?"
+        },
+        {
+          "id": 1311,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "How does the power required graph move with an increase in altitude?"
+        },
+        {
+          "id": 1361,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "How does the power required graph move with an increase in altitude?"
+        },
+        {
+          "id": 1411,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "How does the power required graph move with an increase in altitude?"
+        },
+        {
+          "id": 1461,
+          "category": "performance",
+          "test": "performance-test-3",
+          "question": "How does the power required graph move with an increase in altitude?"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1211,
+        "category": "performance",
+        "test": "performance-test-4"
+      },
+      "copies": [
+        {
+          "id": 1262,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "What procedure is likely to require V1 to be reduced?"
+        },
+        {
+          "id": 1312,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "What procedure is likely to require V1 to be reduced?"
+        },
+        {
+          "id": 1362,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "What procedure is likely to require V1 to be reduced?"
+        },
+        {
+          "id": 1412,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "What procedure is likely to require V1 to be reduced?"
+        },
+        {
+          "id": 1462,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "What procedure is likely to require V1 to be reduced?"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1212,
+        "category": "performance",
+        "test": "performance-test-4"
+      },
+      "copies": [
+        {
+          "id": 1263,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Two identical aircraft at different masses are descending at idle thrust. Which of the following statements correctly describes their descent characteristics?"
+        },
+        {
+          "id": 1313,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Two identical aircraft at different masses are descending at idle thrust. Which of the following statements correctly describes their descent characteristics?"
+        },
+        {
+          "id": 1363,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Two identical aircraft at different masses are descending at idle thrust. Which of the following statements correctly describes their descent characteristics?"
+        },
+        {
+          "id": 1413,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Two identical aircraft at different masses are descending at idle thrust. Which of the following statements correctly describes their descent characteristics?"
+        },
+        {
+          "id": 1463,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Two identical aircraft at different masses are descending at idle thrust. Which of the following statements correctly describes their descent characteristics?"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1213,
+        "category": "performance",
+        "test": "performance-test-4"
+      },
+      "copies": [
+        {
+          "id": 1264,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "If the performance limited take-off mass is restricted by the ASDA, which of the following actions will increase the limiting mass?"
+        },
+        {
+          "id": 1314,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "If the performance limited take-off mass is restricted by the ASDA, which of the following actions will increase the limiting mass?"
+        },
+        {
+          "id": 1364,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "If the performance limited take-off mass is restricted by the ASDA, which of the following actions will increase the limiting mass?"
+        },
+        {
+          "id": 1414,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "If the performance limited take-off mass is restricted by the ASDA, which of the following actions will increase the limiting mass?"
+        },
+        {
+          "id": 1464,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "If the performance limited take-off mass is restricted by the ASDA, which of the following actions will increase the limiting mass?"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1214,
+        "category": "performance",
+        "test": "performance-test-4"
+      },
+      "copies": [
+        {
+          "id": 1265,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Cruising with 1 or 2 engines inoperative at high altitude, compared to all engines operative cruise, range will:"
+        },
+        {
+          "id": 1315,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Cruising with 1 or 2 engines inoperative at high altitude, compared to all engines operative cruise, range will:"
+        },
+        {
+          "id": 1365,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Cruising with 1 or 2 engines inoperative at high altitude, compared to all engines operative cruise, range will:"
+        },
+        {
+          "id": 1415,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Cruising with 1 or 2 engines inoperative at high altitude, compared to all engines operative cruise, range will:"
+        },
+        {
+          "id": 1465,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Cruising with 1 or 2 engines inoperative at high altitude, compared to all engines operative cruise, range will:"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1215,
+        "category": "performance",
+        "test": "performance-test-4"
+      },
+      "copies": [
+        {
+          "id": 1266,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Concerning landing gear, which factors limit take-off performance?"
+        },
+        {
+          "id": 1316,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Concerning landing gear, which factors limit take-off performance?"
+        },
+        {
+          "id": 1366,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Concerning landing gear, which factors limit take-off performance?"
+        },
+        {
+          "id": 1416,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Concerning landing gear, which factors limit take-off performance?"
+        },
+        {
+          "id": 1466,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "Concerning landing gear, which factors limit take-off performance?"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1216,
+        "category": "performance",
+        "test": "performance-test-4"
+      },
+      "copies": [
+        {
+          "id": 1267,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "When climbing at a constant Mach number through the troposphere, TAS:"
+        },
+        {
+          "id": 1317,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "When climbing at a constant Mach number through the troposphere, TAS:"
+        },
+        {
+          "id": 1367,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "When climbing at a constant Mach number through the troposphere, TAS:"
+        },
+        {
+          "id": 1417,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "When climbing at a constant Mach number through the troposphere, TAS:"
+        },
+        {
+          "id": 1467,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "When climbing at a constant Mach number through the troposphere, TAS:"
+        }
+      ]
+    },
+    {
+      "kept": {
+        "id": 1217,
+        "category": "performance",
+        "test": "performance-test-4"
+      },
+      "copies": [
+        {
+          "id": 1268,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "A tailwind on take-off will not affect:"
+        },
+        {
+          "id": 1318,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "A tailwind on take-off will not affect:"
+        },
+        {
+          "id": 1368,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "A tailwind on take-off will not affect:"
+        },
+        {
+          "id": 1418,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "A tailwind on take-off will not affect:"
+        },
+        {
+          "id": 1468,
+          "category": "performance",
+          "test": "performance-test-4",
+          "question": "A tailwind on take-off will not affect:"
+        }
+      ]
+    }
+  ]
+}
