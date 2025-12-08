@@ -179,6 +179,15 @@ html {
     display: flex;
     gap: var(--spacing-xs);
     flex-shrink: 0;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+}
+
+.nav::-webkit-scrollbar {
+    display: none;
 }
 
 .nav-btn {
@@ -195,6 +204,7 @@ html {
     cursor: pointer;
     transition: all 0.2s ease;
     white-space: nowrap;
+    flex-shrink: 0;
 }
 
 .nav-btn:hover {
@@ -1754,8 +1764,14 @@ html {
     }
     
     .nav {
-        justify-content: center;
-        flex-wrap: wrap;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        gap: var(--spacing-xs);
+    }
+    
+    .nav-btn {
+        padding: var(--spacing-xs) var(--spacing-sm);
+        font-size: 0.8rem;
     }
     
     .search-input-container {
@@ -1959,6 +1975,20 @@ html {
         padding: 0 16px;
     }
     
+    .nav {
+        gap: 4px;
+    }
+    
+    .nav-btn {
+        padding: 8px 12px;
+        font-size: 0.85rem;
+        gap: 4px;
+    }
+    
+    .nav-btn i {
+        font-size: 0.9rem;
+    }
+    
     .modal-content {
         max-height: 85vh;
         width: 95vw;
@@ -2007,6 +2037,26 @@ html {
     .container {
         max-width: 95vw;
         padding: 0 24px;
+    }
+    
+    .header-content {
+        flex-direction: row;
+        gap: var(--spacing-md);
+    }
+    
+    .nav {
+        justify-content: flex-start;
+        gap: 6px;
+    }
+    
+    .nav-btn {
+        padding: 6px 10px;
+        font-size: 0.8rem;
+        gap: 4px;
+    }
+    
+    .nav-btn i {
+        font-size: 0.85rem;
     }
     
     .modal-content {
