@@ -33,12 +33,11 @@ Write-Host "[3/5] Syncing testData to index.html..." -ForegroundColor Yellow
 $testDataOnly = $testDataContent
 
 # Find and replace the testData section in index.html
-# Pattern: matches from "window.testData = {" to "};</script>"
-$pattern = '(?s)(window\.testData\s*=\s*\{).*?(^\};\s*</script>)'
-$replacement = "`$1`n" + ($testDataOnly -replace 'window\.testData\s*=\s*', '') + "`n};</script>"
+# Pattern: matches from "window.testData = {" to the closing "};"
+$pattern = '(?s)window\.testData\s*=\s*\{.*?\n\s*\};'
 
 if ($indexContent -match $pattern) {
-    $newIndexContent = $indexContent -replace $pattern, $replacement
+    $newIndexContent = $indexContent -replace $pattern, $testDataOnly
     Set-Content "index.html" -Value $newIndexContent -NoNewline
     Write-Host "   SUCCESS: testData synced to index.html!" -ForegroundColor Green
 } else {
@@ -51,31 +50,34 @@ if ($indexContent -match $pattern) {
 Write-Host ""
 Write-Host "[4/5] Committing changes to Git..." -ForegroundColor Yellow
 
-# Check if there are changes
-$gitStatus = & "C:\Program Files\Git\bin\git.exe" status --porcelain
+# Stage the files
+& git add testData_complete.js index.html
+
+# Check if there are changes to commit
+$gitStatus = & git status --porcelain
 if ([string]::IsNullOrWhiteSpace($gitStatus)) {
     Write-Host "   No changes to commit." -ForegroundColor Yellow
 } else {
-    # Add files
-    & "C:\Program Files\Git\bin\git.exe" add testData_complete.js index.html
-    
     # Get current date/time for commit message
     $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
     $commitMessage = "Update questions - $timestamp"
     
     # Commit
-    & "C:\Program Files\Git\bin\git.exe" commit -m $commitMessage
-    Write-Host "   Committed with message: $commitMessage" -ForegroundColor Green
+    & git commit -m $commitMessage
+    
+    if ($LASTEXITCODE -eq 0) {
+        Write-Host "   Committed with message: $commitMessage" -ForegroundColor Green
+    } else {
+        Write-Host "   ERROR: Failed to commit changes" -ForegroundColor Red
+        exit 1
+    }
 }
 
 Write-Host ""
 Write-Host "[5/5] Pushing to GitHub..." -ForegroundColor Yellow
 
-# Pull first to avoid conflicts
-& "C:\Program Files\Git\bin\git.exe" pull --rebase 2>&1 | Out-Null
-
 # Push
-$pushResult = & "C:\Program Files\Git\bin\git.exe" push 2>&1
+$pushResult = & git push origin main 2>&1
 
 if ($LASTEXITCODE -eq 0) {
     Write-Host "   SUCCESS: Changes pushed to GitHub!" -ForegroundColor Green
