@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0, user-scalable=yes, viewport-fit=cover">
     <title>Aviation Knowledge Test Center</title>
     
     <!-- PWA Meta Tags -->
@@ -11,14 +11,15 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="Aviation Test">
+    <meta name="mobile-web-app-capable" content="yes">
     
     <!-- PWA Icons -->
     <link rel="manifest" href="manifest.json">
     <link rel="icon" type="image/png" sizes="192x192" href="logo-192.png">
     <link rel="icon" type="image/png" sizes="512x512" href="logo-512.png">
     <link rel="apple-touch-icon" href="logo-512.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="logo-512.png">
     <link rel="shortcut icon" href="logo-192.png">
-    <link rel="icon" type="image/png" href="logo-192.png">
     
     <style>/* Reset and Base Styles */
 * {
@@ -1868,6 +1869,114 @@ body {
         width: 28px;
         height: 28px;
         font-size: var(--font-size-xs);
+    }
+}
+
+/* Tablet & iPad Support (768px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    html {
+        font-size: 16px;
+    }
+    
+    body {
+        -webkit-text-size-adjust: 100%;
+        touch-action: manipulation;
+    }
+    
+    .container {
+        max-width: 100%;
+        padding: 0 24px;
+    }
+    
+    .test-categories {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    
+    .category-card {
+        min-height: 200px;
+    }
+    
+    .hero {
+        padding: 40px 20px;
+    }
+    
+    .modal-content {
+        width: 85%;
+        max-width: 700px;
+    }
+}
+
+/* iPad Pro & Large Tablets (1024px+) */
+@media (min-width: 1025px) and (max-width: 1366px) {
+    .container {
+        max-width: 1200px;
+    }
+    
+    .test-categories {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Landscape Mode for Tablets */
+@media (max-width: 1024px) and (orientation: landscape) {
+    .hero {
+        padding: 30px 20px;
+    }
+    
+    .test-header {
+        padding: 12px 20px;
+    }
+    
+    .modal-content {
+        max-height: 85vh;
+        overflow-y: auto;
+    }
+}
+
+/* Touch Device Optimizations */
+@media (hover: none) and (pointer: coarse) {
+    /* Larger touch targets for mobile/tablet */
+    button, .btn, .nav-btn, .option {
+        min-height: 44px;
+        min-width: 44px;
+    }
+    
+    .option {
+        padding: 16px;
+    }
+    
+    /* Prevent text selection on buttons */
+    button, .btn {
+        -webkit-tap-highlight-color: transparent;
+        user-select: none;
+    }
+    
+    /* Smooth scrolling for touch */
+    * {
+        -webkit-overflow-scrolling: touch;
+    }
+}
+
+/* iOS Safari specific fixes */
+@supports (-webkit-touch-callout: none) {
+    /* Fix viewport height on iOS */
+    body {
+        min-height: -webkit-fill-available;
+    }
+    
+    /* Fix iOS input zoom */
+    input, select, textarea {
+        font-size: 16px !important;
+    }
+    
+    /* Fix iOS safe area */
+    .header {
+        padding-top: max(12px, env(safe-area-inset-top));
+    }
+    
+    footer {
+        padding-bottom: max(20px, env(safe-area-inset-bottom));
     }
 }
 
