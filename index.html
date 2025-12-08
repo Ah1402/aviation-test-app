@@ -2529,6 +2529,102 @@ html {
     }
 }
 
+/* Navigation Dropdown Menu */
+.nav-dropdown {
+    position: relative;
+    display: none;
+}
+
+.nav-dropdown-toggle {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    padding: var(--spacing-sm) var(--spacing-md);
+    background: var(--primary-color);
+    color: var(--text-white);
+    border: none;
+    border-radius: var(--radius-md);
+    font-size: var(--font-size-base);
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+    min-height: 44px;
+}
+
+.nav-dropdown-toggle:hover {
+    background: var(--primary-dark);
+}
+
+.nav-dropdown-toggle i:last-child {
+    transition: transform 0.3s ease;
+}
+
+.nav-dropdown.active .nav-dropdown-toggle i:last-child {
+    transform: rotate(180deg);
+}
+
+.nav-dropdown-menu {
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+    background: var(--bg-primary);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-xl);
+    min-width: 200px;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+.nav-dropdown.active .nav-dropdown-menu {
+    max-height: 400px;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.nav-dropdown-menu .nav-btn {
+    display: flex;
+    width: 100%;
+    padding: 12px 16px;
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    color: var(--text-primary);
+    font-size: var(--font-size-base);
+    text-align: left;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    border-bottom: 1px solid var(--bg-tertiary);
+}
+
+.nav-dropdown-menu .nav-btn:last-child {
+    border-bottom: none;
+}
+
+.nav-dropdown-menu .nav-btn:hover {
+    background: var(--bg-secondary);
+}
+
+.nav-dropdown-menu .nav-btn.active {
+    background: var(--primary-color);
+    color: var(--text-white);
+}
+
+/* Show dropdown on mobile/tablet, hide regular nav */
+@media (max-width: 1024px) {
+    .nav {
+        display: none;
+    }
+    
+    .nav-dropdown {
+        display: block;
+    }
+}
+
 /* iOS Safari specific fixes */
 @supports (-webkit-touch-callout: none) {
     /* Fix viewport height on iOS */
@@ -2647,7 +2743,7 @@ html {
                         </div>
                     </div>
                     <nav class="nav">
-                        <button class="nav-btn" data-section="home">
+                        <button class="nav-btn active" data-section="home">
                             <i class="fas fa-home"></i>
                             Home
                         </button>
@@ -2672,6 +2768,41 @@ html {
                             About
                         </button>
                     </nav>
+                    
+                    <!-- Mobile/Tablet Dropdown Navigation -->
+                    <div class="nav-dropdown">
+                        <button class="nav-dropdown-toggle" id="navDropdownToggle">
+                            <i class="fas fa-home"></i>
+                            <span id="currentNavLabel">Home</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="nav-dropdown-menu">
+                            <button class="nav-btn active" data-section="home">
+                                <i class="fas fa-home"></i>
+                                Home
+                            </button>
+                            <button class="nav-btn" data-section="tests">
+                                <i class="fas fa-clipboard-list"></i>
+                                Tests
+                            </button>
+                            <button class="nav-btn" data-section="study">
+                                <i class="fas fa-graduation-cap"></i>
+                                Study
+                            </button>
+                            <button class="nav-btn" data-section="search">
+                                <i class="fas fa-search"></i>
+                                Search
+                            </button>
+                            <button class="nav-btn" data-section="results">
+                                <i class="fas fa-chart-bar"></i>
+                                Results
+                            </button>
+                            <button class="nav-btn" data-section="about">
+                                <i class="fas fa-info-circle"></i>
+                                About
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </header>
@@ -28135,6 +28266,51 @@ AviationTestApp.prototype.escapeHtml = function(str) {
 document.addEventListener('DOMContentLoaded', function() {
     // Initialize the application
     window.app = new AviationTestApp();
+    
+    // Dropdown Navigation Functionality
+    const navDropdown = document.querySelector('.nav-dropdown');
+    const navDropdownToggle = document.getElementById('navDropdownToggle');
+    const currentNavLabel = document.getElementById('currentNavLabel');
+    const dropdownNavBtns = document.querySelectorAll('.nav-dropdown-menu .nav-btn');
+    
+    if (navDropdownToggle) {
+        // Toggle dropdown
+        navDropdownToggle.addEventListener('click', function(e) {
+            e.stopPropagation();
+            navDropdown.classList.toggle('active');
+        });
+        
+        // Close dropdown when clicking outside
+        document.addEventListener('click', function(e) {
+            if (!navDropdown.contains(e.target)) {
+                navDropdown.classList.remove('active');
+            }
+        });
+        
+        // Handle dropdown nav button clicks
+        dropdownNavBtns.forEach(btn => {
+            btn.addEventListener('click', function() {
+                const section = this.getAttribute('data-section');
+                const icon = this.querySelector('i').className;
+                const label = this.textContent.trim();
+                
+                // Update active state in dropdown
+                dropdownNavBtns.forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                
+                // Update toggle button
+                navDropdownToggle.querySelector('i:first-child').className = icon;
+                currentNavLabel.textContent = label;
+                
+                // Close dropdown
+                navDropdown.classList.remove('active');
+                
+                // Trigger section change (let existing nav handler work)
+                const event = new Event('click');
+                document.querySelector(`.nav .nav-btn[data-section="${section}"]`)?.dispatchEvent(event);
+            });
+        });
+    }
     
     // Ensure testData has sane numeric `correct` values when possible
     (function normalizeTestDataGlobal(){
