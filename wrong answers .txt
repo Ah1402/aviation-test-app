@@ -1,0 +1,392 @@
+[
+  {
+    "category": "operational-procedures",
+    "test": 2,
+    "id": 882,
+    "question": "On an ILS, you are told that the weather has dropped below company minima. When must you abort the approach?",
+    "options": [
+      "At the Decision Altitude",
+      "Outer marker",
+      "Middle marker",
+      "Before passing the outer marker or equivalent position"
+    ],
+    "answer": "Outer marker",
+    "correct": 1,
+    "explanation": "This refers to the 'Approach Ban'. If the reported RVR is below minima *before* passing the Outer Marker (or equivalent point like 1000ft), you must not continue the approach. If it drops *after* this point, you may continue to DA/H."
+  },
+  {
+    "category": "operational-procedures",
+    "test": 1,
+    "id": 853,
+    "question": "Supplemental oxygen is used to:",
+    "options": [
+      "provide oxygen to passengers who might require it, following a cabin depressurization",
+      "provide oxygen to passengers following decompression if the cabin altitude exceeds 10000 ft",
+      "provide oxygen to flight crew following decompression",
+      "augment first aid oxygen following decompression"
+    ],
+    "answer": "provide oxygen to passengers who might require it, following a cabin depressurization",
+    "correct": 0,
+    "explanation": "While specific altitude rules exist (like 10,000 ft), the fundamental definition of Supplemental Oxygen is to provide oxygen to passengers and crew who require it following a depressurization event."
+  },
+  {
+    "category": "operational-procedures",
+    "test": 1,
+    "id": 859,
+    "question": "One shall not initiate any flight made in accordance with instrument flight rules unless the available information indicates that the conditions at the aerodrome of intended destination and destination alternate (if one is required) are, at the predicted time of:",
+    "options": [
+      "arrival equal to or better than the minimum conditions required for aerodrome use",
+      "arrival, and for a reasonable time before and after such a predicted time, equal to minimum conditions required for aerodrome use",
+      "take-off equal to or better than the minimum conditions required for aerodrome use",
+      "arrival better than the minimum conditions required for aerodrome use"
+    ],
+    "answer": "arrival equal to or better than the minimum conditions required for aerodrome use",
+    "correct": 0,
+    "explanation": "The standard ICAO/EASA rule is that the destination and alternate must be forecast to be at or above minima at the *predicted time of arrival*. The 'reasonable time before and after' clause typically applies to *VFR* flights or specific operator requirements, but the core IFR rule focuses on the ETA."
+  },
+  {
+    "category": "mass-and-balance",
+    "test": 1,
+    "id": 673,
+    "question": "For a conventional light aeroplane with a tricycle undercarriage configuration, the higher the take-off mass, the:",
+    "options": [
+      "stick forces at rotation will increase",
+      "range will decrease but endurance will increase",
+      "gliding range will reduce",
+      "stalling speed will increase"
+    ],
+    "answer": "statements 1 and 4 only are correct",
+    "correct": 0,
+    "explanation": "This question format (statements 1 & 4) implies a multiple-choice structure where options combine statements. 1. Higher mass requires more downforce to rotate, increasing stick force. 4. Higher mass requires more lift, increasing stall speed. Gliding range (L/D max) is independent of mass (though speed to fly it changes)."
+  },
+  {
+    "category": "aon-aviation-knowledge",
+    "test": 1,
+    "id": 240,
+    "question": "When an aircraft fitted with a classic air-driven artificial horizon decelerates after landing, a wrong indication will be displayed showing a:",
+    "options": [
+      "climbing turn to right",
+      "descending turn to left",
+      "climbing turn to left",
+      "descending turn to right"
+    ],
+    "answer": "descending turn to left",
+    "correct": 1,
+    "explanation": "Deceleration causes the bottom of the gyro (which is pendulous) to swing forward. This precesses to a tilt (showing a turn) and a pitch down indication. For a standard air-driven horizon, deceleration typically indicates a *descending turn to the left* (assuming clockwise rotor rotation)."
+  },
+  {
+    "category": "aon-aviation-knowledge",
+    "test": 3,
+    "id": 261,
+    "question": "Which of the following statements regarding an electric circuit is correct?",
+    "options": [
+      "an electric current is only able to flow in an open circuit",
+      "the magnitude of the current is proportional to the resistance",
+      "Too high a current may lead to the circuit overheating",
+      "lower diameter wires are able to carry a higher current"
+    ],
+    "answer": "Too high a current may lead to the circuit overheating",
+    "correct": 2,
+    "explanation": "Excessive current causes resistive heating ($I^2R$), which can melt insulation and cause fires. Fuses/Circuit Breakers are designed to prevent this."
+  },
+  {
+    "category": "instrumentation",
+    "test": 1,
+    "id": 546,
+    "question": "Following an indication of unserviceability of an air conditioning pack whilst on stand, what do you consult?",
+    "options": [
+      "The configuration deviation list",
+      "OPS Manual Part A",
+      "MEL",
+      "The Quick Reference Handbook (QRH)"
+    ],
+    "answer": "MEL",
+    "correct": 2,
+    "explanation": "The Minimum Equipment List (MEL) is the primary reference for determining if a flight can proceed with inoperative equipment while the aircraft is on the ground."
+  },
+  {
+    "category": "aon-aviation-knowledge",
+    "test": 2,
+    "id": 260,
+    "question": "The inbound track to the navigation aid serving a hold is 250°, your aircraft heading is 002°. What is the correct sector to join the hold?",
+    "options": [
+      "Sector 1 (parallel)",
+      "sector 2 (offset)",
+      "Sector 3 (direct)",
+      "Sector 1 or 2"
+    ],
+    "answer": "sector 2 (offset)",
+    "correct": 1,
+    "explanation": "Inbound track 250°. Heading 002°. The difference is 250 - 002 = 248° (roughly). If you are approaching from the 'dead side' at an angle greater than 70 degrees to the inbound track, it is typically a Sector 2 (Offset/Teardrop) entry."
+  },
+  {
+    "category": "aon-aviation-knowledge",
+    "test": 3,
+    "id": 256,
+    "question": "Which of the following statements is true regarding flight in turbulence?",
+    "options": [
+      "Flight in severe turbulence may lead to a stall and/or structural limitations being exceeded",
+      "Flight in turbulence increases fuel efficiency",
+      "Turbulence has no effect on stall speed",
+      "You should increase speed in turbulence to penetrate it better"
+    ],
+    "answer": "Flight in severe turbulence may lead to a stall and/or structural limitations being exceeded.",
+    "correct": 0,
+    "explanation": "Severe turbulence causes rapid load factor changes. High G-loads can exceed structural limits or increase the stall speed momentarily, leading to an accelerated stall."
+  },
+  {
+    "category": "aon-aviation-knowledge",
+    "test": 3,
+    "id": 258,
+    "question": "Which of the following statements is true regarding aircraft materials?",
+    "options": [
+      "Steel is lighter than Aluminium",
+      "Aluminium alloys are used in aircraft construction because they are light, easily machined and have good wear resistance",
+      "Wood is the strongest material for supersonic flight",
+      "Titanium is cheap and easy to machine"
+    ],
+    "answer": "Aluminium alloys are used in aircraft construction because they are light, easily machined and have good wear resistance",
+    "correct": 1,
+    "explanation": "Aluminum alloys are the standard aerospace material due to their high strength-to-weight ratio and ease of fabrication."
+  },
+  {
+    "category": "aon-aviation-knowledge",
+    "test": 4,
+    "id": 272,
+    "question": "Which of the following statements is correct regarding dangerous goods?",
+    "options": [
+      "batteries are considered dangerous goods if transported due to the risk of thermal runaway and the substances inside",
+      "Passengers may carry any quantity of batteries in checked luggage",
+      "Batteries are never dangerous",
+      "Only lead-acid batteries are restricted"
+    ],
+    "answer": "batteries are considered dangerous goods if transported due to the risk of thermal runaway and the substances inside",
+    "correct": 0,
+    "explanation": "Lithium batteries, in particular, pose a significant fire risk (thermal runaway) and are strictly regulated as Dangerous Goods."
+  },
+  {
+    "category": "aon-aviation-knowledge",
+    "test": 4,
+    "id": 279,
+    "question": "What is the speed limitation in the hold for class A & B aircraft below 14000 ft?",
+    "options": [
+      "230 kt",
+      "170 kt",
+      "200 kt",
+      "240 kt"
+    ],
+    "answer": "170 kt",
+    "correct": 1,
+    "explanation": "ICAO holding speeds for Cat A/B aircraft up to 14,000 ft are typically restricted to 170 KIAS to keep the holding pattern within a safe, protected airspace volume."
+  },
+  {
+    "category": "aircraft-general-knowledge",
+    "test": 3,
+    "id": 56,
+    "question": "What is the purpose of the wing main spar?",
+    "options": [
+      "To withstand bending and torsional loads",
+      "To reduce wing twist at high speed",
+      "To provide a mounting for the ailerons",
+      "To improve aerodynamic shape"
+    ],
+    "answer": "To withstand bending and torsional loads",
+    "correct": 0,
+    "explanation": "The main spar is the principal structural member of the wing, designed to carry the primary bending loads (lift vs weight) and torsional loads."
+  },
+  {
+    "category": "instrumentation",
+    "test": 5,
+    "id": 640,
+    "question": "Select the correct statement for the Datum:",
+    "options": [
+      "Is a fixed vertical plane from which all the arm distances are measured",
+      "Is the centre of gravity",
+      "Is the centre of pressure",
+      "Is always at the nose of the aircraft"
+    ],
+    "answer": "Is a fixed vertical plane from which all the arm distances are measured",
+    "correct": 0,
+    "explanation": "The Datum is the reference plane (station 0.0) from which all moment arms for mass and balance calculations are measured."
+  },
+  {
+    "category": "performance",
+    "test": 1,
+    "id": 330,
+    "question": "The signal from pilot to the signalman (marshaller) which means 'brakes applied' is:",
+    "options": [
+      "Fist clenched in front of the face then fingers extended",
+      "Raise arm and hand, with fingers extended, horizontally in front of face, then clench fist",
+      "Arms crossed above the head",
+      "Arms down, palms inward"
+    ],
+    "answer": "Raise arm and hand, with fingers extended, horizontally in front of face, then clench fist",
+    "correct": 1,
+    "explanation": "This is the standard ICAO hand signal for 'Brakes Engaged'. (Fist clenched then fingers extended means 'Brakes Released')."
+  },
+  {
+    "category": "meteorology",
+    "test": 1,
+    "id": 143,
+    "question": "The Transition Level:",
+    "options": [
+      "Is fixed at 18,000 ft",
+      "Shall be the lowest flight level available for use above the transition altitude",
+      "Is the same as Transition Altitude",
+      "Is printed on the approach chart"
+    ],
+    "answer": "Shall be the lowest flight level available for use above the transition altitude",
+    "correct": 1,
+    "explanation": "The Transition Level is the first available Flight Level above the Transition Altitude, separated by at least 1000 ft (depending on QNH pressure)."
+  },
+  {
+    "category": "human-performance-and-limitations",
+    "test": 4,
+    "id": 536,
+    "question": "A person is suffering from anaemia when:",
+    "options": [
+      "lacking haemoglobin",
+      "they have too much blood",
+      "they have high blood pressure",
+      "they are hyperventilating"
+    ],
+    "answer": "lacking haemoglobin",
+    "correct": 0,
+    "explanation": "Anaemia is defined as a deficiency in the number or quality of red blood cells or haemoglobin, reducing the blood's oxygen-carrying capacity."
+  },
+  {
+    "category": "human-performance-and-limitations",
+    "test": 2,
+    "id": 463,
+    "question": "If someone is hyperventilating, the blood contains too much:",
+    "options": [
+      "acid",
+      "alkaline",
+      "oxygen",
+      "carbon dioxide"
+    ],
+    "answer": "alkaline",
+    "correct": 1,
+    "explanation": "Hyperventilation flushes out Carbon Dioxide (an acid). The loss of acid makes the blood pH rise, becoming too **alkaline** (Respiratory Alkalosis)."
+  },
+  {
+    "category": "human-performance-and-limitations",
+    "test": 3,
+    "id": 519,
+    "question": "Which of the following statements, if any, are correct? 1. Euphoria is a possible result of hypoxia 2. Euphoria can lead to degraded decisions in flight",
+    "options": [
+      "1 & 2",
+      "1 only",
+      "2 only",
+      "Neither"
+    ],
+    "answer": "1 & 2",
+    "correct": 0,
+    "explanation": "Hypoxia often induces a false sense of well-being (euphoria), which is dangerous because it masks the severity of the situation and impairs judgment/decision making."
+  },
+  {
+    "category": "human-performance-and-limitations",
+    "test": 3,
+    "id": 509,
+    "question": "Which of the following statements are correct? Decompression sickness can be avoided by: 1. staying below 18000 ft 2. maintaining cabin pressure below 8000 ft 3. breathing 100% oxygen 30 minutes prior to and during flight",
+    "options": [
+      "1, 2 & 3 correct",
+      "1 & 2 only",
+      "2 & 3 only",
+      "1 & 3 only"
+    ],
+    "answer": "1, 2 & 3 correct",
+    "correct": 0,
+    "explanation": "Staying below critical altitudes (18k ft), keeping cabin pressure low (below 8k ft altitude), and denitrogenation (breathing 100% O2) are all valid strategies to prevent DCS."
+  },
+  {
+    "category": "human-performance-and-limitations",
+    "test": 3,
+    "id": 498,
+    "question": "Which of the following is correct concerning O2 and blood?",
+    "options": [
+      "Diffusion from the blood to the cells is dependent on the partial pressure of oxygen (diffusion at both tissue and alveolar levels is related to partial pressure)",
+      "Diffusion is independent of pressure",
+      "Oxygen is carried mainly in the plasma",
+      "Haemoglobin transports CO2 only"
+    ],
+    "answer": "Diffusion from the blood to the cells is dependent on the partial pressure of oxygen (diffusion at both tissue and alveolar levels is related to partial pressure)",
+    "correct": 0,
+    "explanation": "Gas exchange is driven by the pressure gradient. Oxygen diffuses from high partial pressure (blood) to low partial pressure (cells)."
+  },
+  {
+    "category": "human-performance-and-limitations",
+    "test": 3,
+    "id": 495,
+    "question": "A pilot suffering from hyperventilation during final approach in poor weather can combat the effects by:",
+    "options": [
+      "regulating depth and rate of breathing",
+      "selecting 100% oxygen",
+      "breathing into a paper bag",
+      "slowing the breathing rate, breathing into a paper bag and continuing the approach"
+    ],
+    "answer": "slowing the breathing rate, breathing into a paper bag and continuing the approach",
+    "correct": 3,
+    "explanation": "The immediate remedy is to increase CO2 levels. Slowing breathing or re-breathing exhaled air (paper bag technique) restores the chemical balance. (Note: In flight, 'regulating depth and rate' is often the preferred first step, but the PDF Answer specifically includes the paper bag option here)."
+  },
+  {
+    "category": "general-navigation",
+    "test": 3,
+    "id": 1268,
+    "question": "A Lambert's Conical conformal chart has standard parallels at 63N and 41N. What is the convergence factor?",
+    "options": [
+      "0.5",
+      ".788",
+      "0.866",
+      "1.0"
+    ],
+    "answer": ".788",
+    "correct": 1,
+    "explanation": "Constant of the Cone (n) = sin(Parallel of Origin). For 2 standard parallels, n = (sin 63 + sin 41)/2? No, n = ln(cos lat1 / cos lat2) / ln(tan(45+lat2/2) / tan(45+lat1/2)). Or simpler approximation: n = sin((63+41)/2) = sin(52) = 0.788."
+  },
+  {
+    "category": "general-navigation",
+    "test": 3,
+    "id": 1267,
+    "question": "An island is observed to be 15°(T) to the left. The aircraft heading is 120°(M), variation 17°(W). The bearing (°T) from the aircraft to the island is:",
+    "options": [
+      "088",
+      "105",
+      "122",
+      "135"
+    ],
+    "answer": "088",
+    "correct": 0,
+    "explanation": "Heading (M) = 120. Variation = 17W. Heading (T) = 120 - 17 = 103(T). Bearing is 15° Left of Heading. Bearing (T) = 103 - 15 = 088(T)."
+  },
+  {
+    "category": "general-navigation",
+    "test": 3,
+    "id": 1257,
+    "question": "Please refer to Appendix A. What is the chart symbol for a VOR/DME?",
+    "options": [
+      "Symbol 6",
+      "Symbol 8",
+      "Symbol 7",
+      "Symbol 4"
+    ],
+    "answer": "Symbol 7",
+    "correct": 2,
+    "explanation": "On standard ICAO charts, a hexagon with a dot is a VOR, a square is a DME. A hexagon inside a square (or similar combination) represents a VOR/DME. Symbol 7 matches this description."
+  },
+  {
+    "category": "air-law",
+    "test": 5,
+    "id": 210,
+    "question": "A separation minima shall be applied between a light or medium aircraft and a heavy and between a light and a medium aircraft when the heavier aircraft is making a low or missed approach and the lighter aircraft is utilizing an opposite direction runway on a parallel runway separated by:",
+    "options": [
+      "less than 760 m.",
+      "more than 760 m.",
+      "less than 915 m.",
+      "more than 915 m."
+    ],
+    "answer": "less than 760 m.",
+    "correct": 0,
+    "explanation": "Wake turbulence separation is required for parallel runways separated by less than 760m when using opposite direction runways."
+  }
+]

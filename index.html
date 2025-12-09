@@ -2668,6 +2668,28 @@ html {
     }
 }
 
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideOut {
+    from {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+}
+
 .section.active {
     animation: fadeIn 0.4s ease-out;
 }
@@ -25253,11 +25275,58 @@ html {
             el.style.display = 'none';
         }
 
+        function showOfflineReadyNotification() {
+            // Create a temporary notification
+            const notification = document.createElement('div');
+            notification.style.cssText = `
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                background: #10b981;
+                color: white;
+                padding: 16px 24px;
+                border-radius: 8px;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+                z-index: 10000;
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                animation: slideIn 0.3s ease-out;
+                max-width: 400px;
+            `;
+            notification.innerHTML = `
+                <i class="fas fa-check-circle" style="font-size: 24px;"></i>
+                <div>
+                    <div style="font-weight: 600; margin-bottom: 4px;">Ready for Offline Use!</div>
+                    <div style="font-size: 14px; opacity: 0.9;">The app is now fully cached and will work without internet.</div>
+                </div>
+            `;
+            
+            document.body.appendChild(notification);
+            
+            // Auto-remove after 5 seconds
+            setTimeout(() => {
+                notification.style.animation = 'slideOut 0.3s ease-out';
+                setTimeout(() => {
+                    notification.remove();
+                }, 300);
+            }, 5000);
+        }
+
         if ('serviceWorker' in navigator && window.location.protocol !== 'file:') {
             window.addEventListener('load', async () => {
                 try {
                     const registration = await navigator.serviceWorker.register('./sw.js');
-                    console.log('Service Worker registered successfully:', registration.scope);
+                    console.log('✓ Service Worker registered successfully:', registration.scope);
+
+                    // Check for updates every 5 minutes when app is active
+                    setInterval(() => {
+                        if (document.visibilityState === 'visible') {
+                            registration.update().catch(err => {
+                                console.log('Update check failed (offline?):', err);
+                            });
+                        }
+                    }, 5 * 60 * 1000);
 
                     // If there's an already-waiting worker, prompt update
                     if (registration.waiting) {
@@ -25271,9 +25340,12 @@ html {
                                 if (newWorker.state === 'installed') {
                                     if (navigator.serviceWorker.controller) {
                                         // New update available
+                                        console.log('✓ New version available!');
                                         showSWUpdate();
                                     } else {
-                                        console.log('Content cached for offline use.');
+                                        // First install, content is cached
+                                        console.log('✓ App is ready for offline use!');
+                                        showOfflineReadyNotification();
                                     }
                                 }
                             });

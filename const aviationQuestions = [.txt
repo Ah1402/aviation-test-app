@@ -1,0 +1,29 @@
+const aviationQuestions = [
+  {
+    id: 101,
+    question: "What is the primary purpose of the flaps on an airplane?",
+    options: {
+      A: "To increase lift and drag to allow for steeper approaches and slower landing speeds.",
+      B: "To decrease drag and increase lift for higher cruising speeds.",
+      C: "To increase lateral stability during turns."
+    },
+    correctAnswer: "A",
+    explanation: "Extending flaps increases the camber of the wing, which increases both lift and drag. This allows the aircraft to descend at a steeper angle without increasing airspeed.",
+    figure: null // Use a string like "Figure 4" if an image is required
+  },
+  {
+    id: 102,
+    question: "Which V-speed represents maneuvering speed?",
+    options: {
+      A: "Vne",
+      B: "Va",
+      C: "Vno"
+    },
+    correctAnswer: "B",
+    explanation: "Va is the design maneuvering speed. Do not use full or abrupt control movements above this speed.",
+    figure: null
+  }
+];
+
+// Exporting the module if you are using Node.js or a bundler
+// module.exports = aviationQuestions;

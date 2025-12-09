@@ -1,0 +1,1354 @@
+﻿[
+  {
+    "category": "radio-navigation",
+    "test": 2,
+    "id": 35,
+    "question": "The ILS glide slope transmitter generates false glide paths because of:",
+    "options": [
+      "reflections from ground vehicles near the runway",
+      "multiple lobes in the radiation pattern",
+      "atmospheric ducting in the troposphere",
+      "interference from FM broadcast stations"
+    ],
+    "answer": "multiple lobes in the radiation pattern",
+    "correct": 1,
+    "explanation": "False glide paths (often at 9 or 12 degrees) are a known phenomenon caused by the multiple lobes inherent in the antenna's vertical radiation pattern."
+  },
+  {
+    "category": "radio-navigation",
+    "test": 2,
+    "id": 46,
+    "question": "The best position on an aircraft for the GNSS aerial is:",
+    "options": [
+      "on the fuselage close to the centre of gravity",
+      "on the tail fin to ensure maximum reception",
+      "under the fuselage to avoid shielding from the wings",
+      "inside the cockpit glare shield"
+    ],
+    "answer": "on the fuselage close to the centre of gravity",
+    "correct": 0,
+    "explanation": "Placement near the CG minimizes the effect of aircraft attitude changes (pitch/roll) on the antenna position."
+  },
+  {
+    "category": "radio-navigation",
+    "test": 2,
+    "id": 99,
+    "question": "An aircraft is 100 NM SW of a VOR heading 080. The pilot intends to home to the VOR on the 210 radial. The setting he should put on the OBS is ... and the CDI indications will be:",
+    "options": [
+      "210, FROM, Fly Left",
+      "030, TO, Fly Right",
+      "030, FROM, Fly Right",
+      "210, TO, Fly Left"
+    ],
+    "answer": "030, TO, Fly Right",
+    "correct": 1,
+    "explanation": "To home TO the station on the 210 radial (which extends SW), you are flying the reciprocal track (030). The aircraft is SW, so 030 TO centers the needle. If you are slightly off, standard sensing applies."
+  },
+  {
+    "category": "principles-of-flight",
+    "test": 2,
+    "id": 133,
+    "question": "What effect on stall speed does decreasing sweep angle have?",
+    "options": [
+      "Decreasing sweep angle increases stall speed.",
+      "Decreasing sweep angle decreases stall speed.",
+      "Sweep angle has no effect on stall speed.",
+      "Decreasing sweep angle initially increases then decreases stall speed."
+    ],
+    "answer": "Decreasing sweep angle decreases stall speed.",
+    "correct": 1,
+    "explanation": "Swept wings generally have lower CL_max than straight wings. Reducing the sweep makes the wing behave more like a straight wing, increasing CL_max and thus reducing stall speed."
+  },
+  {
+    "category": "principles-of-flight",
+    "test": 2,
+    "id": 134,
+    "question": "Stalling speed increases when:",
+    "options": [
+      "power is increased",
+      "recovering from a steep dive",
+      "flaps are deployed",
+      "weight is decreased"
+    ],
+    "answer": "recovering from a steep dive",
+    "correct": 1,
+    "explanation": "Recovering from a steep dive involves a high load factor (g-force). Stall speed increases with the square root of the load factor."
+  },
+  {
+    "category": "principles-of-flight",
+    "test": 2,
+    "id": 156,
+    "question": "When considering an angle of attack versus coefficient of lift graph for a cambered aerofoil, where does the lift curve intersect the vertical CL axis?",
+    "options": [
+      "above the origin",
+      "below the origin",
+      "at the point of origin",
+      "to the left of the origin"
+    ],
+    "answer": "above the origin",
+    "correct": 0,
+    "explanation": "A cambered aerofoil produces lift even at zero angle of attack, so the curve intersects the CL axis (vertical) above zero."
+  },
+  {
+    "category": "principles-of-flight",
+    "test": 2,
+    "id": 179,
+    "question": "A line from the centre of curvature of the leading edge to the trailing edge, equidistant from the top and bottom wing surface is the:",
+    "options": [
+      "chord line",
+      "camber line",
+      "thickness line",
+      "drag axis"
+    ],
+    "answer": "camber line",
+    "correct": 1,
+    "explanation": "The mean camber line represents the curvature of the wing, drawn halfway between the upper and lower surfaces."
+  },
+  {
+    "category": "flight-performance",
+    "test": 2,
+    "id": 183,
+    "question": "The information in a light aircraft manual gives two power settings for cruise, 65% and 75%. If you fly at 75% instead:",
+    "options": [
+      "cruise speed will be higher, fuel consumption will be lower",
+      "cruise speed will be higher, fuel consumption will be higher",
+      "cruise speed will be lower, fuel consumption will be higher",
+      "cruise speed will be the same, fuel consumption will be higher"
+    ],
+    "answer": "cruise speed will be higher, fuel consumption will be higher",
+    "correct": 1,
+    "explanation": "Higher power settings naturally result in higher airspeeds but come at the cost of increased fuel flow."
+  },
+  {
+    "category": "principles-of-flight",
+    "test": 2,
+    "id": 185,
+    "question": "Climbing in the troposphere at a constant TAS:",
+    "options": [
+      "Mach number remains constant",
+      "Mach number decreases",
+      "Mach number increases",
+      "Indicated airspeed increases"
+    ],
+    "answer": "Mach number increases",
+    "correct": 2,
+    "explanation": "In the troposphere, temperature decreases with altitude. The local speed of sound (LSS) decreases as temperature drops. Since Mach = TAS / LSS, if TAS is constant and LSS drops, Mach must increase."
+  },
+  {
+    "category": "flight-performance",
+    "test": 2,
+    "id": 189,
+    "question": "What factor must be applied to the landing distance available at the destination aerodrome to determine the landing performance of a turbojet aircraft on a dry runway?",
+    "options": [
+      "0.43",
+      "0.60",
+      "0.70",
+      "1.15"
+    ],
+    "answer": "0.60",
+    "correct": 1,
+    "explanation": "Regulations typically require a turbojet aircraft to be able to land within 60% of the landing distance available (LDA) at the destination."
+  },
+  {
+    "category": "principles-of-flight",
+    "test": 2,
+    "id": 194,
+    "question": "Which denotes the stall speed in the landing configuration?",
+    "options": [
+      "Vs1",
+      "VsO",
+      "Vref",
+      "Vfe"
+    ],
+    "answer": "VsO",
+    "correct": 1,
+    "explanation": "VsO is the stalling speed or minimum steady flight speed in the landing configuration."
+  },
+  {
+    "category": "mass-and-balance",
+    "test": 2,
+    "id": 196,
+    "question": "Putting in 16,500 litres of fuel with an SG of 0.780 kg/l, and writing 16,500 kg of fuel on the load sheet will result in:",
+    "options": [
+      "TOD and ASD increasing, and the calculated V2 being too slow",
+      "TOD and ASD decreasing, and the calculated V2 being too fast",
+      "No change in performance calculations",
+      "The aircraft being heavier than calculated"
+    ],
+    "answer": "TOD and ASD decreasing, and the calculated V2 being too fast",
+    "correct": 1,
+    "explanation": "16,500 L * 0.78 = 12,870 kg. You wrote 16,500 kg. You think the plane is HEAVIER than it actually is. You will calculate speeds (V1, Vr, V2) for a heavy plane. These speeds will be too fast for the actual lighter weight. You will also calculate that you need more runway (TOD/ASD) than you actually do."
+  },
+  {
+    "category": "meteorology",
+    "test": 2,
+    "id": 299,
+    "question": "When flying from west to east through a cold occlusion (below the warm air) over the North Atlantic you would expect the wind to â€¦â€¦â€¦ and the temperature to .â€¦â€¦.",
+    "options": [
+      "veer / decrease",
+      "back / increase",
+      "veer / increase",
+      "back / decrease"
+    ],
+    "answer": "back / increase",
+    "correct": 1,
+    "explanation": "[cite: 10] As you fly West to East through a system, you are effectively approaching it from the rear side or passing through. In a cold occlusion, the air behind the front is colder than the air ahead."
+  },
+  {
+    "category": "principles-of-flight",
+    "test": 2,
+    "id": 309,
+    "question": "In a glide (power-off descent) if pitch angle is increased, glide distance will:",
+    "options": [
+      "increase significantly",
+      "decrease",
+      "remain the same",
+      "fluctuate"
+    ],
+    "answer": "decrease",
+    "correct": 1,
+    "explanation": "If you are flying at the optimal glide speed (best L/D), increasing pitch (slowing down) or decreasing pitch (speeding up) will both degrade the lift-to-drag ratio, reducing the glide distance."
+  },
+  {
+    "category": "principles-of-flight",
+    "test": 2,
+    "id": 312,
+    "question": "When flying in a headwind, the speed for max range should be:",
+    "options": [
+      "slightly decreased",
+      "slightly increased",
+      "maintained at Vmd",
+      "maintained at Vmo"
+    ],
+    "answer": "slightly increased",
+    "correct": 1,
+    "explanation": "To penetrate a headwind efficiently and minimize the time exposed to the headwind, the airspeed for maximum range (long range cruise) is increased slightly compared to still air conditions."
+  },
+  {
+    "category": "principles-of-flight",
+    "test": 2,
+    "id": 317,
+    "question": "The induced drag in an aeroplane:",
+    "options": [
+      "increases as speed increases",
+      "decreases as speed increases",
+      "is independent of speed",
+      "is directly proportional to the square of the speed"
+    ],
+    "answer": "decreases as speed increases",
+    "correct": 1,
+    "explanation": "Induced drag is inversely proportional to the square of the speed ($$1/V^2$$). As speed increases, the angle of attack required to maintain lift decreases, reducing induced drag."
+  },
+  {
+    "category": "operational-procedures",
+    "test": 2,
+    "id": 391,
+    "question": "What are the circling minimum visibility and MDH for a category B aeroplane?",
+    "options": [
+      "1500 m / 400 ft",
+      "1600 m / 500 ft",
+      "2400 m / 600 ft",
+      "3600 m / 700 ft"
+    ],
+    "answer": "1600 m 500 ft",
+    "correct": 1,
+    "explanation": "[cite: 12] Standard ICAO/EASA circling minima for Category B aircraft typically specify a minimum visibility of 1600m and MDH of 500ft."
+  },
+  {
+    "category": "air-law",
+    "test": 2,
+    "id": 422,
+    "question": "When determining Aerodrome Operating Minima, which of the following needs to be considered? 1. Crew composition 2. Ability to communicate/receive meteorological information 3. Significant obstacles in the missed approach area 4. Dimensions and characteristics of the runway 5. Navigation equipment in the aeroplane",
+    "options": [
+      "1, 2 and 4 only",
+      "3, 4 and 5 only",
+      "all of the above",
+      "1, 3 and 5 only"
+    ],
+    "answer": "all of the above",
+    "correct": 2,
+    "explanation": "[cite: 13, 14] Determining operating minima is a complex calculation involving the aircraft, the crew, the ground environment (runway/obstacles), and the available technology (nav/met)."
+  },
+  {
+    "category": "air-law",
+    "test": 2,
+    "id": 465,
+    "question": "How often should pilot proficiency checks be performed?",
+    "options": [
+      "Once every 6 months",
+      "3 checks within the year with no less than 4 months between checks",
+      "Once every 12 months",
+      "2 checks per year with no less than 6 months between checks"
+    ],
+    "answer": "3 checks within the year with no less than 4 months between checks",
+    "correct": 1,
+    "explanation": "[cite: 17] This specific interval refers to specific operator requirements, often associated with ensuring continuous proficiency spread throughout the year."
+  },
+  {
+    "category": "operational-procedures",
+    "test": 2,
+    "id": 466,
+    "question": "A modern aircraft must be provided with a flight data recorder when its certified MTOM is greater than:",
+    "options": [
+      "2500 kg",
+      "5700 kg",
+      "27000 kg",
+      "10000 kg"
+    ],
+    "answer": "5700 kg",
+    "correct": 1,
+    "explanation": "5700 kg is a standard regulatory threshold for the requirement of Flight Data Recorders (FDR) in multi-turbine engine aeroplanes."
+  },
+  {
+    "category": "operational-procedures",
+    "test": 2,
+    "id": 468,
+    "question": "On an ILS, you are told that the weather has dropped below company minima. When must you abort the approach?",
+    "options": [
+      "At the Decision Altitude",
+      "Outer marker",
+      "Middle marker",
+      "You can continue if you have visual reference"
+    ],
+    "answer": "Outer marker",
+    "correct": 1,
+    "explanation": "[cite: 19] This refers to the 'Approach Ban'. If the reported RVR is below minima *before* passing the Outer Marker (or equivalent point like 1000ft), you must not continue. If it drops *after*, you may continue to DA/H."
+  },
+  {
+    "category": "operational-procedures",
+    "test": 2,
+    "id": 469,
+    "question": "What is the oxygen requirement for the crew and 100% of the passengers in an unpressurized aircraft?",
+    "options": [
+      "10000 ft",
+      "13000 ft",
+      "15000 ft",
+      "25000 ft"
+    ],
+    "answer": "13000 ft",
+    "correct": 1,
+    "explanation": "[cite: 20] In unpressurized aircraft, 100% of passengers typically require oxygen above 13,000 ft (or similar altitude depending on specific regulation variations, but 13,000 is the key threshold here)."
+  },
+  {
+    "category": "operational-procedures",
+    "test": 2,
+    "id": 476,
+    "question": "Destination alternate for a turbojet - what is the required fuel overhead?",
+    "options": [
+      "45 minutes at cruise speed",
+      "30 minutes at 1500 ft in standard conditions",
+      "2 hours at holding speed",
+      "15 minutes at holding speed"
+    ],
+    "answer": "30 minutes at 1500 ft in standard conditions.",
+    "correct": 1,
+    "explanation": "[cite: 26] Standard holding fuel reserves for turbojets are often calculated as 30 minutes at holding speed at 1,500 ft above the alternate aerodrome."
+  },
+  {
+    "category": "mass-and-balance",
+    "test": 2,
+    "id": 508,
+    "question": "If a compartment takes a maximum load of 500 kg, with a running load limit of 350 kg/m and a distribution load limit of 300 kg/mÂ², which of following boxes (each 500 kg) can be carried? 1. 100x110x145cm 2. 125x135x142cm 3. 120x140x143cm 4. 125x135x144cm",
+    "options": [
+      "Box 1 only",
+      "Either of boxes 3 and 4 with their longest length parallel to the aircraft longitudinal axis",
+      "Boxes 2 and 3 only",
+      "None of the boxes can be carried"
+    ],
+    "answer": "Either of boxes 3 and 4 with their longest length parallel to the aircraft longitudinal axis.",
+    "correct": 1,
+    "explanation": "[cite: 31, 33] This requires calculating the contact area and linear dimension. Boxes 3 and 4 allow the weight to be spread over a sufficient length (running load) and area (distribution load) to meet the limits."
+  },
+  {
+    "category": "human-performance",
+    "test": 2,
+    "id": 560,
+    "question": "The result of Empty Field Myopia is:",
+    "options": [
+      "focusing is limited to infinity",
+      "focusing is limited to between 1 and 2 meters",
+      "vision becomes blurred at the edges",
+      "colour perception is lost"
+    ],
+    "answer": "focusing is limited to between 1 and 2 meters",
+    "correct": 1,
+    "explanation": "When there are no visual stimuli (empty sky), the eye's lens rests at a focus distance of roughly 1-2 meters, making it difficult to spot distant aircraft."
+  },
+  {
+    "category": "human-performance",
+    "test": 2,
+    "id": 838,
+    "question": "The relationship between stress and performance is in the shape of:",
+    "options": [
+      "a linear line upwards",
+      "an inverted U",
+      "an exponential curve",
+      "a flat line"
+    ],
+    "answer": "The relationship is in the shape of an inverted U",
+    "correct": 1,
+    "explanation": "This is the Yerkes-Dodson law. Performance increases with stress (arousal) up to an optimal point, after which higher stress reduces performance."
+  },
+  {
+    "category": "general-navigation",
+    "test": 2,
+    "id": 881,
+    "question": "Which of these is a correct statement about the Earth's magnetic field?",
+    "options": [
+      "It acts as though there is a large red magnetic pole in Northern Canada",
+      "It acts as though there is a large blue magnetic pole in Northern Canada",
+      "It is constant and never changes",
+      "The magnetic poles coincide exactly with the geographic poles"
+    ],
+    "answer": "It acts as though there is a large blue magnetic pole in Northern Canada",
+    "correct": 1,
+    "explanation": "[cite: 65] Physically, the Earth's North Magnetic Pole (where the North seeking needle points) actually has 'South' (Blue) magnetic polarity."
+  },
+  {
+    "category": "general-navigation",
+    "test": 2,
+    "id": 882,
+    "question": "Isogrivs are lines that connect positions that have:",
+    "options": [
+      "the same magnetic variation",
+      "the same grivation",
+      "zero magnetic dip",
+      "equal atmospheric pressure"
+    ],
+    "answer": "the same grivation",
+    "correct": 1,
+    "explanation": "Grivation is the angle between Grid North and Magnetic North. Isogrivs connect points of equal grivation."
+  },
+  {
+    "category": "general-navigation",
+    "test": 2,
+    "id": 892,
+    "question": "By what amount must you change your rate of descent given a 10 knot decrease in headwind on a 3Â° glide slope?",
+    "options": [
+      "50 feet per minute decrease",
+      "50 feet per minute increase",
+      "100 feet per minute increase",
+      "No change required"
+    ],
+    "answer": "50 feet per minute increase",
+    "correct": 1,
+    "explanation": "[cite: 71] A decrease in headwind increases Ground Speed. On a fixed glide path (3 degrees), Rate of Descent â‰ˆ Ground Speed x 5. If GS increases by 10kt, ROD increases by 10 x 5 = 50 fpm."
+  },
+  {
+    "category": "general-navigation",
+    "test": 2,
+    "id": 894,
+    "question": "Where is a compass most effective?",
+    "options": [
+      "At the magnetic poles",
+      "About midway between the earth's magnetic poles",
+      "At high latitudes",
+      "Near the geographic poles"
+    ],
+    "answer": "About midway between the earth's magnetic poles",
+    "correct": 1,
+    "explanation": "[cite: 73] The magnetic compass relies on the horizontal component of the Earth's magnetic field. This component is strongest at the magnetic equator (midway between poles) and weakest at the poles where 'dip' is maximum."
+  }
+]
+[
+  {
+    "category": "operational-procedures",
+    "test": 2,
+    "id": 399,
+    "question": "The 'NO SMOKING' sign must be illuminated:",
+    "options": [
+      "only during take-off and landing",
+      "when oxygen is being supplied in the cabin",
+      "whenever the seat belt sign is on",
+      "only when flying in turbulence"
+    ],
+    "answer": "when oxygen is being supplied in the cabin",
+    "correct": 1,
+    "explanation": "Safety regulations strictly prohibit smoking when oxygen is in use due to the extreme fire hazard."
+  },
+  {
+    "category": "operational-procedures",
+    "test": 2,
+    "id": 463,
+    "question": "What skills constitute pilot proficiency checks?",
+    "options": [
+      "Navigation, meteorology and air law",
+      "Flying technique, emergency procedures and IFR",
+      "Crew resource management and leadership",
+      "Radio telephony and signals"
+    ],
+    "answer": "Flying technique, emergency procedures and IFR",
+    "correct": 1,
+    "explanation": "Proficiency checks focus on the practical handling of the aircraft, managing non-normal situations (emergencies), and instrument flying capabilities."
+  },
+  {
+    "category": "operational-procedures",
+    "test": 2,
+    "id": 464,
+    "question": "Following an indication of an unserviceability whilst taxiing to the holding point, what do you consult first?",
+    "options": [
+      "The Flight Manual",
+      "MEL",
+      "ATC",
+      "The Company Operations Manual"
+    ],
+    "answer": "MEL",
+    "correct": 1,
+    "explanation": "The Minimum Equipment List (MEL) dictates whether the aircraft can depart with a specific equipment failure."
+  },
+  {
+    "category": "operational-procedures",
+    "test": 2,
+    "id": 467,
+    "question": "Flight crew members on the flight deck shall keep their safety belt fastened:",
+    "options": [
+      "only during take-off and landing",
+      "while at their station",
+      "only when turbulence is expected",
+      "whenever the 'Fasten Seat Belt' sign is on"
+    ],
+    "answer": "while at their station",
+    "correct": 1,
+    "explanation": "Regulations require flight crew to have seat belts fastened at all times when they are seated at their duty station."
+  },
+  {
+    "category": "operational-procedures",
+    "test": 2,
+    "id": 470,
+    "question": "Who compiles the MEL and where does it go?",
+    "options": [
+      "The manufacturer and in the Flight Manual",
+      "The operator and in the OM",
+      "The Civil Aviation Authority and in the AIP",
+      "The Chief Pilot and in the technical log"
+    ],
+    "answer": "The operator and in the OM",
+    "correct": 1,
+    "explanation": "The Operator creates the MEL (based on the Master MEL), and it is typically contained within the Operations Manual (OM)."
+  },
+  {
+    "category": "operational-procedures",
+    "test": 2,
+    "id": 471,
+    "question": "Who provides the operations personnel with the OM and the amendments to keep it up to date?",
+    "options": [
+      "The National Aviation Authority",
+      "Aircraft operator",
+      "The aircraft manufacturer",
+      "ICAO"
+    ],
+    "answer": "Aircraft operator",
+    "correct": 1,
+    "explanation": "The Aircraft Operator is responsible for distributing the Operations Manual and its updates to relevant personnel."
+  },
+  {
+    "category": "operational-procedures",
+    "test": 2,
+    "id": 472,
+    "question": "The OPS document is based on:",
+    "options": [
+      "ICAO Annex 2",
+      "ICAO Annex 6",
+      "ICAO Annex 14",
+      "The Warsaw Convention"
+    ],
+    "answer": "ICAO Annex 6",
+    "correct": 1,
+    "explanation": "ICAO Annex 6 covers 'Operation of Aircraft'."
+  },
+  {
+    "category": "operational-procedures",
+    "test": 2,
+    "id": 473,
+    "question": "What is the requirement regarding the carriage of a CVR for aircraft registered before April 1998?",
+    "options": [
+      "Record last 2 hours of flight",
+      "Record last 30 mins of flight",
+      "Record the entire flight",
+      "No CVR required"
+    ],
+    "answer": "Record last 30 mins of flight",
+    "correct": 1,
+    "explanation": "Older regulations (pre-1998) often required a minimum recording duration of the last 30 minutes for the Cockpit Voice Recorder."
+  },
+  {
+    "category": "operational-procedures",
+    "test": 2,
+    "id": 474,
+    "question": "On an NDB approach with an MDH of 360 ft and a required RVR of 1500 m and a reported met vis of 2500 m, when can you start an approach?",
+    "options": [
+      "Only if cloud base is above 360 ft",
+      "With any cloud base",
+      "Only if cloud base is above 1000 ft",
+      "Only if RVR is above 3000 m"
+    ],
+    "answer": "With any cloud base",
+    "correct": 1,
+    "explanation": "The approach ban is typically based on RVR/Visibility, not cloud ceiling (unless specifically stated for certain operations). Since reported visibility (2500m) is above required (1500m), the approach can commence regardless of ceiling."
+  },
+  {
+    "category": "operational-procedures",
+    "test": 2,
+    "id": 475,
+    "question": "Who is responsible for ensuring that the aeroplane is airworthy prior to flight?",
+    "options": [
+      "The Chief Engineer",
+      "The Operator",
+      "Captain",
+      "ATC"
+    ],
+    "answer": "Captain",
+    "correct": 2,
+    "explanation": "The Pilot in Command (Captain) has the final responsibility to accept the aircraft and ensure it is airworthy for the intended flight."
+  },
+  {
+    "category": "operational-procedures",
+    "test": 2,
+    "id": 477,
+    "question": "What is required for navigation in IMC?",
+    "options": [
+      "Visual contact with the ground every 10 minutes",
+      "Radio equipment and equipment for guidance until the visual point",
+      "A handheld GPS",
+      "Radar vectoring service"
+    ],
+    "answer": "Radio equipment and equipment for guidance until the visual point",
+    "correct": 1,
+    "explanation": "IFR/IMC flight requires certified radio navigation equipment to guide the aircraft from departure to the point where visual references can be acquired for landing."
+  },
+  {
+    "category": "operational-procedures",
+    "test": 2,
+    "id": 478,
+    "question": "Who is to ensure safe handling of flights?",
+    "options": [
+      "The airport authority",
+      "The operator",
+      "The ground handling agent",
+      "The cargo manager"
+    ],
+    "answer": "The operator",
+    "correct": 1,
+    "explanation": "The Operator retains ultimate responsibility for the safety of the flight operations, including handling."
+  },
+  {
+    "category": "operational-procedures",
+    "test": 2,
+    "id": 479,
+    "question": "On board a pressurized aircraft, a flight shall be undertaken only if the aircraft is provided with an oxygen reserve enabling all crew members and all of the passengers to be supplied with oxygen in the event of cabin depressurization, throughout the flight period, during which the pressure altitude is greater than:",
+    "options": [
+      "10000ft",
+      "13000ft",
+      "14000ft",
+      "15000ft"
+    ],
+    "answer": "13000ft",
+    "correct": 1,
+    "explanation": "Above 13,000 ft cabin pressure altitude, 100% of passengers and crew require oxygen."
+  },
+  {
+    "category": "operational-procedures",
+    "test": 2,
+    "id": 480,
+    "question": "The MEL is drawn up by the:",
+    "options": [
+      "manufacturer and may be less restrictive than the MMEL",
+      "operator and may be more restrictive than the MMEL",
+      "authority and must be identical to the MMEL",
+      "operator and may be less restrictive than the MMEL"
+    ],
+    "answer": "operator and may be more restrictive than the MMEL",
+    "correct": 1,
+    "explanation": "The Operator creates the MEL. It can be more restrictive (safer) than the Master MEL, but never less restrictive."
+  },
+  {
+    "category": "mass-and-balance",
+    "test": 2,
+    "id": 517,
+    "question": "Prior to departure an MRJT is loaded with maximum fuel of 20100 liter at an SG of 0.78. Calculate the maximum allowable traffic load given: PLTOM 67200 kg, PLLM 54200 kg, DOM 34930 kg, Taxi fuel 250 kg, Trip fuel 9250 kg, Contingency/holding 850 kg, Alternate 700 kg.",
+    "options": [
+      "10550 kg",
+      "12442 kg",
+      "15678 kg",
+      "16592 kg"
+    ],
+    "answer": "12442",
+    "correct": 1,
+    "explanation": "Fuel Mass = 20100 * 0.78 = 15,678 kg. Takeoff Fuel = 15678 - 250 (taxi) = 15,428 kg. Max Takeoff Mass check: 67200 - (34930 + 15428) = 16,842 kg allowed. Max Landing Mass check: 54200 - (34930 + (15428 - 9250)) = 13,092 kg allowed. (Note: The provided answer 12442 suggests a specific limit calculation from the CAP 696 manual not fully reproducible with just these numbers, but 12442 matches the provided key)."
+  },
+  {
+    "category": "operational-procedures",
+    "test": 2,
+    "id": 550,
+    "question": "Following an indication of unserviceability of an air conditioning pack whilst on stand, what do you consult first?",
+    "options": [
+      "The engineering log",
+      "mel",
+      "The flight manual",
+      "Operations control"
+    ],
+    "answer": "mel",
+    "correct": 1,
+    "explanation": "Just like Q-464, defects on the ground are cross-referenced with the Minimum Equipment List."
+  },
+  {
+    "category": "operational-procedures",
+    "test": 2,
+    "id": 551,
+    "question": "In relation to Persons with Reduced Mobility (PRM's):",
+    "options": [
+      "They must always sit near emergency exits",
+      "The commander must be notified when PRM's are carried",
+      "They are not allowed on commercial flights",
+      "No special notification is required"
+    ],
+    "answer": "The commander must be notified when PRM's are carried",
+    "correct": 1,
+    "explanation": "The Captain must be aware of PRMs on board to plan for emergency evacuations effectively."
+  },
+  {
+    "category": "communications",
+    "test": 2,
+    "id": 563,
+    "question": "The phrase 'all stations' is used to transmit to:",
+    "options": [
+      "Only air traffic control units",
+      "A broadcast to all stations on frequency",
+      "Only aircraft on the ground",
+      "Emergency services only"
+    ],
+    "answer": "A broadcast to all stations on frequency",
+    "correct": 1,
+    "explanation": "Standard phraseology for a general broadcast."
+  },
+  {
+    "category": "aircraft-general-knowledge",
+    "test": 2,
+    "id": 573,
+    "question": "Which of the following statements is true regarding aircraft materials?",
+    "options": [
+      "Steel is used for the entire skin due to its weight",
+      "Aluminium alloys are used in aircraft construction because they are light, easily machined and have good wear resistance",
+      "Wood is the primary material for modern jet transports",
+      "Titanium is used for all wing surfaces"
+    ],
+    "answer": "Aluminium alloys are used in aircraft construction because they are light, easily machined and have good wear resistance",
+    "correct": 1,
+    "explanation": "Aluminum alloys offer an excellent strength-to-weight ratio and manufacturing ease."
+  },
+  {
+    "category": "radio-navigation",
+    "test": 2,
+    "id": 584,
+    "question": "What distance does the DME display?",
+    "options": [
+      "Ground distance in km",
+      "Slant range in NM",
+      "Horizontal distance in NM",
+      "Height above the station in feet"
+    ],
+    "answer": "Slant range in NM",
+    "correct": 1,
+    "explanation": "DME measures the direct line-of-sight distance (hypotenuse), which is the Slant Range."
+  },
+  {
+    "category": "meteorology",
+    "test": 2,
+    "id": 587,
+    "question": "During which stage of thunderstorm development are rotor winds characterized by roll clouds most likely to occur?",
+    "options": [
+      "cumulus stage",
+      "mature stage",
+      "dissipating stage",
+      "initial stage"
+    ],
+    "answer": "mature stage",
+    "correct": 1,
+    "explanation": "The mature stage involves strong updrafts and downdrafts coexisting, creating severe turbulence and roll clouds."
+  },
+  {
+    "category": "air-law",
+    "test": 2,
+    "id": 588,
+    "question": "An aircraft lands at an aerodrome of another Contracting State for technical reasons. What freedom of the air is applicable in this case?",
+    "options": [
+      "1st freedom of the air",
+      "2nd freedom of the air",
+      "3rd freedom of the air",
+      "4th freedom of the air"
+    ],
+    "answer": "2nd freedom of the air",
+    "correct": 1,
+    "explanation": "The 2nd Freedom is the right to land for non-traffic purposes (refueling/maintenance)."
+  },
+  {
+    "category": "flight-controls",
+    "test": 2,
+    "id": 591,
+    "question": "Which of the following are all aerodynamic balances?",
+    "options": [
+      "Mass balance, trim tab, servo tab",
+      "Horn balance, balance tab and internal balance",
+      "Spring tab, mass balance, anti-balance tab",
+      "Rudder limiter, yaw damper, stick pusher"
+    ],
+    "answer": "Horn balance, balance tab and internal balance",
+    "correct": 1,
+    "explanation": "These are mechanisms designed to reduce the physical force required by the pilot to move control surfaces."
+  },
+  {
+    "category": "aircraft-general-knowledge",
+    "test": 2,
+    "id": 594,
+    "question": "The purpose of an ignition switch is to:",
+    "options": [
+      "engage the starter motor",
+      "control the primary circuit of the magneto",
+      "connect the battery to the alternator",
+      "supply fuel to the engine"
+    ],
+    "answer": "control the primary circuit of the magneto",
+    "correct": 1,
+    "explanation": "The ignition switch grounds (earths) the primary circuit to turn the magneto OFF."
+  },
+  {
+    "category": "aircraft-general-knowledge",
+    "test": 2,
+    "id": 595,
+    "question": "When selecting a fuse for an aircraft electrical circuit, what is the governing factor?",
+    "options": [
+      "the voltage of the battery",
+      "the power requirement of the circuit",
+      "the length of the wire",
+      "the type of switch used"
+    ],
+    "answer": "the power requirement of the circuit",
+    "correct": 1,
+    "explanation": "Fuses are selected to protect the circuit based on the current load (power requirement) to prevent overheating."
+  },
+  {
+    "category": "aircraft-general-knowledge",
+    "test": 2,
+    "id": 598,
+    "question": "The skin of a modern pressurized aircraft:",
+    "options": [
+      "Is purely for aerodynamic streamlining",
+      "Is a primary load bearing structure carrying much of the loads",
+      "Does not carry any structural loads",
+      "Is made of fabric"
+    ],
+    "answer": "Is a primary load bearing structure carrying much of the loads",
+    "correct": 1,
+    "explanation": "In semi-monocoque construction, the skin ('stressed skin') carries a significant portion of the structural loads, including pressurization stress."
+  },
+  {
+    "category": "operational-procedures",
+    "test": 2,
+    "id": 606,
+    "question": "When are lifejackets required?",
+    "options": [
+      "Only on trans-oceanic flights",
+      "50NM from land",
+      "When flying over any water",
+      "100NM from land"
+    ],
+    "answer": "50NM from land",
+    "correct": 1,
+    "explanation": "General requirement for carriage of lifejackets often triggers when flying more than 50NM from shore (depending on specific authority rules like EASA/FAA, but 50NM is the standard answer key here)."
+  },
+  {
+    "category": "communications",
+    "test": 2,
+    "id": 608,
+    "question": "One advantage of using VHF for voice communications over HF is?",
+    "options": [
+      "VHF has much longer range",
+      "VHF is less affected by atmospheric noise and electrical equipment",
+      "VHF bounces off the ionosphere",
+      "VHF requires larger antennas"
+    ],
+    "answer": "VHF is less affected by atmospheric noise and electrical equipment",
+    "correct": 1,
+    "explanation": "HF (High Frequency) suffers from significant static and fading; VHF (Very High Frequency) is line-of-sight but much clearer."
+  },
+  {
+    "category": "principles-of-flight",
+    "test": 2,
+    "id": 615,
+    "question": "To roll the aircraft to the right:",
+    "options": [
+      "The aileron control is moved to the left",
+      "The aileron control is moved to the right, the right aileron goes up and the left one down",
+      "The aileron control is moved to the right, the right aileron goes down and the left one up",
+      "The rudder is moved to the right"
+    ],
+    "answer": "The aileron control is moved to the right, the right aileron goes up and the left one down",
+    "correct": 1,
+    "explanation": "Right aileron UP reduces lift on right wing (drops). Left aileron DOWN increases lift on left wing (rises). Result: Right roll."
+  },
+  {
+    "category": "communications",
+    "test": 2,
+    "id": 619,
+    "question": "The phrase 'take-off' is used by a pilot:",
+    "options": [
+      "When ready to depart",
+      "Only to acknowledge take-off clearance",
+      "When requesting clearance",
+      "During the takeoff roll"
+    ],
+    "answer": "Only to acknowledge take-off clearance",
+    "correct": 1,
+    "explanation": "To avoid confusion, pilots use 'Departure' or 'Ready' in all other contexts. 'Take-off' is reserved strictly for the clearance itself."
+  },
+  {
+    "category": "communications",
+    "test": 2,
+    "id": 620,
+    "question": "The phrase 'say again' means?",
+    "options": [
+      "I did not understand",
+      "Repeat the entire message",
+      "Speak slower",
+      "Check your radio"
+    ],
+    "answer": "Repeat the entire message",
+    "correct": 1,
+    "explanation": "Standard ICAO phraseology."
+  },
+  {
+    "category": "operational-procedures",
+    "test": 2,
+    "id": 621,
+    "question": "You are on a flight IFR in IMC on route. At 18:36 UTC you receive: 'Turn immediately, continue heading 050 until further advised'. At 18:37 UTC radio comms are lost. You will:",
+    "options": [
+      "Continue on heading 050 indefinitely",
+      "Return to your current flight plan route",
+      "Descend immediately to MSA",
+      "Land at the nearest suitable aerodrome"
+    ],
+    "answer": "Return to you current flight plan route",
+    "correct": 1,
+    "explanation": "In a radar vectoring scenario with lost comms, the standard procedure is often to maintain the vector for a short period (e.g., 2 mins) then return to the flight plan route to ensure predictability for ATC."
+  },
+  {
+    "category": "operational-procedures",
+    "test": 2,
+    "id": 727,
+    "question": "You receive this ATC clearance: 'CLEARED TO THE ABC VORTAC. HOLD SOUTH ON THE ONE EIGHT ZERO RADIAL...' What is the recommended procedure to enter the holding pattern?",
+    "options": [
+      "Parallel entry",
+      "direct only",
+      "Teardrop entry",
+      "Offset entry"
+    ],
+    "answer": "direct only",
+    "correct": 1,
+    "explanation": "If you are cleared to the fix and approaching from a sector that allows a direct entry (usually within 70 degrees of the inbound leg), you fly direct."
+  },
+  {
+    "category": "general-navigation",
+    "test": 2,
+    "id": 738,
+    "question": "Using the 1 in 60 rule calculate the height on a 3 degree glide path of an aircraft 4.5 NM from touchdown.",
+    "options": [
+      "1000 ft",
+      "1370 ft",
+      "1500 ft",
+      "1200 ft"
+    ],
+    "answer": "1370 ft",
+    "correct": 1,
+    "explanation": "Calculation: 3 degrees ~ 300 ft per NM. 4.5 NM * 300 = 1350 ft. (The answer 1370 is the closest and likely derived from a more precise calculation or specific table)."
+  },
+  {
+    "category": "human-performance",
+    "test": 2,
+    "id": 781,
+    "question": "Under normal conditions which gas diffuses from the blood to the alveoli?",
+    "options": [
+      "Oxygen",
+      "carbon dioxide",
+      "Nitrogen",
+      "Carbon monoxide"
+    ],
+    "answer": "carbon dioxide",
+    "correct": 1,
+    "explanation": "Gas exchange in the lungs moves Oxygen into the blood and Carbon Dioxide out of the blood into the alveoli to be exhaled."
+  },
+  {
+    "category": "human-performance",
+    "test": 2,
+    "id": 805,
+    "question": "A person suffering from glaucoma will have:",
+    "options": [
+      "clouding of the lens",
+      "increased pressure of the eye",
+      "colour blindness",
+      "short sightedness"
+    ],
+    "answer": "increased pressure of the eye",
+    "correct": 1,
+    "explanation": "Glaucoma is characterized by high intraocular pressure which can damage the optic nerve."
+  },
+  {
+    "category": "human-performance",
+    "test": 2,
+    "id": 823,
+    "question": "Extreme cold may be associated with:",
+    "options": [
+      "hyperactivity",
+      "contentment or apathy",
+      "profuse sweating",
+      "heightened alertness"
+    ],
+    "answer": "contentment or apathy",
+    "correct": 1,
+    "explanation": "Hypothermia can cause mental confusion, apathy, and a false sense of well-being or contentment as the body shuts down."
+  },
+  {
+    "category": "human-performance",
+    "test": 2,
+    "id": 824,
+    "question": "Stressors are:",
+    "options": [
+      "only external factors like noise",
+      "both external and internal factors",
+      "only internal factors like hunger",
+      "always related to flying"
+    ],
+    "answer": "both external and internal factors",
+    "correct": 1,
+    "explanation": "Stress can come from the environment (noise, heat) or from within (anxiety, illness)."
+  },
+  {
+    "category": "human-performance",
+    "test": 2,
+    "id": 828,
+    "question": "If a pilot in an unpressurized aircraft suffers from severe flatulence in flight. He/she should:",
+    "options": [
+      "climb higher",
+      "i descend",
+      "perform a valsalva manoeuvre",
+      "increase speed"
+    ],
+    "answer": "i descend",
+    "correct": 1,
+    "explanation": "Gas expands as pressure decreases (Boyle's Law). Descending increases pressure, reducing the volume of the gas and relieving pain."
+  },
+  {
+    "category": "human-performance",
+    "test": 2,
+    "id": 829,
+    "question": "According to the 'General Adaptation Syndrome' which of the following statements is/are correct? 1. Alarm phase: adrenaline release, raised heart rate. 2. Resistance phase: cortisol release. 3. Exhaustion phase: body needs time to eliminate waste.",
+    "options": [
+      "1 only",
+      "1, 2 & 3 are correct",
+      "2 and 3 only",
+      "1 and 3 only"
+    ],
+    "answer": "1, 2 & 3 are correct",
+    "correct": 1,
+    "explanation": "Selye's General Adaptation Syndrome consists of these three specific stages: Alarm, Resistance, and Exhaustion."
+  },
+  {
+    "category": "human-performance",
+    "test": 2,
+    "id": 830,
+    "question": "Performance can be increased by:",
+    "options": [
+      "zero stress",
+      "a moderate amount of stress",
+      "extreme stress",
+      "fatigue"
+    ],
+    "answer": "a moderate amount of stress",
+    "correct": 1,
+    "explanation": "Arousal (stress) helps focus attention up to a point (the optimal zone of the Yerkes-Dodson curve)."
+  },
+  {
+    "category": "human-performance",
+    "test": 2,
+    "id": 831,
+    "question": "A person that is exposed to extreme or prolonged stress factors can perceive:",
+    "options": [
+      "eustress",
+      "distress",
+      "boredom",
+      "relaxation"
+    ],
+    "answer": "distress",
+    "correct": 1,
+    "explanation": "When stress exceeds the ability to cope, it becomes 'distress' (negative stress)."
+  },
+  {
+    "category": "human-performance",
+    "test": 2,
+    "id": 835,
+    "question": "Should a pilot fly with a bad cold, he/she could suffer from:",
+    "options": [
+      "improved hearing",
+      "sinus, pain",
+      "hypoxia at sea level",
+      "better night vision"
+    ],
+    "answer": "sinus, pain",
+    "correct": 1,
+    "explanation": "Blocked sinuses cannot equalize pressure during ascent/descent, leading to severe pain (barotrauma)."
+  },
+  {
+    "category": "human-performance",
+    "test": 2,
+    "id": 836,
+    "question": "Which of the following are correct? 1. Scuba diving imposes no restriction. 2. Medication can affect flying. 3. Drink water to prevent dehydration. 4. Diet has no effect.",
+    "options": [
+      "1 & 4",
+      "2 & 3",
+      "All are correct",
+      "2 & 4"
+    ],
+    "answer": "2 & 3",
+    "correct": 1,
+    "explanation": "Scuba diving requires a wait period (decompression sickness risk). Diet definitely affects health. 2 and 3 are the only valid statements."
+  },
+  {
+    "category": "general-navigation",
+    "test": 2,
+    "id": 883,
+    "question": "5 hours 20 minutes and 20 seconds time difference is equivalent to which change of longitude?",
+    "options": [
+      "75Â°00'",
+      "80Â°05'",
+      "85Â°20'",
+      "60Â°00'"
+    ],
+    "answer": "80Â°05'",
+    "correct": 1,
+    "explanation": "Earth rotates 15Â° per hour. 5h = 75Â°. 20 min = 5Â°. 20 sec = 5'. Total = 80Â°05'."
+  },
+  {
+    "category": "general-navigation",
+    "test": 2,
+    "id": 884,
+    "question": "The main reason that day and night, throughout the year, have different durations is due to the:",
+    "options": [
+      "rotation of the earth",
+      "inclination of the ecliptic to the Equator",
+      "speed of the earth in orbit",
+      "moon's gravity"
+    ],
+    "answer": "inclination of the ecliptic to the Equator",
+    "correct": 1,
+    "explanation": "The 23.5 degree tilt of the Earth's axis (obliquity of the ecliptic) causes the variation in day length across seasons."
+  },
+  {
+    "category": "general-navigation",
+    "test": 2,
+    "id": 885,
+    "question": "X - 30NM - Y - 20NM - Z. ATA X is 1420. ETA Y is 1447. ATA Y is 1450. What is new ETA Z?",
+    "options": [
+      "1505",
+      "1510",
+      "1515",
+      "1520"
+    ],
+    "answer": "1510",
+    "correct": 1,
+    "explanation": "X to Y took 30 mins (1420 to 1450) for 30NM. Groundspeed = 60 kts (1 NM/min). Y to Z is 20NM. At 60 kts, that takes 20 mins. 1450 + 20 = 1510."
+  },
+  {
+    "category": "general-navigation",
+    "test": 2,
+    "id": 886,
+    "question": "On a chart, 90.74 km is represented by 7.0 centimetres. What is the scale?",
+    "options": [
+      "1 / 1,000,000",
+      "1 / 1296400",
+      "1 / 500,000",
+      "1 / 2,000,000"
+    ],
+    "answer": "1 / 1296400",
+    "correct": 1,
+    "explanation": "Scale = Chart Dist / Earth Dist. 90.74 km = 90,740 m = 9,074,000 cm. 7 / 9,074,000 = 1 / 1,296,285. (Close to 1/1296400)."
+  },
+  {
+    "category": "general-navigation",
+    "test": 2,
+    "id": 887,
+    "question": "A - 30NM - B - 20NM - C. ATA A is 1010. ETA B is 1030. ETA C is 1043. ATA B is 1027. What is revised ETA C?",
+    "options": [
+      "1035",
+      "1038",
+      "1040",
+      "1045"
+    ],
+    "answer": "1038",
+    "correct": 1,
+    "explanation": "A to B (30NM) took 17 mins (1010 to 1027). GS = (30/17)*60 = 105.8 kts. Dist B to C is 20NM. Time = (20/105.8)*60 = 11.3 mins. 1027 + 11 = 1038."
+  },
+  {
+    "category": "general-navigation",
+    "test": 2,
+    "id": 889,
+    "question": "The value of variation:",
+    "options": [
+      "is always constant",
+      "cannot exceed 180Â°",
+      "is always westerly in the northern hemisphere",
+      "changes with altitude"
+    ],
+    "answer": "cannot exceed 180Â°",
+    "correct": 1,
+    "explanation": "Variation is an angle East or West of True North. It maxes out at 180 (opposite direction)."
+  },
+  {
+    "category": "general-navigation",
+    "test": 2,
+    "id": 890,
+    "question": "An aircraft starts at position 0410S 17822W and heads true north for 2950 NM, then turns 90 degrees right, and maintains a rhumb line track for 314 kilometres. What is its final position?",
+    "options": [
+      "4500N 17822E",
+      "4500N 17422W",
+      "4500N 17000W",
+      "0410S 17422E"
+    ],
+    "answer": "4500N 17422W",
+    "correct": 1,
+    "explanation": "Leg 1 (North): 2950 NM = 49Â°10' Lat change. 04Â°10'S + 49Â°10' = 45Â°00'N. Leg 2 (East): 314 km = 169.5 NM. Dep = ChLong * cos(Lat). ChLong = Dep / cos(45). 169.5 / 0.707 = 239.7' = ~4 degrees. 178Â°22'W going East -> cross 180? Wait, 178W + 4 deg East = 174W. Answer 17422W fits."
+  },
+  {
+    "category": "general-navigation",
+    "test": 2,
+    "id": 891,
+    "question": "At the magnetic equator:",
+    "options": [
+      "dip is 90 degrees",
+      "dip is zero",
+      "variation is zero",
+      "compass is unusable"
+    ],
+    "answer": "dip is zero",
+    "correct": 1,
+    "explanation": "At the magnetic equator, flux lines are horizontal, so the angle of dip is zero."
+  },
+  {
+    "category": "general-navigation",
+    "test": 2,
+    "id": 893,
+    "question": "What is the definition of magnetic variation?",
+    "options": [
+      "The angle between Magnetic North and Compass North",
+      "The angle between Magnetic North and True North",
+      "The angle between True North and Grid North",
+      "The dip of the magnetic needle"
+    ],
+    "answer": "The angle between Magnetic North and True North",
+    "correct": 1,
+    "explanation": "Standard definition: Variation is the angular difference between True North and Magnetic North."
+  },
+  {
+    "category": "general-navigation",
+    "test": 2,
+    "id": 896,
+    "question": "An aircraft leaves at 0900UTC on a 250 NM journey with a planned ground speed of 115 knots. After 74 NM the aircraft is 1.5 minutes behind the planned schedule. What is the revised ETA at the destination?",
+    "options": [
+      "1110",
+      "1115",
+      "1120",
+      "1125"
+    ],
+    "answer": "1115",
+    "correct": 1,
+    "explanation": "Original ETE = 250/115 = 2.17 hrs = 130 mins. ETA = 1110. Delay: After 74 NM, 1.5 min late. The delay typically propagates. Revised ETA adds delay + slower speed impact? If we assume speed is constant but started late/wind changed: 74NM @ 115kts = 38.6 mins. Actual time = 40.1 mins. Actual GS = 74/40.1*60 = 110.7 kts. Remaining Dist = 176 NM. Time = 176/110.7 = 1.59 hrs = 95 mins. Total time = 40 + 95 = 135 mins = 2h 15m. 0900 + 2h15 = 1115."
+  },
+  {
+    "category": "general-navigation",
+    "test": 2,
+    "id": 898,
+    "question": "Given: Airport elevation is 1000 feet. QNH is 988 hPa. What is the approximate airport pressure altitude?",
+    "options": [
+      "1000 ft",
+      "1680 ft",
+      "320 ft",
+      "250 ft"
+    ],
+    "answer": "1680",
+    "correct": 1,
+    "explanation": "Standard Pressure is 1013. Diff is 1013 - 988 = 25 hPa. 1 hPa = 27 ft (approx 30). 25 * 27 = 675 ft. Pressure is lower, so Pressure Alt is HIGHER than elevation. 1000 + 675 = 1675 ft. (Closest is 1680)."
+  },
+  {
+    "category": "general-navigation",
+    "test": 2,
+    "id": 899,
+    "question": "A useful method of a pilot resolving, on a visual flight, any uncertainty in the aircraft's position is to maintain visual contact with the ground and:",
+    "options": [
+      "fly in circles until a landmark is found",
+      "set heading towards a line feature such as a coastline, river or motorway",
+      "climb to high altitude",
+      "fly the reciprocal heading"
+    ],
+    "answer": "set heading towards a line feature such as a coastline, river or motorway",
+    "correct": 1,
+    "explanation": "Flying toward a 'line feature' (handrail) guarantees you will eventually cross it, providing a definitive position fix."
+  },
+  {
+    "category": "general-navigation",
+    "test": 2,
+    "id": 900,
+    "question": "Grivation is the combination of:",
+    "options": [
+      "variation and deviation",
+      "variation and grid convergence",
+      "drift and wind angle",
+      "latitude and longitude"
+    ],
+    "answer": "variation and grid convergence",
+    "correct": 1,
+    "explanation": "Grivation (Grid Variation) is the algebraic sum of Magnetic Variation and Grid Convergence."
+  },
+  {
+    "category": "operational-procedures",
+    "test": 2,
+    "id": 1281,
+    "question": "transition level:",
+    "options": [
+      "is fixed at 18000 ft",
+      "will be calculated by the ATC service of an ATS unit.",
+      "is printed on the chart",
+      "is the same as transition altitude"
+    ],
+    "answer": "will be calculated by the ATC service of an ATS unit.",
+    "correct": 1,
+    "explanation": "Transition Level fluctuates based on QNH pressure to ensuring vertical separation from the fixed Transition Altitude."
+  },
+  {
+    "category": "operational-procedures",
+    "test": 2,
+    "id": 1292,
+    "question": "A manoeuvre where a turn is made from a 'designated track' followed by a turn in the opposite direction to enable the aircraft to fly the prescribed track is called a:",
+    "options": [
+      "holding pattern",
+      "procedure turn",
+      "racetrack",
+      "base turn"
+    ],
+    "answer": "procedure turn",
+    "correct": 1,
+    "explanation": "Definition of a standard procedure turn (often 45/180 degree turns) used to reverse direction."
+  },
+  {
+    "category": "aerodromes",
+    "test": 2,
+    "id": 1300,
+    "question": "What is the minimum width of a runway with runway code 4?",
+    "options": [
+      "23 m",
+      "45 m",
+      "60 m",
+      "30 m"
+    ],
+    "answer": "45 m",
+    "correct": 1,
+    "explanation": "ICAO Annex 14 specifies that for a Code Number 4 runway (longest), the standard minimum width is 45 meters."
+  }
+]
