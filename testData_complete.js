@@ -8924,14 +8924,19 @@
             "correct": 2,
             "explanation": "This question requires the specific visual appendix to identify the correct diagram. In standard EFIS, the MAP display shows the active route and waypoints."
           },
+          {
+            "category": "instrumentation-test-1",
+            "test": 1,
+            "id": 581,
+            "question": "In which of the following modes may information from the AWR be displayed? i. plan ii. expanded ILS iii. map iv. full nav v. full ILS vi. expanded nav vii. full VOR viii. expanded VOR ix. centre map",
             "options": [
               "i ii iv vii",
               "i iii vii viii ix",
               "ii iii vi viii ix",
               "ii iii v vii ix"
             ],
-            "answer": "i iii vii viii ix",
-            "correct": 1,
+            "answer": "ii iii vi viii ix",
+            "correct": 2,
             "explanation": "AWR (Weather Radar) can be overlaid on Map, Plan, Full VOR, Expanded VOR, and Centre Map modes. It is generally not available on ILS modes."
           },
           {

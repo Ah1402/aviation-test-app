@@ -32,12 +32,51 @@ Write-Host "[3/5] Syncing testData to index.html..." -ForegroundColor Yellow
 # Extract just the testData object from testData_complete.js
 $testDataOnly = $testDataContent
 
+# Validate that testDataContent contains proper structure
+if ($testDataOnly -notmatch 'window\.testData\s*=') {
+    Write-Host "   ERROR: testData_complete.js does not contain 'window.testData = {...}'" -ForegroundColor Red
+    Write-Host "   File format appears to be invalid." -ForegroundColor Yellow
+    exit 1
+}
+
 # Find and replace the testData section in index.html
-# Pattern: matches from "window.testData = {" to the closing "};"
-$pattern = '(?s)window\.testData\s*=\s*\{.*?\n\s*\};'
+# Pattern: matches from "window.testData = " to the closing "};" with proper greedy matching
+$pattern = '(?s)(window\.testData\s*=\s*)\{.*\};'
 
 if ($indexContent -match $pattern) {
-    $newIndexContent = $indexContent -replace $pattern, $testDataOnly
+    # Ensure testDataOnly is properly formatted (remove any 'window.testData = ' prefix if present)
+    $testDataClean = $testDataOnly -replace '^\s*window\.testData\s*=\s*', ''
+    
+    # Additional validation: ensure the cleaned data starts with { and ends with };
+    if ($testDataClean -notmatch '^\s*\{' -or $testDataClean -notmatch '\};\s*$') {
+        Write-Host "   ERROR: testData object structure is invalid" -ForegroundColor Red
+        exit 1
+    }
+    
+    # Use a more precise replacement approach to avoid greedy matching issues
+    $startMarker = '<script>window.testData = '
+    $endMarker = '};'
+    
+    $startPos = $indexContent.IndexOf($startMarker)
+    if ($startPos -lt 0) {
+        Write-Host "   ERROR: Could not find testData start marker in index.html" -ForegroundColor Red
+        exit 1
+    }
+    
+    $searchStart = $startPos + $startMarker.Length
+    $endPos = $indexContent.IndexOf($endMarker, $searchStart)
+    if ($endPos -lt 0) {
+        Write-Host "   ERROR: Could not find testData end marker in index.html" -ForegroundColor Red
+        exit 1
+    }
+    
+    # Include the closing }; in the end position
+    $endPos += $endMarker.Length
+    
+    # Build the new content
+    $beforeData = $indexContent.Substring(0, $startPos + $startMarker.Length)
+    $afterData = $indexContent.Substring($endPos)
+    $newIndexContent = $beforeData + $testDataClean + $afterData
     Set-Content "index.html" -Value $newIndexContent -NoNewline
     Write-Host "   SUCCESS: testData synced to index.html!" -ForegroundColor Green
 } else {
