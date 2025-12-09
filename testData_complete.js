@@ -3193,8 +3193,8 @@
               "during climb and descent",
               "during take-off and landing"
             ],
-            "answer": "when oxygen is being supplied in the cabin",
-            "correct": 0,
+            "answer": "during take-off and landing",
+            "correct": 3,
             "explanation": "Standard aviation regulations (e.g., EASA/FAA) require the 'No Smoking' and 'Fasten Seat Belt' signs to be illuminated during all ground movements, **take-off, and landing**, and whenever turbulence is expected or encountered."
           },
           {
@@ -3508,9 +3508,9 @@
               "dangerous goods.",
               "mail."
             ],
-            "answer": "cargo.",
-            "correct": 1,
-            "explanation": ""
+            "answer": "accompanied baggage or under a simplified customs procedure similar to other cargo.",
+            "correct": 0,
+            "explanation": "According to ICAO Annex 9 (Facilitation), unaccompanied baggage should, whenever possible, be cleared under the same procedure applicable to accompanied baggage or under a simplified customs procedure distinct from that normally applicable to other cargo, to ensure efficient processing for the passenger."
           }
         ]
       }
@@ -6452,8 +6452,8 @@
               "Reduce landing mass to avoid stressing the aircraft",
               "Carry minimum fuel to increase Traffic Load"
             ],
-            "answer": "Reduce contingency fuel to below that required from Decision Point to destination",
-            "correct": 0,
+            "answer": "Carry minimum fuel to increase Traffic Load",
+            "correct": 3,
             "explanation": "The Decision Point Procedure allows an operator to reduce the amount of Contingency Fuel required to be carried at the start of the flight. By reducing the fuel load, the aircraft can carry a higher Traffic Load (payload) for a given Maximum Take-Off Mass."
           }
         ]
@@ -8924,19 +8924,14 @@
             "correct": 2,
             "explanation": "This question requires the specific visual appendix to identify the correct diagram. In standard EFIS, the MAP display shows the active route and waypoints."
           },
-          {
-            "category": "instrumentation-test-1",
-            "test": 1,
-            "id": 581,
-            "question": "In which of the following modes may information from the AWR be displayed? i. plan ii. expanded ILS iii. map iv. full nav v. full ILS vi. expanded nav vii. full VOR viii. expanded VOR ix. centre map",
             "options": [
               "i ii iv vii",
               "i iii vii viii ix",
               "ii iii vi viii ix",
               "ii iii v vii ix"
             ],
-            "answer": "ii iii vi viii ix",
-            "correct": 2,
+            "answer": "i iii vii viii ix",
+            "correct": 1,
             "explanation": "AWR (Weather Radar) can be overlaid on Map, Plan, Full VOR, Expanded VOR, and Centre Map modes. It is generally not available on ILS modes."
           },
           {
@@ -9924,8 +9919,8 @@
               "two degrees of freedom in the horizontal",
               "one degree of freedom in the horizontal"
             ],
-            "answer": "one degree of freedom in the vertical axis",
-            "correct": 0,
+            "answer": "two degrees of freedom in the horizontal",
+            "correct": 2,
             "explanation": "A Heading Indicator (Directional Gyro) requires a gyroscope with a **horizontal spin axis** to provide a stable reference in the horizontal plane (azimuth).  To maintain this fixed direction while the aircraft maneuvers (pitches, rolls, and yaws) around it, the gyroscope is mounted in two gimbals, giving it **two degrees of freedom**. Thus, it is defined as having a horizontal spin axis with two degrees of freedom."
           },
           {
@@ -11338,8 +11333,8 @@
               "In zone 'A' only",
               "In zone 'C' only"
             ],
-            "answer": "In zone 'B' or 'C' only",
-            "correct": 1,
+            "answer": "In any of the baggage zones",
+            "correct": 0,
             "explanation": "To determine if the box can be positioned in the aircraft, we must check the Floor Loading Intensity (contact pressure) against the aircraft's limits. 1. Calculate the Contact Area: Since the box is cubic with dimensions of 3.15 ft, the floor area is: $3.15 \\text{ ft} \\times 3.15 \\text{ ft} = 9.9225 \\text{ sq ft}$. 2. Calculate the Floor Loading: $\\text{Intensity} = \\frac{500 \\text{ lbs}}{9.9225 \\text{ sq ft}} \\approx 50.4 \\text{ lbs/sq ft}$. 3. Compare with Limits: Referencing the CAP 696 Manual for SEP 1 (Section 2 - Loading Limitations), the maximum permissible floor loading is 120 lbs per sq ft. 4. Conclusion: Since the calculated intensity ($50.4 \\text{ lbs/sq ft}$) is well below the limit ($120 \\text{ lbs/sq ft}$), the box is structurally safe to be positioned in any of the designated loading/baggage zones."
           },
           {
@@ -11390,8 +11385,8 @@
               "3 and 4 only",
               "all the above"
             ],
-            "answer": "1 and 2 only",
-            "correct": 1,
+            "answer": "all the above",
+            "correct": 3,
             "explanation": "All statements are correct according to EU-OPS/EASA mass and balance regulations for aircraft with 20 seats or more. Standard masses are used (1); 'All Adult' masses are an option for aircraft with 30+ seats (2); Charter masses apply specifically to holiday packages (3); and holiday flights/charters share the same mass values in the tables (4)."
           }
         ]
@@ -12430,16 +12425,8 @@
           {
             "category": "meteorology",
             "test": 3,
-            "id": 809,
-            "question": "The wind at square A3 is likely to be:",
-            "options": [
-              "35 kt",
-              "50 kt",
-              "25 kt",
-              "light"
-            ],
-            "answer": "50 kt",
-            "correct": 1,
+            "answer": "light",
+            "correct": 3,
             "explanation": "This question refers to a specific Surface Weather Chart provided in the exam annex. Grid square A3 typically locates the centre of a High Pressure system (Anticyclone). In the centre of a high, the isobars are widely spaced (slack pressure gradient), which results in light and variable winds."
           },
           {
@@ -12483,8 +12470,8 @@
               "southwesterly, westerly, northwesterly",
               "southwesterly, westerly, northerly"
             ],
-            "answer": "northwesterly, westerly, southwesterly",
-            "correct": 1,
+            "answer": "southwesterly, westerly, northwesterly",
+            "correct": 2,
             "explanation": "Refers to a SIGWX/Appendix A: in mid-latitudes upper flow is usually westerly; A1 on the forward side of a ridge/trough is southwesterly, B1 westerly, C1 northwesterly."
           }
         ]
@@ -16554,8 +16541,8 @@
               "wing sweep prevents the nose-up phenomena",
               "tip stall"
             ],
-            "answer": "wing sweep prevents the nose-up phenomena",
-            "correct": 2,
+            "answer": "tip stall",
+            "correct": 3,
             "explanation": ""
           },
           {
@@ -20310,7 +20297,7 @@
               "decrease the TODR"
             ],
             "answer": "allow an increase in the mass",
-            "explanation": "For ATPL performance questions, an **increase in uphill slope** generally increases the **Take-Off Distance Required (TODR)** because a component of gravity opposes acceleration. When TODR increases, the safe maximum Take-Off Mass (TOM) must be **decreased** to ensure the aircraft can stop or go within the available field length. While upslope technically reduces the energy absorbed by the brakes in an RTO (allowing for a higher VMBE speed), the overall performance limitation usually shifts back to the required field length, which is negatively affected by the slope.",
+            "explanation": "An uphill slope assists in deceleration during a rejected take-off (RTO), reducing the energy the brakes must absorb for a given mass and V1. If the take-off mass is limited by the maximum brake energy (VMBE), the assistance from the slope means the brakes can handle a higher aircraft mass before reaching their energy limit. Therefore, an uphill slope allows for an **increase** in the VMBE-limited take-off mass.",
             "correct": 2
           },
           {
@@ -21196,8 +21183,8 @@
               "1538 m",
               "1339 m"
             ],
-            "answer": "1339 m",
-            "correct": 4,
+            "answer": "1913 m",
+            "correct": 1,
             "explanation": "According to performance regulations (EASA CAT.POL.A.235), the Landing Distance Required on a wet runway must be at least 115% of the Landing Distance Required on a dry runway (LDR_wet = LDR_dry × 1.15). Therefore, to find the equivalent dry length that offers the same performance capability, divide the Wet LDA by 1.15: 2200 / 1.15 = 1913 m."
           }
           ,
