@@ -15086,9 +15086,9 @@ window.testData = {
             "question": "In a subsonic flow venturi, the relationship between the total pressure, static pressure and dynamic pressure of undisturbed air and air in the throat will be: (i) Dynamic pressure will be constant, static pressure will decrease. (ii) Total pressure will be constant, dynamic pressure will increase.",
             "options": [
               "both (i) and (ii) are correct",
+              "(i) is incorrect and (ii) is correct",
               "(i) is correct but (ii) is incorrect",
-              "(i) and (ii) are correct",
-              "(i) and (ii) are incorrect"
+              "both (i) and (ii) are incorrect"
             ],
             "answer": "(i) is incorrect and (ii) is correct",
             "correct": 1,
