@@ -28302,20 +28302,179 @@ AviationTestApp.prototype.createPrintFrame = function(html) {
 AviationTestApp.prototype.buildPrintStyles = function() {
     return `
         <style>
-            @page { margin: 16mm; }
-            body { font-family: 'Inter', Arial, sans-serif; color: #111827; }
-            .print-header { border-bottom: 2px solid #e5e7eb; margin-bottom: 16px; padding-bottom: 8px; }
-            .print-meta { color: #6b7280; font-size: 12px; }
-            .question { break-inside: avoid; page-break-inside: avoid; margin-bottom: 16px; padding: 12px; border: 1px solid #e5e7eb; border-radius: 8px; }
-            .q-title { font-weight: 600; margin-bottom: 8px; }
-            .q-text { margin-bottom: 8px; }
-            .options { margin-left: 16px; margin-bottom: 8px; }
-            .opt { display: flex; align-items: flex-start; gap: 8px; margin: 4px 0; }
-            .badge { font-size: 10px; border-radius: 4px; padding: 2px 6px; display: inline-block; margin-left: 8px; }
-            .badge-correct { background: #10b981; color: white; }
-            .badge-selected { background: #2563eb; color: white; }
-            .explanation { background: #f9fafb; border-left: 3px solid #93c5fd; padding: 8px; margin-top: 6px; color: #374151; }
-            .footer { margin-top: 24px; color: #6b7280; font-size: 12px; text-align: center; }
+            @page { 
+                margin: 16mm; 
+                size: A4 portrait;
+            }
+            
+            body { 
+                font-family: 'Inter', Arial, sans-serif; 
+                color: #111827; 
+                font-size: 11pt;
+                line-height: 1.4;
+            }
+            
+            .print-header { 
+                border-bottom: 2px solid #2563eb; 
+                margin-bottom: 16px; 
+                padding-bottom: 12px; 
+            }
+            
+            .print-header h1 {
+                margin: 0 0 8px 0;
+                font-size: 18pt;
+                color: #1e40af;
+            }
+            
+            .print-meta { 
+                color: #6b7280; 
+                font-size: 10pt; 
+            }
+            
+            .page-section {
+                page-break-after: always;
+            }
+            
+            .page-section:last-child {
+                page-break-after: auto;
+            }
+            
+            .page-header {
+                font-size: 9pt;
+                color: #6b7280;
+                margin-bottom: 12px;
+                padding-bottom: 6px;
+                border-bottom: 1px solid #e5e7eb;
+            }
+            
+            .question { 
+                break-inside: avoid; 
+                page-break-inside: avoid; 
+                margin-bottom: 14px; 
+                padding: 10px; 
+                border: 1px solid #d1d5db; 
+                border-radius: 6px; 
+                background: #f9fafb;
+            }
+            
+            .q-title { 
+                font-weight: 700; 
+                margin-bottom: 8px; 
+                font-size: 11pt;
+                color: #1f2937;
+            }
+            
+            .q-text { 
+                margin-bottom: 10px; 
+                font-size: 10.5pt;
+                color: #374151;
+                line-height: 1.5;
+            }
+            
+            .options { 
+                margin-left: 8px; 
+                margin-bottom: 8px; 
+            }
+            
+            .opt { 
+                display: flex; 
+                align-items: flex-start; 
+                gap: 8px; 
+                margin: 5px 0; 
+                padding: 4px 0;
+                font-size: 10pt;
+            }
+            
+            .opt strong {
+                min-width: 20px;
+                color: #4b5563;
+            }
+            
+            .badge { 
+                font-size: 9pt; 
+                border-radius: 4px; 
+                padding: 2px 8px; 
+                display: inline-block; 
+                margin-left: 8px; 
+                font-weight: 600;
+            }
+            
+            .badge-correct { 
+                background: #10b981; 
+                color: white; 
+            }
+            
+            .badge-selected { 
+                background: #2563eb; 
+                color: white; 
+            }
+            
+            .explanation { 
+                background: #eff6ff; 
+                border-left: 3px solid #3b82f6; 
+                padding: 8px 10px; 
+                margin-top: 8px; 
+                color: #1e40af;
+                font-size: 9.5pt;
+                line-height: 1.5;
+            }
+            
+            .explanation-label {
+                font-weight: 600;
+                margin-bottom: 4px;
+            }
+            
+            .footer { 
+                margin-top: 20px; 
+                padding-top: 12px;
+                border-top: 1px solid #e5e7eb;
+                color: #9ca3af; 
+                font-size: 9pt; 
+                text-align: center; 
+            }
+            
+            /* Answer key section */
+            .answer-key {
+                page-break-before: always;
+                margin-top: 20px;
+            }
+            
+            .answer-key h2 {
+                font-size: 14pt;
+                color: #1e40af;
+                border-bottom: 2px solid #2563eb;
+                padding-bottom: 8px;
+                margin-bottom: 12px;
+            }
+            
+            .answer-key-grid {
+                display: grid;
+                grid-template-columns: repeat(5, 1fr);
+                gap: 8px;
+                margin-bottom: 12px;
+            }
+            
+            .answer-key-item {
+                padding: 6px;
+                border: 1px solid #d1d5db;
+                border-radius: 4px;
+                font-size: 9.5pt;
+                background: #f9fafb;
+            }
+            
+            @media print {
+                .page-section {
+                    page-break-after: always !important;
+                }
+                
+                .page-section:last-child {
+                    page-break-after: auto !important;
+                }
+                
+                .question {
+                    page-break-inside: avoid !important;
+                }
+            }
         </style>
     `;
 };
@@ -28328,27 +28487,59 @@ AviationTestApp.prototype.printCurrentTest = function() {
     const { category, test } = this.currentTest;
     const categoryName = (window.testData?.[category]?.name) || category;
     const dateStr = new Date().toLocaleString();
-
-    const questionsHtml = test.questions.map((q, i) => {
-        const selected = this.userAnswers[i];
-        const correct = q.correct;
+    const questions = test.questions;
+    const totalQuestions = questions.length;
+    
+    // Split questions into pages of 10
+    const questionsPerPage = 10;
+    let pagesHtml = '';
+    
+    for (let pageNum = 0; pageNum < Math.ceil(totalQuestions / questionsPerPage); pageNum++) {
+        const startIdx = pageNum * questionsPerPage;
+        const endIdx = Math.min(startIdx + questionsPerPage, totalQuestions);
+        const pageQuestions = questions.slice(startIdx, endIdx);
+        
+        const questionsHtml = pageQuestions.map((q, relIdx) => {
+            const absIdx = startIdx + relIdx;
+            const selected = this.userAnswers[absIdx];
+            const correct = q.correct;
             const opts = (q.options || []).map((opt, idx) => {
-            const letter = (typeof window !== 'undefined' && window.safeLetter) ? window.safeLetter(idx) : String.fromCharCode(65 + idx);
-            const badges = [
-                // Removed 'Correct' label per request
-                // idx === correct ? '<span class="badge badge-correct">Correct</span>' : '',
-                selected === idx ? '<span class="badge badge-selected">Selected</span>' : ''
-            ].join(' ');
-            return `<div class="opt"><div><strong>${letter}.</strong></div><div>${opt} ${badges}</div></div>`;
+                const letter = (typeof window !== 'undefined' && window.safeLetter) ? window.safeLetter(idx) : String.fromCharCode(65 + idx);
+                const badges = [
+                    selected === idx ? '<span class="badge badge-selected">Your Answer</span>' : ''
+                ].join(' ');
+                return `<div class="opt"><div><strong>${letter}.</strong></div><div>${opt} ${badges}</div></div>`;
+            }).join('');
+            
+            const explanation = q.explanation ? `
+                <div class="explanation">
+                    <div class="explanation-label">✓ Explanation:</div>
+                    ${q.explanation}
+                </div>
+            ` : '';
+            
+            return `
+                <div class="question">
+                    <div class="q-title">Question ${absIdx + 1}</div>
+                    <div class="q-text">${q.question}</div>
+                    <div class="options">${opts}</div>
+                    ${explanation}
+                </div>
+            `;
         }).join('');
-        return `
-            <div class="question">
-                <div class="q-title">Q${i + 1}</div>
-                <div class="q-text">${q.question}</div>
-                <div class="options">${opts}</div>
+        
+        pagesHtml += `
+            <div class="page-section">
+                <div class="page-header">
+                    ${this.escapeHtml(test.name)} - Page ${pageNum + 1} of ${Math.ceil(totalQuestions / questionsPerPage)} (Questions ${startIdx + 1}-${endIdx})
+                </div>
+                ${questionsHtml}
             </div>
         `;
-    }).join('');
+    }
+    
+    // Generate answer key
+    const answerKeyHtml = this.generateAnswerKey(questions);
 
     const html = `
         <html>
@@ -28361,10 +28552,15 @@ AviationTestApp.prototype.printCurrentTest = function() {
         <body>
             <div class="print-header">
                 <h1>${this.escapeHtml(test.name)}</h1>
-                <div class="print-meta">Category: ${this.escapeHtml(categoryName)} | Generated: ${this.escapeHtml(dateStr)}</div>
+                <div class="print-meta">
+                    Category: ${this.escapeHtml(categoryName)} | 
+                    Questions: ${totalQuestions} | 
+                    Generated: ${this.escapeHtml(dateStr)}
+                </div>
             </div>
-            ${questionsHtml}
-            <div class="footer">Generated by Aviation Test Center</div>
+            ${pagesHtml}
+            ${answerKeyHtml}
+            <div class="footer">Generated by Aviation Test App • For Educational Use Only</div>
         </body>
         </html>
     `;
@@ -28377,25 +28573,60 @@ AviationTestApp.prototype.printCurrentStudySession = function() {
         return;
     }
     const dateStr = new Date().toLocaleString();
-    const header = `Study Session (${this.studyQuestions.length} questions)`;
-
-    const questionsHtml = this.studyQuestions.map((item, i) => {
-        const q = item.question;
-        const correct = q.correct;
-        const opts = (q.options || []).map((opt, idx) => {
-            const letter = (typeof window !== 'undefined' && window.safeLetter) ? window.safeLetter(idx) : String.fromCharCode(65 + idx);
-            // Removed 'Correct' label per request
-            return `<div class="opt"><div><strong>${letter}.</strong></div><div>${opt}</div></div>`;
+    const totalQuestions = this.studyQuestions.length;
+    const header = `Study Session (${totalQuestions} questions)`;
+    
+    // Split questions into pages of 10
+    const questionsPerPage = 10;
+    let pagesHtml = '';
+    
+    for (let pageNum = 0; pageNum < Math.ceil(totalQuestions / questionsPerPage); pageNum++) {
+        const startIdx = pageNum * questionsPerPage;
+        const endIdx = Math.min(startIdx + questionsPerPage, totalQuestions);
+        const pageQuestions = this.studyQuestions.slice(startIdx, endIdx);
+        
+        const questionsHtml = pageQuestions.map((item, relIdx) => {
+            const absIdx = startIdx + relIdx;
+            const q = item.question;
+            const correct = q.correct;
+            const opts = (q.options || []).map((opt, idx) => {
+                const letter = (typeof window !== 'undefined' && window.safeLetter) ? window.safeLetter(idx) : String.fromCharCode(65 + idx);
+                const isCorrect = idx === correct;
+                const badge = isCorrect ? '<span class="badge badge-correct">Correct Answer</span>' : '';
+                return `<div class="opt"><div><strong>${letter}.</strong></div><div>${opt} ${badge}</div></div>`;
+            }).join('');
+            
+            const cat = item.categoryName || item.category || '';
+            const explanation = q.explanation ? `
+                <div class="explanation">
+                    <div class="explanation-label">✓ Explanation:</div>
+                    ${q.explanation}
+                </div>
+            ` : '';
+            
+            return `
+                <div class="question">
+                    <div class="q-title">Question ${absIdx + 1} <span class="print-meta" style="font-weight: normal; font-size: 9pt;">(${this.escapeHtml(cat)})</span></div>
+                    <div class="q-text">${q.question}</div>
+                    <div class="options">${opts}</div>
+                    ${explanation}
+                </div>
+            `;
         }).join('');
-        const cat = item.categoryName || item.category || '';
-        return `
-            <div class="question">
-                <div class="q-title">Q${i + 1} <span class="print-meta">${this.escapeHtml(cat)}</span></div>
-                <div class="q-text">${q.question}</div>
-                <div class="options">${opts}</div>
+        
+        pagesHtml += `
+            <div class="page-section">
+                <div class="page-header">
+                    ${header} - Page ${pageNum + 1} of ${Math.ceil(totalQuestions / questionsPerPage)} (Questions ${startIdx + 1}-${endIdx})
+                </div>
+                ${questionsHtml}
             </div>
         `;
-    }).join('');
+    }
+    
+    // Generate answer key for study session
+    const questions = this.studyQuestions.map(item => item.question);
+    const answerKeyHtml = this.generateAnswerKey(questions);
 
     const html = `
         <html>
@@ -28408,10 +28639,14 @@ AviationTestApp.prototype.printCurrentStudySession = function() {
         <body>
             <div class="print-header">
                 <h1>${this.escapeHtml(header)}</h1>
-                <div class="print-meta">Generated: ${this.escapeHtml(dateStr)}</div>
+                <div class="print-meta">
+                    Questions: ${totalQuestions} | 
+                    Generated: ${this.escapeHtml(dateStr)}
+                </div>
             </div>
-            ${questionsHtml}
-            <div class="footer">Generated by Aviation Test Center</div>
+            ${pagesHtml}
+            ${answerKeyHtml}
+            <div class="footer">Generated by Aviation Test App • For Educational Use Only</div>
         </body>
         </html>
     `;
@@ -28429,6 +28664,32 @@ AviationTestApp.prototype.escapeHtml = function(str) {
     } catch {
         return '';
     }
+};
+
+AviationTestApp.prototype.generateAnswerKey = function(questions) {
+    if (!questions || questions.length === 0) return '';
+    
+    const answerItems = questions.map((q, idx) => {
+        const correctIdx = q.correct;
+        const correctLetter = (typeof window !== 'undefined' && window.safeLetter) 
+            ? window.safeLetter(correctIdx) 
+            : String.fromCharCode(65 + correctIdx);
+        
+        return `
+            <div class="answer-key-item">
+                <strong>Q${idx + 1}:</strong> ${correctLetter}
+            </div>
+        `;
+    }).join('');
+    
+    return `
+        <div class="answer-key">
+            <h2>Answer Key</h2>
+            <div class="answer-key-grid">
+                ${answerItems}
+            </div>
+        </div>
+    `;
 };
 // Sync Instrumentation explanations verbatim from local HTML attachment at runtime
 (function() {
