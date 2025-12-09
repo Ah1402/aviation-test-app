@@ -25351,13 +25351,27 @@ html {
                     const registration = await navigator.serviceWorker.register('./sw.js');
                     console.log('✓ Service Worker registered successfully:', registration.scope);
 
-                    // Request notification permission on load
-                    if ('Notification' in window && Notification.permission === 'default') {
-                        try {
-                            const permission = await Notification.requestPermission();
-                            console.log('Notification permission:', permission);
-                        } catch (err) {
-                            console.log('Notification permission request failed:', err);
+                    // Show notification permission banner if not granted
+                    if ('Notification' in window) {
+                        if (Notification.permission === 'default') {
+                            // Check if banner was dismissed recently (within 24 hours)
+                            const dismissed = localStorage.getItem('notification-banner-dismissed');
+                            const now = Date.now();
+                            const dayInMs = 24 * 60 * 60 * 1000;
+                            
+                            if (!dismissed || (now - parseInt(dismissed)) > dayInMs) {
+                                // Show banner after 3 seconds
+                                setTimeout(() => {
+                                    const banner = document.getElementById('notification-permission-banner');
+                                    if (banner && Notification.permission === 'default') {
+                                        banner.style.display = 'block';
+                                    }
+                                }, 3000);
+                            }
+                        } else if (Notification.permission === 'granted') {
+                            console.log('✅ Notifications are enabled');
+                        } else {
+                            console.log('❌ Notifications are blocked');
                         }
                     }
 
@@ -25552,6 +25566,13 @@ html {
 <!-- Offline banner and service worker update notice -->
 <div id="offline-banner" style="display:none;position:fixed;left:12px;right:12px;bottom:18px;background:#fecaca;color:#7f1d1d;padding:12px;border-radius:8px;box-shadow:0 6px 18px rgba(2,6,23,0.08);z-index:9999;text-align:center;font-weight:600">You are offline ° some features may be unavailable.</div>
 
+<div id="notification-permission-banner" style="display:none;position:fixed;left:12px;right:12px;bottom:18px;background:#3b82f6;color:white;padding:14px;border-radius:8px;box-shadow:0 6px 18px rgba(2,6,23,0.15);z-index:10000;text-align:center">
+    <strong>🔔 Enable Notifications</strong><br>
+    <span style="font-size:13px">Get updates, motivational messages, and achievement alerts!</span><br>
+    <button id="enable-notifications-btn" style="margin:8px 4px 0 4px;padding:8px 16px;border-radius:6px;background:white;color:#3b82f6;border:0;cursor:pointer;font-weight:600">Enable</button>
+    <button id="dismiss-notifications-btn" style="margin:8px 4px 0 4px;padding:8px 16px;border-radius:6px;background:transparent;color:white;border:1px solid white;cursor:pointer">Maybe Later</button>
+</div>
+
 <div id="sw-update-notice" style="display:none;position:fixed;left:12px;right:12px;bottom:78px;background:#bef264;color:#064e3b;padding:12px;border-radius:8px;box-shadow:0 6px 18px rgba(2,6,23,0.08);z-index:9999;text-align:center">
     A new version is available. <button id="sw-reload-btn" style="margin-left:8px;padding:6px 10px;border-radius:6px;background:#065f46;color:#fff;border:0;cursor:pointer">Reload</button>
     <button id="sw-dismiss-btn" style="margin-left:8px;padding:6px 10px;border-radius:6px;background:transparent;color:#064e3b;border:1px solid #064e3b;cursor:pointer">Dismiss</button>
@@ -25568,6 +25589,34 @@ html {
     });
     document.getElementById('sw-dismiss-btn')?.addEventListener('click', () => {
         document.getElementById('sw-update-notice').style.display = 'none';
+    });
+    
+    // Notification permission banner handlers
+    document.getElementById('enable-notifications-btn')?.addEventListener('click', async () => {
+        try {
+            const permission = await Notification.requestPermission();
+            if (permission === 'granted') {
+                document.getElementById('notification-permission-banner').style.display = 'none';
+                // Send a test notification
+                if (window.sendAppNotification) {
+                    setTimeout(() => {
+                        window.sendAppNotification(
+                            'Notifications Enabled! ✅',
+                            'You\'ll now receive updates, motivational messages, and achievement alerts.',
+                            'notifications-enabled'
+                        );
+                    }, 1000);
+                }
+            }
+        } catch (err) {
+            console.error('Failed to enable notifications:', err);
+        }
+    });
+    
+    document.getElementById('dismiss-notifications-btn')?.addEventListener('click', () => {
+        document.getElementById('notification-permission-banner').style.display = 'none';
+        // Ask again in 24 hours
+        localStorage.setItem('notification-banner-dismissed', Date.now().toString());
     });
 </script>
 
