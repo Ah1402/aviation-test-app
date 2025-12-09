@@ -331,12 +331,12 @@
             "options": [
               "above 5000' and underneath the anvil",
               "in the clear air below the cloud in rain",
-              "in the temperature band between +10 × C and -10 × C",
+              "in the temperature band between +10°C and -10°C",
               "at or about 10.000 ft AMSL"
             ],
-            "answer": "in the temperature band between +10 × C and -10 × C",
+            "answer": "in the temperature band between +10°C and -10°C",
             "correct": 2,
-            "explanation": "Lightning is caused by the separation of electrical charges within a cloud. This separation is most intense in the 'mixed phase' region where supercooled water droplets and ice crystals/hailstones coexist and collide. This interaction typically occurs in the temperature band between +10 × C and -10 × C (freezing level vicinity). Consequently, the probability of encountering a lightning strike is highest in this temperature range."
+            "explanation": "Lightning is caused by the separation of electrical charges within a cloud. This separation is most intense in the 'mixed phase' region where supercooled water droplets and ice crystals/hailstones coexist and collide. This interaction typically occurs in the temperature band between +10°C and -10°C (freezing level vicinity). Consequently, the probability of encountering a lightning strike is highest in this temperature range."
           },
           {
             "category": "general-navigation-test-3",
@@ -351,22 +351,22 @@
             ],
             "answer": "1000 km",
             "correct": 3,
-            "explanation": "Calculate the change in latitude: 58 × N - 49 × N = 9°. Convert degrees to Nautical Miles: 9 × 60 = 540 NM. Convert NM to Kilometres (1 NM = 1.852 km): 540 × 1.852 = 1000.08 km."
+            "explanation": "Calculate the change in latitude: 58°N - 49°N = 9°. Convert degrees to Nautical Miles: 9 × 60 = 540 NM. Convert NM to Kilometres (1 NM = 1.852 km): 540 × 1.852 = 1000.08 km."
           },
           {
             "category": "general-navigation-test-3",
             "test": 3,
             "id": 24,
-            "question": "A Lambert conformal conic chart has a constant of the cone of 0.80. A straight line course drawn on this chart from A (53 × N 004 × W) to B is 080° at A, course at B is 092°. What is the longitude of B?",
+            "question": "A Lambert conformal conic chart has a constant of the cone of 0.80. A straight line course drawn on this chart from A (53°N 004°W) to B is 080° at A, course at B is 092°. What is the longitude of B?",
             "options": [
-              "019 × E",
-              "008 × E",
-              "009 × 36'E",
-              "011 × E"
+              "019°E",
+              "008°E",
+              "009°36'E",
+              "011°E"
             ],
-            "answer": "011 × E",
+            "answer": "011°E",
             "correct": 3,
-            "explanation": "On a Lambert chart, change in track = change in longitude × constant of cone. Convergency = 12°, ΔLong = 12 / 0.8 = 15°. A (004 × W) + 15 × E => 11 × E (011 × E)."
+            "explanation": "On a Lambert chart, change in track = change in longitude × constant of cone. Convergency = 12°, ΔLong = 12 / 0.8 = 15°. A (004°W) + 15°E => 11°E (011°E)."
           },
           {
             "category": "human-performance-and-limitations-test-3",
@@ -793,12 +793,12 @@
             "id": 52,
             "question": "In a normally aspirated piston engine carburettor icing can occur:",
             "options": [
-              "only below 0 × C",
-              "only below 0 × C and no visible moisture",
-              "In temperature ranges of -7 × C to as high as +33 × C with visible moisture present",
+              "only below 0°C",
+              "only below 0°C and no visible moisture",
+              "In temperature ranges of -7°C to as high as +33°C with visible moisture present",
               "only above 5000 ft"
             ],
-            "answer": "In temperature ranges of -7 × C to as high as +33 × C with visible moisture present",
+            "answer": "In temperature ranges of -7°C to as high as +33°C with visible moisture present",
             "correct": 2,
             "explanation": ""
           },
@@ -2545,9 +2545,9 @@
             "question": "According to international agreements the wind direction must be given in degrees magnetic converted with local magnetic variation from the true wind direction:",
             "options": [
               "before landing and taxi for take-off.",
-              "in anticipation of the upper wind for areas North of 60 × N and South of 60 × S.",
+              "in anticipation of the upper wind for areas North of 60° N and South of 60° S.",
               "when an aircraft is requested by the meteorological office or on specified points to give a PIREP.",
-              "when the local variation is greater than 10 × East or West."
+              "when the local variation is greater than 10° East or West."
             ],
             "answer": "before landing and taxi for take-off.",
             "correct": 0,
@@ -3986,7 +3986,7 @@
             "category": "aon-aviation-knowledge-test-2",
             "test": 2,
             "id": 260,
-            "question": "The inbound track to the navigation aid serving a hold is 250 × What is the correct sector to join the hold?",
+            "question": "The inbound track to the navigation aid serving a hold is 250° What is the correct sector to join the hold?",
             "options": [
               "Sector 2 (offset)",
               "Sector 1 (parallel) or sector 3 (direct)",
@@ -4338,7 +4338,7 @@
             "category": "aon-aviation-knowledge-test-3",
             "test": 3,
             "id": 283,
-            "question": "ELR is 1 × C/100m:",
+            "question": "ELR is 1°C/100m:",
             "options": [
               "Absolute instability",
               "Conditional stability",
@@ -5441,7 +5441,7 @@
             "category": "flight-planning-and-monitoring-test-1",
             "test": 1,
             "id": 354,
-            "question": "Given: Track 185 × (T), Variation 9° east, Heading 182 × (M). Which is the lowest suitable ICAO IFR cruising level?",
+            "question": "Given: Track 185°(T), Variation 9° east, Heading 182°(M). Which is the lowest suitable ICAO IFR cruising level?",
             "options": [
               "FL280",
               "FL310",
@@ -7459,7 +7459,7 @@
               "altitudes above 18000 ft in an unpressurized aircraft",
               "altitudes above 5000 ft",
               "climbing at more than 500 ft/min to altitude greater than 18000 ft",
-              "temperatures greater than 24 × C at altitudes of over 2000 ft"
+              "temperatures greater than 24°C at altitudes of over 2000 ft"
             ],
             "answer": "altitudes above 18000 ft in an unpressurized aircraft",
             "correct": 0,
@@ -8078,12 +8078,12 @@
             "id": 526,
             "question": "A person suffering from extreme cold will stop shivering and thereafter become colder and colder when the internal body falls to about:",
             "options": [
-              "20 × C",
-              "25 × C",
-              "30 × C",
-              "35 × C"
+              "20°C",
+              "25°C",
+              "30°C",
+              "35°C"
             ],
-            "answer": "35 × C",
+            "answer": "35°C",
             "correct": 3,
             "explanation": ""
           },
@@ -9475,7 +9475,7 @@
             "category": "instrumentation-test-3",
             "test": 3,
             "id": 617,
-            "question": "What would the compass heading be given a true heading of 247° in an area where the variation is 8 × W and a compass deviation of 11 × E?",
+            "question": "What would the compass heading be given a true heading of 247° in an area where the variation is 8°W and a compass deviation of 11°E?",
             "options": [
               "255°",
               "244°",
@@ -11711,7 +11711,7 @@
             "category": "meteorology-test-1",
             "test": 1,
             "id": 762,
-            "question": "In AS cloud at FL170 and a temperature of -20 × C the airframe icing most likely to be experienced is:",
+            "question": "In AS cloud at FL170 and a temperature of -20°C the airframe icing most likely to be experienced is:",
             "options": [
               "moderate clear icing",
               "light rime icing",
@@ -12130,7 +12130,7 @@
             "category": "meteorology-test-3",
             "test": 3,
             "id": 789,
-            "question": "At temperatures of between 0 × C and -10 × C clouds will consist of:",
+            "question": "At temperatures of between 0°C and -10°C clouds will consist of:",
             "options": [
               "entirely water droplets",
               "entirely ice crystals",
@@ -12284,7 +12284,7 @@
             "options": [
               "there will always be windshear under the cloud",
               "the average movement is in accord with the wind at 10.000 ft",
-              "if the cloud base has a temperature below 0 × C then freezing rain will occur",
+              "if the cloud base has a temperature below 0°C then freezing rain will occur",
               "downdrafts occur only in the final (dissipating) stage"
             ],
             "answer": "the average movement is in accord with the wind at 10.000 ft",
@@ -12297,7 +12297,7 @@
             "id": 800,
             "question": "Aircraft structural icing occurs when:",
             "options": [
-              "ambient temperature is below 0 × C",
+              "ambient temperature is below 0°C",
               "up and down progress in CU cloud",
               "collision with supercooled water drops",
               "collision with ice crystals"
@@ -12723,7 +12723,7 @@
             "category": "meteorology-test-4",
             "test": 4,
             "id": 828,
-            "question": "Flying in large CU at a temperature of -20 × C, the amount of each cloud droplet that will freeze on impact with the aircraft will be:",
+            "question": "Flying in large CU at a temperature of -20°C, the amount of each cloud droplet that will freeze on impact with the aircraft will be:",
             "options": [
               "all the droplet",
               "½ of the droplet",
@@ -12738,7 +12738,7 @@
             "category": "meteorology-test-4",
             "test": 4,
             "id": 829,
-            "question": "Stratus cloud of limited depth at a temperature of -5 × C will most likely give:",
+            "question": "Stratus cloud of limited depth at a temperature of -5°C will most likely give:",
             "options": [
               "moderate to heavy rime ice",
               "moderate to heavy glaze ice",
@@ -12756,11 +12756,11 @@
             "question": "Carburettor icing is unlikely:",
             "options": [
               "in cloud",
-              "at temperatures between -10 × C and -30 × C",
+              "at temperatures between -10°C and -30°C",
               "in clear air",
               "when the relative humidity is 40%"
             ],
-            "answer": "at temperatures between -10 × C and -30 × C",
+            "answer": "at temperatures between -10°C and -30°C",
             "correct": 1,
             "explanation": ""
           },
@@ -12768,7 +12768,7 @@
             "category": "meteorology-test-4",
             "test": 4,
             "id": 831,
-            "question": "Flying 50 NM ahead of a warm front out of cloud at 1000 ft in winter, with an ambient temperature of -8 × C, there is a strong risk of:",
+            "question": "Flying 50 NM ahead of a warm front out of cloud at 1000 ft in winter, with an ambient temperature of -8°C, there is a strong risk of:",
             "options": [
               "hoar frost",
               "rime icing and carburettor icing",
@@ -15154,8 +15154,8 @@
               "at the point of origin",
               "to the left of the origin"
             ],
-            "answer": "below the origin",
-            "correct": 1,
+            "answer": "above the origin",
+            "correct": 0,
             "explanation": ""
           },
           {
@@ -15317,11 +15317,10 @@
               "twice the wingspan above the ground",
               "one wingspan above the ground",
               "when the angle of attack is increased",
-              "upon elevator deflection",
-              "half the wingspan above the ground"
+              "upon elevator deflection"
             ],
-            "answer": "half the wingspan above the ground",
-            "correct": 4,
+            "answer": "one wingspan above the ground",
+            "correct": 1,
             "explanation": ""
           }
         ]
@@ -16158,11 +16157,10 @@
               "Negative camber at the root",
               "Separated airflow at the root",
               "Spanwise flow causing the tips to stall first",
-              "Strong lateral stability",
-              "Spanwise flow",
+              "Strong lateral stability"
             ],
-            "answer": "Spanwise flow",
-            "correct": 4,
+            "answer": "Spanwise flow causing the tips to stall first",
+            "correct": 2,
             "explanation": ""
           },
           {
@@ -16556,8 +16554,8 @@
               "wing sweep prevents the nose-up phenomena",
               "tip stall"
             ],
-            "answer": "tip stall",
-            "correct": 3,
+            "answer": "wing sweep prevents the nose-up phenomena",
+            "correct": 2,
             "explanation": ""
           },
           {
@@ -16592,7 +16590,7 @@
             "category": "radio-navigation-test-1",
             "test": 1,
             "id": 1079,
-            "question": "An aircraft flies from a VOR at 61N 013W to 58N 013W. The variation at the beacon is 13 × W and the variation at the aircraft is 5 × W. What radial is the aircraft on?",
+            "question": "An aircraft flies from a VOR at 61N 013W to 58N 013W. The variation at the beacon is 13°W and the variation at the aircraft is 5°W. What radial is the aircraft on?",
             "options": [
               "013",
               "005",
@@ -16749,8 +16747,8 @@
               "identification and monitoring",
               "tuning, identification and monitoring"
             ],
-            "answer": "tuning, identification and monitoring",
-            "correct": 3,
+            "answer": "identification",
+            "correct": 1,
             "explanation": ""
           },
           {
@@ -17101,8 +17099,8 @@
               "fly right and fly up",
               "fly right and fly down"
             ],
-            "answer": "fly right and fly down",
-            "correct": 3,
+            "answer": "fly right and fly up",
+            "correct": 2,
             "explanation": ""
           },
           {
@@ -17146,8 +17144,8 @@
               "an aerodrome surveillance radar",
               "a terminal area radar"
             ],
-            "answer": "an area surveillance radar",
-            "correct": 0,
+            "answer": "an aerodrome surveillance radar",
+            "correct": 2,
             "explanation": ""
           },
           {
@@ -17251,8 +17249,8 @@
               "2 elements using 2 frequencies",
               "2 elements multiplexing on one frequency"
             ],
-            "answer": "4 elements multiplexing on one frequency",
-            "correct": 1,
+            "answer": "2 elements multiplexing on one frequency",
+            "correct": 3,
             "explanation": ""
           }
         ]
@@ -17453,8 +17451,8 @@
               "pass navigation and system data to the receiver",
               "all of the above"
             ],
-            "answer": "identify the satellites",
-            "correct": 0,
+            "answer": "all of the above",
+            "correct": 3,
             "explanation": ""
           },
           {
@@ -17890,12 +17888,12 @@
             "id": 1164,
             "question": "The coverage of MLS is ............... either side of the centre line to a distance of...............",
             "options": [
-              "40 × 40 NM",
-              "40 × 20 NM",
-              "20 × 20 NM",
-              "20 × 40 NM"
+              "40° 40 NM",
+              "40° 20 NM",
+              "20° 20 NM",
+              "20° 40 NM"
             ],
-            "answer": "40 × 20 NM",
+            "answer": "40° 20 NM",
             "correct": 1,
             "explanation": ""
           },
@@ -18255,7 +18253,7 @@
             "category": "radio-navigation-test-5",
             "test": 5,
             "id": 1188,
-            "question": "The EHSI is showing 5° fly right with a TO indication. The aircraft heading is 280 × (M) and the required track is 270°. The radial is:",
+            "question": "The EHSI is showing 5° fly right with a TO indication. The aircraft heading is 280°(M) and the required track is 270°. The radial is:",
             "options": [
               "275",
               "265",
@@ -18302,7 +18300,7 @@
             "options": [
               "is zero at the magnetic equator",
               "cannot exceed 180°",
-              "has a maximum value of 45 × E or 45 × W",
+              "has a maximum value of 45° E or 45° W",
               "cannot exceed 90°"
             ],
             "answer": "cannot exceed 180°",
@@ -18390,12 +18388,12 @@
             "id": 1196,
             "question": "5 hours 20 minutes and 20 seconds time difference is equivalent to which change of longitude?",
             "options": [
-              "81 × 30'",
-              "78 × 15'",
-              "79 × 10'",
-              "80 × 05'"
+              "81°30'",
+              "78°15'",
+              "79°10'",
+              "80°05'"
             ],
-            "answer": "80 × 05'",
+            "answer": "80°05'",
             "correct": 3,
             "explanation": ""
           },
@@ -18463,14 +18461,14 @@
             "category": "general-navigation-test-1",
             "test": 1,
             "id": 1201,
-            "question": "An aircraft starts at position 04 × 10'S 178 × 22'W and heads true north for 2950 NM, then turns 90 degrees right, and maintains a rhumb line track for 314 kilometres. What is its final position?",
+            "question": "An aircraft starts at position 04°10'S 178°22'W and heads true north for 2950 NM, then turns 90 degrees right, and maintains a rhumb line track for 314 kilometres. What is its final position?",
             "options": [
-              "55 × 00'N 174 × 22'W",
-              "45 × 00'N 174 × 22'W",
-              "55 × 00'N 177 × 38'E",
-              "45 × 00'N 177 × 38'E"
+              "55°00'N 174°22'W",
+              "45°00'N 174°22'W",
+              "55°00'N 177°38'E",
+              "45°00'N 177°38'E"
             ],
-            "answer": "45 × 00'N 174 × 22'W",
+            "answer": "45°00'N 174°22'W",
             "correct": 1,
             "explanation": ""
           },
@@ -18523,7 +18521,7 @@
             "category": "general-navigation-test-1",
             "test": 1,
             "id": 1205,
-            "question": "You are heading 080 × (T) when you get a range and bearing fix from your AWR (Airborne Weather Radar) on a headland at 185 NM 30° left of the nose. What true bearing do you plot on the chart?",
+            "question": "You are heading 080°(T) when you get a range and bearing fix from your AWR (Airborne Weather Radar) on a headland at 185 NM 30° left of the nose. What true bearing do you plot on the chart?",
             "options": [
               "050 from the headland, using the headland's meridian",
               "050 from the headland, using the aircraft's meridian",
@@ -18553,7 +18551,7 @@
             "category": "general-navigation-test-1",
             "test": 1,
             "id": 1207,
-            "question": "On a transverse Mercator chart, the scale factor is 0.9996 on the central meridian. At a point 3° away from the central meridian, the scale is exactly 1. What is the scale at a point 4 × 30' away from the central meridian?",
+            "question": "On a transverse Mercator chart, the scale factor is 0.9996 on the central meridian. At a point 3° away from the central meridian, the scale is exactly 1. What is the scale at a point 4°30' away from the central meridian?",
             "options": [
               "1 / 0.9996",
               "1 / 1.0000",
@@ -18572,7 +18570,7 @@
             "options": [
               "the same grivation",
               "the same variation",
-              "0 × (M)agnetic dip",
+              "0°(M)agnetic dip",
               "the same horizontal magnetic field strength"
             ],
             "answer": "the same grivation",
@@ -18637,7 +18635,7 @@
             ],
             "answer": "086/22 NM",
             "correct": 1,
-            "explanation": "Calculated using departure (East/West distance) based on longitude difference of 33' at 48 × N. Distance is approx 22NM, course is Easterly (086°)."
+            "explanation": "Calculated using departure (East/West distance) based on longitude difference of 33' at 48°N. Distance is approx 22NM, course is Easterly (086°)."
           }
         ]
       },
@@ -18712,12 +18710,12 @@
             "id": 1217,
             "question": "What is the highest latitude listed below at which the sun will rise above the horizon and set every day?",
             "options": [
-              "68 × N",
-              "66 × N",
-              "62 × N",
-              "72 × N"
+              "68°N",
+              "66°N",
+              "62°N",
+              "72°N"
             ],
-            "answer": "66 × N",
+            "answer": "66°N",
             "correct": 1,
             "explanation": ""
           },
@@ -18770,7 +18768,7 @@
             "category": "general-navigation-test-2",
             "test": 2,
             "id": 1221,
-            "question": "On a particular take-off, you can accept up to 10 knots tailwind component. The runway QDM is 047°, the variation is 17 × E, and the forecast wind is 100 × (T) / 30 knots. What is the maximum tailwind component?",
+            "question": "On a particular take-off, you can accept up to 10 knots tailwind component. The runway QDM is 047°, the variation is 17°E, and the forecast wind is 100°(T) / 30 knots. What is the maximum tailwind component?",
             "options": [
               "18 knots",
               "4 knots",
@@ -18785,14 +18783,14 @@
             "category": "general-navigation-test-2",
             "test": 2,
             "id": 1222,
-            "question": "An aircraft at position 60 × N 005 × W tracks 090 × (T) for 315 km. On completion of the flight the longitude will be:",
+            "question": "An aircraft at position 60°N 005°W tracks 090°(T) for 315 km. On completion of the flight the longitude will be:",
             "options": [
-              "010 × 40'W",
-              "000 × 15'E",
-              "000 × 40'E",
-              "002 × 10'W"
+              "010°40'W",
+              "000°15'E",
+              "000°40'E",
+              "002°10'W"
             ],
-            "answer": "000 × 40'E",
+            "answer": "000°40'E",
             "correct": 2,
             "explanation": ""
           },
@@ -18830,14 +18828,14 @@
             "category": "general-navigation-test-2",
             "test": 2,
             "id": 1225,
-            "question": "An aircraft at position 27 × 00'N 170 × 00'W travels 3000 km on a track of 180 × (T), then 3000 km on a track of 090 × (T), then 3000 km on a track of 000 × (T), then 3000 km on a track of 270 × (T). What is its final position?",
+            "question": "An aircraft at position 27°00'N 170°00'W travels 3000 km on a track of 180°(T), then 3000 km on a track of 090°(T), then 3000 km on a track of 000°(T), then 3000 km on a track of 270°(T). What is its final position?",
             "options": [
-              "27 × 00'N 173 × 18'W",
-              "00 × 00'N/S 170 × 00'W",
-              "27 × 00'N 170 × 00'W",
-              "27 × 00'N 143 × 00'W"
+              "27°00'N 173°18'W",
+              "00°00'N/S 170°00'W",
+              "27°00'N 170°00'W",
+              "27°00'N 143°00'W"
             ],
-            "answer": "27 × 00'N 173 × 18'W",
+            "answer": "27°00'N 173°18'W",
             "correct": 0,
             "explanation": ""
           },
@@ -18845,7 +18843,7 @@
             "category": "general-navigation-test-2",
             "test": 2,
             "id": 1226,
-            "question": "Your pressure alt is FL55, the QNH is 998, and the SAT is +30 × (C). What is the density altitude?",
+            "question": "Your pressure alt is FL55, the QNH is 998, and the SAT is +30°(C). What is the density altitude?",
             "options": [
               "6980 feet",
               "7750 feet",
@@ -18860,14 +18858,14 @@
             "category": "general-navigation-test-2",
             "test": 2,
             "id": 1227,
-            "question": "You are heading 345 × (M), the variation is 20 × E, and you take a radar bearing of 30° left of the nose from an island. What bearing do you plot from the island?",
+            "question": "You are heading 345°(M), the variation is 20°E, and you take a radar bearing of 30° left of the nose from an island. What bearing do you plot from the island?",
             "options": [
-              "160 × (T)",
-              "155 × (T)",
-              "140 × (T)",
-              "180 × (T)"
+              "160°(T)",
+              "155°(T)",
+              "140°(T)",
+              "180°(T)"
             ],
-            "answer": "155 × (T)",
+            "answer": "155°(T)",
             "correct": 1,
             "explanation": ""
           },
@@ -18890,7 +18888,7 @@
             "category": "general-navigation-test-2",
             "test": 2,
             "id": 1229,
-            "question": "The pressure alt is 29000 feet and the SAT is -55 × (C). What is the density altitude?",
+            "question": "The pressure alt is 29000 feet and the SAT is -55°(C). What is the density altitude?",
             "options": [
               "27500 feet",
               "26000 feet",
@@ -18905,7 +18903,7 @@
             "category": "general-navigation-test-2",
             "test": 2,
             "id": 1230,
-            "question": "On the Jeppesen E(LO)1 chart, what are the symbols at Sligo (53 × 54.8'N 008 × 49.1'W)?",
+            "question": "On the Jeppesen E(LO)1 chart, what are the symbols at Sligo (53°54.8'N 008°49.1'W)?",
             "options": [
               "VOR, NDB, DME, compulsory reporting point",
               "Civil airport, NDB, DME, compulsory reporting point",
@@ -18942,14 +18940,14 @@
             "category": "general-navigation-test-3",
             "test": 3,
             "id": 1232,
-            "question": "Position A is at 70 × S 030 × W, position B is 70 × S 060 × E. What is the great circle track of B from A, measured at A?",
+            "question": "Position A is at 70°S 030°W, position B is 70°S 060°E. What is the great circle track of B from A, measured at A?",
             "options": [
-              "132 × (T)",
-              "048 × (T)",
-              "090 × (T)",
-              "228 × (T)"
+              "132°(T)",
+              "048°(T)",
+              "090°(T)",
+              "228°(T)"
             ],
-            "answer": "132 × (T)",
+            "answer": "132°(T)",
             "correct": 0,
             "explanation": ""
           },
@@ -18957,14 +18955,14 @@
             "category": "general-navigation-test-3",
             "test": 3,
             "id": 1233,
-            "question": "An aircraft is at 10 × N and is flying North at 444 km/hour. After 3 hours the latitude is:",
+            "question": "An aircraft is at 10°N and is flying North at 444 km/hour. After 3 hours the latitude is:",
             "options": [
-              "10 × S",
-              "02 × S",
-              "22 × N",
-              "00 × N/S"
+              "10°S",
+              "02°S",
+              "22°N",
+              "00°N/S"
             ],
-            "answer": "22 × N",
+            "answer": "22°N",
             "correct": 2,
             "explanation": ""
           },
@@ -18987,14 +18985,14 @@
             "category": "general-navigation-test-3",
             "test": 3,
             "id": 1235,
-            "question": "Track = 090 × (T), TAS = 460 knots, W/V = 360 × (T) / 100, Variation = 12 × E, Deviation = -2. What is the compass heading and the ground speed?",
+            "question": "Track = 090°(T), TAS = 460 knots, W/V = 360°(T) / 100, Variation = 12°E, Deviation = -2. What is the compass heading and the ground speed?",
             "options": [
-              "079 × 470 knots",
-              "067 × 450 knots",
-              "068 × 460 knots",
-              "070 × 455 knots"
+              "079° 470 knots",
+              "067° 450 knots",
+              "068° 460 knots",
+              "070° 455 knots"
             ],
-            "answer": "079 × 470 knots",
+            "answer": "079° 470 knots",
             "correct": 0,
             "explanation": ""
           },
@@ -19002,14 +19000,14 @@
             "category": "general-navigation-test-3",
             "test": 3,
             "id": 1236,
-            "question": "An aircraft departs a point 04 × 00'N 170 × 00'W and flies 240 NM South, followed by 240 NM East, then 240 NM North, then 240 NM West. What is its final position?",
+            "question": "An aircraft departs a point 04°00'N 170°00'W and flies 240 NM South, followed by 240 NM East, then 240 NM North, then 240 NM West. What is its final position?",
             "options": [
-              "04 × 00'N 170 × 00'W",
-              "06 × 00'S 170 × 00'W",
-              "04 × 00'N 170 × 35.9'W",
-              "04 × 00'N 169 × 01.8'W"
+              "04°00'N 170°00'W",
+              "06°00'S 170°00'W",
+              "04°00'N 170°35.9'W",
+              "04°00'N 169°01.8'W"
             ],
-            "answer": "04 × 00'N 170 × 35.9'W",
+            "answer": "04°00'N 170°35.9'W",
             "correct": 2,
             "explanation": ""
           },
@@ -19154,12 +19152,12 @@
             "id": 1246,
             "question": "Which of the following differences in latitude will give the biggest difference in the initial great circle track and the mean great circle track between two points separated by 10° change of longitude?",
             "options": [
-              "60 × N and 60 × S",
-              "60 × N and 60 × N",
-              "30 × S and 30 × N",
-              "30 × S and 25 × S"
+              "60°N and 60°S",
+              "60°N and 60°N",
+              "30°S and 30°N",
+              "30°S and 25°S"
             ],
-            "answer": "60 × N and 60 × N",
+            "answer": "60°N and 60°N",
             "correct": 1,
             "explanation": ""
           },
@@ -19182,7 +19180,7 @@
             "category": "general-navigation-test-3",
             "test": 3,
             "id": 1248,
-            "question": "On a particular direct Mercator wall chart, the full length of the parallel of latitude at 53 × N is 133 cm long. What is the scale of the chart at 30 × S?",
+            "question": "On a particular direct Mercator wall chart, the full length of the parallel of latitude at 53°N is 133 cm long. What is the scale of the chart at 30°S?",
             "options": [
               "1: 30000000",
               "1: 18000000",
@@ -19212,7 +19210,7 @@
             "category": "general-navigation-test-3",
             "test": 3,
             "id": 1250,
-            "question": "An aircraft is at 55 × 30'N 036 × 13'W, where the variation is 15W. It is tuned to a VOR located at 53 × 30'N 036 × 13'W, where the variation is 12W. What VOR radial is the aircraft on?",
+            "question": "An aircraft is at 55°30'N 036°13'W, where the variation is 15W. It is tuned to a VOR located at 53°30'N 036°13'W, where the variation is 12W. What VOR radial is the aircraft on?",
             "options": [
               "348",
               "012",
@@ -19304,14 +19302,14 @@
             "id": 1256,
             "question": "Refer to Jeppesen E(LO)1\nThe magnetic course and distance from LIFFY (N5329 W00530) and WAL (N5324 W00308) is:",
             "options": [
-              "279 × (M) 85 NM",
-              "099 × (M) 114 NM",
-              "099 × (M) 85 NM",
-              "099 × (M) 59 NM"
+              "279°(M) 85 NM",
+              "099°(M) 114 NM",
+              "099°(M) 85 NM",
+              "099°(M) 59 NM"
             ],
-            "answer": "099 × (M) 85 NM",
+            "answer": "099°(M) 85 NM",
             "correct": 2,
-            "explanation": "The route is from LIFFY (West) to WAL (East), so the course must be easterly (~090°). The longitude difference is roughly 2.4°. At latitude 53 × N, the departure (distance) formula is Change in Longitude (in minutes) × cos(Lat). \nDifference in Longitude = 2 × 22' = 142 minutes.\nDistance ≈ 142 × cos(53°) ≈ 142 × 0.6 ≈ 85 NM.\n099 × (M) is the correct easterly magnetic course."
+            "explanation": "The route is from LIFFY (West) to WAL (East), so the course must be easterly (~090°). The longitude difference is roughly 2.4°. At latitude 53°N, the departure (distance) formula is Change in Longitude (in minutes) × cos(Lat). \nDifference in Longitude = 2° 22' = 142 minutes.\nDistance ≈ 142 × cos(53°) ≈ 142 × 0.6 ≈ 85 NM.\n099°(M) is the correct easterly magnetic course."
           },
           {
             "category": "general-navigation",
@@ -19414,7 +19412,7 @@
             "category": "general-navigation-test-4",
             "test": 4,
             "id": 1263,
-            "question": "On a chart, meridians at 45 × N are shown every 10 degrees apart. This is shown on the chart by a distance of 14 cm. What is the scale?",
+            "question": "On a chart, meridians at 45°N are shown every 10 degrees apart. This is shown on the chart by a distance of 14 cm. What is the scale?",
             "options": [
               "1: 2,000,000",
               "1: 4,000,000",
@@ -19444,14 +19442,14 @@
             "category": "general-navigation-test-4",
             "test": 4,
             "id": 1265,
-            "question": "An aircraft at position 00 × 00'N/S 163 × 27'W flies a track of 225 × (T) for 70 NM. What is its new position?",
+            "question": "An aircraft at position 00°00'N/S 163°27'W flies a track of 225°(T) for 70 NM. What is its new position?",
             "options": [
-              "00 × 49'N 162 × 38'W",
-              "00 × 49'S 162 × 38'W",
-              "00 × 49'N 164 × 16'W",
-              "00 × 49'S 164 × 16'W"
+              "00°49'N 162°38'W",
+              "00°49'S 162°38'W",
+              "00°49'N 164°16'W",
+              "00°49'S 164°16'W"
             ],
-            "answer": "00 × 49'S 164 × 16'W",
+            "answer": "00°49'S 164°16'W",
             "correct": 3,
             "explanation": ""
           },
@@ -19474,7 +19472,7 @@
             "category": "general-navigation-test-4",
             "test": 4,
             "id": 1267,
-            "question": "An aircraft is flying around the Earth eastwards along the 60 × N parallel of latitude at a ground speed of 360 knots. At what ground speed would another aircraft have to fly eastwards along the Equator to fly once round the Earth in the same journey time?",
+            "question": "An aircraft is flying around the Earth eastwards along the 60°N parallel of latitude at a ground speed of 360 knots. At what ground speed would another aircraft have to fly eastwards along the Equator to fly once round the Earth in the same journey time?",
             "options": [
               "600 knots",
               "240 knots",
@@ -19489,14 +19487,14 @@
             "category": "general-navigation-test-4",
             "test": 4,
             "id": 1268,
-            "question": "Your position is 58 × 33'N 174 × 00'W. You fly exactly 6 NM westwards. What is your new position?",
+            "question": "Your position is 58°33'N 174°00'W. You fly exactly 6 NM westwards. What is your new position?",
             "options": [
-              "58 × 33'N 174 × 11.5'W",
-              "58 × 33'N 173 × 55'W",
-              "58 × 33'N 173 × 40'W",
-              "58 × 33'N 173 × 48.5'W"
+              "58°33'N 174°11.5'W",
+              "58°33'N 173°55'W",
+              "58°33'N 173°40'W",
+              "58°33'N 173°48.5'W"
             ],
-            "answer": "58 × 33'N 174 × 11.5'W",
+            "answer": "58°33'N 174°11.5'W",
             "correct": 0,
             "explanation": ""
           },
@@ -19519,7 +19517,7 @@
             "category": "general-navigation-test-4",
             "test": 4,
             "id": 1270,
-            "question": "An island is observed to be 15° to the left. The aircraft heading is 120 × (M), variation 17 × (W). The bearing (°T) from the aircraft to the island is:",
+            "question": "An island is observed to be 15° to the left. The aircraft heading is 120°(M), variation 17°(W). The bearing (°T) from the aircraft to the island is:",
             "options": [
               "268",
               "302",
@@ -19534,14 +19532,14 @@
             "category": "general-navigation-test-4",
             "test": 4,
             "id": 1271,
-            "question": "A Lambert conformal chart has standard parallels at 15 × S and 45 × S. What is the correct longitude scale factor compared to the scale at 30 × S?",
+            "question": "A Lambert conformal chart has standard parallels at 15°S and 45°S. What is the correct longitude scale factor compared to the scale at 30°S?",
             "options": [
-              "Scale at 10 × S is smaller",
-              "Scale at 50 × S is larger",
-              "Scale at 10 × S is larger",
-              "Scale at 50 × S is smaller"
+              "Scale at 10°S is smaller",
+              "Scale at 50°S is larger",
+              "Scale at 10°S is larger",
+              "Scale at 50°S is smaller"
             ],
-            "answer": "Scale at 10 × S is larger",
+            "answer": "Scale at 10°S is larger",
             "correct": 2,
             "explanation": ""
           },
@@ -19564,7 +19562,7 @@
             "category": "general-navigation-test-4",
             "test": 4,
             "id": 1273,
-            "question": "The aircraft position is at 53 × 30'N 008 × 00'W. The VORs are tuned to Shannon (SHA, 52 × 43'N 008 × 53'W) and Connaught (CON, 53 × 55'N 008 × 49'W). Which radials will be indicated (SHA / CON)?",
+            "question": "The aircraft position is at 53°30'N 008°00'W. The VORs are tuned to Shannon (SHA, 52°43'N 008°53'W) and Connaught (CON, 53°55'N 008°49'W). Which radials will be indicated (SHA / CON)?",
             "options": [
               "023 / 130",
               "221 / 318",
@@ -19676,7 +19674,7 @@
             "category": "general-navigation-test-5",
             "test": 5,
             "id": 1280,
-            "question": "Given the following: Magnetic heading: 060 × Magnetic variation: 8 × W Drift angle: 4° right. What is the true track?",
+            "question": "Given the following: Magnetic heading: 060° Magnetic variation: 8°W Drift angle: 4° right. What is the true track?",
             "options": [
               "064°",
               "056°",
@@ -19693,12 +19691,12 @@
             "id": 1281,
             "question": "On a Lambert chart, the convergence factor is 0.78585. What is the parallel of tangency?",
             "options": [
-              "51 × 02'",
-              "51 × 36'",
-              "51 × 15'",
-              "51 × 48'"
+              "51°02'",
+              "51°36'",
+              "51°15'",
+              "51°48'"
             ],
-            "answer": "51 × 48'",
+            "answer": "51°48'",
             "correct": 3,
             "explanation": ""
           },
@@ -19706,7 +19704,7 @@
             "category": "general-navigation-test-5",
             "test": 5,
             "id": 1282,
-            "question": "The angle between the true great circle track and the true rhumb line track joining the following points: A (60 × S 165 × W) and B (60 × S 177 × E) at the place of departure A, is:",
+            "question": "The angle between the true great circle track and the true rhumb line track joining the following points: A (60°S 165°W) and B (60°S 177°E) at the place of departure A, is:",
             "options": [
               "9°",
               "15.6°",
@@ -19721,7 +19719,7 @@
             "category": "general-navigation-test-5",
             "test": 5,
             "id": 1283,
-            "question": "On 27 Feb at 52 × S 040 × E Sunrise is at 0243UTC. On the same day at 52 × S 035 × W the time of Sunrise is:",
+            "question": "On 27 Feb at 52°S 040°E Sunrise is at 0243UTC. On the same day at 52°S 035°W the time of Sunrise is:",
             "options": [
               "0743 UTC",
               "0243 UTC",
@@ -19736,7 +19734,7 @@
             "category": "general-navigation-test-5",
             "test": 5,
             "id": 1284,
-            "question": "An aircraft is cruising at FL350, Temp -50 × C and is told to descend to FL80, Temp -10 × C. If the IAS for the descent was 188 kt, what would be the appropriate TAS?",
+            "question": "An aircraft is cruising at FL350, Temp -50°C and is told to descend to FL80, Temp -10°C. If the IAS for the descent was 188 kt, what would be the appropriate TAS?",
             "options": [
               "260 kt",
               "188 kt",
@@ -19766,14 +19764,14 @@
             "category": "general-navigation-test-5",
             "test": 5,
             "id": 1286,
-            "question": "Given: True track 180 × Drift 8 × R Compass Heading 195 × Deviation -2°. Calculate the variation.",
+            "question": "Given: True track 180° Drift 8°R Compass Heading 195° Deviation -2°. Calculate the variation.",
             "options": [
-              "21 × W",
-              "25 × W",
-              "5 × W",
-              "9 × W"
+              "21°W",
+              "25°W",
+              "5°W",
+              "9°W"
             ],
-            "answer": "21 × W",
+            "answer": "21°W",
             "correct": 0,
             "explanation": ""
           },
@@ -19781,7 +19779,7 @@
             "category": "general-navigation-test-5",
             "test": 5,
             "id": 1287,
-            "question": "Given the following: True track: 192 × Magnetic variation: 7 × E Drift angle: 5° left. Calculate the magnetic heading required to maintain the planned track.",
+            "question": "Given the following: True track: 192° Magnetic variation: 7°E Drift angle: 5° left. Calculate the magnetic heading required to maintain the planned track.",
             "options": [
               "179°",
               "190°",
@@ -19796,14 +19794,14 @@
             "category": "general-navigation-test-5",
             "test": 5,
             "id": 1288,
-            "question": "On a Lambert's chart the constant of the cone is 0.80. A is at 53 × N 004 × W. You plan to fly to B. The initial Lambert's chart straight-line track is 070 × (T) and the rhumb line track from A to B is 080 × (T). What is the longitude of B?",
+            "question": "On a Lambert's chart the constant of the cone is 0.80. A is at 53°N 004°W. You plan to fly to B. The initial Lambert's chart straight-line track is 070°(T) and the rhumb line track from A to B is 080°(T). What is the longitude of B?",
             "options": [
-              "021 × E",
-              "034 × W",
-              "011 × E",
-              "015 × E"
+              "021°E",
+              "034°W",
+              "011°E",
+              "015°E"
             ],
-            "answer": "021 × E",
+            "answer": "021°E",
             "correct": 0,
             "explanation": ""
           },
@@ -19841,7 +19839,7 @@
             "category": "general-navigation-test-5",
             "test": 5,
             "id": 1291,
-            "question": "Given: True course 300 × Drift 8 × R Variation 10 × W Deviation -4°. Calculate the compass heading.",
+            "question": "Given: True course 300° Drift 8°R Variation 10°W Deviation -4°. Calculate the compass heading.",
             "options": [
               "322°",
               "306°",
@@ -19856,7 +19854,7 @@
             "category": "general-navigation-test-5",
             "test": 5,
             "id": 1292,
-            "question": "An aircraft is flying at FL200, the OAT is 0 × C. When the actual air pressure on an airfield at MSL is placed on the subscale of the altimeter the indicated altitude is 19300 ft. What is the aircraft's True Altitude?",
+            "question": "An aircraft is flying at FL200, the OAT is 0°C. When the actual air pressure on an airfield at MSL is placed on the subscale of the altimeter the indicated altitude is 19300 ft. What is the aircraft's True Altitude?",
             "options": [
               "17300 ft",
               "19300 ft",
@@ -19871,7 +19869,7 @@
             "category": "general-navigation-test-5",
             "test": 5,
             "id": 1293,
-            "question": "The distance between two waypoints is 200 NM. To calculate compass heading the pilot used 2 × E magnetic variation instead of 2 × W. Assuming that the forecast W/V applied, what will the off track distance be at the second waypoint?",
+            "question": "The distance between two waypoints is 200 NM. To calculate compass heading the pilot used 2°E magnetic variation instead of 2°W. Assuming that the forecast W/V applied, what will the off track distance be at the second waypoint?",
             "options": [
               "14 NM",
               "7 NM",
@@ -19886,7 +19884,7 @@
             "category": "general-navigation-test-5",
             "test": 5,
             "id": 1294,
-            "question": "The rhumb line distance between points A (60 × 00'N 002 × 30'E) and B (60 × 00'N 007 × 30'W) is:",
+            "question": "The rhumb line distance between points A (60°00'N 002°30'E) and B (60°00'N 007°30'W) is:",
             "options": [
               "300 NM",
               "450 NM",
@@ -19901,7 +19899,7 @@
             "category": "general-navigation-test-5",
             "test": 5,
             "id": 1295,
-            "question": "An aircraft has to climb from FL50 -10 × C to FL260 -25 × C. The IAS for the climb is 180 kt and the WC is +30 kt. If the ROC is 900 ft/min, how many miles will the climb take?",
+            "question": "An aircraft has to climb from FL50 -10°C to FL260 -25°C. The IAS for the climb is 180 kt and the WC is +30 kt. If the ROC is 900 ft/min, how many miles will the climb take?",
             "options": [
               "96 NM",
               "106 NM",
@@ -19916,7 +19914,7 @@
             "category": "general-navigation-test-5",
             "test": 5,
             "id": 1296,
-            "question": "Given: Position A is 60 × N 020 × W, Position B is 60 × N 021 × W, and Position C is 59 × N 020 × W, what are, respectively, the distances from A to B and from A to C?",
+            "question": "Given: Position A is 60°N 020°W, Position B is 60°N 021°W, and Position C is 59°N 020°W, what are, respectively, the distances from A to B and from A to C?",
             "options": [
               "60 NM and 30 NM",
               "30 NM and 60 NM",
@@ -19946,7 +19944,7 @@
             "category": "general-navigation-test-5",
             "test": 5,
             "id": 1298,
-            "question": "Given: A Polar Stereographic chart whose grid is aligned with the zero meridian. Grid track 344°, longitude 115 × 00'W, calculate the true course. (Assume N hemisphere).",
+            "question": "Given: A Polar Stereographic chart whose grid is aligned with the zero meridian. Grid track 344°, longitude 115°00'W, calculate the true course. (Assume N hemisphere).",
             "options": [
               "099°",
               "279°",
@@ -21008,7 +21006,7 @@
             "category": "performance-test-3",
             "test": 3,
             "id": 1367,
-            "question": "At MSL, in ISA conditions Climb gradient = 6%. What would the climb gradient be if: Pressure altitude 1000 ft, Temperature 17 × C, Engine anti-ice on, Wing anti-ice on. (Corrections: - 0.2% engine anti-ice, - 0,1% wing anti-ice, 0.2% per 1000 ft pressure altitude, 0.1 % per 1 × C ISA deviation)",
+            "question": "At MSL, in ISA conditions Climb gradient = 6%. What would the climb gradient be if: Pressure altitude 1000 ft, Temperature 17°C, Engine anti-ice on, Wing anti-ice on. (Corrections: - 0.2% engine anti-ice, - 0,1% wing anti-ice, 0.2% per 1000 ft pressure altitude, 0.1 % per 1°C ISA deviation)",
             "options": [
               "5.1%",
               "6.3%",
@@ -21226,7 +21224,7 @@
             "options": [
               "runway wet",
               "after dark",
-              "temperature varies by more than 10 × C from ISA",
+              "temperature varies by more than 10°C from ISA",
               "anti-skid unserviceable"
             ],
             "answer": "anti-skid unserviceable",
