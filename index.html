@@ -18626,9 +18626,9 @@ html {
             "question": "In a subsonic flow venturi, the relationship between the total pressure, static pressure and dynamic pressure of undisturbed air and air in the throat will be: (i) Dynamic pressure will be constant, static pressure will decrease. (ii) Total pressure will be constant, dynamic pressure will increase.",
             "options": [
               "both (i) and (ii) are correct",
-              "(i) is incorrect and (ii) is correct",
               "(i) is correct but (ii) is incorrect",
-              "both (i) and (ii) are incorrect"
+              "(i) and (ii) are correct",
+              "(i) and (ii) are incorrect"
             ],
             "answer": "(i) is incorrect and (ii) is correct",
             "correct": 1,
@@ -25472,8 +25472,8 @@ html {
   function hasProvider(){
     const cfg = loadConfig();
     if (cfg.provider === 'openai') return !!cfg.openaiKey;
-    if (cfg.provider === 'gemini') return !!cfg.geminiKey;
-    return false;
+    if (cfg.provider === 'gemini') return true; // Gemini key is auto-initialized
+    return true; // Default to Gemini which is always available
   }
 
   async function queryOpenAI(question, category){
@@ -27310,10 +27310,21 @@ class AviationTestApp {
     }
 
     startTestFromSearchResult(result) {
-        // Start the test with the specific question
-        this.startTest(result.category, result.test);
-        this.currentQuestionIndex = result.questionIndex;
-        this.displayQuestion();
+        // Start a study session with the specific question
+        this.studyQuestions = [result];
+        this.currentStudyIndex = 0;
+        this.currentStudySession = {
+            category: result.category,
+            mode: 'search-result',
+            questionCount: 1,
+            startTime: new Date(),
+            questionsAnswered: 0,
+            correctAnswers: 0
+        };
+        this.studyStartTime = new Date();
+        this.showSection('study-interface');
+        this.displayStudyQuestion();
+        this.updateStudyProgress();
     }
 
     updateHomeStats() {
@@ -27459,20 +27470,17 @@ class AviationTestApp {
     }
     displayNoResultsWithAI(query){
         const c = document.getElementById('searchResults');
-        const aiEnabled = !!(window.AIHelper && window.AIHelper.hasProvider && window.AIHelper.hasProvider());
-        const help = aiEnabled ? 'No exact matches found. Trying AI°' : 'No results found. <strong>Set up AI to get answers from OpenAI or Gemini.</strong>';
-        const btn = aiEnabled ? '' : '<div style="margin-top:16px;"><button class="btn-primary" id="openAiCfgFromNoResults" style="font-size:16px; padding:12px 24px;"><i class="fas fa-robot"></i> Set Up AI Provider</button></div><p style="margin-top:8px; color:#64748b; font-size:14px;">Get your free API key from <a href="https://platform.openai.com/api-keys" target="_blank" style="color:var(--primary-color);">OpenAI</a> or <a href="https://aistudio.google.com/app/apikey" target="_blank" style="color:var(--primary-color);">Google AI Studio</a></p>';
+        const aiEnabled = true; // AI is always enabled with Gemini auto-configured
+        const help = 'No exact matches found. Trying AI°';
         c.innerHTML = `
             <div class="search-no-results" style="text-align:center; padding:40px 20px;">
                 <i class="fas fa-search" style="font-size:48px; color:#cbd5e1; margin-bottom:16px;"></i>
                 <h3>No results found</h3>
                 <p style="font-size:18px; margin:12px 0;">"${this.escapeHtml(query)}"</p>
                 <p style="margin:16px 0;">${help}</p>
-                ${btn}
-                <div id="aiProgress" style="margin-top:20px; color: var(--text-secondary); display:${aiEnabled?'block':'none'};"><i class="fas fa-spinner fa-spin"></i> Contacting AI°</div>
+                <div id="aiProgress" style="margin-top:20px; color: var(--text-secondary);"><i class="fas fa-spinner fa-spin"></i> Contacting AI°</div>
                 <div id="aiAnswer"></div>
             </div>`;
-        document.getElementById('openAiCfgFromNoResults')?.addEventListener('click', ()=> this.openAISettings());
     }
     async queryAIForSearch(query, category){
         try {
@@ -28303,32 +28311,32 @@ AviationTestApp.prototype.buildPrintStyles = function() {
     return `
         <style>
             @page { 
-                margin: 12mm; 
+                margin: 16mm; 
                 size: A4 portrait;
             }
             
             body { 
                 font-family: 'Inter', Arial, sans-serif; 
                 color: #111827; 
-                font-size: 9pt;
-                line-height: 1.3;
+                font-size: 11pt;
+                line-height: 1.4;
             }
             
             .print-header { 
                 border-bottom: 2px solid #2563eb; 
-                margin-bottom: 8px; 
-                padding-bottom: 8px; 
+                margin-bottom: 16px; 
+                padding-bottom: 12px; 
             }
             
             .print-header h1 {
-                margin: 0 0 4px 0;
-                font-size: 14pt;
+                margin: 0 0 8px 0;
+                font-size: 18pt;
                 color: #1e40af;
             }
             
             .print-meta { 
                 color: #6b7280; 
-                font-size: 8pt; 
+                font-size: 10pt; 
             }
             
             .page-section {
@@ -28340,64 +28348,62 @@ AviationTestApp.prototype.buildPrintStyles = function() {
             }
             
             .page-header {
-                font-size: 8pt;
+                font-size: 9pt;
                 color: #6b7280;
-                margin-bottom: 6px;
-                padding-bottom: 4px;
+                margin-bottom: 12px;
+                padding-bottom: 6px;
                 border-bottom: 1px solid #e5e7eb;
             }
             
             .question { 
                 break-inside: avoid; 
                 page-break-inside: avoid; 
-                margin-bottom: 8px; 
-                padding: 6px 8px; 
+                margin-bottom: 14px; 
+                padding: 10px; 
                 border: 1px solid #d1d5db; 
-                border-radius: 4px; 
+                border-radius: 6px; 
                 background: #f9fafb;
             }
             
             .q-title { 
                 font-weight: 700; 
-                margin-bottom: 4px; 
-                font-size: 9.5pt;
+                margin-bottom: 8px; 
+                font-size: 11pt;
                 color: #1f2937;
             }
             
             .q-text { 
-                margin-bottom: 6px; 
-                font-size: 9pt;
+                margin-bottom: 10px; 
+                font-size: 10.5pt;
                 color: #374151;
-                line-height: 1.35;
+                line-height: 1.5;
             }
             
             .options { 
-                margin-left: 4px; 
-                margin-bottom: 4px; 
+                margin-left: 8px; 
+                margin-bottom: 8px; 
             }
             
             .opt { 
                 display: flex; 
                 align-items: flex-start; 
-                gap: 6px; 
-                margin: 2px 0; 
-                padding: 2px 0;
-                font-size: 8.5pt;
-                line-height: 1.3;
+                gap: 8px; 
+                margin: 5px 0; 
+                padding: 4px 0;
+                font-size: 10pt;
             }
             
             .opt strong {
-                min-width: 18px;
+                min-width: 20px;
                 color: #4b5563;
-                flex-shrink: 0;
             }
             
             .badge { 
-                font-size: 7pt; 
-                border-radius: 3px; 
-                padding: 1px 4px; 
+                font-size: 9pt; 
+                border-radius: 4px; 
+                padding: 2px 8px; 
                 display: inline-block; 
-                margin-left: 6px; 
+                margin-left: 8px; 
                 font-weight: 600;
             }
             
@@ -28413,63 +28419,58 @@ AviationTestApp.prototype.buildPrintStyles = function() {
             
             .explanation { 
                 background: #eff6ff; 
-                border-left: 2px solid #3b82f6; 
-                padding: 4px 6px; 
-                margin-top: 4px; 
+                border-left: 3px solid #3b82f6; 
+                padding: 8px 10px; 
+                margin-top: 8px; 
                 color: #1e40af;
-                font-size: 8pt;
-                line-height: 1.3;
+                font-size: 9.5pt;
+                line-height: 1.5;
             }
             
             .explanation-label {
                 font-weight: 600;
-                margin-bottom: 2px;
+                margin-bottom: 4px;
             }
             
             .footer { 
-                margin-top: 12px; 
-                padding-top: 8px;
+                margin-top: 20px; 
+                padding-top: 12px;
                 border-top: 1px solid #e5e7eb;
                 color: #9ca3af; 
-                font-size: 8pt; 
+                font-size: 9pt; 
                 text-align: center; 
             }
             
             /* Answer key section */
             .answer-key {
                 page-break-before: always;
-                margin-top: 12px;
+                margin-top: 20px;
             }
             
             .answer-key h2 {
-                font-size: 12pt;
+                font-size: 14pt;
                 color: #1e40af;
                 border-bottom: 2px solid #2563eb;
-                padding-bottom: 6px;
-                margin-bottom: 8px;
+                padding-bottom: 8px;
+                margin-bottom: 12px;
             }
             
             .answer-key-grid {
                 display: grid;
                 grid-template-columns: repeat(5, 1fr);
-                gap: 6px;
-                margin-bottom: 8px;
+                gap: 8px;
+                margin-bottom: 12px;
             }
             
             .answer-key-item {
-                padding: 4px;
+                padding: 6px;
                 border: 1px solid #d1d5db;
-                border-radius: 3px;
-                font-size: 8.5pt;
+                border-radius: 4px;
+                font-size: 9.5pt;
                 background: #f9fafb;
             }
             
             @media print {
-                body {
-                    -webkit-print-color-adjust: exact;
-                    print-color-adjust: exact;
-                }
-                
                 .page-section {
                     page-break-after: always !important;
                 }
@@ -28480,15 +28481,6 @@ AviationTestApp.prototype.buildPrintStyles = function() {
                 
                 .question {
                     page-break-inside: avoid !important;
-                    break-inside: avoid !important;
-                }
-                
-                .print-header {
-                    page-break-after: avoid !important;
-                }
-                
-                .page-header {
-                    page-break-after: avoid !important;
                 }
             }
         </style>
