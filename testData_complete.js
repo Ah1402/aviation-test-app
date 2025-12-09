@@ -12584,8 +12584,8 @@ window.testData = {
               "from Florida to the north of Scotland",
               "from Newfoundland to southwest England"
             ],
-            "answer": "from Florida to the north of Scotland",
-            "correct": 2,
+            "answer": "from Florida to southwest England",
+            "correct": 0,
             "explanation": ""
           },
           {
