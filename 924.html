@@ -25325,10 +25325,7 @@ html {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(cfg||{}));
   }
   function hasProvider(){
-    const cfg = loadConfig();
-    if (cfg.provider === 'openai') return !!cfg.openaiKey;
-    if (cfg.provider === 'gemini') return true; // Gemini key is auto-initialized
-    return true; // Default to Gemini which is always available
+    return true; // Gemini is always available with hardcoded key
   }
 
   async function queryOpenAI(question, category){
@@ -25367,9 +25364,9 @@ html {
 
   async function queryGemini(question, category){
     const cfg = loadConfig();
-    const apiKey = cfg.geminiKey;
+    const HARDCODED_GEMINI_KEY = 'AIzaSyDYEiGeu1K5uGZpVk2M8DCssPLYXTzT_IQ';
+    const apiKey = cfg.geminiKey || HARDCODED_GEMINI_KEY;
     const model = cfg.geminiModel || 'gemini-1.5-flash';
-    if (!apiKey) throw new Error('Gemini API key not set');
 
     const prompt = `You are an aviation exam assistant. Answer concisely and factually.\nQuestion: ${question}\nCategory: ${category||'unknown'}\nReturn JSON: {"answer": string, "explanation": string}.`;
 
@@ -25392,7 +25389,8 @@ html {
 
   async function query(question, category){
     const cfg = loadConfig();
-    if ((cfg.provider||'openai') === 'openai') return queryOpenAI(question, category);
+    // Always use Gemini if no OpenAI key is set
+    if ((cfg.provider||'gemini') === 'openai' && cfg.openaiKey) return queryOpenAI(question, category);
     return queryGemini(question, category);
   }
 
