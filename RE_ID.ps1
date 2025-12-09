@@ -10,11 +10,11 @@ param(
 function Read-File([string]$path){ if(!(Test-Path $path)){ throw "File not found: $path" }; [System.IO.File]::ReadAllText($path) }
 function Write-File([string]$path, [string]$content){ [System.IO.File]::WriteAllText($path, $content) }
 
-function Normalize([string]$s){ if($null -eq $s){ return '' }; ($s -replace '\r?\n',' ' -replace '\s+',' ').Trim() }
+function ConvertTo-NormalizedText([string]$s){ if($null -eq $s){ return '' }; ($s -replace '\r?\n',' ' -replace '\s+',' ').Trim() }
 
 # Compute stable IDs by hashing question text
 function ComputeId([string]$text){
-  $norm = Normalize $text
+  $norm = ConvertTo-NormalizedText $text
   $sha = [System.Security.Cryptography.SHA1]::Create()
   $bytes = [System.Text.Encoding]::UTF8.GetBytes($norm)
   $hash = $sha.ComputeHash($bytes)
