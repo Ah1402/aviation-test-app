@@ -25316,6 +25316,35 @@ html {
             }, 5000);
         }
 
+        // Helper function to send notifications through service worker
+        window.sendAppNotification = async function(title, body, tag = 'app-notification') {
+            try {
+                if ('serviceWorker' in navigator && 'Notification' in window) {
+                    const permission = await Notification.requestPermission();
+                    if (permission !== 'granted') {
+                        console.log('Notification permission denied');
+                        return false;
+                    }
+                    
+                    const registration = await navigator.serviceWorker.ready;
+                    await registration.showNotification(title, {
+                        body: body,
+                        icon: './logo-192.png',
+                        badge: './logo-192.png',
+                        tag: tag,
+                        vibrate: [200, 100, 200],
+                        requireInteraction: false,
+                        data: { url: window.location.origin }
+                    });
+                    console.log('✓ Notification sent:', title);
+                    return true;
+                }
+            } catch (err) {
+                console.log('Notification error:', err);
+                return false;
+            }
+        };
+
         if ('serviceWorker' in navigator && window.location.protocol !== 'file:') {
             window.addEventListener('load', async () => {
                 try {
@@ -25362,23 +25391,13 @@ html {
                                         console.log('✓ New version available!');
                                         showSWUpdate();
                                         
-                                        // Show browser notification if permission granted
-                                        if ('Notification' in window && Notification.permission === 'granted') {
-                                            try {
-                                                new Notification('Update Available! 🚀', {
-                                                    body: 'A new version of Aviation Test App is ready. Click to update now.',
-                                                    icon: './logo-192.png',
-                                                    badge: './logo-192.png',
-                                                    tag: 'app-update',
-                                                    requireInteraction: true,
-                                                    vibrate: [200, 100, 200]
-                                                }).onclick = () => {
-                                                    window.focus();
-                                                    showSWUpdate();
-                                                };
-                                            } catch (err) {
-                                                console.log('Browser notification failed:', err);
-                                            }
+                                        // Show notification using service worker for cross-device compatibility
+                                        if (window.sendAppNotification) {
+                                            window.sendAppNotification(
+                                                'Update Available! 🚀',
+                                                'A new version of Aviation Test App is ready. Click to update now.',
+                                                'app-update'
+                                            );
                                         }
                                     } else {
                                         // First install, content is cached
@@ -25417,27 +25436,10 @@ html {
 
                 // Function to send motivational notification
                 function sendMotivationalNotification() {
-                    if (Notification.permission === 'granted' && document.visibilityState === 'hidden') {
+                    if (document.visibilityState === 'hidden' && window.sendAppNotification) {
                         const message = motivationalMessages[Math.floor(Math.random() * motivationalMessages.length)];
-                        try {
-                            const notification = new Notification(message.title, {
-                                body: message.body,
-                                icon: './logo-192.png',
-                                badge: './logo-192.png',
-                                tag: 'motivation',
-                                vibrate: [200, 100, 200],
-                                requireInteraction: false
-                            });
-                            
-                            notification.onclick = () => {
-                                window.focus();
-                                notification.close();
-                            };
-
-                            console.log('📢 Motivational notification sent:', message.title);
-                        } catch (err) {
-                            console.log('Notification error:', err);
-                        }
+                        window.sendAppNotification(message.title, message.body, 'motivation');
+                        console.log('📢 Motivational notification sent:', message.title);
                     }
                 }
 
@@ -25465,22 +25467,14 @@ html {
                 // Start the timer
                 resetInactivityTimer();
 
-                // Send welcome notification after 1 minute if permission granted
+                // Send welcome notification after 1 minute
                 setTimeout(() => {
-                    if (Notification.permission === 'granted') {
-                        try {
-                            new Notification('Welcome to Aviation Test App! ✈️', {
-                                body: 'Your journey to becoming a pilot starts here. Good luck with your studies!',
-                                icon: './logo-192.png',
-                                badge: './logo-192.png',
-                                tag: 'welcome',
-                                vibrate: [200, 100, 200]
-                            }).onclick = () => {
-                                window.focus();
-                            };
-                        } catch (err) {
-                            console.log('Welcome notification error:', err);
-                        }
+                    if (window.sendAppNotification) {
+                        window.sendAppNotification(
+                            'Welcome to Aviation Test App! ✈️',
+                            'Your journey to becoming a pilot starts here. Good luck with your studies!',
+                            'welcome'
+                        );
                     }
                 }, 60 * 1000); // 1 minute after load
             }
@@ -28010,24 +28004,12 @@ class AviationTestApp {
         alert(`Study session complete!\n\nQuestions reviewed: ${this.studyQuestions.length}\nTime spent: ${sessionTime} minutes`);
         
         // Send study completion notification
-        if ('Notification' in window && Notification.permission === 'granted') {
-            try {
-                const notification = new Notification('Study Session Complete! 📚', {
-                    body: `Great work! You reviewed ${this.studyQuestions.length} questions in ${sessionTime} minutes. Keep up the momentum!`,
-                    icon: './logo-192.png',
-                    badge: './logo-192.png',
-                    tag: 'study-complete',
-                    vibrate: [200, 100, 200],
-                    requireInteraction: false
-                });
-
-                notification.onclick = () => {
-                    window.focus();
-                    notification.close();
-                };
-            } catch (err) {
-                console.log('Study completion notification error:', err);
-            }
+        if (window.sendAppNotification) {
+            window.sendAppNotification(
+                'Study Session Complete! 📚',
+                `Great work! You reviewed ${this.studyQuestions.length} questions in ${sessionTime} minutes. Keep up the momentum!`,
+                'study-complete'
+            );
         }
         
         // Return to study setup
@@ -28336,46 +28318,30 @@ class AviationTestApp {
         this.showModal('results-modal');
 
         // Send achievement notification
-        if ('Notification' in window && Notification.permission === 'granted') {
-            try {
-                let notificationTitle = '';
-                let notificationBody = '';
-                let emoji = '';
+        if (window.sendAppNotification) {
+            let notificationTitle = '';
+            let notificationBody = '';
+            let emoji = '';
 
-                if (score.percentage >= 90) {
-                    emoji = '🌟';
-                    notificationTitle = 'Outstanding Performance! ' + emoji;
-                    notificationBody = `You scored ${score.percentage}% on ${this.currentTest.test.name}. Excellent work!`;
-                } else if (score.percentage >= 75) {
-                    emoji = '✅';
-                    notificationTitle = 'Great Job! ' + emoji;
-                    notificationBody = `You scored ${score.percentage}% on ${this.currentTest.test.name}. Keep it up!`;
-                } else if (score.percentage >= 60) {
-                    emoji = '👍';
-                    notificationTitle = 'Good Effort! ' + emoji;
-                    notificationBody = `You scored ${score.percentage}% on ${this.currentTest.test.name}. You're making progress!`;
-                } else {
-                    emoji = '💪';
-                    notificationTitle = 'Keep Practicing! ' + emoji;
-                    notificationBody = `You scored ${score.percentage}% on ${this.currentTest.test.name}. Review and try again!`;
-                }
-
-                const notification = new Notification(notificationTitle, {
-                    body: notificationBody,
-                    icon: './logo-192.png',
-                    badge: './logo-192.png',
-                    tag: 'test-result',
-                    vibrate: [200, 100, 200, 100, 200],
-                    requireInteraction: false
-                });
-
-                notification.onclick = () => {
-                    window.focus();
-                    notification.close();
-                };
-            } catch (err) {
-                console.log('Test result notification error:', err);
+            if (score.percentage >= 90) {
+                emoji = '🌟';
+                notificationTitle = 'Outstanding Performance! ' + emoji;
+                notificationBody = `You scored ${score.percentage}% on ${this.currentTest.test.name}. Excellent work!`;
+            } else if (score.percentage >= 75) {
+                emoji = '✅';
+                notificationTitle = 'Great Job! ' + emoji;
+                notificationBody = `You scored ${score.percentage}% on ${this.currentTest.test.name}. Keep it up!`;
+            } else if (score.percentage >= 60) {
+                emoji = '👍';
+                notificationTitle = 'Good Effort! ' + emoji;
+                notificationBody = `You scored ${score.percentage}% on ${this.currentTest.test.name}. You're making progress!`;
+            } else {
+                emoji = '💪';
+                notificationTitle = 'Keep Practicing! ' + emoji;
+                notificationBody = `You scored ${score.percentage}% on ${this.currentTest.test.name}. Review and try again!`;
             }
+
+            window.sendAppNotification(notificationTitle, notificationBody, 'test-result');
         }
     }
 
