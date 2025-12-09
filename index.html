@@ -25631,23 +25631,39 @@ html {
     const apiKey = cfg.geminiKey || HARDCODED_GEMINI_KEY;
     const model = cfg.geminiModel || 'gemini-1.5-flash';
 
-    const prompt = `You are an aviation exam assistant. Answer concisely and factually.\nQuestion: ${question}\nCategory: ${category||'unknown'}\nReturn JSON: {"answer": string, "explanation": string}.`;
+    const prompt = `You are an aviation exam assistant helping students prepare for their pilot exams. Answer this question clearly and concisely:\n\nQuestion: ${question}\n\nProvide a helpful answer with explanation if needed.`;
 
     const url = `https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(model)}:generateContent?key=${encodeURIComponent(apiKey)}`;
-    const resp = await fetch(url,{
-      method:'POST',
-      headers:{'Content-Type':'application/json'},
-      body: JSON.stringify({
-        contents:[{ role:'user', parts:[{ text: prompt }]}],
-        generationConfig:{ temperature: 0.2 }
-      })
-    });
-    if (!resp.ok) throw new Error(`Gemini error: ${resp.status}`);
-    const data = await resp.json();
-    const text = data.candidates?.[0]?.content?.parts?.[0]?.text || '';
-    let parsed;
-    try { parsed = JSON.parse(text); } catch { parsed = { answer: text, explanation: '' }; }
-    return { provider: 'gemini', model, answer: parsed.answer||'', explanation: parsed.explanation||'' };
+    
+    try {
+      const resp = await fetch(url,{
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body: JSON.stringify({
+          contents:[{ parts:[{ text: prompt }]}],
+          generationConfig:{ temperature: 0.3, maxOutputTokens: 500 }
+        })
+      });
+      
+      if (!resp.ok) {
+        const errorText = await resp.text();
+        console.error('Gemini API error:', resp.status, errorText);
+        throw new Error(`Gemini API returned ${resp.status}`);
+      }
+      
+      const data = await resp.json();
+      console.log('Gemini response:', data);
+      
+      const text = data.candidates?.[0]?.content?.parts?.[0]?.text || '';
+      if (!text) {
+        throw new Error('No response from Gemini');
+      }
+      
+      return { provider: 'gemini', model, answer: text, explanation: '' };
+    } catch (error) {
+      console.error('Gemini query error:', error);
+      throw error;
+    }
   }
 
   async function query(question, category){
@@ -27579,25 +27595,40 @@ class AviationTestApp {
         
         try {
             // Use AIHelper to query
-            if (window.AIHelper && window.AIHelper.hasProvider && window.AIHelper.hasProvider()) {
-                const result = await window.AIHelper.query(question, 'aviation');
-                
-                // Remove loading message
-                const loadingEl = document.getElementById(loadingId);
-                if (loadingEl) loadingEl.remove();
-                
-                // Add AI response
-                const responseText = result.answer || 'Sorry, I could not generate a response.';
-                const explanation = result.explanation ? `\n\n<strong>Explanation:</strong> ${result.explanation}` : '';
+            if (!window.AIHelper) {
+                throw new Error('AI system not initialized');
+            }
+            
+            console.log('Sending query to AI:', question);
+            const result = await window.AIHelper.query(question, 'aviation');
+            console.log('AI response received:', result);
+            
+            // Remove loading message
+            const loadingEl = document.getElementById(loadingId);
+            if (loadingEl) loadingEl.remove();
+            
+            // Add AI response
+            if (result && result.answer) {
+                const responseText = result.answer;
+                const explanation = result.explanation ? `<br><br><strong>Explanation:</strong> ${result.explanation}` : '';
                 this.addChatMessage('ai', responseText + explanation, messagesContainer);
             } else {
-                throw new Error('AI not configured');
+                throw new Error('Invalid response from AI');
             }
         } catch (error) {
             console.error('AI query error:', error);
             const loadingEl = document.getElementById(loadingId);
             if (loadingEl) loadingEl.remove();
-            this.addChatMessage('ai', '❌ Sorry, I encountered an error. Please try again.', messagesContainer);
+            
+            let errorMessage = '❌ Sorry, I encountered an error.';
+            if (error.message.includes('API')) {
+                errorMessage += ' The AI service might be temporarily unavailable.';
+            } else if (error.message.includes('network')) {
+                errorMessage += ' Please check your internet connection.';
+            }
+            errorMessage += ' Please try again.';
+            
+            this.addChatMessage('ai', errorMessage, messagesContainer);
         } finally {
             // Re-enable send button
             sendBtn.disabled = false;
