@@ -3495,38 +3495,33 @@ html {
         </div>
     </div>
 
-    <!-- AI Settings Modal -->
+    <!-- AI Chat Modal -->
     <div id="ai-settings-modal" class="modal">
-        <div class="modal-content" style="max-width:520px">
+        <div class="modal-content" style="max-width:700px; max-height:80vh; display:flex; flex-direction:column;">
             <div class="modal-header">
-                <h3><i class="fas fa-robot"></i> AI Settings</h3>
+                <h3><i class="fas fa-robot"></i> AI Assistant</h3>
                 <button class="modal-close" id="ai-settings-close"><i class="fas fa-times"></i></button>
             </div>
-            <div class="modal-body">
-                <div style="display:grid; gap:12px;">
-                    <label style="font-weight:600;">Provider</label>
-                    <select id="aiProvider" class="study-select">
-                        <option value="openai">OpenAI</option>
-                        <option value="gemini">Gemini</option>
-                    </select>
-                    <div id="openaiFields">
-                        <label style="font-weight:600;">OpenAI API Key</label>
-                        <input type="password" id="openaiKey" placeholder="sk-..." class="study-select" />
-                        <label style="font-weight:600;">OpenAI Model</label>
-                        <input type="text" id="openaiModel" value="gpt-4o-mini" class="study-select" />
+            <div class="modal-body" style="flex:1; overflow-y:auto; display:flex; flex-direction:column; gap:12px; padding:20px; background:#f8fafc;">
+                <div id="aiChatMessages" style="flex:1; display:flex; flex-direction:column; gap:12px; min-height:300px;">
+                    <div style="background:white; padding:16px; border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.05);">
+                        <div style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
+                            <i class="fas fa-robot" style="color:#3b82f6; font-size:20px;"></i>
+                            <strong style="color:#1e293b;">AI Assistant</strong>
+                        </div>
+                        <p style="margin:0; color:#64748b; line-height:1.6;">
+                            Hello! I'm your aviation knowledge assistant. Ask me anything about aviation, flight training, or any questions from your studies. I'm here to help!
+                        </p>
                     </div>
-                    <div id="geminiFields" style="display:none;">
-                        <label style="font-weight:600;">Gemini API Key</label>
-                        <input type="password" id="geminiKey" placeholder="AIza..." class="study-select" />
-                        <label style="font-weight:600;">Gemini Model</label>
-                        <input type="text" id="geminiModel" value="gemini-1.5-flash" class="study-select" />
-                    </div>
-                    <small style="color:#64748b;">Keys are stored locally in your browser (localStorage). Don't use production keys on shared devices.</small>
                 </div>
             </div>
-            <div class="modal-footer">
-                <button class="btn-secondary" id="ai-settings-cancel">Cancel</button>
-                <button class="btn-primary" id="ai-settings-save"><i class="fas fa-save"></i> Save</button>
+            <div class="modal-footer" style="display:flex; gap:8px; padding:16px; background:white; border-top:1px solid #e2e8f0;">
+                <input type="text" id="aiChatInput" placeholder="Type your question here..." 
+                       style="flex:1; padding:12px 16px; border:1px solid #e2e8f0; border-radius:8px; font-size:15px;"
+                       onkeypress="if(event.key==='Enter') document.getElementById('aiChatSend').click()">
+                <button class="btn-primary" id="aiChatSend" style="padding:12px 24px; white-space:nowrap;">
+                    <i class="fas fa-paper-plane"></i> Send
+                </button>
             </div>
         </div>
     </div>
@@ -26935,9 +26930,7 @@ class AviationTestApp {
     // AI settings
     document.getElementById('aiSettingsBtn')?.addEventListener('click', () => this.openAISettings());
     document.getElementById('ai-settings-close')?.addEventListener('click', () => this.closeAISettings());
-    document.getElementById('ai-settings-cancel')?.addEventListener('click', () => this.closeAISettings());
-    document.getElementById('ai-settings-save')?.addEventListener('click', () => this.saveAISettings());
-    document.getElementById('aiProvider')?.addEventListener('change', (e) => this.toggleAIProviderFields(e.target.value));
+    document.getElementById('aiChatSend')?.addEventListener('click', () => this.sendAIMessage());
 
         // Auto-clear on first keystroke for both search inputs
         const addAutoClear = (inputEl) => {
@@ -27550,33 +27543,113 @@ class AviationTestApp {
 
     // ---------- AI integration ----------
     openAISettings(){
-        // Open free AI chat in new window
-        window.open('https://gemini.google.com/app', '_blank', 'noopener,noreferrer');
+        // Open AI chat modal with search query pre-filled
+        const modal = document.getElementById('ai-settings-modal');
+        if (!modal) return;
+        
+        // Get search query if exists
+        const searchQuery = document.getElementById('mainSearchInput')?.value || 
+                           document.getElementById('searchInput')?.value || '';
+        
+        if (searchQuery && searchQuery.length >= 2) {
+            document.getElementById('aiChatInput').value = searchQuery;
+        }
+        
+        modal.classList.add('active');
     }
+    
     closeAISettings(){
         const modal = document.getElementById('ai-settings-modal');
         if (modal) modal.classList.remove('active');
     }
-    toggleAIProviderFields(provider){
-        const o = document.getElementById('openaiFields');
-        const g = document.getElementById('geminiFields');
-        if (!o || !g) return;
-        if (provider === 'gemini') { o.style.display = 'none'; g.style.display = 'block'; }
-        else { o.style.display = 'block'; g.style.display = 'none'; }
-    }
-    saveAISettings(){
+    
+    async sendAIMessage(){
+        const input = document.getElementById('aiChatInput');
+        const messagesContainer = document.getElementById('aiChatMessages');
+        const sendBtn = document.getElementById('aiChatSend');
+        
+        if (!input || !messagesContainer) return;
+        
+        const question = input.value.trim();
+        if (!question) return;
+        
+        // Add user message
+        this.addChatMessage('user', question, messagesContainer);
+        input.value = '';
+        
+        // Show loading
+        const loadingId = 'loading-' + Date.now();
+        this.addChatMessage('ai', '<i class="fas fa-spinner fa-spin"></i> Thinking...', messagesContainer, loadingId);
+        
+        // Disable send button
+        sendBtn.disabled = true;
+        sendBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending';
+        
         try {
-            const provider = document.getElementById('aiProvider').value;
-            const openaiKey = document.getElementById('openaiKey').value.trim();
-            const openaiModel = document.getElementById('openaiModel').value.trim() || 'gpt-4o-mini';
-            const geminiKey = document.getElementById('geminiKey').value.trim();
-            const geminiModel = document.getElementById('geminiModel').value.trim() || 'gemini-1.5-flash';
-            const cfg = { provider, openaiKey, openaiModel, geminiKey, geminiModel };
-            window.AIHelper && window.AIHelper.saveConfig(cfg);
-            this.closeAISettings();
-            this.showToast('AI settings saved');
-        } catch (e) { alert('Failed to save settings'); }
+            // Use AIHelper to query
+            if (window.AIHelper && window.AIHelper.hasProvider && window.AIHelper.hasProvider()) {
+                const result = await window.AIHelper.query(question, 'aviation');
+                
+                // Remove loading message
+                const loadingEl = document.getElementById(loadingId);
+                if (loadingEl) loadingEl.remove();
+                
+                // Add AI response
+                const responseText = result.answer || 'Sorry, I could not generate a response.';
+                const explanation = result.explanation ? `\n\n<strong>Explanation:</strong> ${result.explanation}` : '';
+                this.addChatMessage('ai', responseText + explanation, messagesContainer);
+            } else {
+                throw new Error('AI not configured');
+            }
+        } catch (error) {
+            console.error('AI query error:', error);
+            const loadingEl = document.getElementById(loadingId);
+            if (loadingEl) loadingEl.remove();
+            this.addChatMessage('ai', '❌ Sorry, I encountered an error. Please try again.', messagesContainer);
+        } finally {
+            // Re-enable send button
+            sendBtn.disabled = false;
+            sendBtn.innerHTML = '<i class="fas fa-paper-plane"></i> Send';
+        }
     }
+    
+    addChatMessage(sender, message, container, id = null){
+        const messageDiv = document.createElement('div');
+        if (id) messageDiv.id = id;
+        
+        const isUser = sender === 'user';
+        const bgColor = isUser ? '#3b82f6' : 'white';
+        const textColor = isUser ? 'white' : '#1e293b';
+        const align = isUser ? 'flex-end' : 'flex-start';
+        const icon = isUser ? 'fa-user' : 'fa-robot';
+        const iconColor = isUser ? 'white' : '#3b82f6';
+        const senderName = isUser ? 'You' : 'AI Assistant';
+        
+        messageDiv.style.cssText = `
+            background: ${bgColor};
+            padding: 16px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            align-self: ${align};
+            max-width: 85%;
+        `;
+        
+        messageDiv.innerHTML = `
+            <div style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
+                <i class="fas ${icon}" style="color:${iconColor}; font-size:16px;"></i>
+                <strong style="color:${textColor}; font-size:14px;">${senderName}</strong>
+            </div>
+            <div style="color:${textColor}; line-height:1.6; font-size:15px; word-wrap:break-word;">
+                ${message}
+            </div>
+        `;
+        
+        container.appendChild(messageDiv);
+        
+        // Scroll to bottom
+        container.scrollTop = container.scrollHeight;
+    }
+    
     showToast(msg){
         try {
             const el = document.createElement('div');
