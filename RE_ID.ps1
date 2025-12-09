@@ -32,7 +32,7 @@ function ReIdTestData([string]$content){
     $newId = ComputeId $q
     # Recreate the "id": <num>,\n            "question": "..." sequence
     $idPart = '"id": ' + $newId + ','
-    $qPart = "`n            \"question\": \"$q\""
+    $qPart = "`n            `"question`": `"$q`""
     return $idPart + $qPart
   })
   $new
