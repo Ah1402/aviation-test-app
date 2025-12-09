@@ -6986,12 +6986,12 @@
             "id": 455,
             "question": "ATC must be informed of changes which occur to the flight plan speed and ETA. Many nations stipulate their own limits but PANS-RAC require changes of ..... in TAS and/or ..... in ETA to be notified.",
             "options": [
-              "+/- 5% / +/- 3 minutes",
-              "+/- 10% / +/- 5 minutes",
-              "+/- 3 kt / +/- 3 minutes",
-              "+/- 3 kt 3 minutes"
+              "± 5% / ± 3 minutes",
+              "± 10% / ± 5 minutes",
+              "± 3 kt / ± 3 minutes",
+              "± 3 kt 3 minutes"
             ],
-            "answer": "+/- 5% / +/- 3 minutes",
+            "answer": "± 5% / ± 3 minutes",
             "correct": 0,
             "explanation": ""
           },
