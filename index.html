@@ -28303,32 +28303,32 @@ AviationTestApp.prototype.buildPrintStyles = function() {
     return `
         <style>
             @page { 
-                margin: 16mm; 
+                margin: 12mm; 
                 size: A4 portrait;
             }
             
             body { 
                 font-family: 'Inter', Arial, sans-serif; 
                 color: #111827; 
-                font-size: 11pt;
-                line-height: 1.4;
+                font-size: 9pt;
+                line-height: 1.3;
             }
             
             .print-header { 
                 border-bottom: 2px solid #2563eb; 
-                margin-bottom: 16px; 
-                padding-bottom: 12px; 
+                margin-bottom: 8px; 
+                padding-bottom: 8px; 
             }
             
             .print-header h1 {
-                margin: 0 0 8px 0;
-                font-size: 18pt;
+                margin: 0 0 4px 0;
+                font-size: 14pt;
                 color: #1e40af;
             }
             
             .print-meta { 
                 color: #6b7280; 
-                font-size: 10pt; 
+                font-size: 8pt; 
             }
             
             .page-section {
@@ -28340,62 +28340,64 @@ AviationTestApp.prototype.buildPrintStyles = function() {
             }
             
             .page-header {
-                font-size: 9pt;
+                font-size: 8pt;
                 color: #6b7280;
-                margin-bottom: 12px;
-                padding-bottom: 6px;
+                margin-bottom: 6px;
+                padding-bottom: 4px;
                 border-bottom: 1px solid #e5e7eb;
             }
             
             .question { 
                 break-inside: avoid; 
                 page-break-inside: avoid; 
-                margin-bottom: 14px; 
-                padding: 10px; 
+                margin-bottom: 8px; 
+                padding: 6px 8px; 
                 border: 1px solid #d1d5db; 
-                border-radius: 6px; 
+                border-radius: 4px; 
                 background: #f9fafb;
             }
             
             .q-title { 
                 font-weight: 700; 
-                margin-bottom: 8px; 
-                font-size: 11pt;
+                margin-bottom: 4px; 
+                font-size: 9.5pt;
                 color: #1f2937;
             }
             
             .q-text { 
-                margin-bottom: 10px; 
-                font-size: 10.5pt;
+                margin-bottom: 6px; 
+                font-size: 9pt;
                 color: #374151;
-                line-height: 1.5;
+                line-height: 1.35;
             }
             
             .options { 
-                margin-left: 8px; 
-                margin-bottom: 8px; 
+                margin-left: 4px; 
+                margin-bottom: 4px; 
             }
             
             .opt { 
                 display: flex; 
                 align-items: flex-start; 
-                gap: 8px; 
-                margin: 5px 0; 
-                padding: 4px 0;
-                font-size: 10pt;
+                gap: 6px; 
+                margin: 2px 0; 
+                padding: 2px 0;
+                font-size: 8.5pt;
+                line-height: 1.3;
             }
             
             .opt strong {
-                min-width: 20px;
+                min-width: 18px;
                 color: #4b5563;
+                flex-shrink: 0;
             }
             
             .badge { 
-                font-size: 9pt; 
-                border-radius: 4px; 
-                padding: 2px 8px; 
+                font-size: 7pt; 
+                border-radius: 3px; 
+                padding: 1px 4px; 
                 display: inline-block; 
-                margin-left: 8px; 
+                margin-left: 6px; 
                 font-weight: 600;
             }
             
@@ -28411,58 +28413,63 @@ AviationTestApp.prototype.buildPrintStyles = function() {
             
             .explanation { 
                 background: #eff6ff; 
-                border-left: 3px solid #3b82f6; 
-                padding: 8px 10px; 
-                margin-top: 8px; 
+                border-left: 2px solid #3b82f6; 
+                padding: 4px 6px; 
+                margin-top: 4px; 
                 color: #1e40af;
-                font-size: 9.5pt;
-                line-height: 1.5;
+                font-size: 8pt;
+                line-height: 1.3;
             }
             
             .explanation-label {
                 font-weight: 600;
-                margin-bottom: 4px;
+                margin-bottom: 2px;
             }
             
             .footer { 
-                margin-top: 20px; 
-                padding-top: 12px;
+                margin-top: 12px; 
+                padding-top: 8px;
                 border-top: 1px solid #e5e7eb;
                 color: #9ca3af; 
-                font-size: 9pt; 
+                font-size: 8pt; 
                 text-align: center; 
             }
             
             /* Answer key section */
             .answer-key {
                 page-break-before: always;
-                margin-top: 20px;
+                margin-top: 12px;
             }
             
             .answer-key h2 {
-                font-size: 14pt;
+                font-size: 12pt;
                 color: #1e40af;
                 border-bottom: 2px solid #2563eb;
-                padding-bottom: 8px;
-                margin-bottom: 12px;
+                padding-bottom: 6px;
+                margin-bottom: 8px;
             }
             
             .answer-key-grid {
                 display: grid;
                 grid-template-columns: repeat(5, 1fr);
-                gap: 8px;
-                margin-bottom: 12px;
+                gap: 6px;
+                margin-bottom: 8px;
             }
             
             .answer-key-item {
-                padding: 6px;
+                padding: 4px;
                 border: 1px solid #d1d5db;
-                border-radius: 4px;
-                font-size: 9.5pt;
+                border-radius: 3px;
+                font-size: 8.5pt;
                 background: #f9fafb;
             }
             
             @media print {
+                body {
+                    -webkit-print-color-adjust: exact;
+                    print-color-adjust: exact;
+                }
+                
                 .page-section {
                     page-break-after: always !important;
                 }
@@ -28473,6 +28480,15 @@ AviationTestApp.prototype.buildPrintStyles = function() {
                 
                 .question {
                     page-break-inside: avoid !important;
+                    break-inside: avoid !important;
+                }
+                
+                .print-header {
+                    page-break-after: avoid !important;
+                }
+                
+                .page-header {
+                    page-break-after: avoid !important;
                 }
             }
         </style>
