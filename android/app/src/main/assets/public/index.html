@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aviation Knowledge Test Center</title>
+    <link rel="stylesheet" href="src/styles/main.css">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Using system fonts for offline support -->
+    <style>
+        /* System font fallback for offline use */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <div class="header-content">
+                    <div class="logo">
+                        <i class="fas fa-plane-departure"></i>
+                        <h1>Aviation Test Center</h1>
+                        <span class="search-result-category" title="Registered Aircraft Serial">
+                            <i class="fas fa-plane"></i> SU-GOD
+                        </span>
+                    </div>
+                    <div class="search-container">
+                        <div class="search-bar">
+                            <input type="text" id="searchInput" placeholder="Search questions..." class="search-input">
+                            <button class="search-btn" id="searchBtn">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <nav class="nav">
+                        <button class="nav-btn" data-section="home">
+                            <i class="fas fa-home"></i>
+                            Home
+                        </button>
+                        <button class="nav-btn" data-section="tests">
+                            <i class="fas fa-clipboard-list"></i>
+                            Tests
+                        </button>
+                        <button class="nav-btn" data-section="study">
+                            <i class="fas fa-graduation-cap"></i>
+                            Study
+                        </button>
+                        <button class="nav-btn" data-section="search">
+                            <i class="fas fa-search"></i>
+                            Search
+                        </button>
+                        <button class="nav-btn" data-section="results">
+                            <i class="fas fa-chart-bar"></i>
+                            Results
+                        </button>
+                        <button class="nav-btn" data-section="about">
+                            <i class="fas fa-info-circle"></i>
+                            About
+                        </button>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main">
+            <div class="container">
+                
+                <!-- Home Section -->
+                <section id="home" class="section active">
+                    <div class="hero">
+                        <h2>Master Your Aviation Knowledge</h2>
+                        <p>Comprehensive testing platform for aviation professionals and students</p>
+                        <div class="stats">
+                            <div class="stat-card">
+                                <i class="fas fa-book-open"></i>
+                                <h3 id="stat-categories-count">--</h3>
+                                <p>Test Categories</p>
+                            </div>
+                            <div class="stat-card">
+                                <i class="fas fa-question-circle"></i>
+                                <h3 id="stat-questions-count">--</h3>
+                                <p>Questions</p>
+                            </div>
+                            <div class="stat-card">
+                                <i class="fas fa-trophy"></i>
+                                <h3>Progress</h3>
+                                <p>Tracking</p>
+                            </div>
+                        </div>
+                        <button class="cta-btn" onclick="showSection('tests')">
+                            Start Testing <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </section>
+
+                <!-- Tests Section -->
+                <section id="tests" class="section">
+                    <h2>Select a Test Category</h2>
+                    <div class="test-categories">
+                        <div class="category-card" data-category="aircraft-general">
+                            <div class="category-icon">
+                                <i class="fas fa-plane"></i>
+                            </div>
+                            <h3>Aircraft General Knowledge</h3>
+                            <p>Comprehensive tests covering aircraft systems, operations, and technical knowledge</p>
+                            <div class="category-info">
+                                <span class="test-count">5 Tests</span>
+                                <span class="question-count">100 Questions</span>
+                            </div>
+                            <button class="start-btn">Start Test</button>
+                        </div>
+
+                        <div class="category-card" data-category="air-law">
+                            <div class="category-icon">
+                                <i class="fas fa-gavel"></i>
+                            </div>
+                            <h3>Air Law</h3>
+                            <p>Aviation regulations, procedures, and legal requirements for safe flight operations</p>
+                            <div class="category-info">
+                                <span class="test-count">5 Tests</span>
+                                <span class="question-count">100 Questions</span>
+                            </div>
+                            <button class="start-btn">Start Test</button>
+                        </div>
+
+                        <div class="category-card" data-category="aon-aviation">
+                            <div class="category-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <h3>AON Aviation Knowledge</h3>
+                            <p>Advanced aviation concepts and specialized knowledge assessments</p>
+                            <div class="category-info">
+                                <span class="test-count">7 Tests</span>
+                                <span class="question-count">140 Questions</span>
+                            </div>
+                            <button class="start-btn">Start Test</button>
+                        </div>
+
+                        <div class="category-card" data-category="flight-planning">
+                            <div class="category-icon">
+                                <i class="fas fa-route"></i>
+                            </div>
+                            <h3>Flight Planning & Monitoring</h3>
+                            <p>Navigation, fuel planning, weather analysis, and flight operations</p>
+                            <div class="category-info">
+                                <span class="test-count">2 Tests</span>
+                                <span class="question-count">40 Questions</span>
+                            </div>
+                            <button class="start-btn">Start Test</button>
+                        </div>
+
+                        <div class="category-card" data-category="operational-procedures">
+                            <div class="category-icon">
+                                <i class="fas fa-cogs"></i>
+                            </div>
+                            <h3>Operational Procedures</h3>
+                            <p>Standard operating procedures, emergency protocols, safety management, and aerodrome minima</p>
+                            <div class="category-info">
+                                <span class="test-count">5 Tests</span>
+                                <span class="question-count">100 Questions</span>
+                            </div>
+                            <button class="start-btn">Start Test</button>
+                        </div>
+
+                        <div class="category-card" data-category="radio-navigation">
+                            <div class="category-icon">
+                                <i class="fas fa-broadcast-tower"></i>
+                            </div>
+                            <h3>Radio Navigation</h3>
+                            <p>Navigation aids, radio systems, and instrument approach procedures</p>
+                            <div class="category-info">
+                                <span class="test-count">5 Tests</span>
+                                <span class="question-count">100 Questions</span>
+                            </div>
+                            <button class="start-btn">Start Test</button>
+                        </div>
+
+                        <div class="category-card" data-category="instrumentation">
+                            <div class="category-icon">
+                                <i class="fas fa-gauge"></i>
+                            </div>
+                            <h3>Instrumentation</h3>
+                            <p>Aircraft instruments, displays, systems monitoring, and cockpit procedures</p>
+                            <div class="category-info">
+                                <span class="test-count">2 Tests</span>
+                                <span class="question-count">40+ Questions</span>
+                            </div>
+                            <button class="start-btn">Start Test</button>
+                        </div>
+
+                        <div class="category-card" data-category="performance">
+                            <div class="category-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <h3>Aircraft Performance</h3>
+                            <p>Performance calculations, V-speeds, takeoff/landing distances, climb gradients, buffet margins, field length limits, and weight & balance effects</p>
+                            <div class="category-info">
+                                <span class="test-count">5 Tests</span>
+                                <span class="question-count">100 Questions</span>
+                            </div>
+                            <button class="start-btn">Start Test</button>
+                        </div>
+
+                        <div class="category-card" data-category="general-navigation">
+                            <div class="category-icon">
+                                <i class="fas fa-compass"></i>
+                            </div>
+                            <h3>General Navigation</h3>
+                            <p>Navigation principles, great circles, rhumb lines, charts, magnetic variation, position fixing, time/distance calculations, and coordinate systems</p>
+                            <div class="category-info">
+                                <span class="test-count">5 Tests</span>
+                                <span class="question-count">100 Questions</span>
+                            </div>
+                            <button class="start-btn">Start Test</button>
+                        </div>
+
+                        <div class="category-card" data-category="human-performance">
+                            <div class="category-icon">
+                                <i class="fas fa-user-md"></i>
+                            </div>
+                            <h3>Human Performance & Limitations</h3>
+                            <p>Aviation physiology, human factors, hypoxia, and crew resource management</p>
+                            <div class="category-info">
+                                <span class="test-count">5 Tests</span>
+                                <span class="question-count">100 Questions</span>
+                            </div>
+                            <button class="start-btn">Start Test</button>
+                        </div>
+
+                        <div class="category-card" data-category="metrology">
+                            <div class="category-icon">
+                                <i class="fas fa-cloud-sun"></i>
+                            </div>
+                            <h3>Meteorology & Weather</h3>
+                            <p>Weather systems, aviation meteorology, turbulence, and weather hazards</p>
+                            <div class="category-info">
+                                <span class="test-count">5 Tests</span>
+                                <span class="question-count">100 Questions</span>
+                            </div>
+                            <button class="start-btn">Start Test</button>
+                        </div>
+
+                        <div class="category-card" data-category="mass-balance">
+                            <div class="category-icon">
+                                <i class="fas fa-balance-scale"></i>
+                            </div>
+                            <h3>Mass & Balance</h3>
+                            <p>Weight and balance calculations, center of gravity, and loading procedures</p>
+                            <div class="category-info">
+                                <span class="test-count">3 Tests</span>
+                                <span class="question-count">60 Questions</span>
+                            </div>
+                            <button class="start-btn">Start Test</button>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Test Interface -->
+                <section id="test-interface" class="section">
+                    <div class="test-header">
+                        <div class="test-info">
+                            <h2 id="current-test-title">Test Title</h2>
+                            <div class="test-progress">
+                                <span id="current-question">1</span> of <span id="total-questions">20</span>
+                            </div>
+                        </div>
+                        <div class="test-controls">
+                            <div class="timer" id="timer">30:00</div>
+                            <button class="btn-secondary" id="print-test-btn" title="Print this test">
+                                <i class="fas fa-print"></i> Print
+                            </button>
+                            <button class="btn-secondary" id="pause-btn">
+                                <i class="fas fa-pause"></i> Pause
+                            </button>
+                            <button class="btn-danger" id="quit-btn">
+                                <i class="fas fa-times"></i> Quit
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progress-fill"></div>
+                    </div>
+
+                    <div class="question-container">
+                        <div class="question-card">
+                            <div class="question-header">
+                                <span class="question-number">Question <span id="q-number">1</span></span>
+                                <div class="question-actions">
+                                    <button class="btn-outline" id="flag-btn">
+                                        <i class="fas fa-flag"></i> Flag
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="question-text" id="question-text">
+                                Question text will appear here...
+                            </div>
+                            <div class="options-container" id="options-container">
+                                <!-- Options will be dynamically generated -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="navigation-controls">
+                        <button class="btn-secondary" id="prev-btn" disabled>
+                            <i class="fas fa-chevron-left"></i> Previous
+                        </button>
+                        <div class="question-overview">
+                            <button class="btn-outline" id="overview-btn">
+                                <i class="fas fa-th-large"></i> Overview
+                            </button>
+                        </div>
+                        <button class="btn-primary" id="next-btn">
+                            Next <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </section>
+
+                <!-- Results Section -->
+                <section id="results" class="section">
+                    <h2>Test Results & Progress</h2>
+                    <div class="results-container">
+                        <div class="results-summary">
+                            <h3>Recent Test Results</h3>
+                            <div id="recent-results">
+                                <p>No test results available yet. Take a test to see your progress!</p>
+                            </div>
+                        </div>
+                        <div class="progress-charts">
+                            <h3>Performance by Category</h3>
+                            <div id="performance-charts">
+                                <!-- Charts will be generated here -->
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Study Session -->
+                <section id="study" class="section">
+                    <div class="study-content">
+                        <h2>Study Session</h2>
+                        <p>Review questions at your own pace with immediate feedback.</p>
+                        
+                        <div class="study-setup">
+                            <div class="study-options">
+                                <h3>Configure Your Study Session</h3>
+                                
+                                <div class="study-controls">
+                                    <div class="control-group">
+                                        <label for="studyCategory">Select Category:</label>
+                                        <select id="studyCategory" class="study-select">
+                                            <option value="all">All Categories</option>
+                                            <option value="aircraft-general">Aircraft General Knowledge</option>
+                                            <option value="air-law">Air Law</option>
+                                            <option value="aon-aviation">AON Aviation</option>
+                                            <option value="flight-planning">Flight Planning</option>
+                                            <option value="operational-procedures">Operational Procedures</option>
+                                            <option value="radio-navigation">Radio Navigation</option>
+                                            <option value="instrumentation">Instrumentation</option>
+                                            <option value="performance">Aircraft Performance</option>
+                                            <option value="general-navigation">General Navigation</option>
+                                            <option value="human-performance">Human Performance</option>
+                                            <option value="metrology">Meteorology</option>
+                                            <option value="mass-balance">Mass & Balance</option>
+                                        </select>
+                                    </div>
+                                    
+                                    <div class="control-group">
+                                        <label for="studyMode">Study Mode:</label>
+                                        <select id="studyMode" class="study-select">
+                                            <option value="review">Review Mode</option>
+                                            <option value="weak-areas">Focus on Weak Areas</option>
+                                        </select>
+                                    </div>
+                                    
+                                    <div class="control-group">
+                                        <label for="questionCount">Number of Questions:</label>
+                                        <select id="questionCount" class="study-select">
+                                            <option value="10">10 Questions</option>
+                                            <option value="20" selected>20 Questions</option>
+                                            <option value="50">50 Questions</option>
+                                            <option value="all">All Available</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                
+                                <div class="study-actions">
+                                    <button class="btn-primary" id="startStudyBtn">
+                                        <i class="fas fa-play"></i>
+                                        Start Study Session
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <div class="study-stats">
+                                <h3>Your Study Progress</h3>
+                                <div class="stats-grid">
+                                    <div class="stat-item">
+                                        <i class="fas fa-book"></i>
+                                        <span class="stat-value" id="totalStudied">0</span>
+                                        <span class="stat-label">Questions Studied</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <i class="fas fa-check-circle"></i>
+                                        <span class="stat-value" id="studyStreak">0</span>
+                                        <span class="stat-label">Study Streak</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <i class="fas fa-clock"></i>
+                                        <span class="stat-value" id="studyTime">0</span>
+                                        <span class="stat-label">Minutes Today</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Study Interface -->
+                <section id="study-interface" class="section">
+                    <div class="study-session">
+                        <div class="study-header">
+                            <div class="study-progress">
+                                <span class="progress-text">
+                                    Question <span id="studyCurrentQuestion">1</span> of <span id="studyTotalQuestions">20</span>
+                                </span>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" id="studyProgressFill"></div>
+                                </div>
+                            </div>
+                            <div class="study-controls-header">
+                                <button class="btn-secondary" id="print-study-btn" title="Print this study session">
+                                    <i class="fas fa-print"></i>
+                                    Print
+                                </button>
+                                <button class="btn-secondary" id="studyPauseBtn">
+                                    <i class="fas fa-pause"></i>
+                                    Pause
+                                </button>
+                                <button class="btn-secondary" id="studyQuitBtn">
+                                    <i class="fas fa-times"></i>
+                                    End Session
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <div class="study-card" id="studyCard">
+                            <div class="question-card">
+                                <div class="question-header">
+                                    <span class="question-number">Question <span id="studyQNumber">1</span></span>
+                                </div>
+                                <div class="question-text" id="studyQuestionText">
+                                    <!-- Question will be loaded here -->
+                                </div>
+                                <div class="options-container" id="studyOptionsContainer">
+                                    <!-- Options will be dynamically generated -->
+                                </div>
+                                <div class="study-feedback" id="studyFeedback" style="display: none;">
+                                    <!-- Feedback will appear here after selecting an answer -->
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="study-navigation">
+                            <button class="btn-secondary" id="studyPrevBtn" disabled>
+                                <i class="fas fa-chevron-left"></i>
+                                Previous
+                            </button>
+                            <button class="btn-secondary" id="studyNextBtn" disabled>
+                                Next
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Search Section -->
+                <section id="search" class="section">
+                    <div class="search-content">
+                        <h2>Search Question Bank</h2>
+                        <p>Search through all aviation questions to find specific topics or concepts.</p>
+                        
+                        <div class="search-controls">
+                            <div class="search-input-container">
+                                <input type="text" id="mainSearchInput" placeholder="Enter keywords to search questions..." class="main-search-input">
+                                <button class="search-button" id="mainSearchBtn">
+                                    <i class="fas fa-search"></i>
+                                    Search
+                                </button>
+                            </div>
+                            <div class="search-filters">
+                                <select id="categoryFilter" class="filter-select">
+                                    <option value="all">All Categories</option>
+                                    <option value="aircraft-general">Aircraft General Knowledge</option>
+                                    <option value="air-law">Air Law</option>
+                                    <option value="aon-aviation">AON Aviation</option>
+                                    <option value="flight-planning">Flight Planning</option>
+                                    <option value="operational-procedures">Operational Procedures</option>
+                                    <option value="radio-navigation">Radio Navigation</option>
+                                </select>
+                                <button class="clear-search-btn" id="clearSearchBtn">
+                                    <i class="fas fa-times"></i>
+                                    Clear
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="search-results" id="searchResults">
+                            <div class="search-placeholder">
+                                <i class="fas fa-search"></i>
+                                <h3>Search the Question Bank</h3>
+                                <p>Enter keywords above to search through all aviation questions. You can search by question text, answer options, or explanations.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- About Section -->
+                <section id="about" class="section">
+                    <div class="about-content">
+                        <h2>About Aviation Test Center</h2>
+                        <p>This comprehensive aviation knowledge testing platform is designed to help pilots, aviation students, and professionals master essential aviation concepts across multiple disciplines.</p>
+                        
+                        <div class="features">
+                            <h3>Features</h3>
+                            <ul>
+                                <li><i class="fas fa-check"></i> <span id="about-questions-count">500+</span> carefully curated questions</li>
+                                <li><i class="fas fa-check"></i> <span id="about-category-count">--</span> major aviation knowledge categories</li>
+                                <li><i class="fas fa-check"></i> Detailed explanations and rationales</li>
+                                <li><i class="fas fa-check"></i> Progress tracking and performance analytics</li>
+                                <li><i class="fas fa-check"></i> Mobile-responsive design</li>
+                                <li><i class="fas fa-check"></i> Timed test sessions</li>
+                                <li><i class="fas fa-plane"></i> Registered aircraft: <strong>SU-GOD</strong></li>
+                            </ul>
+                        </div>
+
+                        <div class="categories-overview">
+                            <h3>Test Categories</h3>
+                            <div class="category-list">
+                                <div class="category-item">
+                                    <i class="fas fa-plane"></i>
+                                    <strong>Aircraft General Knowledge:</strong> Systems, operations, technical specifications
+                                </div>
+                                <div class="category-item">
+                                    <i class="fas fa-gavel"></i>
+                                    <strong>Air Law:</strong> Regulations, procedures, legal requirements
+                                </div>
+                                <div class="category-item">
+                                    <i class="fas fa-graduation-cap"></i>
+                                    <strong>AON Aviation:</strong> Advanced concepts and specialized knowledge
+                                </div>
+                                <div class="category-item">
+                                    <i class="fas fa-route"></i>
+                                    <strong>Flight Planning:</strong> Navigation, fuel planning, weather analysis
+                                </div>
+                                <div class="category-item">
+                                    <i class="fas fa-cogs"></i>
+                                    <strong>Operational Procedures:</strong> SOPs, emergency protocols, safety
+                                </div>
+                                <div class="category-item">
+                                    <i class="fas fa-broadcast-tower"></i>
+                                    <strong>Radio Navigation:</strong> Navigation aids, radio systems, approaches
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </main>
+
+        <!-- Question Overview Modal -->
+        <div id="overview-modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Question Overview</h3>
+                    <button class="modal-close" id="modal-close">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="question-grid" id="question-grid">
+                        <!-- Question grid will be generated here -->
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn-secondary" id="close-overview">Close</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Test Results Modal -->
+        <div id="results-modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Test Complete!</h3>
+                </div>
+                <div class="modal-body">
+                    <div class="final-score">
+                        <div class="score-circle">
+                            <span class="score-percentage" id="final-percentage">0%</span>
+                            <span class="score-fraction" id="final-fraction">0/0</span>
+                        </div>
+                        <div class="score-details">
+                            <h4 id="test-result-title">Test Results</h4>
+                            <div class="result-stats">
+                                <div class="stat">
+                                    <span class="label">Correct:</span>
+                                    <span class="value" id="correct-count">0</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="label">Incorrect:</span>
+                                    <span class="value" id="incorrect-count">0</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="label">Time:</span>
+                                    <span class="value" id="time-taken">0:00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn-secondary" id="review-answers">Review Answers</button>
+                    <button class="btn-primary" id="back-to-tests">Back to Tests</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="src/data/testData.js"></script>
+    <script src="src/scripts/testEngine.js"></script>
+    <script src="src/scripts/ui.js"></script>
+    <script src="src/scripts/main.js"></script>
+    <script src="src/scripts/syncVerbatim.js"></script>
+    <script src="src/scripts/applyCorrections.js"></script>
+    <script src="src/scripts/init.js"></script>
+    
+    <!-- Service Worker Registration for Offline Support -->
+    <script>
+        // Only register service worker if not using file:// protocol
+        if ('serviceWorker' in navigator && window.location.protocol !== 'file:') {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js')
+                    .then(registration => {
+                        console.log('Service Worker registered successfully:', registration.scope);
+                    })
+                    .catch(error => {
+                        console.log('Service Worker registration failed:', error);
+                    });
+            });
+        } else if (window.location.protocol === 'file:') {
+            console.log('Running from file:// - Service Worker disabled. Use a local server for full features.');
+        }
+    </script>
+</body>
+</html>
