@@ -3267,9 +3267,9 @@ html {
                                     <i class="fas fa-camera"></i>
                                     Scan
                                 </button>
-                                <button class="search-button" id="aiSettingsBtn" title="Configure AI provider and key">
-                                    <i class="fas fa-robot"></i>
-                                    AI Settings
+                                <button class="search-button" id="aiSettingsBtn" title="Chat with free AI assistant">
+                                    <i class="fas fa-comments"></i>
+                                    Free AI Chat
                                 </button>
                             </div>
                             <div class="search-filters">
@@ -27281,19 +27281,8 @@ class AviationTestApp {
 
     // ---------- AI integration ----------
     openAISettings(){
-        try {
-            const cfg = (window.AIHelper && window.AIHelper.loadConfig()) || {};
-            const modal = document.getElementById('ai-settings-modal');
-            if (!modal) return;
-            const provider = cfg.provider || 'openai';
-            document.getElementById('aiProvider').value = provider;
-            document.getElementById('openaiKey').value = cfg.openaiKey || '';
-            document.getElementById('openaiModel').value = cfg.openaiModel || 'gpt-4o-mini';
-            document.getElementById('geminiKey').value = cfg.geminiKey || '';
-            document.getElementById('geminiModel').value = cfg.geminiModel || 'gemini-1.5-flash';
-            this.toggleAIProviderFields(provider);
-            modal.classList.add('active');
-        } catch {}
+        // Open free AI chat in new window
+        window.open('https://gemini.google.com/app', '_blank', 'noopener,noreferrer');
     }
     closeAISettings(){
         const modal = document.getElementById('ai-settings-modal');
