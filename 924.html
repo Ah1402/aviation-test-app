@@ -27669,6 +27669,27 @@ class AviationTestApp {
         // Show completion message
         alert(`Study session complete!\n\nQuestions reviewed: ${this.studyQuestions.length}\nTime spent: ${sessionTime} minutes`);
         
+        // Send study completion notification
+        if ('Notification' in window && Notification.permission === 'granted') {
+            try {
+                const notification = new Notification('Study Session Complete! 📚', {
+                    body: `Great work! You reviewed ${this.studyQuestions.length} questions in ${sessionTime} minutes. Keep up the momentum!`,
+                    icon: './logo-192.png',
+                    badge: './logo-192.png',
+                    tag: 'study-complete',
+                    vibrate: [200, 100, 200],
+                    requireInteraction: false
+                });
+
+                notification.onclick = () => {
+                    window.focus();
+                    notification.close();
+                };
+            } catch (err) {
+                console.log('Study completion notification error:', err);
+            }
+        }
+        
         // Return to study setup
         this.showSection('study');
         this.loadStudyStats();
@@ -27973,6 +27994,49 @@ class AviationTestApp {
         document.getElementById('test-result-title').textContent = this.currentTest.test.name;
         
         this.showModal('results-modal');
+
+        // Send achievement notification
+        if ('Notification' in window && Notification.permission === 'granted') {
+            try {
+                let notificationTitle = '';
+                let notificationBody = '';
+                let emoji = '';
+
+                if (score.percentage >= 90) {
+                    emoji = '🌟';
+                    notificationTitle = 'Outstanding Performance! ' + emoji;
+                    notificationBody = `You scored ${score.percentage}% on ${this.currentTest.test.name}. Excellent work!`;
+                } else if (score.percentage >= 75) {
+                    emoji = '✅';
+                    notificationTitle = 'Great Job! ' + emoji;
+                    notificationBody = `You scored ${score.percentage}% on ${this.currentTest.test.name}. Keep it up!`;
+                } else if (score.percentage >= 60) {
+                    emoji = '👍';
+                    notificationTitle = 'Good Effort! ' + emoji;
+                    notificationBody = `You scored ${score.percentage}% on ${this.currentTest.test.name}. You're making progress!`;
+                } else {
+                    emoji = '💪';
+                    notificationTitle = 'Keep Practicing! ' + emoji;
+                    notificationBody = `You scored ${score.percentage}% on ${this.currentTest.test.name}. Review and try again!`;
+                }
+
+                const notification = new Notification(notificationTitle, {
+                    body: notificationBody,
+                    icon: './logo-192.png',
+                    badge: './logo-192.png',
+                    tag: 'test-result',
+                    vibrate: [200, 100, 200, 100, 200],
+                    requireInteraction: false
+                });
+
+                notification.onclick = () => {
+                    window.focus();
+                    notification.close();
+                };
+            } catch (err) {
+                console.log('Test result notification error:', err);
+            }
+        }
     }
 
     saveResults() {
