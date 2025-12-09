@@ -25862,11 +25862,11 @@ ShowSection(sectionId) {
     }
 
     onSectionShown(sectionId) {
-    Switch (sectionId) {
-        case 'results':
+        switch (sectionId) {
+            case 'results':
                 this.loadResultsSection();
                 break;
-        case 'tests':
+            case 'tests':
                 this.loadTestsSection();
                 break;
         }
