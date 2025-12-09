@@ -25327,14 +25327,30 @@ html {
                     const registration = await navigator.serviceWorker.register('./sw.js');
                     console.log('✓ Service Worker registered successfully:', registration.scope);
 
-                    // Check for updates every 5 minutes when app is active
-                    setInterval(() => {
+                    // Request notification permission on load
+                    if ('Notification' in window && Notification.permission === 'default') {
+                        try {
+                            const permission = await Notification.requestPermission();
+                            console.log('Notification permission:', permission);
+                        } catch (err) {
+                            console.log('Notification permission request failed:', err);
+                        }
+                    }
+
+                    // Check for updates immediately and then every 30 seconds when app is active
+                    const checkForUpdates = () => {
                         if (document.visibilityState === 'visible') {
                             registration.update().catch(err => {
                                 console.log('Update check failed (offline?):', err);
                             });
                         }
-                    }, 5 * 60 * 1000);
+                    };
+                    
+                    // Initial check after 3 seconds
+                    setTimeout(checkForUpdates, 3000);
+                    
+                    // Then check every 30 seconds
+                    setInterval(checkForUpdates, 30 * 1000);
 
                     // If there's an already-waiting worker, prompt update
                     if (registration.waiting) {
@@ -25347,9 +25363,28 @@ html {
                             newWorker.addEventListener('statechange', () => {
                                 if (newWorker.state === 'installed') {
                                     if (navigator.serviceWorker.controller) {
-                                        // New update available
+                                        // New update available - show immediately
                                         console.log('✓ New version available!');
                                         showSWUpdate();
+                                        
+                                        // Show browser notification if permission granted
+                                        if ('Notification' in window && Notification.permission === 'granted') {
+                                            try {
+                                                new Notification('Update Available! 🚀', {
+                                                    body: 'A new version of Aviation Test App is ready. Click to update now.',
+                                                    icon: './logo-192.png',
+                                                    badge: './logo-192.png',
+                                                    tag: 'app-update',
+                                                    requireInteraction: true,
+                                                    vibrate: [200, 100, 200]
+                                                }).onclick = () => {
+                                                    window.focus();
+                                                    showSWUpdate();
+                                                };
+                                            } catch (err) {
+                                                console.log('Browser notification failed:', err);
+                                            }
+                                        }
                                     } else {
                                         // First install, content is cached
                                         console.log('✓ App is ready for offline use!');

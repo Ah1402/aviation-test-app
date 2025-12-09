@@ -1,6 +1,6 @@
 // Aviation Test App - Service Worker
-// Version 2.0.0 - Full Offline Support with Auto-Update
-const CACHE_VERSION = 'v2.0.0';
+// Version 2.1.0 - Instant Updates & Push Notifications
+const CACHE_VERSION = 'v2.1.0';
 const CACHE_NAME = `aviation-test-${CACHE_VERSION}`;
 const DATA_CACHE = `aviation-data-${CACHE_VERSION}`;
 
@@ -243,4 +243,63 @@ self.addEventListener('message', event => {
       })
     );
   }
+});
+
+// Push notification support
+self.addEventListener('push', event => {
+  console.log('[ServiceWorker] Push notification received');
+  
+  let data = {};
+  if (event.data) {
+    try {
+      data = event.data.json();
+    } catch (e) {
+      data = { title: 'Aviation Test App', body: event.data.text() };
+    }
+  }
+  
+  const title = data.title || 'Aviation Test App';
+  const options = {
+    body: data.body || 'New notification from Aviation Test App',
+    icon: './logo-192.png',
+    badge: './logo-192.png',
+    vibrate: [200, 100, 200],
+    data: data.data || {},
+    actions: data.actions || [
+      { action: 'open', title: 'Open App' },
+      { action: 'close', title: 'Close' }
+    ]
+  };
+  
+  event.waitUntil(
+    self.registration.showNotification(title, options)
+  );
+});
+
+// Handle notification clicks
+self.addEventListener('notificationclick', event => {
+  console.log('[ServiceWorker] Notification clicked:', event.action);
+  
+  event.notification.close();
+  
+  if (event.action === 'close') {
+    return;
+  }
+  
+  // Open the app
+  event.waitUntil(
+    clients.matchAll({ type: 'window', includeUncontrolled: true })
+      .then(clientList => {
+        // Check if app is already open
+        for (const client of clientList) {
+          if (client.url.includes(self.registration.scope) && 'focus' in client) {
+            return client.focus();
+          }
+        }
+        // If not open, open new window
+        if (clients.openWindow) {
+          return clients.openWindow('/');
+        }
+      })
+  );
 });
