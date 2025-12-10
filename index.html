@@ -25204,23 +25204,6 @@ html {
     ]
   }
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </script>
 
 
@@ -25413,28 +25396,6 @@ html {
                 if (Notification.permission === 'granted') {
                     try {
                         console.log('🔄 Trying fallback browser notification...');
-                        new Notification(title, {
-                    body: body,
-                    icon: './logo-192.png',
-                    badge: './logo-192.png',
-                    tag: tag,
-                    vibrate: [200, 100, 200],
-                    requireInteraction: false,
-                    renotify: true,
-                    silent: false,
-                    data: { 
-                        url: window.location.origin,
-                        timestamp: Date.now()
-                    }
-                });
-                
-                console.log('✓ Notification sent successfully:', title);
-                return true;
-            } catch (err) {
-                console.error('Notification error:', err);
-                // Fallback: try browser notification if service worker fails
-                if (Notification.permission === 'granted') {
-                    try {
                         new Notification(title, {
                             body: body,
                             icon: './logo-192.png',
