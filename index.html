@@ -28872,8 +28872,8 @@ AviationTestApp.prototype.createPrintFrame = function(html) {
             console.log('✓ Print window opened with manual print button for iOS');
             
         } else if (isAndroid) {
-            // Android: Same approach as iOS with manual buttons
-            console.log('📱 Android detected - using new window method with controls');
+            // Android: Automatically trigger system print dialog (HP, Samsung, etc.)
+            console.log('📱 Android detected - triggering system print dialog');
             
             const printWindow = window.open('', '_blank');
             if (!printWindow) {
@@ -28885,38 +28885,19 @@ AviationTestApp.prototype.createPrintFrame = function(html) {
             printWindow.document.write(html);
             printWindow.document.close();
             
-            // Add control buttons for Android (same as iOS)
-            const printScript = printWindow.document.createElement('script');
-            printScript.textContent = `
-                window.addEventListener('load', function() {
-                    // Add control buttons container for Android
-                    var btnContainer = document.createElement('div');
-                    btnContainer.style.cssText = 'position:fixed;top:10px;right:10px;z-index:9999;display:flex;gap:8px;';
-                    
-                    // Back button
-                    var backBtn = document.createElement('button');
-                    backBtn.style.cssText = 'background:#6b7280;color:white;padding:12px 20px;border:none;border-radius:8px;cursor:pointer;font-size:16px;font-family:sans-serif;box-shadow:0 4px 6px rgba(0,0,0,0.1);';
-                    backBtn.textContent = '← Back';
-                    backBtn.onclick = function() {
-                        window.close();
-                    };
-                    
-                    // Print button
-                    var printBtn = document.createElement('button');
-                    printBtn.style.cssText = 'background:#2563eb;color:white;padding:12px 24px;border:none;border-radius:8px;cursor:pointer;font-size:16px;font-family:sans-serif;box-shadow:0 4px 6px rgba(0,0,0,0.1);';
-                    printBtn.textContent = '🖨️ Click to Print';
-                    printBtn.onclick = function() {
-                        window.print();
-                    };
-                    
-                    btnContainer.appendChild(backBtn);
-                    btnContainer.appendChild(printBtn);
-                    document.body.insertBefore(btnContainer, document.body.firstChild);
-                    
-                    console.log('✓ Android print controls ready');
-                });
-            `;
-            printWindow.document.head.appendChild(printScript);
+            // Automatically trigger the system print dialog
+            printWindow.addEventListener('load', function() {
+                setTimeout(() => {
+                    try {
+                        printWindow.focus();
+                        printWindow.print();
+                        console.log('✓ System print dialog triggered on Android');
+                    } catch (err) {
+                        console.error('Print error:', err);
+                        alert('Please use the browser print button (⋮ menu > Print)');
+                    }
+                }, 800);
+            });
             
             console.log('✓ Print window opened with controls for Android');
             
