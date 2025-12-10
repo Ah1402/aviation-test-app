@@ -25481,16 +25481,16 @@ html {
                 // Start the timer
                 resetInactivityTimer();
 
-                // Send welcome notification after 1 minute
+                // Send welcome notification after 5 seconds if permission granted
                 setTimeout(() => {
-                    if (window.sendAppNotification) {
+                    if (window.sendAppNotification && Notification.permission === 'granted') {
                         window.sendAppNotification(
                             'Welcome to Aviation Test App! ✈️',
                             'Your journey to becoming a pilot starts here. Good luck with your studies!',
                             'welcome'
                         );
                     }
-                }, 60 * 1000); // 1 minute after load
+                }, 5000); // 5 seconds after load
             }
 
         } else if (window.location.protocol === 'file:') {
@@ -28639,11 +28639,7 @@ AviationTestApp.prototype.buildPrintStyles = function() {
             }
             
             .page-section {
-                page-break-after: always;
-            }
-            
-            .page-section:last-child {
-                page-break-after: auto;
+                margin-bottom: 20px;
             }
             
             .page-header {
@@ -28655,13 +28651,10 @@ AviationTestApp.prototype.buildPrintStyles = function() {
             }
             
             .question { 
-                break-inside: avoid; 
-                page-break-inside: avoid; 
-                margin-bottom: 14px; 
-                padding: 10px; 
-                border: 1px solid #d1d5db; 
-                border-radius: 6px; 
-                background: #f9fafb;
+                margin-bottom: 18px; 
+                padding: 0;
+                border: none;
+                background: transparent;
             }
             
             .q-title { 
@@ -28808,29 +28801,18 @@ AviationTestApp.prototype.printCurrentTest = function() {
         
         const questionsHtml = pageQuestions.map((q, relIdx) => {
             const absIdx = startIdx + relIdx;
-            const selected = this.userAnswers[absIdx];
-            const correct = q.correct;
             const opts = (q.options || []).map((opt, idx) => {
                 const letter = (typeof window !== 'undefined' && window.safeLetter) ? window.safeLetter(idx) : String.fromCharCode(65 + idx);
-                const badges = [
-                    selected === idx ? '<span class="badge badge-selected">Your Answer</span>' : ''
-                ].join(' ');
-                return `<div class="opt"><div><strong>${letter}.</strong></div><div>${opt} ${badges}</div></div>`;
+                return `<div class="opt"><div><strong>${letter}.</strong></div><div>${opt}</div></div>`;
             }).join('');
             
-            const explanation = q.explanation ? `
-                <div class="explanation">
-                    <div class="explanation-label">✓ Explanation:</div>
-                    ${q.explanation}
-                </div>
-            ` : '';
+            // NO explanation in test print
             
             return `
                 <div class="question">
                     <div class="q-title">Question ${absIdx + 1}</div>
                     <div class="q-text">${q.question}</div>
                     <div class="options">${opts}</div>
-                    ${explanation}
                 </div>
             `;
         }).join('');
