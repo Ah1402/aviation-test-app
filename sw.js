@@ -1,6 +1,6 @@
 // Aviation Test App - Service Worker
-// Version 3.0.0 - TRUE Background Push Notifications (Works When App Closed)
-const CACHE_VERSION = 'v3.0.0';
+// Version 3.1.0 - Background Notifications (App Closed)
+const CACHE_VERSION = 'v3.1.0';
 const CACHE_NAME = `aviation-test-${CACHE_VERSION}`;
 const DATA_CACHE = `aviation-data-${CACHE_VERSION}`;
 

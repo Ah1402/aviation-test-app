@@ -25738,11 +25738,6 @@ html {
     <button id="dismiss-notifications-btn" style="margin:8px 4px 0 4px;padding:8px 16px;border-radius:6px;background:transparent;color:white;border:1px solid white;cursor:pointer">Maybe Later</button>
 </div>
 
-<!-- TEST BUTTON FOR NOTIFICATIONS - VISIBLE FOR DEBUGGING -->
-<button id="test-notification-btn" style="position:fixed;bottom:140px;right:20px;padding:12px 20px;background:#10b981;color:white;border:0;border-radius:8px;font-weight:600;cursor:pointer;z-index:10000;box-shadow:0 4px 12px rgba(0,0,0,0.2)">
-    🔔 Test Notification
-</button>
-
 <div id="sw-update-notice" style="display:none;position:fixed;left:50%;transform:translateX(-50%);top:20px;background:#10b981;color:white;padding:20px 24px;border-radius:12px;box-shadow:0 10px 40px rgba(16,185,129,0.5);z-index:99999;text-align:center;border:3px solid #059669;animation:slideDown 0.5s ease-out;max-width:90%;width:400px">
     <div style="font-size:24px;margin-bottom:8px">🚀</div>
     <strong style="font-size:17px;display:block;margin-bottom:8px">New Update Available!</strong>
@@ -25828,39 +25823,6 @@ html {
         document.getElementById('notification-permission-banner').style.display = 'none';
         // Ask again in 24 hours
         localStorage.setItem('notification-banner-dismissed', Date.now().toString());
-    });
-    
-    // TEST NOTIFICATION BUTTON - Click to test notifications
-    document.getElementById('test-notification-btn')?.addEventListener('click', async () => {
-        console.log('📦 TEST BUTTON CLICKED!');
-        console.log('Current permission:', Notification.permission);
-        
-        if (Notification.permission !== 'granted') {
-            console.log('Requesting permission...');
-            const permission = await Notification.requestPermission();
-            console.log('Permission result:', permission);
-            if (permission !== 'granted') {
-                alert('Please enable notifications to test!');
-                return;
-            }
-        }
-        
-        console.log('Sending test notification...');
-        if (window.sendAppNotification) {
-            const result = await window.sendAppNotification(
-                'Test Notification 🚀',
-                'If you see this, notifications are working perfectly!',
-                'manual-test'
-            );
-            console.log('Test result:', result);
-            if (result) {
-                alert('✅ Notification sent! Check your device.');
-            } else {
-                alert('❌ Notification failed. Check console for details.');
-            }
-        } else {
-            alert('❌ sendAppNotification function not found!');
-        }
     });
 </script>
 
