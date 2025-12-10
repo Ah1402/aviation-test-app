@@ -25396,8 +25396,15 @@ html {
         if ('serviceWorker' in navigator && window.location.protocol !== 'file:') {
             window.addEventListener('load', async () => {
                 try {
-                    const registration = await navigator.serviceWorker.register('./sw.js');
+                    // Register with updateViaCache: 'none' to force update checks
+                    const registration = await navigator.serviceWorker.register('./sw.js', {
+                        updateViaCache: 'none',
+                        scope: './'
+                    });
                     console.log('✓ Service Worker registered successfully:', registration.scope);
+                    console.log('Current SW state:', registration.active ? 'active' : 'not active');
+                    console.log('Waiting SW:', registration.waiting ? 'YES - UPDATE READY!' : 'no');
+                    console.log('Installing SW:', registration.installing ? 'YES' : 'no');
 
                     // Show notification permission banner if not granted
                     if ('Notification' in window) {
@@ -25454,10 +25461,25 @@ html {
                                 if (newWorker.state === 'installed') {
                                     if (navigator.serviceWorker.controller) {
                                         // New update available - show BOTH banner and notification
-                                        console.log('✓ New version available!');
+                                        console.log('✓ ✨ NEW VERSION DETECTED! ✨');
+                                        console.log('Old version was running, new version is ready!');
                                         
                                         // Show in-app banner immediately
                                         showSWUpdate();
+                                        
+                                        // Visual alert for debugging
+                                        const alertDiv = document.createElement('div');
+                                        alertDiv.style.cssText = 'position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:#10b981;color:white;padding:30px;border-radius:16px;z-index:99999;text-align:center;font-size:18px;font-weight:bold;box-shadow:0 20px 60px rgba(0,0,0,0.3)';
+                                        alertDiv.innerHTML = '🚀 NEW UPDATE FOUND!<br><div style="font-size:14px;margin-top:10px;font-weight:normal">Banner showing + Notification sending</div>';
+                                        document.body.appendChild(alertDiv);
+                                        setTimeout(() => alertDiv.remove(), 4000);
+                                        
+                                        // Visual alert
+                                        const alertDiv = document.createElement('div');
+                                        alertDiv.style.cssText = 'position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:#10b981;color:white;padding:30px;border-radius:16px;z-index:99999;text-align:center;font-size:18px;font-weight:bold;box-shadow:0 20px 60px rgba(0,0,0,0.3)';
+                                        alertDiv.innerHTML = '🚀 NEW UPDATE!<br><div style="font-size:14px;margin-top:10px;font-weight:normal">Check the banner at top of screen</div>';
+                                        document.body.appendChild(alertDiv);
+                                        setTimeout(() => alertDiv.remove(), 4000);
                                         
                                         // Send push notification IMMEDIATELY (works even if app is in background)
                                         console.log('📱 Attempting to send update notification...');
