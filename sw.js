@@ -286,6 +286,9 @@ self.addEventListener('notificationclick', event => {
     return;
   }
   
+  // If it's an update notification, reload the page
+  const isUpdateNotification = event.notification.tag === 'app-update';
+  
   // Open the app
   event.waitUntil(
     clients.matchAll({ type: 'window', includeUncontrolled: true })
@@ -293,6 +296,10 @@ self.addEventListener('notificationclick', event => {
         // Check if app is already open
         for (const client of clientList) {
           if (client.url.includes(self.registration.scope) && 'focus' in client) {
+            // If update notification, reload the page
+            if (isUpdateNotification) {
+              return client.navigate(client.url).then(c => c.focus());
+            }
             return client.focus();
           }
         }

@@ -25588,6 +25588,10 @@ html {
                 reg.waiting.postMessage({type: 'SKIP_WAITING'});
             }
         }
+        // Wait a moment for the service worker to activate, then reload
+        setTimeout(() => {
+            window.location.reload();
+        }, 100);
     });
     document.getElementById('sw-dismiss-btn')?.addEventListener('click', () => {
         document.getElementById('sw-update-notice').style.display = 'none';
