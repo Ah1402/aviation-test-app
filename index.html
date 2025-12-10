@@ -25467,14 +25467,7 @@ html {
                                         // Show in-app banner immediately
                                         showSWUpdate();
                                         
-                                        // Visual alert for debugging
-                                        const alertDiv = document.createElement('div');
-                                        alertDiv.style.cssText = 'position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:#10b981;color:white;padding:30px;border-radius:16px;z-index:99999;text-align:center;font-size:18px;font-weight:bold;box-shadow:0 20px 60px rgba(0,0,0,0.3)';
-                                        alertDiv.innerHTML = '🚀 NEW UPDATE FOUND!<br><div style="font-size:14px;margin-top:10px;font-weight:normal">Banner showing + Notification sending</div>';
-                                        document.body.appendChild(alertDiv);
-                                        setTimeout(() => alertDiv.remove(), 4000);
-                                        
-                                        // Visual alert
+                                        // Visual alert for debugging and user notification
                                         const alertDiv = document.createElement('div');
                                         alertDiv.style.cssText = 'position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:#10b981;color:white;padding:30px;border-radius:16px;z-index:99999;text-align:center;font-size:18px;font-weight:bold;box-shadow:0 20px 60px rgba(0,0,0,0.3)';
                                         alertDiv.innerHTML = '🚀 NEW UPDATE!<br><div style="font-size:14px;margin-top:10px;font-weight:normal">Check the banner at top of screen</div>';
