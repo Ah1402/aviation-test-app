@@ -28898,53 +28898,34 @@ AviationTestApp.prototype.printCurrentStudySession = function() {
     const totalQuestions = this.studyQuestions.length;
     const header = `Study Session (${totalQuestions} questions)`;
     
-    // Split questions into pages of 10
-    const questionsPerPage = 10;
-    let pagesHtml = '';
-    
-    for (let pageNum = 0; pageNum < Math.ceil(totalQuestions / questionsPerPage); pageNum++) {
-        const startIdx = pageNum * questionsPerPage;
-        const endIdx = Math.min(startIdx + questionsPerPage, totalQuestions);
-        const pageQuestions = this.studyQuestions.slice(startIdx, endIdx);
-        
-        const questionsHtml = pageQuestions.map((item, relIdx) => {
-            const absIdx = startIdx + relIdx;
-            const q = item.question;
-            const correct = q.correct;
-            const opts = (q.options || []).map((opt, idx) => {
-                const letter = (typeof window !== 'undefined' && window.safeLetter) ? window.safeLetter(idx) : String.fromCharCode(65 + idx);
-                const isCorrect = idx === correct;
-                const badge = isCorrect ? '<span class="badge badge-correct">Correct Answer</span>' : '';
-                return `<div class="opt"><div><strong>${letter}.</strong></div><div>${opt} ${badge}</div></div>`;
-            }).join('');
-            
-            const cat = item.categoryName || item.category || '';
-            const explanation = q.explanation ? `
-                <div class="explanation">
-                    <div class="explanation-label">✓ Explanation:</div>
-                    ${q.explanation}
-                </div>
-            ` : '';
-            
-            return `
-                <div class="question">
-                    <div class="q-title">Question ${absIdx + 1} <span class="print-meta" style="font-weight: normal; font-size: 9pt;">(${this.escapeHtml(cat)})</span></div>
-                    <div class="q-text">${q.question}</div>
-                    <div class="options">${opts}</div>
-                    ${explanation}
-                </div>
-            `;
+    // Print all questions continuously (like test mode)
+    const pagesHtml = this.studyQuestions.map((item, idx) => {
+        const q = item.question;
+        const correct = q.correct;
+        const opts = (q.options || []).map((opt, optIdx) => {
+            const letter = (typeof window !== 'undefined' && window.safeLetter) ? window.safeLetter(optIdx) : String.fromCharCode(65 + optIdx);
+            const isCorrect = optIdx === correct;
+            const badge = isCorrect ? '<span class="badge badge-correct">✓ Correct Answer</span>' : '';
+            return `<div class="opt"><div><strong>${letter}.</strong></div><div>${opt} ${badge}</div></div>`;
         }).join('');
         
-        pagesHtml += `
-            <div class="page-section">
-                <div class="page-header">
-                    ${header} - Page ${pageNum + 1} of ${Math.ceil(totalQuestions / questionsPerPage)} (Questions ${startIdx + 1}-${endIdx})
-                </div>
-                ${questionsHtml}
+        const cat = item.categoryName || item.category || '';
+        const explanation = q.explanation ? `
+            <div class="explanation">
+                <div class="explanation-label">✓ Explanation:</div>
+                ${q.explanation}
+            </div>
+        ` : '';
+        
+        return `
+            <div class="question">
+                <div class="q-title">Question ${idx + 1}</div>
+                <div class="q-text">${q.question}</div>
+                <div class="options">${opts}</div>
+                ${explanation}
             </div>
         `;
-    }
+    }).join('');
     
     // Generate answer key for study session
     const questions = this.studyQuestions.map(item => item.question);
