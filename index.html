@@ -25459,20 +25459,25 @@ html {
                                         // Show in-app banner immediately
                                         showSWUpdate();
                                         
-                                        // Send push notification (works even if app is in background)
+                                        // Send push notification IMMEDIATELY (works even if app is in background)
+                                        console.log('📱 Attempting to send update notification...');
                                         if (window.sendAppNotification) {
-                                            console.log('📱 Sending update notification...');
-                                            window.sendAppNotification(
-                                                'Update Available! 🚀',
-                                                'A new version of Aviation Test App is ready. Tap to update now and get the latest features!',
-                                                'app-update'
-                                            ).then(sent => {
-                                                if (sent) {
-                                                    console.log('✅ Update notification sent successfully');
-                                                } else {
-                                                    console.warn('⚠️ Update notification failed to send');
-                                                }
-                                            });
+                                            // Always try to send, even if permission not granted yet
+                                            setTimeout(() => {
+                                                window.sendAppNotification(
+                                                    'Update Available! 🚀',
+                                                    'A new version of Aviation Test App is ready. Tap Update Now to get the latest features and improvements!',
+                                                    'app-update'
+                                                ).then(sent => {
+                                                    if (sent) {
+                                                        console.log('✅ Update notification sent successfully');
+                                                    } else {
+                                                        console.warn('⚠️ Update notification not sent - permission may not be granted');
+                                                    }
+                                                }).catch(err => {
+                                                    console.error('Notification error:', err);
+                                                });
+                                            }, 500); // Small delay to ensure service worker is ready
                                         } else {
                                             console.warn('⚠️ sendAppNotification not available');
                                         }
