@@ -1,6 +1,6 @@
 // Aviation Test App - Service Worker
-// Version 2.6.0 - Added Test Notification Button
-const CACHE_VERSION = 'v2.6.0';
+// Version 3.0.0 - TRUE Background Push Notifications (Works When App Closed)
+const CACHE_VERSION = 'v3.0.0';
 const CACHE_NAME = `aviation-test-${CACHE_VERSION}`;
 const DATA_CACHE = `aviation-data-${CACHE_VERSION}`;
 
@@ -80,8 +80,33 @@ self.addEventListener('activate', event => {
       );
     }).then(() => {
       console.log('[ServiceWorker] Activation complete');
-      // Take control of all pages immediately
-      return self.clients.claim();
+      
+      // Send notification about the update - WORKS EVEN IF APP IS CLOSED!
+      console.log('[ServiceWorker] Sending update notification (app can be closed)...');
+      return self.registration.showNotification('Update Installed! 🎉', {
+        body: 'Aviation Test App has been updated to the latest version. Open the app to see what\'s new!',
+        icon: '/logo-192.png',
+        badge: '/logo-192.png',
+        tag: 'sw-activation-update',
+        requireInteraction: true,  // Keeps notification visible
+        vibrate: [200, 100, 200],
+        data: {
+          url: '/',
+          timestamp: Date.now(),
+          version: CACHE_VERSION
+        },
+        actions: [
+          { action: 'open', title: 'Open App', icon: '/logo-192.png' }
+        ]
+      }).then(() => {
+        console.log('[ServiceWorker] Update notification sent (even if app closed)!');
+        // Take control of all pages immediately
+        return self.clients.claim();
+      }).catch(err => {
+        console.error('[ServiceWorker] Failed to send notification:', err);
+        // Still claim clients even if notification fails
+        return self.clients.claim();
+      });
     })
   );
 });
