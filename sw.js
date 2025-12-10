@@ -1,6 +1,6 @@
 // Aviation Test App - Service Worker
-// Version 3.3.0 - Fixed Update Banner Re-appearing
-const CACHE_VERSION = 'v3.3.0';
+// Version 4.0.0 - Complete App Fix (White Theme + Ahmed Logo + Android Support)
+const CACHE_VERSION = 'v4.0.0';
 const CACHE_NAME = `aviation-test-${CACHE_VERSION}`;
 const DATA_CACHE = `aviation-data-${CACHE_VERSION}`;
 
@@ -9,10 +9,7 @@ const STATIC_ASSETS = [
   './',
   './index.html',
   './manifest.json',
-  './logo.png',
-  './logo-192.png',
-  './logo-512.png',
-  './logo-1024.png'
+  './ahmed.png'
 ];
 
 // External CDN resources to cache
@@ -87,8 +84,8 @@ self.addEventListener('activate', event => {
       // On iOS, it only works if app is in background (not completely terminated)
       return self.registration.showNotification('New Update Available! 🚀', {
         body: 'Aviation Test App v' + CACHE_VERSION + ' is now installed and ready to use!',
-        icon: '/logo-192.png',
-        badge: '/logo-192.png',
+        icon: '/ahmed.png',
+        badge: '/ahmed.png',
         tag: 'update-v' + CACHE_VERSION,
         requireInteraction: true,  // Keeps notification visible until user interacts
         vibrate: [300, 200, 300],  // Stronger vibration
@@ -291,8 +288,8 @@ self.addEventListener('push', event => {
   // Build notification options with mobile compatibility
   const options = {
     body: data.body || 'New notification from Aviation Test App',
-    icon: '/logo-192.png',
-    badge: '/logo-192.png',
+    icon: '/ahmed.png',
+    badge: '/ahmed.png',
     tag: data.tag || 'default',
     requireInteraction: false,
     silent: false,
@@ -307,7 +304,7 @@ self.addEventListener('push', event => {
   if (self.clients && self.clients.matchAll) {
     options.vibrate = [200, 100, 200];
     options.actions = [
-      { action: 'open', title: 'Open App', icon: '/logo-192.png' }
+      { action: 'open', title: 'Open App', icon: '/ahmed.png' }
     ];
   }
   

@@ -5,30 +5,36 @@
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#1e40af",
-  "theme_color": "#2563eb",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
   "orientation": "any",
   "permissions": [
     "notifications"
   ],
   "icons": [
     {
-      "src": "logo-192.png",
+      "src": "ahmed.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
     },
     {
-      "src": "logo-512.png",
+      "src": "ahmed.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
     },
     {
-      "src": "logo.png",
-      "sizes": "1024x1024",
+      "src": "ahmed.png",
+      "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "maskable"
+    },
+    {
+      "src": "ahmed.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }

@@ -15,11 +15,11 @@
     
     <!-- PWA Icons -->
     <link rel="manifest" href="manifest.json">
-    <link rel="icon" type="image/png" sizes="192x192" href="logo-192.png">
-    <link rel="icon" type="image/png" sizes="512x512" href="logo-512.png">
-    <link rel="apple-touch-icon" href="logo-512.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="logo-512.png">
-    <link rel="shortcut icon" href="logo-192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="ahmed.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="ahmed.png">
+    <link rel="apple-touch-icon" href="ahmed.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="ahmed.png">
+    <link rel="shortcut icon" href="ahmed.png">
     
     <!-- iOS Safari specific -->
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -25356,8 +25356,8 @@ html {
                 console.log('Device: iOS=' + isIOS + ', Android=' + isAndroid);
                 
                 // Use absolute URLs for icons (required for Android)
-                const iconUrl = window.location.origin + window.location.pathname.replace(/\/[^/]*$/, '') + '/logo-192.png';
-                const badgeUrl = window.location.origin + window.location.pathname.replace(/\/[^/]*$/, '') + '/logo-192.png';
+                const iconUrl = window.location.origin + window.location.pathname.replace(/\/[^/]*$/, '') + '/ahmed.png';
+                const badgeUrl = window.location.origin + window.location.pathname.replace(/\/[^/]*$/, '') + '/ahmed.png';
                 
                 // Build notification options with mobile compatibility
                 const options = {
@@ -25404,8 +25404,8 @@ html {
                         console.log('🔄 Trying fallback browser notification...');
                         new Notification(title, {
                             body: body,
-                            icon: './logo-192.png',
-                            badge: './logo-192.png',
+                            icon: './ahmed.png',
+                            badge: './ahmed.png',
                             tag: tag
                         });
                         console.log('✓ Fallback notification sent:', title);
@@ -28807,33 +28807,63 @@ function showSection(sectionName) {
 // Printing helpers are added as methods on the class prototype
 AviationTestApp.prototype.createPrintFrame = function(html) {
     try {
-        const frame = document.createElement('iframe');
-        frame.style.position = 'fixed';
-        frame.style.right = '0';
-        frame.style.bottom = '0';
-        frame.style.width = '0';
-        frame.style.height = '0';
-        frame.style.border = '0';
-        document.body.appendChild(frame);
-
-        const doc = frame.contentWindow || frame.contentDocument;
-        const printDoc = doc.document || doc;
-        printDoc.open();
-        printDoc.write(html);
-        printDoc.close();
-
-        // Give the browser a tick to layout before printing
-        setTimeout(() => {
-            if (frame.contentWindow) {
-                frame.contentWindow.focus();
-                frame.contentWindow.print();
+        // Detect Android devices
+        const isAndroid = /Android/i.test(navigator.userAgent);
+        
+        if (isAndroid) {
+            // Android: Use new window approach for better compatibility
+            const printWindow = window.open('', '_blank');
+            if (!printWindow) {
+                alert('Please allow pop-ups to print. Check your browser settings.');
+                return;
             }
-            // Cleanup after a short delay
-            setTimeout(() => document.body.removeChild(frame), 1000);
-        }, 100);
+            
+            printWindow.document.open();
+            printWindow.document.write(html);
+            printWindow.document.close();
+            
+            // Wait for content to load before printing
+            if (printWindow.document.readyState === 'complete') {
+                printWindow.focus();
+                setTimeout(() => printWindow.print(), 500);
+            } else {
+                printWindow.addEventListener('load', function() {
+                    setTimeout(() => {
+                        printWindow.focus();
+                        printWindow.print();
+                    }, 500);
+                });
+            }
+        } else {
+            // iOS/Desktop: Use iframe approach
+            const frame = document.createElement('iframe');
+            frame.style.position = 'fixed';
+            frame.style.right = '0';
+            frame.style.bottom = '0';
+            frame.style.width = '0';
+            frame.style.height = '0';
+            frame.style.border = '0';
+            document.body.appendChild(frame);
+
+            const doc = frame.contentWindow || frame.contentDocument;
+            const printDoc = doc.document || doc;
+            printDoc.open();
+            printDoc.write(html);
+            printDoc.close();
+
+            // Give the browser a tick to layout before printing
+            setTimeout(() => {
+                if (frame.contentWindow) {
+                    frame.contentWindow.focus();
+                    frame.contentWindow.print();
+                }
+                // Cleanup after a short delay
+                setTimeout(() => document.body.removeChild(frame), 1000);
+            }, 100);
+        }
     } catch (e) {
         console.error('Print failed', e);
-        alert('Printing is not supported in this environment.');
+        alert('Printing failed. Please try again.');
     }
 };
 
