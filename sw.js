@@ -1,6 +1,6 @@
 // Aviation Test App - Service Worker
-// Version 4.0.0 - Complete App Fix (White Theme + Ahmed Logo + Android Support)
-const CACHE_VERSION = 'v4.0.0';
+// Version 4.0.1 - Fix 404 on Android (Complete Theme Fix)
+const CACHE_VERSION = 'v4.0.1';
 const CACHE_NAME = `aviation-test-${CACHE_VERSION}`;
 const DATA_CACHE = `aviation-data-${CACHE_VERSION}`;
 
