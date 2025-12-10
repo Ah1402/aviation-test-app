@@ -28756,6 +28756,18 @@ AviationTestApp.prototype.buildPrintStyles = function() {
                 size: A4 portrait;
             }
             
+            /* iOS Safari compatibility */
+            @media print {
+                @page {
+                    margin: 16mm;
+                }
+            }
+            
+            * {
+                -webkit-print-color-adjust: exact !important;
+                print-color-adjust: exact !important;
+            }
+            
             body { 
                 font-family: 'Inter', Arial, sans-serif; 
                 color: #111827; 
@@ -28893,16 +28905,36 @@ AviationTestApp.prototype.buildPrintStyles = function() {
             }
             
             @media print {
+                body {
+                    -webkit-print-color-adjust: exact !important;
+                    print-color-adjust: exact !important;
+                    color-adjust: exact !important;
+                }
+                
                 .page-section {
                     page-break-after: always !important;
+                    -webkit-column-break-after: always !important;
+                    break-after: page !important;
                 }
                 
                 .page-section:last-child {
                     page-break-after: auto !important;
+                    -webkit-column-break-after: auto !important;
+                    break-after: auto !important;
                 }
                 
                 .question {
                     page-break-inside: avoid !important;
+                    -webkit-column-break-inside: avoid !important;
+                    break-inside: avoid !important;
+                    orphans: 3;
+                    widows: 3;
+                }
+                
+                /* Ensure backgrounds print on iOS */
+                .explanation, .badge {
+                    -webkit-print-color-adjust: exact !important;
+                    print-color-adjust: exact !important;
                 }
             }
         </style>
