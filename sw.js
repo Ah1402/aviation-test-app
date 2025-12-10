@@ -1,6 +1,6 @@
 // Aviation Test App - Service Worker
-// Version 3.2.0 - TESTING Background Notifications
-const CACHE_VERSION = 'v3.2.0';
+// Version 3.3.0 - Fixed Update Banner Re-appearing
+const CACHE_VERSION = 'v3.3.0';
 const CACHE_NAME = `aviation-test-${CACHE_VERSION}`;
 const DATA_CACHE = `aviation-data-${CACHE_VERSION}`;
 

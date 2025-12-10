@@ -25250,6 +25250,12 @@ html {
     <script>
         // Only register service worker if not using file:// protocol
         function showSWUpdate() {
+            // Don't show if user already acknowledged or dismissed this session
+            if (sessionStorage.getItem('update-acknowledged') || sessionStorage.getItem('update-dismissed')) {
+                console.log('Update already acknowledged/dismissed - not showing banner');
+                return;
+            }
+            
             console.log('🔔 Showing update banner...');
             const el = document.getElementById('sw-update-notice');
             if (!el) {
@@ -25771,19 +25777,38 @@ html {
 
 <script>
     document.getElementById('sw-reload-btn')?.addEventListener('click', async () => {
+        // Hide the banner immediately to prevent it showing during reload
+        const banner = document.getElementById('sw-update-notice');
+        if (banner) {
+            banner.style.display = 'none';
+        }
+        
+        // Mark that user has acknowledged the update
+        sessionStorage.setItem('update-acknowledged', 'true');
+        
+        // Send SKIP_WAITING to all service workers
         const regs = await navigator.serviceWorker.getRegistrations();
         for (const reg of regs) {
             if (reg.waiting) {
+                console.log('Sending SKIP_WAITING to service worker...');
                 reg.waiting.postMessage({type: 'SKIP_WAITING'});
             }
         }
-        // Wait a moment for the service worker to activate, then reload
+        
+        // Wait for the service worker to activate, then reload
         setTimeout(() => {
+            console.log('Reloading to apply update...');
             window.location.reload();
         }, 100);
     });
+    
     document.getElementById('sw-dismiss-btn')?.addEventListener('click', () => {
-        document.getElementById('sw-update-notice').style.display = 'none';
+        const banner = document.getElementById('sw-update-notice');
+        if (banner) {
+            banner.style.display = 'none';
+        }
+        // Remember user dismissed the update for this session
+        sessionStorage.setItem('update-dismissed', 'true');
     });
     
     // Notification permission banner handlers
