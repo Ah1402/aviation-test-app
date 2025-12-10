@@ -28872,75 +28872,80 @@ AviationTestApp.prototype.createPrintFrame = function(html) {
             console.log('✓ Print window opened with manual print button for iOS');
             
         } else if (isAndroid) {
-            // Android: Simplified safe approach to avoid crashes
-            console.log('📱 Android detected - using safe window method');
+            // Android: Use inline script injection for maximum compatibility
+            console.log('📱 Android detected - using inline script method');
             
             try {
+                // Inject button script directly into HTML before opening
+                const androidHTML = html.replace('</head>', `
+                    <style>
+                        .android-print-controls {
+                            position: fixed !important;
+                            top: 10px !important;
+                            right: 10px !important;
+                            z-index: 99999 !important;
+                            display: flex !important;
+                            gap: 8px !important;
+                        }
+                        .android-btn {
+                            border: none !important;
+                            padding: 12px 20px !important;
+                            border-radius: 8px !important;
+                            cursor: pointer !important;
+                            font-size: 16px !important;
+                            font-family: sans-serif !important;
+                            box-shadow: 0 4px 6px rgba(0,0,0,0.1) !important;
+                        }
+                        .android-back-btn {
+                            background: #6b7280 !important;
+                            color: white !important;
+                        }
+                        .android-print-btn {
+                            background: #2563eb !important;
+                            color: white !important;
+                        }
+                    </style>
+                    <script>
+                        window.addEventListener('DOMContentLoaded', function() {
+                            console.log('Android DOMContentLoaded');
+                            setTimeout(function() {
+                                var controls = document.createElement('div');
+                                controls.className = 'android-print-controls';
+                                
+                                var backBtn = document.createElement('button');
+                                backBtn.className = 'android-btn android-back-btn';
+                                backBtn.textContent = '← Back';
+                                backBtn.onclick = function() {
+                                    window.close();
+                                };
+                                
+                                var printBtn = document.createElement('button');
+                                printBtn.className = 'android-btn android-print-btn';
+                                printBtn.textContent = '🖨️ Print';
+                                printBtn.onclick = function() {
+                                    window.print();
+                                };
+                                
+                                controls.appendChild(backBtn);
+                                controls.appendChild(printBtn);
+                                document.body.insertBefore(controls, document.body.firstChild);
+                                console.log('Android controls added');
+                            }, 100);
+                        });
+                    </script>
+                </head>`);
+                
                 const printWindow = window.open('', '_blank');
                 if (!printWindow) {
                     alert('Please allow pop-ups to print. Check your browser settings.');
                     return;
                 }
                 
-                // Write content safely
                 printWindow.document.open();
-                printWindow.document.write(html);
+                printWindow.document.write(androidHTML);
                 printWindow.document.close();
                 
-                // Add buttons after a delay to ensure DOM is ready
-                setTimeout(function() {
-                    try {
-                        // Create and inject the control buttons
-                        const script = printWindow.document.createElement('script');
-                        script.type = 'text/javascript';
-                        script.text = `
-                            (function() {
-                                try {
-                                    // Add control buttons container
-                                    var btnContainer = document.createElement('div');
-                                    btnContainer.style.cssText = 'position:fixed;top:10px;right:10px;z-index:9999;display:flex;gap:8px;';
-                                    
-                                    // Back button
-                                    var backBtn = document.createElement('button');
-                                    backBtn.style.cssText = 'background:#6b7280;color:white;padding:12px 20px;border:none;border-radius:8px;cursor:pointer;font-size:16px;font-family:sans-serif;box-shadow:0 4px 6px rgba(0,0,0,0.1);';
-                                    backBtn.textContent = '← Back';
-                                    backBtn.onclick = function() { 
-                                        try { window.close(); } catch(e) { history.back(); }
-                                    };
-                                    
-                                    // Print button
-                                    var printBtn = document.createElement('button');
-                                    printBtn.style.cssText = 'background:#2563eb;color:white;padding:12px 24px;border:none;border-radius:8px;cursor:pointer;font-size:16px;font-family:sans-serif;box-shadow:0 4px 6px rgba(0,0,0,0.1);';
-                                    printBtn.textContent = '🖨️ Click to Print';
-                                    printBtn.onclick = function() {
-                                        try {
-                                            window.print();
-                                        } catch(e) {
-                                            alert('Please use the browser menu to print (⋮ > Print)');
-                                        }
-                                    };
-                                    
-                                    btnContainer.appendChild(backBtn);
-                                    btnContainer.appendChild(printBtn);
-                                    
-                                    if (document.body) {
-                                        document.body.insertBefore(btnContainer, document.body.firstChild);
-                                        console.log('✓ Android controls added');
-                                    }
-                                } catch(err) {
-                                    console.error('Button creation error:', err);
-                                }
-                            })();
-                        `;
-                        
-                        if (printWindow.document.body) {
-                            printWindow.document.body.appendChild(script);
-                            console.log('✓ Android print window ready with controls');
-                        }
-                    } catch(err) {
-                        console.error('Script injection error:', err);
-                    }
-                }, 500);
+                console.log('✓ Android print window opened');
                 
             } catch(err) {
                 console.error('❌ Android print error:', err);

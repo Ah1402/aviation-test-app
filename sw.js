@@ -1,6 +1,6 @@
 // Aviation Test App - Service Worker
-// Version 4.1.3 - Fixed Android print crashes with safer DOM handling
-const CACHE_VERSION = 'v4.1.3';
+// Version 4.1.4 - Fixed Android print with inline script injection
+const CACHE_VERSION = 'v4.1.4';
 const CACHE_NAME = `aviation-test-${CACHE_VERSION}`;
 const DATA_CACHE = `aviation-data-${CACHE_VERSION}`;
 
