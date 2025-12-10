@@ -1,6 +1,6 @@
 // Aviation Test App - Service Worker
-// Version 2.4.0 - TESTING VISIBLE NOTIFICATIONS
-const CACHE_VERSION = 'v2.4.0';
+// Version 2.5.0 - Fixed Android & iOS Push Notifications
+const CACHE_VERSION = 'v2.5.0';
 const CACHE_NAME = `aviation-test-${CACHE_VERSION}`;
 const DATA_CACHE = `aviation-data-${CACHE_VERSION}`;
 
@@ -245,7 +245,7 @@ self.addEventListener('message', event => {
   }
 });
 
-// Push notification support
+// Push notification support - Enhanced for mobile devices
 self.addEventListener('push', event => {
   console.log('[ServiceWorker] Push notification received');
   
@@ -259,54 +259,72 @@ self.addEventListener('push', event => {
   }
   
   const title = data.title || 'Aviation Test App';
+  
+  // Build notification options with mobile compatibility
   const options = {
     body: data.body || 'New notification from Aviation Test App',
-    icon: './logo-192.png',
-    badge: './logo-192.png',
-    vibrate: [200, 100, 200],
-    data: data.data || {},
-    actions: data.actions || [
-      { action: 'open', title: 'Open App' },
-      { action: 'close', title: 'Close' }
-    ]
+    icon: '/logo-192.png',
+    badge: '/logo-192.png',
+    tag: data.tag || 'default',
+    requireInteraction: false,
+    silent: false,
+    data: {
+      url: data.url || '/',
+      timestamp: Date.now(),
+      ...data.data
+    }
   };
+  
+  // Add vibration for Android (iOS doesn't support it)
+  if (self.clients && self.clients.matchAll) {
+    options.vibrate = [200, 100, 200];
+    options.actions = [
+      { action: 'open', title: 'Open App', icon: '/logo-192.png' }
+    ];
+  }
   
   event.waitUntil(
     self.registration.showNotification(title, options)
+      .then(() => console.log('[ServiceWorker] Notification displayed'))
+      .catch(err => console.error('[ServiceWorker] Notification failed:', err))
   );
 });
 
-// Handle notification clicks
+// Handle notification clicks - Enhanced for mobile
 self.addEventListener('notificationclick', event => {
   console.log('[ServiceWorker] Notification clicked:', event.action);
   
   event.notification.close();
   
-  if (event.action === 'close') {
-    return;
-  }
+  // Get the URL from notification data or use default
+  const urlToOpen = event.notification.data?.url || '/';
   
-  // If it's an update notification, reload the page
-  const isUpdateNotification = event.notification.tag === 'app-update';
-  
-  // Open the app
   event.waitUntil(
-    clients.matchAll({ type: 'window', includeUncontrolled: true })
-      .then(clientList => {
-        // Check if app is already open
-        for (const client of clientList) {
-          if (client.url.includes(self.registration.scope) && 'focus' in client) {
-            // If update notification, reload the page
-            if (isUpdateNotification) {
-              return client.navigate(client.url).then(c => c.focus());
-            }
-            return client.focus();
-          }
+    self.clients.matchAll({
+      type: 'window',
+      includeUncontrolled: true
+    }).then(clientList => {
+      console.log('[ServiceWorker] Found', clientList.length, 'client windows');
+      
+      // Check if there's already a window open
+      for (let i = 0; i < clientList.length; i++) {
+        const client = clientList[i];
+        console.log('[ServiceWorker] Client URL:', client.url);
+        
+        // If we find an open window, focus it
+        if (client.url.includes(self.registration.scope) && 'focus' in client) {
+          console.log('[ServiceWorker] Focusing existing window');
+          return client.focus();
         }
-        // If not open, open new window
-        if (clients.openWindow) {
-          return clients.openWindow('/');
-        }
-      })
+      }
+      
+      // If no window is open, open a new one
+      if (self.clients.openWindow) {
+        console.log('[ServiceWorker] Opening new window:', urlToOpen);
+        return self.clients.openWindow(urlToOpen);
+      }
+    }).catch(err => {
+      console.error('[ServiceWorker] Error handling notification click:', err);
+    })
   );
 });

@@ -25330,32 +25330,90 @@ html {
         // Helper function to send notifications through service worker
         window.sendAppNotification = async function(title, body, tag = 'app-notification') {
             try {
+                console.log('🔔 Attempting to send notification:', title);
+                
                 // Check if notifications are supported
                 if (!('serviceWorker' in navigator) || !('Notification' in window)) {
-                    console.log('Notifications not supported on this device');
+                    console.log('❌ Notifications not supported on this device');
                     return false;
                 }
                 
                 // Check current permission status
                 if (Notification.permission === 'denied') {
-                    console.log('Notification permission denied');
+                    console.log('❌ Notification permission denied');
                     return false;
                 }
                 
                 // Only request if permission is default (not yet asked)
                 if (Notification.permission === 'default') {
+                    console.log('🔔 Requesting notification permission...');
                     const permission = await Notification.requestPermission();
+                    console.log('Permission result:', permission);
                     if (permission !== 'granted') {
                         console.log('User declined notification permission');
                         return false;
                     }
                 }
                 
+                console.log('✅ Permission granted, preparing notification...');
+                
                 // Wait for service worker to be ready
                 const registration = await navigator.serviceWorker.ready;
+                console.log('✅ Service worker ready');
                 
-                // Show notification through service worker (works on all devices)
-                await registration.showNotification(title, {
+                // Detect device type
+                const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+                const isAndroid = /Android/.test(navigator.userAgent);
+                console.log('Device: iOS=' + isIOS + ', Android=' + isAndroid);
+                
+                // Use absolute URLs for icons (required for Android)
+                const iconUrl = window.location.origin + window.location.pathname.replace(/\/[^/]*$/, '') + '/logo-192.png';
+                const badgeUrl = window.location.origin + window.location.pathname.replace(/\/[^/]*$/, '') + '/logo-192.png';
+                
+                // Build notification options with mobile compatibility
+                const options = {
+                    body: body,
+                    icon: iconUrl,
+                    badge: badgeUrl,
+                    tag: tag,
+                    requireInteraction: false,
+                    renotify: true,
+                    silent: false,
+                    data: { 
+                        url: window.location.href,
+                        timestamp: Date.now(),
+                        tag: tag
+                    }
+                };
+                
+                // Add vibration for Android (iOS doesn't support it)
+                if (isAndroid) {
+                    options.vibrate = [200, 100, 200];
+                    // Android-specific options
+                    options.actions = [
+                        { action: 'open', title: 'Open' }
+                    ];
+                }
+                
+                // iOS has limited notification support
+                if (isIOS) {
+                    console.log('🍎 iOS device - using simplified notification');
+                }
+                
+                // Show notification through service worker
+                await registration.showNotification(title, options);
+                
+                console.log('✅ Notification sent successfully:', title);
+                return true;
+            } catch (err) {
+                console.error('❌ Notification error:', err);
+                console.error('Error details:', err.message, err.stack);
+                
+                // Fallback: try browser notification if service worker fails
+                if (Notification.permission === 'granted') {
+                    try {
+                        console.log('🔄 Trying fallback browser notification...');
+                        new Notification(title, {
                     body: body,
                     icon: './logo-192.png',
                     badge: './logo-192.png',
@@ -29896,8 +29954,8 @@ document.addEventListener('DOMContentLoaded', function() {
     
     console.log('œ… Complete Test and Custom Test features loaded');
 })();
-
-</script></body>
+</script>
+</body>
 </html>
 
 
