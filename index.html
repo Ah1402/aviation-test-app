@@ -28833,14 +28833,29 @@ AviationTestApp.prototype.createPrintFrame = function(html) {
             const printScript = printWindow.document.createElement('script');
             printScript.textContent = `
                 window.addEventListener('load', function() {
-                    // Add print button for iOS
-                    var printBtn = document.createElement('div');
-                    printBtn.style.cssText = 'position:fixed;top:10px;right:10px;z-index:9999;background:#2563eb;color:white;padding:12px 24px;border-radius:8px;cursor:pointer;font-size:16px;font-family:sans-serif;box-shadow:0 4px 6px rgba(0,0,0,0.1);';
+                    // Add control buttons container for iOS
+                    var btnContainer = document.createElement('div');
+                    btnContainer.style.cssText = 'position:fixed;top:10px;right:10px;z-index:9999;display:flex;gap:8px;';
+                    
+                    // Back button
+                    var backBtn = document.createElement('button');
+                    backBtn.style.cssText = 'background:#6b7280;color:white;padding:12px 20px;border:none;border-radius:8px;cursor:pointer;font-size:16px;font-family:sans-serif;box-shadow:0 4px 6px rgba(0,0,0,0.1);';
+                    backBtn.textContent = '← Back';
+                    backBtn.onclick = function() {
+                        window.close();
+                    };
+                    
+                    // Print button
+                    var printBtn = document.createElement('button');
+                    printBtn.style.cssText = 'background:#2563eb;color:white;padding:12px 24px;border:none;border-radius:8px;cursor:pointer;font-size:16px;font-family:sans-serif;box-shadow:0 4px 6px rgba(0,0,0,0.1);';
                     printBtn.textContent = '🖨️ Click to Print';
                     printBtn.onclick = function() {
                         window.print();
                     };
-                    document.body.insertBefore(printBtn, document.body.firstChild);
+                    
+                    btnContainer.appendChild(backBtn);
+                    btnContainer.appendChild(printBtn);
+                    document.body.insertBefore(btnContainer, document.body.firstChild);
                     
                     // Also try automatic print (works on some browsers)
                     setTimeout(function() {
