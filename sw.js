@@ -1,6 +1,6 @@
 // Aviation Test App - Service Worker
-// Version 4.1.2 - Added Back button to Android print preview (same as iOS)
-const CACHE_VERSION = 'v4.1.2';
+// Version 4.1.3 - Fixed Android print crashes with safer DOM handling
+const CACHE_VERSION = 'v4.1.3';
 const CACHE_NAME = `aviation-test-${CACHE_VERSION}`;
 const DATA_CACHE = `aviation-data-${CACHE_VERSION}`;
 
