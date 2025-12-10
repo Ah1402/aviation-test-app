@@ -28638,18 +28638,6 @@ AviationTestApp.prototype.buildPrintStyles = function() {
                 font-size: 10pt; 
             }
             
-            .page-section {
-                margin-bottom: 20px;
-            }
-            
-            .page-header {
-                font-size: 9pt;
-                color: #6b7280;
-                margin-bottom: 12px;
-                padding-bottom: 6px;
-                border-bottom: 1px solid #e5e7eb;
-            }
-            
             .question { 
                 margin-bottom: 18px; 
                 padding: 0;
@@ -28790,42 +28778,23 @@ AviationTestApp.prototype.printCurrentTest = function() {
     const questions = test.questions;
     const totalQuestions = questions.length;
     
-    // Split questions into pages of 10
-    const questionsPerPage = 10;
-    let pagesHtml = '';
-    
-    for (let pageNum = 0; pageNum < Math.ceil(totalQuestions / questionsPerPage); pageNum++) {
-        const startIdx = pageNum * questionsPerPage;
-        const endIdx = Math.min(startIdx + questionsPerPage, totalQuestions);
-        const pageQuestions = questions.slice(startIdx, endIdx);
-        
-        const questionsHtml = pageQuestions.map((q, relIdx) => {
-            const absIdx = startIdx + relIdx;
-            const opts = (q.options || []).map((opt, idx) => {
-                const letter = (typeof window !== 'undefined' && window.safeLetter) ? window.safeLetter(idx) : String.fromCharCode(65 + idx);
-                return `<div class="opt"><div><strong>${letter}.</strong></div><div>${opt}</div></div>`;
-            }).join('');
-            
-            // NO explanation in test print
-            
-            return `
-                <div class="question">
-                    <div class="q-title">Question ${absIdx + 1}</div>
-                    <div class="q-text">${q.question}</div>
-                    <div class="options">${opts}</div>
-                </div>
-            `;
+    // Print all questions continuously without sections
+    const pagesHtml = questions.map((q, idx) => {
+        const opts = (q.options || []).map((opt, optIdx) => {
+            const letter = (typeof window !== 'undefined' && window.safeLetter) ? window.safeLetter(optIdx) : String.fromCharCode(65 + optIdx);
+            return `<div class="opt"><div><strong>${letter}.</strong></div><div>${opt}</div></div>`;
         }).join('');
         
-        pagesHtml += `
-            <div class="page-section">
-                <div class="page-header">
-                    ${this.escapeHtml(test.name)} - Page ${pageNum + 1} of ${Math.ceil(totalQuestions / questionsPerPage)} (Questions ${startIdx + 1}-${endIdx})
-                </div>
-                ${questionsHtml}
+        // NO explanation in test print
+        
+        return `
+            <div class="question">
+                <div class="q-title">Question ${idx + 1}</div>
+                <div class="q-text">${q.question}</div>
+                <div class="options">${opts}</div>
             </div>
         `;
-    }
+    }).join('');
     
     // Generate answer key
     const answerKeyHtml = this.generateAnswerKey(questions);
