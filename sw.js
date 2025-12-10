@@ -1,6 +1,6 @@
 // Aviation Test App - Service Worker
-// Version 4.0.1 - Fix 404 on Android (Complete Theme Fix)
-const CACHE_VERSION = 'v4.0.1';
+// Version 4.0.2 - Fix Android Print Crashes (Blob URL Method)
+const CACHE_VERSION = 'v4.0.2';
 const CACHE_NAME = `aviation-test-${CACHE_VERSION}`;
 const DATA_CACHE = `aviation-data-${CACHE_VERSION}`;
 

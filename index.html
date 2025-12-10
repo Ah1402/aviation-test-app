@@ -28811,28 +28811,79 @@ AviationTestApp.prototype.createPrintFrame = function(html) {
         const isAndroid = /Android/i.test(navigator.userAgent);
         
         if (isAndroid) {
-            // Android: Use new window approach for better compatibility
-            const printWindow = window.open('', '_blank');
-            if (!printWindow) {
-                alert('Please allow pop-ups to print. Check your browser settings.');
-                return;
-            }
+            // Android: Use blob URL approach for better stability
+            console.log('📱 Android detected - using blob print method');
             
-            printWindow.document.open();
-            printWindow.document.write(html);
-            printWindow.document.close();
-            
-            // Wait for content to load before printing
-            if (printWindow.document.readyState === 'complete') {
-                printWindow.focus();
-                setTimeout(() => printWindow.print(), 500);
-            } else {
+            try {
+                // Create a blob from the HTML
+                const blob = new Blob([html], { type: 'text/html' });
+                const blobUrl = URL.createObjectURL(blob);
+                
+                // Open in new window
+                const printWindow = window.open(blobUrl, '_blank');
+                
+                if (!printWindow) {
+                    console.error('Pop-up blocked');
+                    alert('Please allow pop-ups to print. Check your browser settings.');
+                    URL.revokeObjectURL(blobUrl);
+                    return;
+                }
+                
+                console.log('✓ Print window opened');
+                
+                // Wait for window to load, then print
                 printWindow.addEventListener('load', function() {
+                    console.log('✓ Content loaded');
                     setTimeout(() => {
-                        printWindow.focus();
-                        printWindow.print();
-                    }, 500);
+                        try {
+                            printWindow.focus();
+                            printWindow.print();
+                            console.log('✓ Print dialog opened');
+                            
+                            // Clean up blob URL after a delay
+                            setTimeout(() => {
+                                URL.revokeObjectURL(blobUrl);
+                                console.log('✓ Blob URL cleaned up');
+                            }, 1000);
+                        } catch (printErr) {
+                            console.error('Print error:', printErr);
+                            alert('Print failed: ' + printErr.message);
+                            URL.revokeObjectURL(blobUrl);
+                        }
+                    }, 800);
                 });
+                
+                // Fallback timeout in case load event doesn't fire
+                setTimeout(() => {
+                    if (printWindow.document.readyState === 'complete') {
+                        console.log('✓ Using fallback print trigger');
+                        try {
+                            printWindow.focus();
+                            printWindow.print();
+                        } catch (err) {
+                            console.error('Fallback print failed:', err);
+                        }
+                    }
+                }, 2000);
+                
+            } catch (blobErr) {
+                console.error('Blob method failed, trying document.write:', blobErr);
+                
+                // Fallback to document.write method
+                const printWindow = window.open('', '_blank');
+                if (!printWindow) {
+                    alert('Please allow pop-ups to print.');
+                    return;
+                }
+                
+                printWindow.document.open();
+                printWindow.document.write(html);
+                printWindow.document.close();
+                
+                setTimeout(() => {
+                    printWindow.focus();
+                    printWindow.print();
+                }, 1000);
             }
         } else {
             // iOS/Desktop: Use iframe approach
@@ -28858,12 +28909,19 @@ AviationTestApp.prototype.createPrintFrame = function(html) {
                     frame.contentWindow.print();
                 }
                 // Cleanup after a short delay
-                setTimeout(() => document.body.removeChild(frame), 1000);
+                setTimeout(() => {
+                    try {
+                        document.body.removeChild(frame);
+                    } catch (e) {
+                        console.log('Frame already removed');
+                    }
+                }, 1000);
             }, 100);
         }
     } catch (e) {
-        console.error('Print failed', e);
-        alert('Printing failed. Please try again.');
+        console.error('❌ Print failed:', e);
+        console.error('Error stack:', e.stack);
+        alert('Printing failed: ' + e.message + '. Please try again or use browser print (Ctrl+P).');
     }
 };
 
