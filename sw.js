@@ -1,6 +1,6 @@
 // Aviation Test App - Service Worker
-// Version 4.2.1 - Faster Android print (300ms)
-const CACHE_VERSION = 'v4.2.1';
+// Version 4.3.0 - Android PWA in-app preview with iframe
+const CACHE_VERSION = 'v4.3.0';
 const CACHE_NAME = `aviation-test-${CACHE_VERSION}`;
 const DATA_CACHE = `aviation-data-${CACHE_VERSION}`;
 
