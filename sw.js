@@ -1,6 +1,6 @@
 // Aviation Test App - Service Worker
-// Version 4.0.2 - Fix Android Print Crashes (Blob URL Method)
-const CACHE_VERSION = 'v4.0.2';
+// Version 4.1.0 - Fixed iOS automatic print blocking & Android app stability
+const CACHE_VERSION = 'v4.1.0';
 const CACHE_NAME = `aviation-test-${CACHE_VERSION}`;
 const DATA_CACHE = `aviation-data-${CACHE_VERSION}`;
 

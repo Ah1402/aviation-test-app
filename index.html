@@ -28807,86 +28807,87 @@ function showSection(sectionName) {
 // Printing helpers are added as methods on the class prototype
 AviationTestApp.prototype.createPrintFrame = function(html) {
     try {
-        // Detect Android devices
+        // Detect device types
         const isAndroid = /Android/i.test(navigator.userAgent);
+        const isIOS = /iPhone|iPad|iPod/i.test(navigator.userAgent);
+        const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
         
-        if (isAndroid) {
-            // Android: Use blob URL approach for better stability
-            console.log('📱 Android detected - using blob print method');
+        console.log('Print request - Android:', isAndroid, 'iOS:', isIOS, 'Safari:', isSafari);
+        
+        // iOS/Safari: Must use visible window due to print restrictions
+        if (isIOS || isSafari) {
+            console.log('📱 iOS/Safari detected - opening print in new window');
             
-            try {
-                // Create a blob from the HTML
-                const blob = new Blob([html], { type: 'text/html' });
-                const blobUrl = URL.createObjectURL(blob);
-                
-                // Open in new window
-                const printWindow = window.open(blobUrl, '_blank');
-                
-                if (!printWindow) {
-                    console.error('Pop-up blocked');
-                    alert('Please allow pop-ups to print. Check your browser settings.');
-                    URL.revokeObjectURL(blobUrl);
-                    return;
-                }
-                
-                console.log('✓ Print window opened');
-                
-                // Wait for window to load, then print
-                printWindow.addEventListener('load', function() {
-                    console.log('✓ Content loaded');
-                    setTimeout(() => {
-                        try {
-                            printWindow.focus();
-                            printWindow.print();
-                            console.log('✓ Print dialog opened');
-                            
-                            // Clean up blob URL after a delay
-                            setTimeout(() => {
-                                URL.revokeObjectURL(blobUrl);
-                                console.log('✓ Blob URL cleaned up');
-                            }, 1000);
-                        } catch (printErr) {
-                            console.error('Print error:', printErr);
-                            alert('Print failed: ' + printErr.message);
-                            URL.revokeObjectURL(blobUrl);
-                        }
-                    }, 800);
-                });
-                
-                // Fallback timeout in case load event doesn't fire
-                setTimeout(() => {
-                    if (printWindow.document.readyState === 'complete') {
-                        console.log('✓ Using fallback print trigger');
-                        try {
-                            printWindow.focus();
-                            printWindow.print();
-                        } catch (err) {
-                            console.error('Fallback print failed:', err);
-                        }
-                    }
-                }, 2000);
-                
-            } catch (blobErr) {
-                console.error('Blob method failed, trying document.write:', blobErr);
-                
-                // Fallback to document.write method
-                const printWindow = window.open('', '_blank');
-                if (!printWindow) {
-                    alert('Please allow pop-ups to print.');
-                    return;
-                }
-                
-                printWindow.document.open();
-                printWindow.document.write(html);
-                printWindow.document.close();
-                
-                setTimeout(() => {
-                    printWindow.focus();
-                    printWindow.print();
-                }, 1000);
+            // iOS Safari blocks automatic print(), user must trigger manually
+            const printWindow = window.open('', '_blank');
+            if (!printWindow) {
+                alert('Please allow pop-ups to print. Check your browser settings.');
+                return;
             }
+            
+            printWindow.document.open();
+            printWindow.document.write(html);
+            printWindow.document.close();
+            
+            // iOS requires user interaction - show print button
+            const printScript = printWindow.document.createElement('script');
+            printScript.textContent = `
+                window.addEventListener('load', function() {
+                    // Add print button for iOS
+                    var printBtn = document.createElement('div');
+                    printBtn.style.cssText = 'position:fixed;top:10px;right:10px;z-index:9999;background:#2563eb;color:white;padding:12px 24px;border-radius:8px;cursor:pointer;font-size:16px;font-family:sans-serif;box-shadow:0 4px 6px rgba(0,0,0,0.1);';
+                    printBtn.textContent = '🖨️ Click to Print';
+                    printBtn.onclick = function() {
+                        window.print();
+                    };
+                    document.body.insertBefore(printBtn, document.body.firstChild);
+                    
+                    // Also try automatic print (works on some browsers)
+                    setTimeout(function() {
+                        try {
+                            window.print();
+                        } catch(e) {
+                            console.log('Auto-print blocked, use button');
+                        }
+                    }, 500);
+                });
+            `;
+            printWindow.document.head.appendChild(printScript);
+            
+            console.log('✓ Print window opened with manual print button for iOS');
+            
+        } else if (isAndroid) {
+            // Android: Simplified approach - just open in new window
+            console.log('📱 Android detected - using new window method');
+            
+            const printWindow = window.open('', '_blank');
+            if (!printWindow) {
+                alert('Please allow pop-ups to print. Check your browser settings.');
+                return;
+            }
+            
+            printWindow.document.open();
+            printWindow.document.write(html);
+            printWindow.document.close();
+            
+            // Wait and trigger print
+            printWindow.addEventListener('load', function() {
+                setTimeout(() => {
+                    try {
+                        printWindow.focus();
+                        printWindow.print();
+                        console.log('✓ Print triggered on Android');
+                    } catch (err) {
+                        console.error('Print error:', err);
+                        alert('Please use the browser print button (⋮ menu > Print)');
+                    }
+                }, 1000);
+            });
+            
         } else {
-            // iOS/Desktop: Use iframe approach
+            // Desktop: Use iframe approach
+            console.log('🖥️ Desktop detected - using iframe method');
+            
             const frame = document.createElement('iframe');
             frame.style.position = 'fixed';
             frame.style.right = '0';
@@ -28902,13 +28903,11 @@ AviationTestApp.prototype.createPrintFrame = function(html) {
             printDoc.write(html);
             printDoc.close();
 
-            // Give the browser a tick to layout before printing
             setTimeout(() => {
                 if (frame.contentWindow) {
                     frame.contentWindow.focus();
                     frame.contentWindow.print();
                 }
-                // Cleanup after a short delay
                 setTimeout(() => {
                     try {
                         document.body.removeChild(frame);
@@ -28920,8 +28919,7 @@ AviationTestApp.prototype.createPrintFrame = function(html) {
         }
     } catch (e) {
         console.error('❌ Print failed:', e);
-        console.error('Error stack:', e.stack);
-        alert('Printing failed: ' + e.message + '. Please try again or use browser print (Ctrl+P).');
+        alert('Print failed: ' + e.message + '. Please use browser menu: Print (Ctrl+P or ⋮ > Print)');
     }
 };
 
