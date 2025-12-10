@@ -28872,32 +28872,59 @@ AviationTestApp.prototype.createPrintFrame = function(html) {
             console.log('✓ Print window opened with manual print button for iOS');
             
         } else if (isAndroid) {
-            // Android: Automatically trigger system print dialog (HP, Samsung, etc.)
-            console.log('📱 Android detected - triggering system print dialog');
+            // Android: Stable print with system dialog (HP, Samsung, Google Print, etc.)
+            console.log('📱 Android detected - triggering system print preview');
             
-            const printWindow = window.open('', '_blank');
-            if (!printWindow) {
-                alert('Please allow pop-ups to print. Check your browser settings.');
-                return;
-            }
-            
-            printWindow.document.open();
-            printWindow.document.write(html);
-            printWindow.document.close();
-            
-            // Automatically trigger the system print dialog
-            printWindow.addEventListener('load', function() {
-                setTimeout(() => {
+            try {
+                const printWindow = window.open('', '_blank', 'width=device-width');
+                if (!printWindow) {
+                    alert('Please allow pop-ups to print. Check your browser settings.');
+                    return;
+                }
+                
+                // Write content with error handling
+                try {
+                    printWindow.document.open();
+                    printWindow.document.write(html);
+                    printWindow.document.close();
+                } catch (writeErr) {
+                    console.error('Document write error:', writeErr);
+                    printWindow.close();
+                    alert('Print setup failed. Please try again.');
+                    return;
+                }
+                
+                // Trigger system print preview after content loads
+                const triggerPrint = function() {
                     try {
-                        printWindow.focus();
-                        printWindow.print();
-                        console.log('✓ System print dialog triggered on Android');
-                    } catch (err) {
-                        console.error('Print error:', err);
-                        alert('Please use the browser print button (⋮ menu > Print)');
+                        if (printWindow.document.readyState === 'complete') {
+                            printWindow.focus();
+                            printWindow.print();
+                            console.log('✓ System print preview triggered on Android');
+                        } else {
+                            // Retry if not ready
+                            setTimeout(triggerPrint, 100);
+                        }
+                    } catch (printErr) {
+                        console.error('Print trigger error:', printErr);
                     }
-                }, 300);
-            });
+                };
+                
+                // Start print trigger after short delay
+                if (printWindow.document.readyState === 'complete') {
+                    setTimeout(triggerPrint, 200);
+                } else {
+                    printWindow.addEventListener('load', function() {
+                        setTimeout(triggerPrint, 200);
+                    });
+                    // Fallback timeout
+                    setTimeout(triggerPrint, 500);
+                }
+                
+            } catch (err) {
+                console.error('❌ Android print error:', err);
+                alert('Print failed: ' + err.message);
+            }
             
             console.log('✓ Print window opened with controls for Android');
             
