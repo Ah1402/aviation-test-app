@@ -25356,10 +25356,12 @@ html {
                         if (Notification.permission === 'default') {
                             // Check if banner was dismissed recently (within 24 hours)
                             const dismissed = localStorage.getItem('notification-banner-dismissed');
+                            const denied = localStorage.getItem('notification-permission-denied');
                             const now = Date.now();
                             const dayInMs = 24 * 60 * 60 * 1000;
                             
-                            if (!dismissed || (now - parseInt(dismissed)) > dayInMs) {
+                            // Don't show if user explicitly denied permission
+                            if (!denied && (!dismissed || (now - parseInt(dismissed)) > dayInMs)) {
                                 // Show banner after 3 seconds
                                 setTimeout(() => {
                                     const banner = document.getElementById('notification-permission-banner');
@@ -25593,10 +25595,13 @@ html {
     
     // Notification permission banner handlers
     document.getElementById('enable-notifications-btn')?.addEventListener('click', async () => {
+        // Hide banner immediately when user clicks Enable
+        const banner = document.getElementById('notification-permission-banner');
+        if (banner) banner.style.display = 'none';
+        
         try {
             const permission = await Notification.requestPermission();
             if (permission === 'granted') {
-                document.getElementById('notification-permission-banner').style.display = 'none';
                 // Send a test notification
                 if (window.sendAppNotification) {
                     setTimeout(() => {
@@ -25607,6 +25612,16 @@ html {
                         );
                     }, 1000);
                 }
+            } else if (permission === 'denied') {
+                // User denied, don't show banner again
+                localStorage.setItem('notification-permission-denied', 'true');
+            } else {
+                // User dismissed the dialog, show banner again after a delay
+                setTimeout(() => {
+                    if (Notification.permission === 'default' && banner) {
+                        banner.style.display = 'block';
+                    }
+                }, 5000);
             }
         } catch (err) {
             console.error('Failed to enable notifications:', err);
