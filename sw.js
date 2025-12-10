@@ -1,6 +1,6 @@
 // Aviation Test App - Service Worker
-// Version 2.1.0 - Instant Updates & Push Notifications
-const CACHE_VERSION = 'v2.1.0';
+// Version 2.2.0 - Enhanced Update Detection & Notifications
+const CACHE_VERSION = 'v2.2.0';
 const CACHE_NAME = `aviation-test-${CACHE_VERSION}`;
 const DATA_CACHE = `aviation-data-${CACHE_VERSION}`;
 

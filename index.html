@@ -25674,11 +25674,12 @@ html {
     <button id="dismiss-notifications-btn" style="margin:8px 4px 0 4px;padding:8px 16px;border-radius:6px;background:transparent;color:white;border:1px solid white;cursor:pointer">Maybe Later</button>
 </div>
 
-<div id="sw-update-notice" style="display:none;position:fixed;left:12px;right:12px;bottom:78px;background:#10b981;color:white;padding:16px;border-radius:8px;box-shadow:0 8px 24px rgba(16,185,129,0.3);z-index:9999;text-align:center;border:2px solid #059669;animation:slideUp 0.3s ease-out">
-    <strong style="font-size:15px">🚀 Update Available!</strong><br>
-    <span style="font-size:13px;opacity:0.95">A new version is ready with the latest features and improvements.</span><br>
-    <button id="sw-reload-btn" style="margin:10px 4px 0 4px;padding:8px 16px;border-radius:6px;background:white;color:#10b981;border:0;cursor:pointer;font-weight:600;font-size:14px">Update Now</button>
-    <button id="sw-dismiss-btn" style="margin:10px 4px 0 4px;padding:8px 16px;border-radius:6px;background:transparent;color:white;border:1px solid white;cursor:pointer;font-size:14px">Later</button>
+<div id="sw-update-notice" style="display:none;position:fixed;left:50%;transform:translateX(-50%);top:20px;background:#10b981;color:white;padding:20px 24px;border-radius:12px;box-shadow:0 10px 40px rgba(16,185,129,0.5);z-index:99999;text-align:center;border:3px solid #059669;animation:slideDown 0.5s ease-out;max-width:90%;width:400px">
+    <div style="font-size:24px;margin-bottom:8px">🚀</div>
+    <strong style="font-size:17px;display:block;margin-bottom:8px">New Update Available!</strong>
+    <span style="font-size:14px;opacity:0.95;display:block;margin-bottom:16px">A new version is ready with the latest features and improvements.</span>
+    <button id="sw-reload-btn" style="margin:4px;padding:10px 20px;border-radius:8px;background:white;color:#10b981;border:0;cursor:pointer;font-weight:700;font-size:15px;box-shadow:0 2px 8px rgba(0,0,0,0.2)">Update Now ✨</button>
+    <button id="sw-dismiss-btn" style="margin:4px;padding:10px 20px;border-radius:8px;background:transparent;color:white;border:2px solid white;cursor:pointer;font-size:14px;font-weight:600">Later</button>
 </div>
 
 <style>
@@ -25689,6 +25690,16 @@ html {
     }
     to {
         transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes slideDown {
+    from {
+        transform: translate(-50%, -100px);
+        opacity: 0;
+    }
+    to {
+        transform: translate(-50%, 0);
         opacity: 1;
     }
 }
