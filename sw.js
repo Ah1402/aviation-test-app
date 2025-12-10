@@ -1,6 +1,6 @@
 // Aviation Test App - Service Worker
-// Version 2.5.0 - Fixed Android & iOS Push Notifications
-const CACHE_VERSION = 'v2.5.0';
+// Version 2.6.0 - Added Test Notification Button
+const CACHE_VERSION = 'v2.6.0';
 const CACHE_NAME = `aviation-test-${CACHE_VERSION}`;
 const DATA_CACHE = `aviation-data-${CACHE_VERSION}`;
 
