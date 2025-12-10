@@ -1,6 +1,6 @@
 // Aviation Test App - Service Worker
-// Version 4.2.0 - Print Preview with Save as PDF
-const CACHE_VERSION = 'v4.2.0';
+// Version 4.1.0 - Fixed iOS automatic print blocking & Android app stability
+const CACHE_VERSION = 'v4.1.0';
 const CACHE_NAME = `aviation-test-${CACHE_VERSION}`;
 const DATA_CACHE = `aviation-data-${CACHE_VERSION}`;
 

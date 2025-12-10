@@ -28807,129 +28807,119 @@ function showSection(sectionName) {
 // Printing helpers are added as methods on the class prototype
 AviationTestApp.prototype.createPrintFrame = function(html) {
     try {
-        console.log('📄 Opening print preview in new window...');
+        // Detect device types
+        const isAndroid = /Android/i.test(navigator.userAgent);
+        const isIOS = /iPhone|iPad|iPod/i.test(navigator.userAgent);
+        const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
         
-        // Open print preview in new window (works on all devices)
-        const printWindow = window.open('', '_blank', 'width=900,height=700');
-        if (!printWindow) {
-            alert('Please allow pop-ups to view print preview. Check your browser settings.');
-            return;
-        }
+        console.log('Print request - Android:', isAndroid, 'iOS:', isIOS, 'Safari:', isSafari);
         
-        // Add print preview controls to the HTML
-        const previewHTML = html.replace('</head>', `
-            <style>
-                /* Print Preview Controls - hidden when printing */
-                @media screen {
-                    .print-preview-controls {
-                        position: fixed;
-                        top: 0;
-                        left: 0;
-                        right: 0;
-                        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-                        padding: 16px;
-                        box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-                        z-index: 10000;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        gap: 12px;
-                        flex-wrap: wrap;
-                    }
-                    .print-preview-btn {
-                        background: white;
-                        color: #667eea;
-                        border: none;
-                        padding: 12px 24px;
-                        border-radius: 8px;
-                        cursor: pointer;
-                        font-size: 15px;
-                        font-weight: 600;
-                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-                        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-                        transition: all 0.2s;
-                        display: inline-flex;
-                        align-items: center;
-                        gap: 8px;
-                    }
-                    .print-preview-btn:hover {
-                        transform: translateY(-2px);
-                        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-                    }
-                    .print-preview-btn:active {
-                        transform: translateY(0);
-                    }
-                    .btn-primary {
-                        background: #10b981;
-                        color: white;
-                    }
-                    .btn-close {
-                        background: #ef4444;
-                        color: white;
-                    }
-                    .preview-title {
-                        color: white;
-                        font-size: 18px;
-                        font-weight: 600;
-                        margin: 0 16px 0 0;
-                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-                    }
-                    body {
-                        padding-top: 80px !important;
-                    }
-                }
-                
-                /* Hide controls when printing */
-                @media print {
-                    .print-preview-controls {
-                        display: none !important;
-                    }
-                    body {
-                        padding-top: 0 !important;
-                    }
-                }
-            </style>
-            <script>
+        // iOS/Safari: Must use visible window due to print restrictions
+        if (isIOS || isSafari) {
+            console.log('📱 iOS/Safari detected - opening print in new window');
+            
+            // iOS Safari blocks automatic print(), user must trigger manually
+            const printWindow = window.open('', '_blank');
+            if (!printWindow) {
+                alert('Please allow pop-ups to print. Check your browser settings.');
+                return;
+            }
+            
+            printWindow.document.open();
+            printWindow.document.write(html);
+            printWindow.document.close();
+            
+            // iOS requires user interaction - show print button
+            const printScript = printWindow.document.createElement('script');
+            printScript.textContent = `
                 window.addEventListener('load', function() {
-                    // Add print preview controls
-                    var controls = document.createElement('div');
-                    controls.className = 'print-preview-controls';
-                    controls.innerHTML = \`
-                        <span class="preview-title">📄 Print Preview</span>
-                        <button class="print-preview-btn btn-primary" onclick="window.print()">
-                            🖨️ Print or Save as PDF
-                        </button>
-                        <button class="print-preview-btn btn-close" onclick="window.close()">
-                            ✕ Close Preview
-                        </button>
-                    \`;
-                    document.body.insertBefore(controls, document.body.firstChild);
+                    // Add print button for iOS
+                    var printBtn = document.createElement('div');
+                    printBtn.style.cssText = 'position:fixed;top:10px;right:10px;z-index:9999;background:#2563eb;color:white;padding:12px 24px;border-radius:8px;cursor:pointer;font-size:16px;font-family:sans-serif;box-shadow:0 4px 6px rgba(0,0,0,0.1);';
+                    printBtn.textContent = '🖨️ Click to Print';
+                    printBtn.onclick = function() {
+                        window.print();
+                    };
+                    document.body.insertBefore(printBtn, document.body.firstChild);
                     
-                    // Add keyboard shortcuts
-                    document.addEventListener('keydown', function(e) {
-                        if (e.key === 'Escape') {
-                            window.close();
-                        } else if ((e.ctrlKey || e.metaKey) && e.key === 'p') {
-                            e.preventDefault();
+                    // Also try automatic print (works on some browsers)
+                    setTimeout(function() {
+                        try {
                             window.print();
+                        } catch(e) {
+                            console.log('Auto-print blocked, use button');
                         }
-                    });
-                    
-                    console.log('✓ Print preview ready');
-                    console.log('💡 Tip: Use Ctrl+P or click "Print or Save as PDF" to print/save');
+                    }, 500);
                 });
-            </script>
-        </head>`);
-        
-        printWindow.document.open();
-        printWindow.document.write(previewHTML);
-        printWindow.document.close();
-        
-        console.log('✓ Print preview window opened');
-        
+            `;
+            printWindow.document.head.appendChild(printScript);
+            
+            console.log('✓ Print window opened with manual print button for iOS');
+            
+        } else if (isAndroid) {
+            // Android: Simplified approach - just open in new window
+            console.log('📱 Android detected - using new window method');
+            
+            const printWindow = window.open('', '_blank');
+            if (!printWindow) {
+                alert('Please allow pop-ups to print. Check your browser settings.');
+                return;
+            }
+            
+            printWindow.document.open();
+            printWindow.document.write(html);
+            printWindow.document.close();
+            
+            // Wait and trigger print
+            printWindow.addEventListener('load', function() {
+                setTimeout(() => {
+                    try {
+                        printWindow.focus();
+                        printWindow.print();
+                        console.log('✓ Print triggered on Android');
+                    } catch (err) {
+                        console.error('Print error:', err);
+                        alert('Please use the browser print button (⋮ menu > Print)');
+                    }
+                }, 1000);
+            });
+            
+        } else {
+            // Desktop: Use iframe approach
+            console.log('🖥️ Desktop detected - using iframe method');
+            
+            const frame = document.createElement('iframe');
+            frame.style.position = 'fixed';
+            frame.style.right = '0';
+            frame.style.bottom = '0';
+            frame.style.width = '0';
+            frame.style.height = '0';
+            frame.style.border = '0';
+            document.body.appendChild(frame);
+
+            const doc = frame.contentWindow || frame.contentDocument;
+            const printDoc = doc.document || doc;
+            printDoc.open();
+            printDoc.write(html);
+            printDoc.close();
+
+            setTimeout(() => {
+                if (frame.contentWindow) {
+                    frame.contentWindow.focus();
+                    frame.contentWindow.print();
+                }
+                setTimeout(() => {
+                    try {
+                        document.body.removeChild(frame);
+                    } catch (e) {
+                        console.log('Frame already removed');
+                    }
+                }, 1000);
+            }, 100);
+        }
     } catch (e) {
-        console.error('❌ Print preview failed:', e);
-        alert('Print preview failed: ' + e.message + '. Please try again or use browser menu: Print (Ctrl+P)');
+        console.error('❌ Print failed:', e);
+        alert('Print failed: ' + e.message + '. Please use browser menu: Print (Ctrl+P or ⋮ > Print)');
     }
 };
 
