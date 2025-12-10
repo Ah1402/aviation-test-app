@@ -25267,15 +25267,26 @@ html {
     <script>
         // Only register service worker if not using file:// protocol
         function showSWUpdate() {
+            console.log('🔔 Showing update banner...');
             const el = document.getElementById('sw-update-notice');
-            if (!el) return;
+            if (!el) {
+                console.error('❌ Update banner element not found!');
+                return;
+            }
             el.style.display = 'block';
+            console.log('✅ Update banner is now visible');
+            
+            // Also scroll to make it visible if needed
+            setTimeout(() => {
+                el.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            }, 100);
         }
 
         function hideSWUpdate() {
             const el = document.getElementById('sw-update-notice');
             if (!el) return;
             el.style.display = 'none';
+            console.log('Update banner hidden');
         }
 
         function showOfflineReadyNotification() {
@@ -25436,21 +25447,34 @@ html {
 
                     registration.addEventListener('updatefound', () => {
                         const newWorker = registration.installing;
+                        console.log('🔍 Update detected - new worker installing...');
                         if (newWorker) {
                             newWorker.addEventListener('statechange', () => {
+                                console.log('Service Worker state:', newWorker.state);
                                 if (newWorker.state === 'installed') {
                                     if (navigator.serviceWorker.controller) {
-                                        // New update available - show immediately
+                                        // New update available - show BOTH banner and notification
                                         console.log('✓ New version available!');
+                                        
+                                        // Show in-app banner immediately
                                         showSWUpdate();
                                         
-                                        // Show notification using service worker for cross-device compatibility
+                                        // Send push notification (works even if app is in background)
                                         if (window.sendAppNotification) {
+                                            console.log('📱 Sending update notification...');
                                             window.sendAppNotification(
                                                 'Update Available! 🚀',
-                                                'A new version of Aviation Test App is ready. Click to update now.',
+                                                'A new version of Aviation Test App is ready. Tap to update now and get the latest features!',
                                                 'app-update'
-                                            );
+                                            ).then(sent => {
+                                                if (sent) {
+                                                    console.log('✅ Update notification sent successfully');
+                                                } else {
+                                                    console.warn('⚠️ Update notification failed to send');
+                                                }
+                                            });
+                                        } else {
+                                            console.warn('⚠️ sendAppNotification not available');
                                         }
                                     } else {
                                         // First install, content is cached
@@ -25471,6 +25495,36 @@ html {
                 console.log('Service Worker controller changed - reloading to apply update');
                 window.location.reload();
             });
+            
+            // Manual update check function (for testing)
+            window.checkForAppUpdate = async function() {
+                console.log('🔍 Manually checking for updates...');
+                try {
+                    const registration = await navigator.serviceWorker.getRegistration();
+                    if (registration) {
+                        await registration.update();
+                        console.log('✓ Update check complete');
+                        
+                        if (registration.waiting) {
+                            console.log('📦 Update is waiting to be installed');
+                            showSWUpdate();
+                            if (window.sendAppNotification) {
+                                window.sendAppNotification(
+                                    'Update Ready! 🚀',
+                                    'A new version is waiting. Tap Update Now to get the latest features!',
+                                    'manual-update-check'
+                                );
+                            }
+                        } else if (registration.installing) {
+                            console.log('⏳ Update is currently installing...');
+                        } else {
+                            console.log('✅ App is up to date!');
+                        }
+                    }
+                } catch (err) {
+                    console.error('Update check failed:', err);
+                }
+            };
 
             // Motivational notification system
             if ('Notification' in window) {
@@ -25620,10 +25674,25 @@ html {
     <button id="dismiss-notifications-btn" style="margin:8px 4px 0 4px;padding:8px 16px;border-radius:6px;background:transparent;color:white;border:1px solid white;cursor:pointer">Maybe Later</button>
 </div>
 
-<div id="sw-update-notice" style="display:none;position:fixed;left:12px;right:12px;bottom:78px;background:#bef264;color:#064e3b;padding:12px;border-radius:8px;box-shadow:0 6px 18px rgba(2,6,23,0.08);z-index:9999;text-align:center">
-    A new version is available. <button id="sw-reload-btn" style="margin-left:8px;padding:6px 10px;border-radius:6px;background:#065f46;color:#fff;border:0;cursor:pointer">Reload</button>
-    <button id="sw-dismiss-btn" style="margin-left:8px;padding:6px 10px;border-radius:6px;background:transparent;color:#064e3b;border:1px solid #064e3b;cursor:pointer">Dismiss</button>
+<div id="sw-update-notice" style="display:none;position:fixed;left:12px;right:12px;bottom:78px;background:#10b981;color:white;padding:16px;border-radius:8px;box-shadow:0 8px 24px rgba(16,185,129,0.3);z-index:9999;text-align:center;border:2px solid #059669;animation:slideUp 0.3s ease-out">
+    <strong style="font-size:15px">🚀 Update Available!</strong><br>
+    <span style="font-size:13px;opacity:0.95">A new version is ready with the latest features and improvements.</span><br>
+    <button id="sw-reload-btn" style="margin:10px 4px 0 4px;padding:8px 16px;border-radius:6px;background:white;color:#10b981;border:0;cursor:pointer;font-weight:600;font-size:14px">Update Now</button>
+    <button id="sw-dismiss-btn" style="margin:10px 4px 0 4px;padding:8px 16px;border-radius:6px;background:transparent;color:white;border:1px solid white;cursor:pointer;font-size:14px">Later</button>
 </div>
+
+<style>
+@keyframes slideUp {
+    from {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+</style>
 
 <script>
     document.getElementById('sw-reload-btn')?.addEventListener('click', async () => {
