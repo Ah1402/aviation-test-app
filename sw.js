@@ -1,6 +1,6 @@
 // Aviation Test App - Service Worker
-// Version 3.1.0 - Background Notifications (App Closed)
-const CACHE_VERSION = 'v3.1.0';
+// Version 3.2.0 - TESTING Background Notifications
+const CACHE_VERSION = 'v3.2.0';
 const CACHE_NAME = `aviation-test-${CACHE_VERSION}`;
 const DATA_CACHE = `aviation-data-${CACHE_VERSION}`;
 
@@ -63,7 +63,8 @@ self.addEventListener('install', event => {
 
 // Activate event - clean up old caches and take control
 self.addEventListener('activate', event => {
-  console.log('[ServiceWorker] Activating version', CACHE_VERSION);
+  console.log('[ServiceWorker] ✨ ACTIVATING NEW VERSION:', CACHE_VERSION);
+  console.log('[ServiceWorker] This is a NEW UPDATE! Will send notification...');
   
   event.waitUntil(
     caches.keys().then(cacheNames => {
@@ -79,31 +80,33 @@ self.addEventListener('activate', event => {
         })
       );
     }).then(() => {
-      console.log('[ServiceWorker] Activation complete');
+      console.log('[ServiceWorker] ✅ Activation complete');
+      console.log('[ServiceWorker] 📱 Attempting to send notification NOW...');
       
-      // Send notification about the update - WORKS EVEN IF APP IS CLOSED!
-      console.log('[ServiceWorker] Sending update notification (app can be closed)...');
-      return self.registration.showNotification('Update Installed! 🎉', {
-        body: 'Aviation Test App has been updated to the latest version. Open the app to see what\'s new!',
+      // Try to send notification - this works even if app is closed on Android
+      // On iOS, it only works if app is in background (not completely terminated)
+      return self.registration.showNotification('New Update Available! 🚀', {
+        body: 'Aviation Test App v' + CACHE_VERSION + ' is now installed and ready to use!',
         icon: '/logo-192.png',
         badge: '/logo-192.png',
-        tag: 'sw-activation-update',
-        requireInteraction: true,  // Keeps notification visible
-        vibrate: [200, 100, 200],
+        tag: 'update-v' + CACHE_VERSION,
+        requireInteraction: true,  // Keeps notification visible until user interacts
+        vibrate: [300, 200, 300],  // Stronger vibration
+        renotify: true,  // Force notification even if tag exists
+        silent: false,
+        timestamp: Date.now(),
         data: {
           url: '/',
-          timestamp: Date.now(),
-          version: CACHE_VERSION
-        },
-        actions: [
-          { action: 'open', title: 'Open App', icon: '/logo-192.png' }
-        ]
+          version: CACHE_VERSION,
+          updateTime: new Date().toISOString()
+        }
       }).then(() => {
-        console.log('[ServiceWorker] Update notification sent (even if app closed)!');
-        // Take control of all pages immediately
+        console.log('[ServiceWorker] ✅✅✅ NOTIFICATION SENT SUCCESSFULLY! ✅✅✅');
+        console.log('[ServiceWorker] Version:', CACHE_VERSION);
         return self.clients.claim();
       }).catch(err => {
-        console.error('[ServiceWorker] Failed to send notification:', err);
+        console.error('[ServiceWorker] ❌ Notification failed:', err);
+        console.error('[ServiceWorker] Error details:', err.message);
         // Still claim clients even if notification fails
         return self.clients.claim();
       });
