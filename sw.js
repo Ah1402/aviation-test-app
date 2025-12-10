@@ -1,6 +1,6 @@
 // Aviation Test App - Service Worker
-// Version 4.2.2 - Fixed Android print crashes with stable system preview
-const CACHE_VERSION = 'v4.2.2';
+// Version 4.2.1 - Faster Android print (300ms)
+const CACHE_VERSION = 'v4.2.1';
 const CACHE_NAME = `aviation-test-${CACHE_VERSION}`;
 const DATA_CACHE = `aviation-data-${CACHE_VERSION}`;
 
