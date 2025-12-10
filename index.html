@@ -28872,34 +28872,70 @@ AviationTestApp.prototype.createPrintFrame = function(html) {
             console.log('✓ Print window opened with manual print button for iOS');
             
         } else if (isAndroid) {
-            // Android: Automatically trigger system print dialog (HP, Samsung, etc.)
-            console.log('📱 Android detected - triggering system print dialog');
-            
-            const printWindow = window.open('', '_blank');
-            if (!printWindow) {
-                alert('Please allow pop-ups to print. Check your browser settings.');
-                return;
-            }
-            
+          // Android: Robust auto print with safe fallbacks
+          console.log('📱 Android detected - triggering browser print preview');
+
+          let printWindow;
+          try {
+            printWindow = window.open('', '_blank');
+          } catch (openErr) {
+            console.error('Open window failed:', openErr);
+          }
+          if (!printWindow) {
+            alert('Please allow pop-ups to print. Check your browser settings.');
+            return;
+          }
+
+          // Write content with guard
+          try {
             printWindow.document.open();
             printWindow.document.write(html);
             printWindow.document.close();
-            
-            // Automatically trigger the system print dialog
-            printWindow.addEventListener('load', function() {
-                setTimeout(() => {
-                    try {
-                        printWindow.focus();
-                        printWindow.print();
-                        console.log('✓ System print dialog triggered on Android');
-                    } catch (err) {
-                        console.error('Print error:', err);
-                        alert('Please use the browser print button (⋮ menu > Print)');
-                    }
-                }, 300);
-            });
-            
-            console.log('✓ Print window opened with controls for Android');
+          } catch (writeErr) {
+            console.error('Write error:', writeErr);
+            try { printWindow.close(); } catch {}
+            alert('Print could not start. Please try again.');
+            return;
+          }
+
+          const triggerPrint = () => {
+            try {
+              printWindow.focus();
+              // Some Android browsers require a short delay before print
+              setTimeout(() => {
+                try {
+                  printWindow.print();
+                  console.log('✓ Browser print preview opened');
+                } catch (printErr) {
+                  console.error('Print call failed:', printErr);
+                  // Fallback: inject a visible Print button
+                  try {
+                    const btn = printWindow.document.createElement('button');
+                    btn.textContent = '🖨️ Tap to open Print';
+                    btn.style.cssText = 'position:fixed;top:10px;right:10px;z-index:99999;background:#2563eb;color:#fff;border:none;padding:12px 16px;border-radius:8px;font-size:16px;box-shadow:0 4px 6px rgba(0,0,0,0.1)';
+                    btn.onclick = function(){
+                      try { printWindow.print(); } catch(e){ alert('Use the browser menu: ⋮ > Print'); }
+                    };
+                    printWindow.document.body.insertBefore(btn, printWindow.document.body.firstChild);
+                    alert('If print preview did not open, tap the blue Print button.');
+                  } catch (injectErr) {
+                    console.error('Inject button failed:', injectErr);
+                    alert('Please use the browser menu: ⋮ > Print');
+                  }
+                }
+              }, 200);
+            } catch (focusErr) {
+              console.error('Focus/print setup failed:', focusErr);
+            }
+          };
+
+          if (printWindow.document.readyState === 'complete') {
+            triggerPrint();
+          } else {
+            printWindow.addEventListener('load', () => triggerPrint());
+            // Fallback in case load doesn't fire due to Android quirks
+            setTimeout(triggerPrint, 800);
+          }
             
         } else {
             // Desktop: Use iframe approach
