@@ -20438,9 +20438,9 @@ window.testData = {
               "decreased weight, increased V1, increased Vr",
               "decreased weight, same V1, increased Vr",
               "decreased weight, same V1, same Vr",
-              "decreased weight, decreased V1, same Vr"
+              "decreased weight, decreased V1, decreased Vr"
             ],
-            "answer": "decreased weight, decreased V1, same Vr",
+            "answer": "decreased weight, decreased V1, decreased Vr",
             "correct": 3,
             "explanation": ""
           },
