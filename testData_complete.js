@@ -10128,6 +10128,22 @@ window.testData = {
             "correct": 2,
             "explanation": ""
           }
+          ,
+          {
+            "category": "instrumentation",
+            "test": 5,
+            "id": 1411,
+            "question": "Which of the following are modes of the GPWS?\ni. Excessive sink rate\nii. Altitude loss after take-off or go-around\niii. Excessive glide slope deviation\niv. High climb rate\nv. Flaps in the incorrect position\nvi. High altitude descent\nvii. Stall",
+            "options": [
+              "i ii iii v",
+              "ii iii v vii",
+              "i ii iii vii",
+              "iii iv v vi"
+            ],
+            "answer": "i ii iii v",
+            "correct": 0,
+            "explanation": "The standard modes of the Ground Proximity Warning System (GPWS) include: Mode 1 (Excessive Sink Rate), Mode 3 (Altitude Loss After Take-off), Mode 4 (Unsafe Terrain Clearance - which monitors Gear and Flap positions), and Mode 5 (Excessive Glide Slope Deviation). High climb rate, high altitude descent, and stall are not GPWS modes (stall is handled by the Stall Warning System)."
+          }
         ]
       }
     ]
