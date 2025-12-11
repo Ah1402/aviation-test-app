@@ -10132,7 +10132,7 @@ window.testData = {
           {
             "category": "instrumentation",
             "test": 5,
-            "id": 1411,
+            "id": 660,
             "question": "Which of the following are modes of the GPWS?\ni. Excessive sink rate\nii. Altitude loss after take-off or go-around\niii. Excessive glide slope deviation\niv. High climb rate\nv. Flaps in the incorrect position\nvi. High altitude descent\nvii. Stall",
             "options": [
               "i ii iii v",
@@ -10160,7 +10160,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-1",
             "test": 1,
-            "id": 660,
+            "id": 661,
             "question": "Due to a mistake in the load sheet the aeroplane is 1000 kg heavier than you believe it to be. As a consequence:",
             "options": [
               "V1 will be later",
@@ -10175,7 +10175,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-1",
             "test": 1,
-            "id": 661,
+            "id": 662,
             "question": "The datum for the balance arms has to be along the longitudinal axis:",
             "options": [
               "between the nose and the tail",
@@ -10190,7 +10190,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-1",
             "test": 1,
-            "id": 662,
+            "id": 663,
             "question": "Performance limited take-off mass may be limited by:",
             "options": [
               "Obstacle clearance and Vmcg",
@@ -10205,7 +10205,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-1",
             "test": 1,
-            "id": 663,
+            "id": 664,
             "question": "Use CAP 696, MRJT 1, fig 4.9. What is the balance arm, the maximum compartment load and the running load for the most aft compartment of the fwd cargo hold?",
             "options": [
               "421.5 cm 3305 kg 13.12 kg per inch",
@@ -10220,7 +10220,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-1",
             "test": 1,
-            "id": 664,
+            "id": 665,
             "question": "If a compartment takes a maximum load of 500 kg, with a running load limit of 350 kg/m and a distribution load limit of 300 kg/m² max, which of the following boxes, each of 500 kg, can be carried? 1. 100 cm x 110 cm x 145 cm 2. 125 cm x 135 cm x 142 cm 3. 120 cm x 140 cm x 143 cm 4. 125 cm x 135 cm x 144 cm",
             "options": [
               "Any one of the boxes if loaded with due care as to its positioning",
@@ -10235,7 +10235,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-1",
             "test": 1,
-            "id": 665,
+            "id": 666,
             "question": "When considering CG position, it must be remembered that it is:",
             "options": [
               "set by the pilot",
@@ -10250,7 +10250,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-1",
             "test": 1,
-            "id": 666,
+            "id": 667,
             "question": "The aeroplane is unstable if:",
             "options": [
               "the CG is forward",
@@ -10265,7 +10265,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-1",
             "test": 1,
-            "id": 667,
+            "id": 668,
             "question": "Define the useful load:",
             "options": [
               "traffic load plus dry operating mass",
@@ -10280,7 +10280,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-1",
             "test": 1,
-            "id": 668,
+            "id": 669,
             "question": "If an aeroplane comes into land below its MSLM but above the PLLM for the arrival airfield: 1. airframe structural damage will occur 2. tyre temperature limits could be exceeded 3. the runway length might be inadequate 4. a go-around might not be achievable 5. brake fade could occur",
             "options": [
               "1 and 5 only",
@@ -10295,7 +10295,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-1",
             "test": 1,
-            "id": 669,
+            "id": 670,
             "question": "The useful load is:",
             "options": [
               "TOM minus fuel mass",
@@ -10310,7 +10310,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-1",
             "test": 1,
-            "id": 670,
+            "id": 671,
             "question": "Determine the position of the CG as a percentage of the MAC given that the balance arm of the CG = 92.5 cm, the leading edge = 70.8 cm and the MAC = 125 cm.",
             "options": [
               "17.5%",
@@ -10325,7 +10325,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-1",
             "test": 1,
-            "id": 671,
+            "id": 672,
             "question": "Prior to departure an MRJT is loaded with maximum fuel of 20100 liter at an SG of 0.78. Calculate the maximum allowable traffic load that can be carried given the following data: PLTOM 67200 kg, PLLM 54200 kg, DOM 34930 kg, Taxi fuel 250 kg, Trip fuel 9250 kg, Contingency and holding fuel 850 kg, Alternate fuel 700 kg.",
             "options": [
               "13092 kg",
@@ -10340,7 +10340,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-1",
             "test": 1,
-            "id": 672,
+            "id": 673,
             "question": "The distance from the datum to the CG is:",
             "options": [
               "the index",
@@ -10355,7 +10355,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-1",
             "test": 1,
-            "id": 673,
+            "id": 674,
             "question": "An aircraft is flying at 1.3VS1g in order to provide an adequate margin above the low speed buffet and transonic speeds. If the 1.3VS1g speed is 180 kt CAS and the mass increases from 285000 kg to 320000 kg, what is the new 1g stalling speed?",
             "options": [
               "146.7 kt, drag will increase and nautical mile per kg fuel burn will decrease",
@@ -10370,7 +10370,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-1",
             "test": 1,
-            "id": 674,
+            "id": 675,
             "question": "Exceeding the Maximum Structural Landing Mass may:",
             "options": [
               "reduce the fatigue life of the landing gear",
@@ -10385,7 +10385,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-1",
             "test": 1,
-            "id": 675,
+            "id": 676,
             "question": "Individual aircraft should be weighed in an air-conditioned hangar:",
             "options": [
               "on entry into service and subsequently every 4 years",
@@ -10400,7 +10400,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-1",
             "test": 1,
-            "id": 676,
+            "id": 677,
             "question": "Which of the following would not affect the CG position?",
             "options": [
               "Cabin crew members performing their normal duties",
@@ -10415,7 +10415,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-1",
             "test": 1,
-            "id": 677,
+            "id": 678,
             "question": "In Mass & Balance terms, what is an index?",
             "options": [
               "A cut down version of a force",
@@ -10437,7 +10437,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-2",
             "test": 2,
-            "id": 678,
+            "id": 679,
             "question": "What is the zero fuel mass?",
             "options": [
               "MSTOM minus fuel to destination minus fuel to alternative airfield",
@@ -10452,7 +10452,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-2",
             "test": 2,
-            "id": 679,
+            "id": 680,
             "question": "An aeroplane develops a serious maintenance problem shortly after take-off and has to return to its departure airfield. In order to land safely the aircraft must jettison fuel. How much fuel must be jettisoned?",
             "options": [
               "Sufficient to reduce the mass to the zero-fuel mass",
@@ -10467,7 +10467,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-2",
             "test": 2,
-            "id": 680,
+            "id": 681,
             "question": "If the actual take-off mass is greater than the performance limited take-off mass:",
             "options": [
               "The performance required by regulation cannot be guaranteed because the safety margins are reduced",
@@ -10482,7 +10482,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-2",
             "test": 2,
-            "id": 681,
+            "id": 682,
             "question": "The maximum structural take-off mass is:",
             "options": [
               "the maximum permissible total aeroplane mass on completion of the refuelling operation",
@@ -10497,7 +10497,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-2",
             "test": 2,
-            "id": 682,
+            "id": 683,
             "question": "The regulated take-off mass:",
             "options": [
               "is the lower of maximum structural take-off mass and the performance limited take-off mass",
@@ -10512,7 +10512,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-2",
             "test": 2,
-            "id": 683,
+            "id": 684,
             "question": "The take-off mass is:",
             "options": [
               "the maximum permissible total aeroplane mass on completion of the refuelling operation",
@@ -10527,7 +10527,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-2",
             "test": 2,
-            "id": 684,
+            "id": 685,
             "question": "The operating mass:",
             "options": [
               "is the lower of the structural mass and the performance limited mass",
@@ -10542,7 +10542,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-2",
             "test": 2,
-            "id": 685,
+            "id": 686,
             "question": "The basic empty mass is the mass of the aeroplane:",
             "options": [
               "plus non-standard items such as lubricating oil, fire extinguishers, emergency oxygen equipment etc.",
@@ -10557,7 +10557,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-2",
             "test": 2,
-            "id": 686,
+            "id": 687,
             "question": "The term 'baggage' means:",
             "options": [
               "excess freight",
@@ -10572,7 +10572,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-2",
             "test": 2,
-            "id": 687,
+            "id": 688,
             "question": "An operator may:",
             "options": [
               "compute the actual mass of passengers and checked baggage by using standard masses given in tables 1, 2 and 3",
@@ -10587,7 +10587,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-2",
             "test": 2,
-            "id": 688,
+            "id": 689,
             "question": "When computing the mass of passengers and baggage: 1. personal belongings and hand baggage must be included 2. infants must be classed as children if they occupy a seat 3. standard masses include infants being carried by an adult 4. table 1, table 2 and table 3 must be used as appropriate if using standard masses for passengers and freight 5. weighing must be carried out immediately prior to boarding and at an adjacent location",
             "options": [
               "1, 2 and 5 only",
@@ -10602,7 +10602,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-2",
             "test": 2,
-            "id": 689,
+            "id": 690,
             "question": "When computing the mass of passengers and baggage for an aircraft with 20 seats or more: 1. standard masses of male and female in table 1 are applicable 2. if there are thirty seats or more, the 'all adult' mass values in table 1 may be used as an alternative 3. holiday charter masses apply to table 1 and table 3 if the charter is solely intended as an exclusive holiday charter 4. the standard mass for checked baggage in table 2 is applicable",
             "options": [
               "1, 2, 3 and 4 are correct",
@@ -10617,7 +10617,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-2",
             "test": 2,
-            "id": 690,
+            "id": 691,
             "question": "Refer to CAP 696 SEP. What is the CG range for normal category operations at a mass of 3000 lb?",
             "options": [
               "79.5 inches to 87.7 inches",
@@ -10632,7 +10632,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-2",
             "test": 2,
-            "id": 691,
+            "id": 692,
             "question": "Refer to CAP 696 SEP. What are the CG limits for utility operations?",
             "options": [
               "fwd. limit = 74 inches to 80.4 inches",
@@ -10647,7 +10647,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-2",
             "test": 2,
-            "id": 692,
+            "id": 693,
             "question": "Refer to CAP 696 SEP. What is the CG at the BEM?",
             "options": [
               "77 inches",
@@ -10662,7 +10662,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-2",
             "test": 2,
-            "id": 693,
+            "id": 694,
             "question": "Refer to CAP 696 SEP. What is the structural load limit for the floor at baggage zone 'C'?",
             "options": [
               "50 lb. per square foot",
@@ -10677,7 +10677,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-2",
             "test": 2,
-            "id": 694,
+            "id": 695,
             "question": "Refer to CAP 696 MRJT. What stabilizer trim setting is required for take-off when the CG is 19% MAC for 5 degrees of take-off flap?",
             "options": [
               "2.75",
@@ -10692,7 +10692,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-2",
             "test": 2,
-            "id": 695,
+            "id": 696,
             "question": "Refer to CAP 696 MRJT. What is the maximum structural take-off mass?",
             "options": [
               "63060 kg",
@@ -10707,7 +10707,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-2",
             "test": 2,
-            "id": 696,
+            "id": 697,
             "question": "Refer to CAP 696 MRJT. What is the CG range for maximum zero fuel mass?",
             "options": [
               "8% MAC to 27% MAC",
@@ -10722,7 +10722,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-2",
             "test": 2,
-            "id": 697,
+            "id": 698,
             "question": "Refer to CAP 696 MRJT. Assuming the MZFM, what is the maximum allowable fuel mass for take-off?",
             "options": [
               "10015 kg",
@@ -10737,7 +10737,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-2",
             "test": 2,
-            "id": 698,
+            "id": 699,
             "question": "Putting in 16,500 litres of fuel with an SG of 0.780 kg/l, and writing 16,500 kg of fuel on the load sheet will result in:",
             "options": [
               "TOD and ASD increasing, and the calculated V2 being too slow",
@@ -10752,7 +10752,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-2",
             "test": 2,
-            "id": 699,
+            "id": 700,
             "question": "If a compartment takes a maximum load of 500 kg, with a running load limit of 350 kg/m and a distribution load limit of 300 kg/m², which of following boxes (each 500 kg) can be carried? 1. 100x110x145cm 2. 125x135x142cm 3. 120x140x143cm 4. 125x135x144cm",
             "options": [
               "Box 1 only",
@@ -10767,7 +10767,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-2",
             "test": 2,
-            "id": 700,
+            "id": 701,
             "question": "Prior to departure an MRJT is loaded with maximum fuel of 20100 liter at an SG of 0.78. Calculate the maximum allowable traffic load given: PLTOM 67200 kg, PLLM 54200 kg, DOM 34930 kg, Taxi fuel 250 kg, Trip fuel 9250 kg, Contingency/holding 850 kg, Alternate 700 kg.",
             "options": [
               "10550 kg",
@@ -10789,7 +10789,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-3",
             "test": 3,
-            "id": 701,
+            "id": 702,
             "question": "Use CAP 696 MEP. What performance class does the aircraft belong to?",
             "options": [
               "Performance Class 'A'",
@@ -10804,7 +10804,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-3",
             "test": 3,
-            "id": 702,
+            "id": 703,
             "question": "Use CAP 696 MEP. Where is the reference datum?",
             "options": [
               "78.4 inches forward of the wing leading edge at the inboard edge of the inboard fuel tank",
@@ -10819,7 +10819,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-3",
             "test": 3,
-            "id": 703,
+            "id": 704,
             "question": "Use CAP 696 MEP. The main wheel is:",
             "options": [
               "19 inches forward of the fwd CG limit at the maximum take-of mass",
@@ -10834,7 +10834,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-3",
             "test": 3,
-            "id": 704,
+            "id": 705,
             "question": "Use CAP 696 MEP. The nose wheel is:",
             "options": [
               "56.7 inches forward of the fwd CG limit at maximum take-off mass",
@@ -10849,7 +10849,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-3",
             "test": 3,
-            "id": 705,
+            "id": 706,
             "question": "Use CAP 696 MEP. What is the minimum fuel mass that must be consumed if the aircraft, having become airborne at maximum weight, decides to abort the fight?",
             "options": [
               "1260 lb",
@@ -10864,7 +10864,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-3",
             "test": 3,
-            "id": 706,
+            "id": 707,
             "question": "Use CAP 696 MEP. If the pilot has a mass of 200 lb, what is the maximum traffic load?",
             "options": [
               "1060 lb",
@@ -10879,7 +10879,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-3",
             "test": 3,
-            "id": 707,
+            "id": 708,
             "question": "Use CAP 696 MEP. Assuming the maximum zero fuel mass and maximum take-off mass, what fuel load can be carried?",
             "options": [
               "38.9 imperial gallons",
@@ -10894,7 +10894,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-3",
             "test": 3,
-            "id": 708,
+            "id": 709,
             "question": "Use CAP 696 MEP. The CG when the TOM is 4300 lb and the corresponding moment is 408500 lb in is:",
             "options": [
               "95 inches",
@@ -10909,7 +10909,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-3",
             "test": 3,
-            "id": 709,
+            "id": 710,
             "question": "Use CAP 696 MEP. If the CG is 86 inches and the TOM is 4100 lb the aircraf is:",
             "options": [
               "just on the forward CG limit",
@@ -10924,7 +10924,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-3",
             "test": 3,
-            "id": 710,
+            "id": 711,
             "question": "Use CAP MRJT. The leading edge of the MAC is given as 625.6 inches aft of the datum. Our MAC is 150 inches long. What is the distance of the CG from the datum if it is found to be 16% of the MAC?",
             "options": [
               "547 inches.",
@@ -10939,7 +10939,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-3",
             "test": 3,
-            "id": 711,
+            "id": 712,
             "question": "Use CAP MRJT. The CG is found to be 652.5 inches aft of the datum. The leading edge of the MAC is given as 625.6 inches aft of the datum. Our MAC is 134.1 inches long. What percentage is the CG of the MAC?",
             "options": [
               "10%.",
@@ -10954,7 +10954,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-3",
             "test": 3,
-            "id": 712,
+            "id": 713,
             "question": "Use CAP MRJT. If a passenger moves from a seat position corresponding to the balance arm at zone D to a position corresponding to the balance arm at zone F, what distance will the passenger have travelled and how many seat rows will he have passed?",
             "options": [
               "255 inches and 8 seat rows.",
@@ -10969,7 +10969,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-3",
             "test": 3,
-            "id": 713,
+            "id": 714,
             "question": "Use CAP MRJT. The balance arm for each of the seat zones is measured from the datum to:",
             "options": [
               "the front border line of the zone.",
@@ -10984,7 +10984,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-3",
             "test": 3,
-            "id": 714,
+            "id": 715,
             "question": "Use CAP MRJT. What stabilizer trim setting is required for take-off when the CG is 15% MAC for 15 degrees of take-off flap?",
             "options": [
               "2.75",
@@ -10999,7 +10999,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-3",
             "test": 3,
-            "id": 715,
+            "id": 716,
             "question": "Use CAP MRJT. Assuming the standard masses have been used for both passengers and baggage, what is the mass of a full passenger and baggage load?",
             "options": [
               "13027 kg",
@@ -11014,7 +11014,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-3",
             "test": 3,
-            "id": 716,
+            "id": 717,
             "question": "Use CAP MRJT. The leading edge of the MAC is given as 625.6 inches aft of the datum. Our MAC is 134.1 inches long. What is the distance of the CG from the datum if it is found to be 34% of the MAC?",
             "options": [
               "681 inches.",
@@ -11029,7 +11029,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-3",
             "test": 3,
-            "id": 717,
+            "id": 718,
             "question": "Use CAP MRJT. The CG is found to be 730.5 inches aft of the datum. Our MAC is 189 inches long. The leading edge of the MAC is given as 625.6 inches aft of the datum. What percentage is the CG of the MAC?",
             "options": [
               "52.4%",
@@ -11044,7 +11044,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-3",
             "test": 3,
-            "id": 718,
+            "id": 719,
             "question": "Use CAP696 SEP1. If the landing mass is 3155 lb and the trip fuel was 40 gallons, what was the ZFM if the fuel tanks held 60 gallons of fuel prior to take-off?",
             "options": [
               "3001 lb",
@@ -11059,7 +11059,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-3",
             "test": 3,
-            "id": 719,
+            "id": 720,
             "question": "Use CAP696 SEP1. Does the retractable landing gear have a significant influence on the CG position?",
             "options": [
               "Yes, the landing gear will adversely affect the CG position.",
@@ -11074,7 +11074,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-3",
             "test": 3,
-            "id": 720,
+            "id": 721,
             "question": "Use CAP696 SEP1. Assuming the weight and access is not a problem, where can a cubic box of mass 500 lb be positioned?",
             "options": [
               "Zone C only",
@@ -11089,7 +11089,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-3",
             "test": 3,
-            "id": 721,
+            "id": 722,
             "question": "Determine the position of the CG as a percentage of the MAC given that the balance arm of the CG is 724 and the MAC balance arms are 517 to 1706:",
             "options": [
               "14.2%",
@@ -11104,7 +11104,7 @@ window.testData = {
           {
             "category": "mass-and-balance",
             "test": 3,
-            "id": 722,
+            "id": 723,
             "question": "Refer to CAP 696 SEP. Where is the reference datum?",
             "options": [
               "74 inches aft of the fwd. CG position",
@@ -11119,7 +11119,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-3",
             "test": 3,
-            "id": 723,
+            "id": 724,
             "question": "Calculate the amount of cargo that could be loaded into the aircraft given the following information and using CAP 696, Section 4, MRJT1, as necessary: Dry Operating Mass 34900 kg, Performance Limited Landing Mass 55000 kg, Trip Fuel 9700 kg, Contingency Fuel 1200 kg, Alternate Fuel 1400 kg, 130 passengers at 84 kg each (10920 kg), 130 bags at 14 kg each (1820 kg).",
             "options": [
               "2860 kg",
@@ -11134,7 +11134,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-3",
             "test": 3,
-            "id": 724,
+            "id": 725,
             "question": "Standard masses for baggage can be used for aircraft with:",
             "options": [
               "9 seats or more",
@@ -11149,7 +11149,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-3",
             "test": 3,
-            "id": 725,
+            "id": 726,
             "question": "Use CAP MRJT. The CG is found to be 652.5 inches aft of the datum. What percentage is the CG of the MAC?",
             "options": [
               "10%.",
@@ -11164,7 +11164,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-3",
             "test": 3,
-            "id": 726,
+            "id": 727,
             "question": "The CG position is:",
             "options": [
               "set by the pilot",
@@ -11179,7 +11179,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-3",
             "test": 3,
-            "id": 727,
+            "id": 728,
             "question": "Use CAP MRJT\nThe balance arm for each of the seat zones is measured from the datum to:",
             "options": [
               "the front border line of the zone.",
@@ -11194,7 +11194,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-3",
             "test": 3,
-            "id": 728,
+            "id": 729,
             "question": "Use CAP696 SEP1\nAssuming the weight and access is not a problem, where can a cubic box of mass 500 lb be positioned if the dimensions are 3.15 ft?",
             "options": [
               "In any of the baggage zones",
@@ -11209,7 +11209,7 @@ window.testData = {
           {
             "category": "mass-and-balance-test-3",
             "test": 3,
-            "id": 729,
+            "id": 730,
             "question": "If the maximum structural landing mass is exceeded:",
             "options": [
               "the aircraft will be unable to get airborne",
@@ -11231,7 +11231,7 @@ window.testData = {
           {
             "category": "mass-balance-test-1",
             "test": 1,
-            "id": 730,
+            "id": 731,
             "question": "How is fuel consumption affected by the C of G position, in terms of air nautical miles per kg?",
             "options": [
               "Decreases with a forward C of G",
@@ -11246,7 +11246,7 @@ window.testData = {
           {
             "category": "mass-balance-test-1",
             "test": 1,
-            "id": 731,
+            "id": 732,
             "question": "When computing the mass of passengers and baggage for an aircraft with 20 seats or more:\n1. standard masses of male and female in table 1 are applicable\n2. if there are thirty seats or more, the 'all adult' mass values in table 1 may be used as an alternative\n3. holiday charter masses apply to table 1 and table 3 if the charter is solely intended as an element of a holiday travel package\n4. holiday flights and holiday charters attract the same mass values",
             "options": [
               "1, 3 and 4 only",
@@ -11274,7 +11274,7 @@ window.testData = {
           {
             "category": "meteorology-test-1",
             "test": 1,
-            "id": 732,
+            "id": 733,
             "question": "What cloud does hail fall from?",
             "options": [
               "Cb",
@@ -11289,7 +11289,7 @@ window.testData = {
           {
             "category": "meteorology-test-1",
             "test": 1,
-            "id": 733,
+            "id": 734,
             "question": "Maximum turbulence associated with the mountain waves is likely to be:",
             "options": [
               "two wavelengths downwind and just above the surface",
@@ -11304,7 +11304,7 @@ window.testData = {
           {
             "category": "meteorology-test-1",
             "test": 1,
-            "id": 734,
+            "id": 735,
             "question": "The significance of lenticular cloud is:",
             "options": [
               "there may be mountain waves present and there will be severe turbulence",
@@ -11319,7 +11319,7 @@ window.testData = {
           {
             "category": "meteorology-test-1",
             "test": 1,
-            "id": 735,
+            "id": 736,
             "question": "When flying through the friction layer on approach to land, if the wind is steady in direction and speed, the crosswind component will:",
             "options": [
               "decrease and the headwind component increase",
@@ -11334,7 +11334,7 @@ window.testData = {
           {
             "category": "meteorology-test-1",
             "test": 1,
-            "id": 736,
+            "id": 737,
             "question": "Mountain waves can occur:",
             "options": [
               "up to a maximum of 5000 ft above the mountains and 50 NM to 100 NM downwind",
@@ -11349,7 +11349,7 @@ window.testData = {
           {
             "category": "meteorology-test-1",
             "test": 1,
-            "id": 737,
+            "id": 738,
             "question": "For mountain waves to form, the wind direction must be near perpendicular to a ridge or range of mountains and the speed must:",
             "options": [
               "decrease with height within a stable layer above the hill",
@@ -11364,7 +11364,7 @@ window.testData = {
           {
             "category": "meteorology-test-1",
             "test": 1,
-            "id": 738,
+            "id": 739,
             "question": "Flight conditions at B1 are likely to be:",
             "options": [
               "smooth",
@@ -11379,7 +11379,7 @@ window.testData = {
           {
             "category": "meteorology-test-1",
             "test": 1,
-            "id": 739,
+            "id": 740,
             "question": "What type of cloud is associated with drizzle?",
             "options": [
               "St",
@@ -11394,7 +11394,7 @@ window.testData = {
           {
             "category": "meteorology-test-1",
             "test": 1,
-            "id": 740,
+            "id": 741,
             "question": "What cloud types are classified as medium cloud?",
             "options": [
               "Ns + Sc",
@@ -11409,7 +11409,7 @@ window.testData = {
           {
             "category": "meteorology-test-1",
             "test": 1,
-            "id": 741,
+            "id": 742,
             "question": "The most extreme turbulence can occur:",
             "options": [
               "at B1",
@@ -11424,7 +11424,7 @@ window.testData = {
           {
             "category": "meteorology-test-1",
             "test": 1,
-            "id": 742,
+            "id": 743,
             "question": "Clear air turbulence, in association with a polar front jet stream in the Northern Hemisphere, is more severe:",
             "options": [
               "underneath the jet core",
@@ -11439,7 +11439,7 @@ window.testData = {
           {
             "category": "meteorology-test-1",
             "test": 1,
-            "id": 743,
+            "id": 744,
             "question": "What is the composition of Ci cloud?",
             "options": [
               "Super cooled water droplets",
@@ -11454,7 +11454,7 @@ window.testData = {
           {
             "category": "meteorology-test-1",
             "test": 1,
-            "id": 744,
+            "id": 745,
             "question": "When flying in IMC in a region close to a range of hills 2000 ft high, in stable air and with wind direction at right angles to the axis of the range of hills, which of the following is probably the most dangerous practice:",
             "options": [
               "flying towards the hills, into the wind, at flight level 65",
@@ -11469,7 +11469,7 @@ window.testData = {
           {
             "category": "meteorology-test-1",
             "test": 1,
-            "id": 745,
+            "id": 746,
             "question": "Clear air turbulence associated with a jet stream is likely to be encountered:",
             "options": [
               "35 kt",
@@ -11484,7 +11484,7 @@ window.testData = {
           {
             "category": "meteorology-test-1",
             "test": 1,
-            "id": 746,
+            "id": 747,
             "question": "Which of the following statements referring to jet streams is correct?",
             "options": [
               "Turbulence associated with jet streams is probably associated with the rapid windshear in the vicinity of the jet",
@@ -11499,7 +11499,7 @@ window.testData = {
           {
             "category": "meteorology-test-1",
             "test": 1,
-            "id": 747,
+            "id": 748,
             "question": "Flying conditions in Ci cloud and horizontal visibility:",
             "options": [
               "less than 500 m vis, light/mod clear icing",
@@ -11514,7 +11514,7 @@ window.testData = {
           {
             "category": "meteorology-test-1",
             "test": 1,
-            "id": 748,
+            "id": 749,
             "question": "The wind at ABC 4 may be:",
             "options": [
               "50 kt",
@@ -11529,7 +11529,7 @@ window.testData = {
           {
             "category": "meteorology-test-1",
             "test": 1,
-            "id": 749,
+            "id": 750,
             "question": "A mountain range is aligned in an east/west direction. Select the conditions from the table below that will give rise to mountain waves at 2000 ft, 5000 ft, 10 000 ft:",
             "options": [
               "020/40 020/30 020/50",
@@ -11544,7 +11544,7 @@ window.testData = {
           {
             "category": "meteorology-test-1",
             "test": 1,
-            "id": 750,
+            "id": 751,
             "question": "Clear air turbulence (CAT) should be reported whenever it is experienced. What should be reported if crew and passengers feel a definite strain against their seat or shoulder straps, food service and walking is difficult and loose objects become dislodged?",
             "options": [
               "Light TURB",
@@ -11559,7 +11559,7 @@ window.testData = {
           {
             "category": "meteorology-test-1",
             "test": 1,
-            "id": 751,
+            "id": 752,
             "question": "A north/south mountain range, height 10,000 ft is producing marked mountain waves. The greatest potential danger exists for an aircraft flying:",
             "options": [
               "on the windward side of the ridge",
@@ -11574,7 +11574,7 @@ window.testData = {
           {
             "category": "meteorology-test-1",
             "test": 1,
-            "id": 752,
+            "id": 753,
             "question": "In AS cloud at FL170 and a temperature of -20°C the airframe icing most likely to be experienced is:",
             "options": [
               "moderate clear icing",
@@ -11589,7 +11589,7 @@ window.testData = {
           {
             "category": "meteorology-test-1",
             "test": 1,
-            "id": 753,
+            "id": 754,
             "question": "At a station equipped with IRVR, reports are given:",
             "options": [
               "every ½ hour",
@@ -11611,7 +11611,7 @@ window.testData = {
           {
             "category": "meteorology-test-2",
             "test": 2,
-            "id": 754,
+            "id": 755,
             "question": "Altostratus is:",
             "options": [
               "a low level cloud",
@@ -11626,7 +11626,7 @@ window.testData = {
           {
             "category": "meteorology-test-2",
             "test": 2,
-            "id": 755,
+            "id": 756,
             "question": "CB cloud in summer contains:",
             "options": [
               "water droplets",
@@ -11641,7 +11641,7 @@ window.testData = {
           {
             "category": "meteorology-test-2",
             "test": 2,
-            "id": 756,
+            "id": 757,
             "question": "Hazards of the mature stage of a TS cell include lightning, turbulence and:",
             "options": [
               "microburst, windshear and anvil",
@@ -11656,7 +11656,7 @@ window.testData = {
           {
             "category": "meteorology-test-2",
             "test": 2,
-            "id": 757,
+            "id": 758,
             "question": "Thunderstorms require a trigger action to release the conditional instability. Which of the following would be the least suitable as a trigger?",
             "options": [
               "Convergence in temperate latitudes",
@@ -11671,7 +11671,7 @@ window.testData = {
           {
             "category": "meteorology-test-2",
             "test": 2,
-            "id": 758,
+            "id": 759,
             "question": "Clouds classified as low level are considered to have a base height of:",
             "options": [
               "500 - 1000 ft",
@@ -11686,7 +11686,7 @@ window.testData = {
           {
             "category": "meteorology-test-2",
             "test": 2,
-            "id": 759,
+            "id": 760,
             "question": "On a significant weather chart the thunderstorm symbol signifies:",
             "options": [
               "moderate turbulence and moderate icing",
@@ -11701,7 +11701,7 @@ window.testData = {
           {
             "category": "meteorology-test-2",
             "test": 2,
-            "id": 760,
+            "id": 761,
             "question": "The following is unlikely to be a hazard below a thunderstorm:",
             "options": [
               "severe turbulence",
@@ -11716,7 +11716,7 @@ window.testData = {
           {
             "category": "meteorology-test-2",
             "test": 2,
-            "id": 761,
+            "id": 762,
             "question": "What type of cloud extends into another level?",
             "options": [
               "As",
@@ -11731,7 +11731,7 @@ window.testData = {
           {
             "category": "meteorology-test-2",
             "test": 2,
-            "id": 762,
+            "id": 763,
             "question": "Ceilometers measure:",
             "options": [
               "RVR",
@@ -11746,7 +11746,7 @@ window.testData = {
           {
             "category": "meteorology-test-2",
             "test": 2,
-            "id": 763,
+            "id": 764,
             "question": "Which of the following will indicate medium level instability, possibly leading to thunderstorms?",
             "options": [
               "Halo",
@@ -11761,7 +11761,7 @@ window.testData = {
           {
             "category": "meteorology-test-2",
             "test": 2,
-            "id": 764,
+            "id": 765,
             "question": "The conditions which must exist to allow thunderstorms to develop are:",
             "options": [
               "a trigger action, a plentiful supply of moisture and a very stable atmosphere",
@@ -11776,7 +11776,7 @@ window.testData = {
           {
             "category": "meteorology-test-2",
             "test": 2,
-            "id": 765,
+            "id": 766,
             "question": "In what cloud is icing and turbulence most severe?",
             "options": [
               "Cb",
@@ -11791,7 +11791,7 @@ window.testData = {
           {
             "category": "meteorology-test-2",
             "test": 2,
-            "id": 766,
+            "id": 767,
             "question": "Which cloud would you encounter the most intensive rain?",
             "options": [
               "Ci",
@@ -11806,7 +11806,7 @@ window.testData = {
           {
             "category": "meteorology-test-2",
             "test": 2,
-            "id": 767,
+            "id": 768,
             "question": "A plain in Western Europe at 500 m (1600 ft) AMSL is covered with a uniform altocumulus cloud during summer months. At what height AGL is the base of the cloud expected?",
             "options": [
               "100 - 1500 ft",
@@ -11821,7 +11821,7 @@ window.testData = {
           {
             "category": "meteorology-test-2",
             "test": 2,
-            "id": 768,
+            "id": 769,
             "question": "What are lenticularis clouds a possible indication of?",
             "options": [
               "Mountain waves",
@@ -11836,7 +11836,7 @@ window.testData = {
           {
             "category": "meteorology-test-2",
             "test": 2,
-            "id": 769,
+            "id": 770,
             "question": "When moist air moves across France in the ......... TS activity is common in southern UK in the ......... Complete the above statement correctly using one of the following:",
             "options": [
               "winter/morning",
@@ -11851,7 +11851,7 @@ window.testData = {
           {
             "category": "meteorology-test-2",
             "test": 2,
-            "id": 770,
+            "id": 771,
             "question": "What would be reflected to radar?",
             "options": [
               "Fog",
@@ -11866,7 +11866,7 @@ window.testData = {
           {
             "category": "meteorology-test-2",
             "test": 2,
-            "id": 771,
+            "id": 772,
             "question": "During the ......... stage of a thunderstorm cell, the cloud contains ......... Complete the above statement correctly using one of the following:",
             "options": [
               "building/up currents and down currents",
@@ -11881,7 +11881,7 @@ window.testData = {
           {
             "category": "meteorology-test-2",
             "test": 2,
-            "id": 772,
+            "id": 773,
             "question": "What will snow most likely fall from?",
             "options": [
               "Ns",
@@ -11896,7 +11896,7 @@ window.testData = {
           {
             "category": "meteorology-test-2",
             "test": 2,
-            "id": 773,
+            "id": 774,
             "question": "Fair weather cumulus gives an indication of:",
             "options": [
               "poor visibility",
@@ -11911,7 +11911,7 @@ window.testData = {
           {
             "category": "meteorology-test-2",
             "test": 2,
-            "id": 774,
+            "id": 775,
             "question": "When flying from west to east through a cold occlusion (below the warm air) over the North Atlantic you would expect the wind to ……… and the temperature to .…….",
             "options": [
               "veer / decrease",
@@ -11926,7 +11926,7 @@ window.testData = {
           {
             "category": "meteorology-test-2",
             "test": 2,
-            "id": 775,
+            "id": 776,
             "question": "During which stage of thunderstorm development are rotor winds characterized by roll clouds most likely to occur?",
             "options": [
               "cumulus stage",
@@ -11941,7 +11941,7 @@ window.testData = {
           {
             "category": "meteorology-test-2",
             "test": 2,
-            "id": 776,
+            "id": 777,
             "question": "(pic) The wind at square A3 is likely to be:",
             "options": [
               "light and variable",
@@ -11956,7 +11956,7 @@ window.testData = {
           {
             "category": "meteorology-test-2",
             "test": 2,
-            "id": 777,
+            "id": 778,
             "question": "graph",
             "options": [
               "cumulus",
@@ -11971,7 +11971,7 @@ window.testData = {
           {
             "category": "meteorology-test-2",
             "test": 2,
-            "id": 778,
+            "id": 779,
             "question": "On a summer day, Zurich observations: 0450Z 24009KT... BECMG 26020G35KT TS... 1450Z 30012KT... 2050Z 26004KT CAVOK. You conclude that...",
             "options": [
               "a warm front passed in the morning",
@@ -11993,7 +11993,7 @@ window.testData = {
           {
             "category": "meteorology-test-3",
             "test": 3,
-            "id": 779,
+            "id": 780,
             "question": "Thunderstorms are likely if:",
             "options": [
               "air is unstable, there is sufficient water vapour and there is trigger action",
@@ -12008,7 +12008,7 @@ window.testData = {
           {
             "category": "meteorology-test-3",
             "test": 3,
-            "id": 780,
+            "id": 781,
             "question": "Changes of RVR are reported for increments of:",
             "options": [
               "25 m up to 250 m",
@@ -12023,7 +12023,7 @@ window.testData = {
           {
             "category": "meteorology-test-3",
             "test": 3,
-            "id": 781,
+            "id": 782,
             "question": "Radiation fog is most likely:",
             "options": [
               "with a wind speed up to 15 kt, a clear sky and a high relative humidity",
@@ -12038,7 +12038,7 @@ window.testData = {
           {
             "category": "meteorology-test-3",
             "test": 3,
-            "id": 782,
+            "id": 783,
             "question": "A microburst usually lasts for _________ and is about ____________across.",
             "options": [
               "20 minutes 20 NM",
@@ -12053,7 +12053,7 @@ window.testData = {
           {
             "category": "meteorology-test-3",
             "test": 3,
-            "id": 783,
+            "id": 784,
             "question": "Frontal fog is most likely to:",
             "options": [
               "form ahead of a vigorous fast-moving cold front",
@@ -12068,7 +12068,7 @@ window.testData = {
           {
             "category": "meteorology-test-3",
             "test": 3,
-            "id": 784,
+            "id": 785,
             "question": "At temperatures of between 0°C and -10°C clouds will consist of:",
             "options": [
               "entirely water droplets",
@@ -12083,7 +12083,7 @@ window.testData = {
           {
             "category": "meteorology-test-3",
             "test": 3,
-            "id": 785,
+            "id": 786,
             "question": "Thunderstorms caused by _________are most common in the summer and by __in the",
             "options": [
               "lapse rate / air masses / late spring",
@@ -12098,7 +12098,7 @@ window.testData = {
           {
             "category": "meteorology-test-3",
             "test": 3,
-            "id": 786,
+            "id": 787,
             "question": "When flying through an active CB cloud, lightning strikes are most likely:",
             "options": [
               "above 5000' and underneath the anvil",
@@ -12113,7 +12113,7 @@ window.testData = {
           {
             "category": "meteorology-test-3",
             "test": 3,
-            "id": 787,
+            "id": 788,
             "question": "The visibility is reported as RVR. When would this occur?",
             "options": [
               "Always during the hours of darkness",
@@ -12128,7 +12128,7 @@ window.testData = {
           {
             "category": "meteorology-test-3",
             "test": 3,
-            "id": 788,
+            "id": 789,
             "question": "Fog may be defined as:",
             "options": [
               "a reduction of visibility to less than 1000 metres due to the presence of water vapour in the atmosphere",
@@ -12143,7 +12143,7 @@ window.testData = {
           {
             "category": "meteorology-test-3",
             "test": 3,
-            "id": 789,
+            "id": 790,
             "question": "Hoar frost forms on an aircraft when:",
             "options": [
               "the aircraft suddenly enters a cloud at below freezing temperature",
@@ -12158,7 +12158,7 @@ window.testData = {
           {
             "category": "meteorology-test-3",
             "test": 3,
-            "id": 790,
+            "id": 791,
             "question": "Conditions favourable for the formation of radiation fog are:",
             "options": [
               "Strong surface wind, cloudy sky, low relative humidity",
@@ -12173,7 +12173,7 @@ window.testData = {
           {
             "category": "meteorology-test-3",
             "test": 3,
-            "id": 791,
+            "id": 792,
             "question": "In circumstances where there is a clear sky, calm wind and a high relative humidity in autumn:",
             "options": [
               "radiation fog is likely over night",
@@ -12188,7 +12188,7 @@ window.testData = {
           {
             "category": "meteorology-test-3",
             "test": 3,
-            "id": 792,
+            "id": 793,
             "question": "When approaching at flight level 300 a cumulonimbus cloud with an anvil top, pilots should aim to avoid the cloud by ___ NM horizontally.",
             "options": [
               "10",
@@ -12203,7 +12203,7 @@ window.testData = {
           {
             "category": "meteorology-test-3",
             "test": 3,
-            "id": 793,
+            "id": 794,
             "question": "Several types of pressure distribution may be associated with radiation fog but all have one feature in common which is:",
             "options": [
               "closely spaced isobars",
@@ -12218,7 +12218,7 @@ window.testData = {
           {
             "category": "meteorology-test-3",
             "test": 3,
-            "id": 794,
+            "id": 795,
             "question": "Regarding thunderstorms, the most accurate statement amongst the following is:",
             "options": [
               "there will always be windshear under the cloud",
@@ -12233,7 +12233,7 @@ window.testData = {
           {
             "category": "meteorology-test-3",
             "test": 3,
-            "id": 795,
+            "id": 796,
             "question": "Aircraft structural icing occurs when:",
             "options": [
               "ambient temperature is below 0°C",
@@ -12248,7 +12248,7 @@ window.testData = {
           {
             "category": "meteorology-test-3",
             "test": 3,
-            "id": 796,
+            "id": 797,
             "question": "How long approximately does a cumulonimbus cell take to complete the full cycle from the cumulus (building) to dissipating stage?",
             "options": [
               "2-3 hours",
@@ -12263,7 +12263,7 @@ window.testData = {
           {
             "category": "meteorology-test-3",
             "test": 3,
-            "id": 797,
+            "id": 798,
             "question": "......... forms when moist air ......... over a surface which is ......... than the dew point of the air. Fill in the missing words from the list given below:",
             "options": [
               "Radiation fog, passes, warmer",
@@ -12278,7 +12278,7 @@ window.testData = {
           {
             "category": "meteorology-test-3",
             "test": 3,
-            "id": 798,
+            "id": 799,
             "question": "Turbulent clouds are most serious from the icing standpoint because:",
             "options": [
               "strong vertical currents mean that a predominance of large supercooled water droplets will be present",
@@ -12293,7 +12293,7 @@ window.testData = {
           {
             "category": "meteorology-test-3",
             "test": 3,
-            "id": 799,
+            "id": 800,
             "question": "For the formation of mountain waves, the wind above the level of the ridge should:",
             "options": [
               "decrease or even reverse direction",
@@ -12308,7 +12308,7 @@ window.testData = {
           {
             "category": "meteorology-test-3",
             "test": 3,
-            "id": 800,
+            "id": 801,
             "question": "Which of the following statements accurately describes the 'West African tornado'?",
             "options": [
               "The West African tornado is similar to the North American and European tornadoes",
@@ -12323,7 +12323,7 @@ window.testData = {
           {
             "category": "meteorology",
             "test": 3,
-            "id": 801,
+            "id": 802,
             "question": "In grid square M6 the worst cloud conditions for flying could be:",
             "options": [
               "altrocumulus",
@@ -12338,7 +12338,7 @@ window.testData = {
           {
             "category": "meteorology",
             "test": 3,
-            "id": 802,
+            "id": 803,
             "question": "Characteristic weather associated with a mPc (maritime Polar cold) air mass transiting the British Isles in summer would include:",
             "options": [
               "widespread Cu and Cb activity overland during the day",
@@ -12353,7 +12353,7 @@ window.testData = {
           {
             "category": "meteorology-test-3",
             "test": 3,
-            "id": 803,
+            "id": 804,
             "question": "Hail grows by:",
             "options": [
               "freezing as it leaves the cloud",
@@ -12383,7 +12383,7 @@ window.testData = {
           {
             "category": "meteorology",
             "test": 3,
-            "id": 804,
+            "id": 806,
             "question": "Advection fog:",
             "options": [
               "only occurs at night and early morning",
@@ -12398,7 +12398,7 @@ window.testData = {
           {
             "category": "meteorology-test-3",
             "test": 3,
-            "id": 806,
+            "id": 807,
             "question": "With a cold occlusion:",
             "options": [
               "the air ahead of the warm front is colder than the air behind the cold front",
@@ -12413,7 +12413,7 @@ window.testData = {
           {
             "category": "meteorology-test-3",
             "test": 3,
-            "id": 807,
+            "id": 808,
             "question": "The average upper winds at A1, B1 and C1 in Appendix A are respectively:",
             "options": [
               "easterly, westerly, northwesterly",
@@ -12435,7 +12435,7 @@ window.testData = {
           {
             "category": "meteorology-test-4",
             "test": 4,
-            "id": 807,
+            "id": 809,
             "question": "If air in transit is heated from below it tends to become more:",
             "options": [
               "stable",
@@ -12450,7 +12450,7 @@ window.testData = {
           {
             "category": "meteorology-test-4",
             "test": 4,
-            "id": 808,
+            "id": 810,
             "question": "Polar maritime air is ......... and can bring ......... in the UK in winter but ......... in summer. Complete the above statement correctly using one of the following:",
             "options": [
               "very unstable/heavy snow showers/does not arrive",
@@ -12465,7 +12465,7 @@ window.testData = {
           {
             "category": "meteorology-test-4",
             "test": 4,
-            "id": 809,
+            "id": 811,
             "question": "The weather associated with polar maritime air is:",
             "options": [
               "overcast, moderate drizzle",
@@ -12480,7 +12480,7 @@ window.testData = {
           {
             "category": "meteorology-test-4",
             "test": 4,
-            "id": 810,
+            "id": 812,
             "question": "Clear ice forms on an aircraft by the freezing of:",
             "options": [
               "small supercooled water droplets",
@@ -12495,7 +12495,7 @@ window.testData = {
           {
             "category": "meteorology-test-4",
             "test": 4,
-            "id": 811,
+            "id": 813,
             "question": "Most cases of serious piston engine icing occur in cloud, fog, or precipitation with a temperature range between:",
             "options": [
               "-10 C to +25 C",
@@ -12510,7 +12510,7 @@ window.testData = {
           {
             "category": "meteorology-test-4",
             "test": 4,
-            "id": 812,
+            "id": 814,
             "question": "Which of the following conditions is most favourable for the formation of carburettor icing if the aircraft is descending with glide power set? Relative Humidity Ambient Temperature",
             "options": [
               "25% +25 C",
@@ -12525,7 +12525,7 @@ window.testData = {
           {
             "category": "meteorology-test-4",
             "test": 4,
-            "id": 813,
+            "id": 815,
             "question": "When air from an air mass moves to a lower latitude, it can be expected that:",
             "options": [
               "surface layer air will become warmer, the relative humidity will rise and the air will become unstable",
@@ -12540,7 +12540,7 @@ window.testData = {
           {
             "category": "meteorology-test-4",
             "test": 4,
-            "id": 814,
+            "id": 816,
             "question": "If polar maritime air flows over the UK in winter, the weather is likely to be:",
             "options": [
               "generally unstable with showers",
@@ -12555,7 +12555,7 @@ window.testData = {
           {
             "category": "meteorology-test-4",
             "test": 4,
-            "id": 815,
+            "id": 817,
             "question": "In the N. Hemisphere when flying in the troposphere above the surface friction layer in the polar maritime air mass behind the cold front of a fully developed frontal depression:",
             "options": [
               "the wind will tend to veer in direction and increase in speed with progressive increase of altitude",
@@ -12570,7 +12570,7 @@ window.testData = {
           {
             "category": "meteorology-test-4",
             "test": 4,
-            "id": 816,
+            "id": 818,
             "question": "Relative humidity is:",
             "options": [
               "air temperature over wet bulb temperature x 100",
@@ -12585,7 +12585,7 @@ window.testData = {
           {
             "category": "meteorology-test-4",
             "test": 4,
-            "id": 817,
+            "id": 819,
             "question": "The surface wind is backing from left to right as a depression approaches. At A3, B3 and C3 in Appendix A the winds are respectively:",
             "options": [
               "easterly, westerly, northwesterly",
@@ -12600,7 +12600,7 @@ window.testData = {
           {
             "category": "meteorology-test-4",
             "test": 4,
-            "id": 818,
+            "id": 820,
             "question": "Referring to the area of the North Atlantic, the mean position of the polar front in January is:",
             "options": [
               "from Florida to southwest England",
@@ -12615,7 +12615,7 @@ window.testData = {
           {
             "category": "meteorology-test-4",
             "test": 4,
-            "id": 819,
+            "id": 821,
             "question": "An air mass that has travelled over an ocean is known as:",
             "options": [
               "continental air and has a high humidity",
@@ -12630,7 +12630,7 @@ window.testData = {
           {
             "category": "meteorology-test-4",
             "test": 4,
-            "id": 820,
+            "id": 822,
             "question": "Tropical continental air normally brings to the UK:",
             "options": [
               "hot dry cloudless weather with a thick haze",
@@ -12645,7 +12645,7 @@ window.testData = {
           {
             "category": "meteorology-test-4",
             "test": 4,
-            "id": 821,
+            "id": 823,
             "question": "The average surface level winds at A3, B3 and C3 in Appendix A are respectively:",
             "options": [
               "easterly, westerly, southwesterly",
@@ -12660,7 +12660,7 @@ window.testData = {
           {
             "category": "meteorology-test-4",
             "test": 4,
-            "id": 822,
+            "id": 824,
             "question": "Flying in large CU at a temperature of -20°C, the amount of each cloud droplet that will freeze on impact with the aircraft will be:",
             "options": [
               "all the droplet",
@@ -12675,7 +12675,7 @@ window.testData = {
           {
             "category": "meteorology-test-4",
             "test": 4,
-            "id": 823,
+            "id": 825,
             "question": "Stratus cloud of limited depth at a temperature of -5°C will most likely give:",
             "options": [
               "moderate to heavy rime ice",
@@ -12690,7 +12690,7 @@ window.testData = {
           {
             "category": "meteorology-test-4",
             "test": 4,
-            "id": 824,
+            "id": 826,
             "question": "Carburettor icing is unlikely:",
             "options": [
               "in cloud",
@@ -12705,7 +12705,7 @@ window.testData = {
           {
             "category": "meteorology-test-4",
             "test": 4,
-            "id": 825,
+            "id": 827,
             "question": "Flying 50 NM ahead of a warm front out of cloud at 1000 ft in winter, with an ambient temperature of -8°C, there is a strong risk of:",
             "options": [
               "hoar frost",
@@ -12720,7 +12720,7 @@ window.testData = {
           {
             "category": "meteorology-test-4",
             "test": 4,
-            "id": 826,
+            "id": 828,
             "question": "Clear ice forms as a result of:",
             "options": [
               "large supercooled water droplets spreading as they freeze",
@@ -12742,7 +12742,7 @@ window.testData = {
           {
             "category": "meteorology-test-5",
             "test": 5,
-            "id": 827,
+            "id": 829,
             "question": "Which of the conditions below would lead to the worst icing condition: Size of Drop - Ambient Temp.",
             "options": [
               "2mm -30 C",
@@ -12757,7 +12757,7 @@ window.testData = {
           {
             "category": "meteorology-test-5",
             "test": 5,
-            "id": 828,
+            "id": 830,
             "question": "The cloud in grid square N12 is most likely to be:",
             "options": [
               "cirrus",
@@ -12772,7 +12772,7 @@ window.testData = {
           {
             "category": "meteorology-test-5",
             "test": 5,
-            "id": 829,
+            "id": 831,
             "question": "After passage of an occluded front in the Northern Hemisphere: Wind Temperature Precipitation",
             "options": [
               "backs / stops falling / continues",
@@ -12787,7 +12787,7 @@ window.testData = {
           {
             "category": "meteorology-test-5",
             "test": 5,
-            "id": 830,
+            "id": 832,
             "question": "Tropical revolving storms usually:",
             "options": [
               "form close to one side of the Equator and while moving slowly in a westerly direction, cross over to the other hemisphere",
@@ -12802,7 +12802,7 @@ window.testData = {
           {
             "category": "meteorology-test-5",
             "test": 5,
-            "id": 831,
+            "id": 833,
             "question": "The air masses involved in the development of a polar front depression are:",
             "options": [
               "Polar Maritime and Polar Continental",
@@ -12817,7 +12817,7 @@ window.testData = {
           {
             "category": "meteorology-test-5",
             "test": 5,
-            "id": 832,
+            "id": 834,
             "question": "The diagram depicts:",
             "options": [
               "a warm front",
@@ -12832,7 +12832,7 @@ window.testData = {
           {
             "category": "meteorology-test-5",
             "test": 5,
-            "id": 833,
+            "id": 835,
             "question": "A thermal depression is likely to form:",
             "options": [
               "over the Iberian peninsular during the summer",
@@ -12847,7 +12847,7 @@ window.testData = {
           {
             "category": "meteorology-test-5",
             "test": 5,
-            "id": 834,
+            "id": 836,
             "question": "A secondary depression would form in association with:",
             "options": [
               "a polar depression",
@@ -12862,7 +12862,7 @@ window.testData = {
           {
             "category": "meteorology-test-5",
             "test": 5,
-            "id": 835,
+            "id": 837,
             "question": "A warm occlusion occurs when:",
             "options": [
               "warm air is forcing cool air over cold air",
@@ -12877,7 +12877,7 @@ window.testData = {
           {
             "category": "meteorology-test-5",
             "test": 5,
-            "id": 836,
+            "id": 838,
             "question": "When a cold front passes a station in the British Isles:",
             "options": [
               "The wind veers and the dew point falls",
@@ -12892,7 +12892,7 @@ window.testData = {
           {
             "category": "meteorology-test-5",
             "test": 5,
-            "id": 837,
+            "id": 839,
             "question": "When flying towards a depression at constant indicated altitude in the Northern Hemisphere, the true altitude will:",
             "options": [
               "remain constant",
@@ -12907,7 +12907,7 @@ window.testData = {
           {
             "category": "meteorology-test-5",
             "test": 5,
-            "id": 838,
+            "id": 840,
             "question": "Extensive cloud and precipitation is often associated with a non frontal thermal depression because of:",
             "options": [
               "surface divergence and upper level convergence causing widespread descent of air in the depression",
@@ -12922,7 +12922,7 @@ window.testData = {
           {
             "category": "meteorology-test-5",
             "test": 5,
-            "id": 839,
+            "id": 841,
             "question": "Tropical revolving storms:",
             "options": [
               "are always given a male first name beginning with \"A\" for the first of the season and thereafter named in alphabetical order of occurrence",
@@ -12937,7 +12937,7 @@ window.testData = {
           {
             "category": "meteorology-test-5",
             "test": 5,
-            "id": 840,
+            "id": 842,
             "question": "In grid square O13 the cloud type is:",
             "options": [
               "cumulus",
@@ -12952,7 +12952,7 @@ window.testData = {
           {
             "category": "meteorology-test-5",
             "test": 5,
-            "id": 841,
+            "id": 843,
             "question": "With reference to tropical revolving storms, which of the following statements is correct?",
             "options": [
               "Typhoons are found in the South China sea in January",
@@ -12967,7 +12967,7 @@ window.testData = {
           {
             "category": "meteorology-test-5",
             "test": 5,
-            "id": 842,
+            "id": 844,
             "question": "In comparison with a primary depression a secondary depression is:",
             "options": [
               "always more active",
@@ -12982,7 +12982,7 @@ window.testData = {
           {
             "category": "meteorology-test-5",
             "test": 5,
-            "id": 843,
+            "id": 845,
             "question": "Which of the following are thermal depressions?",
             "options": [
               "Tropical revolving storms, polar air depressions, tornadoes",
@@ -12997,7 +12997,7 @@ window.testData = {
           {
             "category": "meteorology-test-5",
             "test": 5,
-            "id": 844,
+            "id": 846,
             "question": "In grid square N13 the cloud type is:",
             "options": [
               "altocumulus",
@@ -13012,7 +13012,7 @@ window.testData = {
           {
             "category": "meteorology-test-5",
             "test": 5,
-            "id": 845,
+            "id": 847,
             "question": "Precipitation will reach the ground mainly in the area:",
             "options": [
               "L14 - R14",
@@ -13027,7 +13027,7 @@ window.testData = {
           {
             "category": "meteorology-test-5",
             "test": 5,
-            "id": 846,
+            "id": 848,
             "question": "It can be expected that the depth of the friction layer over the UK will be:",
             "options": [
               "greater in Polar Maritime air due to the instability and moderate wind",
@@ -13055,7 +13055,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-1",
             "test": 1,
-            "id": 847,
+            "id": 849,
             "question": "When refuelling is being conducted with passengers embarking or disembarking:",
             "options": [
               "refuelling is strictly prohibited whilst passengers are embarking/ disembarking",
@@ -13070,7 +13070,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-1",
             "test": 1,
-            "id": 848,
+            "id": 850,
             "question": "What must be ensured with respect to navigation equipment?",
             "options": [
               "The failure of one piece does not affect another",
@@ -13085,7 +13085,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-1",
             "test": 1,
-            "id": 849,
+            "id": 851,
             "question": "Supplemental oxygen is used to:",
             "options": [
               "provide oxygen to passengers who might require it, following decompression",
@@ -13100,7 +13100,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-1",
             "test": 1,
-            "id": 850,
+            "id": 852,
             "question": "Who is responsible for checking the quantity and security of the cargo on board?",
             "options": [
               "The company's cargo technicians",
@@ -13115,7 +13115,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-1",
             "test": 1,
-            "id": 851,
+            "id": 853,
             "question": "Who is the operator to provide an operations manual for?",
             "options": [
               "Operations staff",
@@ -13130,7 +13130,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-1",
             "test": 1,
-            "id": 852,
+            "id": 854,
             "question": "Information concerning evacuation procedures can be found in the:",
             "options": [
               "OM",
@@ -13145,7 +13145,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-1",
             "test": 1,
-            "id": 853,
+            "id": 855,
             "question": "To act as co-pilot for take-off or landing you must have:",
             "options": [
               "acted as PIC or co-pilot on type in the last 90 days",
@@ -13160,7 +13160,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-1",
             "test": 1,
-            "id": 854,
+            "id": 856,
             "question": "What is the co-pilot currency requirement?",
             "options": [
               "3 flights in the last 90 days",
@@ -13175,7 +13175,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-1",
             "test": 1,
-            "id": 855,
+            "id": 857,
             "question": "One shall not initiate any flight made in accordance with instrument flight rules unless the available information indicates that the conditions at the aerodrome of intended destination and destination alternate (if one is required) are, at the predicted time of:",
             "options": [
               "take-off equal to or better than the minimum conditions required for aerodrome use",
@@ -13190,7 +13190,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-1",
             "test": 1,
-            "id": 856,
+            "id": 858,
             "question": "Where is the Minimum Equipment List?",
             "options": [
               "Appended to the AFM",
@@ -13205,7 +13205,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-1",
             "test": 1,
-            "id": 857,
+            "id": 859,
             "question": "FDRs must keep data and parameters for at least the last:",
             "options": [
               "30 hours of operation",
@@ -13220,7 +13220,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-1",
             "test": 1,
-            "id": 858,
+            "id": 860,
             "question": "The period of validity for an operator's certificate is:",
             "options": [
               "one year renewable",
@@ -13235,7 +13235,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-1",
             "test": 1,
-            "id": 859,
+            "id": 861,
             "question": "When are flight crew allowed to leave their stations?",
             "options": [
               "In the performance of their duties",
@@ -13250,7 +13250,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-1",
             "test": 1,
-            "id": 860,
+            "id": 862,
             "question": "The recent experience conditions of a captain assigned to a flight on an aircraft by an operator must not be less than:",
             "options": [
               "6 take-offs and 6 landings as pilot in command on this type of aircraft during the last 90 days",
@@ -13265,7 +13265,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-1",
             "test": 1,
-            "id": 861,
+            "id": 863,
             "question": "The Minimum Equipment List (MEL) is established by the:",
             "options": [
               "airline operator",
@@ -13280,7 +13280,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-1",
             "test": 1,
-            "id": 862,
+            "id": 864,
             "question": "When are life jackets required?",
             "options": [
               "100 NM from land",
@@ -13295,7 +13295,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-1",
             "test": 1,
-            "id": 863,
+            "id": 865,
             "question": "Aeroplanes with a take-off mass greater than 5700 kg shall be fitted with an independent automatically operated emergency power supply to operate and illuminate the artificial horizon for:",
             "options": [
               "15 mins",
@@ -13310,7 +13310,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-1",
             "test": 1,
-            "id": 864,
+            "id": 866,
             "question": "When do you not need a destination alternate aerodrome?",
             "options": [
               "If there is a reasonable certainty that at the ETA at the destination aerodrome and a reasonable time before and after you can expect VMC",
@@ -13325,7 +13325,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-1",
             "test": 1,
-            "id": 865,
+            "id": 867,
             "question": "A piece of equipment on your public transport aeroplane fails while you are still parked. The reference document you use to decide on the procedure to follow is the:",
             "options": [
               "OM chapter \"Abnormal and Emergency procedures\"",
@@ -13340,7 +13340,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-1",
             "test": 1,
-            "id": 866,
+            "id": 868,
             "question": "Where is the general information and policy on fuel located?",
             "options": [
               "Operations Manual Part B",
@@ -13362,7 +13362,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-2",
             "test": 2,
-            "id": 867,
+            "id": 869,
             "question": "What is the requirement for the carriage of life rafts?",
             "options": [
               "30 mins or 120 NM whichever is less",
@@ -13377,7 +13377,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-2",
             "test": 2,
-            "id": 868,
+            "id": 870,
             "question": "On board a pressurized aircraft, a flight shall be undertaken only if the aircraft is provided with an oxygen reserve enabling all the crew members to be supplied with oxygen for any period of flight above a cabin altitude of:",
             "options": [
               "10000 ft",
@@ -13392,7 +13392,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-2",
             "test": 2,
-            "id": 869,
+            "id": 871,
             "question": "How often should pilot proficiency checks be performed?",
             "options": [
               "No less than 6 months between checks",
@@ -13407,7 +13407,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-2",
             "test": 2,
-            "id": 870,
+            "id": 872,
             "question": "The crew members must use their seatbelts:",
             "options": [
               "only during take-off and landing",
@@ -13422,7 +13422,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-2",
             "test": 2,
-            "id": 871,
+            "id": 873,
             "question": "Which communications systems must be carried for IFR flights?",
             "options": [
               "2 independent VHF boxes or one VHF and one HF",
@@ -13437,7 +13437,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-2",
             "test": 2,
-            "id": 872,
+            "id": 874,
             "question": "Above what altitude are quick-donning masks required?",
             "options": [
               "25000 ft",
@@ -13452,7 +13452,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-2",
             "test": 2,
-            "id": 873,
+            "id": 875,
             "question": "What are the circling minimum visibility and MDH for a category B aeroplane?",
             "options": [
               "1500 m / 400 ft",
@@ -13467,7 +13467,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-2",
             "test": 2,
-            "id": 874,
+            "id": 876,
             "question": "A modern aircraft must be provided with a flight data recorder when its certified MTOM is greater than:",
             "options": [
               "2500 kg",
@@ -13482,7 +13482,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-2",
             "test": 2,
-            "id": 875,
+            "id": 877,
             "question": "On an ILS, you are told that the weather has dropped below company minima. When must you abort the approach?",
             "options": [
               "At the Decision Altitude",
@@ -13497,7 +13497,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-2",
             "test": 2,
-            "id": 876,
+            "id": 878,
             "question": "What is the oxygen requirement for the crew and 100% of the passengers in an unpressurized aircraft?",
             "options": [
               "10000 ft",
@@ -13512,7 +13512,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-2",
             "test": 2,
-            "id": 877,
+            "id": 879,
             "question": "Destination alternate for a turbojet - what is the required fuel overhead?",
             "options": [
               "45 minutes at cruise speed",
@@ -13527,7 +13527,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-2",
             "test": 2,
-            "id": 878,
+            "id": 880,
             "question": "The 'NO SMOKING' sign must be illuminated:",
             "options": [
               "only during take-off and landing",
@@ -13542,7 +13542,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-2",
             "test": 2,
-            "id": 879,
+            "id": 881,
             "question": "What skills constitute pilot proficiency checks?",
             "options": [
               "Navigation, meteorology and air law",
@@ -13557,7 +13557,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-2",
             "test": 2,
-            "id": 880,
+            "id": 882,
             "question": "Following an indication of an unserviceability whilst taxiing to the holding point, what do you consult first?",
             "options": [
               "The Flight Manual",
@@ -13572,7 +13572,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-2",
             "test": 2,
-            "id": 881,
+            "id": 883,
             "question": "Who compiles the MEL and where does it go?",
             "options": [
               "The manufacturer and in the Flight Manual",
@@ -13587,7 +13587,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-2",
             "test": 2,
-            "id": 882,
+            "id": 884,
             "question": "Who provides the operations personnel with the OM and the amendments to keep it up to date?",
             "options": [
               "The National Aviation Authority",
@@ -13602,7 +13602,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-2",
             "test": 2,
-            "id": 883,
+            "id": 885,
             "question": "The OPS document is based on:",
             "options": [
               "ICAO Annex 2",
@@ -13617,7 +13617,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-2",
             "test": 2,
-            "id": 884,
+            "id": 886,
             "question": "What is the requirement regarding the carriage of a CVR for aircraft registered before April 1998?",
             "options": [
               "Record last 2 hours of flight",
@@ -13632,7 +13632,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-2",
             "test": 2,
-            "id": 885,
+            "id": 887,
             "question": "On an NDB approach with an MDH of 360 ft and a required RVR of 1500 m and a reported met vis of 2500 m, when can you start an approach?",
             "options": [
               "Only if cloud base is above 360 ft",
@@ -13647,7 +13647,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-2",
             "test": 2,
-            "id": 886,
+            "id": 888,
             "question": "Who is responsible for ensuring that the aeroplane is airworthy prior to flight?",
             "options": [
               "The Chief Engineer",
@@ -13662,7 +13662,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-2",
             "test": 2,
-            "id": 887,
+            "id": 889,
             "question": "What is required for navigation in IMC?",
             "options": [
               "Visual contact with the ground every 10 minutes",
@@ -13677,7 +13677,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-2",
             "test": 2,
-            "id": 888,
+            "id": 890,
             "question": "Who is to ensure safe handling of flights?",
             "options": [
               "The airport authority",
@@ -13692,7 +13692,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-2",
             "test": 2,
-            "id": 889,
+            "id": 891,
             "question": "The MEL is drawn up by the:",
             "options": [
               "manufacturer and may be less restrictive than the MMEL",
@@ -13707,7 +13707,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-2",
             "test": 2,
-            "id": 890,
+            "id": 892,
             "question": "Following an indication of unserviceability of an air conditioning pack whilst on stand, what do you consult first?",
             "options": [
               "The engineering log",
@@ -13722,7 +13722,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-2",
             "test": 2,
-            "id": 891,
+            "id": 893,
             "question": "In relation to Persons with Reduced Mobility (PRM's):",
             "options": [
               "They must always sit near emergency exits",
@@ -13737,7 +13737,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-2",
             "test": 2,
-            "id": 892,
+            "id": 894,
             "question": "When are lifejackets required?",
             "options": [
               "Only on trans-oceanic flights",
@@ -13752,7 +13752,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-2",
             "test": 2,
-            "id": 893,
+            "id": 895,
             "question": "You are on a flight IFR in IMC on route. At 18:36 UTC you receive: 'Turn immediately, continue heading 050 until further advised'. At 18:37 UTC radio comms are lost. You will:",
             "options": [
               "Continue on heading 050 indefinitely",
@@ -13767,7 +13767,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-2",
             "test": 2,
-            "id": 894,
+            "id": 896,
             "question": "You receive this ATC clearance: 'CLEARED TO THE ABC VORTAC. HOLD SOUTH ON THE ONE EIGHT ZERO RADIAL...' What is the recommended procedure to enter the holding pattern?",
             "options": [
               "Parallel entry",
@@ -13782,7 +13782,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-2",
             "test": 2,
-            "id": 895,
+            "id": 897,
             "question": "transition level:",
             "options": [
               "is fixed at 18000 ft",
@@ -13797,7 +13797,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-2",
             "test": 2,
-            "id": 896,
+            "id": 898,
             "question": "A manoeuvre where a turn is made from a 'designated track' followed by a turn in the opposite direction to enable the aircraft to fly the prescribed track is called a:",
             "options": [
               "holding pattern",
@@ -13812,7 +13812,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-2",
             "test": 2,
-            "id": 897,
+            "id": 899,
             "question": "Reference Jeppesen E(LO) 1, position 5211N 00706W, which of the following denotes all the symbols?",
             "options": [
               "Civil airport, ILS, NDB",
@@ -13834,7 +13834,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-3",
             "test": 3,
-            "id": 898,
+            "id": 900,
             "question": "At the alternate aerodrome, the commander of a turbojet engine aeroplane should have a fuel quantity (final reserve) sufficient for flying during:",
             "options": [
               "30 minutes at holding flight speed at 1500 ft",
@@ -13849,7 +13849,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-3",
             "test": 3,
-            "id": 899,
+            "id": 901,
             "question": "Where is permanent approval for the carriage of dangerous goods given?",
             "options": [
               "Certificate of airworthiness (CofA)",
@@ -13864,7 +13864,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-3",
             "test": 3,
-            "id": 900,
+            "id": 902,
             "question": "The Minimum Equipment List (MEL) gives the equipment which can be inoperative when undertaking a flight... This list is prepared by:",
             "options": [
               "the operator, and it is included in the Operations Manual",
@@ -13879,7 +13879,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-3",
             "test": 3,
-            "id": 901,
+            "id": 903,
             "question": "Which documents must be carried on every flight? 1. C of A 2. C of R 3. Noise Certificate 4. AOC 5. Aircraft Radio Licence 6. Insurance Certificate",
             "options": [
               "1, 3, 4 & 5",
@@ -13894,7 +13894,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-3",
             "test": 3,
-            "id": 902,
+            "id": 904,
             "question": "From the flight deck you observe an aeroplane in the forward left position on an opposite parallel track. What Nav light will be observed?",
             "options": [
               "Green",
@@ -13909,7 +13909,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-3",
             "test": 3,
-            "id": 903,
+            "id": 905,
             "question": "In determining Aerodrome Operating Minima, what of the following needs to be considered? 1. Crew composition 2. Ability to communicate/receive meteorological information 3. Significant obstacles in the missed approach area 4. Dimensions and characteristics of the runway 5. Navigation equipment in the aeroplane",
             "options": [
               "1, 2, 4 & 5",
@@ -13924,7 +13924,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-3",
             "test": 3,
-            "id": 904,
+            "id": 906,
             "question": "The MMEL is:",
             "options": [
               "compiled by the manufacturer and approved by the operator",
@@ -13939,7 +13939,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-3",
             "test": 3,
-            "id": 905,
+            "id": 907,
             "question": "The Operations Manual (OM) must be approved by the Authority of the:",
             "options": [
               "country of operations",
@@ -13954,7 +13954,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-3",
             "test": 3,
-            "id": 906,
+            "id": 908,
             "question": "During a flight, the captain is informed that a passenger is using a portable electronic device, which is adversely affecting the aircraft's electrical avionics. The captain must:",
             "options": [
               "stop the passenger from using the device",
@@ -13969,7 +13969,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-3",
             "test": 3,
-            "id": 907,
+            "id": 909,
             "question": "Who issues and updates the MEL?",
             "options": [
               "The Authority",
@@ -13984,7 +13984,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-3",
             "test": 3,
-            "id": 908,
+            "id": 910,
             "question": "What manuals are to be carried?",
             "options": [
               "Operations Manual in toto",
@@ -13999,7 +13999,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-3",
             "test": 3,
-            "id": 909,
+            "id": 911,
             "question": "A Flight Data Recorder (FDR) is required in aeroplanes over 5700 kg when first issued with a C of A after 1st April 1998. It must record:",
             "options": [
               "the last 25 hours or the duration of the last flight, whichever is greater",
@@ -14014,7 +14014,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-3",
             "test": 3,
-            "id": 910,
+            "id": 912,
             "question": "If there is unauthorized use of equipment that affects the aeroplane's system, the commander:",
             "options": [
               "may authorize its use for take-off and landing",
@@ -14029,7 +14029,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-3",
             "test": 3,
-            "id": 911,
+            "id": 913,
             "question": "Who accepts the MEL?",
             "options": [
               "The country where the flight takes place",
@@ -14044,7 +14044,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-3",
             "test": 3,
-            "id": 912,
+            "id": 914,
             "question": "After an accident, the operator of an aeroplane equipped with a flight recorder must keep the original recordings for a minimum period of:",
             "options": [
               "30 days",
@@ -14059,7 +14059,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-3",
             "test": 3,
-            "id": 913,
+            "id": 915,
             "question": "How far away can a take-off alternate be for a 2-engine aeroplane?",
             "options": [
               "60 mins at one engine cruise speed",
@@ -14074,7 +14074,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-3",
             "test": 3,
-            "id": 914,
+            "id": 916,
             "question": "What are the requirements for pilot currency to act as PIC?",
             "options": [
               "3 take-offs and landings on an aeroplane of the same type within the last 90 days",
@@ -14089,7 +14089,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-3",
             "test": 3,
-            "id": 915,
+            "id": 917,
             "question": "All aeroplanes which individual certificates of airworthiness were issued after 1 January 1990 must be fitted with a flight data recorder when their maximum certificated take-off mass is greater than:",
             "options": [
               "20000 kg",
@@ -14104,7 +14104,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-3",
             "test": 3,
-            "id": 916,
+            "id": 918,
             "question": "The operator shall include in the OM a MEL which shall be approved by the authority of:",
             "options": [
               "none, no approval is required",
@@ -14119,7 +14119,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-3",
             "test": 3,
-            "id": 917,
+            "id": 919,
             "question": "A copy of which of the following must be carried on every flight involving Public Transport?",
             "options": [
               "Aircraft Technical Log",
@@ -14134,7 +14134,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-3",
             "test": 3,
-            "id": 918,
+            "id": 920,
             "question": "Up to which height in NADP 1 noise abatement procedure must V2+ 10-20 kt be maintained?",
             "options": [
               "1500 ft",
@@ -14149,7 +14149,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-3",
             "test": 3,
-            "id": 919,
+            "id": 921,
             "question": "What is the minimum required RVR for CAT IIIB operations?",
             "options": [
               "100 m",
@@ -14164,7 +14164,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-3",
             "test": 3,
-            "id": 920,
+            "id": 922,
             "question": "Voice ATIS: 1. cannot be broadcast on a voice ILS, 2. cannot be broadcast on voice VOR, 3. is broadcast only on a discreet VHF frequency, 4. is broadcast on either a discreet VFH, VOR or an ILS frequency",
             "options": [
               "1 only is correct.",
@@ -14179,7 +14179,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-3",
             "test": 3,
-            "id": 921,
+            "id": 923,
             "question": "The Minimum Equipment List (MEL) gives the equipment which can be inoperative when undertaking a flight and the additional procedures to be observed accordingly. This list is prepared by:",
             "options": [
               "the operator, and it is inserted in the OM",
@@ -14194,7 +14194,7 @@ window.testData = {
           {
             "category": "operational-procedures",
             "test": 3,
-            "id": 922,
+            "id": 924,
             "question": "On board a pressurized aircraft, a flight shall be undertaken only if the aircraft is provided with an oxygen reserve enabling all crew members and all of the passengers to be supplied with oxygen in the event of cabin depressurization, throughout the flight period, during which the pressure altitude is greater than:",
             "options": [
               "11000 ft",
@@ -14209,7 +14209,7 @@ window.testData = {
           {
             "category": "operational-procedures",
             "test": 3,
-            "id": 923,
+            "id": 925,
             "question": "Flight crew members on the flight deck shall keep their safety belt fastened:",
             "options": [
               "only during take-off and landing",
@@ -14224,7 +14224,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-3",
             "test": 3,
-            "id": 924,
+            "id": 926,
             "question": "When are all flight crew members required to be at their stations?",
             "options": [
               "At all times except when they need to leave for operational or physiological reasons",
@@ -14239,7 +14239,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-3",
             "test": 3,
-            "id": 925,
+            "id": 927,
             "question": "Where is the general information about the carriage of dangerous goods to be found?",
             "options": [
               "OM",
@@ -14254,7 +14254,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-3",
             "test": 3,
-            "id": 926,
+            "id": 928,
             "question": "A Flight Data Recorder is required in aeroplanes over:",
             "options": [
               "20000 kg",
@@ -14269,7 +14269,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-3",
             "test": 3,
-            "id": 927,
+            "id": 929,
             "question": "A copy of which of the following documents must be kept on the ground by an operator for the duration of each flight?",
             "options": [
               "The journey log",
@@ -14284,7 +14284,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-3",
             "test": 3,
-            "id": 928,
+            "id": 930,
             "question": "If an aircraft is radar vectored to intercept an ILS localizer, what is the maximum intercept angle?",
             "options": [
               "45°",
@@ -14299,7 +14299,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-3",
             "test": 3,
-            "id": 929,
+            "id": 931,
             "question": "Fixed distance markers, when provided, shall commence:",
             "options": [
               "150 metres from the threshold",
@@ -14314,7 +14314,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-3",
             "test": 3,
-            "id": 930,
+            "id": 932,
             "question": "The considerations for a non-precision approach are:\n1. MDA (H)\n2. DH\n3. ceiling\n4. horizontal visibility",
             "options": [
               "2, 3 & 4",
@@ -14336,7 +14336,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-4",
             "test": 4,
-            "id": 931,
+            "id": 933,
             "question": "Which of the following are not required to be carried on each flight?",
             "options": [
               "CofA",
@@ -14351,7 +14351,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-4",
             "test": 4,
-            "id": 932,
+            "id": 934,
             "question": "What are the rules on the carriage of PRMs (person with reduced mobility)?",
             "options": [
               "Cannot impede the performance of crew duty",
@@ -14366,7 +14366,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-4",
             "test": 4,
-            "id": 933,
+            "id": 935,
             "question": "The considerations for a non-precision approach are: 1. MDH 2. Visibility 3. RVR 4. DA/DH 5. Cloud Base",
             "options": [
               "1, 2 & 5",
@@ -14381,7 +14381,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-4",
             "test": 4,
-            "id": 934,
+            "id": 936,
             "question": "Which of the following is to be left on the ground?",
             "options": [
               "The aeroplane noise certificate",
@@ -14396,7 +14396,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-4",
             "test": 4,
-            "id": 935,
+            "id": 937,
             "question": "Each flight is subject to a preliminary file collecting a certain amount of information. The operator will see that this file is kept on ground. It particularly contains: 1. the weather conditions... 2. one copy of the operational flight plan... 3. copies of the relevant aircraft's technical log 4. the en route NOTAM documentation... 5. special loads notification 6. charts",
             "options": [
               "1, 3 & 5",
@@ -14411,7 +14411,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-4",
             "test": 4,
-            "id": 936,
+            "id": 938,
             "question": "What are the circumstances when a take-off alternate is required?",
             "options": [
               "When weather at departure is below landing minima",
@@ -14426,7 +14426,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-4",
             "test": 4,
-            "id": 937,
+            "id": 939,
             "question": "According to OPS 1.430 (Aerodrome Operating Minima), what is the minimum RVR required for a Cat I approach?",
             "options": [
               "800 m",
@@ -14441,7 +14441,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-4",
             "test": 4,
-            "id": 938,
+            "id": 940,
             "question": "A copy of what info is to be left on the ground?",
             "options": [
               "Passenger manifests, notification of special passengers",
@@ -14456,7 +14456,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-4",
             "test": 4,
-            "id": 939,
+            "id": 941,
             "question": "Where would a pilot find the MEL for his aeroplane?",
             "options": [
               "AFM",
@@ -14471,7 +14471,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-4",
             "test": 4,
-            "id": 940,
+            "id": 942,
             "question": "After an incident, the FDR recordings must be kept for:",
             "options": [
               "30 days",
@@ -14486,7 +14486,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-4",
             "test": 4,
-            "id": 941,
+            "id": 943,
             "question": "According to OPS 1.430, Airfield Operating Minima, what is the lowest MDH using ILS no glide path (LLZ only), VOR, NDB, SRA?",
             "options": [
               "NDB - MDH 350 ft",
@@ -14501,7 +14501,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-4",
             "test": 4,
-            "id": 942,
+            "id": 944,
             "question": "Coverage of permanently illuminated white lights at the rear of the aircraft is:",
             "options": [
               "140°",
@@ -14516,7 +14516,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-4",
             "test": 4,
-            "id": 943,
+            "id": 945,
             "question": "What is the requirement for the issue of an AOC?",
             "options": [
               "Not already hold an AOC issued by another authority",
@@ -14531,7 +14531,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-4",
             "test": 4,
-            "id": 944,
+            "id": 946,
             "question": "What is the minimum visibility for a Cat C aircraft during a circling approach?",
             "options": [
               "1500 m",
@@ -14546,7 +14546,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-4",
             "test": 4,
-            "id": 945,
+            "id": 947,
             "question": "A category II precision approach (CAT II) is an approach with:",
             "options": [
               "a decision height of at least 100 ft",
@@ -14561,7 +14561,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-4",
             "test": 4,
-            "id": 946,
+            "id": 948,
             "question": "A category A aircraft can carry out an indirect (circling) approach followed by a visual manoeuvre only if the horizontal visibility is higher than or equal to:",
             "options": [
               "1600 m",
@@ -14576,7 +14576,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-4",
             "test": 4,
-            "id": 947,
+            "id": 949,
             "question": "What is the system minimum for an NDB approach?",
             "options": [
               "200 ft",
@@ -14591,7 +14591,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-4",
             "test": 4,
-            "id": 948,
+            "id": 950,
             "question": "What is the minimum RVR for a CAT IIIC approach?",
             "options": [
               "No minimum",
@@ -14606,7 +14606,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-4",
             "test": 4,
-            "id": 949,
+            "id": 951,
             "question": "When can special VFR be commenced?",
             "options": [
               "Visibility greater than 1500 m",
@@ -14621,7 +14621,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-4",
             "test": 4,
-            "id": 950,
+            "id": 952,
             "question": "Each flight is subject to a preliminary file collecting a certain amount of information. The operator will see that this file is kept on ground. It particularly contains: 1. the weather conditions for the day including the weather forecast at destination 2. one copy of the operational flight plan and, if required, the weight and balance sheet 3. copies of the relevant aircraft's technical log 4. the en route NOTAM documentation when specifically issued by the operator 5. special loads notification 6. charts",
             "options": [
               "1, 3 & 5",
@@ -14643,7 +14643,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-5",
             "test": 5,
-            "id": 951,
+            "id": 953,
             "question": "An aeroplane is starting a non-precision approach with an MDH of 250 ft and minimum visibility of 800 m. ATC gives threshold, mid runway and final third RVRs. When may the approach be started?",
             "options": [
               "When threshold and mid-runway RVRs are greater than 800 m",
@@ -14658,7 +14658,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-5",
             "test": 5,
-            "id": 952,
+            "id": 954,
             "question": "What is the Cat IIIB RVR minimum?",
             "options": [
               "50 m",
@@ -14673,7 +14673,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-5",
             "test": 5,
-            "id": 953,
+            "id": 955,
             "question": "What is the minimum horizontal visibility for a Cat D aircraft on a circling approach?",
             "options": [
               "1500 m",
@@ -14688,7 +14688,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-5",
             "test": 5,
-            "id": 954,
+            "id": 956,
             "question": "A category I precision approach (CAT I) is an approach which may be carried out with an RVR/Visibility of not less than:",
             "options": [
               "800 m",
@@ -14703,7 +14703,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-5",
             "test": 5,
-            "id": 955,
+            "id": 957,
             "question": "OPS 1.465 (VFR operating minima), establishes that, the operator shall ensure about VFR flights, that:",
             "options": [
               "for conducted VFR flights in airspace F, vertical distance from clouds is 250 m at least",
@@ -14718,7 +14718,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-5",
             "test": 5,
-            "id": 956,
+            "id": 958,
             "question": "What is Vat?",
             "options": [
               "Vso x 1.3",
@@ -14733,7 +14733,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-5",
             "test": 5,
-            "id": 957,
+            "id": 959,
             "question": "The Cat I minimum decision height is:",
             "options": [
               "no decision height",
@@ -14748,7 +14748,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-5",
             "test": 5,
-            "id": 958,
+            "id": 960,
             "question": "When establishing an instrument approach procedure, 5 aircraft categories according to their speed at the threshold (Vat) are established. This speed is equal to the stalling speed in landing configuration multiplied by:",
             "options": [
               "1.1",
@@ -14763,7 +14763,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-5",
             "test": 5,
-            "id": 959,
+            "id": 961,
             "question": "For VFR flight (in a cat C aircraft) what is the minimum horizontal visibility below 10000 ft?",
             "options": [
               "8 km",
@@ -14778,7 +14778,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-5",
             "test": 5,
-            "id": 960,
+            "id": 962,
             "question": "The information to be considered for a non-precision approach is: 1. horizontal visibility 2. ceiling 3. minimum descent altitude 4. decision altitude",
             "options": [
               "1, 2 & 4",
@@ -14793,7 +14793,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-5",
             "test": 5,
-            "id": 961,
+            "id": 963,
             "question": "What is the minimum crew rest period before flight?",
             "options": [
               "12 hours when operating away from home base",
@@ -14808,7 +14808,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-5",
             "test": 5,
-            "id": 962,
+            "id": 964,
             "question": "Who could be nominated as Senior Cabin Crew?",
             "options": [
               "Any flight crew",
@@ -14823,7 +14823,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-5",
             "test": 5,
-            "id": 963,
+            "id": 965,
             "question": "According to OPS 1.430 (Aerodrome Operating Minima) a Category IIIA approach has a Decision Height of less than 100 ft and a minimum RVR (Runway Visual Range) of:",
             "options": [
               "175 m",
@@ -14838,7 +14838,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-5",
             "test": 5,
-            "id": 964,
+            "id": 966,
             "question": "Aircraft are categorized according to their threshold speeds, multiplied by a factor. What aircraft category corresponds to a range of speeds 141 kt - 165 kt?",
             "options": [
               "Aeroplane category B",
@@ -14853,7 +14853,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-5",
             "test": 5,
-            "id": 965,
+            "id": 967,
             "question": "What are the rules regarding OPCs?",
             "options": [
               "Can be completed in the simulator, but no passengers to be carried",
@@ -14868,7 +14868,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-5",
             "test": 5,
-            "id": 966,
+            "id": 968,
             "question": "What are the threshold speeds defining a Cat B aircraft?",
             "options": [
               "< 91 kt",
@@ -14883,7 +14883,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-5",
             "test": 5,
-            "id": 967,
+            "id": 969,
             "question": "What are the limits on crew duty?",
             "options": [
               "190 hours in a year, 60 duty hours in any seven consecutive days",
@@ -14898,7 +14898,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-5",
             "test": 5,
-            "id": 968,
+            "id": 970,
             "question": "What is the take-off RVR limit for a Cat A aeroplane, when high intensity centre line lights and edge lights are on and the crew is IFR qualified and approved?",
             "options": [
               "150 m if threshold RVR is available",
@@ -14913,7 +14913,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-5",
             "test": 5,
-            "id": 969,
+            "id": 971,
             "question": "When is MDH referenced to the threshold as opposed to the aerodrome elevation?",
             "options": [
               "The threshold is more than 2 m above the ARP",
@@ -14928,7 +14928,7 @@ window.testData = {
           {
             "category": "operational-procedures-test-5",
             "test": 5,
-            "id": 970,
+            "id": 972,
             "question": "What is DH used for?",
             "options": [
               "Visual manoeuvre to land",
@@ -14956,7 +14956,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-1",
             "test": 1,
-            "id": 971,
+            "id": 973,
             "question": "The Principle of Continuity states that in a streamtube of decreasing cross-sectional area, the speed of a subsonic and incompressible airflow will:",
             "options": [
               "remain the same",
@@ -14971,7 +14971,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-1",
             "test": 1,
-            "id": 972,
+            "id": 974,
             "question": "The Principle of Continuity states that in a tube of increasing cross sectional area, the speed of a subsonic and incompressible airflow will:",
             "options": [
               "remain the same",
@@ -14986,7 +14986,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-1",
             "test": 1,
-            "id": 973,
+            "id": 975,
             "question": "Static pressure acts:",
             "options": [
               "parallel to airflow",
@@ -15001,7 +15001,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-1",
             "test": 1,
-            "id": 974,
+            "id": 976,
             "question": "Consider a uniform flow of air at velocity V in a streamtube. If the temperature of the air in the tube is raised:",
             "options": [
               "the mass flow remains constant and velocity V decreases",
@@ -15016,7 +15016,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-1",
             "test": 1,
-            "id": 975,
+            "id": 977,
             "question": "As subsonic air flows through a convergent duct: (i) static pressure (ii) velocity",
             "options": [
               "(i) increases and (ii) decreases",
@@ -15031,7 +15031,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-1",
             "test": 1,
-            "id": 976,
+            "id": 978,
             "question": "Which of the following is the equation for power?",
             "options": [
               "N/m",
@@ -15046,7 +15046,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-1",
             "test": 1,
-            "id": 977,
+            "id": 979,
             "question": "Bernoulli’s Theorem states:",
             "options": [
               "dynamic pressure increases and static pressure increases",
@@ -15061,7 +15061,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-1",
             "test": 1,
-            "id": 978,
+            "id": 980,
             "question": "Equivalent Air Speed (EAS) is:",
             "options": [
               "IAS corrected for compressibility and position/instrument error",
@@ -15076,7 +15076,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-1",
             "test": 1,
-            "id": 979,
+            "id": 981,
             "question": "At a constant CAS when flying below sea level an aircraft will have:",
             "options": [
               "a higher TAS than at sea level",
@@ -15091,7 +15091,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-1",
             "test": 1,
-            "id": 980,
+            "id": 982,
             "question": "In accordance with Bernoulli’s Theorem, where PT = Total Pressure, PS = Static pressure and q = Dynamic pressure:",
             "options": [
               "PT + PS = q",
@@ -15106,7 +15106,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-1",
             "test": 1,
-            "id": 981,
+            "id": 983,
             "question": "In a subsonic flow venturi, the relationship between the total pressure, static pressure and dynamic pressure of undisturbed air and air in the throat will be: (i) Dynamic pressure will be constant, static pressure will decrease. (ii) Total pressure will be constant, dynamic pressure will increase.",
             "options": [
               "both (i) and (ii) are correct",
@@ -15128,7 +15128,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-2",
             "test": 2,
-            "id": 982,
+            "id": 984,
             "question": "A symmetrical aerofoil section at CL = 0 will produce?",
             "options": [
               "A negative (nose-down) pitching moment.",
@@ -15143,7 +15143,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-2",
             "test": 2,
-            "id": 983,
+            "id": 985,
             "question": "Which of the following most accurately describes the airflow which causes wing tip vortices?",
             "options": [
               "From the root to the tip on the top surface and from the tip to the root on the bottom surface over the wing tip",
@@ -15158,7 +15158,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-2",
             "test": 2,
-            "id": 984,
+            "id": 986,
             "question": "With increasing angle of attack, the stagnation point moves ............. and the point of lowest pressure moves ...............",
             "options": [
               "down, forward",
@@ -15173,7 +15173,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-2",
             "test": 2,
-            "id": 985,
+            "id": 987,
             "question": "The formula for lift is:",
             "options": [
               "L = W",
@@ -15188,7 +15188,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-2",
             "test": 2,
-            "id": 986,
+            "id": 988,
             "question": "Angle of attack is the angle between:",
             "options": [
               "undisturbed airflow and chord line.",
@@ -15203,7 +15203,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-2",
             "test": 2,
-            "id": 987,
+            "id": 989,
             "question": "If IAS is doubled, by which of the following factors should the original CL be multiplied to maintain level flight?",
             "options": [
               "0.25",
@@ -15218,7 +15218,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-2",
             "test": 2,
-            "id": 988,
+            "id": 990,
             "question": "When considering the lift and drag forces on an aerofoil section:",
             "options": [
               "they are only normal to each other at one angle of attack.",
@@ -15233,7 +15233,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-2",
             "test": 2,
-            "id": 989,
+            "id": 991,
             "question": "When considering the coefficient of lift and angle of attack of aerofoil sections:",
             "options": [
               "a symmetrical section at zero angle of attack will produce a positive coefficient of lift.",
@@ -15248,7 +15248,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-2",
             "test": 2,
-            "id": 990,
+            "id": 992,
             "question": "Where does the lift act on the wing?",
             "options": [
               "Suction",
@@ -15263,7 +15263,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-2",
             "test": 2,
-            "id": 991,
+            "id": 993,
             "question": "Which of the following is the correct definition of aspect ratio?",
             "options": [
               "Span divided by tip chord",
@@ -15278,7 +15278,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-2",
             "test": 2,
-            "id": 992,
+            "id": 994,
             "question": "On entering ground effect:",
             "options": [
               "more thrust is required",
@@ -15293,7 +15293,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-2",
             "test": 2,
-            "id": 993,
+            "id": 995,
             "question": "Which of the following is the cause of wing tip vortices?",
             "options": [
               "Air spilling from the top surface to the bottom surface at the wing tip",
@@ -15308,7 +15308,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-2",
             "test": 2,
-            "id": 994,
+            "id": 996,
             "question": "An aircraft is flying straight and level, if density halves, aerodynamic drag will:",
             "options": [
               "increase by a factor of four",
@@ -15323,7 +15323,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-2",
             "test": 2,
-            "id": 995,
+            "id": 997,
             "question": "High aspect ratio:",
             "options": [
               "reduces parasite drag",
@@ -15338,7 +15338,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-2",
             "test": 2,
-            "id": 996,
+            "id": 998,
             "question": "CDi is proportional to which of the following?",
             "options": [
               "CLMAX",
@@ -15353,7 +15353,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-2",
             "test": 2,
-            "id": 997,
+            "id": 999,
             "question": "If IAS is reduced from 150 kt to 75 kt in straight and level flight, the induced drag will change by a factor of:",
             "options": [
               "16",
@@ -15368,7 +15368,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-2",
             "test": 2,
-            "id": 998,
+            "id": 1000,
             "question": "What is interference drag?",
             "options": [
               "Airflow retardation over the aircraft structure due to surface irregularities",
@@ -15383,7 +15383,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-2",
             "test": 2,
-            "id": 999,
+            "id": 1001,
             "question": "At a constant IAS, induced drag is affected by:",
             "options": [
               "aircraft weight",
@@ -15398,7 +15398,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-2",
             "test": 2,
-            "id": 1000,
+            "id": 1002,
             "question": "On the approach to land, ground effect will begin to be felt at:",
             "options": [
               "twice the wingspan above the ground",
@@ -15413,7 +15413,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-2",
             "test": 2,
-            "id": 1001,
+            "id": 1003,
             "question": "What effect on stall speed does decreasing sweep angle have?",
             "options": [
               "Decreasing sweep angle increases stall speed.",
@@ -15428,7 +15428,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-2",
             "test": 2,
-            "id": 1002,
+            "id": 1004,
             "question": "When considering an angle of attack versus coefficient of lift graph for a cambered aerofoil, where does the lift curve intersect the vertical CL axis?",
             "options": [
               "above the origin",
@@ -15443,7 +15443,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-2",
             "test": 2,
-            "id": 1003,
+            "id": 1005,
             "question": "A line from the centre of curvature of the leading edge to the trailing edge, equidistant from the top and bottom wing surface is the:",
             "options": [
               "chord line",
@@ -15458,7 +15458,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-2",
             "test": 2,
-            "id": 1004,
+            "id": 1006,
             "question": "Climbing in the troposphere at a constant TAS:",
             "options": [
               "Mach number remains constant",
@@ -15473,7 +15473,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-2",
             "test": 2,
-            "id": 1005,
+            "id": 1007,
             "question": "Which denotes the stall speed in the landing configuration?",
             "options": [
               "Vs1",
@@ -15488,7 +15488,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-2",
             "test": 2,
-            "id": 1006,
+            "id": 1008,
             "question": "In a glide (power-off descent) if pitch angle is increased, glide distance will:",
             "options": [
               "increase significantly",
@@ -15503,7 +15503,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-2",
             "test": 2,
-            "id": 1007,
+            "id": 1009,
             "question": "When flying in a headwind, the speed for max range should be:",
             "options": [
               "slightly decreased",
@@ -15518,7 +15518,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-2",
             "test": 2,
-            "id": 1008,
+            "id": 1010,
             "question": "The induced drag in an aeroplane:",
             "options": [
               "increases as speed increases",
@@ -15533,7 +15533,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-2",
             "test": 2,
-            "id": 1009,
+            "id": 1011,
             "question": "To roll the aircraft to the right:",
             "options": [
               "The aileron control is moved to the left",
@@ -15555,7 +15555,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-3",
             "test": 3,
-            "id": 1010,
+            "id": 1012,
             "question": "What is the cause of induced angle of attack?",
             "options": [
               "Downwash from trailing edge in the vicinity of the wing tips",
@@ -15570,7 +15570,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-3",
             "test": 3,
-            "id": 1011,
+            "id": 1013,
             "question": "What phenomena causes induced drag?",
             "options": [
               "Wing tip vortices",
@@ -15585,7 +15585,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-3",
             "test": 3,
-            "id": 1012,
+            "id": 1014,
             "question": "When considering the properties of a laminar and turbulent boundary layer, which of the following statements is correct?",
             "options": [
               "Friction drag is the same",
@@ -15600,7 +15600,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-3",
             "test": 3,
-            "id": 1013,
+            "id": 1015,
             "question": "The boundary layer is:",
             "options": [
               "the layer between upper and lower surfaces",
@@ -15615,7 +15615,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-3",
             "test": 3,
-            "id": 1014,
+            "id": 1016,
             "question": "CDi is the ratio of?",
             "options": [
               "(CL) squared to S",
@@ -15630,7 +15630,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-3",
             "test": 3,
-            "id": 1015,
+            "id": 1017,
             "question": "Which of the following is a characteristic of laminar flow boundary layer?",
             "options": [
               "Constant velocity",
@@ -15645,7 +15645,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-3",
             "test": 3,
-            "id": 1016,
+            "id": 1018,
             "question": "Stall speed in a turn is proportional to:",
             "options": [
               "lift",
@@ -15660,7 +15660,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-3",
             "test": 3,
-            "id": 1017,
+            "id": 1019,
             "question": "When the undercarriage is lowered in flight:",
             "options": [
               "form drag will increase and the aircrafts nose-down pitching moment will be unchanged",
@@ -15675,7 +15675,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-3",
             "test": 3,
-            "id": 1018,
+            "id": 1020,
             "question": "In recovery from a spin:",
             "options": [
               "ailerons should be kept neutral",
@@ -15690,7 +15690,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-3",
             "test": 3,
-            "id": 1019,
+            "id": 1021,
             "question": "If the stalling speed in a 15 degree bank turn is 60 kt, what would the stall speed be in a 45 degree bank?",
             "options": [
               "83 kt",
@@ -15705,7 +15705,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-3",
             "test": 3,
-            "id": 1020,
+            "id": 1022,
             "question": "If a jet aircraft is at 60 degrees bank angle during a constant altitude turn, the stall speed will be:",
             "options": [
               "1.60 greater",
@@ -15720,7 +15720,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-3",
             "test": 3,
-            "id": 1021,
+            "id": 1023,
             "question": "Which statement about induced drag and tip vortices is correct?",
             "options": [
               "Vortex generators diminish tip vortices.",
@@ -15735,7 +15735,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-3",
             "test": 3,
-            "id": 1022,
+            "id": 1024,
             "question": "The stalling speed of an aircraft in straight and level flight is 80 kt. What is the stalling speed in a level turn with a load factor of 2.25?",
             "options": [
               "120 kt",
@@ -15750,7 +15750,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-3",
             "test": 3,
-            "id": 1023,
+            "id": 1025,
             "question": "When compared to a laminar boundary layer:",
             "options": [
               "a turbulent boundary layer has more kinetic energy",
@@ -15765,7 +15765,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-3",
             "test": 3,
-            "id": 1024,
+            "id": 1026,
             "question": "A jet aircraft flying at high altitude encounters severe turbulence without encountering high speed buffet. If the aircraft decelerates, what type of stall could occur first?",
             "options": [
               "Low speed stall",
@@ -15780,7 +15780,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-3",
             "test": 3,
-            "id": 1025,
+            "id": 1027,
             "question": "If VS is 100 kt in straight and level flight, during a 45° bank turn VS will be:",
             "options": [
               "100 kt",
@@ -15795,7 +15795,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-3",
             "test": 3,
-            "id": 1026,
+            "id": 1028,
             "question": "When considering the aerodynamic forces acting on an aerofoil section:",
             "options": [
               "lift and drag increase linearly with an increase in angle of attack",
@@ -15810,7 +15810,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-3",
             "test": 3,
-            "id": 1027,
+            "id": 1029,
             "question": "Which of the following is the correct formula for drag?",
             "options": [
               "1/2 rho V squared CL S",
@@ -15825,7 +15825,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-3",
             "test": 3,
-            "id": 1028,
+            "id": 1030,
             "question": "In level flight at 1.4VS what is the approximate bank angle at which stall will occur?",
             "options": [
               "44 degrees",
@@ -15840,7 +15840,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-3",
             "test": 3,
-            "id": 1029,
+            "id": 1031,
             "question": "A swept wing aircraft stalls and the wake contacts the horizontal tail. What would be the stall behaviour?",
             "options": [
               "Nose down",
@@ -15855,7 +15855,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-3",
             "test": 3,
-            "id": 1030,
+            "id": 1032,
             "question": "Which of the following statements about a venturi in a subsonic airflow is correct? (i) The dynamic pressure in the undisturbed flow and in the throat are equal. (ii) The total pressure in the undisturbed flow and in the throat are equal.",
             "options": [
               "(i) is correct and (ii) is incorrect",
@@ -15870,7 +15870,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-3",
             "test": 3,
-            "id": 1031,
+            "id": 1033,
             "question": "With a constant weight and Mach No., a higher altitude will require:",
             "options": [
               "lower CL",
@@ -15885,7 +15885,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-3",
             "test": 3,
-            "id": 1032,
+            "id": 1034,
             "question": "Which of the following creates lift?",
             "options": [
               "An accelerated air mass",
@@ -15900,7 +15900,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-3",
             "test": 3,
-            "id": 1033,
+            "id": 1035,
             "question": "When gliding into a headwind airspeed should be:",
             "options": [
               "reduced to gust penetration speed",
@@ -15915,7 +15915,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-3",
             "test": 3,
-            "id": 1034,
+            "id": 1036,
             "question": "In a balanced turn load factor is dependent on:",
             "options": [
               "radius of turn and aircraft weight",
@@ -15930,7 +15930,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-3",
             "test": 3,
-            "id": 1035,
+            "id": 1037,
             "question": "When considering the Principle of Continuity for subsonic flow, what happens in a streamtube for a change in cross-sectional area?",
             "options": [
               "RHO 1 = RHO 2",
@@ -15945,7 +15945,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-3",
             "test": 3,
-            "id": 1036,
+            "id": 1038,
             "question": "Which of the following expressions is correct?",
             "options": [
               "A = F × M",
@@ -15960,7 +15960,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-3",
             "test": 3,
-            "id": 1037,
+            "id": 1039,
             "question": "When in a gliding maneuver, in order to achieve maximum endurance the aircraft should be flown at:",
             "options": [
               "the speed for max. lift",
@@ -15975,7 +15975,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-3",
             "test": 3,
-            "id": 1038,
+            "id": 1040,
             "question": "Which of the following decreases induced drag?",
             "options": [
               "Wing fences",
@@ -15990,7 +15990,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-3",
             "test": 3,
-            "id": 1039,
+            "id": 1041,
             "question": "The angle of attack at the stall:",
             "options": [
               "increases with forward CG",
@@ -16005,7 +16005,7 @@ window.testData = {
           {
             "category": "principles-of-flight",
             "test": 3,
-            "id": 1040,
+            "id": 1042,
             "question": "If the straight and level stall speed is 100 kt, what will be the stall speed in a 1.5g turn?",
             "options": [
               "122 kt",
@@ -16020,7 +16020,7 @@ window.testData = {
           {
             "category": "principles-of-flight",
             "test": 3,
-            "id": 1041,
+            "id": 1043,
             "question": "What does a stick pusher do?",
             "options": [
               "Activate at a certain angle of attack and pull the control column backwards",
@@ -16035,7 +16035,7 @@ window.testData = {
           {
             "category": "principles-of-flight",
             "test": 3,
-            "id": 1042,
+            "id": 1044,
             "question": "Positive static longitudinal stability means:",
             "options": [
               "nose-down pitching moment when encountering an up gust",
@@ -16050,7 +16050,7 @@ window.testData = {
           {
             "category": "principles-of-flight",
             "test": 3,
-            "id": 1043,
+            "id": 1045,
             "question": "With which conditions would the aircraft need to be flown, in order to achieve maximum speed?",
             "options": [
               "Thrust set for minimum drag",
@@ -16065,7 +16065,7 @@ window.testData = {
           {
             "category": "principles-of-flight",
             "test": 3,
-            "id": 1044,
+            "id": 1046,
             "question": "An aircraft is certified to land with flaps at either 25 or 35 degrees of flap. If the pilot selects the higher setting there will be:",
             "options": [
               "increased landing distance and reduced go-around performance",
@@ -16080,7 +16080,7 @@ window.testData = {
           {
             "category": "principles-of-flight",
             "test": 3,
-            "id": 1045,
+            "id": 1047,
             "question": "With a downward sloping runway:",
             "options": [
               "V1 will increase",
@@ -16095,7 +16095,7 @@ window.testData = {
           {
             "category": "principles-of-flight",
             "test": 3,
-            "id": 1046,
+            "id": 1048,
             "question": "When does THRUST = DRAG?",
             "options": [
               "Climbing at a constant IAS",
@@ -16110,7 +16110,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-3",
             "test": 3,
-            "id": 1047,
+            "id": 1049,
             "question": "As a smooth flow of subsonic air at a velocity less than M 0.4 flows through a divergent duct: (i) static pressure (ii) velocity",
             "options": [
               "(i) increases and (ii) decreases",
@@ -16125,7 +16125,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-3",
             "test": 3,
-            "id": 1048,
+            "id": 1050,
             "question": "For a conventional light aeroplane with a tricycle undercarriage configuration, the higher the take-off mass:\n1. stick forces at rotation will increase.\n2. range will decrease but endurance will increase.\n3. gliding range will reduce.\n4. stalling speed will increase.",
             "options": [
               "all statements are correct",
@@ -16140,7 +16140,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-3",
             "test": 3,
-            "id": 1049,
+            "id": 1051,
             "question": "What are the units for wing loading and dynamic pressure?",
             "options": [
               "N/square metre and N/square metre",
@@ -16155,7 +16155,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-3",
             "test": 3,
-            "id": 1050,
+            "id": 1052,
             "question": "If the aeroplane was neutrally stable this would suggest that:",
             "options": [
               "the CG is forward",
@@ -16170,7 +16170,7 @@ window.testData = {
           {
             "category": "principles-of-flight",
             "test": 3,
-            "id": 1051,
+            "id": 1053,
             "question": "After take-off why are the slats (if installed) always retracted later than the trailing edge flaps?",
             "options": [
               "Because VMCA with slats extended is more favourable compared to the flaps extended position",
@@ -16192,7 +16192,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-4",
             "test": 4,
-            "id": 1052,
+            "id": 1054,
             "question": "What is load factor?",
             "options": [
               "1 / Bank angle",
@@ -16207,7 +16207,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-4",
             "test": 4,
-            "id": 1053,
+            "id": 1055,
             "question": "The CP on a swept wing aircraft will move forward due to:",
             "options": [
               "boundary layer fences and spanwise flow",
@@ -16222,7 +16222,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-4",
             "test": 4,
-            "id": 1054,
+            "id": 1056,
             "question": "What is a high speed stall?",
             "options": [
               "Separation of the airflow due to shock wave formation",
@@ -16237,7 +16237,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-4",
             "test": 4,
-            "id": 1055,
+            "id": 1057,
             "question": "The effect of tropical rain on drag and stall speed would be to:",
             "options": [
               "increase drag and increase stall speed",
@@ -16252,7 +16252,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-4",
             "test": 4,
-            "id": 1056,
+            "id": 1058,
             "question": "Stalling speed increases when:",
             "options": [
               "recovering from a steep dive",
@@ -16267,7 +16267,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-4",
             "test": 4,
-            "id": 1057,
+            "id": 1059,
             "question": "VS is 100 kt at n = 1. What will the stall speed be at n = 2?",
             "options": [
               "200 kt",
@@ -16282,7 +16282,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-4",
             "test": 4,
-            "id": 1058,
+            "id": 1060,
             "question": "Which of the following aircraft designs would be most prone to super stall?",
             "options": [
               "T-tail",
@@ -16297,7 +16297,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-4",
             "test": 4,
-            "id": 1059,
+            "id": 1061,
             "question": "Which of the following is the most important result/problem caused by ice formation?",
             "options": [
               "Increased drag",
@@ -16312,7 +16312,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-4",
             "test": 4,
-            "id": 1060,
+            "id": 1062,
             "question": "What causes deep stall in a swept-back wing?",
             "options": [
               "CP moves aft",
@@ -16327,7 +16327,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-4",
             "test": 4,
-            "id": 1061,
+            "id": 1063,
             "question": "What are the effects of tropical rain on: (i) CLMAX (ii) Drag",
             "options": [
               "(i) increase (ii) decrease",
@@ -16342,7 +16342,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-4",
             "test": 4,
-            "id": 1062,
+            "id": 1064,
             "question": "The IAS of a stall:",
             "options": [
               "increases with high altitude, more flaps and slats",
@@ -16357,7 +16357,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-4",
             "test": 4,
-            "id": 1063,
+            "id": 1065,
             "question": "Vortex generators:",
             "options": [
               "take energy from the laminar flow to induce boundary layer separation",
@@ -16372,7 +16372,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-4",
             "test": 4,
-            "id": 1064,
+            "id": 1066,
             "question": "What causes a swept wing aircraft to pitch-up at the stall?",
             "options": [
               "Negative camber at the root",
@@ -16387,7 +16387,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-4",
             "test": 4,
-            "id": 1065,
+            "id": 1067,
             "question": "A stick pusher will:",
             "options": [
               "Activate at a certain angle of attack and pull the control column backwards",
@@ -16402,7 +16402,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-4",
             "test": 4,
-            "id": 1066,
+            "id": 1068,
             "question": "Which of the following combination of characteristics would be most likely make an aircraft susceptible to deep stall?",
             "options": [
               "Swept wing and wing mounted engines",
@@ -16417,7 +16417,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-4",
             "test": 4,
-            "id": 1067,
+            "id": 1069,
             "question": "Which of the following is the correct designation of stall speed in the landing configuration?",
             "options": [
               "VS1g",
@@ -16432,7 +16432,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-4",
             "test": 4,
-            "id": 1068,
+            "id": 1070,
             "question": "What effect on stall speed do the following have?",
             "options": [
               "Increased anhedral increases stall speed",
@@ -16447,7 +16447,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-4",
             "test": 4,
-            "id": 1069,
+            "id": 1071,
             "question": "The lift formula is:",
             "options": [
               "L=CL 1/2 rho V^2 S",
@@ -16462,7 +16462,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-4",
             "test": 4,
-            "id": 1070,
+            "id": 1072,
             "question": "What happens to the stall speed with flaps down, when compared to flaps up?",
             "options": [
               "Increase",
@@ -16476,7 +16476,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-4",
             "test": 4,
-            "id": 1071,
+            "id": 1073,
             "question": "What influence does the CG being on the forward limit have on VS and the stall angle?",
             "options": [
               "VS increases, stall angle remains constant",
@@ -16498,7 +16498,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-5",
             "test": 5,
-            "id": 1072,
+            "id": 1074,
             "question": "Which stall has the greatest angle of attack?",
             "options": [
               "Low speed stall",
@@ -16513,7 +16513,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-5",
             "test": 5,
-            "id": 1073,
+            "id": 1075,
             "question": "Which of the following is used to activate a stall warning device?",
             "options": [
               "Movement of the CP",
@@ -16528,7 +16528,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-5",
             "test": 5,
-            "id": 1074,
+            "id": 1076,
             "question": "An aircraft has trailing edge flap positions of 0, 15, 30 and 45 degrees plus slats can be deployed. What will have the greatest negative influence on CL / CD?",
             "options": [
               "Deploying slats",
@@ -16543,7 +16543,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-5",
             "test": 5,
-            "id": 1075,
+            "id": 1077,
             "question": "What is pitch angle?",
             "options": [
               "The angle between the chord line and the horizontal plane",
@@ -16558,7 +16558,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-5",
             "test": 5,
-            "id": 1076,
+            "id": 1078,
             "question": "How does a plain flap increase CL?",
             "options": [
               "Increases camber",
@@ -16573,7 +16573,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-5",
             "test": 5,
-            "id": 1077,
+            "id": 1079,
             "question": "When flying straight and level in 1g flight, slightly below maximum all up weight, a basic stall warning system (flapper switch) activates at 75 kt IAS and the aircraft stalls at 68 kt IAS. Under the same conditions at maximum all up weight the margin between stall warning and stall will:",
             "options": [
               "increase because increasing weight increases the 1g stall speed",
@@ -16588,7 +16588,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-5",
             "test": 5,
-            "id": 1078,
+            "id": 1080,
             "question": "The CG of an aeroplane is in a fixed position forward of the neutral point. Speed changes cause a departure from the trimmed speed. The aeroplane is:",
             "options": [
               "statically unstable",
@@ -16603,7 +16603,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-5",
             "test": 5,
-            "id": 1079,
+            "id": 1081,
             "question": "Why are slats generally used in combination with flaps during take-off and landing?",
             "options": [
               "Because flaps extended gives a large decrease in stall speed with relatively less drag",
@@ -16618,7 +16618,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-3",
             "test": 3,
-            "id": 1080,
+            "id": 1082,
             "question": "If flaps are extended in level flight:",
             "options": [
               "lift and drag increase",
@@ -16633,7 +16633,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-5",
             "test": 5,
-            "id": 1081,
+            "id": 1083,
             "question": "What is the effect of an aft shift of the CG on (1) static longitudinal stability and (2) the required control deflection for a given pitch change?",
             "options": [
               "(1) reduces (2) increases",
@@ -16648,7 +16648,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-5",
             "test": 5,
-            "id": 1082,
+            "id": 1084,
             "question": "For an aircraft flying straight and level at constant IAS, when flaps are deployed the induced drag:",
             "options": [
               "increases",
@@ -16663,7 +16663,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-5",
             "test": 5,
-            "id": 1083,
+            "id": 1085,
             "question": "Which statement is correct?",
             "options": [
               "The stick force stability can be zero or slightly positive for civil transport aeroplanes",
@@ -16678,7 +16678,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-5",
             "test": 5,
-            "id": 1084,
+            "id": 1086,
             "question": "Which of the following is the speed that would activate the stick shaker?",
             "options": [
               "1.5 VS",
@@ -16693,7 +16693,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-5",
             "test": 5,
-            "id": 1085,
+            "id": 1087,
             "question": "In order to maintain straight and level flight when trailing edge flaps are retracted, the angle of attack must:",
             "options": [
               "be increased or decreased depending on type of flap",
@@ -16708,7 +16708,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-5",
             "test": 5,
-            "id": 1086,
+            "id": 1088,
             "question": "Extending the flaps while maintaining a constant angle of attack (all other factors constant):",
             "options": [
               "the aircraft will sink suddenly",
@@ -16723,7 +16723,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-5",
             "test": 5,
-            "id": 1087,
+            "id": 1089,
             "question": "A leading edge slot:",
             "options": [
               "increases the energy of the boundary layer and decreases the critical angle of attack",
@@ -16738,7 +16738,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-5",
             "test": 5,
-            "id": 1088,
+            "id": 1090,
             "question": "How is the pitching moment affected if flaps are deployed in straight and level flight?",
             "options": [
               "Pitch up",
@@ -16752,7 +16752,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-5",
             "test": 5,
-            "id": 1089,
+            "id": 1091,
             "question": "If the angle of attack is maintained constant, what happens to the coefficient of lift when flaps are deployed?",
             "options": [
               "Increases",
@@ -16767,7 +16767,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-5",
             "test": 5,
-            "id": 1090,
+            "id": 1092,
             "question": "With a swept wing the nose-up phenomena is caused by:",
             "options": [
               "deploying lift augmentation devices",
@@ -16782,7 +16782,7 @@ window.testData = {
           {
             "category": "principles-of-flight-test-5",
             "test": 5,
-            "id": 1091,
+            "id": 1093,
             "question": "Static longitudinal stability is the tendency of an aircraft to:",
             "options": [
               "nose-down pitching moment when encountering an up gust",
@@ -16810,7 +16810,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-1",
             "test": 1,
-            "id": 1092,
+            "id": 1094,
             "question": "An aircraft flies from a VOR at 61N 013W to 58N 013W. The variation at the beacon is 13°W and the variation at the aircraft is 5°W. What radial is the aircraft on?",
             "options": [
               "013",
@@ -16825,7 +16825,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-1",
             "test": 1,
-            "id": 1093,
+            "id": 1095,
             "question": "Determine which of the following statements concerning atmospheric ionization are correct: 1. The highest levels of ionization will be experienced in low latitudes 2. Ionization levels increase linearly with increasing altitude 3. The lowest levels of ionization occur about midnight 4. The E-layer is higher by night than by day because the ionization levels are lower at night",
             "options": [
               "statements 1, 2 and 3 are correct",
@@ -16840,7 +16840,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-1",
             "test": 1,
-            "id": 1094,
+            "id": 1096,
             "question": "The accuracy of VDF Class A bearing is:",
             "options": [
               "±10°",
@@ -16855,7 +16855,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-1",
             "test": 1,
-            "id": 1095,
+            "id": 1097,
             "question": "The Doppler effect is used in some navigation systems to determine .........., it causes a .......... in frequency of a radio transmission if the transmitter and receiver are moving .........",
             "options": [
               "position, change, towards each other",
@@ -16870,7 +16870,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-1",
             "test": 1,
-            "id": 1096,
+            "id": 1098,
             "question": "The accuracy of ADF by day and excluding compass error is:",
             "options": [
               "±1°",
@@ -16885,7 +16885,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-1",
             "test": 1,
-            "id": 1097,
+            "id": 1099,
             "question": "The principal propagation path employed in an NDB/ADF system is:",
             "options": [
               "sky wave",
@@ -16900,7 +16900,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-1",
             "test": 1,
-            "id": 1098,
+            "id": 1100,
             "question": "When converting VOR and ADF bearings to true, the variation at the …… should be used for VOR and at the …… for ADF",
             "options": [
               "aircraft aircraft",
@@ -16915,7 +16915,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-1",
             "test": 1,
-            "id": 1099,
+            "id": 1101,
             "question": "The maximum range an ATC facility at 1369 ft AMSL can provide a service to an aircraft at FL350 is:",
             "options": [
               "276 NM",
@@ -16930,7 +16930,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-1",
             "test": 1,
-            "id": 1100,
+            "id": 1102,
             "question": "ADF quadrantal error is caused by:",
             "options": [
               "static build-up on the airframe and St. Elmo’s Fire",
@@ -16945,7 +16945,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-1",
             "test": 1,
-            "id": 1101,
+            "id": 1103,
             "question": "Which wavelength corresponds to a frequency of 5035 MHz?",
             "options": [
               "5.96 mm",
@@ -16960,7 +16960,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-1",
             "test": 1,
-            "id": 1102,
+            "id": 1104,
             "question": "An NDB has emission designator N0NA1A this will require the use of the BFO for:",
             "options": [
               "tuning",
@@ -16975,7 +16975,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-1",
             "test": 1,
-            "id": 1103,
+            "id": 1105,
             "question": "The pilot of an aircraft flying at FL240 is 250 NM from a VOR at 16 ft AMSL which he selects. He receives no signal from the VOR. This is because:",
             "options": [
               "the VOR is unserviceable",
@@ -16990,7 +16990,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-1",
             "test": 1,
-            "id": 1104,
+            "id": 1106,
             "question": "Coastal refraction error is maximum when the NDB signal crosses the coast at:",
             "options": [
               "a coastal beacon at an acute angle",
@@ -17005,7 +17005,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-1",
             "test": 1,
-            "id": 1105,
+            "id": 1107,
             "question": "The ADF error which will cause the needle to ‘hunt’ (i.e. oscillate around the correct bearing) is:",
             "options": [
               "night effect",
@@ -17020,7 +17020,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-1",
             "test": 1,
-            "id": 1106,
+            "id": 1108,
             "question": "The Doppler effect is:",
             "options": [
               "the change in frequency caused by the movement of a transmitter and receiver",
@@ -17035,7 +17035,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-1",
             "test": 1,
-            "id": 1107,
+            "id": 1109,
             "question": "A class B VDF bearing will have an accuracy of:",
             "options": [
               "± 2°",
@@ -17050,7 +17050,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-1",
             "test": 1,
-            "id": 1108,
+            "id": 1110,
             "question": "The VDF term meaning ‘true bearing from the station’ is:",
             "options": [
               "QDM",
@@ -17065,7 +17065,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-1",
             "test": 1,
-            "id": 1109,
+            "id": 1111,
             "question": "The phase difference measured at the aircraft from a VOR is 235°. The bearing of the beacon from the aircraft is:",
             "options": [
               "055°",
@@ -17080,7 +17080,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-1",
             "test": 1,
-            "id": 1110,
+            "id": 1112,
             "question": "An error applicable to VDF would be:",
             "options": [
               "synchronous transmission",
@@ -17095,7 +17095,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-1",
             "test": 1,
-            "id": 1111,
+            "id": 1113,
             "question": "The principle of operation of VOR is:",
             "options": [
               "bearing by lobe comparison",
@@ -17110,7 +17110,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-1",
             "test": 1,
-            "id": 1112,
+            "id": 1114,
             "question": "The emissions from a non-directional beacon (NDB) are:",
             "options": [
               "a cardioid with a 30 Hz rotation rate",
@@ -17125,7 +17125,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-1",
             "test": 1,
-            "id": 1113,
+            "id": 1115,
             "question": "The accuracy of ADF may be affected by:",
             "options": [
               "night effect, tropospheric propagation, quadrantal error",
@@ -17140,7 +17140,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-1",
             "test": 1,
-            "id": 1114,
+            "id": 1116,
             "question": "Doppler operates on the principle that ...... between a transmitter and receiver will cause the received frequency to ...... if the transmitter and receiver are moving ..... .",
             "options": [
               "apparent motion, decrease, together",
@@ -17162,7 +17162,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-2",
             "test": 2,
-            "id": 1115,
+            "id": 1117,
             "question": "When flying downwind abeam the upwind end of the runway the indications from the ILS on the CDI will be:",
             "options": [
               "in the correct sense for the localizer and no glide path signal",
@@ -17177,7 +17177,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-2",
             "test": 2,
-            "id": 1116,
+            "id": 1118,
             "question": "MLS has 200 channels available in the frequency band:",
             "options": [
               "108 – 112 MHz",
@@ -17192,7 +17192,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-2",
             "test": 2,
-            "id": 1117,
+            "id": 1119,
             "question": "The time interval between the transmission of a pulse and receipt of the echo from a target is 925.5 microseconds. The range of the target is:",
             "options": [
               "37.5 NM",
@@ -17207,7 +17207,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-2",
             "test": 2,
-            "id": 1118,
+            "id": 1120,
             "question": "The best resolution will be obtained from:",
             "options": [
               "a narrow beam width and narrow pulse width",
@@ -17222,7 +17222,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-2",
             "test": 2,
-            "id": 1119,
+            "id": 1121,
             "question": "The SSR code to select when the aircraft is being unlawfully interfered with is:",
             "options": [
               "7600",
@@ -17237,7 +17237,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-2",
             "test": 2,
-            "id": 1120,
+            "id": 1122,
             "question": "A precision approach runway CAT II is an instrument runway served by ILS and visual aids intended for operations down to:",
             "options": [
               "a RVR of 550 meters and a DH of not less than 200 ft",
@@ -17252,7 +17252,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-2",
             "test": 2,
-            "id": 1121,
+            "id": 1123,
             "question": "The type of radar which has no minimum range restriction is:",
             "options": [
               "primary CW radar",
@@ -17267,7 +17267,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-2",
             "test": 2,
-            "id": 1122,
+            "id": 1124,
             "question": "An advantage of a slotted antenna (planar array) over a parabolic reflector are:",
             "options": [
               "side lobes removed",
@@ -17282,7 +17282,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-2",
             "test": 2,
-            "id": 1123,
+            "id": 1125,
             "question": "Refer to Appendix A, diagram B. What are the indications on the VOR/ILS display?",
             "options": [
               "030, TO, Fly Right",
@@ -17297,7 +17297,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-2",
             "test": 2,
-            "id": 1124,
+            "id": 1126,
             "question": "Flying an ILS approach the equipment senses that the 90 Hz modulation predominates on both the localizer and the glide path. The indications the pilot will see are:",
             "options": [
               "fly left and fly up",
@@ -17312,7 +17312,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-2",
             "test": 2,
-            "id": 1125,
+            "id": 1127,
             "question": "On a colour AWR display, the heaviest precipitation will be displayed in:",
             "options": [
               "amber",
@@ -17327,7 +17327,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-2",
             "test": 2,
-            "id": 1126,
+            "id": 1128,
             "question": "The coverage of the approach azimuth and elevation of a MLS is:",
             "options": [
               "±20° to 40 NM",
@@ -17342,7 +17342,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-2",
             "test": 2,
-            "id": 1127,
+            "id": 1129,
             "question": "A radar transmitting on 600 MHz has a PRF of 300 pps and an aerial rotation rate of 5 rpm. This radar will be:",
             "options": [
               "an area surveillance radar",
@@ -17357,7 +17357,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-2",
             "test": 2,
-            "id": 1128,
+            "id": 1130,
             "question": "The AWR operating frequency is:",
             "options": [
               "9375 MHz",
@@ -17372,7 +17372,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-2",
             "test": 2,
-            "id": 1129,
+            "id": 1131,
             "question": "On an ILS approach, using a 3° glide path, the height of an aircraft, ground speed 160 kt, at 3.5 NM from touchdown should be:",
             "options": [
               "800 ft",
@@ -17387,7 +17387,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-2",
             "test": 2,
-            "id": 1130,
+            "id": 1132,
             "question": "The AWR frequency is selected because it gives:",
             "options": [
               "good returns from water droplets",
@@ -17402,7 +17402,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-2",
             "test": 2,
-            "id": 1131,
+            "id": 1133,
             "question": "The azimuth coverage of a 3° glide path is:",
             "options": [
               "±35° to 17 NM",
@@ -17417,7 +17417,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-2",
             "test": 2,
-            "id": 1132,
+            "id": 1134,
             "question": "The maximum theoretical range of a radar is determined by:",
             "options": [
               "power",
@@ -17432,7 +17432,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-2",
             "test": 2,
-            "id": 1133,
+            "id": 1135,
             "question": "In SSR the aircraft replies on .............. MHz and the ground station interrogates on ................. MHz",
             "options": [
               "1030 1090",
@@ -17447,7 +17447,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-2",
             "test": 2,
-            "id": 1134,
+            "id": 1136,
             "question": "A full MLS system comprises a DME and:",
             "options": [
               "4 elements multiplexing on 2 frequencies",
@@ -17462,7 +17462,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-2",
             "test": 2,
-            "id": 1135,
+            "id": 1137,
             "question": "The ILS glide slope transmitter generates false glide paths because of:",
             "options": [
               "reflections from ground vehicles near the runway",
@@ -17477,7 +17477,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-2",
             "test": 2,
-            "id": 1136,
+            "id": 1138,
             "question": "An aircraft is 100 NM SW of a VOR heading 080. The pilot intends to home to the VOR on the 210 radial. The setting he should put on the OBS is ... and the CDI indications will be:",
             "options": [
               "210, FROM, Fly Left",
@@ -17492,7 +17492,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-2",
             "test": 2,
-            "id": 1137,
+            "id": 1139,
             "question": "What distance does the DME display?",
             "options": [
               "Ground distance in km",
@@ -17507,7 +17507,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-2",
             "test": 2,
-            "id": 1138,
+            "id": 1140,
             "question": "To which aircraft position(s) does HSI presentation 'B' correspond?",
             "options": [
               "5 and 13",
@@ -17522,7 +17522,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-2",
             "test": 2,
-            "id": 1139,
+            "id": 1141,
             "question": "To which aircraft position(s) does HSI presentation 'E' correspond?",
             "options": [
               "1 and 10",
@@ -17537,7 +17537,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-2",
             "test": 2,
-            "id": 1140,
+            "id": 1142,
             "question": "To which aircraft position(s) does HSI presentation 'C' correspond?",
             "options": [
               "12 only",
@@ -17552,7 +17552,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-2",
             "test": 2,
-            "id": 1141,
+            "id": 1143,
             "question": "To which aircraft position(s) does HSI presentation 'A' correspond?",
             "options": [
               "5 and 13",
@@ -17567,7 +17567,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-2",
             "test": 2,
-            "id": 1142,
+            "id": 1144,
             "question": "To which aircraft position(s) does HSI presentation 'D' correspond?",
             "options": [
               "2 only",
@@ -17589,7 +17589,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-3",
             "test": 3,
-            "id": 1143,
+            "id": 1145,
             "question": "If the signal from an SV is lost during an aircraft manoeuvre:",
             "options": [
               "the receiver will select another SV with no loss in accuracy",
@@ -17604,7 +17604,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-3",
             "test": 3,
-            "id": 1144,
+            "id": 1146,
             "question": "The navigation database in an FMC:",
             "options": [
               "can be modified by the flight crew to meet the route requirements",
@@ -17619,7 +17619,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-3",
             "test": 3,
-            "id": 1145,
+            "id": 1147,
             "question": "If the receiver almanac becomes corrupted it will download the almanac from the constellation. This download will take:",
             "options": [
               "15 minutes",
@@ -17634,7 +17634,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-3",
             "test": 3,
-            "id": 1146,
+            "id": 1148,
             "question": "The optimum position for a DME aerial on an aircraft is:",
             "options": [
               "in the nose cone to give maximum forward range",
@@ -17649,7 +17649,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-3",
             "test": 3,
-            "id": 1147,
+            "id": 1149,
             "question": "The most accurate external reference position will be provided by:",
             "options": [
               "VOR/DME",
@@ -17664,7 +17664,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-3",
             "test": 3,
-            "id": 1148,
+            "id": 1150,
             "question": "A DME recognizes replies to its own interrogating pulses because:",
             "options": [
               "each pulse pair has its own unique modulation which is replicated by the transponder",
@@ -17679,7 +17679,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-3",
             "test": 3,
-            "id": 1149,
+            "id": 1151,
             "question": "The RNAV function of the FMC produces a position which:",
             "options": [
               "combines the short term accuracy of the external reference with the long term accuracy of the IRS",
@@ -17694,7 +17694,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-3",
             "test": 3,
-            "id": 1150,
+            "id": 1152,
             "question": "If the identification of a VOR is FKL and the paired DME identification is FKZ, then:",
             "options": [
               "the transmitters are co-located",
@@ -17709,7 +17709,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-3",
             "test": 3,
-            "id": 1151,
+            "id": 1153,
             "question": "The NAVSTAR/GPS operational constellation comprises:",
             "options": [
               "21 satellites in 6 orbits",
@@ -17724,7 +17724,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-3",
             "test": 3,
-            "id": 1152,
+            "id": 1154,
             "question": "The model of the earth used for GPS is:",
             "options": [
               "WGS90",
@@ -17739,7 +17739,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-3",
             "test": 3,
-            "id": 1153,
+            "id": 1155,
             "question": "EGNOS provides a WAAS by determining the errors in ................ and broadcasting these errors to receivers using ................",
             "options": [
               "X, Y & Z coordinates geostationary satellites",
@@ -17754,7 +17754,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-3",
             "test": 3,
-            "id": 1154,
+            "id": 1156,
             "question": "If the aircraft DME interrogates a ground transponder on a frequency of 1199 MHz, it will receive replies on:",
             "options": [
               "1199 MHz",
@@ -17769,7 +17769,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-3",
             "test": 3,
-            "id": 1155,
+            "id": 1157,
             "question": "The purpose of the PRN codes in NAVSTAR/GPS is to:",
             "options": [
               "identify the satellites",
@@ -17784,7 +17784,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-3",
             "test": 3,
-            "id": 1156,
+            "id": 1158,
             "question": "The provision of RAIM requires a minimum of ................ SVs",
             "options": [
               "3",
@@ -17799,7 +17799,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-3",
             "test": 3,
-            "id": 1157,
+            "id": 1159,
             "question": "Refer to Appendix A, diagram E. What is the track from BANTU to ZAPPO?",
             "options": [
               "360 (M)",
@@ -17814,7 +17814,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-3",
             "test": 3,
-            "id": 1158,
+            "id": 1160,
             "question": "The principle error in GNSS is:",
             "options": [
               "ionospheric propagation",
@@ -17829,7 +17829,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-3",
             "test": 3,
-            "id": 1159,
+            "id": 1161,
             "question": "The number of SVs required to produce a 3D fix is:",
             "options": [
               "3",
@@ -17844,7 +17844,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-3",
             "test": 3,
-            "id": 1160,
+            "id": 1162,
             "question": "The DME in an aircraft at FL630 measures a slant range of 16 NM from a ground station at 1225 ft AMSL. The plan range is:",
             "options": [
               "12.5 NM",
@@ -17859,7 +17859,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-3",
             "test": 3,
-            "id": 1161,
+            "id": 1163,
             "question": "The altitude read-out at the ground station from a mode C response will give the aircraft altitude within:",
             "options": [
               "300 ft",
@@ -17874,7 +17874,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-3",
             "test": 3,
-            "id": 1162,
+            "id": 1164,
             "question": "According to ICAO (Annex 11), the definition of an RNAV system is:",
             "options": [
               "one which enables the aircraft to navigate on any desired flight path within the coverage of appropriate ground based navigation aids or within the specified limits of self-contained on-board systems or a combination of the two",
@@ -17889,7 +17889,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-3",
             "test": 3,
-            "id": 1163,
+            "id": 1165,
             "question": "The least accurate bearing information taken by an aircraft over the sea from a NDB will be from:",
             "options": [
               "a coastal beacon at an acute angle",
@@ -17904,7 +17904,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-3",
             "test": 3,
-            "id": 1164,
+            "id": 1166,
             "question": "The best position on an aircraft for the GNSS aerial is:",
             "options": [
               "in the cockpit as close as possible to the receiver",
@@ -17919,7 +17919,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-3",
             "test": 3,
-            "id": 1165,
+            "id": 1167,
             "question": "The frequency band of the ILS glide path is:",
             "options": [
               "UHF",
@@ -17934,7 +17934,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-3",
             "test": 3,
-            "id": 1166,
+            "id": 1168,
             "question": "The NAVSTAR/GPS segments are:",
             "options": [
               "space, control, user",
@@ -17949,7 +17949,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-3",
             "test": 3,
-            "id": 1167,
+            "id": 1169,
             "question": "The frequency of AWR is:",
             "options": [
               "9375 MHz",
@@ -17964,7 +17964,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-3",
             "test": 3,
-            "id": 1168,
+            "id": 1170,
             "question": "The best resolution will be achieved on a radar display with:",
             "options": [
               "high power output and large parabolic reflector",
@@ -17986,7 +17986,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-4",
             "test": 4,
-            "id": 1169,
+            "id": 1171,
             "question": "Refer to Appendix A, diagram C. What is the symbol designated DFC which is coloured cyan? [Image E is missing, based on checkmark]",
             "options": [
               "an in-use VORTAC",
@@ -18001,7 +18001,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-4",
             "test": 4,
-            "id": 1170,
+            "id": 1172,
             "question": "The middle marker is usually located at a range of ................., with an audio frequency of ................ and illuminates the ................. light.",
             "options": [
               "4-6 NM 1300 Hz white",
@@ -18016,7 +18016,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-4",
             "test": 4,
-            "id": 1171,
+            "id": 1173,
             "question": "The main advantage of a continuous wave radar over a pulsed radar is:",
             "options": [
               "more complex equipment but better resolution and accuracy",
@@ -18031,7 +18031,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-4",
             "test": 4,
-            "id": 1172,
+            "id": 1174,
             "question": "For a conventional VOR a phase difference of 090° would be achieved by flying............... from the beacon:",
             "options": [
               "west",
@@ -18046,7 +18046,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-4",
             "test": 4,
-            "id": 1173,
+            "id": 1175,
             "question": "The ILS glide slope transmitter generates false glide slope signals:",
             "options": [
               "above the true glide slope",
@@ -18061,7 +18061,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-3",
             "test": 3,
-            "id": 1174,
+            "id": 1176,
             "question": "At a range of 200 NM from a VOR, if there is an error of 1°, how far off the centre line is the aircraft?",
             "options": [
               "3.5 NM",
@@ -18076,7 +18076,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-4",
             "test": 4,
-            "id": 1175,
+            "id": 1177,
             "question": "The coverage of the ILS glide slope with respect to the localizer centre line is:",
             "options": [
               "±10° to 8 NM",
@@ -18091,7 +18091,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-4",
             "test": 4,
-            "id": 1176,
+            "id": 1178,
             "question": "Refer to Appendix A, diagram F. What is the required track?",
             "options": [
               "165",
@@ -18106,7 +18106,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-4",
             "test": 4,
-            "id": 1177,
+            "id": 1179,
             "question": "The principle of operation of the ILS localizer transmitter is that it transmits two overlapping lobes on:",
             "options": [
               "different frequencies with different phases",
@@ -18121,7 +18121,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-4",
             "test": 4,
-            "id": 1178,
+            "id": 1180,
             "question": "The amplitude modulation of the ILS outer marker is ............... and it illuminates the................light in the cockpit.",
             "options": [
               "400 Hz blue",
@@ -18136,7 +18136,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-4",
             "test": 4,
-            "id": 1179,
+            "id": 1181,
             "question": "Which of the following systems use pulse technique? 1. secondary surveillance radar 2. airborne weather radar 3. distance measuring equipment 4. primary radar",
             "options": [
               "all the above",
@@ -18151,7 +18151,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-4",
             "test": 4,
-            "id": 1180,
+            "id": 1182,
             "question": "On an ILS approach you receive more of the 90 Hz modulation than the 150 Hz modulation. The action you should take is:",
             "options": [
               "fly left and up",
@@ -18166,7 +18166,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-4",
             "test": 4,
-            "id": 1181,
+            "id": 1183,
             "question": "In which frequency band does ILS operate?",
             "options": [
               "UHF/VHF",
@@ -18181,7 +18181,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-4",
             "test": 4,
-            "id": 1182,
+            "id": 1184,
             "question": "Distance on MLS is measured by:",
             "options": [
               "measuring the time taken for the primary radar pulse to travel from the MLS transmitter to the aircraft receiver",
@@ -18196,7 +18196,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-4",
             "test": 4,
-            "id": 1183,
+            "id": 1185,
             "question": "The coverage of MLS is ............... either side of the centre line to a distance of...............",
             "options": [
               "40° 40 NM",
@@ -18211,7 +18211,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-4",
             "test": 4,
-            "id": 1184,
+            "id": 1186,
             "question": "In which band does the ILS glide path operate?",
             "options": [
               "metric",
@@ -18226,7 +18226,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-4",
             "test": 4,
-            "id": 1185,
+            "id": 1187,
             "question": "Refer to Appendix A, diagram A. What is the deviation from the required track?",
             "options": [
               "3 NM left",
@@ -18241,7 +18241,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-4",
             "test": 4,
-            "id": 1186,
+            "id": 1188,
             "question": "The definition of a radar display will be best with:",
             "options": [
               "narrow beamwidth and narrow pulsewidth",
@@ -18256,7 +18256,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-4",
             "test": 4,
-            "id": 1187,
+            "id": 1189,
             "question": "Primary radar operates on the principle of:",
             "options": [
               "transponder interrogation",
@@ -18271,7 +18271,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-4",
             "test": 4,
-            "id": 1188,
+            "id": 1190,
             "question": "The best radar for measuring very short ranges is:",
             "options": [
               "a continuous wave primary radar",
@@ -18293,7 +18293,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-5",
             "test": 5,
-            "id": 1189,
+            "id": 1191,
             "question": "NAVSTAR GPS receiver clock error is removed by:",
             "options": [
               "regular auto-synchronization with the satellite clocks",
@@ -18308,7 +18308,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-5",
             "test": 5,
-            "id": 1190,
+            "id": 1192,
             "question": "The main advantage of a slotted scanner is:",
             "options": [
               "reduces side lobes and directs more energy into the main beam",
@@ -18323,7 +18323,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-5",
             "test": 5,
-            "id": 1191,
+            "id": 1193,
             "question": "The advantages of SSR mode S are:",
             "options": [
               "improved resolution, TCAS",
@@ -18338,7 +18338,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-5",
             "test": 5,
-            "id": 1192,
+            "id": 1194,
             "question": "The DME IDENT signal consists of a Morse code transmission every:",
             "options": [
               "30-40 seconds at a pitch of 1350 Hz",
@@ -18353,7 +18353,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-5",
             "test": 5,
-            "id": 1193,
+            "id": 1195,
             "question": "The positioning of a GNSS aerial on an aircraft is:",
             "options": [
               "in the fin",
@@ -18368,7 +18368,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-5",
             "test": 5,
-            "id": 1194,
+            "id": 1196,
             "question": "The use of the AWR on the ground is:",
             "options": [
               "not permitted",
@@ -18383,7 +18383,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-5",
             "test": 5,
-            "id": 1195,
+            "id": 1197,
             "question": "The airborne weather radar (AWR) cannot detect:",
             "options": [
               "snow",
@@ -18398,7 +18398,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-5",
             "test": 5,
-            "id": 1196,
+            "id": 1198,
             "question": "What are the ground components of MLS?",
             "options": [
               "Separate azimuth and elevation antennae with DME",
@@ -18413,7 +18413,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-5",
             "test": 5,
-            "id": 1197,
+            "id": 1199,
             "question": "Area navigation is:",
             "options": [
               "one which enables the aircraft to navigate on any desired flight path within the coverage of appropriate ground based navigation aids or within the specified limits of self-contained on-board systems or a combination of the two",
@@ -18428,7 +18428,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-5",
             "test": 5,
-            "id": 1198,
+            "id": 1200,
             "question": "Which is the most suitable radar for measuring short ranges?",
             "options": [
               "Millimetric pulse",
@@ -18443,7 +18443,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-5",
             "test": 5,
-            "id": 1199,
+            "id": 1201,
             "question": "The PRN codes are used to:",
             "options": [
               "determine the time taken for the signal to reach the receiver",
@@ -18458,7 +18458,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-5",
             "test": 5,
-            "id": 1200,
+            "id": 1202,
             "question": "Refer to Appendix A, diagram D. What is the track deviation?",
             "options": [
               "0.8 NM left",
@@ -18473,7 +18473,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-5",
             "test": 5,
-            "id": 1201,
+            "id": 1203,
             "question": "The SSR ground transceiver interrogates on ................ and receives responses on ................",
             "options": [
               "1030 MHz 1030 MHz",
@@ -18488,7 +18488,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-5",
             "test": 5,
-            "id": 1202,
+            "id": 1204,
             "question": "The accuracy of SSR mode C altitude as displayed to the air traffic controller is:",
             "options": [
               "±25 ft",
@@ -18503,7 +18503,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-5",
             "test": 5,
-            "id": 1203,
+            "id": 1205,
             "question": "Concerning NAVSTAR/GPS orbits, which of the following statements is correct?",
             "options": [
               "The inclination of the orbits is 55° with an orbital period of 12 hours",
@@ -18518,7 +18518,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-3",
             "test": 3,
-            "id": 1204,
+            "id": 1206,
             "question": "Why is a secondary radar display free from weather clutter?",
             "options": [
               "The frequencies are too low to detect water droplets",
@@ -18533,7 +18533,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-5",
             "test": 5,
-            "id": 1205,
+            "id": 1207,
             "question": "The frequency used for airborne weather radar is:",
             "options": [
               "9375 MHz",
@@ -18548,7 +18548,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-5",
             "test": 5,
-            "id": 1206,
+            "id": 1208,
             "question": "The vertical position provided by SSR mode C is referenced to:",
             "options": [
               "QNH unless QFE is in use",
@@ -18563,7 +18563,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-5",
             "test": 5,
-            "id": 1207,
+            "id": 1209,
             "question": "The EHSI is showing 5° fly right with a TO indication. The aircraft heading is 280°(M) and the required track is 270°. The radial is:",
             "options": [
               "275",
@@ -18578,7 +18578,7 @@ window.testData = {
           {
             "category": "radio-navigation-test-5",
             "test": 5,
-            "id": 1208,
+            "id": 1210,
             "question": "The contents of the navigation and systems message from NAVSTAR/GPS SVs include:",
             "options": [
               "satellite clock error, almanac data, ionospheric propagation information",
@@ -18606,7 +18606,7 @@ window.testData = {
           {
             "category": "general-navigation-test-1",
             "test": 1,
-            "id": 1209,
+            "id": 1211,
             "question": "X - 45NM - Y - 52NM - Z. ATA X 1435. ETA Y 1458. ETA Z 1512. ATA Y 1455. What is the revised ETA Z?",
             "options": [
               "1509",
@@ -18621,7 +18621,7 @@ window.testData = {
           {
             "category": "general-navigation-test-1",
             "test": 1,
-            "id": 1210,
+            "id": 1212,
             "question": "On a direct Mercator chart, great circles are shown as:",
             "options": [
               "curves convex to the nearer pole",
@@ -18636,7 +18636,7 @@ window.testData = {
           {
             "category": "general-navigation-test-1",
             "test": 1,
-            "id": 1211,
+            "id": 1213,
             "question": "An aircraft starts at position 04°10'S 178°22'W and heads true north for 2950 NM, then turns 90 degrees right, and maintains a rhumb line track for 314 kilometres. What is its final position?",
             "options": [
               "55°00'N 174°22'W",
@@ -18651,7 +18651,7 @@ window.testData = {
           {
             "category": "general-navigation-test-1",
             "test": 1,
-            "id": 1212,
+            "id": 1214,
             "question": "Where is the Earth's magnetic field the weakest?",
             "options": [
               "About midway between the earth's magnetic poles",
@@ -18666,7 +18666,7 @@ window.testData = {
           {
             "category": "general-navigation-test-1",
             "test": 1,
-            "id": 1213,
+            "id": 1215,
             "question": "You are heading 080°(T) when you get a range and bearing fix from your AWR (Airborne Weather Radar) on a headland at 185 NM 30° left of the nose. What true bearing do you plot on the chart?",
             "options": [
               "050 from the headland, using the headland's meridian",
@@ -18681,7 +18681,7 @@ window.testData = {
           {
             "category": "general-navigation-test-1",
             "test": 1,
-            "id": 1214,
+            "id": 1216,
             "question": "On a transverse Mercator chart, the scale factor is 0.9996 on the central meridian. At a point 3° away from the central meridian, the scale is exactly 1. What is the scale at a point 4°30' away from the central meridian?",
             "options": [
               "1 / 0.9996",
@@ -18696,7 +18696,7 @@ window.testData = {
           {
             "category": "general-navigation-test-1",
             "test": 1,
-            "id": 1215,
+            "id": 1217,
             "question": "A Lambert's Conical conformal chart has standard parallels at 63N and 41N. What is the convergence factor?",
             "options": [
               ".891",
@@ -18711,7 +18711,7 @@ window.testData = {
           {
             "category": "general-navigation-test-1",
             "test": 1,
-            "id": 1216,
+            "id": 1218,
             "question": "Refer to Jeppesen Manual ED-6 Flying from position SIGMARINGEN (N4805 E00913) to BIBERACH airport (N4807 E00946) Find the magnetic course and distance",
             "options": [
               "093/41 NM",
@@ -18733,7 +18733,7 @@ window.testData = {
           {
             "category": "general-navigation-test-2",
             "test": 2,
-            "id": 1217,
+            "id": 1219,
             "question": "How does scale change on a normal Mercator chart?",
             "options": [
               "Expands as the cosine of the latitude",
@@ -18748,7 +18748,7 @@ window.testData = {
           {
             "category": "general-navigation-test-2",
             "test": 2,
-            "id": 1218,
+            "id": 1220,
             "question": "Ground speed is 540 knots. 72 NM to go. What is the time to go?",
             "options": [
               "8 min",
@@ -18763,7 +18763,7 @@ window.testData = {
           {
             "category": "general-navigation-test-2",
             "test": 2,
-            "id": 1219,
+            "id": 1221,
             "question": "You are on an ILS 3-degree glide slope which passes over the runway threshold at 50 feet. Your DME range is 25 NM from the threshold. What is your height above the runway threshold elevation? (Use the 1 in 60 rule and 6000 feet = 1 nautical mile)",
             "options": [
               "7450 feet",
@@ -18778,7 +18778,7 @@ window.testData = {
           {
             "category": "general-navigation-test-2",
             "test": 2,
-            "id": 1220,
+            "id": 1222,
             "question": "1 degree of latitude is equal to:",
             "options": [
               "60 km",
@@ -18793,7 +18793,7 @@ window.testData = {
           {
             "category": "general-navigation-test-2",
             "test": 2,
-            "id": 1221,
+            "id": 1223,
             "question": "What is the highest latitude listed below at which the sun will rise above the horizon and set every day?",
             "options": [
               "68°N",
@@ -18808,7 +18808,7 @@ window.testData = {
           {
             "category": "general-navigation-test-2",
             "test": 2,
-            "id": 1222,
+            "id": 1224,
             "question": "In which month does aphelion occur?",
             "options": [
               "January",
@@ -18823,7 +18823,7 @@ window.testData = {
           {
             "category": "general-navigation-test-2",
             "test": 2,
-            "id": 1223,
+            "id": 1225,
             "question": "The scale on a Lambert's conformal conic chart:",
             "options": [
               "is constant along a meridian of longitude",
@@ -18838,7 +18838,7 @@ window.testData = {
           {
             "category": "general-navigation-test-2",
             "test": 2,
-            "id": 1224,
+            "id": 1226,
             "question": "A rhumb line is:",
             "options": [
               "the vertex of a conformal polyformic projection",
@@ -18853,7 +18853,7 @@ window.testData = {
           {
             "category": "general-navigation-test-2",
             "test": 2,
-            "id": 1225,
+            "id": 1227,
             "question": "On a particular take-off, you can accept up to 10 knots tailwind component. The runway QDM is 047°, the variation is 17°E, and the forecast wind is 100°(T) / 30 knots. What is the maximum tailwind component?",
             "options": [
               "18 knots",
@@ -18868,7 +18868,7 @@ window.testData = {
           {
             "category": "general-navigation-test-2",
             "test": 2,
-            "id": 1226,
+            "id": 1228,
             "question": "An aircraft at position 60°N 005°W tracks 090°(T) for 315 km. On completion of the flight the longitude will be:",
             "options": [
               "010°40'W",
@@ -18883,7 +18883,7 @@ window.testData = {
           {
             "category": "general-navigation-test-2",
             "test": 2,
-            "id": 1227,
+            "id": 1229,
             "question": "At 65 NM from a VOR you commence a descent from FL330 in order to arrive over the VOR at FL80. Your mean ground speed in the descent is 240 knots. What rate of descent is required?",
             "options": [
               "1540 feet/min",
@@ -18898,7 +18898,7 @@ window.testData = {
           {
             "category": "general-navigation-test-2",
             "test": 2,
-            "id": 1228,
+            "id": 1230,
             "question": "On a 5% glide slope your groundspeed is 150 kt. What should be your rate of descent to maintain the glide slope?",
             "options": [
               "750 feet/min",
@@ -18913,7 +18913,7 @@ window.testData = {
           {
             "category": "general-navigation-test-2",
             "test": 2,
-            "id": 1229,
+            "id": 1231,
             "question": "An aircraft at position 27°00'N 170°00'W travels 3000 km on a track of 180°(T), then 3000 km on a track of 090°(T), then 3000 km on a track of 000°(T), then 3000 km on a track of 270°(T). What is its final position?",
             "options": [
               "27°00'N 173°18'W",
@@ -18928,7 +18928,7 @@ window.testData = {
           {
             "category": "general-navigation-test-2",
             "test": 2,
-            "id": 1230,
+            "id": 1232,
             "question": "Your pressure alt is FL55, the QNH is 998, and the SAT is +30°(C). What is the density altitude?",
             "options": [
               "6980 feet",
@@ -18943,7 +18943,7 @@ window.testData = {
           {
             "category": "general-navigation-test-2",
             "test": 2,
-            "id": 1231,
+            "id": 1233,
             "question": "You are heading 345°(M), the variation is 20°E, and you take a radar bearing of 30° left of the nose from an island. What bearing do you plot from the island?",
             "options": [
               "160°(T)",
@@ -18958,7 +18958,7 @@ window.testData = {
           {
             "category": "general-navigation-test-2",
             "test": 2,
-            "id": 1232,
+            "id": 1234,
             "question": "The agonic line:",
             "options": [
               "is midway between the magnetic North and South poles",
@@ -18973,7 +18973,7 @@ window.testData = {
           {
             "category": "general-navigation-test-2",
             "test": 2,
-            "id": 1233,
+            "id": 1235,
             "question": "The pressure alt is 29000 feet and the SAT is -55°(C). What is the density altitude?",
             "options": [
               "27500 feet",
@@ -18988,7 +18988,7 @@ window.testData = {
           {
             "category": "general-navigation-test-2",
             "test": 2,
-            "id": 1234,
+            "id": 1236,
             "question": "On the Jeppesen E(LO)1 chart, what are the symbols at Sligo (53°54.8'N 008°49.1'W)?",
             "options": [
               "VOR, NDB, DME, compulsory reporting point",
@@ -19003,7 +19003,7 @@ window.testData = {
           {
             "category": "general-navigation-test-2",
             "test": 2,
-            "id": 1235,
+            "id": 1237,
             "question": "Which of these is a correct statement about the Earth's magnetic field?",
             "options": [
               "It acts as though there is a large red magnetic pole in Northern Canada",
@@ -19018,7 +19018,7 @@ window.testData = {
           {
             "category": "general-navigation-test-2",
             "test": 2,
-            "id": 1236,
+            "id": 1238,
             "question": "Isogrivs are lines that connect positions that have:",
             "options": [
               "the same magnetic variation",
@@ -19033,7 +19033,7 @@ window.testData = {
           {
             "category": "general-navigation-test-2",
             "test": 2,
-            "id": 1237,
+            "id": 1239,
             "question": "By what amount must you change your rate of descent given a 10 knot decrease in headwind on a 3° glide slope?",
             "options": [
               "50 feet per minute decrease",
@@ -19048,7 +19048,7 @@ window.testData = {
           {
             "category": "general-navigation-test-2",
             "test": 2,
-            "id": 1238,
+            "id": 1240,
             "question": "Where is a compass most effective?",
             "options": [
               "At the magnetic poles",
@@ -19063,7 +19063,7 @@ window.testData = {
           {
             "category": "general-navigation-test-2",
             "test": 2,
-            "id": 1239,
+            "id": 1241,
             "question": "Using the 1 in 60 rule calculate the height on a 3 degree glide path of an aircraft 4.5 NM from touchdown.",
             "options": [
               "1000 ft",
@@ -19078,7 +19078,7 @@ window.testData = {
           {
             "category": "general-navigation-test-2",
             "test": 2,
-            "id": 1240,
+            "id": 1242,
             "question": "5 hours 20 minutes and 20 seconds time difference is equivalent to which change of longitude?",
             "options": [
               "75°00'",
@@ -19093,7 +19093,7 @@ window.testData = {
           {
             "category": "general-navigation-test-2",
             "test": 2,
-            "id": 1241,
+            "id": 1243,
             "question": "The main reason that day and night, throughout the year, have different durations is due to the:",
             "options": [
               "rotation of the earth",
@@ -19108,7 +19108,7 @@ window.testData = {
           {
             "category": "general-navigation-test-2",
             "test": 2,
-            "id": 1242,
+            "id": 1244,
             "question": "A - 30NM - B - 20NM - C. ATA A is 1010. ETA B is 1030. ETA C is 1043. ATA B is 1027. What is revised ETA C?",
             "options": [
               "1035",
@@ -19123,7 +19123,7 @@ window.testData = {
           {
             "category": "general-navigation-test-2",
             "test": 2,
-            "id": 1243,
+            "id": 1245,
             "question": "The value of variation:",
             "options": [
               "is always constant",
@@ -19138,7 +19138,7 @@ window.testData = {
           {
             "category": "general-navigation-test-2",
             "test": 2,
-            "id": 1244,
+            "id": 1246,
             "question": "An aircraft starts at position 0410S 17822W and heads true north for 2950 NM, then turns 90 degrees right, and maintains a rhumb line track for 314 kilometres. What is its final position?",
             "options": [
               "4500N 17822E",
@@ -19153,7 +19153,7 @@ window.testData = {
           {
             "category": "general-navigation-test-2",
             "test": 2,
-            "id": 1245,
+            "id": 1247,
             "question": "At the magnetic equator:",
             "options": [
               "dip is 90 degrees",
@@ -19168,7 +19168,7 @@ window.testData = {
           {
             "category": "general-navigation-test-2",
             "test": 2,
-            "id": 1246,
+            "id": 1248,
             "question": "What is the definition of magnetic variation?",
             "options": [
               "The angle between Magnetic North and Compass North",
@@ -19183,7 +19183,7 @@ window.testData = {
           {
             "category": "general-navigation-test-2",
             "test": 2,
-            "id": 1247,
+            "id": 1249,
             "question": "An aircraft leaves at 0900UTC on a 250 NM journey with a planned ground speed of 115 knots. After 74 NM the aircraft is 1.5 minutes behind the planned schedule. What is the revised ETA at the destination?",
             "options": [
               "1110",
@@ -19198,7 +19198,7 @@ window.testData = {
           {
             "category": "general-navigation-test-2",
             "test": 2,
-            "id": 1248,
+            "id": 1250,
             "question": "Given: Airport elevation is 1000 feet. QNH is 988 hPa. What is the approximate airport pressure altitude?",
             "options": [
               "1000 ft",
@@ -19213,7 +19213,7 @@ window.testData = {
           {
             "category": "general-navigation-test-2",
             "test": 2,
-            "id": 1249,
+            "id": 1251,
             "question": "A useful method of a pilot resolving, on a visual flight, any uncertainty in the aircraft's position is to maintain visual contact with the ground and:",
             "options": [
               "fly in circles until a landmark is found",
@@ -19228,7 +19228,7 @@ window.testData = {
           {
             "category": "general-navigation-test-2",
             "test": 2,
-            "id": 1250,
+            "id": 1252,
             "question": "Grivation is the combination of:",
             "options": [
               "variation and deviation",
@@ -19250,7 +19250,7 @@ window.testData = {
           {
             "category": "general-navigation-test-3",
             "test": 3,
-            "id": 1251,
+            "id": 1253,
             "question": "The circumference of the Earth is approximately:",
             "options": [
               "40000 NM",
@@ -19265,7 +19265,7 @@ window.testData = {
           {
             "category": "general-navigation-test-3",
             "test": 3,
-            "id": 1252,
+            "id": 1254,
             "question": "Position A is at 70°S 030°W, position B is 70°S 060°E. What is the great circle track of B from A, measured at A?",
             "options": [
               "132°(T)",
@@ -19280,7 +19280,7 @@ window.testData = {
           {
             "category": "general-navigation-test-3",
             "test": 3,
-            "id": 1253,
+            "id": 1255,
             "question": "An aircraft is at 10°N and is flying North at 444 km/hour. After 3 hours the latitude is:",
             "options": [
               "10°S",
@@ -19295,7 +19295,7 @@ window.testData = {
           {
             "category": "general-navigation-test-3",
             "test": 3,
-            "id": 1254,
+            "id": 1256,
             "question": "An aircraft's compass must be swung:",
             "options": [
               "if the aircraft has been in the hangar for a long time and has been moved several times",
@@ -19310,7 +19310,7 @@ window.testData = {
           {
             "category": "general-navigation-test-3",
             "test": 3,
-            "id": 1255,
+            "id": 1257,
             "question": "Track = 090°(T), TAS = 460 knots, W/V = 360°(T) / 100, Variation = 12°E, Deviation = -2. What is the compass heading and the ground speed?",
             "options": [
               "079° 470 knots",
@@ -19325,7 +19325,7 @@ window.testData = {
           {
             "category": "general-navigation-test-3",
             "test": 3,
-            "id": 1256,
+            "id": 1258,
             "question": "An aircraft departs a point 04°00'N 170°00'W and flies 240 NM South, followed by 240 NM East, then 240 NM North, then 240 NM West. What is its final position?",
             "options": [
               "04°00'N 170°00'W",
@@ -19340,7 +19340,7 @@ window.testData = {
           {
             "category": "general-navigation-test-3",
             "test": 3,
-            "id": 1257,
+            "id": 1259,
             "question": "What is the weight in kilograms of 380 US Gallons at a Specific Gravity of 0.78?",
             "options": [
               "1123",
@@ -19355,7 +19355,7 @@ window.testData = {
           {
             "category": "general-navigation-test-3",
             "test": 3,
-            "id": 1258,
+            "id": 1260,
             "question": "What is the reason for seasonal changes in climate?",
             "options": [
               "Because the Earth's spin axis is inclined to the plane of its orbit round the Sun",
@@ -19370,7 +19370,7 @@ window.testData = {
           {
             "category": "general-navigation-test-3",
             "test": 3,
-            "id": 1259,
+            "id": 1261,
             "question": "What is a line of equal grivation?",
             "options": [
               "An isocline",
@@ -19385,7 +19385,7 @@ window.testData = {
           {
             "category": "general-navigation-test-3",
             "test": 3,
-            "id": 1260,
+            "id": 1262,
             "question": "What is the dip angle at the North Magnetic Pole?",
             "options": [
               "0°",
@@ -19400,7 +19400,7 @@ window.testData = {
           {
             "category": "general-navigation-test-3",
             "test": 3,
-            "id": 1261,
+            "id": 1263,
             "question": "You leave A to fly to B, 475 NM away, at 1000 hours. Your ETA at B is 1130. At 1040, you are 190 NM from A. What ground speed is required to arrive on time at B?",
             "options": [
               "342 knots",
@@ -19415,7 +19415,7 @@ window.testData = {
           {
             "category": "general-navigation-test-3",
             "test": 3,
-            "id": 1262,
+            "id": 1264,
             "question": "What is the maximum possible value of Dip Angle at either Pole?",
             "options": [
               "66°",
@@ -19430,7 +19430,7 @@ window.testData = {
           {
             "category": "general-navigation-test-3",
             "test": 3,
-            "id": 1263,
+            "id": 1265,
             "question": "Civil Twilight occurs between:",
             "options": [
               "sunset and 6° below the horizon",
@@ -19445,7 +19445,7 @@ window.testData = {
           {
             "category": "general-navigation-test-3",
             "test": 3,
-            "id": 1264,
+            "id": 1266,
             "question": "Isogonal lines converge as follows:",
             "options": [
               "at the North Magnetic Pole",
@@ -19460,7 +19460,7 @@ window.testData = {
           {
             "category": "general-navigation-test-3",
             "test": 3,
-            "id": 1265,
+            "id": 1267,
             "question": "The value of magnetic variation on a chart changes with time. This is due to:",
             "options": [
               "movement of the magnetic poles, causing an increase",
@@ -19475,7 +19475,7 @@ window.testData = {
           {
             "category": "general-navigation-test-3",
             "test": 3,
-            "id": 1266,
+            "id": 1268,
             "question": "Which of the following differences in latitude will give the biggest difference in the initial great circle track and the mean great circle track between two points separated by 10° change of longitude?",
             "options": [
               "60°N and 60°S",
@@ -19490,7 +19490,7 @@ window.testData = {
           {
             "category": "general-navigation-test-3",
             "test": 3,
-            "id": 1267,
+            "id": 1269,
             "question": "What is the approximate value of the 'flattening' of the Earth?",
             "options": [
               "1/1000",
@@ -19505,7 +19505,7 @@ window.testData = {
           {
             "category": "general-navigation-test-3",
             "test": 3,
-            "id": 1268,
+            "id": 1270,
             "question": "On a particular direct Mercator wall chart, the full length of the parallel of latitude at 53°N is 133 cm long. What is the scale of the chart at 30°S?",
             "options": [
               "1: 30000000",
@@ -19520,7 +19520,7 @@ window.testData = {
           {
             "category": "general-navigation-test-3",
             "test": 3,
-            "id": 1269,
+            "id": 1271,
             "question": "What is the highest latitude on the Earth at which the Sun can be vertically overhead?",
             "options": [
               "23½°",
@@ -19535,7 +19535,7 @@ window.testData = {
           {
             "category": "general-navigation-test-3",
             "test": 3,
-            "id": 1270,
+            "id": 1272,
             "question": "An aircraft is at 55°30'N 036°13'W, where the variation is 15W. It is tuned to a VOR located at 53°30'N 036°13'W, where the variation is 12W. What VOR radial is the aircraft on?",
             "options": [
               "348",
@@ -19550,7 +19550,7 @@ window.testData = {
           {
             "category": "general-navigation-test-3",
             "test": 3,
-            "id": 1271,
+            "id": 1273,
             "question": "In the Jeppesen SID, STARs & IAP directions are given as:",
             "options": [
               "true course/track",
@@ -19565,7 +19565,7 @@ window.testData = {
           {
             "category": "general-navigation-test-3",
             "test": 3,
-            "id": 1272,
+            "id": 1274,
             "question": "X - 30NM - Y - 20NM - Z. ATA X is 1420. ETA Y is 1447. ATA Y is 1450. What is new ETA Z?",
             "options": [
               "1503",
@@ -19580,7 +19580,7 @@ window.testData = {
           {
             "category": "general-navigation-test-3",
             "test": 3,
-            "id": 1273,
+            "id": 1275,
             "question": "Refer to Appendix A, diagram C. What is the symbol designated DFC which is coloured cyan?",
             "options": [
               "an in-use VORTAC",
@@ -19595,7 +19595,7 @@ window.testData = {
           {
             "category": "general-navigation-test-3",
             "test": 3,
-            "id": 1274,
+            "id": 1276,
             "question": "The angle between True North and Magnetic North is known as:",
             "options": [
               "deviation",
@@ -19610,7 +19610,7 @@ window.testData = {
           {
             "category": "general-navigation-test-3",
             "test": 3,
-            "id": 1275,
+            "id": 1277,
             "question": "You are cruising at FL250 and need to be at FL50 10 NM before a VOR/DME. Your rate of descent is 1250 ft/min and your GS in the descent 250 kt. How far before the VOR/DME should you start your descent?",
             "options": [
               "66.7 NM",
@@ -19625,7 +19625,7 @@ window.testData = {
           {
             "category": "general-navigation",
             "test": 3,
-            "id": 1276,
+            "id": 1278,
             "question": "Refer to Jeppesen E(LO)1\nThe magnetic course and distance from LIFFY (N5329 W00530) and WAL (N5324 W00308) is:",
             "options": [
               "279°(M) 85 NM",
@@ -19640,7 +19640,7 @@ window.testData = {
           {
             "category": "general-navigation",
             "test": 3,
-            "id": 1277,
+            "id": 1279,
             "question": "On a particular take-off, you can accept up to 10 knots tailwind. The runway QDM is 047, the variation is 17E and the ATIS gives the wind direction as 210. What is the maximum wind strength you can accept?",
             "options": [
               "18 knots",
@@ -19655,7 +19655,7 @@ window.testData = {
           {
             "category": "general-navigation-test-3",
             "test": 3,
-            "id": 1278,
+            "id": 1280,
             "question": "TAS is:",
             "options": [
               "higher than IAS at ISA altitudes below sea level",
@@ -19670,7 +19670,7 @@ window.testData = {
           {
             "category": "general-navigation-test-3",
             "test": 3,
-            "id": 1279,
+            "id": 1281,
             "question": "An aircraft at FL370 is required to commence descent at 120 NM from a VOR and to cross the facility at FL130. If the mean GS for the descent is 288 kt, the minimum rate of descent required is:",
             "options": [
               "920 ft/min",
@@ -19692,7 +19692,7 @@ window.testData = {
           {
             "category": "general-navigation-test-4",
             "test": 4,
-            "id": 1280,
+            "id": 1282,
             "question": "Please refer to Appendix A. What is the chart symbol for a VOR/DME?",
             "options": [
               "6",
@@ -19707,7 +19707,7 @@ window.testData = {
           {
             "category": "general-navigation-test-4",
             "test": 4,
-            "id": 1281,
+            "id": 1283,
             "question": "At what latitude does the maximum difference between geodetic and geocentric latitude occur?",
             "options": [
               "0°",
@@ -19722,7 +19722,7 @@ window.testData = {
           {
             "category": "general-navigation-test-4",
             "test": 4,
-            "id": 1282,
+            "id": 1284,
             "question": "The chart that is generally used for navigation in polar areas is based on a:",
             "options": [
               "Direct Mercator Projection",
@@ -19737,7 +19737,7 @@ window.testData = {
           {
             "category": "general-navigation-test-4",
             "test": 4,
-            "id": 1283,
+            "id": 1285,
             "question": "On a chart, meridians at 45°N are shown every 10 degrees apart. This is shown on the chart by a distance of 14 cm. What is the scale?",
             "options": [
               "1: 2,000,000",
@@ -19752,7 +19752,7 @@ window.testData = {
           {
             "category": "general-navigation-test-4",
             "test": 4,
-            "id": 1284,
+            "id": 1286,
             "question": "Given: Aircraft height = 2500 feet, ILS GP angle = 3°, at what approximate distance from the threshold can you expect to intercept the glide-path?",
             "options": [
               "8.0 NM",
@@ -19767,7 +19767,7 @@ window.testData = {
           {
             "category": "general-navigation-test-4",
             "test": 4,
-            "id": 1285,
+            "id": 1287,
             "question": "An aircraft at position 00°00'N/S 163°27'W flies a track of 225°(T) for 70 NM. What is its new position?",
             "options": [
               "00°49'N 162°38'W",
@@ -19782,7 +19782,7 @@ window.testData = {
           {
             "category": "general-navigation-test-4",
             "test": 4,
-            "id": 1286,
+            "id": 1288,
             "question": "Please refer to Appendix A. What is the chart symbol for an NDB?",
             "options": [
               "1",
@@ -19797,7 +19797,7 @@ window.testData = {
           {
             "category": "general-navigation-test-4",
             "test": 4,
-            "id": 1287,
+            "id": 1289,
             "question": "An aircraft is flying around the Earth eastwards along the 60°N parallel of latitude at a ground speed of 360 knots. At what ground speed would another aircraft have to fly eastwards along the Equator to fly once round the Earth in the same journey time?",
             "options": [
               "600 knots",
@@ -19812,7 +19812,7 @@ window.testData = {
           {
             "category": "general-navigation-test-4",
             "test": 4,
-            "id": 1288,
+            "id": 1290,
             "question": "Your position is 58°33'N 174°00'W. You fly exactly 6 NM westwards. What is your new position?",
             "options": [
               "58°33'N 174°11.5'W",
@@ -19827,7 +19827,7 @@ window.testData = {
           {
             "category": "general-navigation-test-4",
             "test": 4,
-            "id": 1289,
+            "id": 1291,
             "question": "At what times of the year does the length of the hours of daylight change most rapidly?",
             "options": [
               "Spring Equinox and Autumn Equinox",
@@ -19842,7 +19842,7 @@ window.testData = {
           {
             "category": "general-navigation-test-4",
             "test": 4,
-            "id": 1290,
+            "id": 1292,
             "question": "An island is observed to be 15° to the left. The aircraft heading is 120°(M), variation 17°(W). The bearing (°T) from the aircraft to the island is:",
             "options": [
               "268",
@@ -19857,7 +19857,7 @@ window.testData = {
           {
             "category": "general-navigation-test-4",
             "test": 4,
-            "id": 1291,
+            "id": 1293,
             "question": "A Lambert conformal chart has standard parallels at 15°S and 45°S. What is the correct longitude scale factor compared to the scale at 30°S?",
             "options": [
               "Scale at 10°S is smaller",
@@ -19872,7 +19872,7 @@ window.testData = {
           {
             "category": "general-navigation-test-4",
             "test": 4,
-            "id": 1292,
+            "id": 1294,
             "question": "Convert 80 metres/sec into knots.",
             "options": [
               "155 knots",
@@ -19887,7 +19887,7 @@ window.testData = {
           {
             "category": "general-navigation-test-4",
             "test": 4,
-            "id": 1293,
+            "id": 1295,
             "question": "The aircraft position is at 53°30'N 008°00'W. The VORs are tuned to Shannon (SHA, 52°43'N 008°53'W) and Connaught (CON, 53°55'N 008°49'W). Which radials will be indicated (SHA / CON)?",
             "options": [
               "023 / 130",
@@ -19902,7 +19902,7 @@ window.testData = {
           {
             "category": "general-navigation-test-4",
             "test": 4,
-            "id": 1294,
+            "id": 1296,
             "question": "If variation is East, then:",
             "options": [
               "True North is West of Magnetic North",
@@ -19917,7 +19917,7 @@ window.testData = {
           {
             "category": "general-navigation-test-4",
             "test": 4,
-            "id": 1295,
+            "id": 1297,
             "question": "What is the chart convergence factor on a Polar Stereographic chart?",
             "options": [
               "0",
@@ -19932,7 +19932,7 @@ window.testData = {
           {
             "category": "general-navigation-test-4",
             "test": 4,
-            "id": 1296,
+            "id": 1298,
             "question": "What is the effect on the Mach number and TAS in an aircraft that is climbing with constant CAS?",
             "options": [
               "Mach number decreases, TAS decreases",
@@ -19947,7 +19947,7 @@ window.testData = {
           {
             "category": "general-navigation-test-4",
             "test": 4,
-            "id": 1297,
+            "id": 1299,
             "question": "Which of the following conversions from True to Compass is the correct one (True / Variation / Magnetic / Deviation / Compass)?",
             "options": [
               "130 / 2W / 132 / -1 / 131",
@@ -19962,7 +19962,7 @@ window.testData = {
           {
             "category": "general-navigation-test-4",
             "test": 4,
-            "id": 1298,
+            "id": 1300,
             "question": "Please refer to Appendix A. What is the chart symbol for a lighted obstacle?",
             "options": [
               "6",
@@ -19977,7 +19977,7 @@ window.testData = {
           {
             "category": "general-navigation-test-4",
             "test": 4,
-            "id": 1299,
+            "id": 1301,
             "question": "Please refer to Appendix A. What is the chart symbol for a lightship?",
             "options": [
               "6",
@@ -19999,7 +19999,7 @@ window.testData = {
           {
             "category": "general-navigation-test-5",
             "test": 5,
-            "id": 1300,
+            "id": 1302,
             "question": "Given the following: Magnetic heading: 060° Magnetic variation: 8°W Drift angle: 4° right. What is the true track?",
             "options": [
               "064°",
@@ -20014,7 +20014,7 @@ window.testData = {
           {
             "category": "general-navigation-test-5",
             "test": 5,
-            "id": 1301,
+            "id": 1303,
             "question": "On a Lambert chart, the convergence factor is 0.78585. What is the parallel of tangency?",
             "options": [
               "51°02'",
@@ -20029,7 +20029,7 @@ window.testData = {
           {
             "category": "general-navigation-test-5",
             "test": 5,
-            "id": 1302,
+            "id": 1304,
             "question": "The angle between the true great circle track and the true rhumb line track joining the following points: A (60°S 165°W) and B (60°S 177°E) at the place of departure A, is:",
             "options": [
               "9°",
@@ -20044,7 +20044,7 @@ window.testData = {
           {
             "category": "general-navigation-test-5",
             "test": 5,
-            "id": 1303,
+            "id": 1305,
             "question": "On 27 Feb at 52°S 040°E Sunrise is at 0243UTC. On the same day at 52°S 035°W the time of Sunrise is:",
             "options": [
               "0743 UTC",
@@ -20059,7 +20059,7 @@ window.testData = {
           {
             "category": "general-navigation-test-5",
             "test": 5,
-            "id": 1304,
+            "id": 1306,
             "question": "An aircraft is cruising at FL350, Temp -50°C and is told to descend to FL80, Temp -10°C. If the IAS for the descent was 188 kt, what would be the appropriate TAS?",
             "options": [
               "260 kt",
@@ -20074,7 +20074,7 @@ window.testData = {
           {
             "category": "general-navigation-test-5",
             "test": 5,
-            "id": 1305,
+            "id": 1307,
             "question": "The sensitivity of a direct reading magnetic compass is:",
             "options": [
               "inversely proportional to the horizontal component of the Earth's magnetic field",
@@ -20089,7 +20089,7 @@ window.testData = {
           {
             "category": "general-navigation-test-5",
             "test": 5,
-            "id": 1306,
+            "id": 1308,
             "question": "Given: True track 180° Drift 8°R Compass Heading 195° Deviation -2°. Calculate the variation.",
             "options": [
               "21°W",
@@ -20104,7 +20104,7 @@ window.testData = {
           {
             "category": "general-navigation-test-5",
             "test": 5,
-            "id": 1307,
+            "id": 1309,
             "question": "Given the following: True track: 192° Magnetic variation: 7°E Drift angle: 5° left. Calculate the magnetic heading required to maintain the planned track.",
             "options": [
               "179°",
@@ -20119,7 +20119,7 @@ window.testData = {
           {
             "category": "general-navigation-test-5",
             "test": 5,
-            "id": 1308,
+            "id": 1310,
             "question": "On a Lambert's chart the constant of the cone is 0.80. A is at 53°N 004°W. You plan to fly to B. The initial Lambert's chart straight-line track is 070°(T) and the rhumb line track from A to B is 080°(T). What is the longitude of B?",
             "options": [
               "021°E",
@@ -20134,7 +20134,7 @@ window.testData = {
           {
             "category": "general-navigation-test-5",
             "test": 5,
-            "id": 1309,
+            "id": 1311,
             "question": "At 0422 you are 185 NM from a VOR at FL370. You need to descend at a mean descent rate of 1800'/min to be at FL80 overhead the VOR. Your ground speed in the level cruise is currently 320 knots. In the descent your mean G/S will be 232 knots. What is the latest time to commence descent?",
             "options": [
               "0437",
@@ -20149,7 +20149,7 @@ window.testData = {
           {
             "category": "general-navigation-test-5",
             "test": 5,
-            "id": 1310,
+            "id": 1312,
             "question": "How many nautical miles are travelled in 1 minute 45 seconds at a ground speed of 135 knots?",
             "options": [
               "2.36",
@@ -20164,7 +20164,7 @@ window.testData = {
           {
             "category": "general-navigation-test-5",
             "test": 5,
-            "id": 1311,
+            "id": 1313,
             "question": "Given: True course 300° Drift 8°R Variation 10°W Deviation -4°. Calculate the compass heading.",
             "options": [
               "322°",
@@ -20179,7 +20179,7 @@ window.testData = {
           {
             "category": "general-navigation-test-5",
             "test": 5,
-            "id": 1312,
+            "id": 1314,
             "question": "An aircraft is flying at FL200, the OAT is 0°C. When the actual air pressure on an airfield at MSL is placed on the subscale of the altimeter the indicated altitude is 19300 ft. What is the aircraft's True Altitude?",
             "options": [
               "17300 ft",
@@ -20194,7 +20194,7 @@ window.testData = {
           {
             "category": "general-navigation-test-5",
             "test": 5,
-            "id": 1313,
+            "id": 1315,
             "question": "The distance between two waypoints is 200 NM. To calculate compass heading the pilot used 2°E magnetic variation instead of 2°W. Assuming that the forecast W/V applied, what will the off track distance be at the second waypoint?",
             "options": [
               "14 NM",
@@ -20209,7 +20209,7 @@ window.testData = {
           {
             "category": "general-navigation-test-5",
             "test": 5,
-            "id": 1314,
+            "id": 1316,
             "question": "The rhumb line distance between points A (60°00'N 002°30'E) and B (60°00'N 007°30'W) is:",
             "options": [
               "300 NM",
@@ -20224,7 +20224,7 @@ window.testData = {
           {
             "category": "general-navigation-test-5",
             "test": 5,
-            "id": 1315,
+            "id": 1317,
             "question": "An aircraft has to climb from FL50 -10°C to FL260 -25°C. The IAS for the climb is 180 kt and the WC is +30 kt. If the ROC is 900 ft/min, how many miles will the climb take?",
             "options": [
               "96 NM",
@@ -20239,7 +20239,7 @@ window.testData = {
           {
             "category": "general-navigation-test-5",
             "test": 5,
-            "id": 1316,
+            "id": 1318,
             "question": "Given: Position A is 60°N 020°W, Position B is 60°N 021°W, and Position C is 59°N 020°W, what are, respectively, the distances from A to B and from A to C?",
             "options": [
               "60 NM and 30 NM",
@@ -20254,7 +20254,7 @@ window.testData = {
           {
             "category": "general-navigation-test-5",
             "test": 5,
-            "id": 1317,
+            "id": 1319,
             "question": "What is the diameter of the Earth?",
             "options": [
               "40000 km",
@@ -20269,7 +20269,7 @@ window.testData = {
           {
             "category": "general-navigation-test-5",
             "test": 5,
-            "id": 1318,
+            "id": 1320,
             "question": "Given: A Polar Stereographic chart whose grid is aligned with the zero meridian. Grid track 344°, longitude 115°00'W, calculate the true course. (Assume N hemisphere).",
             "options": [
               "099°",
@@ -20284,7 +20284,7 @@ window.testData = {
           {
             "category": "general-navigation-test-5",
             "test": 5,
-            "id": 1319,
+            "id": 1321,
             "question": "The distance A to B is 90 NM in a straight line. You are 60 NM from A when you fix your position 4 NM to the left of track. What correction do you need to make to arrive at B?",
             "options": [
               "4°",
@@ -20299,7 +20299,7 @@ window.testData = {
           {
             "category": "general-navigation-test-3",
             "test": 3,
-            "id": 1320,
+            "id": 1322,
             "question": "True heading can be converted into magnetic heading using a compass and:",
             "options": [
               "a map with isogonal lines",
@@ -20327,7 +20327,7 @@ window.testData = {
           {
             "category": "performance-test-1",
             "test": 1,
-            "id": 1321,
+            "id": 1323,
             "question": "A higher mass at a given altitude will reduce the gradient of climb and the rate of climb. But the speeds:",
             "options": [
               "Vx and Vy will decrease",
@@ -20342,7 +20342,7 @@ window.testData = {
           {
             "category": "performance-test-1",
             "test": 1,
-            "id": 1322,
+            "id": 1324,
             "question": "An aircraft with a mass of 110,000 kg is capable of maintaining a gradient of 2.6%. With all the atmospheric variables remaining the same, with what mass would it be able to achieve a gradient of 2.4%?",
             "options": [
               "119167 kg",
@@ -20357,7 +20357,7 @@ window.testData = {
           {
             "category": "performance-test-1",
             "test": 1,
-            "id": 1323,
+            "id": 1325,
             "question": "When approaching a wet runway, with the risk of hydroplaning, what technique should the pilot adopt with an inoperative anti-skid system?",
             "options": [
               "Positive touchdown, full reverse and brakes as soon as possible",
@@ -20372,7 +20372,7 @@ window.testData = {
           {
             "category": "performance-test-1",
             "test": 1,
-            "id": 1324,
+            "id": 1326,
             "question": "The buffet margin is:",
             "options": [
               "The difference between the actual coefficient of lift and the maximum coefficient of lift at low speed and high speed",
@@ -20387,7 +20387,7 @@ window.testData = {
           {
             "category": "performance-test-1",
             "test": 1,
-            "id": 1325,
+            "id": 1327,
             "question": "Give the correct order for the following:",
             "options": [
               "Vmcg, Vr, V1, V2",
@@ -20402,7 +20402,7 @@ window.testData = {
           {
             "category": "performance-test-1",
             "test": 1,
-            "id": 1326,
+            "id": 1328,
             "question": "What happens to the speed for Vx and Vy with increasing altitude?",
             "options": [
               "Both remain constant",
@@ -20417,7 +20417,7 @@ window.testData = {
           {
             "category": "performance-test-1",
             "test": 1,
-            "id": 1327,
+            "id": 1329,
             "question": "With which conditions would one expect Vmc to be the lowest?",
             "options": [
               "Cold temp, low altitude, low humidity",
@@ -20432,7 +20432,7 @@ window.testData = {
           {
             "category": "performance-test-1",
             "test": 1,
-            "id": 1328,
+            "id": 1330,
             "question": "The effects of a contaminated runway on take-off are:",
             "options": [
               "decreased weight, increased V1, increased Vr",
@@ -20447,7 +20447,7 @@ window.testData = {
           {
             "category": "performance-test-1",
             "test": 1,
-            "id": 1329,
+            "id": 1331,
             "question": "Which of the following conditions is most likely to cause longitudinal instability?",
             "options": [
               "CG too far forward",
@@ -20462,7 +20462,7 @@ window.testData = {
           {
             "category": "performance-test-1",
             "test": 1,
-            "id": 1330,
+            "id": 1332,
             "question": "Give the correct sequence:",
             "options": [
               "Vs, Vx, Vy",
@@ -20477,7 +20477,7 @@ window.testData = {
           {
             "category": "performance-test-1",
             "test": 1,
-            "id": 1331,
+            "id": 1333,
             "question": "SFC (Specific Fuel Consumption) will:",
             "options": [
               "increase if C of G is moved further forward of the C of P",
@@ -20492,7 +20492,7 @@ window.testData = {
           {
             "category": "performance-test-1",
             "test": 1,
-            "id": 1332,
+            "id": 1334,
             "question": "When comparing Vx to Vy:",
             "options": [
               "Vx will always be greater than Vy",
@@ -20507,7 +20507,7 @@ window.testData = {
           {
             "category": "performance-test-1",
             "test": 1,
-            "id": 1333,
+            "id": 1335,
             "question": "If the center of gravity moves aft from the most forward position:",
             "options": [
               "the range and the fuel consumption will increase",
@@ -20522,7 +20522,7 @@ window.testData = {
           {
             "category": "performance-test-1",
             "test": 1,
-            "id": 1334,
+            "id": 1336,
             "question": "An increase in mass with an increase in runway length available will:",
             "options": [
               "have no effect",
@@ -20537,7 +20537,7 @@ window.testData = {
           {
             "category": "performance-test-1",
             "test": 1,
-            "id": 1335,
+            "id": 1337,
             "question": "In climb limited mass calculations, the climb gradient is a ratio of:",
             "options": [
               "height gained over distance travelled through the air",
@@ -20552,7 +20552,7 @@ window.testData = {
           {
             "category": "performance-test-1",
             "test": 1,
-            "id": 1336,
+            "id": 1338,
             "question": "The main reason for using the step climb technique is to:",
             "options": [
               "decrease sector times",
@@ -20567,7 +20567,7 @@ window.testData = {
           {
             "category": "performance-test-1",
             "test": 1,
-            "id": 1337,
+            "id": 1339,
             "question": "The effect of a headwind component on glide range is:",
             "options": [
               "the range will increase",
@@ -20582,7 +20582,7 @@ window.testData = {
           {
             "category": "performance-test-1",
             "test": 1,
-            "id": 1338,
+            "id": 1340,
             "question": "When operating with anti-skid inoperative:",
             "options": [
               "both take-off and landing performance will be affected",
@@ -20597,7 +20597,7 @@ window.testData = {
           {
             "category": "performance-test-1",
             "test": 1,
-            "id": 1339,
+            "id": 1341,
             "question": "Flying at an altitude close to coffin corner gives:",
             "options": [
               "max speed",
@@ -20612,7 +20612,7 @@ window.testData = {
           {
             "category": "performance-test-1",
             "test": 1,
-            "id": 1340,
+            "id": 1342,
             "question": "What effect does a downhill slope have on the take-off speeds?",
             "options": [
               "It has no effect on V1",
@@ -20627,7 +20627,7 @@ window.testData = {
           {
             "category": "performance-test-1",
             "test": 1,
-            "id": 1341,
+            "id": 1343,
             "question": "When take-off mass is limited by Vmbe (maximum brake-energy speed), an increase in the uphill slope will:",
             "options": [
               "have no effect",
@@ -20642,7 +20642,7 @@ window.testData = {
           {
             "category": "performance-test-1",
             "test": 1,
-            "id": 1342,
+            "id": 1344,
             "question": "If the calculations for an aeroplane of 3250 lbs indicate a service ceiling of 4000 m, what will the service ceiling be when the actual take-off mass is 3000 lbs?",
             "options": [
               "Higher",
@@ -20657,7 +20657,7 @@ window.testData = {
           {
             "category": "performance-test-1",
             "test": 1,
-            "id": 1343,
+            "id": 1345,
             "question": "Which is true regarding a balanced field?",
             "options": [
               "Provides largest gap between net and gross margins",
@@ -20672,7 +20672,7 @@ window.testData = {
           {
             "category": "performance-test-1",
             "test": 1,
-            "id": 1344,
+            "id": 1346,
             "question": "The dry net take-off run required (TORR) for a jet aircraft, with one engine inoperative is:",
             "options": [
               "brake release point to midpoint between VLOF and 35 ft",
@@ -20687,7 +20687,7 @@ window.testData = {
           {
             "category": "performance-test-1",
             "test": 1,
-            "id": 1345,
+            "id": 1347,
             "question": "Which conditions are most suited to a selection of lower flap for take-off?",
             "options": [
               "Low airfield elevation, close obstacles, long runway, high temperature",
@@ -20702,7 +20702,7 @@ window.testData = {
           {
             "category": "performance-test-1",
             "test": 1,
-            "id": 1346,
+            "id": 1348,
             "question": "How does the slush thickness affect the V1 reduction required?",
             "options": [
               "Greater reduction if thicker",
@@ -20724,7 +20724,7 @@ window.testData = {
           {
             "category": "performance-test-2",
             "test": 2,
-            "id": 1347,
+            "id": 1349,
             "question": "Landing on a runway with 5 mm wet snow will:",
             "options": [
               "increase landing distance",
@@ -20739,7 +20739,7 @@ window.testData = {
           {
             "category": "performance-test-2",
             "test": 2,
-            "id": 1348,
+            "id": 1350,
             "question": "Which conditions are most suited to a selection of lower flap for take off?",
             "options": [
               "Low airfield elevation, close obstacles, long runway, high temperature",
@@ -20754,7 +20754,7 @@ window.testData = {
           {
             "category": "performance-test-2",
             "test": 2,
-            "id": 1349,
+            "id": 1351,
             "question": "The second segment of climb ends when:",
             "options": [
               "accelerating from V2 to flap retraction speed begins",
@@ -20769,7 +20769,7 @@ window.testData = {
           {
             "category": "performance-test-2",
             "test": 2,
-            "id": 1350,
+            "id": 1352,
             "question": "Reference point zero refers to the:",
             "options": [
               "point where the aircraft lifts of the ground",
@@ -20784,7 +20784,7 @@ window.testData = {
           {
             "category": "performance-test-2",
             "test": 2,
-            "id": 1351,
+            "id": 1353,
             "question": "Vref for a Class B aircraft is defined by:",
             "options": [
               "1.3Vs",
@@ -20799,7 +20799,7 @@ window.testData = {
           {
             "category": "performance-test-2",
             "test": 2,
-            "id": 1352,
+            "id": 1354,
             "question": "During the certification of an aeroplane, the take-off distance with all engines operating and the take-off distance with one engine inoperative are: 1547 m, 1720 m. What is the distance used in the aircraft certification?",
             "options": [
               "1547 m",
@@ -20814,7 +20814,7 @@ window.testData = {
           {
             "category": "performance-test-2",
             "test": 2,
-            "id": 1353,
+            "id": 1355,
             "question": "An aircraft is certified to land with flaps at either 25 or 35 degrees of flap. If the pilot selects the higher flap setting the approach performance will be:",
             "options": [
               "improved landing distance and improved go-around performance",
@@ -20829,7 +20829,7 @@ window.testData = {
           {
             "category": "performance-test-2",
             "test": 2,
-            "id": 1354,
+            "id": 1356,
             "question": "What landing distance requirements need to be met at an alternate airfield compared to a destination airfield for a turboprop?",
             "options": [
               "Less than destination",
@@ -20844,7 +20844,7 @@ window.testData = {
           {
             "category": "performance-test-2",
             "test": 2,
-            "id": 1355,
+            "id": 1357,
             "question": "In dry conditions, when landing at an alternate airport in a turbojet by what factor should the landing distance available be divided to give landing distance required?",
             "options": [
               "0.6",
@@ -20859,7 +20859,7 @@ window.testData = {
           {
             "category": "performance-test-2",
             "test": 2,
-            "id": 1356,
+            "id": 1358,
             "question": "The speed for minimum power required in a turbojet will be:",
             "options": [
               "slower than the speed for minimum drag",
@@ -20874,7 +20874,7 @@ window.testData = {
           {
             "category": "performance-test-2",
             "test": 2,
-            "id": 1357,
+            "id": 1359,
             "question": "The coefficient of lift may be increased by lowering the flaps or:",
             "options": [
               "increasing CAS",
@@ -20889,7 +20889,7 @@ window.testData = {
           {
             "category": "performance-test-2",
             "test": 2,
-            "id": 1358,
+            "id": 1360,
             "question": "V2min is determined by: (excluding VMCA)",
             "options": [
               "1.08VSR for 4 engine turboprops with 1.13VSR for 2 and 3 engine turboprops.",
@@ -20904,7 +20904,7 @@ window.testData = {
           {
             "category": "performance-test-2",
             "test": 2,
-            "id": 1359,
+            "id": 1361,
             "question": "Two identical turbojets are holding at the same altitude and have the same specific fuel consumption. Aeroplane 1 weighs 130,000 kg and fuel flow is 4300 kg/hr. If aeroplane 2 weighs 115,000 kg what is the fuel flow of aeroplane 2?",
             "options": [
               "3804 kg/hr",
@@ -20919,7 +20919,7 @@ window.testData = {
           {
             "category": "performance-test-2",
             "test": 2,
-            "id": 1360,
+            "id": 1362,
             "question": "In wet conditions, what extra percentage over the dry gross landing distance must be available for a turbojet?",
             "options": [
               "43%",
@@ -20934,7 +20934,7 @@ window.testData = {
           {
             "category": "performance-test-2",
             "test": 2,
-            "id": 1361,
+            "id": 1363,
             "question": "If the flap setting is changed from 10 degrees to 20 degrees, V2 will:",
             "options": [
               "not change",
@@ -20949,7 +20949,7 @@ window.testData = {
           {
             "category": "performance-test-2",
             "test": 2,
-            "id": 1362,
+            "id": 1364,
             "question": "For a turbojet aeroplane the third segment of the take-off path:",
             "options": [
               "ends when flap retraction is complete",
@@ -20964,7 +20964,7 @@ window.testData = {
           {
             "category": "performance-test-2",
             "test": 2,
-            "id": 1363,
+            "id": 1365,
             "question": "To maintain the same angle of attack and altitude at a higher gross weight an aeroplane needs:",
             "options": [
               "less airspeed and same power",
@@ -20979,7 +20979,7 @@ window.testData = {
           {
             "category": "performance-test-2",
             "test": 2,
-            "id": 1364,
+            "id": 1366,
             "question": "Absolute ceiling is defined by:",
             "options": [
               "altitude where theoretical rate of climb is zero",
@@ -20994,7 +20994,7 @@ window.testData = {
           {
             "category": "performance-test-2",
             "test": 2,
-            "id": 1365,
+            "id": 1367,
             "question": "Vr for a jet aircraft must be faster than, the greater of:",
             "options": [
               "1.05VMCA and V1",
@@ -21009,7 +21009,7 @@ window.testData = {
           {
             "category": "performance-test-2",
             "test": 2,
-            "id": 1366,
+            "id": 1368,
             "question": "The information in a light aircraft manual gives two power settings for cruise, 65% and 75%. If you fly at 75% instead:",
             "options": [
               "cruise speed will be higher, fuel consumption will be lower",
@@ -21024,7 +21024,7 @@ window.testData = {
           {
             "category": "performance-test-2",
             "test": 2,
-            "id": 1367,
+            "id": 1369,
             "question": "What factor must be applied to the landing distance available at the destination aerodrome to determine the landing performance of a turbojet aircraft on a dry runway?",
             "options": [
               "0.43",
@@ -21039,7 +21039,7 @@ window.testData = {
           {
             "category": "performance-test-2",
             "test": 2,
-            "id": 1368,
+            "id": 1370,
             "question": "unavailable",
             "options": [
               "unavailable",
@@ -21061,7 +21061,7 @@ window.testData = {
           {
             "category": "performance-test-3",
             "test": 3,
-            "id": 1369,
+            "id": 1371,
             "question": "What factors would cause V2 to be limited by VMCA?",
             "options": [
               "Flaps at high settings",
@@ -21076,7 +21076,7 @@ window.testData = {
           {
             "category": "performance-test-3",
             "test": 3,
-            "id": 1370,
+            "id": 1372,
             "question": "A jet aircraft's maximum altitude is usually limited by:",
             "options": [
               "its certification maximum altitude",
@@ -21091,7 +21091,7 @@ window.testData = {
           {
             "category": "performance-test-3",
             "test": 3,
-            "id": 1371,
+            "id": 1373,
             "question": "A light twin-engine aircraft is climbing from the screen height of 50 ft, and has an obstacle 10000 m along the net fight path. If the net climb gradient is 10%, there is no wind and obstacle is 900 m above the aerodrome elevation then what will the clearance be?",
             "options": [
               "The aircraft will not clear the object",
@@ -21106,7 +21106,7 @@ window.testData = {
           {
             "category": "performance-test-3",
             "test": 3,
-            "id": 1372,
+            "id": 1374,
             "question": "Vx is:",
             "options": [
               "Speed for best angle of climb",
@@ -21121,7 +21121,7 @@ window.testData = {
           {
             "category": "performance-test-3",
             "test": 3,
-            "id": 1373,
+            "id": 1375,
             "question": "Requirements for the third segment of climb are:",
             "options": [
               "minimum acceleration altitude for one engine inoperative should be used",
@@ -21136,7 +21136,7 @@ window.testData = {
           {
             "category": "performance-test-3",
             "test": 3,
-            "id": 1374,
+            "id": 1376,
             "question": "Pitch angle during decent at a constant Mach number will:",
             "options": [
               "increase",
@@ -21151,7 +21151,7 @@ window.testData = {
           {
             "category": "performance-test-3",
             "test": 3,
-            "id": 1375,
+            "id": 1377,
             "question": "Take off on a runway with standing water, with a depth of 0.5 cm. Compared to a dry runway, field length limited mass will:",
             "options": [
               "increase, with a reduced V1",
@@ -21166,7 +21166,7 @@ window.testData = {
           {
             "category": "performance-test-3",
             "test": 3,
-            "id": 1376,
+            "id": 1378,
             "question": "With respect to en-route diversions (using drift down graph), if you believe that you will be overweight at the destination, what procedure should be followed?",
             "options": [
               "Continue to destination, use higher flap settings to reduce landing speed",
@@ -21181,7 +21181,7 @@ window.testData = {
           {
             "category": "performance-test-3",
             "test": 3,
-            "id": 1377,
+            "id": 1379,
             "question": "What is the reason for setting minimum speeds on the approach?",
             "options": [
               "So that an aircraft falling below the glide path will be able to re-intercept it",
@@ -21196,7 +21196,7 @@ window.testData = {
           {
             "category": "performance-test-3",
             "test": 3,
-            "id": 1378,
+            "id": 1380,
             "question": "If there is an increase in atmospheric pressure and all other factors remain constant, it should result in:",
             "options": [
               "decreased take-off distance and increased climb performance",
@@ -21211,7 +21211,7 @@ window.testData = {
           {
             "category": "performance-test-3",
             "test": 3,
-            "id": 1379,
+            "id": 1381,
             "question": "An aircraft may use either 5° or 15° flap setting for take-off. The effect of selecting the 5° setting as compared to the 15° setting is:",
             "options": [
               "take-off distance and take-off climb gradient will both increase",
@@ -21226,7 +21226,7 @@ window.testData = {
           {
             "category": "performance-test-3",
             "test": 3,
-            "id": 1380,
+            "id": 1382,
             "question": "Vs is defined as:",
             "options": [
               "Speed for minimum power",
@@ -21241,7 +21241,7 @@ window.testData = {
           {
             "category": "performance-test-3",
             "test": 3,
-            "id": 1381,
+            "id": 1383,
             "question": "A higher climb gradient gives:",
             "options": [
               "reduced ground distance covered to climb",
@@ -21256,7 +21256,7 @@ window.testData = {
           {
             "category": "performance-test-3",
             "test": 3,
-            "id": 1382,
+            "id": 1384,
             "question": "A balanced field length is when:",
             "options": [
               "distance taken to accelerate to V1 and distance to stop are identical",
@@ -21271,7 +21271,7 @@ window.testData = {
           {
             "category": "performance-test-3",
             "test": 3,
-            "id": 1383,
+            "id": 1385,
             "question": "The drift down is a procedure applied:",
             "options": [
               "after aircraft depressurization",
@@ -21286,7 +21286,7 @@ window.testData = {
           {
             "category": "performance-test-3",
             "test": 3,
-            "id": 1384,
+            "id": 1386,
             "question": "The landing speed, Vref, for a single-engine aircraft must be not less than:",
             "options": [
               "1.2VMCA",
@@ -21301,7 +21301,7 @@ window.testData = {
           {
             "category": "performance-test-3",
             "test": 3,
-            "id": 1385,
+            "id": 1387,
             "question": "At maximum range speed in a turbojet the angle of attack is:",
             "options": [
               "the same as L/D max",
@@ -21316,7 +21316,7 @@ window.testData = {
           {
             "category": "performance-test-3",
             "test": 3,
-            "id": 1386,
+            "id": 1388,
             "question": "If not VMBE or VMCG limited, what would V1 be limited by?",
             "options": [
               "V2",
@@ -21331,7 +21331,7 @@ window.testData = {
           {
             "category": "performance-test-3",
             "test": 3,
-            "id": 1387,
+            "id": 1389,
             "question": "With respect to field length limit, fill in the blanks in the follow statement. The distance to accelerate to ............, at which point an engine fails, followed by the reaction time of ............. and the ensuing deceleration to a full stop must be completed within the .............",
             "options": [
               "VR, 2 sec, TORA",
@@ -21346,7 +21346,7 @@ window.testData = {
           {
             "category": "performance-test-3",
             "test": 3,
-            "id": 1388,
+            "id": 1390,
             "question": "How does the power required graph move with an increase in altitude?",
             "options": [
               "Straight up",
@@ -21361,7 +21361,7 @@ window.testData = {
           {
             "category": "performance-test-3",
             "test": 3,
-            "id": 1389,
+            "id": 1391,
             "question": "At MSL, in ISA conditions Climb gradient = 6%. What would the climb gradient be if: Pressure altitude 1000 ft, Temperature 17°C, Engine anti-ice on, Wing anti-ice on. (Corrections: - 0.2% engine anti-ice, - 0,1% wing anti-ice, 0.2% per 1000 ft pressure altitude, 0.1 % per 1°C ISA deviation)",
             "options": [
               "5.1%",
@@ -21376,7 +21376,7 @@ window.testData = {
           {
             "category": "performance-test-3",
             "test": 3,
-            "id": 1390,
+            "id": 1392,
             "question": "What happens to the field limited take-off mass with runway slope?",
             "options": [
               "It increases with a downhill slope",
@@ -21391,7 +21391,7 @@ window.testData = {
           {
             "category": "performance-test-3",
             "test": 3,
-            "id": 1391,
+            "id": 1393,
             "question": "Which of the following combinations most reduces the take-off and climb performance of an aircraft?",
             "options": [
               "High temperature and high pressure",
@@ -21406,7 +21406,7 @@ window.testData = {
           {
             "category": "performance-test-3",
             "test": 3,
-            "id": 1392,
+            "id": 1394,
             "question": "Why is there a requirement for an approach climb gradient?",
             "options": [
               "So that an aircraft falling below the glide path will be able to re-intercept it",
@@ -21421,7 +21421,7 @@ window.testData = {
           {
             "category": "performance-test-3",
             "test": 3,
-            "id": 1393,
+            "id": 1395,
             "question": "During certification test fights for a turbojet aeroplane, the measured take-off runs from brake release to a point equidistant between the point at which VLOF is reached and the point at which the aeroplane is 35 ft above the take of surface are: 1530 m with all engines operating. 1810 m with the critical engine failure recognized at V1 , other factors remaining unchanged. What is the correct value of the take-off run?",
             "options": [
               "1759 m",
@@ -21436,7 +21436,7 @@ window.testData = {
           {
             "category": "performance-test-3",
             "test": 3,
-            "id": 1394,
+            "id": 1396,
             "question": "If the maximum take-off mass is limited by tyre speed, what effect would a down sloping runway have?",
             "options": [
               "No effect",
@@ -21451,7 +21451,7 @@ window.testData = {
           {
             "category": "performance-test-3",
             "test": 3,
-            "id": 1395,
+            "id": 1397,
             "question": "During aircraft certification, the value of VMCG is found with nose wheel steering inoperative. This is because:",
             "options": [
               "nose wheel steering does not affect VMCG",
@@ -21466,7 +21466,7 @@ window.testData = {
           {
             "category": "general-navigation-test-3",
             "test": 3,
-            "id": 1396,
+            "id": 1398,
             "question": "On a chart, 90.74 km is represented by 7.0 centimetres. What is the scale?",
             "options": [
               "1 / 700000",
@@ -21481,7 +21481,7 @@ window.testData = {
           {
             "category": "performance-test-3",
             "test": 3,
-            "id": 1397,
+            "id": 1399,
             "question": "If a jet engine fails during take-off, before V1:",
             "options": [
               "the take-off can be continued or aborted",
@@ -21496,7 +21496,7 @@ window.testData = {
           {
             "category": "performance-test-3",
             "test": 3,
-            "id": 1398,
+            "id": 1400,
             "question": "A turboprop aircraft with a maximum all up mass in excess of 5700 kg is limited to:",
             "options": [
               "10° angle of bank up to 400 ft",
@@ -21511,7 +21511,7 @@ window.testData = {
           {
             "category": "performance-test-3",
             "test": 3,
-            "id": 1399,
+            "id": 1401,
             "question": "The buffet onset boundary chart tells the pilot the:",
             "options": [
               "critical Mach number for various masses and altitudes",
@@ -21526,7 +21526,7 @@ window.testData = {
           {
             "category": "performance-test-3",
             "test": 3,
-            "id": 1400,
+            "id": 1402,
             "question": "For a turboprop aircraft, the LDA at an aerodrome is 2200 m. If the conditions are indicated as wet, what would the equivalent dry LDA be?",
             "options": [
               "1451 m",
@@ -21541,7 +21541,7 @@ window.testData = {
           {
             "category": "performance-test-3",
             "test": 3,
-            "id": 1401,
+            "id": 1403,
             "question": "For a turbojet aeroplane the second segment of the climb begins when:",
             "options": [
               "accelerating from V2 to flap retraction speed begins",
@@ -21556,7 +21556,7 @@ window.testData = {
           {
             "category": "performance",
             "test": 3,
-            "id": 1402,
+            "id": 1404,
             "question": "The reduced thrust take-off procedure may not be used when:",
             "options": [
               "runway wet",
@@ -21578,7 +21578,7 @@ window.testData = {
           {
             "category": "performance-test-4",
             "test": 4,
-            "id": 1403,
+            "id": 1405,
             "question": "What procedure is likely to require V1 to be reduced?",
             "options": [
               "Improved climb procedure",
@@ -21593,7 +21593,7 @@ window.testData = {
           {
             "category": "performance-test-4",
             "test": 4,
-            "id": 1404,
+            "id": 1406,
             "question": "Two identical aircraft at different masses are descending at idle thrust. Which of the following statements correctly describes their descent characteristics?",
             "options": [
               "There is no difference between the descent characteristics of the two aeroplanes",
@@ -21608,7 +21608,7 @@ window.testData = {
           {
             "category": "performance-test-4",
             "test": 4,
-            "id": 1405,
+            "id": 1407,
             "question": "If the performance limited take-off mass is restricted by the ASDA, which of the following actions will increase the limiting mass?",
             "options": [
               "Use a higher flap setting",
@@ -21623,7 +21623,7 @@ window.testData = {
           {
             "category": "performance-test-4",
             "test": 4,
-            "id": 1406,
+            "id": 1408,
             "question": "Cruising with 1 or 2 engines inoperative at high altitude, compared to all engines operative cruise, range will:",
             "options": [
               "increase",
@@ -21638,7 +21638,7 @@ window.testData = {
           {
             "category": "performance-test-4",
             "test": 4,
-            "id": 1407,
+            "id": 1409,
             "question": "Concerning landing gear, which factors limit take-off performance?",
             "options": [
               "Brake temperature",
@@ -21653,7 +21653,7 @@ window.testData = {
           {
             "category": "performance-test-4",
             "test": 4,
-            "id": 1408,
+            "id": 1410,
             "question": "When climbing at a constant Mach number through the troposphere, TAS:",
             "options": [
               "increases",
@@ -21668,7 +21668,7 @@ window.testData = {
           {
             "category": "performance-test-4",
             "test": 4,
-            "id": 1409,
+            "id": 1411,
             "question": "A tailwind on take-off will not affect:",
             "options": [
               "climb limit mass",
