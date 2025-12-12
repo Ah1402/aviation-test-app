@@ -7856,8 +7856,8 @@ window.testData = {
               "15000 ft",
               "18000 ft"
             ],
-            "answer": "15000 ft",
-            "correct": 2,
+            "answer": "12000 ft",
+            "correct": 1,
             "explanation": ""
           },
           {
@@ -17305,8 +17305,8 @@ window.testData = {
               "fly right and fly up",
               "fly right and fly down"
             ],
-            "answer": "fly right and fly up",
-            "correct": 2,
+            "answer": "fly right and fly down",
+            "correct": 3,
             "explanation": ""
           },
           {
@@ -17455,8 +17455,8 @@ window.testData = {
               "2 elements using 2 frequencies",
               "2 elements multiplexing on one frequency"
             ],
-            "answer": "2 elements multiplexing on one frequency",
-            "correct": 3,
+            "answer": "4 elements multiplexing on one frequency",
+            "correct": 1,
             "explanation": ""
           },
           {
@@ -19318,8 +19318,8 @@ window.testData = {
               "068° 460 knots",
               "070° 455 knots"
             ],
-            "answer": "079° 470 knots",
-            "correct": 0,
+            "answer": "067° 450 knots",
+            "correct": 1,
             "explanation": ""
           },
           {
