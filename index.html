@@ -18,6 +18,14 @@
     <link rel="icon" type="image/png" sizes="192x192" href="ahmed.png">
     <link rel="icon" type="image/png" sizes="512x512" href="ahmed.png">
     <link rel="apple-touch-icon" href="ahmed.png">
+    
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-messaging.js"></script>
+    
+    <!-- Capacitor Push Notifications -->
+    <script src="https://cdn.jsdelivr.net/npm/@capacitor/core@3.0.0/dist/capacitor.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@capacitor/push-notifications@1.0.0/dist/capacitor-push-notifications.js"></script>
     <link rel="apple-touch-icon" sizes="180x180" href="ahmed.png">
     <link rel="shortcut icon" href="ahmed.png">
     
@@ -25259,23 +25267,10 @@ html {
             "answer": "climb limit mass",
             "correct": 0,
             "explanation": ""
-          }
-        ]
-      }
-    ]
-  },
-  "flight-performance": {
-    "name": "Flight Performance",
-    "icon": "fas fa-question-circle",
-    "tests": [
-      {
-        "id": "flight-performance-test-3",
-        "name": "Test 3",
-        "timeLimit": 60,
-        "questions": [
+          },
           {
-            "category": "flight-performance-test-3",
-            "test": 3,
+            "category": "performance-test-4",
+            "test": 4,
             "id": 1415,
             "question": "For a turbojet aeroplane the third segment of climb begins when:",
             "options": [
@@ -30224,11 +30219,12 @@ document.addEventListener('DOMContentLoaded', function() {
         };
     }
     
-    console.log('œ… Complete Test and Custom Test features loaded');
+    console.log('✅ Complete Test and Custom Test features loaded');
 })();
 
-// Firebase and Push Notifications Setup
-<script type="module" src="firebase.js"></script>
+</script>
+
+// Firebase and Push Notifications - Handled by service worker for background notifications
 </body>
 </html>
 
