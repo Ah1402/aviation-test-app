@@ -409,3 +409,92 @@ self.addEventListener('notificationclick', event => {
     })
   );
 });
+
+// Motivational Notifications System
+let motivationalInterval = null;
+const MOTIVATIONAL_INTERVAL = 30 * 60 * 1000; // 30 minutes in milliseconds
+
+const motivationalMessages = [
+    "Keep pushing forward! Your aviation knowledge is growing stronger every day.",
+    "Great job staying committed to your studies! Remember, every expert was once a beginner.",
+    "Time for a quick aviation refresher! Your dedication will pay off.",
+    "Stay focused and keep learning! You're building skills that will take you far.",
+    "Another study session completed! Your persistence is inspiring.",
+    "Remember: The more you practice, the more confident you'll become in aviation.",
+    "Take a moment to review what you've learned today. You're doing amazing!",
+    "Consistency is key! Keep up the excellent work on your aviation studies.",
+    "Your hard work is building a strong foundation. Keep going!",
+    "Short break, big gains! Ready to continue your aviation journey?"
+];
+
+function showMotivationalNotification() {
+    if (Notification.permission !== 'granted') {
+        console.log('[ServiceWorker] Notification permission not granted, skipping motivational notification');
+        return;
+    }
+
+    const randomMessage = motivationalMessages[Math.floor(Math.random() * motivationalMessages.length)];
+
+    const notificationOptions = {
+        body: randomMessage,
+        icon: '/ahmed.png',
+        badge: '/ahmed.png',
+        tag: 'motivational-notification',
+        requireInteraction: false,
+        silent: false,
+        data: { type: 'motivational' }
+    };
+
+    self.registration.showNotification('Aviation Study Motivation', notificationOptions);
+    console.log('[ServiceWorker] Motivational notification sent');
+}
+
+function startMotivationalTimer() {
+    if (motivationalInterval) {
+        clearInterval(motivationalInterval);
+    }
+
+    console.log('[ServiceWorker] Starting motivational timer (every 30 minutes)');
+    motivationalInterval = setInterval(showMotivationalNotification, MOTIVATIONAL_INTERVAL);
+
+    // Show first notification immediately as confirmation
+    setTimeout(() => {
+        showMotivationalNotification();
+    }, 1000);
+}
+
+function stopMotivationalTimer() {
+    if (motivationalInterval) {
+        console.log('[ServiceWorker] Stopping motivational timer');
+        clearInterval(motivationalInterval);
+        motivationalInterval = null;
+    }
+}
+
+// Test function for manual triggering
+function testMotivationalNotification() {
+    console.log('[ServiceWorker] Testing motivational notification');
+    showMotivationalNotification();
+}
+
+// Listen for messages from the main app
+self.addEventListener('message', (event) => {
+    const { action } = event.data;
+
+    switch (action) {
+        case 'start-motivational-timer':
+            startMotivationalTimer();
+            break;
+        case 'stop-motivational-timer':
+            stopMotivationalTimer();
+            break;
+        case 'test-motivational-notification':
+            testMotivationalNotification();
+            break;
+        default:
+            console.log('[ServiceWorker] Unknown message action:', action);
+    }
+});
+
+// Expose test function globally for console access
+self.testMotivationalNotification = testMotivationalNotification;
