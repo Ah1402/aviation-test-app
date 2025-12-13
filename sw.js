@@ -4,6 +4,62 @@ const CACHE_VERSION = 'v4.3.0';
 const CACHE_NAME = `aviation-test-${CACHE_VERSION}`;
 const DATA_CACHE = `aviation-data-${CACHE_VERSION}`;
 
+// Import Firebase scripts for messaging
+importScripts('https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js');
+importScripts('https://www.gstatic.com/firebasejs/9.22.0/firebase-messaging-compat.js');
+
+// Initialize Firebase
+const firebaseConfig = {
+    apiKey: "AIzaSyCD5JUp91H9fDeGqJInqOoFxQl4skbsUa8",
+    authDomain: "aviation-test-app.firebaseapp.com",
+    projectId: "aviation-test-app",
+    messagingSenderId: "819905924428",
+    appId: "1:819905924428:web:0c8f50aa85d336918fd3e9"
+};
+
+firebase.initializeApp(firebaseConfig);
+const messaging = firebase.messaging();
+
+// Handle background messages
+messaging.onBackgroundMessage((payload) => {
+    console.log('[ServiceWorker] Received background message:', payload);
+
+    const notificationTitle = payload.notification?.title || 'Aviation Test App';
+    const notificationOptions = {
+        body: payload.notification?.body || 'You have a new notification',
+        icon: '/ahmed.png',
+        badge: '/ahmed.png',
+        tag: 'aviation-notification', // Prevents duplicate notifications
+        requireInteraction: true, // Keeps notification visible until user interacts
+        data: payload.data || {}
+    };
+
+    return self.registration.showNotification(notificationTitle, notificationOptions);
+});
+
+// Handle notification clicks
+self.addEventListener('notificationclick', (event) => {
+    console.log('[ServiceWorker] Notification click received:', event);
+
+    event.notification.close();
+
+    // This looks to see if the current is already open and focuses if it is
+    event.waitUntil(
+        clients.matchAll({ type: 'window', includeUncontrolled: true }).then((windowClients) => {
+            // Check if there is already a window/tab open with the target URL
+            for (let client of windowClients) {
+                if (client.url.includes('/') && 'focus' in client) {
+                    return client.focus();
+                }
+            }
+            // If not, open a new window/tab with the target URL
+            if (clients.openWindow) {
+                return clients.openWindow('/');
+            }
+        })
+    );
+});
+
 // All assets to cache for complete offline functionality
 const STATIC_ASSETS = [
   './',
