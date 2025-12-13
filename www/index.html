@@ -19,13 +19,7 @@
     <link rel="icon" type="image/png" sizes="512x512" href="ahmed.png">
     <link rel="apple-touch-icon" href="ahmed.png">
     
-    <!-- Firebase SDK -->
-    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-messaging.js"></script>
-    
-    <!-- Capacitor Push Notifications -->
-    <script src="https://cdn.jsdelivr.net/npm/@capacitor/core@3.0.0/dist/capacitor.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@capacitor/push-notifications@1.0.0/dist/capacitor-push-notifications.js"></script>
+    <!-- Firebase and Capacitor scripts loaded dynamically -->
     <link rel="apple-touch-icon" sizes="180x180" href="ahmed.png">
     <link rel="shortcut icon" href="ahmed.png">
     
@@ -30219,21 +30213,45 @@ document.addEventListener('DOMContentLoaded', function() {
         };
     }
     
-    // Motivational Notifications - Handle app visibility changes
+    // Motivational Notifications - Handle app visibility changes and permissions
+    async function requestNotificationPermission() {
+        if ('Notification' in window) {
+            try {
+                const permission = await Notification.requestPermission();
+                if (permission === 'granted') {
+                    console.log('✅ Notification permission granted');
+                    return true;
+                } else {
+                    console.log('❌ Notification permission denied');
+                    return false;
+                }
+            } catch (error) {
+                console.error('Error requesting notification permission:', error);
+                return false;
+            }
+        }
+        return false;
+    }
+
     function handleVisibilityChange() {
         if ('serviceWorker' in navigator && navigator.serviceWorker.controller) {
             if (document.hidden) {
                 // App is closed/minimized - start motivational timer
-                navigator.serviceWorker.controller.postMessage({ action: 'start-motivational-timer' });
+                navigator.serviceWorker.controller.postMessage({ action: 'app-closed' });
+                console.log('📱 App minimized - notifications enabled');
             } else {
                 // App is open - stop motivational timer
-                navigator.serviceWorker.controller.postMessage({ action: 'stop-motivational-timer' });
+                navigator.serviceWorker.controller.postMessage({ action: 'app-opened' });
+                console.log('📱 App opened - notifications paused');
             }
         }
     }
 
     // Listen for visibility changes
     document.addEventListener('visibilitychange', handleVisibilityChange);
+
+    // Request notification permissions on load
+    requestNotificationPermission();
 
     // Initial check on load
     handleVisibilityChange();
@@ -30242,9 +30260,9 @@ document.addEventListener('DOMContentLoaded', function() {
     window.testMotivationalNotification = function() {
         if ('serviceWorker' in navigator && navigator.serviceWorker.controller) {
             navigator.serviceWorker.controller.postMessage({ action: 'test-motivational-notification' });
-            console.log('Test motivational notification sent to service worker');
+            console.log('🔔 Test motivational notification sent to service worker');
         } else {
-            console.log('Service worker not available for testing');
+            console.log('⚠️ Service worker not available for testing');
         }
     };
     

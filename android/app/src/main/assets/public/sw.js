@@ -410,8 +410,9 @@ self.addEventListener('notificationclick', event => {
   );
 });
 
-// Motivational Notifications System
+// Motivational Notifications System - Enhanced for background operation
 let motivationalInterval = null;
+let isAppClosed = false;
 const MOTIVATIONAL_INTERVAL = 30 * 60 * 1000; // 30 minutes in milliseconds
 
 const motivationalMessages = [
@@ -442,11 +443,11 @@ function showMotivationalNotification() {
         tag: 'motivational-notification',
         requireInteraction: false,
         silent: false,
-        data: { type: 'motivational' }
+        data: { type: 'motivational', timestamp: Date.now() }
     };
 
     self.registration.showNotification('Aviation Study Motivation', notificationOptions);
-    console.log('[ServiceWorker] Motivational notification sent');
+    console.log('[ServiceWorker] Motivational notification sent at', new Date().toLocaleTimeString());
 }
 
 function startMotivationalTimer() {
@@ -454,16 +455,26 @@ function startMotivationalTimer() {
         clearInterval(motivationalInterval);
     }
 
+    isAppClosed = true;
     console.log('[ServiceWorker] Starting motivational timer (every 30 minutes)');
-    motivationalInterval = setInterval(showMotivationalNotification, MOTIVATIONAL_INTERVAL);
 
-    // Show first notification immediately as confirmation
+    // Show first notification after 30 seconds for testing
     setTimeout(() => {
-        showMotivationalNotification();
-    }, 1000);
+        if (isAppClosed) {
+            showMotivationalNotification();
+        }
+    }, 30000); // 30 seconds for testing
+
+    // Then every 30 minutes
+    motivationalInterval = setInterval(() => {
+        if (isAppClosed) {
+            showMotivationalNotification();
+        }
+    }, MOTIVATIONAL_INTERVAL);
 }
 
 function stopMotivationalTimer() {
+    isAppClosed = false;
     if (motivationalInterval) {
         console.log('[ServiceWorker] Stopping motivational timer');
         clearInterval(motivationalInterval);
@@ -477,7 +488,7 @@ function testMotivationalNotification() {
     showMotivationalNotification();
 }
 
-// Listen for messages from the main app
+// Enhanced message handling
 self.addEventListener('message', (event) => {
     const { action } = event.data;
 
@@ -491,9 +502,28 @@ self.addEventListener('message', (event) => {
         case 'test-motivational-notification':
             testMotivationalNotification();
             break;
+        case 'app-closed':
+            isAppClosed = true;
+            console.log('[ServiceWorker] App marked as closed');
+            break;
+        case 'app-opened':
+            isAppClosed = false;
+            console.log('[ServiceWorker] App marked as opened');
+            break;
         default:
             console.log('[ServiceWorker] Unknown message action:', action);
     }
+});
+
+// Handle app lifecycle - detect when app is closed
+self.addEventListener('activate', (event) => {
+    console.log('[ServiceWorker] Service Worker activated');
+
+    // Start motivational timer by default when service worker is active
+    // This will work when app is minimized but service worker stays active
+    setTimeout(() => {
+        startMotivationalTimer();
+    }, 60000); // Start after 1 minute
 });
 
 // Expose test function globally for console access
