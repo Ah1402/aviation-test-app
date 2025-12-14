@@ -496,6 +496,15 @@ html {
     font-weight: normal;
 }
 
+/* Mark element for highlighting */
+mark {
+    background-color: #0066CC;
+    color: white;
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
 .search-no-results {
     text-align: center;
     padding: var(--spacing-2xl);
@@ -515,6 +524,125 @@ html {
     margin-bottom: var(--spacing-lg);
     color: var(--text-secondary);
     font-size: var(--font-size-sm);
+}
+
+/* Questions Section */
+.questions-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.questions-content h2 {
+    font-size: var(--font-size-3xl);
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-md);
+    text-align: center;
+}
+
+.questions-content > p {
+    text-align: center;
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-2xl);
+    font-size: var(--font-size-lg);
+}
+
+.questions-list {
+    min-height: 400px;
+}
+
+.questions-loading, .questions-placeholder {
+    text-align: center;
+    padding: var(--spacing-2xl);
+    color: var(--text-light);
+}
+
+.questions-loading i, .questions-placeholder i {
+    font-size: 4rem;
+    margin-bottom: var(--spacing-lg);
+    opacity: 0.5;
+}
+
+.questions-loading h3, .questions-placeholder h3 {
+    font-size: var(--font-size-xl);
+    margin-bottom: var(--spacing-md);
+}
+
+.questions-count {
+    background: var(--bg-secondary);
+    padding: var(--spacing-md);
+    border-radius: var(--radius-md);
+    margin-bottom: var(--spacing-lg);
+    color: var(--text-secondary);
+    font-size: var(--font-size-sm);
+    text-align: center;
+    font-weight: 500;
+}
+
+.question-item {
+    background: var(--bg-primary);
+    border: 1px solid var(--bg-tertiary);
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-lg);
+    margin-bottom: var(--spacing-lg);
+    box-shadow: var(--shadow-sm);
+    transition: all 0.2s ease;
+}
+
+.question-item:hover {
+    box-shadow: var(--shadow-md);
+    border-color: var(--primary-color);
+}
+
+.question-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--spacing-md);
+}
+
+.question-category {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    padding: var(--spacing-xs) var(--spacing-sm);
+    background: var(--primary-color);
+    color: var(--text-white);
+    border-radius: var(--radius-sm);
+    font-size: var(--font-size-xs);
+    font-weight: 500;
+}
+
+.question-number {
+    font-size: var(--font-size-sm);
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+.question-content {
+    line-height: 1.6;
+}
+
+.question-text {
+    font-size: var(--font-size-md);
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-md);
+    font-weight: 500;
+}
+
+.question-answer {
+    font-size: var(--font-size-sm);
+    color: var(--success-color);
+    margin-bottom: var(--spacing-md);
+}
+
+.question-keywords {
+    font-size: var(--font-size-sm);
+    color: var(--text-secondary);
+}
+
+.question-keywords strong {
+    color: var(--text-primary);
 }
 
 /* Study Session Styles */
@@ -2788,6 +2916,10 @@ html {
                             <i class="fas fa-graduation-cap"></i>
                             Study
                         </button>
+                        <button class="nav-btn" data-section="questions">
+                            <i class="fas fa-list"></i>
+                            Memorize Question Answer
+                        </button>
                         <button class="nav-btn" data-section="search">
                             <i class="fas fa-search"></i>
                             Search
@@ -2821,6 +2953,10 @@ html {
                             <button class="nav-btn" data-section="study">
                                 <i class="fas fa-graduation-cap"></i>
                                 Study
+                            </button>
+                            <button class="nav-btn" data-section="questions">
+                                <i class="fas fa-list"></i>
+                                Memorize Question Answer
                             </button>
                             <button class="nav-btn" data-section="search">
                                 <i class="fas fa-search"></i>
@@ -3341,6 +3477,22 @@ html {
                     </div>
                 </section>
 
+                <!-- Questions Section -->
+                <section id="questions" class="section">
+                    <div class="questions-content">
+                        <h2>Memorize Question Answer</h2>
+                        <p>Browse through all aviation questions with unique keywords from questions and correct answers.</p>
+
+                        <div class="questions-list" id="questionsList">
+                            <div class="questions-loading">
+                                <i class="fas fa-spinner fa-spin"></i>
+                                <h3>Loading Questions...</h3>
+                                <p>Please wait while we load all aviation questions.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
                 <!-- About Section -->
                 <section id="about" class="section">
                     <div class="about-content">
@@ -3536,6 +3688,9 @@ html {
     
         <!-- Load the prebuilt test data so window.testData is available to scripts -->
         <script>window.testData = {
+  "version": "20251214.022835",
+  "lastUpdated": "2025-12-14",
+  "totalQuestions": 1415,
   "aircraft-general-knowledge": {
     "name": "Aircraft General Knowledge",
     "icon": "fas fa-question-circle",
@@ -16720,8 +16875,8 @@ html {
               "arrival equal to or better than the minimum conditions required for aerodrome use",
               "arrival better than the minimum conditions required for aerodrome use"
             ],
-            "answer": "arrival, and for a reasonable time before and after such a predicted time, equal to minimum conditions required for aerodrome use",
-            "correct": 1,
+            "answer": "arrival equal to or better than the minimum conditions required for aerodrome use",
+            "correct": 2,
             "explanation": "The standard ICAO/EASA rule is that the destination and alternate must be forecast to be at or above minima at the *predicted time of arrival*. The 'reasonable time before and after' clause typically applies to *VFR* flights or specific operator requirements, but the core IFR rule focuses on the ETA."
           },
           {
@@ -17844,8 +17999,8 @@ html {
               "300 metres from the threshold",
               "150 metres from the far end threshold"
             ],
-            "answer": "300 metres from the threshold",
-            "correct": 2,
+            "answer": "300 metres from the far end threshold",
+            "correct": 1,
             "explanation": ""
           },
           {
@@ -25261,10 +25416,23 @@ html {
             "answer": "climb limit mass",
             "correct": 0,
             "explanation": ""
-          },
+          }
+        ]
+      }
+    ]
+  },
+  "flight-performance": {
+    "name": "Flight Performance",
+    "icon": "fas fa-question-circle",
+    "tests": [
+      {
+        "id": "flight-performance-test-3",
+        "name": "Test 3",
+        "timeLimit": 60,
+        "questions": [
           {
-            "category": "performance-test-4",
-            "test": 4,
+            "category": "flight-performance-test-3",
+            "test": 3,
             "id": 1415,
             "question": "For a turbojet aeroplane the third segment of climb begins when:",
             "options": [
@@ -26776,6 +26944,9 @@ class UIManager {
             case 'tests':
                 this.loadTestsSection();
                 break;
+            case 'questions':
+                this.loadQuestionsSection();
+                break;
         }
     }
 
@@ -26787,14 +26958,121 @@ class UIManager {
         // Update category cards with real data
         Object.entries(testData).forEach(([categoryId, categoryData]) => {
             const card = document.querySelector(`[data-category="${categoryId}"]`);
-            if (card) {
-                const testCount = categoryData.tests.length;
-                const questionCount = categoryData.tests.reduce((total, test) => total + test.questions.length, 0);
-                
-                card.querySelector('.test-count').textContent = `${testCount} Tests`;
-                card.querySelector('.question-count').textContent = `${questionCount} Questions`;
+            const testCount = categoryData.tests.length;
+            const questionCount = categoryData.tests.reduce((total, test) => total + test.questions.length, 0);
+            
+            card.querySelector('.test-count').textContent = `${testCount} Tests`;
+            card.querySelector('.question-count').textContent = `${questionCount} Questions`;
+        });
+    }
+
+    // Questions Section UI
+    loadQuestionsSection() {
+        const questionsList = document.getElementById('questionsList');
+        
+        if (!questionsList) return;
+
+        // Clear existing content
+        questionsList.innerHTML = '<div class="questions-loading"><i class="fas fa-spinner fa-spin"></i><h3>Loading Questions...</h3></div>';
+
+        // Load all questions with highlighting
+        this.renderQuestionsList('all', '');
+    }
+
+    renderQuestionsList(categoryFilter, searchTerm) {
+        const questionsList = document.getElementById('questionsList');
+        if (!questionsList) return;
+
+        let allQuestions = [];
+        let categories = categoryFilter === 'all' ? Object.keys(window.testData) : [categoryFilter];
+
+        // Collect all questions (no filtering for memorize mode)
+        categories.forEach(categoryId => {
+            const categoryData = window.testData[categoryId];
+            if (categoryData && categoryData.tests) {
+                categoryData.tests.forEach(test => {
+                    test.questions.forEach((question, qIndex) => {
+                        allQuestions.push({
+                            categoryId,
+                            categoryName: this.formatCategoryName(categoryId),
+                            testName: test.name,
+                            question,
+                            questionIndex: qIndex,
+                            testIndex: categoryData.tests.indexOf(test)
+                        });
+                    });
+                });
             }
         });
+
+        // Render questions with blue highlighting
+        if (allQuestions.length === 0) {
+            questionsList.innerHTML = '<div class="questions-placeholder"><i class="fas fa-search"></i><h3>No Questions Found</h3><p>Please check your data.</p></div>';
+            return;
+        }
+
+        const questionsHTML = allQuestions.map((item, index) => {
+            const question = item.question;
+            const correctAnswer = question.options[question.correct];
+            
+            // Extract unique words from question and correct answer
+            const questionWords = this.extractUniqueWords(question.question);
+            const answerWords = this.extractUniqueWords(correctAnswer);
+            const uniqueWords = [...new Set([...questionWords, ...answerWords])];
+            
+            // Highlight the entire question and answer in blue
+            const highlightedQuestion = `<mark>${question.question}</mark>`;
+            const highlightedAnswer = `<mark>${correctAnswer}</mark>`;
+            
+            return `
+                <div class="question-item" data-index="${index}">
+                    <div class="question-header">
+                        <span class="question-category">${item.categoryName}</span>
+                        <span class="question-number">Q${index + 1}</span>
+                    </div>
+                    <div class="question-content">
+                        <div class="question-text">${highlightedQuestion}</div>
+                        <div class="question-answer">
+                            <strong>Correct Answer:</strong> ${highlightedAnswer}
+                        </div>
+                        <div class="question-keywords">
+                            <strong>Keywords:</strong> ${uniqueWords.slice(0, 10).join(', ')}${uniqueWords.length > 10 ? '...' : ''}
+                        </div>
+                    </div>
+                </div>
+            `;
+        }).join('');
+
+        questionsList.innerHTML = `<div class="questions-count">Showing ${allQuestions.length} questions</div>${questionsHTML}`;
+    }
+
+    extractUniqueWords(text) {
+        // Remove punctuation and split into words
+        const words = text.toLowerCase()
+            .replace(/[^\w\s]/g, ' ')
+            .split(/\s+/)
+            .filter(word => word.length > 2) // Only words longer than 2 characters
+            .filter(word => !this.isStopWord(word)); // Remove common stop words
+        
+        return [...new Set(words)]; // Remove duplicates
+    }
+
+    isStopWord(word) {
+        const stopWords = ['the', 'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for', 'of', 'with', 'by', 'an', 'a', 'is', 'are', 'was', 'were', 'be', 'been', 'being', 'have', 'has', 'had', 'do', 'does', 'did', 'will', 'would', 'could', 'should', 'may', 'might', 'must', 'can', 'this', 'that', 'these', 'those'];
+        return stopWords.includes(word);
+    }
+
+    highlightText(text, searchTerm) {
+        if (!searchTerm || searchTerm.length < 2) return text;
+        
+        const regex = new RegExp(`(${searchTerm})`, 'gi');
+        return text.replace(regex, '<mark>$1</mark>');
+    }
+
+    formatCategoryName(categoryId) {
+        return categoryId.split('-').map(word => 
+            word.charAt(0).toUpperCase() + word.slice(1)
+        ).join(' ');
     }
 
     // Test Interface UI

@@ -13186,8 +13186,8 @@ window.testData = {
               "arrival equal to or better than the minimum conditions required for aerodrome use",
               "arrival better than the minimum conditions required for aerodrome use"
             ],
-            "answer": "arrival, and for a reasonable time before and after such a predicted time, equal to minimum conditions required for aerodrome use",
-            "correct": 1,
+            "answer": "arrival equal to or better than the minimum conditions required for aerodrome use",
+            "correct": 2,
             "explanation": "The standard ICAO/EASA rule is that the destination and alternate must be forecast to be at or above minima at the *predicted time of arrival*. The 'reasonable time before and after' clause typically applies to *VFR* flights or specific operator requirements, but the core IFR rule focuses on the ETA."
           },
           {
@@ -14310,8 +14310,8 @@ window.testData = {
               "300 metres from the threshold",
               "150 metres from the far end threshold"
             ],
-            "answer": "300 metres from the threshold",
-            "correct": 2,
+            "answer": "300 metres from the far end threshold",
+            "correct": 1,
             "explanation": ""
           },
           {
