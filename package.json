@@ -14,6 +14,7 @@
     "build:simple-apk": "node scripts/build_simple_apk.js",
     "build:simple-ipa": "node scripts/build_simple_ipa.js",
     "build:direct-install": "node scripts/build_direct_install.js",
+    "update-version": "node scripts/update_version.js",
     "deploy": "git add . && git commit -m \"Deploy updates\" && git push origin main"
   },
   "dependencies": {

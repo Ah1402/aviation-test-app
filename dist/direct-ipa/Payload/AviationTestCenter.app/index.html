@@ -25643,6 +25643,14 @@ html {
                 console.log('Service Worker controller changed - reloading to apply update');
                 window.location.reload();
             });
+
+            // Listen for messages from service worker (for update notifications)
+            navigator.serviceWorker.addEventListener('message', (event) => {
+                if (event.data && event.data.action === 'refresh-app') {
+                    console.log('🔄 Refreshing app due to update notification');
+                    window.location.reload();
+                }
+            });
             
             // Manual update check function (for testing)
             window.checkForAppUpdate = async function() {

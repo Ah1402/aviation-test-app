@@ -1,8 +1,50 @@
 // Aviation Test App - Service Worker
-// Version 4.3.0 - Android PWA in-app preview with iframe
-const CACHE_VERSION = 'v4.3.0';
+// Version 4.4.0 - Auto-update notifications and enhanced monitoring
+const CACHE_VERSION = 'v4.4.0';
 const CACHE_NAME = `aviation-test-${CACHE_VERSION}`;
 const DATA_CACHE = `aviation-data-${CACHE_VERSION}`;
+
+// Update notification system
+let lastDataVersion = null;
+const UPDATE_CHECK_INTERVAL = 5 * 60 * 1000; // Check every 5 minutes
+
+function checkForDataUpdates() {
+    // Check if testData has been updated
+    if (typeof window !== 'undefined' && window.testData) {
+        const currentVersion = window.testData.version || '1.0.0';
+
+        if (lastDataVersion && lastDataVersion !== currentVersion) {
+            // Data has been updated!
+            showUpdateNotification();
+        }
+
+        lastDataVersion = currentVersion;
+    }
+}
+
+function showUpdateNotification() {
+    if (Notification.permission !== 'granted') {
+        console.log('[ServiceWorker] Cannot show update notification - permission not granted');
+        return;
+    }
+
+    const notificationOptions = {
+        body: 'New aviation questions and updates are now available! Refresh to get the latest content.',
+        icon: '/ahmed.png',
+        badge: '/ahmed.png',
+        tag: 'app-update',
+        requireInteraction: true,
+        silent: false,
+        actions: [
+            { action: 'refresh', title: 'Refresh Now' },
+            { action: 'dismiss', title: 'Later' }
+        ],
+        data: { type: 'update', timestamp: Date.now() }
+    };
+
+    self.registration.showNotification('✈️ Aviation Test App Updated!', notificationOptions);
+    console.log('[ServiceWorker] Update notification sent');
+}
 
 // Import Firebase scripts for messaging
 importScripts('https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js');
@@ -118,14 +160,14 @@ self.addEventListener('install', event => {
 self.addEventListener('activate', event => {
   console.log('[ServiceWorker] ✨ ACTIVATING NEW VERSION:', CACHE_VERSION);
   console.log('[ServiceWorker] This is a NEW UPDATE! Will send notification...');
-  
+
   event.waitUntil(
     caches.keys().then(cacheNames => {
       return Promise.all(
         cacheNames.map(cacheName => {
           // Delete old caches
-          if (cacheName.startsWith('aviation-') && 
-              cacheName !== CACHE_NAME && 
+          if (cacheName.startsWith('aviation-') &&
+              cacheName !== CACHE_NAME &&
               cacheName !== DATA_CACHE) {
             console.log('[ServiceWorker] Deleting old cache:', cacheName);
             return caches.delete(cacheName);
@@ -135,7 +177,7 @@ self.addEventListener('activate', event => {
     }).then(() => {
       console.log('[ServiceWorker] ✅ Activation complete');
       console.log('[ServiceWorker] 📱 Attempting to send notification NOW...');
-      
+
       // Try to send notification - this works even if app is closed on Android
       // On iOS, it only works if app is in background (not completely terminated)
       return self.registration.showNotification('New Update Available! 🚀', {
@@ -165,9 +207,13 @@ self.addEventListener('activate', event => {
       });
     })
   );
-});
 
-// Fetch event - Cache-first strategy for offline-first functionality
+  // Start update checking
+  setTimeout(() => {
+    checkForDataUpdates();
+    setInterval(checkForDataUpdates, UPDATE_CHECK_INTERVAL);
+  }, 30000); // Start checking after 30 seconds
+});// Fetch event - Cache-first strategy for offline-first functionality
 self.addEventListener('fetch', event => {
   const { request } = event;
   const url = new URL(request.url);
@@ -371,34 +417,55 @@ self.addEventListener('push', event => {
   );
 });
 
-// Handle notification clicks - Enhanced for mobile
+// Handle notification clicks - Enhanced for mobile and updates
 self.addEventListener('notificationclick', event => {
   console.log('[ServiceWorker] Notification clicked:', event.action);
-  
+
   event.notification.close();
-  
+
+  // Handle update notification actions
+  if (event.notification.data?.type === 'update') {
+    if (event.action === 'refresh') {
+      // User wants to refresh now
+      event.waitUntil(
+        self.clients.matchAll({ type: 'window' }).then(clients => {
+          clients.forEach(client => {
+            client.postMessage({ action: 'refresh-app' });
+          });
+        })
+      );
+      return;
+    }
+  }
+
   // Get the URL from notification data or use default
   const urlToOpen = event.notification.data?.url || '/';
-  
+
   event.waitUntil(
     self.clients.matchAll({
       type: 'window',
       includeUncontrolled: true
     }).then(clientList => {
       console.log('[ServiceWorker] Found', clientList.length, 'client windows');
-      
+
       // Check if there's already a window open
       for (let i = 0; i < clientList.length; i++) {
         const client = clientList[i];
         console.log('[ServiceWorker] Client URL:', client.url);
-        
+
         // If we find an open window, focus it
         if (client.url.includes(self.registration.scope) && 'focus' in client) {
           console.log('[ServiceWorker] Focusing existing window');
+
+          // If it's an update notification, also refresh the page
+          if (event.notification.data?.type === 'update') {
+            client.postMessage({ action: 'refresh-app' });
+          }
+
           return client.focus();
         }
       }
-      
+
       // If no window is open, open a new one
       if (self.clients.openWindow) {
         console.log('[ServiceWorker] Opening new window:', urlToOpen);
@@ -408,9 +475,7 @@ self.addEventListener('notificationclick', event => {
       console.error('[ServiceWorker] Error handling notification click:', err);
     })
   );
-});
-
-// Motivational Notifications System - Enhanced for background operation
+});// Motivational Notifications System - Enhanced for background operation
 let motivationalInterval = null;
 let isAppClosed = false;
 const MOTIVATIONAL_INTERVAL = 30 * 60 * 1000; // 30 minutes in milliseconds
