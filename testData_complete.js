@@ -21869,7 +21869,7 @@ window.testData = {
   },
 
   "compass-egyptair": {
-    "name": "Compass Egyptair",
+    "name": "Compass Egypt Air",
     "icon": "fas fa-question-circle",
     "tests": [
       {
