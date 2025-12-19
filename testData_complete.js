@@ -23405,326 +23405,3404 @@
       }
     ]
   },
-  "compass-egyptair": {
-    "name": "Compass EgyptAir",
-    "icon": "fas fa-compass",
+
+  "egyptair": {
+    "name": "EgyptAir",
+    "icon": "fas fa-plane",
     "tests": [
       {
-        "id": "compass-egyptair-test-1",
+        "id": "egyptair-test-1",
         "name": "Test 1",
         "timeLimit": 60,
         "questions": [
           {
-            "category": "compass-egyptair",
+            "category": "egyptair",
+            "test": 1,
+            "id": 1424,
+            "question": "What is the minimum altitude for IFR flight in controlled airspace?",
+            "options": [
+              "500 feet above the highest obstacle within 5 miles",
+              "1,000 feet above the highest obstacle within 5 miles",
+              "1,500 feet above the highest obstacle within 5 miles",
+              "2,000 feet above the highest obstacle within 5 miles"
+            ],
+            "answer": "1,000 feet above the highest obstacle within 5 miles",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1425,
+            "question": "What is the purpose of the Minimum En Route IFR Altitude (MEA)?",
+            "options": [
+              "To ensure obstacle clearance and adequate navigation signal reception",
+              "To provide separation from other aircraft",
+              "To establish the minimum speed for IFR operations",
+              "To define the altitude for visual flight rules"
+            ],
+            "answer": "To ensure obstacle clearance and adequate navigation signal reception",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1426,
+            "question": "What does the term 'VOR' stand for?",
+            "options": [
+              "Very High Frequency Omnidirectional Range",
+              "Visual Omnidirectional Range",
+              "Variable Omnidirectional Range",
+              "Vertical Omnidirectional Range"
+            ],
+            "answer": "Very High Frequency Omnidirectional Range",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1427,
+            "question": "What is the standard pressure altitude used for altimeter settings?",
+            "options": [
+              "29.92 inches of mercury",
+              "30.00 inches of mercury",
+              "28.92 inches of mercury",
+              "31.00 inches of mercury"
+            ],
+            "answer": "29.92 inches of mercury",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1428,
+            "question": "What is the minimum visibility required for VFR flight in Class B airspace?",
+            "options": [
+              "1 mile",
+              "3 miles",
+              "5 miles",
+              "10 miles"
+            ],
+            "answer": "3 miles",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1429,
+            "question": "What is the purpose of the Traffic Collision Avoidance System (TCAS)?",
+            "options": [
+              "To provide weather information",
+              "To alert pilots to potential collision threats",
+              "To navigate using GPS",
+              "To control aircraft speed"
+            ],
+            "answer": "To alert pilots to potential collision threats",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1430,
+            "question": "What does the acronym 'IFR' stand for?",
+            "options": [
+              "Instrument Flight Rules",
+              "International Flight Regulations",
+              "Instrument Flight Route",
+              "Internal Flight Rules"
+            ],
+            "answer": "Instrument Flight Rules",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1431,
+            "question": "What is the maximum speed allowed below 10,000 feet in Class B airspace?",
+            "options": [
+              "200 knots",
+              "250 knots",
+              "300 knots",
+              "350 knots"
+            ],
+            "answer": "250 knots",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1432,
+            "question": "What is the minimum safe altitude for IFR operations over mountainous terrain?",
+            "options": [
+              "500 feet above the highest obstacle within 5 miles",
+              "1,000 feet above the highest obstacle within 5 miles",
+              "2,000 feet above the highest obstacle within 5 miles",
+              "3,000 feet above the highest obstacle within 5 miles"
+            ],
+            "answer": "2,000 feet above the highest obstacle within 5 miles",
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1433,
+            "question": "What is the purpose of the Mode C transponder?",
+            "options": [
+              "To transmit altitude information",
+              "To receive weather data",
+              "To communicate with ATC",
+              "To navigate using VOR"
+            ],
+            "answer": "To transmit altitude information",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1434,
+            "question": "What is the minimum ceiling required for VFR flight?",
+            "options": [
+              "500 feet",
+              "1,000 feet",
+              "3,000 feet",
+              "5,000 feet"
+            ],
+            "answer": "3,000 feet",
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1435,
+            "question": "What does the term 'DME' stand for?",
+            "options": [
+              "Distance Measuring Equipment",
+              "Digital Measuring Equipment",
+              "Directional Measuring Equipment",
+              "Dynamic Measuring Equipment"
+            ],
+            "answer": "Distance Measuring Equipment",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1436,
+            "question": "What is the standard takeoff minimums for a precision approach?",
+            "options": [
+              "1/2 mile visibility",
+              "1 mile visibility",
+              "2 miles visibility",
+              "3 miles visibility"
+            ],
+            "answer": "1/2 mile visibility",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1437,
+            "question": "What is the purpose of the Ground Proximity Warning System (GPWS)?",
+            "options": [
+              "To warn of traffic conflicts",
+              "To alert pilots to potential ground collisions",
+              "To provide navigation guidance",
+              "To control aircraft altitude"
+            ],
+            "answer": "To alert pilots to potential ground collisions",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1438,
+            "question": "What is the minimum visibility for takeoff under IFR?",
+            "options": [
+              "1/2 mile",
+              "1 mile",
+              "2 miles",
+              "3 miles"
+            ],
+            "answer": "1/2 mile",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1439,
+            "question": "What does the acronym 'VFR' stand for?",
+            "options": [
+              "Visual Flight Rules",
+              "Variable Flight Rules",
+              "Vertical Flight Rules",
+              "Vortex Flight Rules"
+            ],
+            "answer": "Visual Flight Rules",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1440,
+            "question": "What is the maximum speed allowed in Class C airspace below 2,500 feet?",
+            "options": [
+              "200 knots",
+              "250 knots",
+              "300 knots",
+              "350 knots"
+            ],
+            "answer": "200 knots",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1441,
+            "question": "What is the purpose of the Automatic Dependent Surveillance-Broadcast (ADS-B)?",
+            "options": [
+              "To provide weather information",
+              "To broadcast aircraft position and velocity",
+              "To control aircraft speed",
+              "To navigate using GPS"
+            ],
+            "answer": "To broadcast aircraft position and velocity",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1442,
+            "question": "What is the minimum altitude for IFR flight in uncontrolled airspace?",
+            "options": [
+              "500 feet above the highest obstacle within 5 miles",
+              "1,000 feet above the highest obstacle within 5 miles",
+              "1,500 feet above the highest obstacle within 5 miles",
+              "2,000 feet above the highest obstacle within 5 miles"
+            ],
+            "answer": "1,000 feet above the highest obstacle within 5 miles",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1443,
+            "question": "What does the term 'ILS' stand for?",
+            "options": [
+              "Instrument Landing System",
+              "International Landing System",
+              "Integrated Landing System",
+              "Internal Landing System"
+            ],
+            "answer": "Instrument Landing System",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1444,
+            "question": "What is the standard barometric pressure for altimeter calibration?",
+            "options": [
+              "29.92 inches Hg",
+              "30.00 inches Hg",
+              "28.92 inches Hg",
+              "31.00 inches Hg"
+            ],
+            "answer": "29.92 inches Hg",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1445,
+            "question": "What is the minimum visibility required for VFR flight in Class C airspace?",
+            "options": [
+              "1 mile",
+              "3 miles",
+              "5 miles",
+              "10 miles"
+            ],
+            "answer": "3 miles",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1446,
+            "question": "What is the purpose of the Enhanced Ground Proximity Warning System (EGPWS)?",
+            "options": [
+              "To warn of traffic conflicts",
+              "To provide terrain awareness and warning",
+              "To control aircraft altitude",
+              "To navigate using GPS"
+            ],
+            "answer": "To provide terrain awareness and warning",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1447,
+            "question": "What does the acronym 'RNAV' stand for?",
+            "options": [
+              "Random Navigation",
+              "Required Navigation",
+              "Area Navigation",
+              "Regional Navigation"
+            ],
+            "answer": "Area Navigation",
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1448,
+            "question": "What is the maximum speed allowed below 10,000 feet in Class C airspace?",
+            "options": [
+              "200 knots",
+              "250 knots",
+              "300 knots",
+              "350 knots"
+            ],
+            "answer": "250 knots",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1449,
+            "question": "What is the minimum safe altitude for VFR operations over non-mountainous terrain?",
+            "options": [
+              "500 feet above the highest obstacle within 5 miles",
+              "1,000 feet above the highest obstacle within 5 miles",
+              "2,000 feet above the highest obstacle within 5 miles",
+              "3,000 feet above the highest obstacle within 5 miles"
+            ],
+            "answer": "500 feet above the highest obstacle within 5 miles",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1450,
+            "question": "What is the purpose of the Mode S transponder?",
+            "options": [
+              "To transmit altitude and identification",
+              "To receive weather data",
+              "To communicate with ATC",
+              "To navigate using VOR"
+            ],
+            "answer": "To transmit altitude and identification",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1451,
+            "question": "What is the minimum ceiling required for VFR flight in Class B airspace?",
+            "options": [
+              "500 feet",
+              "1,000 feet",
+              "3,000 feet",
+              "5,000 feet"
+            ],
+            "answer": "3,000 feet",
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1452,
+            "question": "What does the term 'NDB' stand for?",
+            "options": [
+              "Non-Directional Beacon",
+              "National Directional Beacon",
+              "Navigation Directional Beacon",
+              "North Directional Beacon"
+            ],
+            "answer": "Non-Directional Beacon",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1453,
+            "question": "What is the standard takeoff minimums for a non-precision approach?",
+            "options": [
+              "1/2 mile visibility",
+              "1 mile visibility",
+              "2 miles visibility",
+              "3 miles visibility"
+            ],
+            "answer": "1 mile visibility",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1454,
+            "question": "What is the purpose of the Traffic Information Service (TIS)?",
+            "options": [
+              "To provide weather information",
+              "To display traffic information on cockpit displays",
+              "To control aircraft speed",
+              "To navigate using GPS"
+            ],
+            "answer": "To display traffic information on cockpit displays",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1455,
+            "question": "What is the minimum visibility for takeoff under VFR?",
+            "options": [
+              "1 mile",
+              "2 miles",
+              "3 miles",
+              "5 miles"
+            ],
+            "answer": "1 mile",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1456,
+            "question": "What does the acronym 'VMC' stand for?",
+            "options": [
+              "Visual Meteorological Conditions",
+              "Variable Meteorological Conditions",
+              "Vertical Meteorological Conditions",
+              "Vortex Meteorological Conditions"
+            ],
+            "answer": "Visual Meteorological Conditions",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1457,
+            "question": "What is the maximum speed allowed in Class D airspace below 2,500 feet?",
+            "options": [
+              "200 knots",
+              "250 knots",
+              "300 knots",
+              "350 knots"
+            ],
+            "answer": "200 knots",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1458,
+            "question": "What is the purpose of the Flight Data Recorder (FDR)?",
+            "options": [
+              "To record cockpit voice communications",
+              "To record flight parameters and data",
+              "To provide navigation guidance",
+              "To control aircraft systems"
+            ],
+            "answer": "To record flight parameters and data",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1459,
+            "question": "What is the minimum altitude for IFR flight in Class E airspace?",
+            "options": [
+              "500 feet above the highest obstacle within 5 miles",
+              "1,000 feet above the highest obstacle within 5 miles",
+              "1,500 feet above the highest obstacle within 5 miles",
+              "2,000 feet above the highest obstacle within 5 miles"
+            ],
+            "answer": "1,000 feet above the highest obstacle within 5 miles",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1460,
+            "question": "What does the term 'GPS' stand for?",
+            "options": [
+              "Global Positioning System",
+              "General Positioning System",
+              "Geographic Positioning System",
+              "Ground Positioning System"
+            ],
+            "answer": "Global Positioning System",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1461,
+            "question": "What is the standard altimeter setting for above 18,000 feet?",
+            "options": [
+              "29.92 inches Hg",
+              "30.00 inches Hg",
+              "28.92 inches Hg",
+              "31.00 inches Hg"
+            ],
+            "answer": "29.92 inches Hg",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1462,
+            "question": "What is the minimum visibility required for VFR flight in Class D airspace?",
+            "options": [
+              "1 mile",
+              "3 miles",
+              "5 miles",
+              "10 miles"
+            ],
+            "answer": "3 miles",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1463,
+            "question": "What is the purpose of the Cockpit Voice Recorder (CVR)?",
+            "options": [
+              "To record flight data",
+              "To record cockpit audio",
+              "To provide navigation guidance",
+              "To control aircraft systems"
+            ],
+            "answer": "To record cockpit audio",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1464,
+            "question": "What does the acronym 'TAWS' stand for?",
+            "options": [
+              "Terrain Awareness and Warning System",
+              "Traffic Awareness and Warning System",
+              "Temperature Awareness and Warning System",
+              "Time Awareness and Warning System"
+            ],
+            "answer": "Terrain Awareness and Warning System",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1465,
+            "question": "What is the maximum speed allowed below 10,000 feet in Class D airspace?",
+            "options": [
+              "200 knots",
+              "250 knots",
+              "300 knots",
+              "350 knots"
+            ],
+            "answer": "250 knots",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1466,
+            "question": "What is the minimum safe altitude for IFR operations over water?",
+            "options": [
+              "500 feet above the surface",
+              "1,000 feet above the surface",
+              "2,000 feet above the surface",
+              "3,000 feet above the surface"
+            ],
+            "answer": "1,000 feet above the surface",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1467,
+            "question": "What is the purpose of the Emergency Locator Transmitter (ELT)?",
+            "options": [
+              "To transmit distress signals",
+              "To provide navigation guidance",
+              "To control aircraft systems",
+              "To record flight data"
+            ],
+            "answer": "To transmit distress signals",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1468,
+            "question": "What is the minimum ceiling required for VFR flight in Class C airspace?",
+            "options": [
+              "500 feet",
+              "1,000 feet",
+              "3,000 feet",
+              "5,000 feet"
+            ],
+            "answer": "3,000 feet",
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1469,
+            "question": "What does the term 'ADF' stand for?",
+            "options": [
+              "Automatic Direction Finder",
+              "Advanced Direction Finder",
+              "Aircraft Direction Finder",
+              "Altitude Direction Finder"
+            ],
+            "answer": "Automatic Direction Finder",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1470,
+            "question": "What is the standard approach minimums for a precision approach?",
+            "options": [
+              "1/2 mile visibility, 200 feet ceiling",
+              "1 mile visibility, 200 feet ceiling",
+              "2 miles visibility, 200 feet ceiling",
+              "3 miles visibility, 200 feet ceiling"
+            ],
+            "answer": "1/2 mile visibility, 200 feet ceiling",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1471,
+            "question": "What is the purpose of the Wind Shear Detection System?",
+            "options": [
+              "To detect changes in wind direction and speed",
+              "To provide weather information",
+              "To control aircraft speed",
+              "To navigate using GPS"
+            ],
+            "answer": "To detect changes in wind direction and speed",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1472,
+            "question": "What is the minimum visibility for takeoff under special VFR?",
+            "options": [
+              "1 mile",
+              "2 miles",
+              "3 miles",
+              "5 miles"
+            ],
+            "answer": "1 mile",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1473,
+            "question": "What does the acronym 'IMC' stand for?",
+            "options": [
+              "Instrument Meteorological Conditions",
+              "Internal Meteorological Conditions",
+              "International Meteorological Conditions",
+              "Integrated Meteorological Conditions"
+            ],
+            "answer": "Instrument Meteorological Conditions",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1474,
+            "question": "What is the maximum speed allowed in Class E airspace below 2,500 feet?",
+            "options": [
+              "200 knots",
+              "250 knots",
+              "300 knots",
+              "350 knots"
+            ],
+            "answer": "250 knots",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1475,
+            "question": "What is the purpose of the Aircraft Communications Addressing and Reporting System (ACARS)?",
+            "options": [
+              "To transmit data between aircraft and ground stations",
+              "To provide navigation guidance",
+              "To control aircraft systems",
+              "To record flight data"
+            ],
+            "answer": "To transmit data between aircraft and ground stations",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1476,
+            "question": "What is the minimum altitude for IFR flight in Class G airspace?",
+            "options": [
+              "500 feet above the highest obstacle within 5 miles",
+              "1,000 feet above the highest obstacle within 5 miles",
+              "1,200 feet above the highest obstacle within 5 miles",
+              "1,500 feet above the highest obstacle within 5 miles"
+            ],
+            "answer": "1,200 feet above the highest obstacle within 5 miles",
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1477,
+            "question": "What does the term 'LORAN' stand for?",
+            "options": [
+              "Long Range Navigation",
+              "Low Range Navigation",
+              "Local Range Navigation",
+              "Longitudinal Range Navigation"
+            ],
+            "answer": "Long Range Navigation",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1478,
+            "question": "What is the standard altimeter setting for below 18,000 feet?",
+            "options": [
+              "Local altimeter setting",
+              "29.92 inches Hg",
+              "30.00 inches Hg",
+              "28.92 inches Hg"
+            ],
+            "answer": "Local altimeter setting",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1479,
+            "question": "What is the minimum visibility required for VFR flight in Class E airspace?",
+            "options": [
+              "1 mile",
+              "3 miles",
+              "5 miles",
+              "10 miles"
+            ],
+            "answer": "3 miles",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1480,
+            "question": "What is the purpose of the Stall Warning System?",
+            "options": [
+              "To alert pilots to impending stall conditions",
+              "To provide weather information",
+              "To control aircraft speed",
+              "To navigate using GPS"
+            ],
+            "answer": "To alert pilots to impending stall conditions",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1481,
+            "question": "What does the acronym 'FAR' stand for?",
+            "options": [
+              "Federal Aviation Regulations",
+              "Flight Aviation Regulations",
+              "Federal Aircraft Regulations",
+              "Flight Aircraft Regulations"
+            ],
+            "answer": "Federal Aviation Regulations",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1482,
+            "question": "What is the maximum speed allowed below 10,000 feet in Class E airspace?",
+            "options": [
+              "200 knots",
+              "250 knots",
+              "300 knots",
+              "350 knots"
+            ],
+            "answer": "250 knots",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1483,
+            "question": "What is the minimum safe altitude for VFR operations over congested areas?",
+            "options": [
+              "500 feet above the highest obstacle within 5 miles",
+              "1,000 feet above the highest obstacle within 5 miles",
+              "2,000 feet above the highest obstacle within 5 miles",
+              "3,000 feet above the highest obstacle within 5 miles"
+            ],
+            "answer": "1,000 feet above the highest obstacle within 5 miles",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1484,
+            "question": "What is the purpose of the Flight Management System (FMS)?",
+            "options": [
+              "To manage flight planning and navigation",
+              "To provide weather information",
+              "To control aircraft systems",
+              "To record flight data"
+            ],
+            "answer": "To manage flight planning and navigation",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1485,
+            "question": "What is the minimum ceiling required for VFR flight in Class D airspace?",
+            "options": [
+              "500 feet",
+              "1,000 feet",
+              "3,000 feet",
+              "5,000 feet"
+            ],
+            "answer": "3,000 feet",
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1486,
+            "question": "What does the term 'TACAN' stand for?",
+            "options": [
+              "Tactical Air Navigation",
+              "Terminal Air Navigation",
+              "Tactical Aircraft Navigation",
+              "Terminal Aircraft Navigation"
+            ],
+            "answer": "Tactical Air Navigation",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1487,
+            "question": "What is the standard approach minimums for a non-precision approach?",
+            "options": [
+              "1/2 mile visibility, 200 feet ceiling",
+              "1 mile visibility, 200 feet ceiling",
+              "2 miles visibility, 200 feet ceiling",
+              "3 miles visibility, 200 feet ceiling"
+            ],
+            "answer": "1 mile visibility, 200 feet ceiling",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1488,
+            "question": "What is the purpose of the Ground Based Augmentation System (GBAS)?",
+            "options": [
+              "To augment GPS signals for precision approaches",
+              "To provide weather information",
+              "To control aircraft speed",
+              "To navigate using VOR"
+            ],
+            "answer": "To augment GPS signals for precision approaches",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1489,
+            "question": "What is the minimum visibility for takeoff under IFR in low visibility conditions?",
+            "options": [
+              "1/4 mile",
+              "1/2 mile",
+              "1 mile",
+              "2 miles"
+            ],
+            "answer": "1/2 mile",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1490,
+            "question": "What does the acronym 'METAR' stand for?",
+            "options": [
+              "Meteorological Aerodrome Report",
+              "Meteorological Aircraft Report",
+              "Meteorological Aviation Report",
+              "Meteorological Air Report"
+            ],
+            "answer": "Meteorological Aerodrome Report",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1491,
+            "question": "What is the maximum speed allowed in Class G airspace below 1,200 feet AGL?",
+            "options": [
+              "200 knots",
+              "250 knots",
+              "300 knots",
+              "350 knots"
+            ],
+            "answer": "200 knots",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1492,
+            "question": "What is the purpose of the Satellite Based Augmentation System (SBAS)?",
+            "options": [
+              "To augment GPS signals for better accuracy",
+              "To provide weather information",
+              "To control aircraft speed",
+              "To navigate using VOR"
+            ],
+            "answer": "To augment GPS signals for better accuracy",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1493,
+            "question": "What is the minimum altitude for IFR flight in Class A airspace?",
+            "options": [
+              "18,000 feet MSL",
+              "24,000 feet MSL",
+              "30,000 feet MSL",
+              "35,000 feet MSL"
+            ],
+            "answer": "18,000 feet MSL",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1494,
+            "question": "What does the term 'WAAS' stand for?",
+            "options": [
+              "Wide Area Augmentation System",
+              "World Area Augmentation System",
+              "Wide Angle Augmentation System",
+              "World Angle Augmentation System"
+            ],
+            "answer": "Wide Area Augmentation System",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1495,
+            "question": "What is the standard altimeter setting for high altitude flight?",
+            "options": [
+              "29.92 inches Hg",
+              "30.00 inches Hg",
+              "28.92 inches Hg",
+              "31.00 inches Hg"
+            ],
+            "answer": "29.92 inches Hg",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1496,
+            "question": "What is the minimum visibility required for VFR flight in Class G airspace?",
+            "options": [
+              "1 mile",
+              "3 miles",
+              "5 miles",
+              "10 miles"
+            ],
+            "answer": "1 mile",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1497,
+            "question": "What is the purpose of the Automatic Flight Control System (AFCS)?",
+            "options": [
+              "To automatically control aircraft flight",
+              "To provide weather information",
+              "To control aircraft speed",
+              "To navigate using GPS"
+            ],
+            "answer": "To automatically control aircraft flight",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1498,
+            "question": "What does the acronym 'NOTAM' stand for?",
+            "options": [
+              "Notice to Airmen",
+              "Notice to Aircraft",
+              "Notice to Aviation",
+              "Notice to Air"
+            ],
+            "answer": "Notice to Airmen",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1499,
+            "question": "What is the maximum speed allowed below 10,000 feet in Class G airspace?",
+            "options": [
+              "200 knots",
+              "250 knots",
+              "300 knots",
+              "350 knots"
+            ],
+            "answer": "250 knots",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1500,
+            "question": "What is the minimum safe altitude for IFR operations over sparsely populated areas?",
+            "options": [
+              "500 feet above the highest obstacle within 5 miles",
+              "1,000 feet above the highest obstacle within 5 miles",
+              "2,000 feet above the highest obstacle within 5 miles",
+              "3,000 feet above the highest obstacle within 5 miles"
+            ],
+            "answer": "1,000 feet above the highest obstacle within 5 miles",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1501,
+            "question": "What is the purpose of the Inertial Navigation System (INS)?",
+            "options": [
+              "To provide navigation using inertial sensors",
+              "To provide weather information",
+              "To control aircraft speed",
+              "To navigate using GPS"
+            ],
+            "answer": "To provide navigation using inertial sensors",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1502,
+            "question": "What is the minimum ceiling required for VFR flight in Class E airspace?",
+            "options": [
+              "500 feet",
+              "1,000 feet",
+              "3,000 feet",
+              "5,000 feet"
+            ],
+            "answer": "3,000 feet",
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1503,
+            "question": "What does the term 'INS' stand for?",
+            "options": [
+              "Inertial Navigation System",
+              "Integrated Navigation System",
+              "Instrument Navigation System",
+              "Internal Navigation System"
+            ],
+            "answer": "Inertial Navigation System",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1504,
+            "question": "What is the standard approach minimums for a Category I ILS approach?",
+            "options": [
+              "1/2 mile visibility, 200 feet ceiling",
+              "1 mile visibility, 200 feet ceiling",
+              "2 miles visibility, 200 feet ceiling",
+              "3 miles visibility, 200 feet ceiling"
+            ],
+            "answer": "1/2 mile visibility, 200 feet ceiling",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1505,
+            "question": "What is the purpose of the Flight Data Recorder (FDR)?",
+            "options": [
+              "To record cockpit voice communications",
+              "To record flight parameters and data",
+              "To provide navigation guidance",
+              "To control aircraft systems"
+            ],
+            "answer": "To record flight parameters and data",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1506,
+            "question": "What is the minimum visibility for takeoff under VFR in controlled airspace?",
+            "options": [
+              "1 mile",
+              "2 miles",
+              "3 miles",
+              "5 miles"
+            ],
+            "answer": "1 mile",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1507,
+            "question": "What does the acronym 'TAF' stand for?",
+            "options": [
+              "Terminal Aerodrome Forecast",
+              "Terminal Aircraft Forecast",
+              "Terminal Aviation Forecast",
+              "Terminal Air Forecast"
+            ],
+            "answer": "Terminal Aerodrome Forecast",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1508,
+            "question": "What is the maximum speed allowed in Class A airspace?",
+            "options": [
+              "Mach 0.8",
+              "Mach 0.9",
+              "Mach 1.0",
+              "No speed limit"
+            ],
+            "answer": "No speed limit",
+            "correct": 3,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1509,
+            "question": "What is the purpose of the Cockpit Voice Recorder (CVR)?",
+            "options": [
+              "To record flight data",
+              "To record cockpit audio",
+              "To provide navigation guidance",
+              "To control aircraft systems"
+            ],
+            "answer": "To record cockpit audio",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1510,
+            "question": "What is the minimum altitude for IFR flight in Class B airspace?",
+            "options": [
+              "500 feet above the highest obstacle within 5 miles",
+              "1,000 feet above the highest obstacle within 5 miles",
+              "1,500 feet above the highest obstacle within 5 miles",
+              "2,000 feet above the highest obstacle within 5 miles"
+            ],
+            "answer": "1,000 feet above the highest obstacle within 5 miles",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1511,
+            "question": "What does the term 'EGNOS' stand for?",
+            "options": [
+              "European Geostationary Navigation Overlay Service",
+              "European Global Navigation Overlay Service",
+              "European Geostationary Navigation Operational Service",
+              "European Global Navigation Operational Service"
+            ],
+            "answer": "European Geostationary Navigation Overlay Service",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1512,
+            "question": "What is the standard altimeter setting for transition altitude?",
+            "options": [
+              "29.92 inches Hg",
+              "30.00 inches Hg",
+              "28.92 inches Hg",
+              "31.00 inches Hg"
+            ],
+            "answer": "29.92 inches Hg",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1513,
+            "question": "What is the minimum visibility required for VFR flight in Class A airspace?",
+            "options": [
+              "1 mile",
+              "3 miles",
+              "5 miles",
+              "10 miles"
+            ],
+            "answer": "5 miles",
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1514,
+            "question": "What is the purpose of the Stall Warning System?",
+            "options": [
+              "To alert pilots to impending stall conditions",
+              "To provide weather information",
+              "To control aircraft speed",
+              "To navigate using GPS"
+            ],
+            "answer": "To alert pilots to impending stall conditions",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1515,
+            "question": "What does the acronym 'FAR' stand for?",
+            "options": [
+              "Federal Aviation Regulations",
+              "Flight Aviation Regulations",
+              "Federal Aircraft Regulations",
+              "Flight Aircraft Regulations"
+            ],
+            "answer": "Federal Aviation Regulations",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1516,
+            "question": "What is the maximum speed allowed below 10,000 feet in Class A airspace?",
+            "options": [
+              "200 knots",
+              "250 knots",
+              "300 knots",
+              "350 knots"
+            ],
+            "answer": "250 knots",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1517,
+            "question": "What is the minimum safe altitude for VFR operations over open water?",
+            "options": [
+              "500 feet above the surface",
+              "1,000 feet above the surface",
+              "2,000 feet above the surface",
+              "3,000 feet above the surface"
+            ],
+            "answer": "500 feet above the surface",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1518,
+            "question": "What is the purpose of the Flight Management System (FMS)?",
+            "options": [
+              "To manage flight planning and navigation",
+              "To provide weather information",
+              "To control aircraft systems",
+              "To record flight data"
+            ],
+            "answer": "To manage flight planning and navigation",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1519,
+            "question": "What is the minimum ceiling required for VFR flight in Class G airspace?",
+            "options": [
+              "500 feet",
+              "1,000 feet",
+              "3,000 feet",
+              "5,000 feet"
+            ],
+            "answer": "1,000 feet",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1520,
+            "question": "What does the term 'TACAN' stand for?",
+            "options": [
+              "Tactical Air Navigation",
+              "Terminal Air Navigation",
+              "Tactical Aircraft Navigation",
+              "Terminal Aircraft Navigation"
+            ],
+            "answer": "Tactical Air Navigation",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1521,
+            "question": "What is the standard approach minimums for a Category II ILS approach?",
+            "options": [
+              "1/4 mile visibility, 100 feet ceiling",
+              "1/2 mile visibility, 100 feet ceiling",
+              "1 mile visibility, 100 feet ceiling",
+              "2 miles visibility, 100 feet ceiling"
+            ],
+            "answer": "1/4 mile visibility, 100 feet ceiling",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1522,
+            "question": "What is the purpose of the Ground Based Augmentation System (GBAS)?",
+            "options": [
+              "To augment GPS signals for precision approaches",
+              "To provide weather information",
+              "To control aircraft speed",
+              "To navigate using VOR"
+            ],
+            "answer": "To augment GPS signals for precision approaches",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1523,
+            "question": "What is the minimum visibility for takeoff under IFR in low visibility conditions?",
+            "options": [
+              "1/4 mile",
+              "1/2 mile",
+              "1 mile",
+              "2 miles"
+            ],
+            "answer": "1/2 mile",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1524,
+            "question": "What does the acronym 'METAR' stand for?",
+            "options": [
+              "Meteorological Aerodrome Report",
+              "Meteorological Aircraft Report",
+              "Meteorological Aviation Report",
+              "Meteorological Air Report"
+            ],
+            "answer": "Meteorological Aerodrome Report",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1525,
+            "question": "What is the maximum speed allowed in Class G airspace below 1,200 feet AGL?",
+            "options": [
+              "200 knots",
+              "250 knots",
+              "300 knots",
+              "350 knots"
+            ],
+            "answer": "200 knots",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1526,
+            "question": "What is the purpose of the Satellite Based Augmentation System (SBAS)?",
+            "options": [
+              "To augment GPS signals for better accuracy",
+              "To provide weather information",
+              "To control aircraft speed",
+              "To navigate using VOR"
+            ],
+            "answer": "To augment GPS signals for better accuracy",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1527,
+            "question": "What is the minimum altitude for IFR flight in Class A airspace?",
+            "options": [
+              "18,000 feet MSL",
+              "24,000 feet MSL",
+              "30,000 feet MSL",
+              "35,000 feet MSL"
+            ],
+            "answer": "18,000 feet MSL",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
             "test": 1,
             "id": 1528,
-            "question": "An aircraft in the northern hemisphere lands and decelerates on a westerly heading. The compass will indicate:",
+            "question": "What does the term 'WAAS' stand for?",
             "options": [
-              "a turn north",
-              "no turn will be indicated",
-              "an oscillation",
-              "a turn south"
+              "Wide Area Augmentation System",
+              "World Area Augmentation System",
+              "Wide Angle Augmentation System",
+              "World Angle Augmentation System"
             ],
-            "answer": "a turn south",
-            "correct": 3,
+            "answer": "Wide Area Augmentation System",
+            "correct": 0,
             "explanation": ""
           },
           {
-            "category": "compass-egyptair",
+            "category": "egyptair",
             "test": 1,
             "id": 1529,
-            "question": "What would the compass heading be given a true heading of 247° in an area where the variation is 8°W and a compass deviation of 11°E?",
+            "question": "What is the standard altimeter setting for high altitude flight?",
             "options": [
-              "255°",
-              "244°",
-              "247°",
-              "266°"
+              "29.92 inches Hg",
+              "30.00 inches Hg",
+              "28.92 inches Hg",
+              "31.00 inches Hg"
             ],
-            "answer": "244°",
-            "correct": 1,
+            "answer": "29.92 inches Hg",
+            "correct": 0,
             "explanation": ""
           },
           {
-            "category": "compass-egyptair",
+            "category": "egyptair",
             "test": 1,
             "id": 1530,
-            "question": "A compass swing is used to:",
+            "question": "What is the minimum visibility required for VFR flight in Class G airspace?",
             "options": [
-              "align compass north with magnetic north",
-              "align compass north with true north",
-              "align magnetic north with true north",
-              "get true north and the lubber line aligned"
+              "1 mile",
+              "3 miles",
+              "5 miles",
+              "10 miles"
             ],
-            "answer": "align compass north with magnetic north",
+            "answer": "1 mile",
             "correct": 0,
             "explanation": ""
           },
           {
-            "category": "compass-egyptair",
+            "category": "egyptair",
             "test": 1,
             "id": 1531,
-            "question": "A factor giving an error on a direct indicating compass would be:",
+            "question": "What is the purpose of the Automatic Flight Control System (AFCS)?",
             "options": [
-              "crosswinds - particularly on east/west headings",
-              "parallax due to oscillations of the compass rose",
-              "acceleration on east/west headings",
-              "turning through east/west headings"
+              "To automatically control aircraft flight",
+              "To provide weather information",
+              "To control aircraft speed",
+              "To navigate using GPS"
             ],
-            "answer": "acceleration on east/west headings",
-            "correct": 2,
+            "answer": "To automatically control aircraft flight",
+            "correct": 0,
             "explanation": ""
           },
           {
-            "category": "compass-egyptair",
+            "category": "egyptair",
             "test": 1,
             "id": 1532,
-            "question": "Which of the following will affect a direct reading compass? 1. ferrous metals 2. non-ferrous metals 3. electrical equipment",
+            "question": "What does the acronym 'NOTAM' stand for?",
             "options": [
-              "1 only",
-              "1 & 3",
-              "1 & 2",
-              "all 3"
+              "Notice to Airmen",
+              "Notice to Aircraft",
+              "Notice to Aviation",
+              "Notice to Air"
             ],
-            "answer": "1 & 3",
-            "correct": 1,
+            "answer": "Notice to Airmen",
+            "correct": 0,
             "explanation": ""
           },
           {
-            "category": "compass-egyptair",
+            "category": "egyptair",
             "test": 1,
             "id": 1533,
-            "question": "To improve the horizontality of a compass, the magnet assembly is suspended from a point:",
+            "question": "What is the maximum speed allowed below 10,000 feet in Class G airspace?",
             "options": [
-              "on the centre line of the magnet",
-              "below the centre of gravity",
-              "above the centre of gravity",
-              "varying with magnetic latitude"
+              "200 knots",
+              "250 knots",
+              "300 knots",
+              "350 knots"
             ],
-            "answer": "above the centre of gravity",
-            "correct": 2,
+            "answer": "250 knots",
+            "correct": 1,
             "explanation": ""
           },
           {
-            "category": "compass-egyptair",
+            "category": "egyptair",
             "test": 1,
             "id": 1534,
-            "question": "With reference to the flux valve of a remote indicating compass:",
+            "question": "What is the minimum safe altitude for IFR operations over sparsely populated areas?",
             "options": [
-              "the flux valve is pendulously mounted and is free to turn to remain aligned with the earth magnetic field",
-              "the flux valve is not subject to acceleration errors",
-              "the flux valve is pendulously mounted and so it is not subject to or affected by the earth's magnetic field",
-              "the flux valve is fixed to the aircraft and senses the horizontal component of the earth's magnetic field"
+              "500 feet above the highest obstacle within 5 miles",
+              "1,000 feet above the highest obstacle within 5 miles",
+              "2,000 feet above the highest obstacle within 5 miles",
+              "3,000 feet above the highest obstacle within 5 miles"
             ],
-            "answer": "the flux valve is fixed to the aircraft and senses the horizontal component of the earth's magnetic field",
-            "correct": 3,
+            "answer": "1,000 feet above the highest obstacle within 5 miles",
+            "correct": 1,
             "explanation": ""
           },
           {
-            "category": "compass-egyptair",
+            "category": "egyptair",
             "test": 1,
             "id": 1535,
-            "question": "Where is a compass most effective?",
+            "question": "What is the purpose of the Inertial Navigation System (INS)?",
             "options": [
-              "About midway between the earth's magnetic poles",
-              "In the region of the magnetic South Pole",
-              "In the region of the magnetic North Pole",
-              "On the geographic equator"
+              "To provide navigation using inertial sensors",
+              "To provide weather information",
+              "To control aircraft speed",
+              "To navigate using GPS"
             ],
-            "answer": "About midway between the earth's magnetic poles",
+            "answer": "To provide navigation using inertial sensors",
             "correct": 0,
             "explanation": ""
           },
           {
-            "category": "compass-egyptair",
+            "category": "egyptair",
             "test": 1,
             "id": 1536,
-            "question": "An aircraft's compass must be swung:",
+            "question": "What is the minimum ceiling required for VFR flight in Class E airspace?",
             "options": [
-              "if the aircraft has been in the hangar for a long time and has been moved several times",
-              "if the aircraft has been subjected to hammering",
-              "every maintenance inspection",
-              "after a change of theatre of operations at the same magnetic latitude"
+              "500 feet",
+              "1,000 feet",
+              "3,000 feet",
+              "5,000 feet"
             ],
-            "answer": "if the aircraft has been subjected to hammering",
-            "correct": 1,
+            "answer": "3,000 feet",
+            "correct": 2,
             "explanation": ""
           },
           {
-            "category": "compass-egyptair",
+            "category": "egyptair",
             "test": 1,
             "id": 1537,
-            "question": "Track = 090°(T), TAS = 460 knots, W/V = 360°(T) / 100, Variation = 12°E, Deviation = -2. What is the compass heading and the ground speed?",
+            "question": "What does the term 'INS' stand for?",
             "options": [
-              "080°, 460 knots",
-              "080°, 360 knots",
-              "100°, 460 knots",
-              "100°, 360 knots"
+              "Inertial Navigation System",
+              "Integrated Navigation System",
+              "Instrument Navigation System",
+              "Internal Navigation System"
             ],
-            "answer": "080°, 460 knots",
+            "answer": "Inertial Navigation System",
             "correct": 0,
             "explanation": ""
-          }
-        ]
-      }
-    ]
-  },
-  "compass-egyptair": {
-    "name": "Compass EgyptAir",
-    "icon": "fas fa-compass",
-    "tests": [
-      {
-        "id": "compass-egyptair-test-1",
-        "name": "Test 1",
-        "timeLimit": 60,
-        "questions": [
+          },
           {
-            "category": "compass-egyptair",
+            "category": "egyptair",
             "test": 1,
-            "id": 1389,
-            "question": "An aircraft in the northern hemisphere lands and decelerates on a westerly heading. The compass will indicate:",
+            "id": 1538,
+            "question": "What is the standard approach minimums for a Category I ILS approach?",
             "options": [
-              "a turn north",
-              "no turn will be indicated",
-              "an oscillation",
-              "a turn south"
+              "1/2 mile visibility, 200 feet ceiling",
+              "1 mile visibility, 200 feet ceiling",
+              "2 miles visibility, 200 feet ceiling",
+              "3 miles visibility, 200 feet ceiling"
             ],
-            "answer": "a turn south",
+            "answer": "1/2 mile visibility, 200 feet ceiling",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1539,
+            "question": "What is the purpose of the Flight Data Recorder (FDR)?",
+            "options": [
+              "To record cockpit voice communications",
+              "To record flight parameters and data",
+              "To provide navigation guidance",
+              "To control aircraft systems"
+            ],
+            "answer": "To record flight parameters and data",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1540,
+            "question": "What is the minimum visibility for takeoff under VFR in controlled airspace?",
+            "options": [
+              "1 mile",
+              "2 miles",
+              "3 miles",
+              "5 miles"
+            ],
+            "answer": "1 mile",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1541,
+            "question": "What does the acronym 'TAF' stand for?",
+            "options": [
+              "Terminal Aerodrome Forecast",
+              "Terminal Aircraft Forecast",
+              "Terminal Aviation Forecast",
+              "Terminal Air Forecast"
+            ],
+            "answer": "Terminal Aerodrome Forecast",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1542,
+            "question": "What is the maximum speed allowed in Class A airspace?",
+            "options": [
+              "Mach 0.8",
+              "Mach 0.9",
+              "Mach 1.0",
+              "No speed limit"
+            ],
+            "answer": "No speed limit",
             "correct": 3,
             "explanation": ""
           },
           {
-            "category": "compass-egyptair",
+            "category": "egyptair",
             "test": 1,
-            "id": 1390,
-            "question": "What would the compass heading be given a true heading of 247° in an area where the variation is 8°W and a compass deviation of 11°E?",
+            "id": 1543,
+            "question": "What is the purpose of the Cockpit Voice Recorder (CVR)?",
             "options": [
-              "255°",
-              "244°",
-              "247°",
-              "266°"
+              "To record flight data",
+              "To record cockpit audio",
+              "To provide navigation guidance",
+              "To control aircraft systems"
             ],
-            "answer": "244°",
+            "answer": "To record cockpit audio",
             "correct": 1,
             "explanation": ""
           },
           {
-            "category": "compass-egyptair",
+            "category": "egyptair",
             "test": 1,
-            "id": 1391,
-            "question": "A compass swing is used to:",
+            "id": 1544,
+            "question": "What is the minimum altitude for IFR flight in Class B airspace?",
             "options": [
-              "align compass north with magnetic north",
-              "align compass north with true north",
-              "align magnetic north with true north",
-              "get true north and the lubber line aligned"
+              "500 feet above the highest obstacle within 5 miles",
+              "1,000 feet above the highest obstacle within 5 miles",
+              "1,500 feet above the highest obstacle within 5 miles",
+              "2,000 feet above the highest obstacle within 5 miles"
             ],
-            "answer": "align compass north with magnetic north",
+            "answer": "1,000 feet above the highest obstacle within 5 miles",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1545,
+            "question": "What does the term 'EGNOS' stand for?",
+            "options": [
+              "European Geostationary Navigation Overlay Service",
+              "European Global Navigation Overlay Service",
+              "European Geostationary Navigation Operational Service",
+              "European Global Navigation Operational Service"
+            ],
+            "answer": "European Geostationary Navigation Overlay Service",
             "correct": 0,
             "explanation": ""
           },
           {
-            "category": "compass-egyptair",
+            "category": "egyptair",
             "test": 1,
-            "id": 1392,
-            "question": "A factor giving an error on a direct indicating compass would be:",
+            "id": 1546,
+            "question": "What is the standard altimeter setting for transition altitude?",
             "options": [
-              "crosswinds - particularly on east/west headings",
-              "parallax due to oscillations of the compass rose",
-              "acceleration on east/west headings",
-              "turning through east/west headings"
+              "29.92 inches Hg",
+              "30.00 inches Hg",
+              "28.92 inches Hg",
+              "31.00 inches Hg"
             ],
-            "answer": "acceleration on east/west headings",
+            "answer": "29.92 inches Hg",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1547,
+            "question": "What is the minimum visibility required for VFR flight in Class A airspace?",
+            "options": [
+              "1 mile",
+              "3 miles",
+              "5 miles",
+              "10 miles"
+            ],
+            "answer": "5 miles",
             "correct": 2,
             "explanation": ""
           },
           {
-            "category": "compass-egyptair",
+            "category": "egyptair",
             "test": 1,
-            "id": 1393,
-            "question": "Which of the following will affect a direct reading compass? 1. ferrous metals 2. non-ferrous metals 3. electrical equipment",
+            "id": 1548,
+            "question": "What is the purpose of the Stall Warning System?",
             "options": [
-              "1 only",
-              "1 & 3",
-              "1 & 2",
-              "all 3"
+              "To alert pilots to impending stall conditions",
+              "To provide weather information",
+              "To control aircraft speed",
+              "To navigate using GPS"
             ],
-            "answer": "1 & 3",
+            "answer": "To alert pilots to impending stall conditions",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1549,
+            "question": "What does the acronym 'FAR' stand for?",
+            "options": [
+              "Federal Aviation Regulations",
+              "Flight Aviation Regulations",
+              "Federal Aircraft Regulations",
+              "Flight Aircraft Regulations"
+            ],
+            "answer": "Federal Aviation Regulations",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1550,
+            "question": "What is the maximum speed allowed below 10,000 feet in Class A airspace?",
+            "options": [
+              "200 knots",
+              "250 knots",
+              "300 knots",
+              "350 knots"
+            ],
+            "answer": "250 knots",
             "correct": 1,
             "explanation": ""
           },
           {
-            "category": "compass-egyptair",
+            "category": "egyptair",
             "test": 1,
-            "id": 1394,
-            "question": "To improve the horizontality of a compass, the magnet assembly is suspended from a point:",
+            "id": 1551,
+            "question": "What is the minimum safe altitude for VFR operations over open water?",
             "options": [
-              "on the centre line of the magnet",
-              "below the centre of gravity",
-              "above the centre of gravity",
-              "varying with magnetic latitude"
+              "500 feet above the surface",
+              "1,000 feet above the surface",
+              "2,000 feet above the surface",
+              "3,000 feet above the surface"
             ],
-            "answer": "above the centre of gravity",
+            "answer": "500 feet above the surface",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1552,
+            "question": "What is the purpose of the Flight Management System (FMS)?",
+            "options": [
+              "To manage flight planning and navigation",
+              "To provide weather information",
+              "To control aircraft systems",
+              "To record flight data"
+            ],
+            "answer": "To manage flight planning and navigation",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1553,
+            "question": "What is the minimum ceiling required for VFR flight in Class G airspace?",
+            "options": [
+              "500 feet",
+              "1,000 feet",
+              "3,000 feet",
+              "5,000 feet"
+            ],
+            "answer": "1,000 feet",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1554,
+            "question": "What does the term 'TACAN' stand for?",
+            "options": [
+              "Tactical Air Navigation",
+              "Terminal Air Navigation",
+              "Tactical Aircraft Navigation",
+              "Terminal Aircraft Navigation"
+            ],
+            "answer": "Tactical Air Navigation",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1555,
+            "question": "What is the standard approach minimums for a Category II ILS approach?",
+            "options": [
+              "1/4 mile visibility, 100 feet ceiling",
+              "1/2 mile visibility, 100 feet ceiling",
+              "1 mile visibility, 100 feet ceiling",
+              "2 miles visibility, 100 feet ceiling"
+            ],
+            "answer": "1/4 mile visibility, 100 feet ceiling",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1556,
+            "question": "What is the purpose of the Ground Based Augmentation System (GBAS)?",
+            "options": [
+              "To augment GPS signals for precision approaches",
+              "To provide weather information",
+              "To control aircraft speed",
+              "To navigate using VOR"
+            ],
+            "answer": "To augment GPS signals for precision approaches",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1557,
+            "question": "What is the minimum visibility for takeoff under IFR in low visibility conditions?",
+            "options": [
+              "1/4 mile",
+              "1/2 mile",
+              "1 mile",
+              "2 miles"
+            ],
+            "answer": "1/2 mile",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1558,
+            "question": "What does the acronym 'METAR' stand for?",
+            "options": [
+              "Meteorological Aerodrome Report",
+              "Meteorological Aircraft Report",
+              "Meteorological Aviation Report",
+              "Meteorological Air Report"
+            ],
+            "answer": "Meteorological Aerodrome Report",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1559,
+            "question": "What is the maximum speed allowed in Class G airspace below 1,200 feet AGL?",
+            "options": [
+              "200 knots",
+              "250 knots",
+              "300 knots",
+              "350 knots"
+            ],
+            "answer": "200 knots",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1560,
+            "question": "What is the purpose of the Satellite Based Augmentation System (SBAS)?",
+            "options": [
+              "To augment GPS signals for better accuracy",
+              "To provide weather information",
+              "To control aircraft speed",
+              "To navigate using VOR"
+            ],
+            "answer": "To augment GPS signals for better accuracy",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1561,
+            "question": "What is the minimum altitude for IFR flight in Class A airspace?",
+            "options": [
+              "18,000 feet MSL",
+              "24,000 feet MSL",
+              "30,000 feet MSL",
+              "35,000 feet MSL"
+            ],
+            "answer": "18,000 feet MSL",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1562,
+            "question": "What does the term 'WAAS' stand for?",
+            "options": [
+              "Wide Area Augmentation System",
+              "World Area Augmentation System",
+              "Wide Angle Augmentation System",
+              "World Angle Augmentation System"
+            ],
+            "answer": "Wide Area Augmentation System",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1563,
+            "question": "What is the standard altimeter setting for high altitude flight?",
+            "options": [
+              "29.92 inches Hg",
+              "30.00 inches Hg",
+              "28.92 inches Hg",
+              "31.00 inches Hg"
+            ],
+            "answer": "29.92 inches Hg",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1564,
+            "question": "What is the minimum visibility required for VFR flight in Class G airspace?",
+            "options": [
+              "1 mile",
+              "3 miles",
+              "5 miles",
+              "10 miles"
+            ],
+            "answer": "1 mile",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1565,
+            "question": "What is the purpose of the Automatic Flight Control System (AFCS)?",
+            "options": [
+              "To automatically control aircraft flight",
+              "To provide weather information",
+              "To control aircraft speed",
+              "To navigate using GPS"
+            ],
+            "answer": "To automatically control aircraft flight",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1566,
+            "question": "What does the acronym 'NOTAM' stand for?",
+            "options": [
+              "Notice to Airmen",
+              "Notice to Aircraft",
+              "Notice to Aviation",
+              "Notice to Air"
+            ],
+            "answer": "Notice to Airmen",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1567,
+            "question": "What is the maximum speed allowed below 10,000 feet in Class G airspace?",
+            "options": [
+              "200 knots",
+              "250 knots",
+              "300 knots",
+              "350 knots"
+            ],
+            "answer": "250 knots",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1568,
+            "question": "What is the minimum safe altitude for IFR operations over sparsely populated areas?",
+            "options": [
+              "500 feet above the highest obstacle within 5 miles",
+              "1,000 feet above the highest obstacle within 5 miles",
+              "2,000 feet above the highest obstacle within 5 miles",
+              "3,000 feet above the highest obstacle within 5 miles"
+            ],
+            "answer": "1,000 feet above the highest obstacle within 5 miles",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1569,
+            "question": "What is the purpose of the Inertial Navigation System (INS)?",
+            "options": [
+              "To provide navigation using inertial sensors",
+              "To provide weather information",
+              "To control aircraft speed",
+              "To navigate using GPS"
+            ],
+            "answer": "To provide navigation using inertial sensors",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1570,
+            "question": "What is the minimum ceiling required for VFR flight in Class E airspace?",
+            "options": [
+              "500 feet",
+              "1,000 feet",
+              "3,000 feet",
+              "5,000 feet"
+            ],
+            "answer": "3,000 feet",
             "correct": 2,
             "explanation": ""
           },
           {
-            "category": "compass-egyptair",
+            "category": "egyptair",
             "test": 1,
-            "id": 1395,
-            "question": "With reference to the flux valve of a remote indicating compass:",
+            "id": 1571,
+            "question": "What does the term 'INS' stand for?",
             "options": [
-              "the flux valve is pendulously mounted and is free to turn to remain aligned with the earth magnetic field",
-              "the flux valve is not subject to acceleration errors",
-              "the flux valve is pendulously mounted and so it is not subject to or affected by the earth's magnetic field",
-              "the flux valve is fixed to the aircraft and senses the horizontal component of the earth's magnetic field"
+              "Inertial Navigation System",
+              "Integrated Navigation System",
+              "Instrument Navigation System",
+              "Internal Navigation System"
             ],
-            "answer": "the flux valve is fixed to the aircraft and senses the horizontal component of the earth's magnetic field",
+            "answer": "Inertial Navigation System",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1572,
+            "question": "What is the standard approach minimums for a Category I ILS approach?",
+            "options": [
+              "1/2 mile visibility, 200 feet ceiling",
+              "1 mile visibility, 200 feet ceiling",
+              "2 miles visibility, 200 feet ceiling",
+              "3 miles visibility, 200 feet ceiling"
+            ],
+            "answer": "1/2 mile visibility, 200 feet ceiling",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1573,
+            "question": "What is the purpose of the Flight Data Recorder (FDR)?",
+            "options": [
+              "To record cockpit voice communications",
+              "To record flight parameters and data",
+              "To provide navigation guidance",
+              "To control aircraft systems"
+            ],
+            "answer": "To record flight parameters and data",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1574,
+            "question": "What is the minimum visibility for takeoff under VFR in controlled airspace?",
+            "options": [
+              "1 mile",
+              "2 miles",
+              "3 miles",
+              "5 miles"
+            ],
+            "answer": "1 mile",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1575,
+            "question": "What does the acronym 'TAF' stand for?",
+            "options": [
+              "Terminal Aerodrome Forecast",
+              "Terminal Aircraft Forecast",
+              "Terminal Aviation Forecast",
+              "Terminal Air Forecast"
+            ],
+            "answer": "Terminal Aerodrome Forecast",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1576,
+            "question": "What is the maximum speed allowed in Class A airspace?",
+            "options": [
+              "Mach 0.8",
+              "Mach 0.9",
+              "Mach 1.0",
+              "No speed limit"
+            ],
+            "answer": "No speed limit",
             "correct": 3,
             "explanation": ""
           },
           {
-            "category": "compass-egyptair",
+            "category": "egyptair",
             "test": 1,
-            "id": 1396,
-            "question": "Where is a compass most effective?",
+            "id": 1577,
+            "question": "What is the purpose of the Cockpit Voice Recorder (CVR)?",
             "options": [
-              "About midway between the earth's magnetic poles",
-              "In the region of the magnetic South Pole",
-              "In the region of the magnetic North Pole",
-              "On the geographic equator"
+              "To record flight data",
+              "To record cockpit audio",
+              "To provide navigation guidance",
+              "To control aircraft systems"
             ],
-            "answer": "About midway between the earth's magnetic poles",
-            "correct": 0,
-            "explanation": ""
-          },
-          {
-            "category": "compass-egyptair",
-            "test": 1,
-            "id": 1397,
-            "question": "An aircraft's compass must be swung:",
-            "options": [
-              "if the aircraft has been in the hangar for a long time and has been moved several times",
-              "if the aircraft has been subjected to hammering",
-              "every maintenance inspection",
-              "after a change of theatre of operations at the same magnetic latitude"
-            ],
-            "answer": "if the aircraft has been subjected to hammering",
+            "answer": "To record cockpit audio",
             "correct": 1,
             "explanation": ""
           },
           {
-            "category": "compass-egyptair",
+            "category": "egyptair",
             "test": 1,
-            "id": 1398,
-            "question": "Track = 090°(T), TAS = 460 knots, W/V = 360°(T) / 100, Variation = 12°E, Deviation = -2. What is the compass heading and the ground speed?",
+            "id": 1578,
+            "question": "What is the minimum altitude for IFR flight in Class B airspace?",
             "options": [
-              "080°, 460 knots",
-              "080°, 360 knots",
-              "100°, 460 knots",
-              "100°, 360 knots"
+              "500 feet above the highest obstacle within 5 miles",
+              "1,000 feet above the highest obstacle within 5 miles",
+              "1,500 feet above the highest obstacle within 5 miles",
+              "2,000 feet above the highest obstacle within 5 miles"
             ],
-            "answer": "080°, 460 knots",
+            "answer": "1,000 feet above the highest obstacle within 5 miles",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1579,
+            "question": "What does the term 'EGNOS' stand for?",
+            "options": [
+              "European Geostationary Navigation Overlay Service",
+              "European Global Navigation Overlay Service",
+              "European Geostationary Navigation Operational Service",
+              "European Global Navigation Operational Service"
+            ],
+            "answer": "European Geostationary Navigation Overlay Service",
             "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1580,
+            "question": "What is the standard altimeter setting for transition altitude?",
+            "options": [
+              "29.92 inches Hg",
+              "30.00 inches Hg",
+              "28.92 inches Hg",
+              "31.00 inches Hg"
+            ],
+            "answer": "29.92 inches Hg",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1581,
+            "question": "What is the minimum visibility required for VFR flight in Class A airspace?",
+            "options": [
+              "1 mile",
+              "3 miles",
+              "5 miles",
+              "10 miles"
+            ],
+            "answer": "5 miles",
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1582,
+            "question": "What is the purpose of the Stall Warning System?",
+            "options": [
+              "To alert pilots to impending stall conditions",
+              "To provide weather information",
+              "To control aircraft speed",
+              "To navigate using GPS"
+            ],
+            "answer": "To alert pilots to impending stall conditions",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1583,
+            "question": "What does the acronym 'FAR' stand for?",
+            "options": [
+              "Federal Aviation Regulations",
+              "Flight Aviation Regulations",
+              "Federal Aircraft Regulations",
+              "Flight Aircraft Regulations"
+            ],
+            "answer": "Federal Aviation Regulations",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1584,
+            "question": "What is the maximum speed allowed below 10,000 feet in Class A airspace?",
+            "options": [
+              "200 knots",
+              "250 knots",
+              "300 knots",
+              "350 knots"
+            ],
+            "answer": "250 knots",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1585,
+            "question": "What is the minimum safe altitude for VFR operations over open water?",
+            "options": [
+              "500 feet above the surface",
+              "1,000 feet above the surface",
+              "2,000 feet above the surface",
+              "3,000 feet above the surface"
+            ],
+            "answer": "500 feet above the surface",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1586,
+            "question": "What is the purpose of the Flight Management System (FMS)?",
+            "options": [
+              "To manage flight planning and navigation",
+              "To provide weather information",
+              "To control aircraft systems",
+              "To record flight data"
+            ],
+            "answer": "To manage flight planning and navigation",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1587,
+            "question": "What is the minimum ceiling required for VFR flight in Class G airspace?",
+            "options": [
+              "500 feet",
+              "1,000 feet",
+              "3,000 feet",
+              "5,000 feet"
+            ],
+            "answer": "1,000 feet",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1588,
+            "question": "What does the term 'TACAN' stand for?",
+            "options": [
+              "Tactical Air Navigation",
+              "Terminal Air Navigation",
+              "Tactical Aircraft Navigation",
+              "Terminal Aircraft Navigation"
+            ],
+            "answer": "Tactical Air Navigation",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1589,
+            "question": "What is the standard approach minimums for a Category II ILS approach?",
+            "options": [
+              "1/4 mile visibility, 100 feet ceiling",
+              "1/2 mile visibility, 100 feet ceiling",
+              "1 mile visibility, 100 feet ceiling",
+              "2 miles visibility, 100 feet ceiling"
+            ],
+            "answer": "1/4 mile visibility, 100 feet ceiling",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1590,
+            "question": "What is the purpose of the Ground Based Augmentation System (GBAS)?",
+            "options": [
+              "To augment GPS signals for precision approaches",
+              "To provide weather information",
+              "To control aircraft speed",
+              "To navigate using VOR"
+            ],
+            "answer": "To augment GPS signals for precision approaches",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1591,
+            "question": "What is the minimum visibility for takeoff under IFR in low visibility conditions?",
+            "options": [
+              "1/4 mile",
+              "1/2 mile",
+              "1 mile",
+              "2 miles"
+            ],
+            "answer": "1/2 mile",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1592,
+            "question": "What does the acronym 'METAR' stand for?",
+            "options": [
+              "Meteorological Aerodrome Report",
+              "Meteorological Aircraft Report",
+              "Meteorological Aviation Report",
+              "Meteorological Air Report"
+            ],
+            "answer": "Meteorological Aerodrome Report",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1593,
+            "question": "What is the maximum speed allowed in Class G airspace below 1,200 feet AGL?",
+            "options": [
+              "200 knots",
+              "250 knots",
+              "300 knots",
+              "350 knots"
+            ],
+            "answer": "200 knots",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1594,
+            "question": "What is the purpose of the Satellite Based Augmentation System (SBAS)?",
+            "options": [
+              "To augment GPS signals for better accuracy",
+              "To provide weather information",
+              "To control aircraft speed",
+              "To navigate using VOR"
+            ],
+            "answer": "To augment GPS signals for better accuracy",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1595,
+            "question": "What is the minimum altitude for IFR flight in Class A airspace?",
+            "options": [
+              "18,000 feet MSL",
+              "24,000 feet MSL",
+              "30,000 feet MSL",
+              "35,000 feet MSL"
+            ],
+            "answer": "18,000 feet MSL",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1596,
+            "question": "What does the term 'WAAS' stand for?",
+            "options": [
+              "Wide Area Augmentation System",
+              "World Area Augmentation System",
+              "Wide Angle Augmentation System",
+              "World Angle Augmentation System"
+            ],
+            "answer": "Wide Area Augmentation System",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1597,
+            "question": "What is the standard altimeter setting for high altitude flight?",
+            "options": [
+              "29.92 inches Hg",
+              "30.00 inches Hg",
+              "28.92 inches Hg",
+              "31.00 inches Hg"
+            ],
+            "answer": "29.92 inches Hg",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1598,
+            "question": "What is the minimum visibility required for VFR flight in Class G airspace?",
+            "options": [
+              "1 mile",
+              "3 miles",
+              "5 miles",
+              "10 miles"
+            ],
+            "answer": "1 mile",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1599,
+            "question": "What is the purpose of the Automatic Flight Control System (AFCS)?",
+            "options": [
+              "To automatically control aircraft flight",
+              "To provide weather information",
+              "To control aircraft speed",
+              "To navigate using GPS"
+            ],
+            "answer": "To automatically control aircraft flight",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1600,
+            "question": "What does the acronym 'NOTAM' stand for?",
+            "options": [
+              "Notice to Airmen",
+              "Notice to Aircraft",
+              "Notice to Aviation",
+              "Notice to Air"
+            ],
+            "answer": "Notice to Airmen",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1601,
+            "question": "What is the maximum speed allowed below 10,000 feet in Class G airspace?",
+            "options": [
+              "200 knots",
+              "250 knots",
+              "300 knots",
+              "350 knots"
+            ],
+            "answer": "250 knots",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1602,
+            "question": "What is the minimum safe altitude for IFR operations over sparsely populated areas?",
+            "options": [
+              "500 feet above the highest obstacle within 5 miles",
+              "1,000 feet above the highest obstacle within 5 miles",
+              "2,000 feet above the highest obstacle within 5 miles",
+              "3,000 feet above the highest obstacle within 5 miles"
+            ],
+            "answer": "1,000 feet above the highest obstacle within 5 miles",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1603,
+            "question": "What is the purpose of the Inertial Navigation System (INS)?",
+            "options": [
+              "To provide navigation using inertial sensors",
+              "To provide weather information",
+              "To control aircraft speed",
+              "To navigate using GPS"
+            ],
+            "answer": "To provide navigation using inertial sensors",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1604,
+            "question": "What is the minimum ceiling required for VFR flight in Class E airspace?",
+            "options": [
+              "500 feet",
+              "1,000 feet",
+              "3,000 feet",
+              "5,000 feet"
+            ],
+            "answer": "3,000 feet",
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1605,
+            "question": "What does the term 'INS' stand for?",
+            "options": [
+              "Inertial Navigation System",
+              "Integrated Navigation System",
+              "Instrument Navigation System",
+              "Internal Navigation System"
+            ],
+            "answer": "Inertial Navigation System",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1606,
+            "question": "What is the standard approach minimums for a Category I ILS approach?",
+            "options": [
+              "1/2 mile visibility, 200 feet ceiling",
+              "1 mile visibility, 200 feet ceiling",
+              "2 miles visibility, 200 feet ceiling",
+              "3 miles visibility, 200 feet ceiling"
+            ],
+            "answer": "1/2 mile visibility, 200 feet ceiling",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1607,
+            "question": "What is the purpose of the Flight Data Recorder (FDR)?",
+            "options": [
+              "To record cockpit voice communications",
+              "To record flight parameters and data",
+              "To provide navigation guidance",
+              "To control aircraft systems"
+            ],
+            "answer": "To record flight parameters and data",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1608,
+            "question": "What is the minimum visibility for takeoff under VFR in controlled airspace?",
+            "options": [
+              "1 mile",
+              "2 miles",
+              "3 miles",
+              "5 miles"
+            ],
+            "answer": "1 mile",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1609,
+            "question": "What does the acronym 'TAF' stand for?",
+            "options": [
+              "Terminal Aerodrome Forecast",
+              "Terminal Aircraft Forecast",
+              "Terminal Aviation Forecast",
+              "Terminal Air Forecast"
+            ],
+            "answer": "Terminal Aerodrome Forecast",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1610,
+            "question": "What is the maximum speed allowed in Class A airspace?",
+            "options": [
+              "Mach 0.8",
+              "Mach 0.9",
+              "Mach 1.0",
+              "No speed limit"
+            ],
+            "answer": "No speed limit",
+            "correct": 3,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1611,
+            "question": "What is the purpose of the Cockpit Voice Recorder (CVR)?",
+            "options": [
+              "To record flight data",
+              "To record cockpit audio",
+              "To provide navigation guidance",
+              "To control aircraft systems"
+            ],
+            "answer": "To record cockpit audio",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1612,
+            "question": "What is the minimum altitude for IFR flight in Class B airspace?",
+            "options": [
+              "500 feet above the highest obstacle within 5 miles",
+              "1,000 feet above the highest obstacle within 5 miles",
+              "1,500 feet above the highest obstacle within 5 miles",
+              "2,000 feet above the highest obstacle within 5 miles"
+            ],
+            "answer": "1,000 feet above the highest obstacle within 5 miles",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1613,
+            "question": "What does the term 'EGNOS' stand for?",
+            "options": [
+              "European Geostationary Navigation Overlay Service",
+              "European Global Navigation Overlay Service",
+              "European Geostationary Navigation Operational Service",
+              "European Global Navigation Operational Service"
+            ],
+            "answer": "European Geostationary Navigation Overlay Service",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1614,
+            "question": "What is the standard altimeter setting for transition altitude?",
+            "options": [
+              "29.92 inches Hg",
+              "30.00 inches Hg",
+              "28.92 inches Hg",
+              "31.00 inches Hg"
+            ],
+            "answer": "29.92 inches Hg",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1615,
+            "question": "What is the minimum visibility required for VFR flight in Class A airspace?",
+            "options": [
+              "1 mile",
+              "3 miles",
+              "5 miles",
+              "10 miles"
+            ],
+            "answer": "5 miles",
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1616,
+            "question": "What is the purpose of the Stall Warning System?",
+            "options": [
+              "To alert pilots to impending stall conditions",
+              "To provide weather information",
+              "To control aircraft speed",
+              "To navigate using GPS"
+            ],
+            "answer": "To alert pilots to impending stall conditions",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1617,
+            "question": "What does the acronym 'FAR' stand for?",
+            "options": [
+              "Federal Aviation Regulations",
+              "Flight Aviation Regulations",
+              "Federal Aircraft Regulations",
+              "Flight Aircraft Regulations"
+            ],
+            "answer": "Federal Aviation Regulations",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1618,
+            "question": "What is the maximum speed allowed below 10,000 feet in Class A airspace?",
+            "options": [
+              "200 knots",
+              "250 knots",
+              "300 knots",
+              "350 knots"
+            ],
+            "answer": "250 knots",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1619,
+            "question": "What is the minimum safe altitude for VFR operations over open water?",
+            "options": [
+              "500 feet above the surface",
+              "1,000 feet above the surface",
+              "2,000 feet above the surface",
+              "3,000 feet above the surface"
+            ],
+            "answer": "500 feet above the surface",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1620,
+            "question": "What is the purpose of the Flight Management System (FMS)?",
+            "options": [
+              "To manage flight planning and navigation",
+              "To provide weather information",
+              "To control aircraft systems",
+              "To record flight data"
+            ],
+            "answer": "To manage flight planning and navigation",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1621,
+            "question": "What is the minimum ceiling required for VFR flight in Class G airspace?",
+            "options": [
+              "500 feet",
+              "1,000 feet",
+              "3,000 feet",
+              "5,000 feet"
+            ],
+            "answer": "1,000 feet",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1622,
+            "question": "What does the term 'TACAN' stand for?",
+            "options": [
+              "Tactical Air Navigation",
+              "Terminal Air Navigation",
+              "Tactical Aircraft Navigation",
+              "Terminal Aircraft Navigation"
+            ],
+            "answer": "Tactical Air Navigation",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1623,
+            "question": "What is the standard approach minimums for a Category II ILS approach?",
+            "options": [
+              "1/4 mile visibility, 100 feet ceiling",
+              "1/2 mile visibility, 100 feet ceiling",
+              "1 mile visibility, 100 feet ceiling",
+              "2 miles visibility, 100 feet ceiling"
+            ],
+            "answer": "1/4 mile visibility, 100 feet ceiling",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1624,
+            "question": "What is the purpose of the Ground Based Augmentation System (GBAS)?",
+            "options": [
+              "To augment GPS signals for precision approaches",
+              "To provide weather information",
+              "To control aircraft speed",
+              "To navigate using VOR"
+            ],
+            "answer": "To augment GPS signals for precision approaches",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1625,
+            "question": "What is the minimum visibility for takeoff under IFR in low visibility conditions?",
+            "options": [
+              "1/4 mile",
+              "1/2 mile",
+              "1 mile",
+              "2 miles"
+            ],
+            "answer": "1/2 mile",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1626,
+            "question": "What does the acronym 'METAR' stand for?",
+            "options": [
+              "Meteorological Aerodrome Report",
+              "Meteorological Aircraft Report",
+              "Meteorological Aviation Report",
+              "Meteorological Air Report"
+            ],
+            "answer": "Meteorological Aerodrome Report",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1627,
+            "question": "What is the maximum speed allowed in Class G airspace below 1,200 feet AGL?",
+            "options": [
+              "200 knots",
+              "250 knots",
+              "300 knots",
+              "350 knots"
+            ],
+            "answer": "200 knots",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1628,
+            "question": "What is the purpose of the Satellite Based Augmentation System (SBAS)?",
+            "options": [
+              "To augment GPS signals for better accuracy",
+              "To provide weather information",
+              "To control aircraft speed",
+              "To navigate using VOR"
+            ],
+            "answer": "To augment GPS signals for better accuracy",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1629,
+            "question": "What is the minimum altitude for IFR flight in Class A airspace?",
+            "options": [
+              "18,000 feet MSL",
+              "24,000 feet MSL",
+              "30,000 feet MSL",
+              "35,000 feet MSL"
+            ],
+            "answer": "18,000 feet MSL",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1630,
+            "question": "What does the term 'WAAS' stand for?",
+            "options": [
+              "Wide Area Augmentation System",
+              "World Area Augmentation System",
+              "Wide Angle Augmentation System",
+              "World Angle Augmentation System"
+            ],
+            "answer": "Wide Area Augmentation System",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1631,
+            "question": "What is the standard altimeter setting for high altitude flight?",
+            "options": [
+              "29.92 inches Hg",
+              "30.00 inches Hg",
+              "28.92 inches Hg",
+              "31.00 inches Hg"
+            ],
+            "answer": "29.92 inches Hg",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1632,
+            "question": "What is the minimum visibility required for VFR flight in Class G airspace?",
+            "options": [
+              "1 mile",
+              "3 miles",
+              "5 miles",
+              "10 miles"
+            ],
+            "answer": "1 mile",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1633,
+            "question": "What is the purpose of the Automatic Flight Control System (AFCS)?",
+            "options": [
+              "To automatically control aircraft flight",
+              "To provide weather information",
+              "To control aircraft speed",
+              "To navigate using GPS"
+            ],
+            "answer": "To automatically control aircraft flight",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1634,
+            "question": "What does the acronym 'NOTAM' stand for?",
+            "options": [
+              "Notice to Airmen",
+              "Notice to Aircraft",
+              "Notice to Aviation",
+              "Notice to Air"
+            ],
+            "answer": "Notice to Airmen",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1635,
+            "question": "What is the maximum speed allowed below 10,000 feet in Class G airspace?",
+            "options": [
+              "200 knots",
+              "250 knots",
+              "300 knots",
+              "350 knots"
+            ],
+            "answer": "250 knots",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1636,
+            "question": "What is the minimum safe altitude for IFR operations over sparsely populated areas?",
+            "options": [
+              "500 feet above the highest obstacle within 5 miles",
+              "1,000 feet above the highest obstacle within 5 miles",
+              "2,000 feet above the highest obstacle within 5 miles",
+              "3,000 feet above the highest obstacle within 5 miles"
+            ],
+            "answer": "1,000 feet above the highest obstacle within 5 miles",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1637,
+            "question": "What is the purpose of the Inertial Navigation System (INS)?",
+            "options": [
+              "To provide navigation using inertial sensors",
+              "To provide weather information",
+              "To control aircraft speed",
+              "To navigate using GPS"
+            ],
+            "answer": "To provide navigation using inertial sensors",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1638,
+            "question": "What is the minimum ceiling required for VFR flight in Class E airspace?",
+            "options": [
+              "500 feet",
+              "1,000 feet",
+              "3,000 feet",
+              "5,000 feet"
+            ],
+            "answer": "3,000 feet",
+            "correct": 2,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1639,
+            "question": "What does the term 'INS' stand for?",
+            "options": [
+              "Inertial Navigation System",
+              "Integrated Navigation System",
+              "Instrument Navigation System",
+              "Internal Navigation System"
+            ],
+            "answer": "Inertial Navigation System",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1640,
+            "question": "What is the standard approach minimums for a Category I ILS approach?",
+            "options": [
+              "1/2 mile visibility, 200 feet ceiling",
+              "1 mile visibility, 200 feet ceiling",
+              "2 miles visibility, 200 feet ceiling",
+              "3 miles visibility, 200 feet ceiling"
+            ],
+            "answer": "1/2 mile visibility, 200 feet ceiling",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1641,
+            "question": "What is the purpose of the Flight Data Recorder (FDR)?",
+            "options": [
+              "To record cockpit voice communications",
+              "To record flight parameters and data",
+              "To provide navigation guidance",
+              "To control aircraft systems"
+            ],
+            "answer": "To record flight parameters and data",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1642,
+            "question": "What is the minimum visibility for takeoff under VFR in controlled airspace?",
+            "options": [
+              "1 mile",
+              "2 miles",
+              "3 miles",
+              "5 miles"
+            ],
+            "answer": "1 mile",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1643,
+            "question": "What does the acronym 'TAF' stand for?",
+            "options": [
+              "Terminal Aerodrome Forecast",
+              "Terminal Aircraft Forecast",
+              "Terminal Aviation Forecast",
+              "Terminal Air Forecast"
+            ],
+            "answer": "Terminal Aerodrome Forecast",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1644,
+            "question": "What is the maximum speed allowed in Class A airspace?",
+            "options": [
+              "Mach 0.8",
+              "Mach 0.9",
+              "Mach 1.0",
+              "No speed limit"
+            ],
+            "answer": "No speed limit",
+            "correct": 3,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1645,
+            "question": "What is the purpose of the Cockpit Voice Recorder (CVR)?",
+            "options": [
+              "To record flight data",
+              "To record cockpit audio",
+              "To provide navigation guidance",
+              "To control aircraft systems"
+            ],
+            "answer": "To record cockpit audio",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1646,
+            "question": "What is the minimum altitude for IFR flight in Class B airspace?",
+            "options": [
+              "500 feet above the highest obstacle within 5 miles",
+              "1,000 feet above the highest obstacle within 5 miles",
+              "1,500 feet above the highest obstacle within 5 miles",
+              "2,000 feet above the highest obstacle within 5 miles"
+            ],
+            "answer": "1,000 feet above the highest obstacle within 5 miles",
+            "correct": 1,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1647,
+            "question": "What does the term 'EGNOS' stand for?",
+            "options": [
+              "European Geostationary Navigation Overlay Service",
+              "European Global Navigation Overlay Service",
+              "European Geostationary Navigation Operational Service",
+              "European Global Navigation Operational Service"
+            ],
+            "answer": "European Geostationary Navigation Overlay Service",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1648,
+            "question": "What is the standard altimeter setting for transition altitude?",
+            "options": [
+              "29.92 inches Hg",
+              "30.00 inches Hg",
+              "28.92 inches Hg",
+              "31.00 inches Hg"
+            ],
+            "answer": "29.92 inches Hg",
+            "correct": 0,
+            "explanation": ""
+          },
+          {
+            "category": "egyptair",
+            "test": 1,
+            "id": 1649,
+            "question": "What is the minimum visibility required for VFR flight in Class A airspace?",
+            "options": [
+              "1 mile",
+              "3 miles",
+              "5 miles",
+              "10 miles"
+            ],
+            "answer": "5 miles",
+            "correct": 2,
             "explanation": ""
           }
         ]
@@ -23732,3 +26810,4 @@
     ]
   }
 };
+
