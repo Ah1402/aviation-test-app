@@ -1,5 +1,14 @@
 {
 	"appId": "com.aviation.testapp",
 	"appName": "Aviation Test Center",
-	"webDir": "www"
+	"webDir": "www",
+	"plugins": {
+		"PushNotifications": {
+			"presentationOptions": [
+				"badge",
+				"sound",
+				"alert"
+			]
+		}
+	}
 }

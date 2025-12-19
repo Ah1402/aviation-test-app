@@ -16,6 +16,16 @@ This tool automatically:
 1. Edit questions in `testData_complete.js`
 2. Save the file (`Ctrl+S`)
 3. **Double-click `SYNC_AND_DEPLOY.bat`**
+	 - For syncing `924.html` into `index.html`, you can run:
+     
+		 ```powershell
+		 powershell -ExecutionPolicy Bypass -File .\SYNC_924.ps1
+		 ```
+	 - To re-index IDs in both `testData_complete.js` and `924.html` to a stable scheme:
+     
+		 ```powershell
+		 powershell -ExecutionPolicy Bypass -File .\RE_ID.ps1
+		 ```
 4. Wait for "DEPLOYMENT COMPLETE!"
 5. Visit https://ah1402.github.io/aviation-test-app/ (wait 2-3 min)
 

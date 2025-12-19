@@ -9,6 +9,13 @@ npm-debug.log*
 .DS_Store
 Thumbs.db
 
+# Firebase
+service-account-key.json
+*.p12
+*.pem
+.env
+firebase-debug.log
+
 # Editor directories
 .vscode/
 .idea/
@@ -23,3 +30,16 @@ Thumbs.db
 # Keep these patterns to ignore working files but deploy the main app
 *.json.bak
 *_backup.*
+
+# Large directories and binaries - too big for GitHub
+atp/
+android/
+ios/
+*.exe
+*.msi
+*.mpg
+*.flv
+*.swf
+*.avi
+*.mp4
+*.mov

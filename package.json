@@ -1,0 +1,31 @@
+{
+  "name": "aviation-test-app",
+  "version": "1.0.0",
+  "description": "Aviation Knowledge Test Center - Comprehensive aviation testing platform",
+  "scripts": {
+    "setup-firebase": "node setup_firebase.js",
+    "test-notification": "node test_notification.js",
+    "debug-notifications": "node debug_notifications.js",
+    "build:apk": "node build_apk.js",
+    "build:apk:release": "node build_apk.js release",
+    "build:ios": "node build_ios.js",
+    "open:ios": "node build_ios.js open",
+    "sync": "npx cap sync",
+    "build:simple-apk": "node scripts/build_simple_apk.js",
+    "build:simple-ipa": "node scripts/build_simple_ipa.js",
+    "build:direct-install": "node scripts/build_direct_install.js",
+    "update-version": "node scripts/update_version.js",
+    "deploy": "git add . && git commit -m \"Deploy updates\" && git push origin main"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.1.0",
+    "@capacitor/core": "^6.1.0",
+    "@capacitor/ios": "^6.1.0",
+    "@capacitor/push-notifications": "^6.0.0",
+    "firebase": "^10.7.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.1.0",
+    "archiver": "^7.0.1"
+  }
+}

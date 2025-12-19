@@ -1,0 +1,1849 @@
+================================================================================
+QUESTIONS REQUIRING REVIEW AND CORRECTION
+================================================================================
+Generated: December 9, 2025
+
+This file contains:
+  - 100 unmatched PDF questions (no diagrams)
+  - 58 questions with different answers
+
+================================================================================
+SECTION 1: UNMATCHED QUESTIONS (100 Questions)
+================================================================================
+
+These questions are in the PDF but NOT found in testData_complete.js
+(Diagram/picture questions excluded)
+
+
+================================================================================
+UNMATCHED QUESTION 1 (PDF Q-35)
+================================================================================
+Question: the ILS glide slope transmitter generates false glide paths because of:Q-35: the ILS glide slope transmitter generates false glide paths because of:
+
+Correct Answer: multiple lobes in the radiation pattern
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 2 (PDF Q-46)
+================================================================================
+Question: The best position on an aircraft for the GNSS aerial is:Q-46: The best position on an aircraft for the GNSS aerial is:
+
+Correct Answer: on the fuselage close to the centre of gravity
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 3 (PDF Q-99)
+================================================================================
+Question: An aircraft is 100 NM SW of a VOR heading 080". The pilot intends to home to the VOR on the 210 radialThe setting he should put on the OBS is .. and the CDI indications will be:
+
+Correct Answer: 030, TO, Fly Right
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 4 (PDF Q-133)
+================================================================================
+Question: What effect on stall speed do the following have?
+
+Correct Answer: Decreasing sweep angle decreases stall speed.
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 5 (PDF Q-134)
+================================================================================
+Question: stalling speed increases when:
+
+Correct Answer: recovering from a steep dive
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 6 (PDF Q-135)
+================================================================================
+Question: unavailable
+
+Correct Answer: unavailable
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 7 (PDF Q-156)
+================================================================================
+Question: When considering an angle of attack versus coefficient of lift graph for a cambered aerofoil, where does the lift curve intersect the vertical CL axis?
+
+Correct Answer: below the origin
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 8 (PDF Q-179)
+================================================================================
+Question: A line from the centre of curvature of the leading edge to the trailing edge, equidistant from the top and bottom wing surface is the:
+
+Correct Answer: camber line Q-180 : Which of the following is the equation for power?A-180: Nm/s
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 9 (PDF Q-183)
+================================================================================
+Question: The information in a light aircraft manual gives two power settings for cruise, 65% and 75%. If you fly at 75% instead
+
+Correct Answer: cruise speed will be higher, fuel consumption will be higher
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 10 (PDF Q-185)
+================================================================================
+Question: Climbing in the troposphere at a constant TAS:
+
+Correct Answer: Mach number increases
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 11 (PDF Q-189)
+================================================================================
+Question: What factor must be applied to the landing distance available at the destination aerodrome to determine the landing performance of a turbojet aircraft on a dry runway?
+
+Correct Answer: 0.60
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 12 (PDF Q-194)
+================================================================================
+Question: Which denotes the stall speed in the landing configuration?
+
+Correct Answer: VsO
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 13 (PDF Q-196)
+================================================================================
+Question: Putting in 16.500 litres of fuel with an SG of 780 kg/m2, and writing 16.500 kg of fuel on the load sheet will result in:
+
+Correct Answer: TOD and ASD decreasing, and the calculated V2 being too fast
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 14 (PDF Q-203)
+================================================================================
+Question: (pic) The wind at square A3 is likely to be:
+
+Correct Answer: 50 kt
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 15 (PDF Q-281)
+================================================================================
+Question: graph
+
+Correct Answer: cirrus
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 16 (PDF Q-299)
+================================================================================
+Question: When flying from west to east through a cold occlusion (below the warm air) over the North Atlantic you would expect the wind to ……… the temperature to .…….
+
+Correct Answer: back/increase
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 17 (PDF Q-309)
+================================================================================
+Question: In a glide (power-of descent) if pitch angle is increased, glide distance will:
+
+Correct Answer: decrease
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 18 (PDF Q-312)
+================================================================================
+Question: When flying in a headwind, the speed for max range should be:
+
+Correct Answer: slightly increased
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 19 (PDF Q-317)
+================================================================================
+Question: The induced drag in an aeroplane:
+
+Correct Answer: decreases as speed increases
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 20 (PDF Q-391)
+================================================================================
+Question: What are the circling minimum visibility and MDH for a category B aeroplane?
+
+Correct Answer: 1600 m 500 ft
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 21 (PDF Q-399)
+================================================================================
+Question: The "NO SMOKING" sign must be illuminated:
+
+Correct Answer: when oxygen is being supplied in the cabin
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 22 (PDF Q-422)
+================================================================================
+Question: 1 determining Aerodrome Operating Minima, what of the following needs to be considered?1. Crew composition2. Ability to communicate/receive meteorological information3. Significant obstacles in the missed approach area4. Dimensions and characteristics of the runway5. Navigation equipment in the aeroplane
+
+Correct Answer: all of the above
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 23 (PDF Q-463)
+================================================================================
+Question: What skills constitute pilot proficiency checks?
+
+Correct Answer: Flying technique, emergency procedures and IFR
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 24 (PDF Q-464)
+================================================================================
+Question: ollowing an indication of an unserviceability whilst taxiing to the holding point, what do you consult first?
+
+Correct Answer: MEL
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 25 (PDF Q-465)
+================================================================================
+Question: How often should pilot proficiency checks be performed?
+
+Correct Answer: 3 checks within the year with no less than 4 months between checks
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 26 (PDF Q-466)
+================================================================================
+Question: modern aircraft must be provided with a flight data recorder when its certified MTOM is greater than:
+
+Correct Answer: 5700 kg
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 27 (PDF Q-467)
+================================================================================
+Question: Flight crew members on the flight deck shall keep their safety belt fastened:
+
+Correct Answer: while at their station
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 28 (PDF Q-468)
+================================================================================
+Question: On an ILS, you are told that the weather has dropped below company minima. When must you abort the approach?
+
+Correct Answer: Outer marker
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 29 (PDF Q-469)
+================================================================================
+Question: What is the oxygen requirement for the crew and 100% of the passengers in an unpressurized aircraft?
+
+Correct Answer: 13000 ft
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 30 (PDF Q-470)
+================================================================================
+Question: Who compiles the MEL and where does it go?
+
+Correct Answer: The operator and in the OM
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 31 (PDF Q-471)
+================================================================================
+Question: Who provides the operations personnel with the OM and the amendments to keep it up to date?
+
+Correct Answer: Aircraft operator
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 32 (PDF Q-472)
+================================================================================
+Question: The OPS document is based on:
+
+Correct Answer: ICAO Annex 6
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 33 (PDF Q-473)
+================================================================================
+Question: What is the requirement regarding the carriage of a CVR for aircraft registered before April 1998?
+
+Correct Answer: Record last 30 mins of flight
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 34 (PDF Q-474)
+================================================================================
+Question: On an NDB approach with an MDH of 360 ft and a required RVR of 1500 m and a reported met vis of 2500 m, when can you start an approach? i.e. which is most correct?
+
+Correct Answer: With any cloud base
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 35 (PDF Q-475)
+================================================================================
+Question: Who is responsible for ensuring that the aeroplane is airworthy prior to flight?
+
+Correct Answer: Captain
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 36 (PDF Q-476)
+================================================================================
+Question: Jestination alternate for a turbojet - what is the required fuel overhead?
+
+Correct Answer: 30 minutes at 1500 ft in standard conditions.
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 37 (PDF Q-477)
+================================================================================
+Question: What is required for navigation in IMC?
+
+Correct Answer: Radio equipment and equipment for guidance until the visual point
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 38 (PDF Q-478)
+================================================================================
+Question: Who is to ensure safe handling of flights?
+
+Correct Answer: The operator
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 39 (PDF Q-479)
+================================================================================
+Question: On board a pressurized aircraft, a flight shall be undertaken only if the aircraft is provided with an oxygen reserve enabling all crew members and all of the passengers to be supplied with oxygen in the event of cabin depressurization, throughout the flight period, during which the pressure altitude is greater than:
+
+Correct Answer: 13000ft
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 40 (PDF Q-480)
+================================================================================
+Question: The MEL is drawn up by the:
+
+Correct Answer: operator and may be more restrictive than the MMEL.
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 41 (PDF Q-508)
+================================================================================
+Question: if a compartment takes a maximum load of 500 kg, with a running load limit of 350 kg/m and a distribution load limit of 300 kg/m? max, which of following boxes, each of 500 kg, can be carried?1. 100 cm x 110 cm x 145 cm2. 125 cm x 135 cm x 142 cm3. 120 cm x 140 cm x 143 cm4. 125 cm x 135 cm x 144 cm
+
+Correct Answer: Either of boxes 3 and 4 with their longest length parallel to the aircraft longitudinal axis.
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 42 (PDF Q-517)
+================================================================================
+Question: Use CAP 696, Section 4, MRJ1, as appropriate. Prior to departure an MRJT is loaded with maximum fuel of 20100 liter at an SG of 0.Calculate the maximum allowable traffic load that can be carried given the following data:• PLTOM 67200 kg• PLLM 54200 kg• DOM 34930 kg• Taxi fuel 250 kg• Trip fuel 9250 kg• Contingency and holding fuel 850 kg• Alternate fuel 700 kg
+
+Correct Answer: 12442
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 43 (PDF Q-550)
+================================================================================
+Question: Following an indication of unserviceability of an air conditioning pack whilst on stand, what do you consult first?
+
+Correct Answer: mel
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 44 (PDF Q-551)
+================================================================================
+Question: In relation to Persons with Reduced Mobility (PRM's):
+
+Correct Answer: The commander must be notified when PRM's are carried
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 45 (PDF Q-560)
+================================================================================
+Question: The result of Empty Field Myopia is:
+
+Correct Answer: focusing is limited to between 1 and 2 meters
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 46 (PDF Q-563)
+================================================================================
+Question: The phrase "all stations" is used to transmit to:
+
+Correct Answer: A broadcast to all stations on frequency
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 47 (PDF Q-573)
+================================================================================
+Question: Which of the following statements is true?
+
+Correct Answer: Aluminium alloys are used in aircraft construction because they are light, easily machined and have good wear resistance
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 48 (PDF Q-584)
+================================================================================
+Question: What distance does the DME display?
+
+Correct Answer: Slant range in NM
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 49 (PDF Q-587)
+================================================================================
+Question: During which stage of thunderstorm development are rotor windscharacterized by roll clouds most likely to occur?
+
+Correct Answer: mature stage
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 50 (PDF Q-588)
+================================================================================
+Question: An aircraft lands at an aerodrome of another Contracting State for technical reasons. What freedom of the air is applicable in this case?
+
+Correct Answer: 2nd freedom of the air
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 51 (PDF Q-591)
+================================================================================
+Question: Which of the following are all aerodynamic balances?
+
+Correct Answer: Horn balance, balance tab and internal balance.
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 52 (PDF Q-594)
+================================================================================
+Question: The purpose of an ignition switch is to:
+
+Correct Answer: control the primary circuit of the magneto
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 53 (PDF Q-595)
+================================================================================
+Question: When selecting a fuse for an aircraft electrical circuit, what is the governing factor?
+
+Correct Answer: the power requirement of the circuit
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 54 (PDF Q-598)
+================================================================================
+Question: The skin of a modern pressurized aircraft:
+
+Correct Answer: Is a primary load bearing structure carrying much of the loads
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 55 (PDF Q-606)
+================================================================================
+Question: 6 When are lifejackets required?
+
+Correct Answer: 50NM from land
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 56 (PDF Q-608)
+================================================================================
+Question: One advantage of using VHF for voice communications over HF is?
+
+Correct Answer: VHF is less affected by atmospheric noise and electrical equipment
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 57 (PDF Q-615)
+================================================================================
+Question: To roll the aircraft to the right:
+
+Correct Answer: The aileron control is moved to the right, the right aileron goes up and the left one down
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 58 (PDF Q-619)
+================================================================================
+Question: The phrase "take-off" is used by a pilot:
+
+Correct Answer: Only to acknowledge take-off clearance
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 59 (PDF Q-620)
+================================================================================
+Question: The phrase "say again" means?
+
+Correct Answer: Repeat the entire message
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 60 (PDF Q-621)
+================================================================================
+Question: You are on a flight in accordance with IFR in IMC, exactly on the current flight plan route.At 18:36 UTC you receive and acknowledge the following instruction form the radar controller:"Turn immediately, continue heading 050 degrees until further advised".At 18:37 UTC you find out that radio communication cannot be established again. You will:
+
+Correct Answer: Return to you current flight plan route
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 61 (PDF Q-727)
+================================================================================
+Question: You receive this ATC clearance.....CLEARED TO THE ABC VORTAC.HOLD SOUTH ON THE ONE EIGHTZERO RADIAL..."What is the recommended procedure to enter the holding pattern?
+
+Correct Answer: direct only
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 62 (PDF Q-728)
+================================================================================
+Question: On a summer day, the following observations are made in Zurich:0450Z 24009 KT 7000 SCT040 SCT12015/12 Q1014 NOSIG =0650Z 24010KT 6000 SCT040 SCT12017/13 Q1012 NOSIG =0850Z 23014KT 8000 BKN100 19/13Q1009 BECMG 26020G35KT TS = 1050Z 28022G33KT 4000 TSRA SCT015 SCT050CB OVC080 16/14Q1006 BECMG NSW = 1250Z 31016KT9999 SCT025TCU BKN030 13/09 Q1009NOSIG =1450Z 30012KT 9999 SHRABKNO20TCU 14/10 Q1011 NOSIG = 1650Z 30009KT SCT025 BKN035 13/10Q1013 RESHRA NOSIG = 1850Z 28006KT 9999 SCT040 11/09Q1014 NOSIG =2050Z 26004KT CAVOK 10/08 Q1015NOSIG =You conclude, that...
+
+Correct Answer: a cold front has passed the station in the morning, and rear side weather prevailed in the afternoon
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 63 (PDF Q-738)
+================================================================================
+Question: Using the 1 on 60 rule calculate the height on a 3 degree glide path of an aircraft 4.5 NM from touchdown
+
+Correct Answer: 1370 ft
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 64 (PDF Q-742)
+================================================================================
+Question: To which aircraft position(s) does HIST presentation "B" correspond?
+
+Correct Answer: 5 and 13
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 65 (PDF Q-745)
+================================================================================
+Question: To which aircraft position(s) does HSI presentation "E" correspond?
+
+Correct Answer: 3 and 8
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 66 (PDF Q-748)
+================================================================================
+Question: To which aircraft position(s) does HSI presentation "C" correspond?
+
+Correct Answer: 12 only
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 67 (PDF Q-759)
+================================================================================
+Question: To which aircraft position(s) does HSI presentation "A" correspond?
+
+Correct Answer: 9 and 6
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 68 (PDF Q-760)
+================================================================================
+Question: To which aircraft position(s) does HSI presentation "D" correspond?
+
+Correct Answer: 2 only
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 69 (PDF Q-781)
+================================================================================
+Question: Under normal conditions which gas diffuses from the blood to the alveoli?
+
+Correct Answer: carbon dioxide
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 70 (PDF Q-805)
+================================================================================
+Question: A person suffering from glaucoma will have:
+
+Correct Answer: increased pressure of the eye
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 71 (PDF Q-823)
+================================================================================
+Question: Extreme cold may be associated with:
+
+Correct Answer: contentment or apathy
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 72 (PDF Q-824)
+================================================================================
+Question: stressors are:
+
+Correct Answer: both external and internal factors
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 73 (PDF Q-828)
+================================================================================
+Question: If a pilot in an unpressurized aircraft suffers from severe flatulence in flight. He/she should:
+
+Correct Answer: i descend
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 74 (PDF Q-829)
+================================================================================
+Question: According to the "General Adaptation Syndrome" which of the following statements) is/are correct?1. During the alarm phase adrenalin will cause a large release of glucose into the blood, a raised heartbeat and blood pressure plus an incre in the rate and depth of breathing2. During the resistance phase the parasympathetic system releases cortisol helping in the conversion of fat into sugar3. During the exhaustion phase the body has to be given time to eliminate the waste products which have been generated excessively
+
+Correct Answer: 1, 2 & 3 are correct
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 75 (PDF Q-830)
+================================================================================
+Question: Performance can be increased by:
+
+Correct Answer: a moderate amount of stress
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 76 (PDF Q-831)
+================================================================================
+Question: A person that is exposed to extreme or prolonged stress factors can perceive:
+
+Correct Answer: distress
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 77 (PDF Q-835)
+================================================================================
+Question: Should a pilot fly with a bad cold, he/she could suffer from:
+
+Correct Answer: sinus, pain
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 78 (PDF Q-836)
+================================================================================
+Question: Which of the following are correct?1. Scuba diving imposes no restriction on flying2. Use of some medication can affect flying3. One should drink sufficient water during flight to prevent dehydration4. Diet does not have an effect on health
+
+Correct Answer: 2 & 3
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 79 (PDF Q-838)
+================================================================================
+Question: The relationship is in the shape of an inverted U
+
+Correct Answer: The relationship is in the shape of an inverted U
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 80 (PDF Q-881)
+================================================================================
+Question: Which of these is a correct statement about the Earth's magnetic field?
+
+Correct Answer: It acts as though there is a large blue magnetic pole in Northern Canada
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 81 (PDF Q-882)
+================================================================================
+Question: Isogrivs are lines that connect positions that have:
+
+Correct Answer: the same grivation
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 82 (PDF Q-883)
+================================================================================
+Question: 5 hours 20 minutes and 20 seconds time difference is equivalent to which change of longitude?
+
+Correct Answer: 80°05'
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 83 (PDF Q-884)
+================================================================================
+Question: The main reason that day and night, throughout the year, have different durations is due to the:
+
+Correct Answer: inclination of the ecliptic to the Equator
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 84 (PDF Q-885)
+================================================================================
+Question: X - 30NM - Y - 20NM - 2ATA X is 1420. ETA Y is 1447. ATA Y is 1450. What is new ETA Z?
+
+Correct Answer: 1510
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 85 (PDF Q-886)
+================================================================================
+Question: On a chart, 90.74 km is represented by 7.0 centimetres. What is the scale?
+
+Correct Answer: 1 / 1296400
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 86 (PDF Q-887)
+================================================================================
+Question: A - 30NM - B - 20NM - CATA A is 1010. ETA B is 1030. ETA C is 1043.ATA B is 1027. What is revised ETA C?
+
+Correct Answer: 1038
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 87 (PDF Q-889)
+================================================================================
+Question: The value of variation:
+
+Correct Answer: cannot exceed 180°
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 88 (PDF Q-890)
+================================================================================
+Question: An aircraft starts at position 0410S 17822W and heads true north for 2950 NM, then turns 90 degrees right, and maintains a rhumb line track for 314 kilometres. What is its final position?
+
+Correct Answer: 4500N 17422W
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 89 (PDF Q-891)
+================================================================================
+Question: At the magnetic equator:
+
+Correct Answer: dip is zero
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 90 (PDF Q-892)
+================================================================================
+Question: By what amount must you change your rate of descent given a 10 knot decrease in headwind on a 3° glide slope?
+
+Correct Answer: 50 feet per minute increase
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 91 (PDF Q-893)
+================================================================================
+Question: What is the definition of magnetic variation?
+
+Correct Answer: The angle between Magnetic North and True North
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 92 (PDF Q-894)
+================================================================================
+Question: Where is a compass most effective?
+
+Correct Answer: About midway between the earth's magnetic poles
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 93 (PDF Q-896)
+================================================================================
+Question: An aircraft leaves at 0900UTC on a 250 NM journey with a planned ground speed of 115 knots. After 74 NM the aircraft is 1.5 minutes behind the planned schedule. What is the revised ETA at the destination?
+
+Correct Answer: 1115
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 94 (PDF Q-898)
+================================================================================
+Question: Given: Airport elevation is 1000 feet. QNH is 988 hPa What is the approximate airport pressure altitude?
+
+Correct Answer: 1680
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 95 (PDF Q-899)
+================================================================================
+Question: A useful method of a pilot resolving, on a visual flight, any uncertainty in the aircraft's position is to maintain visual contact with the ground and:
+
+Correct Answer: set heading towards a line feature such as a coastline, river or motorway
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 96 (PDF Q-900)
+================================================================================
+Question: Grivation is the combination of:
+
+Correct Answer: variation and grid convergence
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 97 (PDF Q-917)
+================================================================================
+Question: Reference Jeppesen E(LO) 1, position 5211N 00706W, which of the following denotes all the symbols?
+
+Correct Answer: Civil airport, ILS, NDB
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 98 (PDF Q-1281)
+================================================================================
+Question: transition level:
+
+Correct Answer: will be calculated by the ATC service of an ATS unit.
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 99 (PDF Q-1292)
+================================================================================
+Question: A manoeuvre where a turn is made from a "designated track" followed by a turn in the opposite direction to enable the aircraft to fly the prescribed track is called a:
+
+Correct Answer: procedure turn
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+UNMATCHED QUESTION 100 (PDF Q-1300)
+================================================================================
+Question: It says in the annex of the ICAO convention that the sizes of airfields are specified by codes for different runways. What is the minimum width of a runway with runway code 4?
+
+Correct Answer: 45 m
+
+STATUS: Missing from JavaScript file
+ACTION: Consider adding this question to testData_complete.js
+
+
+================================================================================
+SECTION 2: QUESTIONS WITH WRONG ANSWERS (58 Questions)
+================================================================================
+
+These questions exist in both files but have DIFFERENT answers
+Review each to determine which answer is correct
+
+
+================================================================================
+DIFFERENT ANSWER 1 (PDF Q-1 = JS Q-1186)
+================================================================================
+Question: The EHSI is showing 5* fly right with a TO indication. the aircraft heading is 280*(m) and the required track is 270* the radial is:
+
+PDF Answer (Reference):  radial 095
+JS Answer (Current):     095
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 2 (PDF Q-2 = JS Q-1180)
+================================================================================
+Question: The SSR ground tranciever interrogates on ………. and recieves responses on :
+
+PDF Answer (Reference):  1030. 1090
+JS Answer (Current):     1030 MHz 1090 MHz
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 3 (PDF Q-47 = JS Q-1133)
+================================================================================
+Question: The purpose of the PRN codes in NAVSTAR/GPS is to:
+
+PDF Answer (Reference):  identify the satellites
+JS Answer (Current):     all of the above
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 4 (PDF Q-73 = JS Q-1087)
+================================================================================
+Question: An NDB has emission designator NONA1A this will require the use of the BFO for:
+
+PDF Answer (Reference):  tuning, identification and monitoring
+JS Answer (Current):     identification
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 5 (PDF Q-75 = JS Q-1092)
+================================================================================
+Question: A class B VDF bearing will have an accuracy of:
+
+PDF Answer (Reference):  +/-5°
+JS Answer (Current):     ± 5°
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 6 (PDF Q-115 = JS Q-1063)
+================================================================================
+Question: The CG of an aeroplane is in a fixed position forward of the neutral point.Speed changes cause a departure from the trimmed position. Which of the following statements about the stick force stability is correct?
+
+PDF Answer (Reference):  An increase of 10 kt from the trimmed position at low speed has more effect on the stick force than an increase in 10 ks from the trimmed position at high speed.
+JS Answer (Current):     statically stable
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 7 (PDF Q-128 = JS Q-1049)
+================================================================================
+Question: What causes a swept wing'aircraft to pitch-up at the stall?
+
+PDF Answer (Reference):  Spanwise flow
+JS Answer (Current):     Spanwise flow causing the tips to stall first
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 8 (PDF Q-129 = JS Q-1046)
+================================================================================
+Question: What are the effects of tropical rain on:(i) CLMAX (ii) Drag
+
+PDF Answer (Reference):  (i) decrease (ii) increaseQ-130The effect of tropical rain on drag and stall speed would be to:A-130:increase drag and increase stall speed.
+JS Answer (Current):     (i) decrease (ii) increase
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 9 (PDF Q-140 = JS Q-1052)
+================================================================================
+Question: Which of the following is the correct designation of stall speed in the landing configuration?
+
+PDF Answer (Reference):  VSO
+JS Answer (Current):     VS0
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 10 (PDF Q-155 = JS Q-987)
+================================================================================
+Question: Which of the following is the cause of wing tip vortices?
+
+PDF Answer (Reference):  Spanwise flow vector from the tip to the root on the bottom surface of the wing
+JS Answer (Current):     Air spilling from the bottom surface to the top surface at the wing tip
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 11 (PDF Q-160 = JS Q-986)
+================================================================================
+Question: on entering ground effect:
+
+PDF Answer (Reference):  less thrust is required
+JS Answer (Current):     induced drag decreases
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 12 (PDF Q-162 = JS Q-1021)
+================================================================================
+Question: Which of the following expressions is correct?
+
+PDF Answer (Reference):  M = F x A
+JS Answer (Current):     F = M × A
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 13 (PDF Q-164 = JS Q-974)
+================================================================================
+Question: In a subsonic flow venturi, the relationship between the total pressure, static pressure and dynamicpressure of undisturbed air and air in the throat will be: (i) Dynamic pressure will be constant, static pressure will decrease. (ii) Total pressure will be constant, dynamic pressure will increase.
+
+PDF Answer (Reference):  (i) is incorrect and (ii) is correct
+JS Answer (Current):     (i) and (ii) are incorrect
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 14 (PDF Q-174 = JS Q-649)
+================================================================================
+Question: The difference between IAS and TAS will:
+
+PDF Answer (Reference):  remain constant at all times
+JS Answer (Current):     decrease with decreasing altitude
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 15 (PDF Q-182 = JS Q-1376)
+================================================================================
+Question: For a turboprop aircraft, the LDA at an aerodrome is 2200 m. If the conditions are indicated as wet, what would the equivalent dry LDA be?
+
+PDF Answer (Reference):  1339 m
+JS Answer (Current):     1913 m
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 16 (PDF Q-186 = JS Q-1366)
+================================================================================
+Question: Which of the following combinations most reduces the take-off and climb performance of an aircraft?
+
+PDF Answer (Reference):  High temperature and low pressureQ– 187: During aircraft certification, the value of VMCG is found with nose wheel steering inoperative. This is because A-187: VMCG must be valid in both wet and dry conditions.
+JS Answer (Current):     High temperature and low pressure
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 17 (PDF Q-197 = JS Q-564)
+================================================================================
+Question: what does density altitude signify
+
+PDF Answer (Reference):  An accurate indication of aircraft and engine performance.
+JS Answer (Current):     The altitude in the International Standard Atmosphere at which the prevailing density would be found
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 18 (PDF Q-199 = JS Q-1019)
+================================================================================
+Question: In a balanced turn load factor is dependent on.
+
+PDF Answer (Reference):  bank angle onlyQ- 200: At MSL, in ISA conditions• Climb gradient = 6%What would the climb gradient be if: • Pressure altitude 1000 ft• Temperature 17°C• Engine anti-ice on• Wing anti-ice on• - 0.2% engine anti-ice, - 0,1% wing anti-ice, 0.2% per 1000 ft pressure altitude, 0.1 % per 1°C ISA deviation A-200: 5.1%
+JS Answer (Current):     bank angle only
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 19 (PDF Q-238 = JS Q-773)
+================================================================================
+Question: The conditions which must exist to allow thunderstorms to develop are:
+
+PDF Answer (Reference):  a steep lapse rate, a stable atmosphere through a large vertical extent and a plentiful supply of moisture
+JS Answer (Current):     a plentiful supply of moisture and a steep lapse rate through a large vertical extent and a trigger action
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 20 (PDF Q-239 = JS Q-782)
+================================================================================
+Question: Fair weather cumulus gives an indication of:
+
+PDF Answer (Reference):  Q-240: Clouds classified as low level are considered to have a base height of:A-240: the surface - 6500 ft
+JS Answer (Current):     turbulence
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 21 (PDF Q-290 = JS Q-833)
+================================================================================
+Question: After passage of an occluded front in the Northern Hemisphere: Wind Temperature Precipitation
+
+PDF Answer (Reference):  veers drops or rises begins to dry upA-290: veers drops or rises begins to dry up
+JS Answer (Current):     veers / drops or rises / begins to dry up
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 22 (PDF Q-292 = JS Q-847)
+================================================================================
+Question: Which of the following are thermal depressions?
+
+PDF Answer (Reference):  The lows forming over flat land in summer, polar air depressions, tropical revolving storms, some of the lows which form inland seas in winter
+JS Answer (Current):     The equatorial trough, monsoon lows, some depressions over the central and eastern Mediterranean sea in summer
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 23 (PDF Q-304 = JS Q-641)
+================================================================================
+Question: Vlo is defined as:
+
+PDF Answer (Reference):  the maximum speed for landing gear operation
+JS Answer (Current):     the maximum speed at which the landing gear may be retracted or extended
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 24 (PDF Q-324 = JS Q-1354)
+================================================================================
+Question: An aircraft may use either 5° or 15° flap setting for take-off. The effect of selecting the 5° setting as compared to the 15° setting is:
+
+PDF Answer (Reference):  take-off distance and take-off climb gradient will both increaseQ-325 A jet aircraft's maximum altitude is usually limited by:A-325: the altitude at which low and high-speed buffet will occur
+JS Answer (Current):     take-off distance and take-off climb gradient will both increase
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 25 (PDF Q-338 = JS Q-1362)
+================================================================================
+Question: with respect to field length limit, fill in the blanks in the follow statement.The distance to accelerate to , at which point an engine fails, followed by the reaction time of mn and the ensuing deceleration to a full stop must be completed within the .........
+
+PDF Answer (Reference):  V1, 2 sec, ASDAQ-339 : Pitch angle during decent at a constant Mach number will:A-339: decrease
+JS Answer (Current):     V1, 2 sec, ASDA
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 26 (PDF Q-341 = JS Q-1372)
+================================================================================
+Question: For a turbojet aeroplane the third segment of climb begins when:
+
+PDF Answer (Reference):  acceleration to flap retraction speed begins (min 400 ft)
+JS Answer (Current):     the landing gear is fully retracted
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 27 (PDF Q-361 = JS Q-1300)
+================================================================================
+Question: When approaching a wet runway, with the risk of hydroplaning, what technique should the pilot adopt with an inoperative
+
+PDF Answer (Reference):  Positive touchdown, full reverse and only brakes below Vp
+JS Answer (Current):     Positive touchdown, apply reverse, then use aerodynamic drag and brakes intermittently
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 28 (PDF Q-397 = JS Q-942)
+================================================================================
+Question: When can special VFR be commenced?
+
+PDF Answer (Reference):  Greater than 3 km visibility
+JS Answer (Current):     Visibility no more than 3000 m
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 29 (PDF Q-402 = JS Q-959)
+================================================================================
+Question: What are the threshold speeds for a Cat D aeroplane?
+
+PDF Answer (Reference):  141 - 165 kt
+JS Answer (Current):     91 - 120 kt
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 30 (PDF Q-409 = JS Q-951)
+================================================================================
+Question: When establishing an instrument approach procedure, 5 aircraft categories according to their speed at the threshold (Vat) are established. The speed is equal to the stalling speed in the landing configuration multiplied by a factor of:
+
+PDF Answer (Reference):  1.3A-409: 1.3
+JS Answer (Current):     1.3
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 31 (PDF Q-427 = JS Q-905)
+================================================================================
+Question: er an accident, the operator of an aeroplane equipped with a flight recorder must keep the original recordings for a minimum period of:
+
+PDF Answer (Reference):  60 days A-427: 60 days
+JS Answer (Current):     60 days
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 32 (PDF Q-440 = JS Q-895)
+================================================================================
+Question: rom the flight deck you observe an aeroplane in the forward left position on an opposite parallel track. What Nav light will be observed?
+
+PDF Answer (Reference):  RedQ- 441: Above what altitude are quick-donning masks required?A-441: 25000 ftQ- 442: What is the requirement for the carriage of life rafts?A-442: 120 mins or 400 NM whichever is less
+JS Answer (Current):     Red
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 33 (PDF Q-448 = JS Q-882)
+================================================================================
+Question: On an ILS, you are told that the weather has dropped below company minima. When must you abort the approach?
+
+PDF Answer (Reference):  Outer marker
+JS Answer (Current):     Before passing the outer marker or equivalent position
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 34 (PDF Q-487 = JS Q-853)
+================================================================================
+Question: Supplemental oxygen is used to:
+
+PDF Answer (Reference):  provide oxygen to passengers who might require it, following a cabin depressurization
+JS Answer (Current):     provide oxygen to passengers following decompression if the cabin altitude exceeds 10000 ft
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 35 (PDF Q-488 = JS Q-859)
+================================================================================
+Question: ne shall not initiate any flight made in accordance with instrument flight rules unless the available information indicates that the conditions at the erodrome of intended destination and destination alternate (if one is required) are, at the predicted time of:
+
+PDF Answer (Reference):  arrival equal to or better than the minimum conditions required for aerodrome use
+JS Answer (Current):     arrival, and for a reasonable time before and after such a predicted time, equal to minimum conditions required for aerodrome use
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 36 (PDF Q-505 = JS Q-673)
+================================================================================
+Question: For a conventional light aeroplane with a tricycle undercarriage configuration, the higher the take-off mass1. stick forces at rotation will increase.2. range will decrease but endurance will increase.3. gliding range will reduce.4. stalling speed will increase.
+
+PDF Answer (Reference):  statements 1 and 4 only are correct
+JS Answer (Current):     1, 3 and 4 are correct
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 37 (PDF Q-523 = JS Q-240)
+================================================================================
+Question: When an aircraft fitted with a classic air-driven artificial horizon decelerates after landing, a wrong indication will be displayed showing a:
+
+PDF Answer (Reference):  descending turn to left
+JS Answer (Current):     climbing turn to right.
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 38 (PDF Q-543 = JS Q-261)
+================================================================================
+Question: Which of the following statements regarding an electric circuit is correct?
+
+PDF Answer (Reference):  Too high a current may lead to the circuit overheating
+JS Answer (Current):     batteries are considered dangerous goods if transported due to the risk of thermal runaway and the substances inside
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 39 (PDF Q-546 = JS Q-264)
+================================================================================
+Question: Following an indication of unserviceability of an air conditioning pack whilst on stand, what do you consult?
+
+PDF Answer (Reference):  MEL
+JS Answer (Current):     The Minimum Equipment List (MEL)
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 40 (PDF Q-548 = JS Q-260)
+================================================================================
+Question: The inbound track to the navigation aid serving a hold is 250°, your aircraft heading is 002°. What is the correct sector to join the hold?
+
+PDF Answer (Reference):  sector 2 (offset)
+JS Answer (Current):     Sector 1 (parallel)
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 41 (PDF Q-552 = JS Q-256)
+================================================================================
+Question: Which of the following statements is true
+
+PDF Answer (Reference):  Flight in severe turbulence may lead to a stall and/or structural limitations being exceeded.
+JS Answer (Current):     Titanium alloy is used in aircraft construction because of its good wear and high temperature tolerance
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 42 (PDF Q-555 = JS Q-258)
+================================================================================
+Question: Which of the following statements is true?
+
+PDF Answer (Reference):  Aluminium alloys are used in aircraft construction because they are light, easily machined and have good wear resistance
+JS Answer (Current):     Flight in severe turbulence may lead to a stall and/or structural limitations being exceeded.
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 43 (PDF Q-559 = JS Q-272)
+================================================================================
+Question: Which of the following statements is correct?
+
+PDF Answer (Reference):  batteries are considered dangerous goods if transported due to the risk of thermal runaway and the substances inside
+JS Answer (Current):     Aluminium alloys are used in aircraft construction because they are light, easily machined and have good wear resistance
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 44 (PDF Q-580 = JS Q-279)
+================================================================================
+Question: What is the speed limitation in the hold for class A & B aircraft below 14000 ft?
+
+PDF Answer (Reference):  170 kt
+JS Answer (Current):     230 kt
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 45 (PDF Q-603 = JS Q-56)
+================================================================================
+Question: What is the purpose of the wing main spar?
+
+PDF Answer (Reference):  To withstand bending and torsional loads
+JS Answer (Current):     To reduce wing twist at high speed
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 46 (PDF Q-622 = JS Q-640)
+================================================================================
+Question: Select the correct statement for the Datum:
+
+PDF Answer (Reference):  Is a fixed vertical plane from which all the arm distances are measured
+JS Answer (Current):     EAS = CAS corrected for compressibility error
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 47 (PDF Q-626 = JS Q-330)
+================================================================================
+Question: The signal from pilot to the signalman (marshaller) which means "brakes applied" is:
+
+PDF Answer (Reference):  Raise arm and hand, with fingers extended, horizontally in front of face, then clench fist
+JS Answer (Current):     Fist clenched in front of the face then fingers extended
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 48 (PDF Q-732 = JS Q-143)
+================================================================================
+Question: The Transition Level:
+
+PDF Answer (Reference):  Shall be the lowest flight level available for use above the transition altitude
+JS Answer (Current):     will be calculated by the ATC service of an ATS unit.
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 49 (PDF Q-769 = JS Q-536)
+================================================================================
+Question: A person is suffering from anaemia when:
+
+PDF Answer (Reference):  lacking haemoglobin
+JS Answer (Current):     increased pressure of the eye
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 50 (PDF Q-771 = JS Q-463)
+================================================================================
+Question: If someone is hyperventilating, the blood contains too much:
+
+PDF Answer (Reference):  acid
+JS Answer (Current):     alkaline
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 51 (PDF Q-782 = JS Q-519)
+================================================================================
+Question: Which of the following statements, if any, are correct?1. Euphoria is a possible result of hypoxia2. Euphoria can lead to degraded decisions in flight
+
+PDF Answer (Reference):  1 & 2
+JS Answer (Current):     Both 1 and 2 are correct
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 52 (PDF Q-784 = JS Q-509)
+================================================================================
+Question: Which of the following statements are correct?: Decompression sickness can be avoided by:1. staying below 18000 ft2. maintaining cabin pressure below 8000 ft3. breathing 100% oxygen 30 minutes prior to and during flight4. exercising before and during flight
+
+PDF Answer (Reference):  1, 2 & 3 correct
+JS Answer (Current):     1, 2 & 3
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 53 (PDF Q-856 = JS Q-498)
+================================================================================
+Question: Which of the following is correct concerning 02 and blood?
+
+PDF Answer (Reference):  Diffusion from the blood to the cells is dependent on the partial pressure of oxygen (diffusion at both tissue and alveolar levels is related to partial pressure)
+JS Answer (Current):     Diffusion from the blood to the cells is dependent on the partial pressure of oxygen
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 54 (PDF Q-858 = JS Q-495)
+================================================================================
+Question: A pilot suffering from hyperventilation during final approach in poor weather can combat the effects by:
+
+PDF Answer (Reference):  regulating depth and rate of breathing
+JS Answer (Current):     slowing the breathing rate, breathing into a paper bag and continuing the approach
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 55 (PDF Q-895 = JS Q-1268)
+================================================================================
+Question: A Lambert's Conical conformal chart has standard parallels at 63N and 41N. What is the convergence factor?
+
+PDF Answer (Reference):  .788
+JS Answer (Current):     Scale at 10°S is larger
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 56 (PDF Q-947 = JS Q-1267)
+================================================================================
+Question: An island is observed to be 15°(T)o the left. The aircraft heading is 120°(M), variation 17°(W). The bearing (°T) from the aircraft to the island is:
+
+PDF Answer (Reference):  088
+JS Answer (Current):     122
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 57 (PDF Q-952 = JS Q-1257)
+================================================================================
+Question: Please refer to Appendix A. What is the chart symbol for a VOR/DME?
+
+PDF Answer (Reference):  Q-953: An aircraft is flying around the Earth eastwards along the 60N parallel of latitude at a ground speed of 360 knots. At what ground speed would another aircraft have to fly eastwards along the Equator to fly once round the Earth in the same journey time?A-953: 720 knots
+JS Answer (Current):     7
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+DIFFERENT ANSWER 58 (PDF Q-1239 = JS Q-210)
+================================================================================
+Question: A separation minima shall be applied between a light or medium aircraft and a heavy and between a light and a medium aircraft when the heavier aircraft is making a low or missed approach and the lighter aircraft is utilizing an opposite direction runway on a parallel runway separated by:
+
+PDF Answer (Reference):  A separation minima shall be applied between a light or medium aircraft and a heavy and between a light and a medium aircraft when the heavier aircraft is making a low or missed approach and the lighter aircraft is utilizing an opposite direction runway on a parallel runway separated by:
+JS Answer (Current):     less than 760 m.
+
+STATUS: Answers don't match
+ACTION: Verify correct answer and update testData_complete.js if needed
+
+
+================================================================================
+HOW TO USE THIS FILE
+================================================================================
+
+For Unmatched Questions:
+  1. Review each question to see if it should be added
+  2. Add to the appropriate category in testData_complete.js
+  3. Use the provided answer from the PDF
+
+For Different Answers:
+  1. Compare PDF answer vs JS answer
+  2. Verify the correct answer using aviation references
+  3. Search for the question in testData_complete.js by text
+  4. Update the 'answer' and 'correct' fields
+
+================================================================================
+SUMMARY
+================================================================================
+
+Total items to review: 158
+  - Unmatched questions: 100
+  - Wrong answers: 58
+
+Priority: Review questions with wrong answers first
+
+================================================================================
+END OF REPORT
+================================================================================

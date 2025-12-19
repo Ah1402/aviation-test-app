@@ -1,0 +1,3523 @@
+DETAILED COMPARISON REPORT
+================================================================================
+
+PDF Questions: 953
+JS Questions: 1385
+Matched: 849
+Same answers: 791
+Different answers: 58
+
+ALL MATCHED QUESTIONS:
+================================================================================
+
+PDF Q-1 = JS Q-1186
+Question sim: 100.00%, Answer sim: 46.15%
+Answers match: False
+PDF Answer: radial 095
+JS Answer: 095
+
+PDF Q-2 = JS Q-1180
+Question sim: 96.40%, Answer sim: 69.23%
+Answers match: False
+PDF Answer: 1030. 1090
+JS Answer: 1030 MHz 1090 MHz
+
+PDF Q-3 = JS Q-1174
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-4 = JS Q-1187
+Question sim: 100.00%, Answer sim: 98.55%
+Answers match: True
+
+PDF Q-5 = JS Q-1170
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-6 = JS Q-1177
+Question sim: 99.15%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-7 = JS Q-1183
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-8 = JS Q-1147
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-9 = JS Q-1140
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-10 = JS Q-1169
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-11 = JS Q-1168
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-12 = JS Q-1144
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-13 = JS Q-1173
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-14 = JS Q-1175
+Question sim: 100.00%, Answer sim: 97.92%
+Answers match: True
+
+PDF Q-15 = JS Q-1181
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-16 = JS Q-1172
+Question sim: 96.91%, Answer sim: 96.36%
+Answers match: True
+
+PDF Q-17 = JS Q-1097
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-18 = JS Q-1145
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-19 = JS Q-1185
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-20 = JS Q-1182
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-21 = JS Q-1157
+Question sim: 98.96%, Answer sim: 95.24%
+Answers match: True
+
+PDF Q-22 = JS Q-1165
+Question sim: 96.23%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-23 = JS Q-1166
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-24 = JS Q-1151
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-25 = JS Q-1154
+Question sim: 100.00%, Answer sim: 94.74%
+Answers match: True
+
+PDF Q-27 = JS Q-1156
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-28 = JS Q-1159
+Question sim: 95.02%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-29 = JS Q-1153
+Question sim: 98.51%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-30 = JS Q-1149
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-31 = JS Q-1163
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-32 = JS Q-1161
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-33 = JS Q-1167
+Question sim: 98.97%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-36 = JS Q-1162
+Question sim: 99.30%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-37 = JS Q-1158
+Question sim: 99.01%, Answer sim: 89.66%
+Answers match: True
+
+PDF Q-39 = JS Q-1143
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-41 = JS Q-1128
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-42 = JS Q-1122
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-43 = JS Q-1131
+Question sim: 99.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-44 = JS Q-1132
+Question sim: 93.95%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-45 = JS Q-1138
+Question sim: 98.76%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-47 = JS Q-1133
+Question sim: 100.00%, Answer sim: 41.03%
+Answers match: False
+PDF Answer: identify the satellites
+JS Answer: all of the above
+
+PDF Q-48 = JS Q-1134
+Question sim: 98.95%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-49 = JS Q-1125
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-51 = JS Q-1123
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-52 = JS Q-1130
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-53 = JS Q-1127
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-54 = JS Q-1121
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-55 = JS Q-1139
+Question sim: 99.52%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-56 = JS Q-1137
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-57 = JS Q-1136
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-58 = JS Q-1126
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-59 = JS Q-1129
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-61 = JS Q-1141
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-62 = JS Q-1083
+Question sim: 99.54%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-63 = JS Q-1086
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-64 = JS Q-1099
+Question sim: 99.68%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-65 = JS Q-1084
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-66 = JS Q-1091
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-67 = JS Q-1095
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-68 = JS Q-1098
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-69 = JS Q-1081
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-70 = JS Q-1088
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-71 = JS Q-1078
+Question sim: 99.19%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-72 = JS Q-1096
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-73 = JS Q-1087
+Question sim: 98.72%, Answer sim: 56.00%
+Answers match: False
+PDF Answer: tuning, identification and monitoring
+JS Answer: identification
+
+PDF Q-74 = JS Q-1082
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-75 = JS Q-1092
+Question sim: 100.00%, Answer sim: 66.67%
+Answers match: False
+PDF Answer: +/-5°
+JS Answer: ± 5°
+
+PDF Q-76 = JS Q-1093
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-77 = JS Q-1094
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-78 = JS Q-1090
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-79 = JS Q-1085
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-81 = JS Q-1110
+Question sim: 99.69%, Answer sim: 73.68%
+Answers match: True
+
+PDF Q-82 = JS Q-1102
+Question sim: 100.00%, Answer sim: 92.31%
+Answers match: True
+
+PDF Q-83 = JS Q-1103
+Question sim: 100.00%, Answer sim: 88.89%
+Answers match: True
+
+PDF Q-84 = JS Q-1108
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-85 = JS Q-1114
+Question sim: 98.31%, Answer sim: 87.50%
+Answers match: True
+
+PDF Q-86 = JS Q-1106
+Question sim: 98.74%, Answer sim: 99.08%
+Answers match: True
+
+PDF Q-87 = JS Q-1115
+Question sim: 98.72%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-88 = JS Q-1101
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-89 = JS Q-1112
+Question sim: 100.00%, Answer sim: 91.67%
+Answers match: True
+
+PDF Q-90 = JS Q-1111
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-91 = JS Q-1107
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-93 = JS Q-1113
+Question sim: 75.62%, Answer sim: 87.72%
+Answers match: True
+
+PDF Q-94 = JS Q-1116
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-95 = JS Q-1105
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-96 = JS Q-1117
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-97 = JS Q-1120
+Question sim: 100.00%, Answer sim: 97.50%
+Answers match: True
+
+PDF Q-98 = JS Q-1146
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-100 = JS Q-1119
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-101 = JS Q-1067
+Question sim: 98.98%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-103 = JS Q-1027
+Question sim: 100.00%, Answer sim: 99.05%
+Answers match: True
+
+PDF Q-104 = JS Q-46
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-105 = JS Q-1062
+Question sim: 99.82%, Answer sim: 99.53%
+Answers match: True
+
+PDF Q-106 = JS Q-1059
+Question sim: 98.36%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-107 = JS Q-1060
+Question sim: 90.48%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-108 = JS Q-1071
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-109 = JS Q-1061
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-110 = JS Q-1065
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-111 = JS Q-48
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-112 = JS Q-1066
+Question sim: 99.65%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-113 = JS Q-1073
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-114 = JS Q-1070
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-115 = JS Q-1063
+Question sim: 76.84%, Answer sim: 10.17%
+Answers match: False
+PDF Answer: An increase of 10 kt from the trimmed position at low speed has more effect on the stick force than an increase in 10 ks from the trimmed position at high speed.
+JS Answer: statically stable
+
+PDF Q-116 = JS Q-1057
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-117 = JS Q-1074
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-118 = JS Q-1048
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-119 = JS Q-1041
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-120 = JS Q-1053
+Question sim: 97.92%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-121 = JS Q-1051
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-122 = JS Q-1043
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-123 = JS Q-1042
+Question sim: 99.12%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-124 = JS Q-1045
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-125 = JS Q-1047
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-126 = JS Q-1055
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-127 = JS Q-1026
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-128 = JS Q-1049
+Question sim: 99.12%, Answer sim: 44.83%
+Answers match: False
+PDF Answer: Spanwise flow
+JS Answer: Spanwise flow causing the tips to stall first
+
+PDF Q-129 = JS Q-1046
+Question sim: 99.10%, Answer sim: 28.76%
+Answers match: False
+PDF Answer: (i) decrease (ii) increaseQ-130The effect of tropical rain on drag and stall speed would be to:A-130:increase drag and increase stall speed.
+JS Answer: (i) decrease (ii) increase
+
+PDF Q-131 = JS Q-1056
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-132 = JS Q-1037
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-136 = JS Q-1039
+Question sim: 100.00%, Answer sim: 98.04%
+Answers match: True
+
+PDF Q-137 = JS Q-1044
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-138 = JS Q-1038
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-139 = JS Q-1024
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-140 = JS Q-1052
+Question sim: 100.00%, Answer sim: 66.67%
+Answers match: False
+PDF Answer: VSO
+JS Answer: VS0
+
+PDF Q-141 = JS Q-975
+Question sim: 99.03%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-143 = JS Q-983
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-144 = JS Q-976
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-145 = JS Q-993
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-146 = JS Q-988
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-147 = JS Q-980
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-148 = JS Q-47
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-149 = JS Q-978
+Question sim: 100.00%, Answer sim: 97.87%
+Answers match: True
+
+PDF Q-150 = JS Q-984
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-151 = JS Q-994
+Question sim: 100.00%, Answer sim: 85.71%
+Answers match: True
+
+PDF Q-152 = JS Q-985
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-153 = JS Q-979
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-154 = JS Q-992
+Question sim: 100.00%, Answer sim: 99.51%
+Answers match: True
+
+PDF Q-155 = JS Q-987
+Question sim: 100.00%, Answer sim: 52.00%
+Answers match: False
+PDF Answer: Spanwise flow vector from the tip to the root on the bottom surface of the wing
+JS Answer: Air spilling from the bottom surface to the top surface at the wing tip
+
+PDF Q-157 = JS Q-989
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-158 = JS Q-990
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-159 = JS Q-982
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-160 = JS Q-986
+Question sim: 100.00%, Answer sim: 8.89%
+Answers match: False
+PDF Answer: less thrust is required
+JS Answer: induced drag decreases
+
+PDF Q-161 = JS Q-973
+Question sim: 98.56%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-162 = JS Q-1021
+Question sim: 100.00%, Answer sim: 53.33%
+Answers match: False
+PDF Answer: M = F x A
+JS Answer: F = M × A
+
+PDF Q-163 = JS Q-970
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-164 = JS Q-974
+Question sim: 99.83%, Answer sim: 48.15%
+Answers match: False
+PDF Answer: (i) is incorrect and (ii) is correct
+JS Answer: (i) and (ii) are incorrect
+
+PDF Q-165 = JS Q-965
+Question sim: 99.64%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-166 = JS Q-964
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-167 = JS Q-966
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-168 = JS Q-972
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-169 = JS Q-1032
+Question sim: 99.17%, Answer sim: 98.18%
+Answers match: True
+
+PDF Q-170 = JS Q-70
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-171 = JS Q-1034
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-172 = JS Q-1017
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-173 = JS Q-1020
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-174 = JS Q-649
+Question sim: 100.00%, Answer sim: 36.07%
+Answers match: False
+PDF Answer: remain constant at all times
+JS Answer: decrease with decreasing altitude
+
+PDF Q-175 = JS Q-967
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-176 = JS Q-1015
+Question sim: 99.57%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-177 = JS Q-968
+Question sim: 99.35%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-178 = JS Q-1255
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-181 = JS Q-1030
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-182 = JS Q-1376
+Question sim: 100.00%, Answer sim: 66.67%
+Answers match: False
+PDF Answer: 1339 m
+JS Answer: 1913 m
+
+PDF Q-184 = JS Q-1378
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-186 = JS Q-1366
+Question sim: 100.00%, Answer sim: 27.97%
+Answers match: False
+PDF Answer: High temperature and low pressureQ– 187: During aircraft certification, the value of VMCG is found with nose wheel steering inoperative. This is because A-187: VMCG must be valid in both wet and dry conditions.
+JS Answer: High temperature and low pressure
+
+PDF Q-188 = JS Q-1018
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-191 = JS Q-1320
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-192 = JS Q-1369
+Question sim: 99.48%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-193 = JS Q-739
+Question sim: 100.00%, Answer sim: 93.55%
+Answers match: True
+
+PDF Q-195 = JS Q-1022
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-197 = JS Q-564
+Question sim: 79.31%, Answer sim: 35.67%
+Answers match: False
+PDF Answer: An accurate indication of aircraft and engine performance.
+JS Answer: The altitude in the International Standard Atmosphere at which the prevailing density would be found
+
+PDF Q-198 = JS Q-117
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-199 = JS Q-1019
+Question sim: 100.00%, Answer sim: 10.27%
+Answers match: False
+PDF Answer: bank angle onlyQ- 200: At MSL, in ISA conditions• Climb gradient = 6%What would the climb gradient be if: • Pressure altitude 1000 ft• Temperature 17°C• Engine anti-ice on• Wing anti-ice on• - 0.2% engine anti-ice, - 0,1% wing anti-ice, 0.2% per 1000 ft pressure altitude, 0.1 % per 1°C ISA deviation A-200: 5.1%
+JS Answer: bank angle only
+
+PDF Q-201 = JS Q-749
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-202 = JS Q-751
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-204 = JS Q-756
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-205 = JS Q-743
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-206 = JS Q-741
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-207 = JS Q-760
+Question sim: 100.00%, Answer sim: 99.27%
+Answers match: True
+
+PDF Q-208 = JS Q-755
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-209 = JS Q-748
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-210 = JS Q-753
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-211 = JS Q-752
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-212 = JS Q-758
+Question sim: 99.69%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-213 = JS Q-745
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-214 = JS Q-746
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-215 = JS Q-747
+Question sim: 95.24%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-216 = JS Q-742
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-217 = JS Q-803
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-218 = JS Q-750
+Question sim: 93.51%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-219 = JS Q-759
+Question sim: 99.80%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-220 = JS Q-757
+Question sim: 94.12%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-221 = JS Q-780
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-222 = JS Q-777
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-223 = JS Q-772
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-224 = JS Q-771
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-225 = JS Q-763
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-226 = JS Q-769
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-227 = JS Q-776
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-228 = JS Q-94
+Question sim: 99.64%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-229 = JS Q-764
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-230 = JS Q-781
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-231 = JS Q-778
+Question sim: 99.67%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-232 = JS Q-779
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-233 = JS Q-765
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-234 = JS Q-770
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-235 = JS Q-775
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-236 = JS Q-768
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-237 = JS Q-774
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-238 = JS Q-773
+Question sim: 100.00%, Answer sim: 57.82%
+Answers match: False
+PDF Answer: a steep lapse rate, a stable atmosphere through a large vertical extent and a plentiful supply of moisture
+JS Answer: a plentiful supply of moisture and a steep lapse rate through a large vertical extent and a trigger action
+
+PDF Q-239 = JS Q-782
+Question sim: 100.00%, Answer sim: 10.91%
+Answers match: False
+PDF Answer: Q-240: Clouds classified as low level are considered to have a base height of:A-240: the surface - 6500 ft
+JS Answer: turbulence
+
+PDF Q-241 = JS Q-762
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-242 = JS Q-789
+Question sim: 91.67%, Answer sim: 98.59%
+Answers match: True
+
+PDF Q-243 = JS Q-807
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-244 = JS Q-800
+Question sim: 100.00%, Answer sim: 87.50%
+Answers match: True
+
+PDF Q-245 = JS Q-798
+Question sim: 100.00%, Answer sim: 99.15%
+Answers match: True
+
+PDF Q-246 = JS Q-786
+Question sim: 81.30%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-247 = JS Q-788
+Question sim: 99.16%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-248 = JS Q-796
+Question sim: 98.11%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-249 = JS Q-783
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-250 = JS Q-797
+Question sim: 100.00%, Answer sim: 96.00%
+Answers match: True
+
+PDF Q-251 = JS Q-784
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-252 = JS Q-802
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-253 = JS Q-792
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-254 = JS Q-801
+Question sim: 99.61%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-255 = JS Q-793
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-256 = JS Q-787
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-257 = JS Q-22
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-258 = JS Q-795
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-259 = JS Q-808
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-260 = JS Q-785
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-261 = JS Q-811
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-262 = JS Q-826
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-263 = JS Q-819
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-264 = JS Q-817
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-265 = JS Q-823
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-266 = JS Q-761
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-267 = JS Q-829
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-268 = JS Q-827
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-269 = JS Q-815
+Question sim: 99.54%, Answer sim: 83.33%
+Answers match: True
+
+PDF Q-270 = JS Q-813
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-271 = JS Q-810
+Question sim: 100.00%, Answer sim: 88.89%
+Answers match: True
+
+PDF Q-272 = JS Q-820
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-273 = JS Q-806
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-274 = JS Q-812
+Question sim: 89.49%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-275 = JS Q-830
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-276 = JS Q-816
+Question sim: 100.00%, Answer sim: 92.31%
+Answers match: True
+
+PDF Q-278 = JS Q-824
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-279 = JS Q-822
+Question sim: 100.00%, Answer sim: 72.46%
+Answers match: True
+
+PDF Q-280 = JS Q-828
+Question sim: 100.00%, Answer sim: 97.14%
+Answers match: True
+
+PDF Q-282 = JS Q-850
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-283 = JS Q-838
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-284 = JS Q-835
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-285 = JS Q-831
+Question sim: 100.00%, Answer sim: 92.31%
+Answers match: True
+
+PDF Q-286 = JS Q-809
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-287 = JS Q-840
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-288 = JS Q-843
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-289 = JS Q-804
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-290 = JS Q-833
+Question sim: 100.00%, Answer sim: 62.71%
+Answers match: False
+PDF Answer: veers drops or rises begins to dry upA-290: veers drops or rises begins to dry up
+JS Answer: veers / drops or rises / begins to dry up
+
+PDF Q-291 = JS Q-805
+Question sim: 95.52%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-292 = JS Q-847
+Question sim: 100.00%, Answer sim: 37.25%
+Answers match: False
+PDF Answer: The lows forming over flat land in summer, polar air depressions, tropical revolving storms, some of the lows which form inland seas in winter
+JS Answer: The equatorial trough, monsoon lows, some depressions over the central and eastern Mediterranean sea in summer
+
+PDF Q-293 = JS Q-842
+Question sim: 99.51%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-294 = JS Q-849
+Question sim: 95.58%, Answer sim: 87.50%
+Answers match: True
+
+PDF Q-295 = JS Q-837
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-296 = JS Q-834
+Question sim: 100.00%, Answer sim: 98.59%
+Answers match: True
+
+PDF Q-297 = JS Q-845
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-298 = JS Q-846
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-300 = JS Q-839
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-301 = JS Q-1383
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-302 = JS Q-1365
+Question sim: 99.21%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-303 = JS Q-1368
+Question sim: 99.76%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-304 = JS Q-641
+Question sim: 100.00%, Answer sim: 65.52%
+Answers match: False
+PDF Answer: the maximum speed for landing gear operation
+JS Answer: the maximum speed at which the landing gear may be retracted or extended
+
+PDF Q-305 = JS Q-1384
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-306 = JS Q-49
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-307 = JS Q-911
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-308 = JS Q-1382
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-310 = JS Q-1028
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-311 = JS Q-412
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-313 = JS Q-1380
+Question sim: 97.37%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-314 = JS Q-411
+Question sim: 100.00%, Answer sim: 99.26%
+Answers match: True
+
+PDF Q-315 = JS Q-1379
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-316 = JS Q-1374
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-318 = JS Q-1385
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-319 = JS Q-415
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-320 = JS Q-1373
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-321 = JS Q-1321
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-322 = JS Q-1360
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-323 = JS Q-1346
+Question sim: 99.61%, Answer sim: 88.89%
+Answers match: True
+
+PDF Q-324 = JS Q-1354
+Question sim: 100.00%, Answer sim: 50.61%
+Answers match: False
+PDF Answer: take-off distance and take-off climb gradient will both increaseQ-325 A jet aircraft's maximum altitude is usually limited by:A-325: the altitude at which low and high-speed buffet will occur
+JS Answer: take-off distance and take-off climb gradient will both increase
+
+PDF Q-326 = JS Q-1367
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-327 = JS Q-1358
+Question sim: 100.00%, Answer sim: 99.35%
+Answers match: True
+
+PDF Q-328 = JS Q-1361
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-329 = JS Q-1357
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-330 = JS Q-1348
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-331 = JS Q-1319
+Question sim: 99.37%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-332 = JS Q-1344
+Question sim: 100.00%, Answer sim: 97.96%
+Answers match: True
+
+PDF Q-333 = JS Q-1363
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-334 = JS Q-417
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-335 = JS Q-1359
+Question sim: 99.30%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-336 = JS Q-1350
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-337 = JS Q-413
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-338 = JS Q-1362
+Question sim: 99.39%, Answer sim: 25.74%
+Answers match: False
+PDF Answer: V1, 2 sec, ASDAQ-339 : Pitch angle during decent at a constant Mach number will:A-339: decrease
+JS Answer: V1, 2 sec, ASDA
+
+PDF Q-340 = JS Q-1353
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-341 = JS Q-1372
+Question sim: 90.08%, Answer sim: 37.78%
+Answers match: False
+PDF Answer: acceleration to flap retraction speed begins (min 400 ft)
+JS Answer: the landing gear is fully retracted
+
+PDF Q-342 = JS Q-1335
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-343 = JS Q-1330
+Question sim: 99.53%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-345 = JS Q-414
+Question sim: 99.78%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-344 = JS Q-1324
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-346 = JS Q-1339
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-347 = JS Q-1029
+Question sim: 99.24%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-348 = JS Q-1326
+Question sim: 100.00%, Answer sim: 79.55%
+Answers match: True
+
+PDF Q-349 = JS Q-1329
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-350 = JS Q-1322
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-351 = JS Q-1332
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-352 = JS Q-1377
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-353 = JS Q-1338
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-354 = JS Q-1328
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-355 = JS Q-1342
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-356 = JS Q-1336
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-357 = JS Q-1343
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-358 = JS Q-1341
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-359 = JS Q-1333
+Question sim: 97.21%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-360 = JS Q-1334
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-361 = JS Q-1300
+Question sim: 93.60%, Answer sim: 60.00%
+Answers match: False
+PDF Answer: Positive touchdown, full reverse and only brakes below Vp
+JS Answer: Positive touchdown, apply reverse, then use aerodynamic drag and brakes intermittently
+
+PDF Q-362 = JS Q-1307
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-363 = JS Q-1308
+Question sim: 100.00%, Answer sim: 97.06%
+Answers match: True
+
+PDF Q-364 = JS Q-1299
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-365 = JS Q-1304
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-366 = JS Q-1016
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-367 = JS Q-1309
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-368 = JS Q-1031
+Question sim: 100.00%, Answer sim: 96.67%
+Answers match: True
+
+PDF Q-369 = JS Q-1315
+Question sim: 100.00%, Answer sim: 83.67%
+Answers match: True
+
+PDF Q-370 = JS Q-116
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-371 = JS Q-1316
+Question sim: 100.00%, Answer sim: 95.00%
+Answers match: True
+
+PDF Q-372 = JS Q-1298
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-373 = JS Q-1303
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-374 = JS Q-1310
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-375 = JS Q-1312
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-376 = JS Q-1314
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-377 = JS Q-1317
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-378 = JS Q-1302
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-379 = JS Q-1318
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-380 = JS Q-1313
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-381 = JS Q-931
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-382 = JS Q-938
+Question sim: 96.61%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-383 = JS Q-937
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-384 = JS Q-924
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-385 = JS Q-932
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-386 = JS Q-936
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-387 = JS Q-935
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-388 = JS Q-943
+Question sim: 92.46%, Answer sim: 93.33%
+Answers match: True
+
+PDF Q-389 = JS Q-941
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-390 = JS Q-939
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-392 = JS Q-940
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-393 = JS Q-933
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-394 = JS Q-925
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-395 = JS Q-912
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-396 = JS Q-927
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-397 = JS Q-942
+Question sim: 100.00%, Answer sim: 34.48%
+Answers match: False
+PDF Answer: Greater than 3 km visibility
+JS Answer: Visibility no more than 3000 m
+
+PDF Q-398 = JS Q-934
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-400 = JS Q-923
+Question sim: 97.89%, Answer sim: 90.91%
+Answers match: True
+
+PDF Q-401 = JS Q-947
+Question sim: 85.34%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-402 = JS Q-959
+Question sim: 79.25%, Answer sim: 66.67%
+Answers match: False
+PDF Answer: 141 - 165 kt
+JS Answer: 91 - 120 kt
+
+PDF Q-403 = JS Q-952
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-404 = JS Q-956
+Question sim: 98.04%, Answer sim: 88.89%
+Answers match: True
+
+PDF Q-405 = JS Q-949
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-406 = JS Q-955
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-407 = JS Q-963
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-408 = JS Q-958
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-409 = JS Q-951
+Question sim: 95.73%, Answer sim: 36.36%
+Answers match: False
+PDF Answer: 1.3A-409: 1.3
+JS Answer: 1.3
+
+PDF Q-410 = JS Q-962
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-411 = JS Q-944
+Question sim: 98.64%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-412 = JS Q-945
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-413 = JS Q-961
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-414 = JS Q-954
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-415 = JS Q-957
+Question sim: 99.02%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-416 = JS Q-953
+Question sim: 98.59%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-417 = JS Q-960
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-418 = JS Q-334
+Question sim: 100.00%, Answer sim: 76.92%
+Answers match: True
+
+PDF Q-419 = JS Q-948
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-420 = JS Q-946
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-421 = JS Q-901
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-423 = JS Q-904
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-424 = JS Q-21
+Question sim: 75.42%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-425 = JS Q-919
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-426 = JS Q-897
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-427 = JS Q-905
+Question sim: 98.88%, Answer sim: 51.85%
+Answers match: False
+PDF Answer: 60 days A-427: 60 days
+JS Answer: 60 days
+
+PDF Q-428 = JS Q-180
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-429 = JS Q-920
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-430 = JS Q-207
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-431 = JS Q-892
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-432 = JS Q-908
+Question sim: 98.98%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-433 = JS Q-906
+Question sim: 100.00%, Answer sim: 73.85%
+Answers match: True
+
+PDF Q-434 = JS Q-903
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-435 = JS Q-914
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-436 = JS Q-909
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-437 = JS Q-891
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-438 = JS Q-899
+Question sim: 99.14%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-439 = JS Q-900
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-440 = JS Q-895
+Question sim: 99.63%, Answer sim: 3.39%
+Answers match: False
+PDF Answer: RedQ- 441: Above what altitude are quick-donning masks required?A-441: 25000 ftQ- 442: What is the requirement for the carriage of life rafts?A-442: 120 mins or 400 NM whichever is less
+JS Answer: Red
+
+PDF Q-443 = JS Q-887
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-444 = JS Q-873
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-445 = JS Q-875
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-446 = JS Q-886
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-447 = JS Q-916
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-448 = JS Q-882
+Question sim: 100.00%, Answer sim: 36.36%
+Answers match: False
+PDF Answer: Outer marker
+JS Answer: Before passing the outer marker or equivalent position
+
+PDF Q-449 = JS Q-885
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-450 = JS Q-872
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-451 = JS Q-884
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-452 = JS Q-888
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-453 = JS Q-877
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-454 = JS Q-880
+Question sim: 91.41%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-455 = JS Q-876
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-456 = JS Q-890
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-457 = JS Q-179
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-458 = JS Q-878
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-459 = JS Q-915
+Question sim: 100.00%, Answer sim: 93.33%
+Answers match: True
+
+PDF Q-460 = JS Q-881
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-461 = JS Q-889
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-462 = JS Q-871
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-481 = JS Q-852
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-482 = JS Q-865
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-483 = JS Q-861
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-484 = JS Q-868
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-485 = JS Q-917
+Question sim: 100.00%, Answer sim: 99.40%
+Answers match: True
+
+PDF Q-486 = JS Q-866
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-487 = JS Q-853
+Question sim: 100.00%, Answer sim: 58.29%
+Answers match: False
+PDF Answer: provide oxygen to passengers who might require it, following a cabin depressurization
+JS Answer: provide oxygen to passengers following decompression if the cabin altitude exceeds 10000 ft
+
+PDF Q-488 = JS Q-859
+Question sim: 99.61%, Answer sim: 59.62%
+Answers match: False
+PDF Answer: arrival equal to or better than the minimum conditions required for aerodrome use
+JS Answer: arrival, and for a reasonable time before and after such a predicted time, equal to minimum conditions required for aerodrome use
+
+PDF Q-489 = JS Q-855
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-490 = JS Q-857
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-491 = JS Q-182
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-492 = JS Q-860
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-493 = JS Q-183
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-494 = JS Q-918
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-495 = JS Q-864
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-496 = JS Q-856
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-497 = JS Q-863
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-498 = JS Q-869
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-499 = JS Q-851
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-500 = JS Q-867
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-501 = JS Q-687
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-502 = JS Q-735
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-503 = JS Q-680
+Question sim: 99.09%, Answer sim: 96.97%
+Answers match: True
+
+PDF Q-504 = JS Q-688
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-505 = JS Q-673
+Question sim: 99.21%, Answer sim: 67.86%
+Answers match: False
+PDF Answer: statements 1 and 4 only are correct
+JS Answer: 1, 3 and 4 are correct
+
+PDF Q-506 = JS Q-671
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-507 = JS Q-672
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-509 = JS Q-685
+Question sim: 99.79%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-510 = JS Q-733
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-511 = JS Q-684
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-512 = JS Q-738
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-513 = JS Q-1035
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-514 = JS Q-689
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-515 = JS Q-730
+Question sim: 100.00%, Answer sim: 75.00%
+Answers match: True
+
+PDF Q-516 = JS Q-679
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-518 = JS Q-95
+Question sim: 84.75%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-519 = JS Q-681
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-520 = JS Q-675
+Question sim: 90.30%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-521 = JS Q-65
+Question sim: 100.00%, Answer sim: 88.24%
+Answers match: True
+
+PDF Q-522 = JS Q-230
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-523 = JS Q-240
+Question sim: 100.00%, Answer sim: 62.22%
+Answers match: False
+PDF Answer: descending turn to left
+JS Answer: climbing turn to right.
+
+PDF Q-524 = JS Q-232
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-525 = JS Q-247
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-526 = JS Q-238
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-527 = JS Q-233
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-528 = JS Q-231
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-529 = JS Q-249
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-530 = JS Q-234
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-531 = JS Q-248
+Question sim: 100.00%, Answer sim: 96.00%
+Answers match: True
+
+PDF Q-532 = JS Q-246
+Question sim: 100.00%, Answer sim: 92.31%
+Answers match: True
+
+PDF Q-533 = JS Q-239
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-534 = JS Q-241
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-535 = JS Q-236
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-536 = JS Q-242
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-537 = JS Q-237
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-538 = JS Q-235
+Question sim: 100.00%, Answer sim: 96.15%
+Answers match: True
+
+PDF Q-539 = JS Q-244
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-540 = JS Q-243
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-541 = JS Q-259
+Question sim: 100.00%, Answer sim: 86.27%
+Answers match: True
+
+PDF Q-542 = JS Q-251
+Question sim: 100.00%, Answer sim: 88.89%
+Answers match: True
+
+PDF Q-543 = JS Q-261
+Question sim: 74.58%, Answer sim: 32.94%
+Answers match: False
+PDF Answer: Too high a current may lead to the circuit overheating
+JS Answer: batteries are considered dangerous goods if transported due to the risk of thermal runaway and the substances inside
+
+PDF Q-544 = JS Q-255
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-545 = JS Q-253
+Question sim: 100.00%, Answer sim: 91.67%
+Answers match: True
+
+PDF Q-546 = JS Q-264
+Question sim: 100.00%, Answer sim: 18.18%
+Answers match: False
+PDF Answer: MEL
+JS Answer: The Minimum Equipment List (MEL)
+
+PDF Q-547 = JS Q-262
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-548 = JS Q-260
+Question sim: 87.87%, Answer sim: 56.25%
+Answers match: False
+PDF Answer: sector 2 (offset)
+JS Answer: Sector 1 (parallel)
+
+PDF Q-549 = JS Q-252
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-552 = JS Q-256
+Question sim: 100.00%, Answer sim: 28.87%
+Answers match: False
+PDF Answer: Flight in severe turbulence may lead to a stall and/or structural limitations being exceeded.
+JS Answer: Titanium alloy is used in aircraft construction because of its good wear and high temperature tolerance
+
+PDF Q-553 = JS Q-265
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-554 = JS Q-67
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-555 = JS Q-258
+Question sim: 100.00%, Answer sim: 27.62%
+Answers match: False
+PDF Answer: Aluminium alloys are used in aircraft construction because they are light, easily machined and have good wear resistance
+JS Answer: Flight in severe turbulence may lead to a stall and/or structural limitations being exceeded.
+
+PDF Q-556 = JS Q-254
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-557 = JS Q-250
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-558 = JS Q-257
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-559 = JS Q-272
+Question sim: 91.76%, Answer sim: 31.49%
+Answers match: False
+PDF Answer: batteries are considered dangerous goods if transported due to the risk of thermal runaway and the substances inside
+JS Answer: Aluminium alloys are used in aircraft construction because they are light, easily machined and have good wear resistance
+
+PDF Q-561 = JS Q-274
+Question sim: 100.00%, Answer sim: 99.44%
+Answers match: True
+
+PDF Q-562 = JS Q-266
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-564 = JS Q-276
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-565 = JS Q-270
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-566 = JS Q-282
+Question sim: 99.56%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-567 = JS Q-284
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-568 = JS Q-273
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-569 = JS Q-283
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-570 = JS Q-34
+Question sim: 100.00%, Answer sim: 98.31%
+Answers match: True
+
+PDF Q-571 = JS Q-267
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-572 = JS Q-277
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-574 = JS Q-269
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-575 = JS Q-280
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-576 = JS Q-271
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-577 = JS Q-281
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-578 = JS Q-275
+Question sim: 100.00%, Answer sim: 91.18%
+Answers match: True
+
+PDF Q-579 = JS Q-278
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-580 = JS Q-279
+Question sim: 100.00%, Answer sim: 66.67%
+Answers match: False
+PDF Answer: 170 kt
+JS Answer: 230 kt
+
+PDF Q-581 = JS Q-292
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-582 = JS Q-298
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-583 = JS Q-293
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-586 = JS Q-289
+Question sim: 99.62%, Answer sim: 85.71%
+Answers match: True
+
+PDF Q-589 = JS Q-287
+Question sim: 99.13%, Answer sim: 93.33%
+Answers match: True
+
+PDF Q-590 = JS Q-297
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-592 = JS Q-296
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-593 = JS Q-290
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-596 = JS Q-291
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-597 = JS Q-288
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-599 = JS Q-294
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-600 = JS Q-286
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-601 = JS Q-299
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-602 = JS Q-317
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-603 = JS Q-56
+Question sim: 75.00%, Answer sim: 27.03%
+Answers match: False
+PDF Answer: To withstand bending and torsional loads
+JS Answer: To reduce wing twist at high speed
+
+PDF Q-604 = JS Q-300
+Question sim: 100.00%, Answer sim: 97.30%
+Answers match: True
+
+PDF Q-605 = JS Q-305
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-607 = JS Q-302
+Question sim: 100.00%, Answer sim: 91.95%
+Answers match: True
+
+PDF Q-609 = JS Q-315
+Question sim: 100.00%, Answer sim: 91.43%
+Answers match: True
+
+PDF Q-610 = JS Q-307
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-611 = JS Q-308
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-612 = JS Q-316
+Question sim: 99.42%, Answer sim: 72.73%
+Answers match: True
+
+PDF Q-613 = JS Q-303
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-614 = JS Q-313
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-616 = JS Q-304
+Question sim: 100.00%, Answer sim: 92.31%
+Answers match: True
+
+PDF Q-617 = JS Q-312
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-618 = JS Q-309
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-622 = JS Q-640
+Question sim: 80.00%, Answer sim: 20.87%
+Answers match: False
+PDF Answer: Is a fixed vertical plane from which all the arm distances are measured
+JS Answer: EAS = CAS corrected for compressibility error
+
+PDF Q-623 = JS Q-325
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-624 = JS Q-333
+Question sim: 100.00%, Answer sim: 99.50%
+Answers match: True
+
+PDF Q-625 = JS Q-335
+Question sim: 78.26%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-626 = JS Q-330
+Question sim: 87.94%, Answer sim: 34.97%
+Answers match: False
+PDF Answer: Raise arm and hand, with fingers extended, horizontally in front of face, then clench fist
+JS Answer: Fist clenched in front of the face then fingers extended
+
+PDF Q-729 = JS Q-950
+Question sim: 100.00%, Answer sim: 85.71%
+Answers match: True
+
+PDF Q-730 = JS Q-319
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-731 = JS Q-322
+Question sim: 100.00%, Answer sim: 94.12%
+Answers match: True
+
+PDF Q-732 = JS Q-143
+Question sim: 88.89%, Answer sim: 36.36%
+Answers match: False
+PDF Answer: Shall be the lowest flight level available for use above the transition altitude
+JS Answer: will be calculated by the ATC service of an ATS unit.
+
+PDF Q-733 = JS Q-332
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-734 = JS Q-318
+Question sim: 100.00%, Answer sim: 99.48%
+Answers match: True
+
+PDF Q-735 = JS Q-328
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-736 = JS Q-320
+Question sim: 100.00%, Answer sim: 98.11%
+Answers match: True
+
+PDF Q-737 = JS Q-331
+Question sim: 76.19%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-739 = JS Q-324
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-740 = JS Q-329
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-741 = JS Q-349
+Question sim: 99.51%, Answer sim: 98.36%
+Answers match: True
+
+PDF Q-743 = JS Q-345
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-744 = JS Q-347
+Question sim: 100.00%, Answer sim: 98.70%
+Answers match: True
+
+PDF Q-746 = JS Q-338
+Question sim: 99.76%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-747 = JS Q-342
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-749 = JS Q-340
+Question sim: 99.49%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-750 = JS Q-339
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-752 = JS Q-341
+Question sim: 80.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-753 = JS Q-344
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-754 = JS Q-337
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-755 = JS Q-346
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-756 = JS Q-348
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-757 = JS Q-343
+Question sim: 94.44%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-761 = JS Q-476
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-762 = JS Q-474
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-763 = JS Q-531
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-764 = JS Q-481
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-765 = JS Q-467
+Question sim: 100.00%, Answer sim: 99.31%
+Answers match: True
+
+PDF Q-766 = JS Q-475
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-767 = JS Q-479
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-768 = JS Q-468
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-769 = JS Q-536
+Question sim: 76.54%, Answer sim: 20.83%
+Answers match: False
+PDF Answer: lacking haemoglobin
+JS Answer: increased pressure of the eye
+
+PDF Q-770 = JS Q-472
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-771 = JS Q-463
+Question sim: 100.00%, Answer sim: 33.33%
+Answers match: False
+PDF Answer: acid
+JS Answer: alkaline
+
+PDF Q-772 = JS Q-478
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-773 = JS Q-466
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-774 = JS Q-462
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-775 = JS Q-465
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-776 = JS Q-480
+Question sim: 100.00%, Answer sim: 75.00%
+Answers match: True
+
+PDF Q-777 = JS Q-477
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-778 = JS Q-473
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-779 = JS Q-471
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-780 = JS Q-464
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-782 = JS Q-519
+Question sim: 88.22%, Answer sim: 28.57%
+Answers match: False
+PDF Answer: 1 & 2
+JS Answer: Both 1 and 2 are correct
+
+PDF Q-783 = JS Q-518
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-784 = JS Q-509
+Question sim: 77.48%, Answer sim: 60.00%
+Answers match: False
+PDF Answer: 1, 2 & 3 correct
+JS Answer: 1, 2 & 3
+
+PDF Q-785 = JS Q-514
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-787 = JS Q-513
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-788 = JS Q-517
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-789 = JS Q-25
+Question sim: 98.78%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-790 = JS Q-505
+Question sim: 98.18%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-791 = JS Q-504
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-792 = JS Q-516
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-793 = JS Q-508
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-794 = JS Q-511
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-795 = JS Q-521
+Question sim: 100.00%, Answer sim: 93.33%
+Answers match: True
+
+PDF Q-796 = JS Q-507
+Question sim: 90.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-797 = JS Q-503
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-798 = JS Q-512
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-799 = JS Q-520
+Question sim: 100.00%, Answer sim: 93.33%
+Answers match: True
+
+PDF Q-800 = JS Q-506
+Question sim: 100.00%, Answer sim: 88.89%
+Answers match: True
+
+PDF Q-801 = JS Q-534
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-802 = JS Q-545
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-803 = JS Q-555
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-804 = JS Q-554
+Question sim: 98.76%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-806 = JS Q-551
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-807 = JS Q-550
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-808 = JS Q-542
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-809 = JS Q-553
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-810 = JS Q-543
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-811 = JS Q-549
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-812 = JS Q-552
+Question sim: 99.22%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-813 = JS Q-540
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-814 = JS Q-547
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-815 = JS Q-548
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-816 = JS Q-541
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-817 = JS Q-538
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-818 = JS Q-537
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-819 = JS Q-546
+Question sim: 99.02%, Answer sim: 90.00%
+Answers match: True
+
+PDF Q-820 = JS Q-539
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-821 = JS Q-530
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-822 = JS Q-533
+Question sim: 98.85%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-825 = JS Q-527
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-826 = JS Q-526
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-827 = JS Q-524
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-832 = JS Q-535
+Question sim: 100.00%, Answer sim: 99.41%
+Answers match: True
+
+PDF Q-834 = JS Q-528
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-837 = JS Q-556
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-839 = JS Q-523
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-840 = JS Q-71
+Question sim: 98.60%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-841 = JS Q-501
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-842 = JS Q-499
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-843 = JS Q-493
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-844 = JS Q-483
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-845 = JS Q-488
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-846 = JS Q-492
+Question sim: 100.00%, Answer sim: 96.43%
+Answers match: True
+
+PDF Q-847 = JS Q-497
+Question sim: 99.08%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-848 = JS Q-502
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-849 = JS Q-500
+Question sim: 100.00%, Answer sim: 95.58%
+Answers match: True
+
+PDF Q-850 = JS Q-72
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-851 = JS Q-484
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-852 = JS Q-496
+Question sim: 100.00%, Answer sim: 90.91%
+Answers match: True
+
+PDF Q-853 = JS Q-485
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-854 = JS Q-491
+Question sim: 98.37%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-855 = JS Q-489
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-856 = JS Q-498
+Question sim: 98.25%, Answer sim: 68.85%
+Answers match: False
+PDF Answer: Diffusion from the blood to the cells is dependent on the partial pressure of oxygen (diffusion at both tissue and alveolar levels is related to partial pressure)
+JS Answer: Diffusion from the blood to the cells is dependent on the partial pressure of oxygen
+
+PDF Q-857 = JS Q-494
+Question sim: 100.00%, Answer sim: 96.88%
+Answers match: True
+
+PDF Q-858 = JS Q-495
+Question sim: 100.00%, Answer sim: 30.25%
+Answers match: False
+PDF Answer: regulating depth and rate of breathing
+JS Answer: slowing the breathing rate, breathing into a paper bag and continuing the approach
+
+PDF Q-859 = JS Q-490
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-860 = JS Q-487
+Question sim: 98.32%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-861 = JS Q-1206
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-862 = JS Q-1205
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-863 = JS Q-1194
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-864 = JS Q-1190
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-865 = JS Q-1249
+Question sim: 98.09%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-866 = JS Q-1371
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-867 = JS Q-1193
+Question sim: 98.96%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-868 = JS Q-1195
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-869 = JS Q-1188
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-870 = JS Q-1199
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-871 = JS Q-1197
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-872 = JS Q-1189
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-873 = JS Q-1196
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-874 = JS Q-1208
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-875 = JS Q-1207
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-876 = JS Q-1201
+Question sim: 99.75%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-878 = JS Q-1198
+Question sim: 99.01%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-879 = JS Q-1192
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-880 = JS Q-1203
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-895 = JS Q-1268
+Question sim: 70.59%, Answer sim: 0.00%
+Answers match: False
+PDF Answer: .788
+JS Answer: Scale at 10°S is larger
+
+PDF Q-897 = JS Q-1202
+Question sim: 95.68%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-901 = JS Q-1219
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-902 = JS Q-1215
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-903 = JS Q-1226
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-904 = JS Q-1214
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-905 = JS Q-1211
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-906 = JS Q-1216
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-907 = JS Q-1217
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-908 = JS Q-1222
+Question sim: 99.48%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-909 = JS Q-1224
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-910 = JS Q-1212
+Question sim: 99.79%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-911 = JS Q-1254
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-912 = JS Q-1256
+Question sim: 98.94%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-913 = JS Q-23
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-914 = JS Q-1223
+Question sim: 97.24%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-915 = JS Q-1220
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-916 = JS Q-1225
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-918 = JS Q-1227
+Question sim: 99.30%, Answer sim: 85.39%
+Answers match: True
+
+PDF Q-919 = JS Q-1221
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-920 = JS Q-1210
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-921 = JS Q-1243
+Question sim: 100.00%, Answer sim: 91.67%
+Answers match: True
+
+PDF Q-922 = JS Q-1229
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-923 = JS Q-1232
+Question sim: 100.00%, Answer sim: 84.62%
+Answers match: True
+
+PDF Q-924 = JS Q-1246
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-925 = JS Q-1237
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-926 = JS Q-1241
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-927 = JS Q-1228
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-928 = JS Q-1234
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-929 = JS Q-1239
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-930 = JS Q-1236
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-931 = JS Q-1245
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-932 = JS Q-1231
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-933 = JS Q-1235
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-934 = JS Q-1242
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-935 = JS Q-1238
+Question sim: 99.35%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-936 = JS Q-1233
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-937 = JS Q-1251
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-938 = JS Q-1240
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-939 = JS Q-1247
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-940 = JS Q-1230
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-943 = JS Q-1258
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-944 = JS Q-1261
+Question sim: 100.00%, Answer sim: 88.89%
+Answers match: True
+
+PDF Q-945 = JS Q-1260
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-947 = JS Q-1267
+Question sim: 99.63%, Answer sim: 0.00%
+Answers match: False
+PDF Answer: 088
+JS Answer: 122
+
+PDF Q-948 = JS Q-1262
+Question sim: 99.47%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-949 = JS Q-1266
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-950 = JS Q-1265
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-951 = JS Q-1270
+Question sim: 99.68%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-952 = JS Q-1257
+Question sim: 100.00%, Answer sim: 0.74%
+Answers match: False
+PDF Answer: Q-953: An aircraft is flying around the Earth eastwards along the 60N parallel of latitude at a ground speed of 360 knots. At what ground speed would another aircraft have to fly eastwards along the Equator to fly once round the Earth in the same journey time?A-953: 720 knots
+JS Answer: 7
+
+PDF Q-954 = JS Q-1274
+Question sim: 99.59%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-955 = JS Q-1273
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-956 = JS Q-1272
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-957 = JS Q-1271
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-958 = JS Q-1259
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-959 = JS Q-1269
+Question sim: 96.77%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-960 = JS Q-24
+Question sim: 99.47%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1201 = JS Q-1285
+Question sim: 99.77%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1202 = JS Q-1296
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1203 = JS Q-1289
+Question sim: 96.53%, Answer sim: 93.33%
+Answers match: True
+
+PDF Q-1204 = JS Q-1284
+Question sim: 90.18%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1205 = JS Q-1280
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1206 = JS Q-1286
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1207 = JS Q-1294
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1208 = JS Q-1279
+Question sim: 96.13%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1209 = JS Q-1281
+Question sim: 100.00%, Answer sim: 90.91%
+Answers match: True
+
+PDF Q-1210 = JS Q-1290
+Question sim: 95.75%, Answer sim: 88.89%
+Answers match: True
+
+PDF Q-1211 = JS Q-1288
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1212 = JS Q-1277
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1213 = JS Q-1293
+Question sim: 91.60%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1214 = JS Q-1287
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1215 = JS Q-1291
+Question sim: 100.00%, Answer sim: 90.91%
+Answers match: True
+
+PDF Q-1216 = JS Q-1282
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1217 = JS Q-1278
+Question sim: 99.40%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1218 = JS Q-1295
+Question sim: 92.41%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1219 = JS Q-1283
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1220 = JS Q-1292
+Question sim: 99.69%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1221 = JS Q-220
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1222 = JS Q-214
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1223 = JS Q-228
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1224 = JS Q-213
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1225 = JS Q-226
+Question sim: 99.65%, Answer sim: 99.31%
+Answers match: True
+
+PDF Q-1226 = JS Q-221
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1227 = JS Q-225
+Question sim: 98.62%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1228 = JS Q-224
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1229 = JS Q-215
+Question sim: 99.66%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1230 = JS Q-212
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1231 = JS Q-218
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1232 = JS Q-211
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1233 = JS Q-222
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1234 = JS Q-216
+Question sim: 82.95%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1235 = JS Q-219
+Question sim: 98.61%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1236 = JS Q-227
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1237 = JS Q-217
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1238 = JS Q-205
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1239 = JS Q-210
+Question sim: 100.00%, Answer sim: 5.96%
+Answers match: False
+PDF Answer: A separation minima shall be applied between a light or medium aircraft and a heavy and between a light and a medium aircraft when the heavier aircraft is making a low or missed approach and the lighter aircraft is utilizing an opposite direction runway on a parallel runway separated by:
+JS Answer: less than 760 m.
+
+PDF Q-1240 = JS Q-223
+Question sim: 100.00%, Answer sim: 99.71%
+Answers match: True
+
+PDF Q-1241 = JS Q-201
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1242 = JS Q-203
+Question sim: 97.73%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1243 = JS Q-190
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1244 = JS Q-193
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1245 = JS Q-187
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1246 = JS Q-188
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1247 = JS Q-189
+Question sim: 99.63%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1248 = JS Q-197
+Question sim: 100.00%, Answer sim: 92.31%
+Answers match: True
+
+PDF Q-1249 = JS Q-202
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1250 = JS Q-195
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1251 = JS Q-198
+Question sim: 98.96%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1252 = JS Q-192
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1253 = JS Q-194
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1254 = JS Q-186
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1255 = JS Q-191
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1256 = JS Q-199
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1257 = JS Q-200
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1258 = JS Q-196
+Question sim: 99.53%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1259 = JS Q-185
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1260 = JS Q-204
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1261 = JS Q-168
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1262 = JS Q-159
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1263 = JS Q-165
+Question sim: 98.85%, Answer sim: 88.89%
+Answers match: True
+
+PDF Q-1264 = JS Q-171
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1265 = JS Q-161
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1266 = JS Q-169
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1267 = JS Q-164
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1268 = JS Q-176
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1269 = JS Q-172
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1270 = JS Q-166
+Question sim: 99.37%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1271 = JS Q-162
+Question sim: 98.17%, Answer sim: 76.92%
+Answers match: True
+
+PDF Q-1272 = JS Q-163
+Question sim: 98.48%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1273 = JS Q-170
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1274 = JS Q-158
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1275 = JS Q-167
+Question sim: 97.40%, Answer sim: 99.25%
+Answers match: True
+
+PDF Q-1276 = JS Q-177
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1277 = JS Q-175
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1278 = JS Q-174
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1279 = JS Q-173
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1280 = JS Q-160
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1282 = JS Q-150
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1283 = JS Q-138
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1284 = JS Q-157
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1285 = JS Q-156
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1286 = JS Q-152
+Question sim: 99.17%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1287 = JS Q-154
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1288 = JS Q-151
+Question sim: 94.82%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1289 = JS Q-147
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1290 = JS Q-145
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1291 = JS Q-142
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1293 = JS Q-144
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1294 = JS Q-148
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1295 = JS Q-141
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1296 = JS Q-149
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1297 = JS Q-155
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1298 = JS Q-153
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1299 = JS Q-139
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1301 = JS Q-146
+Question sim: 100.00%, Answer sim: 98.01%
+Answers match: True
+
+PDF Q-13022 = JS Q-135
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1302 = JS Q-133
+Question sim: 99.47%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1303 = JS Q-120
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1304 = JS Q-122
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1305 = JS Q-121
+Question sim: 99.39%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1306 = JS Q-131
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1307 = JS Q-129
+Question sim: 100.00%, Answer sim: 97.04%
+Answers match: True
+
+PDF Q-1308 = JS Q-126
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1309 = JS Q-123
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1310 = JS Q-132
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1311 = JS Q-118
+Question sim: 97.28%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1312 = JS Q-128
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1313 = JS Q-137
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1314 = JS Q-124
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1315 = JS Q-119
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1316 = JS Q-134
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1317 = JS Q-127
+Question sim: 98.98%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1318 = JS Q-136
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1319 = JS Q-125
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True
+
+PDF Q-1320 = JS Q-130
+Question sim: 100.00%, Answer sim: 100.00%
+Answers match: True

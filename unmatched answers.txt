@@ -1,0 +1,392 @@
+[
+  {
+    "category": "radio-navigation",
+    "test": 2,
+    "id": 1186,
+    "question": "The EHSI is showing 5° fly right with a TO indication. The aircraft heading is 280°(M) and the required track is 270°. The radial is:",
+    "options": [
+      "095",
+      "radial 095",
+      "275",
+      "085"
+    ],
+    "answer": "radial 095",
+    "correct": 1,
+    "explanation": "If the required track is 270° (Westerly) and the indication is TO, you are flying towards the station. The radial is the reciprocal of the track TO the station. Reciprocal of 270° is 090°. With a 'Fly Right' indication (needle left), you are right of track? No, Fly Right means needle is right, so you are left of track. Actually, simplest solution: Radial is always FROM. If track is 270, Radial is 090. Deviation logic applies. The PDF Answer 'radial 095' is the specific format expected."
+  },
+  {
+    "category": "radio-navigation",
+    "test": 2,
+    "id": 1180,
+    "question": "The SSR ground transceiver interrogates on ... and receives responses on:",
+    "options": [
+      "1030 MHz / 1090 MHz",
+      "1090 MHz / 1030 MHz",
+      "121.5 MHz / 243 MHz",
+      "108 MHz / 112 MHz"
+    ],
+    "answer": "1030 MHz / 1090 MHz",
+    "correct": 0,
+    "explanation": "Standard Secondary Surveillance Radar frequencies: Interrogation (Ground to Air) on 1030 MHz, Response (Air to Ground) on 1090 MHz."
+  },
+  {
+    "category": "radio-navigation",
+    "test": 2,
+    "id": 1133,
+    "question": "The purpose of the PRN codes in NAVSTAR/GPS is to:",
+    "options": [
+      "determine atmospheric attenuation",
+      "identify the satellites",
+      "encrypt the military signal only",
+      "transmit the almanac data"
+    ],
+    "answer": "identify the satellites",
+    "correct": 1,
+    "explanation": "PRN (Pseudo Random Noise) codes allow the receiver to identify which satellite is transmitting (CDMA) and are used for ranging measurements."
+  },
+  {
+    "category": "radio-navigation",
+    "test": 2,
+    "id": 1087,
+    "question": "An NDB has emission designator N0NA1A. This will require the use of the BFO for:",
+    "options": [
+      "tuning only",
+      "identification only",
+      "tuning, identification and monitoring",
+      "voice communication"
+    ],
+    "answer": "tuning, identification and monitoring",
+    "correct": 2,
+    "explanation": "N0N is an unmodulated carrier; A1A is keyed morse. Without a Beat Frequency Oscillator (BFO), the keyed carrier (A1A) would produce no audible tone (just silence/hiss breaks). BFO is required to hear the ident, tune the station, and monitor its operation."
+  },
+  {
+    "category": "radio-navigation",
+    "test": 2,
+    "id": 1092,
+    "question": "A class B VDF bearing will have an accuracy of:",
+    "options": [
+      "± 2°",
+      "± 5°",
+      "± 10°",
+      "± 1°"
+    ],
+    "answer": "± 5°",
+    "correct": 1,
+    "explanation": "VDF Classification: Class A (±2°), Class B (±5°), Class C (±10°), Class D (>10°)."
+  },
+  {
+    "category": "principles-of-flight",
+    "test": 2,
+    "id": 1063,
+    "question": "The CG of an aeroplane is in a fixed position forward of the neutral point. Speed changes cause a departure from the trimmed position. Which of the following statements about stick force stability is correct?",
+    "options": [
+      "Stick force stability is neutral.",
+      "An increase of 10 kt from the trimmed position at low speed has more effect on the stick force than an increase in 10 kt from the trimmed position at high speed.",
+      "An increase of 10 kt from the trimmed position at high speed has more effect on the stick force than an increase in 10 kt from the trimmed position at low speed.",
+      "Stick force is independent of speed."
+    ],
+    "answer": "An increase of 10 kt from the trimmed position at low speed has more effect on the stick force than an increase in 10 kt from the trimmed position at high speed.",
+    "correct": 1,
+    "explanation": "Stick force stability relates to the force required to change speed. At low speeds, aerodynamic forces are lower, but the gradient of force per knot often changes. (Note: This is a specific EASA Principles of Flight statement often found in question banks)."
+  },
+  {
+    "category": "principles-of-flight",
+    "test": 2,
+    "id": 1049,
+    "question": "What causes a swept wing aircraft to pitch-up at the stall?",
+    "options": [
+      "Forward movement of the centre of pressure",
+      "Spanwise flow",
+      "Flow separation at the root",
+      "Decreased downwash at the tail"
+    ],
+    "answer": "Spanwise flow",
+    "correct": 1,
+    "explanation": "Spanwise flow (towards the tips) thickens the boundary layer at the tips, leading to tip stall. On a swept wing, the tips are aft of the CG. When they stall, lift is lost at the rear, causing a pitch-up moment."
+  },
+  {
+    "category": "principles-of-flight",
+    "test": 2,
+    "id": 1046,
+    "question": "What are the effects of tropical rain on: (i) CLMAX (ii) Drag",
+    "options": [
+      "(i) decrease (ii) decrease",
+      "(i) increase (ii) decrease",
+      "(i) decrease (ii) increase",
+      "(i) increase (ii) increase"
+    ],
+    "answer": "(i) decrease (ii) increase",
+    "correct": 2,
+    "explanation": "Heavy rain roughens the airfoil surface and adds water mass. This disrupts airflow (decreasing max Lift Coefficient) and increases skin friction/form drag (increasing Drag)."
+  },
+  {
+    "category": "flight-performance",
+    "test": 2,
+    "id": 1052,
+    "question": "Which of the following is the correct designation of stall speed in the landing configuration?",
+    "options": [
+      "Vs1",
+      "VSO",
+      "Vref",
+      "Vlof"
+    ],
+    "answer": "VSO",
+    "correct": 1,
+    "explanation": "VSO (Stalling speed in the landing configuration) is the bottom of the white arc on the ASI."
+  },
+  {
+    "category": "principles-of-flight",
+    "test": 2,
+    "id": 987,
+    "question": "Which of the following is the cause of wing tip vortices?",
+    "options": [
+      "Air spilling from the top surface to the bottom surface",
+      "Spanwise flow vector from the tip to the root on the bottom surface",
+      "Spanwise flow vector from the root to the tip on the upper surface",
+      "Interference drag from the fuselage"
+    ],
+    "answer": "Spanwise flow vector from the tip to the root on the bottom surface",
+    "correct": 1,
+    "explanation": "Note: While the standard physical description is 'flow from high pressure (bottom) to low pressure (top)', the specific PDF Reference answer here describes the vector component 'tip to root on bottom' (or potentially implies the resulting circulation)."
+  },
+  {
+    "category": "principles-of-flight",
+    "test": 2,
+    "id": 986,
+    "question": "On entering ground effect:",
+    "options": [
+      "lift decreases",
+      "less thrust is required",
+      "induced drag increases",
+      "the stall speed increases"
+    ],
+    "answer": "less thrust is required",
+    "correct": 1,
+    "explanation": "Ground effect reduces induced drag (by inhibiting vortex formation). With less drag, less thrust is required to maintain the same speed/lift."
+  },
+  {
+    "category": "principles-of-flight",
+    "test": 2,
+    "id": 1021,
+    "question": "Which of the following expressions is correct?",
+    "options": [
+      "F = M x A",
+      "M = F x A",
+      "A = F x M",
+      "Power = Force x Time"
+    ],
+    "answer": "M = F x A",
+    "correct": 1,
+    "explanation": "Moment (M) = Force (F) x Arm (A). This is the fundamental equation for mass and balance and mechanics."
+  },
+  {
+    "category": "principles-of-flight",
+    "test": 2,
+    "id": 974,
+    "question": "In a subsonic flow venturi, the relationship between the total pressure, static pressure and dynamic pressure of undisturbed air and air in the throat will be: (i) Dynamic pressure will be constant, static pressure will decrease. (ii) Total pressure will be constant, dynamic pressure will increase.",
+    "options": [
+      "(i) is correct and (ii) is incorrect",
+      "(i) is incorrect and (ii) is correct",
+      "Both (i) and (ii) are correct",
+      "Both (i) and (ii) are incorrect"
+    ],
+    "answer": "(i) is incorrect and (ii) is correct",
+    "correct": 1,
+    "explanation": "Bernoulli's principle: Total Pressure is constant (assuming no friction). In the throat, velocity increases, so Dynamic Pressure increases. Consequently, Static Pressure must decrease. Statement (i) says dynamic is constant (False). Statement (ii) says Total is constant and Dynamic increases (True)."
+  },
+  {
+    "category": "flight-performance",
+    "test": 2,
+    "id": 1366,
+    "question": "Which of the following combinations most reduces the take-off and climb performance of an aircraft?",
+    "options": [
+      "Low temperature and high pressure",
+      "High temperature and low pressure",
+      "Low temperature and low pressure",
+      "High temperature and high pressure"
+    ],
+    "answer": "High temperature and low pressure",
+    "correct": 1,
+    "explanation": "High temperature and low pressure result in low air density (High Density Altitude), which reduces engine thrust and wing lift."
+  },
+  {
+    "category": "flight-performance",
+    "test": 2,
+    "id": 564,
+    "question": "What does density altitude signify?",
+    "options": [
+      "The pressure altitude corrected for temperature",
+      "An accurate indication of aircraft and engine performance",
+      "The height above mean sea level",
+      "The altitude indicated on the altimeter"
+    ],
+    "answer": "An accurate indication of aircraft and engine performance",
+    "correct": 1,
+    "explanation": "Density Altitude is the single best metric for determining aerodynamic performance (lift and thrust)."
+  },
+  {
+    "category": "meteorology",
+    "test": 2,
+    "id": 773,
+    "question": "The conditions which must exist to allow thunderstorms to develop are:",
+    "options": [
+      "stable air, high humidity, lifting force",
+      "a steep lapse rate, a stable atmosphere through a large vertical extent and a plentiful supply of moisture",
+      "a steep lapse rate, a large moisture supply, and a trigger action",
+      "high pressure, clear skies, calm winds"
+    ],
+    "answer": "a steep lapse rate, a stable atmosphere through a large vertical extent and a plentiful supply of moisture",
+    "correct": 1,
+    "explanation": "Thunderstorms require instability (steep lapse rate), moisture, and a trigger. (Note: The PDF Answer phrasing 'stable atmosphere' is contradictory to standard physics which requires *instability*, but this is the text provided in the correction file)."
+  },
+  {
+    "category": "meteorology",
+    "test": 2,
+    "id": 847,
+    "question": "Which of the following are thermal depressions?",
+    "options": [
+      "The lows forming over flat land in summer, polar air depressions, tropical revolving storms",
+      "Frontal depressions over the Atlantic",
+      "Occluded fronts in winter",
+      "High pressure systems over Siberia"
+    ],
+    "answer": "The lows forming over flat land in summer, polar air depressions, tropical revolving storms, some of the lows which form inland seas in winter",
+    "correct": 0,
+    "explanation": "Thermal depressions are caused by surface heating (land in summer) or relative warmth (sea in winter) lowering the air density."
+  },
+  {
+    "category": "flight-performance",
+    "test": 2,
+    "id": 641,
+    "question": "Vlo is defined as:",
+    "options": [
+      "the maximum speed for flying with landing gear extended",
+      "the maximum speed for landing gear operation",
+      "the minimum speed for landing gear retraction",
+      "the stalling speed with gear down"
+    ],
+    "answer": "the maximum speed for landing gear operation",
+    "correct": 1,
+    "explanation": "Vlo (Landing Gear Operating Speed) is the max speed at which you can cycle the gear. Vle is the max speed with it Extended."
+  },
+  {
+    "category": "flight-performance",
+    "test": 2,
+    "id": 1354,
+    "question": "An aircraft may use either 5° or 15° flap setting for take-off. The effect of selecting the 5° setting as compared to the 15° setting is:",
+    "options": [
+      "take-off distance will increase and take-off climb gradient will decrease",
+      "take-off distance and take-off climb gradient will both increase",
+      "take-off distance will decrease and climb gradient will increase",
+      "no change in performance"
+    ],
+    "answer": "take-off distance and take-off climb gradient will both increase",
+    "correct": 1,
+    "explanation": "Lower flap setting (5°) provides less Lift (longer ground run/TOD) but also less Drag (better climb gradient)."
+  },
+  {
+    "category": "flight-performance",
+    "test": 2,
+    "id": 1362,
+    "question": "With respect to field length limit, fill in the blanks: The distance to accelerate to ..., at which point an engine fails, followed by the reaction time of ... and the ensuing deceleration to a full stop must be completed within the ...",
+    "options": [
+      "V2, 3 sec, TODA",
+      "V1, 2 sec, ASDA",
+      "Vr, 1 sec, TORA",
+      "Vef, 2 sec, ASDA"
+    ],
+    "answer": "V1, 2 sec, ASDA",
+    "correct": 1,
+    "explanation": "Accelerate-Stop Distance Available (ASDA) calculations typically assume an engine failure recognition at V1 (associated with a reaction time, often cited as 2 seconds in general principles) to bring the aircraft to a stop."
+  },
+  {
+    "category": "flight-performance",
+    "test": 2,
+    "id": 1372,
+    "question": "For a turbojet aeroplane the third segment of climb begins when:",
+    "options": [
+      "the landing gear is fully retracted",
+      "acceleration to flap retraction speed begins (min 400 ft)",
+      "flaps are fully retracted",
+      "1500 ft height is reached"
+    ],
+    "answer": "acceleration to flap retraction speed begins (min 400 ft)",
+    "correct": 1,
+    "explanation": "The 3rd Segment is the acceleration segment. It starts at the level-off height (min 400 ft) where the aircraft accelerates to retract flaps."
+  },
+  {
+    "category": "operational-procedures",
+    "test": 2,
+    "id": 1300,
+    "question": "When approaching a wet runway, with the risk of hydroplaning, what technique should the pilot adopt with an inoperative anti-skid?",
+    "options": [
+      "Apply full continuous braking",
+      "Positive touchdown, full reverse and only brakes below Vp",
+      "Land fast and brake gently",
+      "Use aerodynamic braking only"
+    ],
+    "answer": "Positive touchdown, full reverse and only brakes below Vp",
+    "correct": 1,
+    "explanation": "Hydroplaning occurs above the hydroplaning speed (Vp). Without anti-skid, applying brakes above Vp will lock the wheels. The strategy is: Land firmly (break the water film), use Reverse Thrust (effective at high speed), and delay braking until speed is below Vp."
+  },
+  {
+    "category": "air-law",
+    "test": 2,
+    "id": 942,
+    "question": "When can special VFR be commenced?",
+    "options": [
+      "Visibility no more than 3000 m",
+      "Greater than 3 km visibility",
+      "At night only",
+      "Without ATC clearance"
+    ],
+    "answer": "Greater than 3 km visibility",
+    "correct": 1,
+    "explanation": "While the absolute minimum for SVFR is 1500m (ICAO), some operators or states may have higher thresholds. The PDF Answer 'Greater than 3 km' implies a specific operational or exam context."
+  },
+  {
+    "category": "air-law",
+    "test": 2,
+    "id": 959,
+    "question": "What are the threshold speeds for a Cat D aeroplane?",
+    "options": [
+      "91 - 120 kt",
+      "121 - 140 kt",
+      "141 - 165 kt",
+      "166 - 210 kt"
+    ],
+    "answer": "141 - 165 kt",
+    "correct": 2,
+    "explanation": "Approach Categories (Vat): Cat A (<91), Cat B (91-120), Cat C (121-140), Cat D (141-165)."
+  },
+  {
+    "category": "air-law",
+    "test": 2,
+    "id": 905,
+    "question": "After an accident, the operator of an aeroplane equipped with a flight recorder must keep the original recordings for a minimum period of:",
+    "options": [
+      "30 days",
+      "60 days",
+      "90 days",
+      "1 year"
+    ],
+    "answer": "60 days",
+    "correct": 1,
+    "explanation": "Standard ICAO/EASA requirement for preserving Flight Data Recorder records after an incident/accident."
+  },
+  {
+    "category": "air-law",
+    "test": 2,
+    "id": 895,
+    "question": "From the flight deck you observe an aeroplane in the forward left position on an opposite parallel track. What Nav light will be observed?",
+    "options": [
+      "Green",
+      "Red",
+      "White",
+      "Both Red and Green"
+    ],
+    "answer": "Red",
+    "correct": 1,
+    "explanation": "The other aircraft is on an *opposite* track to your left. You are seeing its *right* side (starboard). The starboard navigation light is Green? Wait. Forward Left position... Opposite track. You are passing each other port-to-port? No, 'forward left position'. You look left-forward. You see the plane. It is flying *opposite* to you. It is coming towards you? Or passing? If opposite parallel, it is passing you (Left to Left). If it is on your left, you see its Right side? No, if it's parallel and opposite, you see its Left side (Port). Port light is Red. (Correct)."
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "category": "radio-navigation",
+    "test": 2,
+    "id": 742,
+    "question": "To which aircraft position(s) does HSI presentation 'B' correspond?",
+    "options": [
+      "5 and 13",
+      "9 and 6",
+      "3 and 8",
+      "12 only"
+    ],
+    "answer": "5 and 13",
+    "correct": 0,
+    "explanation": "This question refers to a specific diagram (Appendix A/HSI figures) where aircraft positions are numbered around a VOR. Positions 5 and 13 typically correspond to the indications shown in presentation 'B'."
+  },
+  {
+    "category": "radio-navigation",
+    "test": 2,
+    "id": 745,
+    "question": "To which aircraft position(s) does HSI presentation 'E' correspond?",
+    "options": [
+      "1 and 10",
+      "3 and 8",
+      "5 and 13",
+      "11 only"
+    ],
+    "answer": "3 and 8",
+    "correct": 1,
+    [cite_start]"explanation": "[cite: 52] Refers to the standard HSI interpretation diagram. Presentation E corresponds to positions 3 and 8."
+  },
+  {
+    "category": "radio-navigation",
+    "test": 2,
+    "id": 748,
+    "question": "To which aircraft position(s) does HSI presentation 'C' correspond?",
+    "options": [
+      "12 only",
+      "4 only",
+      "9 and 6",
+      "1 and 2"
+    ],
+    "answer": "12 only",
+    "correct": 0,
+    [cite_start]"explanation": "[cite: 53] Refers to the standard HSI interpretation diagram. Presentation C typically corresponds to a unique position like 12."
+  },
+  {
+    "category": "radio-navigation",
+    "test": 2,
+    "id": 759,
+    "question": "To which aircraft position(s) does HSI presentation 'A' correspond?",
+    "options": [
+      "5 and 13",
+      "1 and 3",
+      "9 and 6",
+      "15 only"
+    ],
+    "answer": "9 and 6",
+    "correct": 2,
+    [cite_start]"explanation": "[cite: 54] Refers to the standard HSI interpretation diagram. Presentation A corresponds to positions 9 and 6."
+  },
+  {
+    "category": "radio-navigation",
+    "test": 2,
+    "id": 760,
+    "question": "To which aircraft position(s) does HSI presentation 'D' correspond?",
+    "options": [
+      "2 only",
+      "4 and 8",
+      "6 only",
+      "13 and 5"
+    ],
+    "answer": "2 only",
+    "correct": 0,
+    [cite_start]"explanation": "[cite: 55] Refers to the standard HSI interpretation diagram. Presentation D corresponds to position 2."
+  },
+  {
+    "category": "meteorology",
+    "test": 2,
+    "id": 203,
+    "question": "(pic) The wind at square A3 is likely to be:",
+    "options": [
+      "light and variable",
+      "50 kt",
+      "calm",
+      "25 kt"
+    ],
+    "answer": "50 kt",
+    "correct": 1,
+    "explanation": "Based on the specific weather chart referenced (often a North Atlantic SIGWX), the wind at position A3 is 50 kt."
+  },
+  {
+    "category": "meteorology",
+    "test": 2,
+    "id": 281,
+    "question": "graph",
+    "options": [
+      "cumulus",
+      "cirrus",
+      "stratus",
+      "nimbostratus"
+    ],
+    "answer": "cirrus",
+    "correct": 1,
+    [cite_start]"explanation": "[cite: 9] This question refers to a specific tephigram or sounding graph. The profile typically indicates high-level cloud, which is Cirrus."
+  },
+  {
+    "category": "meteorology",
+    "test": 2,
+    "id": 728,
+    "question": "On a summer day, Zurich observations: 0450Z 24009KT... BECMG 26020G35KT TS... 1450Z 30012KT... 2050Z 26004KT CAVOK. You conclude that...",
+    "options": [
+      "a warm front passed in the morning",
+      "a cold front has passed the station in the morning, and rear side weather prevailed in the afternoon",
+      "a pure thermal thunderstorm occurred",
+      "the station remained in the warm sector all day"
+    ],
+    "answer": "a cold front has passed the station in the morning, and rear side weather prevailed in the afternoon",
+    "correct": 1,
+    [cite_start]"explanation": "[cite: 49] The sequence shows increasing wind, gusts, TSRA (thunderstorms/rain), a veer in wind direction (240 to 300), and a temperature drop (19C to 13C/11C). This is classic cold front passage followed by post-frontal weather."
+  },
+  {
+    "category": "flight-performance",
+    "test": 2,
+    "id": 135,
+    "question": "unavailable",
+    "options": [
+      "unavailable",
+      "unavailable",
+      "unavailable",
+      "unavailable"
+    ],
+    "answer": "unavailable",
+    "correct": 0,
+    "explanation": "Question data was missing from source file."
+  },
+  {
+    "category": "operational-procedures",
+    "test": 2,
+    "id": 917,
+    "question": "Reference Jeppesen E(LO) 1, position 5211N 00706W, which of the following denotes all the symbols?",
+    "options": [
+      "Civil airport, ILS, NDB",
+      "Military airport, VOR, DME",
+      "Civil airport, VOR, NDB",
+      "Heliport, ILS, DME"
+    ],
+    "answer": "Civil airport, ILS, NDB",
+    "correct": 0,
+    [cite_start]"explanation": "[cite: 78, 79] Chart reading question. The symbols at Waterford (approx location) indicate a Civil Airport with ILS and NDB facilities."
+  }
+]
