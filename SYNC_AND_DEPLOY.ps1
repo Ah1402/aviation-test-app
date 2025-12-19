@@ -96,9 +96,6 @@ if ($indexContent -match $pattern) {
     exit 1
 }
 
-# Label for DeployOnly mode
-:GitOperations
-
 # If SkipDeploy, exit here
 if ($SkipDeploy) {
     Write-Host ""
