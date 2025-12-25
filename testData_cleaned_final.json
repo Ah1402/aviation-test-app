@@ -1,0 +1,30 @@
+{
+  "compass-egyptair": {
+    "name": "Compass EgyptAir",
+    "icon": "fas fa-compass",
+    "tests": [
+      {
+        "id": "compass-egyptair-test-1",
+        "name": "Test 1",
+        "timeLimit": 60,
+        "questions": [
+          {
+            "category": "compass-egyptair",
+            "test": 1,
+            "id": 1,
+            "question": "Track = 090°(T), TAS = 460 knots, W/V = 360°(T) / 100, Variation = 12°E, Deviation = -2. What is the compass heading and the ground speed?",
+            "options": [
+              "080°, 460 knots",
+              "080°, 360 knots",
+              "100°, 460 knots",
+              "100°, 360 knots"
+            ],
+            "answer": "080°, 460 knots",
+            "correct": 0,
+            "explanation": ""
+          }
+        ]
+      }
+    ]
+  }
+}

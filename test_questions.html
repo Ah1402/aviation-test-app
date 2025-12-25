@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Test Questions Loading</title>
+</head>
+<body>
+    <h1>Testing Question Loading</h1>
+    <div id="output"></div>
+    
+    <script src="testData_complete.js"></script>
+    <script>
+        const output = document.getElementById('output');
+        
+        if (window.testData) {
+            output.innerHTML += '<p style="color: green;">✓ testData loaded</p>';
+            
+            const categories = Object.keys(window.testData);
+            output.innerHTML += `<p>Categories: ${categories.length}</p>`;
+            
+            let totalQuestions = 0;
+            categories.forEach(cat => {
+                const category = window.testData[cat];
+                if (category && category.tests) {
+                    category.tests.forEach(test => {
+                        if (test.questions) {
+                            totalQuestions += test.questions.length;
+                        }
+                    });
+                }
+            });
+            
+            output.innerHTML += `<p>Total Questions: ${totalQuestions}</p>`;
+            
+        } else {
+            output.innerHTML += '<p style="color: red;">✗ testData NOT loaded</p>';
+        }
+    </script>
+</body>
+</html>

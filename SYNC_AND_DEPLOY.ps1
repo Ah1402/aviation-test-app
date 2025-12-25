@@ -15,8 +15,7 @@ Write-Host ""
 # If DeployOnly, skip to git operations
 if ($DeployOnly) {
     Write-Host "Deploy-only mode - skipping sync..." -ForegroundColor Yellow
-    goto GitOperations
-}
+} else {
 
 # Check if testData_complete.js exists
 if (-not (Test-Path "testData_complete.js")) {
@@ -96,8 +95,8 @@ if ($indexContent -match $pattern) {
     exit 1
 }
 
-# Label for DeployOnly mode
-:GitOperations
+# End sync block - continue to Git operations (DeployOnly falls through here)
+}
 
 # If SkipDeploy, exit here
 if ($SkipDeploy) {

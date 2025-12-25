@@ -1,0 +1,25 @@
+--- open at 1153819 ---
+0);
+            }, 5000);
+        }
+
+        // Helper function to send notifications through service worker
+        window.sendAppNotification = async function(title, body, tag = 'app-notification') {
+            try {
+                console.log('🔔 Attempting to send notification:', title);
+                
+                // Check if notifications are supported
+                if (!('serviceWor
+
+--- open at 1153837 ---
+ 5000);
+        }
+
+        // Helper function to send notifications through service worker
+        window.sendAppNotification = async function(title, body, tag = 'app-notification') {
+            try {
+                console.log('🔔 Attempting to send notification:', title);
+                
+                // Check if notifications are supported
+                if (!('serviceWorker' in navigator)
+

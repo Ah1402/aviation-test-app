@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Unique Word Highlighting</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: #1e293b;
+            color: white;
+        }
+        .test-section {
+            background: #334155;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        mark {
+            background-color: #0066CC;
+            color: white;
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .original {
+            color: #94a3b8;
+            margin-bottom: 10px;
+        }
+        .highlighted {
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Unique Word Highlighting Test</h1>
+    <p>This demonstrates how unique words are highlighted in the memorize section.</p>
+
+    <div id="tests"></div>
+
+    <script>
+        function highlightUniqueWords(text) {
+            if (!text) return '';
+            
+            // Extract words (alphanumeric sequences, including apostrophes)
+            const words = text.match(/\b[\w']+\b/g);
+            if (!words) return text;
+            
+            // Count word frequencies (case-insensitive)
+            const wordFreq = {};
+            words.forEach(word => {
+                const lowerWord = word.toLowerCase();
+                wordFreq[lowerWord] = (wordFreq[lowerWord] || 0) + 1;
+            });
+            
+            // Find unique words (appear only once)
+            const uniqueWords = Object.keys(wordFreq).filter(word => wordFreq[word] === 1);
+            
+            // Create regex pattern for unique words
+            if (uniqueWords.length === 0) return text;
+            
+            // Escape special regex characters and create pattern
+            const escapedWords = uniqueWords.map(word => 
+                word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+            );
+            const pattern = '\\b(' + escapedWords.join('|') + ')\\b';
+            const regex = new RegExp(pattern, 'gi');
+            
+            // Highlight unique words with same style as search
+            return text.replace(regex, '<mark>$1</mark>');
+        }
+
+        // Test cases
+        const tests = [
+            {
+                question: "What is the speed of sound at sea level?",
+                answer: "Approximately 761 mph"
+            },
+            {
+                question: "The thrust force is created by the aircraft engine and engine produces power",
+                answer: "The engine generates thrust"
+            },
+            {
+                question: "Induced drag is inversely proportional to speed squared",
+                answer: "Speed squared"
+            }
+        ];
+
+        const testsDiv = document.getElementById('tests');
+        tests.forEach((test, i) => {
+            testsDiv.innerHTML += `
+                <div class="test-section">
+                    <h3>Test ${i + 1}</h3>
+                    <div class="original"><strong>Original Question:</strong> ${test.question}</div>
+                    <div class="highlighted"><strong>Highlighted Question:</strong> ${highlightUniqueWords(test.question)}</div>
+                    <hr style="margin: 15px 0; border-color: #475569;">
+                    <div class="original"><strong>Original Answer:</strong> ${test.answer}</div>
+                    <div class="highlighted"><strong>Highlighted Answer:</strong> ${highlightUniqueWords(test.answer)}</div>
+                </div>
+            `;
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memorize Questions - Aviation Test Center</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+            color: #f1f5f9;
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .header {
+            text-align: center;
+            padding: 30px 20px;
+            background: rgba(37, 99, 235, 0.1);
+            border-radius: 12px;
+            margin-bottom: 30px;
+            border: 1px solid rgba(37, 99, 235, 0.3);
+        }
+
+        h1 {
+            color: #60a5fa;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #94a3b8;
+            font-size: 1.1em;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            padding: 20px;
+            background: #2563eb;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            color: white;
+        }
+
+        .stat-label {
+            color: #bfdbfe;
+            font-size: 0.9em;
+        }
+
+        .question-card {
+            padding: 25px;
+            margin-bottom: 15px;
+            background: #334155;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            transition: transform 0.2s;
+        }
+
+        .question-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+        }
+
+        .question-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .question-number {
+            color: #60a5fa;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        .category-badge {
+            color: #94a3b8;
+            font-size: 0.9em;
+            background: rgba(148, 163, 184, 0.1);
+            padding: 4px 12px;
+            border-radius: 12px;
+        }
+
+        .question-text {
+            font-size: 1.15em;
+            line-height: 1.6;
+            margin-bottom: 15px;
+            color: #e2e8f0;
+        }
+
+        .answer-box {
+            background: rgba(16, 185, 129, 0.1);
+            border-left: 4px solid #10b981;
+            padding: 12px 15px;
+            border-radius: 4px;
+        }
+
+        .answer-label {
+            color: #10b981;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .answer-text {
+            color: #d1fae5;
+            font-size: 1.05em;
+        }
+
+        mark {
+            background-color: #0066CC;
+            color: white;
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 50px;
+            font-size: 1.5em;
+            color: #60a5fa;
+        }
+
+        .error {
+            background: #ef4444;
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8em;
+            }
+            .stats {
+                gap: 15px;
+            }
+            .stat-number {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>✈️ Memorize All Questions</h1>
+        <p class="subtitle">Master every aviation question with highlighted unique keywords</p>
+    </div>
+
+    <div class="stats" id="stats">
+        <div class="stat-item">
+            <div class="stat-number" id="totalQuestions">-</div>
+            <div class="stat-label">Total Questions</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number" id="totalCategories">-</div>
+            <div class="stat-label">Categories</div>
+        </div>
+    </div>
+
+    <div id="questionsList">
+        <div class="loading">Loading questions...</div>
+    </div>
+
+    <script src="testData_complete.js"></script>
+    <script>
+        function highlightUniqueWords(text) {
+            if (!text) return '';
+            
+            const words = text.match(/\b[\w']+\b/g);
+            if (!words) return text;
+            
+            const wordFreq = {};
+            words.forEach(word => {
+                const lowerWord = word.toLowerCase();
+                wordFreq[lowerWord] = (wordFreq[lowerWord] || 0) + 1;
+            });
+            
+            const uniqueWords = Object.keys(wordFreq).filter(word => wordFreq[word] === 1);
+            if (uniqueWords.length === 0) return text;
+            
+            const escapedWords = uniqueWords.map(word => 
+                word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+            );
+            const pattern = '\\b(' + escapedWords.join('|') + ')\\b';
+            const regex = new RegExp(pattern, 'gi');
+            
+            return text.replace(regex, '<mark>$1</mark>');
+        }
+
+        function formatCategoryName(categoryKey) {
+            return categoryKey
+                .split('-')
+                .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                .join(' ');
+        }
+
+        function loadAllQuestions() {
+            const questionsList = document.getElementById('questionsList');
+            
+            if (!window.testData) {
+                questionsList.innerHTML = '<div class="error">Error: Question data not loaded. Make sure testData_complete.js is in the same folder.</div>';
+                return;
+            }
+
+            try {
+                const allQuestions = [];
+                const categories = Object.keys(window.testData);
+                
+                categories.forEach(categoryKey => {
+                    const category = window.testData[categoryKey];
+                    if (category && category.tests && Array.isArray(category.tests)) {
+                        const categoryName = category.name || formatCategoryName(categoryKey);
+                        
+                        category.tests.forEach(test => {
+                            if (test.questions && Array.isArray(test.questions)) {
+                                test.questions.forEach(q => {
+                                    allQuestions.push({
+                                        question: q.question || '',
+                                        options: q.options || [],
+                                        correct: typeof q.correct === 'number' ? q.correct : 0,
+                                        categoryName: categoryName
+                                    });
+                                });
+                            }
+                        });
+                    }
+                });
+
+                if (allQuestions.length === 0) {
+                    questionsList.innerHTML = '<div class="error">No questions found in data</div>';
+                    return;
+                }
+
+                // Update stats
+                document.getElementById('totalQuestions').textContent = allQuestions.length;
+                document.getElementById('totalCategories').textContent = categories.length;
+
+                // Generate HTML
+                let html = '';
+                allQuestions.forEach((item, index) => {
+                    const correctAnswer = item.options[item.correct] || 'No answer';
+                    const highlightedQuestion = highlightUniqueWords(item.question);
+                    const highlightedAnswer = highlightUniqueWords(correctAnswer);
+
+                    html += `
+                        <div class="question-card">
+                            <div class="question-header">
+                                <span class="question-number">Question ${index + 1}</span>
+                                <span class="category-badge">${item.categoryName}</span>
+                            </div>
+                            <div class="question-text">${highlightedQuestion}</div>
+                            <div class="answer-box">
+                                <div class="answer-label">✓ Correct Answer:</div>
+                                <div class="answer-text">${highlightedAnswer}</div>
+                            </div>
+                        </div>
+                    `;
+                });
+
+                questionsList.innerHTML = html;
+                console.log(`Loaded ${allQuestions.length} questions successfully`);
+
+            } catch (error) {
+                questionsList.innerHTML = `<div class="error">Error loading questions: ${error.message}</div>`;
+                console.error('Error:', error);
+            }
+        }
+
+        // Load questions when page loads
+        window.addEventListener('load', loadAllQuestions);
+    </script>
+</body>
+</html>

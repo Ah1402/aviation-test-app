@@ -34,12 +34,15 @@ echo.
 echo  [8] Backup + Renumber + Sync + Deploy
 echo      - Full workflow: Backup, Renumber, Sync, Deploy
 echo.
+echo  [9] Deploy Index Only
+echo      - Deploy only index.html to GitHub (no sync)
+echo.
 echo  [0] Exit
 echo.
 echo ================================================================================
 echo.
 
-set /p choice="Enter your choice (0-8): "
+set /p choice="Enter your choice (0-9): "
 
 if "%choice%"=="1" goto RENUMBER
 if "%choice%"=="2" goto SYNC924_ONLY
@@ -49,6 +52,7 @@ if "%choice%"=="5" goto BACKUP
 if "%choice%"=="6" goto RENUMBER_SYNC
 if "%choice%"=="7" goto RENUMBER_SYNCDEPLOY
 if "%choice%"=="8" goto FULL_WORKFLOW
+if "%choice%"=="9" goto DEPLOY_INDEX_ONLY
 if "%choice%"=="0" goto EXIT
 
 echo Invalid choice. Please try again.
@@ -337,6 +341,25 @@ echo   [OK] Synced to index.html
 echo   [OK] Synced to 924.html
 echo   [OK] Deployed to GitHub
 echo.
+pause
+goto MENU
+
+:DEPLOY_INDEX_ONLY
+echo.
+echo ================================================================================
+echo  DEPLOY INDEX.HTML ONLY
+echo ================================================================================
+echo.
+echo Deploying index.html to GitHub...
+powershell.exe -ExecutionPolicy Bypass -File "SYNC_AND_DEPLOY.ps1" -DeployOnly
+if errorlevel 1 (
+    echo ERROR: GitHub deployment failed!
+    pause
+    goto MENU
+)
+
+echo.
+echo SUCCESS: index.html deployed to GitHub!
 pause
 goto MENU
 
