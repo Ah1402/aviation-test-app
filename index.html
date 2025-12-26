@@ -29835,10 +29835,10 @@ mark {
                     }, 30 * 60 * 1000); // 30 minutes
                 }
 
-                // Send periodic motivational notifications every 2 hours when app is in background
+                // Send periodic motivational notifications every 30 minutes even when app is closed
                 setInterval(() => {
                     sendMotivationalNotification();
-                }, 2 * 60 * 60 * 1000); // 2 hours
+                }, 30 * 60 * 1000); // 30 minutes
 
                 // Reset timer on user activity
                 ['click', 'keydown', 'scroll', 'touchstart'].forEach(event => {
